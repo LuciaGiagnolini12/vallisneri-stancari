@@ -2,7 +2,20 @@
   "id": "VAL_STAN_008",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_008\nDATE: 1706-08-20\nFROM: ##ANN1## \nTO: ",
+      "text": "LETTER_ID: VAL_STAN_008\nDATE: 1706-08-20\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
       "entity": null
     },
     {
@@ -15,7 +28,46 @@
       }
     },
     {
-      "text": "\n\nScandiano 20 agosto 1706 \n\nRiveritissimo mio ##ANN4##e padrone stimatissimo \n\nCon l’occasione d’un signor ##ANN5## che rittorna a Bologna, non manco di riverire il mio signor Stancari, pregandola ad avvisarmi, se ha ricevuto una mia con certe lettere latine spettanti al signor Sbaraglia. Pensavo di fare anche quest’anno una scorsa a Bologna per fare i nostri baratti, ma le milizie che per ogni parte c’inondano e ci ruinano m’impegnano a stare a casa, per animare almeno le ##ANN6## e ritirarle in sicuro, se occorre. Già Reggio, come saprà, è caduto, ed è partita l’",
+      "text": "\n\nScandiano 20 agosto 1706 \n\nRiveritissimo mio ",
+      "entity": null
+    },
+    {
+      "text": "signor",
+      "entity": {
+        "text": "signor",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": "e padrone stimatissimo \n\nCon l’occasione d’un signor ",
+      "entity": null
+    },
+    {
+      "text": "Bassi",
+      "entity": {
+        "text": "Bassi",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": " che rittorna a Bologna, non manco di riverire il mio signor Stancari, pregandola ad avvisarmi, se ha ricevuto una mia con certe lettere latine spettanti al signor Sbaraglia. Pensavo di fare anche quest’anno una scorsa a Bologna per fare i nostri baratti, ma le milizie che per ogni parte c’inondano e ci ruinano m’impegnano a stare a casa, per animare almeno le ",
+      "entity": null
+    },
+    {
+      "text": "donne",
+      "entity": {
+        "text": "donne",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " e ritirarle in sicuro, se occorre. Già Reggio, come saprà, è caduto, ed è partita l’",
       "entity": null
     },
     {

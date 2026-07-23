@@ -2,7 +2,20 @@
   "id": "VAL_STAN_003",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_003\nDATE: 1706-01-10\nFROM: ##ANN2## \nTO: ",
+      "text": "LETTER_ID: VAL_STAN_003\nDATE: 1706-01-10\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
       "entity": null
     },
     {
@@ -15,7 +28,176 @@
       }
     },
     {
-      "text": "\n\nPadoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del signor ##ANN21## dedicato all’oscuro mio nome, dov’espone un caso d’innocente veleno e si sforza con istile basso e familiare di renderne le ragioni. Potrà vostra signoria illustrissima col suo alto intendimento ritrovarne di più palpabili, o corroborare le dette con più energia. Avevo ragione di non vedere risposte dal signor ##ANN12##, se ha mutato cielo. Vogli Iddio che muti fortuna, o che si stanchi almeno una volta di flagellare a torto un uomo di tanto merito.  \n\nHo fatto anch’io adesso un bell’acquisto per la mia galleria. Ho avuta una mascella di balena che pesa da cento libbre, un ##ANN3##, un ##ANN14## intero ben imbalsamato de’ mari di Sicilia, una testa di cane carcaria, una lunghissima e grossa sega del pesce spada dell’oceano, una spada del pesce spada de’ mari di Sicilia, un ##ANN9##, il quale m’ha asserito questo eminentissimo cardinale ##ANN18## d’averlo veduto volare sopra tutta la città di Portogallo, un ##ANN7##, un grossissimo e scabbro ##ANN6##, un ##ANN13##, un ##ANN10## detto orbis da Plinio, una ##ANN15##, moltissimi ##ANN11## curiosi per la vivezza de’ colori e grossezza e durezza loro, tutte le ##ANN4##, quattro sorti di ",
+      "text": "\n\nPadoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del signor ",
+      "entity": null
+    },
+    {
+      "text": "Testi",
+      "entity": {
+        "text": "Testi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " dedicato all’oscuro mio nome, dov’espone un caso d’innocente veleno e si sforza con istile basso e familiare di renderne le ragioni. Potrà vostra signoria illustrissima col suo alto intendimento ritrovarne di più palpabili, o corroborare le dette con più energia. Avevo ragione di non vedere risposte dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Conte Luigi",
+      "entity": {
+        "text": "Conte Luigi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ", se ha mutato cielo. Vogli Iddio che muti fortuna, o che si stanchi almeno una volta di flagellare a torto un uomo di tanto merito.  \n\nHo fatto anch’io adesso un bell’acquisto per la mia galleria. Ho avuta una mascella di balena che pesa da cento libbre, un ",
+      "entity": null
+    },
+    {
+      "text": "serpente americano",
+      "entity": {
+        "text": "serpente americano",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "specimen",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", un ",
+      "entity": null
+    },
+    {
+      "text": "pesce cane",
+      "entity": {
+        "text": "pesce cane",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " intero ben imbalsamato de’ mari di Sicilia, una testa di cane carcaria, una lunghissima e grossa sega del pesce spada dell’oceano, una spada del pesce spada de’ mari di Sicilia, un ",
+      "entity": null
+    },
+    {
+      "text": "pesce rondine",
+      "entity": {
+        "text": "pesce rondine",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", il quale m’ha asserito questo eminentissimo cardinale ",
+      "entity": null
+    },
+    {
+      "text": "Cornaro",
+      "entity": {
+        "text": "Cornaro",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " d’averlo veduto volare sopra tutta la città di Portogallo, un ",
+      "entity": null
+    },
+    {
+      "text": "dracone marino",
+      "entity": {
+        "text": "dracone marino",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", un grossissimo e scabbro ",
+      "entity": null
+    },
+    {
+      "text": "pesce pastinaca",
+      "entity": {
+        "text": "pesce pastinaca",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", un ",
+      "entity": null
+    },
+    {
+      "text": "pesce lepre",
+      "entity": {
+        "text": "pesce lepre",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", un ",
+      "entity": null
+    },
+    {
+      "text": "pesce colombo",
+      "entity": {
+        "text": "pesce colombo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " detto orbis da Plinio, una ",
+      "entity": null
+    },
+    {
+      "text": "torpedine",
+      "entity": {
+        "text": "torpedine",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", moltissimi ",
+      "entity": null
+    },
+    {
+      "text": "semi d’India",
+      "entity": {
+        "text": "semi d’India",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " curiosi per la vivezza de’ colori e grossezza e durezza loro, tutte le ",
+      "entity": null
+    },
+    {
+      "text": "miniere di Schio",
+      "entity": {
+        "text": "miniere di Schio",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", quattro sorti di ",
       "entity": null
     },
     {
@@ -41,7 +223,46 @@
       }
     },
     {
-      "text": " ed un grosso cranio d’un’altra, due teste di pelecani con lunghi e curiosi rostri, dattili dentro i marmi durissimi d’Istria, ##ANN19## dentro la creta d’Ancona, e cento altre curiosità naturali, che mi danno occasione di rivolgere i libri e cercarne la nascita, i costumi, tutta l’idea. Portai pure dal mio viaggio due muli carichi de varie cose, che non saranno l’ultime del mio nascente museo, e ne aspetto dell’altre per mezzo d’un amico potente dalle coste dell’Affrica e da altre parti. I sali favoritemi per essere in una camera un poco umida e per i continui scilocchi che qui spirano, m’andavano tutti a spasso se presto non me n’avedevo, onde l’usura fatta avea poco buon fine. \n\nPorti i miei rispetti a cotesti miei stimatissimi padroni signori ##ANN16## e ##ANN20##, siccome al signor ",
+      "text": " ed un grosso cranio d’un’altra, due teste di pelecani con lunghi e curiosi rostri, dattili dentro i marmi durissimi d’Istria, ",
+      "entity": null
+    },
+    {
+      "text": "balani",
+      "entity": {
+        "text": "balani",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " dentro la creta d’Ancona, e cento altre curiosità naturali, che mi danno occasione di rivolgere i libri e cercarne la nascita, i costumi, tutta l’idea. Portai pure dal mio viaggio due muli carichi de varie cose, che non saranno l’ultime del mio nascente museo, e ne aspetto dell’altre per mezzo d’un amico potente dalle coste dell’Affrica e da altre parti. I sali favoritemi per essere in una camera un poco umida e per i continui scilocchi che qui spirano, m’andavano tutti a spasso se presto non me n’avedevo, onde l’usura fatta avea poco buon fine. \n\nPorti i miei rispetti a cotesti miei stimatissimi padroni signori ",
+      "entity": null
+    },
+    {
+      "text": "Manfredi",
+      "entity": {
+        "text": "Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "person",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": " e ",
+      "entity": null
+    },
+    {
+      "text": "Nanni",
+      "entity": {
+        "text": "Nanni",
+        "entity_id": "https://w3id.org/vallisnieri/person/nanni_unknown",
+        "type": "person",
+        "label": "Nanni"
+      }
+    },
+    {
+      "text": ", siccome al signor ",
       "entity": null
     },
     {

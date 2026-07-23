@@ -2,7 +2,98 @@
   "id": "VAL_STAN_021",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_021\nDATE: 1707-11-24\nFROM: Antonio Vallisneri \nTO: Vittorio Francesco Stancari\n\nPadoa 24 novembre 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ passato per Padoa l’eccellentissimo ##ANN1##, ed il signor ##ANN4## ed io la desideravamo per goderla, ma abbiamo inteso sia tornata a Bologna. Avevo trovata una carta dov’era il modo di governare il ##ANN2## lasciato l’estate scorsa all’eccellentissimo ##ANN3##, a cui lo consegnai, finché stetti alla patria. Ora vi ho aggiunto come debbasi governare questo inverno, e se muore che cosa debbano principalmente osservare. Aspetto dunque nuova se è più vivo, e se morto che cosa hanno osservato.  \n\nDesidero pur sapere (ma senza adulazione da buono amico, come la stimo e la tengo di certo) com’è stato sentito il mio discorso sopra l’##ANN9## dell’##ANN6##, poiché dubbito che abbia sortita quella fortuna che sortì il discorso del ##ANN7##. Non voglio da lei lodi, ma voglio critica per potermi correggere per l’avvenire. Aspetto pure le sue riflessioni sopra l’ordigno della ",
+      "text": "LETTER_ID: VAL_STAN_021\nDATE: 1707-11-24\nFROM: Antonio Vallisneri \nTO: Vittorio Francesco Stancari\n\nPadoa 24 novembre 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ passato per Padoa l’eccellentissimo ",
+      "entity": null
+    },
+    {
+      "text": "Martinelli",
+      "entity": {
+        "text": "Martinelli",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ", ed il signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " ed io la desideravamo per goderla, ma abbiamo inteso sia tornata a Bologna. Avevo trovata una carta dov’era il modo di governare il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " lasciato l’estate scorsa all’eccellentissimo ",
+      "entity": null
+    },
+    {
+      "text": "Trevisani",
+      "entity": {
+        "text": "Trevisani",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ", a cui lo consegnai, finché stetti alla patria. Ora vi ho aggiunto come debbasi governare questo inverno, e se muore che cosa debbano principalmente osservare. Aspetto dunque nuova se è più vivo, e se morto che cosa hanno osservato.  \n\nDesidero pur sapere (ma senza adulazione da buono amico, come la stimo e la tengo di certo) com’è stato sentito il mio discorso sopra l’",
+      "entity": null
+    },
+    {
+      "text": "ovaja",
+      "entity": {
+        "text": "ovaja",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " dell’",
+      "entity": null
+    },
+    {
+      "text": "anguilla",
+      "entity": {
+        "text": "anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", poiché dubbito che abbia sortita quella fortuna che sortì il discorso del ",
+      "entity": null
+    },
+    {
+      "text": "Lancisi",
+      "entity": {
+        "text": "Lancisi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ". Non voglio da lei lodi, ma voglio critica per potermi correggere per l’avvenire. Aspetto pure le sue riflessioni sopra l’ordigno della ",
       "entity": null
     },
     {
@@ -15,7 +106,20 @@
       }
     },
     {
-      "text": ", che aggiugnerò al discorso che già ho esteso. La supplico a non privarmi di questa consolazione. Aspetto pure le leggi dell’Accademia, l’indice degli accademici, il corpo della sua impresa e cose simili. ##ANN8## un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor Morgagni, che ogni giorno m’onora della sua presenza alla mia lezione e mi dà animo e coraggio. Citai nell’ultima il nostro signor ",
+      "text": ", che aggiugnerò al discorso che già ho esteso. La supplico a non privarmi di questa consolazione. Aspetto pure le leggi dell’Accademia, l’indice degli accademici, il corpo della sua impresa e cose simili. ",
+      "entity": null
+    },
+    {
+      "text": "Rubbi",
+      "entity": {
+        "text": "Rubbi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor Morgagni, che ogni giorno m’onora della sua presenza alla mia lezione e mi dà animo e coraggio. Citai nell’ultima il nostro signor ",
       "entity": null
     },
     {

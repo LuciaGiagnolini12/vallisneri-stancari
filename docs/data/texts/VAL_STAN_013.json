@@ -2,7 +2,20 @@
   "id": "VAL_STAN_013",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_013\nDATE: 1707-04-21\nFROM: ##ANN1## \nTO: ",
+      "text": "LETTER_ID: VAL_STAN_013\nDATE: 1707-04-21\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
       "entity": null
     },
     {
@@ -28,7 +41,20 @@
       }
     },
     {
-      "text": ", e uno darà a nome mio all’illustrissimo signor ##ANN4##, l’altro per lei. Invio pure una curiosa invenzione di misurare la luce, che forse non ha altro di buono che il buon desiderio di misurarla, e servirà d’eccitamento a migliori ingegni. Il peggiore si è ch’essendo stato un cappuccino che l’ha tradotto ha fallato nell’espressiva de’ termini matematici e non so se l’originale in francese sia così. Ho scritto subito per sapere com’è questa cosa, poiché il signor ",
+      "text": ", e uno darà a nome mio all’illustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Trionfetti",
+      "entity": {
+        "text": "Trionfetti",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": ", l’altro per lei. Invio pure una curiosa invenzione di misurare la luce, che forse non ha altro di buono che il buon desiderio di misurarla, e servirà d’eccitamento a migliori ingegni. Il peggiore si è ch’essendo stato un cappuccino che l’ha tradotto ha fallato nell’espressiva de’ termini matematici e non so se l’originale in francese sia così. Ho scritto subito per sapere com’è questa cosa, poiché il signor ",
       "entity": null
     },
     {

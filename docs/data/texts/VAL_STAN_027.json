@@ -2,7 +2,20 @@
   "id": "VAL_STAN_027",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_027\nDATE: 1708-05-09\nFROM: ##ANN2## \nTO: ",
+      "text": "LETTER_ID: VAL_STAN_027\nDATE: 1708-05-09\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
       "entity": null
     },
     {
@@ -15,7 +28,46 @@
       }
     },
     {
-      "text": "\n\nPadoa 9 maggio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nHo ricevuto la sua tardi, e solo li 6 di maggio, e la posta parte di qua il venerdì che fu li 4, onde le rispondo oggi li 9 per la posta di Ferrara, abbenché mi dicano ch’alle volte si perdono o tardano. Riceverò i favori del cervello petrificato dal signor ##ANN10## a suo commodo, non potendo né meno io lavorare adesso attorno la disertazione per le lezioni, né ho potuto farlo nelle brevi vacanze di Pasqua, poiché oltre mille intrighi ho assistito alla correzione d’un libro del signor ##ANN6##, ch’ora è già terminato.  \n\nI semi del ##ANN5## non mi parvero semi per la loro piccolezza, e sovente diversità di struttura. Ma vostra signoria illustrissima, che ha ottimi miscroscopii, giudicio finissimo e pazienza malpighiana, potrà assicurarsi del fatto, disegnarne le figure, e dar l’ultima mano alla cosa. Le mando inclusi i semi del ",
+      "text": "\n\nPadoa 9 maggio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nHo ricevuto la sua tardi, e solo li 6 di maggio, e la posta parte di qua il venerdì che fu li 4, onde le rispondo oggi li 9 per la posta di Ferrara, abbenché mi dicano ch’alle volte si perdono o tardano. Riceverò i favori del cervello petrificato dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Donelli",
+      "entity": {
+        "text": "Donelli",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " a suo commodo, non potendo né meno io lavorare adesso attorno la disertazione per le lezioni, né ho potuto farlo nelle brevi vacanze di Pasqua, poiché oltre mille intrighi ho assistito alla correzione d’un libro del signor ",
+      "entity": null
+    },
+    {
+      "text": "Marchese Orsi",
+      "entity": {
+        "text": "Marchese Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+        "type": "person",
+        "label": "Orsi, Quaranta"
+      }
+    },
+    {
+      "text": ", ch’ora è già terminato.  \n\nI semi del ",
+      "entity": null
+    },
+    {
+      "text": "mosco ordinario",
+      "entity": {
+        "text": "mosco ordinario",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " non mi parvero semi per la loro piccolezza, e sovente diversità di struttura. Ma vostra signoria illustrissima, che ha ottimi miscroscopii, giudicio finissimo e pazienza malpighiana, potrà assicurarsi del fatto, disegnarne le figure, e dar l’ultima mano alla cosa. Le mando inclusi i semi del ",
       "entity": null
     },
     {
@@ -28,7 +80,33 @@
       }
     },
     {
-      "text": " anch’essi galantissimi, di bellissimo colore, e degni della sua vista. Prenda anche per me alcuni di quegl’echini con le sue spina, poiché credo sieno differenti da que’ che si trovano in Monte Baldo veronese, non avendo le spina.  \n\nIl prezzo distinto delle calcette, e fazzoletti di Bologna, Milano, Parma, Napoli in Basilea qui niuno lo sa, e ne meno il signor ##ANN11##. Sa bene che più costano e più sono stimati que’ di Napoli. Il signor ##ANN8## ha tre figli, cioè due maschi ed una femmina. Il signor Ermanno e signor ",
+      "text": " anch’essi galantissimi, di bellissimo colore, e degni della sua vista. Prenda anche per me alcuni di quegl’echini con le sue spina, poiché credo sieno differenti da que’ che si trovano in Monte Baldo veronese, non avendo le spina.  \n\nIl prezzo distinto delle calcette, e fazzoletti di Bologna, Milano, Parma, Napoli in Basilea qui niuno lo sa, e ne meno il signor ",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ". Sa bene che più costano e più sono stimati que’ di Napoli. Il signor ",
+      "entity": null
+    },
+    {
+      "text": "Bernouli",
+      "entity": {
+        "text": "Bernouli",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " ha tre figli, cioè due maschi ed una femmina. Il signor Ermanno e signor ",
       "entity": null
     },
     {

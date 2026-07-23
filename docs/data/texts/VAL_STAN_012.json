@@ -2,7 +2,111 @@
   "id": "VAL_STAN_012",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_012\nDATE: 1707-03-24\nFROM: ##ANN5## \nTO: ##ANN1##\n\nPadoa 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di vostra signoria illustrissima e di cotesti virtuosissimi signori in farmi l’onore d’ascrivermi nella loro rinomata Accademia. Le rendo quante grazie so, e posso, e lascierò fare alla di lei eloquenza ad esprimere in termini i più vivi e i più espressivi gli ossequiosi sentimenti della mia gratitudine. Se altre volte hanno avuta la bontà di compatire le debolezze mie, benché mezzo selvatiche e forestiere, spero che maggiormente le compatiranno per l’avvenire, considerandole come dimestiche e come concitadine, protegendole ed illustrandole e creando in esse quel merito per genio che non possono aver per natura.  \n\nGodo che abbiano subito scoperti quegli avvelenati fori nell’aculeo dello ##ANN4##, e credo saranno anche in quello de’ nostri. M’è venuto un nido delle ##ANN3## descritto e disegnato dal signor Redi nella sua opera al padre Kircher, siccome m’è venuto un ##ANN7## vivo. Ho disegnato mandare sotto l’esame dell’Accademia nostra una parte dell’uno e tutto l’altro, acciocché ne facciamo la notomia e veggano d’incontrare quanto io osservai che potrà ricavare dall’argomento della mia istoria sopra il suddetto che le mandai. Ho già parlato questa matina all’illustrissimo signor ##ANN6##, acciocché se capita qualche bolognese m’avvisi, siccome l’ho scritto al nostro stimabilissimo signor ##ANN9##.  \n\nL’amico mio chimico adesso è a Vicenza, onde subito venuto gliene farò fare la prova. A me fu dato in Livorno per tale, e con una semplice lente si veggono particelle lucide fra le rosse che rassomigliano al ##ANN11##, ma il fuoco è quell’analista fedele che lo dimostra. Aspetterò un poco della ",
+      "text": "LETTER_ID: VAL_STAN_012\nDATE: 1707-03-24\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di vostra signoria illustrissima e di cotesti virtuosissimi signori in farmi l’onore d’ascrivermi nella loro rinomata Accademia. Le rendo quante grazie so, e posso, e lascierò fare alla di lei eloquenza ad esprimere in termini i più vivi e i più espressivi gli ossequiosi sentimenti della mia gratitudine. Se altre volte hanno avuta la bontà di compatire le debolezze mie, benché mezzo selvatiche e forestiere, spero che maggiormente le compatiranno per l’avvenire, considerandole come dimestiche e come concitadine, protegendole ed illustrandole e creando in esse quel merito per genio che non possono aver per natura.  \n\nGodo che abbiano subito scoperti quegli avvelenati fori nell’aculeo dello ",
+      "entity": null
+    },
+    {
+      "text": "scorpione affricano",
+      "entity": {
+        "text": "scorpione affricano",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "organism",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": ", e credo saranno anche in quello de’ nostri. M’è venuto un nido delle ",
+      "entity": null
+    },
+    {
+      "text": "rondini della Coccincina",
+      "entity": {
+        "text": "rondini della Coccincina",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "organism",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": " descritto e disegnato dal signor Redi nella sua opera al padre Kircher, siccome m’è venuto un ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "organism",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": " vivo. Ho disegnato mandare sotto l’esame dell’Accademia nostra una parte dell’uno e tutto l’altro, acciocché ne facciamo la notomia e veggano d’incontrare quanto io osservai che potrà ricavare dall’argomento della mia istoria sopra il suddetto che le mandai. Ho già parlato questa matina all’illustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ", acciocché se capita qualche bolognese m’avvisi, siccome l’ho scritto al nostro stimabilissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ".  \n\nL’amico mio chimico adesso è a Vicenza, onde subito venuto gliene farò fare la prova. A me fu dato in Livorno per tale, e con una semplice lente si veggono particelle lucide fra le rosse che rassomigliano al ",
+      "entity": null
+    },
+    {
+      "text": "mercurio",
+      "entity": {
+        "text": "mercurio",
+        "entity_id": "https://w3id.org/vallisnieri/place/https___www_wikidata_org_wiki_q2783",
+        "type": "organism",
+        "label": "Portugal"
+      }
+    },
+    {
+      "text": ", ma il fuoco è quell’analista fedele che lo dimostra. Aspetterò un poco della ",
       "entity": null
     },
     {
@@ -28,7 +132,20 @@
       }
     },
     {
-      "text": ", da quali subito l’avrò. Ho dati agli amici eruditi il frontespicio del libro dell’illustrissimo signor ##ANN10##, a cui si contenterà di portare gli umilissimi miei rispetti, come al di lui signor fratello ed altri nostri amici e padroni. \n\nPer la suddetta occasione che spero capiterà manderò il ",
+      "text": ", da quali subito l’avrò. Ho dati agli amici eruditi il frontespicio del libro dell’illustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Manfredi",
+      "entity": {
+        "text": "Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "person",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": ", a cui si contenterà di portare gli umilissimi miei rispetti, come al di lui signor fratello ed altri nostri amici e padroni. \n\nPer la suddetta occasione che spero capiterà manderò il ",
       "entity": null
     },
     {

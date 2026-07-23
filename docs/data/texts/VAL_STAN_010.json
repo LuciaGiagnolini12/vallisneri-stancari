@@ -2,7 +2,20 @@
   "id": "VAL_STAN_010",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_010 \nDATE: 1707-01-27\nFROM: ##ANN2## \nTO: ",
+      "text": "LETTER_ID: VAL_STAN_010 \nDATE: 1707-01-27\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
       "entity": null
     },
     {
@@ -15,7 +28,85 @@
       }
     },
     {
-      "text": "\n\nPadoa 27 genajo 1707 \n\nIllustrissimo signore e padrone colendissimo \n\nIl gentilissimo e dottissimo ##ANN4## è in Padoa e fu ieri l’altro ad onorarmi, favorendomi pure del suo nobilissimo e giudiciosissimo libro, il quale in due sere ho divorato con estremo contento, per vederlo battere la buona strada in ogni genere. Prego Iddio che viva, perché lo veggo il decoro della nostra Italia, e rinovato il lustro del celebratissimo nostro ##ANN9##. Mi spiace che resterà scandalizzato di questo nostro anatomico tutto pieno di fumo e di ruggine antica senza sistema, senza gusto, senza giudicio, e pomposo e strepitoso solamente di belle parolette nelle quali ha tutta la sua matta superbia. Oh se dovessimo argumentargli contro, quanto mal volentieri nel goderei!  \n\nDomatina voglio andare a ritrovare il ##ANN5## e godere della stimatissima sua conversatione. Almeno potrò discorrere di qualche cosa, poiché quando non la discorro co’ miei sassi, è stimato inutile il mio discorso. Mi disse che vostra signoria illustrissima ha fatto nella sua dottissima Accademia un discorso sopra l’occhio della ##ANN11## o de’ ##ANN7##. N’ho alcuni da mandargli d’una ##ANN10## grande assai curiosi, perché tutti distinti con fascie bianche e oscure per lo lungo. Con l’occasione che nel venire verso casa passando per Venezia diedi alcune notizie letterarie agli ",
+      "text": "\n\nPadoa 27 genajo 1707 \n\nIllustrissimo signore e padrone colendissimo \n\nIl gentilissimo e dottissimo ",
+      "entity": null
+    },
+    {
+      "text": "signor Morgagni",
+      "entity": {
+        "text": "signor Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " è in Padoa e fu ieri l’altro ad onorarmi, favorendomi pure del suo nobilissimo e giudiciosissimo libro, il quale in due sere ho divorato con estremo contento, per vederlo battere la buona strada in ogni genere. Prego Iddio che viva, perché lo veggo il decoro della nostra Italia, e rinovato il lustro del celebratissimo nostro ",
+      "entity": null
+    },
+    {
+      "text": "Malpighi",
+      "entity": {
+        "text": "Malpighi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ". Mi spiace che resterà scandalizzato di questo nostro anatomico tutto pieno di fumo e di ruggine antica senza sistema, senza gusto, senza giudicio, e pomposo e strepitoso solamente di belle parolette nelle quali ha tutta la sua matta superbia. Oh se dovessimo argumentargli contro, quanto mal volentieri nel goderei!  \n\nDomatina voglio andare a ritrovare il ",
+      "entity": null
+    },
+    {
+      "text": "signor Morgagni",
+      "entity": {
+        "text": "signor Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " e godere della stimatissima sua conversatione. Almeno potrò discorrere di qualche cosa, poiché quando non la discorro co’ miei sassi, è stimato inutile il mio discorso. Mi disse che vostra signoria illustrissima ha fatto nella sua dottissima Accademia un discorso sopra l’occhio della ",
+      "entity": null
+    },
+    {
+      "text": "mosca",
+      "entity": {
+        "text": "mosca",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " o de’ ",
+      "entity": null
+    },
+    {
+      "text": "cevettoni",
+      "entity": {
+        "text": "cevettoni",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ". N’ho alcuni da mandargli d’una ",
+      "entity": null
+    },
+    {
+      "text": "locusta",
+      "entity": {
+        "text": "locusta",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " grande assai curiosi, perché tutti distinti con fascie bianche e oscure per lo lungo. Con l’occasione che nel venire verso casa passando per Venezia diedi alcune notizie letterarie agli ",
       "entity": null
     },
     {

@@ -2,7 +2,111 @@
   "id": "VAL_STAN_009",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_009\n\nDATE: 1706-11-04\nFROM: ##ANN3## \nTO: ##ANN1##\n\nScandiano 4 novembre 1706 \n\nIllustrissimo signor mio padrone colendissimo \n\nVeramente a dirla con sincerità io stava sospeso in non vedere alcuna risposta a varie mie, e segnatamente all’ultima, dentro la quale erano certe lettere latine in diffesa del ##ANN12##, nulladimeno non dubbitava del suo affetto, e m’andava fingendo scuse per lusingare il mio, e conservarlo nella primiera integrità. Ora ne giugne una, quale, come vento, scaccia ogni nube, e tutto quanto mi rasserena. Può essere ch’io passi per Bologna nell’andare a Padoa, onde avrò la fortuna di vedere il nuovo sito degno di così conspicuo museo. Non ne sono però certo.  \n\nGodo del viaggio novamente fatto per i monti, spiacendomi non aver potuto fare il mio meditato per le militari scorrerie sovente fatte, per la necessaria assistenza alla mia timida famigliuola, e pochi interessi. Mi rallegro poi del titolo degnamente compartitole di storico naturale, perché lo merita. Già subito ne ha dato un saggio sopra gli occhi stranamente tubercoluti de’ ##ANN10## ed altri insetti di cotal sorta. La struttura veramente è maravigliosa, ed io una volta dubbitai che non fosser’occhi per più motivi.  \n\nIl primo fu l’avere osservati con una lente gli occhi di molti insetti, e averli trovati pelosi, il che mi accadette nella ##ANN18## che nasce da vermi de’ cavalli, in molte ##ANN23##, in ##ANN15## e in alcune ##ANN14##. Scappavano que’ pelucci fra i confini d’un globetto e l’altro, ed offuscavano la parte superior de’ medesimi. Il che mi pareva discondante dalla natura dell’occhio, che tollera bene la palpebra, quando non si appiana sopra il medesimo e non lo copre, ma quando lo copre, e confonde, toglie a sé il merito di palpebra, all’altro l’uso.  \n\n2°. La diversità del numero e struttura de’ creduti occhi negl’insetti. Due ne hanno alcuni, un solo altri, molti ne hanno dodici distinti uno dall’altro, chi ne ha sei, chi un numero infinito. La struttura pure è differente almeno a prima vista, essendo in alcuni ovali e semplici, in altri ritondi perfettamente, in certi falcati o lunati, in moltissimi tesselati o reticolati.  \n\n3°. Que’ medesimi che sono destinati a perpetue tenebre, come dentro gli animali non sono privi di questi, il che parerebbe frustraneo nella natura. E pure tolti fuora schiffano gli incontri, e par che vi veggano. Il che segnatamente notavo un giorno ne’ ",
+      "text": "LETTER_ID: VAL_STAN_009\n\nDATE: 1706-11-04\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nScandiano 4 novembre 1706 \n\nIllustrissimo signor mio padrone colendissimo \n\nVeramente a dirla con sincerità io stava sospeso in non vedere alcuna risposta a varie mie, e segnatamente all’ultima, dentro la quale erano certe lettere latine in diffesa del ",
+      "entity": null
+    },
+    {
+      "text": "Malpighi",
+      "entity": {
+        "text": "Malpighi",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": ", nulladimeno non dubbitava del suo affetto, e m’andava fingendo scuse per lusingare il mio, e conservarlo nella primiera integrità. Ora ne giugne una, quale, come vento, scaccia ogni nube, e tutto quanto mi rasserena. Può essere ch’io passi per Bologna nell’andare a Padoa, onde avrò la fortuna di vedere il nuovo sito degno di così conspicuo museo. Non ne sono però certo.  \n\nGodo del viaggio novamente fatto per i monti, spiacendomi non aver potuto fare il mio meditato per le militari scorrerie sovente fatte, per la necessaria assistenza alla mia timida famigliuola, e pochi interessi. Mi rallegro poi del titolo degnamente compartitole di storico naturale, perché lo merita. Già subito ne ha dato un saggio sopra gli occhi stranamente tubercoluti de’ ",
+      "entity": null
+    },
+    {
+      "text": "cevettoni",
+      "entity": {
+        "text": "cevettoni",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " ed altri insetti di cotal sorta. La struttura veramente è maravigliosa, ed io una volta dubbitai che non fosser’occhi per più motivi.  \n\nIl primo fu l’avere osservati con una lente gli occhi di molti insetti, e averli trovati pelosi, il che mi accadette nella ",
+      "entity": null
+    },
+    {
+      "text": "mosca",
+      "entity": {
+        "text": "mosca",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " che nasce da vermi de’ cavalli, in molte ",
+      "entity": null
+    },
+    {
+      "text": "api",
+      "entity": {
+        "text": "api",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", in ",
+      "entity": null
+    },
+    {
+      "text": "mosconi",
+      "entity": {
+        "text": "mosconi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " e in alcune ",
+      "entity": null
+    },
+    {
+      "text": "farfalle",
+      "entity": {
+        "text": "farfalle",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ". Scappavano que’ pelucci fra i confini d’un globetto e l’altro, ed offuscavano la parte superior de’ medesimi. Il che mi pareva discondante dalla natura dell’occhio, che tollera bene la palpebra, quando non si appiana sopra il medesimo e non lo copre, ma quando lo copre, e confonde, toglie a sé il merito di palpebra, all’altro l’uso.  \n\n2°. La diversità del numero e struttura de’ creduti occhi negl’insetti. Due ne hanno alcuni, un solo altri, molti ne hanno dodici distinti uno dall’altro, chi ne ha sei, chi un numero infinito. La struttura pure è differente almeno a prima vista, essendo in alcuni ovali e semplici, in altri ritondi perfettamente, in certi falcati o lunati, in moltissimi tesselati o reticolati.  \n\n3°. Que’ medesimi che sono destinati a perpetue tenebre, come dentro gli animali non sono privi di questi, il che parerebbe frustraneo nella natura. E pure tolti fuora schiffano gli incontri, e par che vi veggano. Il che segnatamente notavo un giorno ne’ ",
       "entity": null
     },
     {
@@ -28,7 +132,85 @@
       }
     },
     {
-      "text": ", benché tagliata in più pezzi, come osservò non senza stupore S. Agostino. Il che a me è succeduto moltissime volte.  \n\n4°. Tagli le corna genicolate o antenne lunghe nodose a certa specie di scarafaggi selvatici, e particolarmente a certuni che chiamano pesaferro. Li vedrà caminare a tastone a guisa di ciechi, incerti affatto del loro viaggio, timidissimi e paurosi d’inciampare, allungando pian piano sempre i piedi d’avanti uno dopo l’altro, e assicurandosi come facciamo a chiusi occhi di non cadere. E pure lasciano loro nel capo intatti i creduti lumi. Il che accade ancora alle lumache domiporte e nude, se si toglie loro le pieghevoli e molli corna. Parendo che siano lo stesso agli insetti le antenne quello che agli uomini ciechi e la mano e il bastone. \n\n5°. Ponderi, se le piace, la struttura, o natura, dirò così, proteiforme dell’##ANN16##, o bruchi, e delle ##ANN11##. Queste stanno fasciate con più invogli, o tonache, come sta l’embrione, finattantocché l’ospite interno crescendo di mano in mano le rompa, ed esca finalmente alato e perfetto. Moltissime hanno i creduti occhi, e pare che vi vedano, come hanno anche le ##ANN19##, le ##ANN8##, e pure facendo l’officio d’embrione, non hanno bisogno di vedervi, ma solo di colare o triturare il cibo. Sono quasi per dire che ciò che al ##ANN20## è l’uovo e il grano alle piante sieno quelle al volatile, imperocché veggiamo che nell’esterna scorza non hanno alcuna similitudine coll’interna ammirabile fabbrica, onde avranno uso diverso. Abbenché adunque abbiano i creduti occhi, non sono occhi, e così non saranno quegli che appariscono quando sono perfetti, benché appariscano tali e sieno stimati communemente per tali.  \n\nMa sento vostra signoria illustrissima dire che ho ancor del malo umore in testa guasto e corrotto dal fascino delle antiche melancolie. Che sto cogli antichi, i quali credettero col ##ANN13## deriso in questo proposito dal ",
+      "text": ", benché tagliata in più pezzi, come osservò non senza stupore S. Agostino. Il che a me è succeduto moltissime volte.  \n\n4°. Tagli le corna genicolate o antenne lunghe nodose a certa specie di scarafaggi selvatici, e particolarmente a certuni che chiamano pesaferro. Li vedrà caminare a tastone a guisa di ciechi, incerti affatto del loro viaggio, timidissimi e paurosi d’inciampare, allungando pian piano sempre i piedi d’avanti uno dopo l’altro, e assicurandosi come facciamo a chiusi occhi di non cadere. E pure lasciano loro nel capo intatti i creduti lumi. Il che accade ancora alle lumache domiporte e nude, se si toglie loro le pieghevoli e molli corna. Parendo che siano lo stesso agli insetti le antenne quello che agli uomini ciechi e la mano e il bastone. \n\n5°. Ponderi, se le piace, la struttura, o natura, dirò così, proteiforme dell’",
+      "entity": null
+    },
+    {
+      "text": "eruche",
+      "entity": {
+        "text": "eruche",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", o bruchi, e delle ",
+      "entity": null
+    },
+    {
+      "text": "crisalidi",
+      "entity": {
+        "text": "crisalidi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ". Queste stanno fasciate con più invogli, o tonache, come sta l’embrione, finattantocché l’ospite interno crescendo di mano in mano le rompa, ed esca finalmente alato e perfetto. Moltissime hanno i creduti occhi, e pare che vi vedano, come hanno anche le ",
+      "entity": null
+    },
+    {
+      "text": "ninfe",
+      "entity": {
+        "text": "ninfe",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", le ",
+      "entity": null
+    },
+    {
+      "text": "tetigometre",
+      "entity": {
+        "text": "tetigometre",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", e pure facendo l’officio d’embrione, non hanno bisogno di vedervi, ma solo di colare o triturare il cibo. Sono quasi per dire che ciò che al ",
+      "entity": null
+    },
+    {
+      "text": "pollo",
+      "entity": {
+        "text": "pollo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " è l’uovo e il grano alle piante sieno quelle al volatile, imperocché veggiamo che nell’esterna scorza non hanno alcuna similitudine coll’interna ammirabile fabbrica, onde avranno uso diverso. Abbenché adunque abbiano i creduti occhi, non sono occhi, e così non saranno quegli che appariscono quando sono perfetti, benché appariscano tali e sieno stimati communemente per tali.  \n\nMa sento vostra signoria illustrissima dire che ho ancor del malo umore in testa guasto e corrotto dal fascino delle antiche melancolie. Che sto cogli antichi, i quali credettero col ",
+      "entity": null
+    },
+    {
+      "text": "Bosiarto",
+      "entity": {
+        "text": "Bosiarto",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": " deriso in questo proposito dal ",
       "entity": null
     },
     {

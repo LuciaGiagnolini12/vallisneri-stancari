@@ -15,7 +15,72 @@
       }
     },
     {
-      "text": "\n\nPadoa 12 settembre 1707  \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nRicevo in Padoa il di lei compitissimo e virtuosissimo foglio, e poco dopo dal sig. ##ANN5## la scatola col lucimetro, sali e fior di ferro, che chiama ##ANN2## pietra tartara. Per quante diligenze io abbia fatto, neanch’io ho potuto trovare alcuna che faccia menzione nè che descriva o disegni l’ovaja dell’##ANN11##, anzi ##ANN6## con la stridola turba de’ suoi seguaci scrive con meraviglia che «numquam semen nec ova viva sunt in anguilla». Esporrò dunque la storia e la manderò alla sua e mia riveritissima Accademia.  \n\nL’amico ha già scritto in Affrica per avere ##ANN7##. Intanto le mando l’argomento del mio libro sopra i medesimi, della quale ne potrà dare notizia a signori nostri accademici e dalla quale caverà molti lumi per fare le sue osservazioni. Quando l’avrà scriverò poi il modo di governarlo. Suppongo che abbia ricevuto un invoglietto che franco di porto le mandai da Reggio con i disegni dell’",
+      "text": "\n\nPadoa 12 settembre 1707  \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nRicevo in Padoa il di lei compitissimo e virtuosissimo foglio, e poco dopo dal sig. ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " la scatola col lucimetro, sali e fior di ferro, che chiama ",
+      "entity": null
+    },
+    {
+      "text": "Ferrante Imperato",
+      "entity": {
+        "text": "Ferrante Imperato",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " pietra tartara. Per quante diligenze io abbia fatto, neanch’io ho potuto trovare alcuna che faccia menzione nè che descriva o disegni l’ovaja dell’",
+      "entity": null
+    },
+    {
+      "text": "anguilla",
+      "entity": {
+        "text": "anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", anzi ",
+      "entity": null
+    },
+    {
+      "text": "Aristotele",
+      "entity": {
+        "text": "Aristotele",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " con la stridola turba de’ suoi seguaci scrive con meraviglia che «numquam semen nec ova viva sunt in anguilla». Esporrò dunque la storia e la manderò alla sua e mia riveritissima Accademia.  \n\nL’amico ha già scritto in Affrica per avere ",
+      "entity": null
+    },
+    {
+      "text": "camaleonti",
+      "entity": {
+        "text": "camaleonti",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ". Intanto le mando l’argomento del mio libro sopra i medesimi, della quale ne potrà dare notizia a signori nostri accademici e dalla quale caverà molti lumi per fare le sue osservazioni. Quando l’avrà scriverò poi il modo di governarlo. Suppongo che abbia ricevuto un invoglietto che franco di porto le mandai da Reggio con i disegni dell’",
       "entity": null
     },
     {
@@ -54,7 +119,33 @@
       }
     },
     {
-      "text": " in Venezia e m’ha dato nuova che un nostro coaccademico ha osservato anch’esso le mosche rosiseche, onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ##ANN12## in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in Padoa il nuovo matematico, ch’è modestissimo, savio e assai virtuoso, particolarmente nell’algebra. Gli ho portati i di lei saluti cordialissimi, e la risaluta con tutto lo spirito. Ho letto in Reggio le lettere in favore del signor marchese ##ANN13##, fra le quali quanto è dotta, ingegnosa, spiritosa quella del signor ",
+      "text": " in Venezia e m’ha dato nuova che un nostro coaccademico ha osservato anch’esso le mosche rosiseche, onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Testi",
+      "entity": {
+        "text": "Testi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in Padoa il nuovo matematico, ch’è modestissimo, savio e assai virtuoso, particolarmente nell’algebra. Gli ho portati i di lei saluti cordialissimi, e la risaluta con tutto lo spirito. Ho letto in Reggio le lettere in favore del signor marchese ",
+      "entity": null
+    },
+    {
+      "text": "Orsi",
+      "entity": {
+        "text": "Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+        "type": "person",
+        "label": "Orsi, Quaranta"
+      }
+    },
+    {
+      "text": ", fra le quali quanto è dotta, ingegnosa, spiritosa quella del signor ",
       "entity": null
     },
     {

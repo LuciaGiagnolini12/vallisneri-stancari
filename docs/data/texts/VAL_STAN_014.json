@@ -2,7 +2,20 @@
   "id": "VAL_STAN_014",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_014\nDATE: 1707-05-23\nFROM: ##ANN2## \nTO: ",
+      "text": "LETTER_ID: VAL_STAN_014\nDATE: 1707-05-23\nFROM: ",
+      "entity": null
+    },
+    {
+      "text": "Antonio Vallisneri",
+      "entity": {
+        "text": "Antonio Vallisneri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \nTO: ",
       "entity": null
     },
     {
@@ -15,7 +28,72 @@
       }
     },
     {
-      "text": "\n\nPadoa 23 maggio 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo già ricevuto dal gentilissimo e dottissimo signor ##ANN9## il riscontro della pontualità di vostra signoria illustrissima in avermi onorato del fedele recapito della mia insipida dissertazioncella sopra la ##ANN3##, e gliene rendo grazie vivissime. E del lucimetro che dice vostra signoria illustrissima? È riuscibile o no? Due ne faccio lavorare qui in Padoa di struttura diversa e vedremo l’esito, e avviserò. Per l’occasione del Santo forse potrebbono capitare bolognesi, onde manderò il ##ANN10## vivo e qualchecos’altra.  \n\nMi rallegro che lavori attorno al termometro, e perché non intorno al lucimetro? Può vostra signoria illustrissima migliorare anche questo, cambiarlo, perfezionarlo, e la prego caldamente, poiché è divisa l’opinione in sì e in no. Non guardi lo stile, nè i termini, guardi l’invenzione e la migliori.  \n\nIl segreto che lei mi scrive della ristampa dell’##ANN11## è qui pubblico, avendolo detto a tutti il signor ##ANN7## ed un tedesco venuto poco fa da Bologna. Le dico bene che l’istoria degli ",
+      "text": "\n\nPadoa 23 maggio 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo già ricevuto dal gentilissimo e dottissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Trionfetti",
+      "entity": {
+        "text": "Trionfetti",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " il riscontro della pontualità di vostra signoria illustrissima in avermi onorato del fedele recapito della mia insipida dissertazioncella sopra la ",
+      "entity": null
+    },
+    {
+      "text": "lenticola palustre",
+      "entity": {
+        "text": "lenticola palustre",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", e gliene rendo grazie vivissime. E del lucimetro che dice vostra signoria illustrissima? È riuscibile o no? Due ne faccio lavorare qui in Padoa di struttura diversa e vedremo l’esito, e avviserò. Per l’occasione del Santo forse potrebbono capitare bolognesi, onde manderò il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " vivo e qualchecos’altra.  \n\nMi rallegro che lavori attorno al termometro, e perché non intorno al lucimetro? Può vostra signoria illustrissima migliorare anche questo, cambiarlo, perfezionarlo, e la prego caldamente, poiché è divisa l’opinione in sì e in no. Non guardi lo stile, nè i termini, guardi l’invenzione e la migliori.  \n\nIl segreto che lei mi scrive della ristampa dell’",
+      "entity": null
+    },
+    {
+      "text": "Aldrovandi",
+      "entity": {
+        "text": "Aldrovandi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "specimen",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " è qui pubblico, avendolo detto a tutti il signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " ed un tedesco venuto poco fa da Bologna. Le dico bene che l’istoria degli ",
       "entity": null
     },
     {
@@ -28,7 +106,59 @@
       }
     },
     {
-      "text": " è piena di favole e di fosca ruggine antica, onde chi non lo lima o fa notazioni avrà poco applauso. Io non so cosa alcuna dell’Accademia di Prussia, lo scriverò al nostro ##ANN8## che ne sarà informato.  \n\nÈ verissimo che l’##ANN14## è stato condotto ed io nel tempo stesso onorato d’aumento decoroso e di riccondotta coll’aggregarmi anche al collegio del Duomo. Ciò è riuscito novo a tutti, poiché di 30 e più che anni et anni sospirano gli aumenti e riccondotte, io solo soletto fra gli artisti e prima di tanti più vecchi e più meritevoli di me in tempi così calamitosi sono stato distinto et onorato, poiché appena spirato il termine m’hanno graziato. Lode a Dio e a miei buoni amici e protettori. Io qui adesso mi godo lo stimatissimo signor ##ANN13##, ch’è venuto a sentire l’ultime lezioni chiamiamo “le stracche” e più languide e strappazzate. So che avrò perduto quel poco credito che avevo appresso di lui, ma che devo fare?  \n\nIeri l’altro osservavo un ##ANN6##, poiché volendo costui prendere certi ",
+      "text": " è piena di favole e di fosca ruggine antica, onde chi non lo lima o fa notazioni avrà poco applauso. Io non so cosa alcuna dell’Accademia di Prussia, lo scriverò al nostro ",
+      "entity": null
+    },
+    {
+      "text": "Scheuchzero",
+      "entity": {
+        "text": "Scheuchzero",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " che ne sarà informato.  \n\nÈ verissimo che l’",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " è stato condotto ed io nel tempo stesso onorato d’aumento decoroso e di riccondotta coll’aggregarmi anche al collegio del Duomo. Ciò è riuscito novo a tutti, poiché di 30 e più che anni et anni sospirano gli aumenti e riccondotte, io solo soletto fra gli artisti e prima di tanti più vecchi e più meritevoli di me in tempi così calamitosi sono stato distinto et onorato, poiché appena spirato il termine m’hanno graziato. Lode a Dio e a miei buoni amici e protettori. Io qui adesso mi godo lo stimatissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ", ch’è venuto a sentire l’ultime lezioni chiamiamo “le stracche” e più languide e strappazzate. So che avrò perduto quel poco credito che avevo appresso di lui, ma che devo fare?  \n\nIeri l’altro osservavo un ",
+      "entity": null
+    },
+    {
+      "text": "insetto cieco",
+      "entity": {
+        "text": "insetto cieco",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", poiché volendo costui prendere certi ",
       "entity": null
     },
     {
@@ -41,7 +171,20 @@
       }
     },
     {
-      "text": " andava taston tastone, ora da una parte ora dall’altra della foglia, finché casualmente incontrava in uno di questi e lo prendeva e vivo vivo lo trangugiava. Lo guardai con una buona lente, e vidi che avea i soliti occhi. Lo sentirò descritto dal signor ##ANN15## in una lettera a me indiritta. Io stentavo a crederlo se non l’osservavo con diligenza, e questi è un verme figlio d’una ",
+      "text": " andava taston tastone, ora da una parte ora dall’altra della foglia, finché casualmente incontrava in uno di questi e lo prendeva e vivo vivo lo trangugiava. Lo guardai con una buona lente, e vidi che avea i soliti occhi. Lo sentirò descritto dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Cestoni",
+      "entity": {
+        "text": "Cestoni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " in una lettera a me indiritta. Io stentavo a crederlo se non l’osservavo con diligenza, e questi è un verme figlio d’una ",
       "entity": null
     },
     {
