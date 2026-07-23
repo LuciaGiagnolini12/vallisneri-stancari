@@ -128,7 +128,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   margin-bottom:3px;}
 .ec-label{font-size:13px;font-weight:500;}
 .ec-sub{font-size:10px;color:var(--faded);margin-top:2px;font-style:italic;}
-.ec-letters{font-size:9px;color:var(--faded);font-family:var(--mono);margin-top:4px;}
+.ec-letters{font-size:9px;color:var(--faded);margin-top:5px;line-height:1.6;}
+.ec-letter-tag{display:inline-block;font-size:8px;font-family:var(--mono);padding:1px 4px;
+  border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;
+  background:var(--paper);color:var(--ink);}
+.ec-letter-tag:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
+.ep-letter-link{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 4px;
+  border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;background:var(--paper);}
+.ep-letter-link:hover{background:var(--gold-l);border-color:var(--gold);}
 
 /* ── Rete ── */
 #network-wrap{height:calc(100vh - 52px);position:relative;overflow:hidden;}
@@ -409,9 +416,12 @@ async function selectLetter(id) {
       if(!seg.entity) return escHtml(seg.text);
       const e = seg.entity;
       const cls = e.type || 'unknown';
+      // Usa data-* per evitare problemi con URI nell'onclick inline
       return `<span class="ent ${cls}"
-        onclick="showEntityPopup(event,'${esc(e.entity_id)}','${esc(e.label)}','${e.type}')"
-        title="${esc(e.label)} (${e.type})">${escHtml(seg.text)}</span>`;
+        data-entity-id="${escAttr(e.entity_id)}"
+        data-entity-label="${escAttr(e.label)}"
+        data-entity-type="${e.type||''}"
+        title="${escAttr(e.label)} (${e.type})">${escHtml(seg.text)}</span>`;
     }).join('');
   } else {
     textHtml = '<em style="color:var(--faded)">Testo non disponibile</em>';
@@ -455,7 +465,11 @@ function renderEntities() {
       <div class="ec-label">${escHtml(e.label)}</div>
       ${e.taxon?`<div class="ec-sub">${escHtml(e.taxon)}</div>`:''}
       ${e.note&&e.note.includes('AMBIGUO')?'<div class="ec-sub" style="color:var(--gold)">⚠ uncertain identification</div>':''}
-      <div class="ec-letters">Cited in ${e.letters.length} ${e.letters.length===1?'letter':'letters'}</div>
+      <div class="ec-letters">
+        ${e.letters.length} ${e.letters.length===1?'letter':'letters'}:
+        ${e.letters.slice(0,6).map(lid=>`<span class="ec-letter-tag" onclick="event.stopPropagation();openLetter('${lid}')">${lid.replace('VAL_STAN_','')}</span>`).join(' ')}
+        ${e.letters.length>6?`<span style="color:var(--faded)">+${e.letters.length-6}</span>`:''}
+      </div>
     </div>`).join('');
 }
 
@@ -694,46 +708,68 @@ async function runSparql() {
 }
 
 // ── Entity popup ──────────────────────────────────────────────────────
-function showEntityPopup(event, id, label, type) {
+function openEntityPopup(event, id, label, type) {
   event.stopPropagation();
-  const popup = document.getElementById('entity-popup');
+  const popup  = document.getElementById('entity-popup');
   const entity = (DATA['entities']||[]).find(e=>e.id===id);
-  const typeLabels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution'};
+  const typeLabels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
   const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)'};
 
-  document.getElementById('ep-type').textContent  = typeLabels[type]||type;
-  document.getElementById('ep-type').style.color  = typeColors[type]||'var(--faded)';
-  document.getElementById('ep-label').textContent = label || (entity?.label||id);
+  document.getElementById('ep-type').textContent = typeLabels[type]||type;
+  document.getElementById('ep-type').style.color = typeColors[type]||'var(--faded)';
+  document.getElementById('ep-label').textContent = (entity?.label)||label||id.split('/').pop();
 
   let uriHtml = '';
   if(entity){
+    if(entity.taxon)
+      uriHtml += `<div style="font-style:italic;color:var(--org);margin-bottom:5px;font-size:11px">${escHtml(entity.taxon)}</div>`;
     const uris = [
-      entity.viaf    && `<a href="${entity.viaf}"    target="_blank">VIAF</a>`,
-      entity.wikidata&& `<a href="${entity.wikidata}" target="_blank">Wikidata</a>`,
-      entity.gbif    && `<a href="${entity.gbif}"    target="_blank">GBIF</a>`,
-      entity.geonames&& `<a href="${entity.geonames}" target="_blank">GeoNames</a>`,
+      entity.viaf     && `<a href="${entity.viaf}"     target="_blank">VIAF</a>`,
+      entity.wikidata && `<a href="${entity.wikidata}"  target="_blank">Wikidata</a>`,
+      entity.gbif     && `<a href="${entity.gbif}"     target="_blank">GBIF</a>`,
+      entity.geonames && `<a href="${entity.geonames}"  target="_blank">GeoNames</a>`,
     ].filter(Boolean).join(' · ');
-    if(entity.taxon) uriHtml += `<div style="font-style:italic;margin-bottom:4px">${escHtml(entity.taxon)}</div>`;
-    if(uris) uriHtml += uris;
+    if(uris) uriHtml += `<div style="margin-bottom:5px">${uris}</div>`;
+    if(entity.letters?.length){
+      const links = entity.letters.map(lid=>
+        `<span class="ep-letter-link" onclick="openLetter('${lid}');closePopup()">${lid.replace('VAL_STAN_','')}</span>`
+      ).join(' ');
+      uriHtml += `<div style="font-size:10px;margin-top:4px;color:var(--faded)">Letters: ${links}</div>`;
+    }
   }
   document.getElementById('ep-uri').innerHTML = uriHtml;
 
-  const x = Math.min(event.pageX+12, window.innerWidth-300);
-  const y = Math.min(event.pageY-10, window.innerHeight-200);
+  // Posiziona il popup vicino al click ma dentro la viewport
+  const pw = 280, ph = 180;
+  let x = event.pageX + 14;
+  let y = event.pageY - 10;
+  if(x + pw > window.innerWidth  - 10) x = event.pageX - pw - 10;
+  if(y + ph > window.scrollY + window.innerHeight - 10) y = event.pageY - ph;
   popup.style.left = x+'px';
   popup.style.top  = y+'px';
   popup.classList.add('on');
 }
 
+// Event delegation — intercetta click su .ent via data attributes
+document.addEventListener('click', e=>{
+  const span = e.target.closest('.ent[data-entity-id]');
+  if(span){
+    const id    = span.dataset.entityId;
+    const label = span.dataset.entityLabel;
+    const type  = span.dataset.entityType;
+    openEntityPopup(e, id, label, type);
+    return;
+  }
+  if(!e.target.closest('.entity-popup')) closePopup();
+});
+
 function closePopup() {
   document.getElementById('entity-popup').classList.remove('on');
 }
-document.addEventListener('click', e=>{
-  if(!e.target.closest('.entity-popup')&&!e.target.closest('.ent')) closePopup();
-});
 
 // ── Utility ───────────────────────────────────────────────────────────
 function escHtml(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function escAttr(s){ return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;'); }
 function esc(s){ return (s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
 
 // ── Init ──────────────────────────────────────────────────────────────
