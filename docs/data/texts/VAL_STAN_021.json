@@ -1,0 +1,35 @@
+{
+  "id": "VAL_STAN_021",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_021\nDATE: 1707-11-24\nFROM: Antonio Vallisneri \nTO: Vittorio Francesco Stancari\n\nPadoa 24 novembre 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ passato per Padoa l’eccellentissimo ##ANN1##, ed il signor ##ANN4## ed io la desideravamo per goderla, ma abbiamo inteso sia tornata a Bologna. Avevo trovata una carta dov’era il modo di governare il ##ANN2## lasciato l’estate scorsa all’eccellentissimo ##ANN3##, a cui lo consegnai, finché stetti alla patria. Ora vi ho aggiunto come debbasi governare questo inverno, e se muore che cosa debbano principalmente osservare. Aspetto dunque nuova se è più vivo, e se morto che cosa hanno osservato.  \n\nDesidero pur sapere (ma senza adulazione da buono amico, come la stimo e la tengo di certo) com’è stato sentito il mio discorso sopra l’##ANN9## dell’##ANN6##, poiché dubbito che abbia sortita quella fortuna che sortì il discorso del ##ANN7##. Non voglio da lei lodi, ma voglio critica per potermi correggere per l’avvenire. Aspetto pure le sue riflessioni sopra l’ordigno della ",
+      "entity": null
+    },
+    {
+      "text": "mosca rosiseca",
+      "entity": {
+        "text": "mosca rosiseca",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", che aggiugnerò al discorso che già ho esteso. La supplico a non privarmi di questa consolazione. Aspetto pure le leggi dell’Accademia, l’indice degli accademici, il corpo della sua impresa e cose simili. ##ANN8## un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor Morgagni, che ogni giorno m’onora della sua presenza alla mia lezione e mi dà animo e coraggio. Citai nell’ultima il nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Valsalvi",
+      "entity": {
+        "text": "Valsalvi",
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+        "type": "person",
+        "label": "Giovanni Battista Valsalva"
+      }
+    },
+    {
+      "text": " in occasione dell’orecchia. \n\nSegua ad amarmi, ch’io ad essere di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio Vallisnieri. \n\nDomenica prossima fa il suo ingresso il nuovo matematico con tanta aspettativa che non suol punto giovare. ",
+      "entity": null
+    }
+  ]
+}

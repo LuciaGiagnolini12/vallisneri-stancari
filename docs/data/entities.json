@@ -1,0 +1,1429 @@
+[
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_001",
+    "slug": "VAL_STAN_001",
+    "type": "text",
+    "label": "VAL_STAN_001",
+    "letters": [
+      "VAL_STAN_001"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+    "slug": "vallisneri_antonio",
+    "type": "person",
+    "label": "Antonio Vallisneri",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "https://viaf.org/viaf/54168259/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+    "slug": "stancari_vittoriofrancesco",
+    "type": "person",
+    "label": "Vittorio Francesco Stancari",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "https://viaf.org/viaf/22924568/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+    "slug": "marsili_giuseppemaria",
+    "type": "person",
+    "label": "Giuseppe Maria Marsili",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_025",
+      "VAL_STAN_028",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+    "slug": "marsili_luigivittoriofilippo",
+    "type": "person",
+    "label": "Luigi Vittorio Filippo Marsili",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_009",
+      "VAL_STAN_016",
+      "VAL_STAN_019",
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+    "slug": "manfredi_unknown",
+    "type": "person",
+    "label": "Manfredi",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_006",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_028",
+      "VAL_STAN_030"
+    ],
+    "viaf": "https://viaf.org/viaf/49228551/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "[AMBIGUO] "
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/nanni_unknown",
+    "slug": "nanni_unknown",
+    "type": "person",
+    "label": "Nanni",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_016",
+      "VAL_STAN_019"
+    ],
+    "viaf": "https://viaf.org/viaf/56672668/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "[AMBIGUO] "
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+    "slug": "dorelli_unknown",
+    "type": "person",
+    "label": "Dorelli",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_007",
+      "VAL_STAN_016",
+      "VAL_STAN_019"
+    ],
+    "viaf": "https://viaf.org/viaf/32207367/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "[AMBIGUO] "
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+    "slug": "valsalva_giovannibattista",
+    "type": "person",
+    "label": "Giovanni Battista Valsalva",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_007",
+      "VAL_STAN_016",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/sandri_unknown",
+    "slug": "sandri_unknown",
+    "type": "person",
+    "label": "Sandri",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_016",
+      "VAL_STAN_019"
+    ],
+    "viaf": "https://viaf.org/viaf/179145970098632250973/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "[AMBIGUO] "
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+    "slug": "reggio_emilia",
+    "type": "place",
+    "label": "Reggio Emilia",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q13360",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3169522",
+    "note": "",
+    "toponym": "Reggio",
+    "modern": "Reggio Emilia"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/modena",
+    "slug": "modena",
+    "type": "place",
+    "label": "Modena",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_016",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q279",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3173331",
+    "note": "",
+    "toponym": "patria",
+    "modern": "Modena"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/apennine_mountains",
+    "slug": "apennine_mountains",
+    "type": "place",
+    "label": "Apennine Mountains",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_009",
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1285",
+    "gbif": "",
+    "geonames": "",
+    "note": "",
+    "toponym": "monti vicini",
+    "modern": "Apennine Mountains"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/livorno",
+    "slug": "livorno",
+    "type": "place",
+    "label": "Livorno",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_012",
+      "VAL_STAN_015",
+      "VAL_STAN_017",
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q6761",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3174659",
+    "note": "",
+    "toponym": "Livorno",
+    "modern": "Livorno"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/genoa",
+    "slug": "genoa",
+    "type": "place",
+    "label": "Genoa",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_020",
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2074",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3176219",
+    "note": "",
+    "toponym": "Genova",
+    "modern": "Genoa"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/florence",
+    "slug": "florence",
+    "type": "place",
+    "label": "Florence",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_015",
+      "VAL_STAN_020",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q79743",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3176959",
+    "note": "",
+    "toponym": "Firenze",
+    "modern": "Florence"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/bologna",
+    "slug": "bologna",
+    "type": "place",
+    "label": "Bologna",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_012",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1891",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3181928",
+    "note": "",
+    "toponym": "Bologna",
+    "modern": "Bologna"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/milan",
+    "slug": "milan",
+    "type": "place",
+    "label": "Milan",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_006",
+      "VAL_STAN_020",
+      "VAL_STAN_022",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_027",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1543",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3173435",
+    "note": "",
+    "toponym": "Milano",
+    "modern": "Milan"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/alps",
+    "slug": "alps",
+    "type": "place",
+    "label": "Alps",
+    "letters": [
+      "VAL_STAN_001"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1286",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2990440",
+    "note": "",
+    "toponym": "Alpi",
+    "modern": "Alps"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/micrographia_curiosa",
+    "slug": "micrographia_curiosa",
+    "type": "text",
+    "label": "Micrographia curiosa",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_023",
+      "VAL_STAN_025",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/osservazioni_intorno_alle_vipere",
+    "slug": "osservazioni_intorno_alle_vipere",
+    "type": "text",
+    "label": "Osservazioni intorno alle vipere",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_006",
+      "VAL_STAN_009",
+      "VAL_STAN_012",
+      "VAL_STAN_016",
+      "VAL_STAN_018",
+      "VAL_STAN_020",
+      "VAL_STAN_023",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://www.wikidata.org/wiki/Q41365",
+    "slug": "Q41365",
+    "type": "organism",
+    "label": "zolfo",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_005"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "",
+    "taxon": "Sulphur",
+    "vernacular": "zolfo",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://www.wikidata.org/wiki/Q207896",
+    "slug": "Q207896",
+    "type": "organism",
+    "label": "sali fossili",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_015",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "",
+    "taxon": "Sal fossilium",
+    "vernacular": "sali fossili",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_002",
+    "slug": "VAL_STAN_002",
+    "type": "text",
+    "label": "VAL_STAN_002",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/",
+    "slug": "",
+    "type": "person",
+    "label": "Bellini, unknown",
+    "letters": [
+      "VAL_STAN_002",
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_013",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_023",
+      "VAL_STAN_025",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/nome_normalizzato",
+    "slug": "nome_normalizzato",
+    "type": "place",
+    "label": "Lago di Scuro",
+    "letters": [
+      "VAL_STAN_002",
+      "VAL_STAN_006",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_011",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/8960905",
+    "note": "",
+    "toponym": "Lago scuro",
+    "modern": "Lago di Scuro"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/",
+    "slug": "",
+    "type": "organism",
+    "label": "uovo",
+    "letters": [
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "animali",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_003",
+    "slug": "VAL_STAN_003",
+    "type": "text",
+    "label": "VAL_STAN_003",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/institution/",
+    "slug": "",
+    "type": "person",
+    "label": "Luigi, Conte",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_010",
+      "VAL_STAN_012",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_024",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___w3id_org_vallisnieri_place_padua",
+    "slug": "https___w3id_org_vallisnieri_place_padua",
+    "type": "place",
+    "label": "Padova",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_006",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q617",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3171728",
+    "note": "",
+    "toponym": "Padoa",
+    "modern": "Padova"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___www_wikidata_org_wiki_q2783",
+    "slug": "https___www_wikidata_org_wiki_q2783",
+    "type": "place",
+    "label": "Portugal",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_024",
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q45",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2267057",
+    "note": "",
+    "toponym": "Portogallo",
+    "modern": "Portugal"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___w3id_org_vallisnieri_place_sicily",
+    "slug": "https___w3id_org_vallisnieri_place_sicily",
+    "type": "place",
+    "label": "Sicily",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1460",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2523920",
+    "note": "",
+    "toponym": "Sicilia",
+    "modern": "Sicily"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___w3id_org_vallisnieri_place_murano",
+    "slug": "https___w3id_org_vallisnieri_place_murano",
+    "type": "place",
+    "label": "Murano",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_007",
+      "VAL_STAN_022",
+      "VAL_STAN_025",
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q52437",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3172456",
+    "note": "",
+    "toponym": "Murano",
+    "modern": "Murano"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___w3id_org_vallisnieri_place_istria",
+    "slug": "https___w3id_org_vallisnieri_place_istria",
+    "type": "place",
+    "label": "Istria",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q639912",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3192224",
+    "note": "",
+    "toponym": "Istria",
+    "modern": "Istria"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___w3id_org_vallisnieri_place_ancona",
+    "slug": "https___w3id_org_vallisnieri_place_ancona",
+    "type": "place",
+    "label": "Ancona",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_022",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q3415",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3183089",
+    "note": "",
+    "toponym": "Ancona",
+    "modern": "Ancona"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___www_wikidata_org_wiki_q50",
+    "slug": "https___www_wikidata_org_wiki_q50",
+    "type": "place",
+    "label": "Africa",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_021",
+      "VAL_STAN_023",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q15",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2306104",
+    "note": "",
+    "toponym": "Affrica",
+    "modern": "Africa"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___w3id_org_vallisnieri_place_venice",
+    "slug": "https___w3id_org_vallisnieri_place_venice",
+    "type": "place",
+    "label": "Venice",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q773853",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3164603",
+    "note": "",
+    "toponym": "Venezia",
+    "modern": "Venice"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/",
+    "slug": "",
+    "type": "text",
+    "label": "Micrographia curiosa",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_010",
+      "VAL_STAN_012",
+      "VAL_STAN_015",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_004",
+    "slug": "VAL_STAN_004",
+    "type": "text",
+    "label": "VAL_STAN_004",
+    "letters": [
+      "VAL_STAN_004"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/",
+    "slug": "",
+    "type": "place",
+    "label": "",
+    "letters": [
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_010",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_019",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_028",
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "",
+    "toponym": "Santo",
+    "modern": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_005",
+    "slug": "VAL_STAN_005",
+    "type": "text",
+    "label": "VAL_STAN_005",
+    "letters": [
+      "VAL_STAN_005"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_006",
+    "slug": "VAL_STAN_006",
+    "type": "text",
+    "label": "VAL_STAN_006",
+    "letters": [
+      "VAL_STAN_006"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_007",
+    "slug": "VAL_STAN_007",
+    "type": "text",
+    "label": "VAL_STAN_007",
+    "letters": [
+      "VAL_STAN_007"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+    "slug": "https___w3id_org_vallisnieri_person_orsi_quaranta",
+    "type": "person",
+    "label": "Orsi, Quaranta",
+    "letters": [
+      "VAL_STAN_007",
+      "VAL_STAN_015",
+      "VAL_STAN_018",
+      "VAL_STAN_027",
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+    "slug": "https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+    "type": "person",
+    "label": "Sbaraglia, Unknown",
+    "letters": [
+      "VAL_STAN_007",
+      "VAL_STAN_008"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_008",
+    "slug": "VAL_STAN_008",
+    "type": "text",
+    "label": "VAL_STAN_008",
+    "letters": [
+      "VAL_STAN_008"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_009",
+    "slug": "VAL_STAN_009",
+    "type": "text",
+    "label": "VAL_STAN_009",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_010",
+    "slug": "VAL_STAN_010",
+    "type": "text",
+    "label": "VAL_STAN_010",
+    "letters": [
+      "VAL_STAN_010"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_011",
+    "slug": "VAL_STAN_011",
+    "type": "text",
+    "label": "VAL_STAN_011",
+    "letters": [
+      "VAL_STAN_011"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_012",
+    "slug": "VAL_STAN_012",
+    "type": "text",
+    "label": "VAL_STAN_012",
+    "letters": [
+      "VAL_STAN_012"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_013",
+    "slug": "VAL_STAN_013",
+    "type": "text",
+    "label": "VAL_STAN_013",
+    "letters": [
+      "VAL_STAN_013"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/https___w3id_org_vallisnieri_place_https___w3id_org_vallisnieri_place_affrica",
+    "slug": "https___w3id_org_vallisnieri_place_https___w3id_org_vallisnieri_place_affrica",
+    "type": "place",
+    "label": "Affrica",
+    "letters": [
+      "VAL_STAN_013",
+      "VAL_STAN_023",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q27721519",
+    "gbif": "",
+    "geonames": "",
+    "note": "",
+    "toponym": "Francia",
+    "modern": "Affrica"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_014",
+    "slug": "VAL_STAN_014",
+    "type": "text",
+    "label": "VAL_STAN_014",
+    "letters": [
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_015",
+    "slug": "VAL_STAN_015",
+    "type": "text",
+    "label": "VAL_STAN_015",
+    "letters": [
+      "VAL_STAN_015"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_016",
+    "slug": "VAL_STAN_016",
+    "type": "text",
+    "label": "VAL_STAN_016",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_017",
+    "slug": "VAL_STAN_017",
+    "type": "text",
+    "label": "VAL_STAN_017",
+    "letters": [
+      "VAL_STAN_017"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_018",
+    "slug": "VAL_STAN_018",
+    "type": "text",
+    "label": "VAL_STAN_018",
+    "letters": [
+      "VAL_STAN_018"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_019",
+    "slug": "VAL_STAN_019",
+    "type": "text",
+    "label": "VAL_STAN_019",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_020",
+    "slug": "VAL_STAN_020",
+    "type": "text",
+    "label": "VAL_STAN_020",
+    "letters": [
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_021",
+    "slug": "VAL_STAN_021",
+    "type": "text",
+    "label": "VAL_STAN_021",
+    "letters": [
+      "VAL_STAN_021"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_022",
+    "slug": "VAL_STAN_022",
+    "type": "text",
+    "label": "VAL_STAN_022",
+    "letters": [
+      "VAL_STAN_022"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_023",
+    "slug": "VAL_STAN_023",
+    "type": "text",
+    "label": "VAL_STAN_023",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_024",
+    "slug": "VAL_STAN_024",
+    "type": "text",
+    "label": "VAL_STAN_024",
+    "letters": [
+      "VAL_STAN_024"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_025",
+    "slug": "VAL_STAN_025",
+    "type": "text",
+    "label": "VAL_STAN_025",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_026",
+    "slug": "VAL_STAN_026",
+    "type": "text",
+    "label": "VAL_STAN_026",
+    "letters": [
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_027",
+    "slug": "VAL_STAN_027",
+    "type": "text",
+    "label": "VAL_STAN_027",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/monte_baldo_veronese",
+    "slug": "monte_baldo_veronese",
+    "type": "place",
+    "label": "Monte Baldo",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1945737",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3177087",
+    "note": "",
+    "toponym": "Monte Baldo veronese",
+    "modern": "Monte Baldo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/parma",
+    "slug": "parma",
+    "type": "place",
+    "label": "Parma",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2683",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3171457",
+    "note": "",
+    "toponym": "Parma",
+    "modern": "Parma"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/naples",
+    "slug": "naples",
+    "type": "place",
+    "label": "Naples",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q257830",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3172394",
+    "note": "",
+    "toponym": "Napoli",
+    "modern": "Naples"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/basel",
+    "slug": "basel",
+    "type": "place",
+    "label": "Basel",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q78",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2661604",
+    "note": "",
+    "toponym": "Basilea",
+    "modern": "Basel"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/s_giustina",
+    "slug": "s_giustina",
+    "type": "place",
+    "label": "San Giustina in Colle",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": "",
+    "toponym": "S. Giustina",
+    "modern": "San Giustina in Colle"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_028",
+    "slug": "VAL_STAN_028",
+    "type": "text",
+    "label": "VAL_STAN_028",
+    "letters": [
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_029",
+    "slug": "VAL_STAN_029",
+    "type": "text",
+    "label": "VAL_STAN_029",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_030",
+    "slug": "VAL_STAN_030",
+    "type": "text",
+    "label": "VAL_STAN_030",
+    "letters": [
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "note": ""
+  }
+]

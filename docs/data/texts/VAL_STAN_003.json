@@ -1,0 +1,61 @@
+{
+  "id": "VAL_STAN_003",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_003\nDATE: 1706-01-10\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del signor ##ANN21## dedicato all’oscuro mio nome, dov’espone un caso d’innocente veleno e si sforza con istile basso e familiare di renderne le ragioni. Potrà vostra signoria illustrissima col suo alto intendimento ritrovarne di più palpabili, o corroborare le dette con più energia. Avevo ragione di non vedere risposte dal signor ##ANN12##, se ha mutato cielo. Vogli Iddio che muti fortuna, o che si stanchi almeno una volta di flagellare a torto un uomo di tanto merito.  \n\nHo fatto anch’io adesso un bell’acquisto per la mia galleria. Ho avuta una mascella di balena che pesa da cento libbre, un ##ANN3##, un ##ANN14## intero ben imbalsamato de’ mari di Sicilia, una testa di cane carcaria, una lunghissima e grossa sega del pesce spada dell’oceano, una spada del pesce spada de’ mari di Sicilia, un ##ANN9##, il quale m’ha asserito questo eminentissimo cardinale ##ANN18## d’averlo veduto volare sopra tutta la città di Portogallo, un ##ANN7##, un grossissimo e scabbro ##ANN6##, un ##ANN13##, un ##ANN10## detto orbis da Plinio, una ##ANN15##, moltissimi ##ANN11## curiosi per la vivezza de’ colori e grossezza e durezza loro, tutte le ##ANN4##, quattro sorti di ",
+      "entity": null
+    },
+    {
+      "text": "miniere d’argento vivo",
+      "entity": {
+        "text": "miniere d’argento vivo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", tutti i vetri colorati che si fanno in Murano, una ",
+      "entity": null
+    },
+    {
+      "text": "tartaruga marina",
+      "entity": {
+        "text": "tartaruga marina",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " ed un grosso cranio d’un’altra, due teste di pelecani con lunghi e curiosi rostri, dattili dentro i marmi durissimi d’Istria, ##ANN19## dentro la creta d’Ancona, e cento altre curiosità naturali, che mi danno occasione di rivolgere i libri e cercarne la nascita, i costumi, tutta l’idea. Portai pure dal mio viaggio due muli carichi de varie cose, che non saranno l’ultime del mio nascente museo, e ne aspetto dell’altre per mezzo d’un amico potente dalle coste dell’Affrica e da altre parti. I sali favoritemi per essere in una camera un poco umida e per i continui scilocchi che qui spirano, m’andavano tutti a spasso se presto non me n’avedevo, onde l’usura fatta avea poco buon fine. \n\nPorti i miei rispetti a cotesti miei stimatissimi padroni signori ##ANN16## e ##ANN20##, siccome al signor ",
+      "entity": null
+    },
+    {
+      "text": "Quaranta Orsi",
+      "entity": {
+        "text": "Quaranta Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " e suo signor figlio, e m’avvisino se vogliono venire a Padoa, poiché verso il fine di Carnevale sono in impegno d’andare a Venezia, onde sollecitino i loro da me sempre riveriti favori.  \n\nL’abbraccio caramente, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri  ",
+      "entity": null
+    }
+  ]
+}

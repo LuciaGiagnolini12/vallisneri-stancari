@@ -1,0 +1,61 @@
+{
+  "id": "VAL_STAN_006",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_006\nDATE: 1706-05-21\nFROM: ##ANN1## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 21 maggio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nRicevei il suo compitissimo foglio in letto travagliato da una ",
+      "entity": null
+    },
+    {
+      "text": "terzana rabbiosa",
+      "entity": {
+        "text": "terzana rabbiosa",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", che m’ha tenuto 30 giorni in letto e 40 in casa, e se non era la china chinata, che volli contro il parere d’alcuni miei amici, vi sarei ancora. Ora rescrivo, guardo il fascio delle lettere, a cui devo rispondere, e truovo la sua compitissima. Mandai con rossore il mio libretto de’ dialoghi, primo parto degli anni pieni di caldo e con poco giudicio. Vi mancano le figure degl’##ANN10## e l’introduzione, e molte ciancie vorrebono levate. Per altro le osservazioni sono verissime, fatte e riffatte. Aspetto anch’io gli accennati suoi parti, che saranno maturi e perfetti e degni d’ammirazione.  \n\nÈ in una città degna de’ suoi studi il nostro signor ##ANN7##, e mi rallegro sommamente con vostra signoria illustrissima e col signor ##ANN9## dell’invito giustissimo per entrare in quella nascente Accademia, nella quale faranno spiccare il loro valore. Godo che levi da quella tomba di cantina le miniere, e restituisca alla luce e a miglior uso. Quando sarò a casa le manderò varie cose curiose, e mi rimmetterò poi a lei circa al rimmandarmi l’equivalente. Pareva che avessi fatto un buon baratto co’ ##ANN13##, ma mi scrive mio ##ANN12##llo che i venti sciroccali ne hanno sciolta una parte e m’hanno ruinate varie cose di mia premura con l’acqua fluente e raccolta da loro, sicché bisognerà riffarmi.  \n\nLe mando un caso d’un sudor di sangue mirabile e vero con un ",
+      "entity": null
+    },
+    {
+      "text": "miracolo finto",
+      "entity": {
+        "text": "miracolo finto",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ". Un frate se ne voleva approfittare. Le invio pure un altro caso d’una portentosa diabete, ma dubbito della verità. Se vorrà il raziocinio che segue, lo manderò.  \n\nI miei soliti inchini. Il nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": " decoro di questo studio la riverisce, ed io mi protesto inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri \n\nSignor Vittorio Francesco Stancari ",
+      "entity": null
+    }
+  ]
+}

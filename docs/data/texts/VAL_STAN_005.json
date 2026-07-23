@@ -1,0 +1,48 @@
+{
+  "id": "VAL_STAN_005",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_005\nDATE: 1706-02-13\nFROM: ##ANN4## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nVenezia adì 13 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nCon l’occasione che sono in Venezia, ho ritrovato un ",
+      "entity": null
+    },
+    {
+      "text": "libretto de’ miei dialoghi",
+      "entity": {
+        "text": "libretto de’ miei dialoghi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "specimen",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", il quale ho ardire d’indirizzare a vostra signoria illustrissima per mezzo del compitissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "marchese Bentivogli",
+      "entity": {
+        "text": "marchese Bentivogli",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": ". La prego a guardarlo con occhio tutto benigno, perché egli è uno de’ primi parti che uscirono dalla mia arditissima penna, isporcato poi anche da centinaia d’errori dalla negligentissima negligenza dell’avaro stampatore.  \n\nI miei soliti inchini, ed abbracciandola col cuore resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

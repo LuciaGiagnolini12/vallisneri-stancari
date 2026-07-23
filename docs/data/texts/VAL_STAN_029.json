@@ -1,0 +1,61 @@
+{
+  "id": "VAL_STAN_029",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_029\nDATE: 1708-07-05\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 5 luglio 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nOh che rabbia ebbi l’altro giorno, quando passò il nostro stimatissimo signor conte Marsigli, che domandò di mia persona, ed ero quella matina a desinare col signor ##ANN3## nobile veneto, e non potei vederlo. Ora gli scrivo, e mando a vostra signoria illustrissima la lettera acciocché subito gliela faccia recapitare, rallegrandomi e con lui, e con la patria, e con vostra signoria illustrissima, e meco stesso d’un tanto acquisto. Oh adesso sì che fiorirà la «Galleria», e la soda e buona letteratura! Le scrissi un’altra, e non ebbi risposta. Non ho mai potuto fornire il mio discorso de’ cervelli impietriti per le visite di molto infermi premurosissime, fra quali v’era il ",
+      "entity": null
+    },
+    {
+      "text": "serenissimo di Mantova",
+      "entity": {
+        "text": "serenissimo di Mantova",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": ", che medicavo insieme con il ##ANN15##, ##ANN11##, ##ANN14## suo medico, e si sente anche il parere del signor ##ANN8##. Ma fra tutti non abbiamo potuto trovare il rimedio della morte, essendo volato al cielo questa matina a ore dieci, dopo avere fatto tutto quello deve fare ottimo Prencipe catolico.  \n\nSaprei volentieri cosa fa il ##ANN10##, e se è più inter vivos. Il nostro ",
+      "entity": null
+    },
+    {
+      "text": "signor Morgagni",
+      "entity": {
+        "text": "signor Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": " è per partirsi per Venezia, essendo stato ad onorare Padoa. Adì 6 ricevo la sua gentilissima. Il mio figlio sta bene, ed oggi che ha compito un mese si battezzerà e sarà un di lei servitore, come son io. Mi rallegro della descrizione de’ semi de ##ANN16## che va facendo, e dirà sempre più vostra signoria illustrissima degli altri, e illuminerà i ciechi se così seguiterà il buon gusto, addio nascimenti spontanei. La ringrazio del gradimento della mia lettera sopra la pioggia de’ ##ANN17##, ed altre credute prodigiose. Io le stimo, come ha letto, scherzi della natura. Se tocco il punto, godo, se no, la prego avvisarmi per carità. La prego a mandare l’inclusa al nostro ",
+      "entity": null
+    },
+    {
+      "text": "Conte Luigi",
+      "entity": {
+        "text": "Conte Luigi",
+        "entity_id": "https://w3id.org/vallisnieri/text/",
+        "type": "person",
+        "label": "Micrographia curiosa"
+      }
+    },
+    {
+      "text": ", che una volta trionferà sopra i suoi emoli. \n\nL’abraccio in fretta, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

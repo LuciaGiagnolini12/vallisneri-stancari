@@ -1,0 +1,22 @@
+{
+  "id": "VAL_STAN_030",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_030\nDATE: 1708-10-03\nFROM: Antonio Vallisneri \nTO: Vittorio Francesco ##ANN5##\n\nPadoa 3 ottobre 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo sospeso lo scrivere al mio signor Stancari, poiché in Venezia nel portarmi alla patria ebbi nuove funeste della di lei salute, ora nel rittornare a Padoa in passando per il Finale ho inteso dal signor ##ANN2##, che colà è medico ben degno, ch’ella sta bene e che il ##ANN1## è morto. Mi rallegro ch’essa stia bene tanto quanto d’un mio fratello, ed avevo un acerbo travaglio della sua indisposizione. Nulla importa del camaleonte, poiché adesso n’ho avuto un altro, ch’è femmina, e questa matina ha fatto 24 uova belissime grosse più che quelle di ##ANN7##, e le ho messe a nascere.  \n\nUna volta le mandai una lettera con dentro una diretta al signor tenente generale ##ANN3##, ma non ebbi risposta nè dall’uno nè dall’altro. Ora saprei volontieri nuove d’entrambi, e di grazia mi consoli con due sole sue righe.  \n\nIo per l’avvanti starò in Padoa, e qui aspetterò qualcheduno de’ suoi riveriti commandi.  \n\nHo compito il discorso sopra il cervello di ##ANN9## impietrito, e se avrò tempo ne farò l’estratto e lo manderò all’Accademia, quando ella me lo consegli.  \n\nNon ho veduto questa volta il signor ##ANN4## in Venezia, poiché appena ho toccate quell’acque. Riverisca ben di cuore cotesti signori fratelli Manfredi, e dica loro che il signor suo fratello ch’è al Finale non degenera punto dal dottissimo loro stipite.  \n\nLa riverisco, e resto di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Antonio Vallisneri"
+      }
+    },
+    {
+      "text": " \n\n \n \n \n \n \n \n \n \n \n \n \n",
+      "entity": null
+    }
+  ]
+}

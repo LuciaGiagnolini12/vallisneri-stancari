@@ -1,0 +1,48 @@
+{
+  "id": "VAL_STAN_026",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_026\nDATE: 1708-03-19\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 19 marzo 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo ricevuto le figure del ",
+      "entity": null
+    },
+    {
+      "text": "cervello petrificato",
+      "entity": {
+        "text": "cervello petrificato",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "specimen",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " del Museo Aldrovandi con le notizie e spiegazioni necessarie. Mi pare bene che il pittore l’abbia disegnato assai grossolanamente, poiché ha pochi risalti, o poche ombre, parendomi che non fosse tanto liscio da per tutto. Nulladimeno lo porrò tal quale l’ha mandato. Sono bene molto obbligato al signor ##ANN6##, che m’esebisce con tanta gentilezza le sue osservazioni, che ha fatto sopra il cervello suddetto, e le riceverò volentieri, assicurandolo da uomo d’onore che non tacerò il suo nome, e le lodi dovute, ed anch’io gli parteciperò le mie, che per le vacanze di questa Pasqua terminerò. Io ho un pensiere in capo curioso, che a quest’ora mi pare abbastanza provato da alcune esperienze fatte sopra i creduti cervelli, avendo rotto i miei senza compassione, e volutone vedere il ##ANN7##. Sentirà un giorno i miei spropositi. Anzi dica al signor Donelli, riverendolo ben di cuore a nome mio, che coll’occasione che farà la giunta al libro dell’Aldrovandi io lo servirò dove si degnerà commandarmi, parendo a me d’avere nella storia della natura molte cosette non ancora ben’osservate, o malamente spiegate. Io avrei bisogno di venire a stare sei mesi in Bologna, che facessimo molte osservazioni, ma quell’uxorem duxi ruina tutti i miei disegni. È uscita finalmente la stampa dell’##ANN5## col nome della loro riveritissima Accademia, e ne manderò una copia per la prima occasione fuori di posta. Più ancora abbiamo il nostro signor ##ANN4## tutto assiduo alle lezioni notomiche nostre del Bo, e m’imagino che ora rida, ora entri in collera a vedere una ",
+      "entity": null
+    },
+    {
+      "text": "beccheria",
+      "entity": {
+        "text": "beccheria",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " etc.  \n\nL’abbraccio col cuore e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

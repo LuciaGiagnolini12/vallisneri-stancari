@@ -1,0 +1,407 @@
+[
+  {
+    "id": "VAL_STAN_001",
+    "date": "1705-08-16",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 9,
+      "place": 9,
+      "organism": 2
+    },
+    "total_entities": 23
+  },
+  {
+    "id": "VAL_STAN_002",
+    "date": "1705-12-03",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 7,
+      "place": 6,
+      "organism": 12
+    },
+    "total_entities": 28
+  },
+  {
+    "id": "VAL_STAN_003",
+    "date": "1706-01-10",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 8,
+      "place": 8,
+      "specimen": 1,
+      "organism": 13
+    },
+    "total_entities": 33
+  },
+  {
+    "id": "VAL_STAN_004",
+    "date": "1706-02-05",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 7,
+      "person": 5,
+      "place": 4,
+      "organism": 5
+    },
+    "total_entities": 21
+  },
+  {
+    "id": "VAL_STAN_005",
+    "date": "1706-02-13",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 4,
+      "place": 2,
+      "specimen": 4,
+      "organism": 4
+    },
+    "total_entities": 17
+  },
+  {
+    "id": "VAL_STAN_006",
+    "date": "1706-05-21",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 6,
+      "place": 4,
+      "organism": 7,
+      "specimen": 1
+    },
+    "total_entities": 21
+  },
+  {
+    "id": "VAL_STAN_007",
+    "date": "1706-07-20",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 2,
+      "person": 6,
+      "place": 2,
+      "organism": 2
+    },
+    "total_entities": 12
+  },
+  {
+    "id": "VAL_STAN_008",
+    "date": "1706-08-20",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 2,
+      "person": 5,
+      "place": 4,
+      "organism": 2
+    },
+    "total_entities": 13
+  },
+  {
+    "id": "VAL_STAN_009",
+    "date": "1706-11-04",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 7,
+      "place": 7,
+      "organism": 14,
+      "specimen": 3
+    },
+    "total_entities": 34
+  },
+  {
+    "id": "VAL_STAN_010",
+    "date": "1707-01-27",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 6,
+      "institution": 1,
+      "place": 3,
+      "organism": 5
+    },
+    "total_entities": 18
+  },
+  {
+    "id": "VAL_STAN_011",
+    "date": "1707",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 2,
+      "person": 9,
+      "place": 5,
+      "organism": 4
+    },
+    "total_entities": 20
+  },
+  {
+    "id": "VAL_STAN_012",
+    "date": "1707-03-24",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 6,
+      "person": 6,
+      "place": 7,
+      "organism": 6
+    },
+    "total_entities": 25
+  },
+  {
+    "id": "VAL_STAN_013",
+    "date": "1707-04-21",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 5,
+      "place": 3,
+      "organism": 3
+    },
+    "total_entities": 14
+  },
+  {
+    "id": "VAL_STAN_014",
+    "date": "1707-05-23",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 5,
+      "person": 8,
+      "place": 6,
+      "organism": 8,
+      "specimen": 1
+    },
+    "total_entities": 28
+  },
+  {
+    "id": "VAL_STAN_015",
+    "date": "1707-06-23",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 5,
+      "person": 10,
+      "place": 7,
+      "organism": 7,
+      "specimen": 1
+    },
+    "total_entities": 30
+  },
+  {
+    "id": "VAL_STAN_016",
+    "date": "1707-07-14",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 6,
+      "person": 15,
+      "place": 12,
+      "organism": 16,
+      "specimen": 1
+    },
+    "total_entities": 50
+  },
+  {
+    "id": "VAL_STAN_017",
+    "date": "1707-07-31",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 5,
+      "person": 8,
+      "place": 8,
+      "organism": 5
+    },
+    "total_entities": 26
+  },
+  {
+    "id": "VAL_STAN_018",
+    "date": "1707-09-12",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 6,
+      "person": 9,
+      "place": 5,
+      "organism": 4,
+      "specimen": 1
+    },
+    "total_entities": 25
+  },
+  {
+    "id": "VAL_STAN_019",
+    "date": "1707-10-05",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 11,
+      "place": 13,
+      "organism": 14
+    },
+    "total_entities": 41
+  },
+  {
+    "id": "VAL_STAN_020",
+    "date": "1707-10-29",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 4,
+      "person": 5,
+      "place": 9,
+      "organism": 8
+    },
+    "total_entities": 26
+  },
+  {
+    "id": "VAL_STAN_021",
+    "date": "1707-11-24",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 6,
+      "person": 6,
+      "place": 4,
+      "organism": 4
+    },
+    "total_entities": 20
+  },
+  {
+    "id": "VAL_STAN_022",
+    "date": "1707-12-05",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 7,
+      "person": 7,
+      "place": 4,
+      "organism": 8
+    },
+    "total_entities": 26
+  },
+  {
+    "id": "VAL_STAN_023",
+    "date": "1708-02-01",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 4,
+      "person": 7,
+      "place": 7,
+      "organism": 9,
+      "specimen": 3
+    },
+    "total_entities": 30
+  },
+  {
+    "id": "VAL_STAN_024",
+    "date": "1708-02-10",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 4,
+      "person": 6,
+      "place": 5,
+      "specimen": 1,
+      "organism": 2
+    },
+    "total_entities": 18
+  },
+  {
+    "id": "VAL_STAN_025",
+    "date": "1708-03-06",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 7,
+      "person": 14,
+      "place": 10,
+      "specimen": 3,
+      "organism": 4
+    },
+    "total_entities": 38
+  },
+  {
+    "id": "VAL_STAN_026",
+    "date": "1708-03-19",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 4,
+      "person": 5,
+      "place": 3,
+      "specimen": 1,
+      "organism": 3
+    },
+    "total_entities": 16
+  },
+  {
+    "id": "VAL_STAN_027",
+    "date": "1708-05-09",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 7,
+      "place": 9,
+      "organism": 6,
+      "specimen": 1
+    },
+    "total_entities": 26
+  },
+  {
+    "id": "VAL_STAN_028",
+    "date": "1707-06-10",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 4,
+      "person": 8,
+      "place": 6,
+      "specimen": 1,
+      "organism": 2
+    },
+    "total_entities": 21
+  },
+  {
+    "id": "VAL_STAN_029",
+    "date": "1708-07-05",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 4,
+      "person": 13,
+      "place": 7,
+      "organism": 5
+    },
+    "total_entities": 29
+  },
+  {
+    "id": "VAL_STAN_030",
+    "date": "1708-10-03",
+    "from": "Antonio Vallisneri",
+    "to": "Vittorio Francesco Stancari",
+    "counts": {
+      "text": 3,
+      "person": 5,
+      "place": 4,
+      "organism": 5
+    },
+    "total_entities": 17
+  }
+]

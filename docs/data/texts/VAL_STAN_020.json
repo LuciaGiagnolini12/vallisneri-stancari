@@ -1,0 +1,74 @@
+{
+  "id": "VAL_STAN_020",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_020\nDATE: 1707-10-29\nFROM: ##ANN1## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 29 ottobre 1707  \n\nModo di governare il ##ANN4## \n\nSi ponga sopra una finestra la matina, dove batte il sole, ma però in sito, che possa anche ritirarsi all’ombra, poiché osservo che doppo riscaldato si ritira. Se fosse sopra un vaso di agrumi e simile, dove sia del verde, vi starà più volentieri. Si tenga legato, perché fugge. Si guardi dai ##ANN10##, poiché l’uccidono. Riscaldato alquanto dal sole si diano quattro o sei ",
+      "entity": null
+    },
+    {
+      "text": "tarme da farina",
+      "entity": {
+        "text": "tarme da farina",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", delle quali si è golosissimo, come hanno veduto, o più, se le piace, mangiandone sino 12 o 15 al giorno. Ogni due o tre giorni, mentre apre la bocca per mordere che s’avvicina, si lasciano bellamente cadere in bocca tre o quattro goccie d’acqua limpida, ovvero si metta acqua sopra foglie di ",
+      "entity": null
+    },
+    {
+      "text": "brassiche",
+      "entity": {
+        "text": "brassiche",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " a poco lontana da lui, che anche a quella suol gittare la lingua e berre. Lo possono anche conservare in una gabbia capace. La sera si chiuda nella sua scatola e si lasci dormire.  \n\nQuesto modo di governare il camaleonte fu fatto per l’estate. Ora cessa il motivo del troppo caldo del sole e del mangiare e berre così frequente. Bisogna adesso guardarlo dal freddo e dal troppo calore del fuoco, acciocché non si soffochi. Se avesse commoda una ",
+      "entity": null
+    },
+    {
+      "text": "cedrara",
+      "entity": {
+        "text": "cedrara",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", dove l’inverno tengono un certo grado proporzionato di fuoco o di calore, sarebbe ottima per conservarlo. Se ne mangia da sè basterà una volta il mese aprirli o far che apra la bocca e mettergli dentro tre o quattro tarme delle suddette col capo schiacciato. Se muore, ne facciano diligente notomia, enfiando i polmoni, che sono di grandezza sterminata a proporzione dell’animale, ed osservino una vescichetta laterale alla trachea che anch’essa si gonfia d’aria con i polmoni, e mi stupisco come sinora non è stata osservata. Noto come respira e inspira l’aria senza alzare e abbassar le costole e senza l’aiuto de’ muscoli. Forse quella vescichetta sarà un diverticolo dell’aria, come hanno le ##ANN9## ed altri ucelli acquajuoli uno stromento, come chiozzola, che deve servir loro quando stanno lungo tempo sott’acqua. Può conservarlo doppo nell’acqua vite canforata. Notino nel levare i polmoni dal suo ventre, per tutto il quale si estendono, che gettano certi ramicelli dentro delle toniche dell’addomine, ed io penso che portino l’aria alla circonferenza del corpo, ch’è piena di minutissimi canali simili a que’ della buccia dell’uovo, come osservano anche gli accademici di Parigi nel ##ANN11##. \n\nIo penso che il camaleonte mandato sia maschio, il quale si è tale gli troveranno due membri genitali, come hanno le ",
+      "entity": null
+    },
+    {
+      "text": "vipere",
+      "entity": {
+        "text": "vipere",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " maschi. Prego il signor Valsalvi a cercare nel nostro camaleonte le orecchie e farne diligente osservazione, poiché sono difficilissime da ritrovare. Osservi pure quella struttura d’occhi particolare non concessa ad alcun altro animale, e troverà qualche cosa di particolare ne’ muscoli. Registri vostra signoria illustrissima tutto l’osservato, come nelle interne viscere, e me l’avvisi, che l’inserirò nel mio tratatello illustrandolo col loro nome. L’argomento che loro mandai servirà per un abbozzo delle mie grossolane osservazioni, che aspettano polimento e l’ultima mano dalla loro diligentissima diligenza. \n\nA.V. ",
+      "entity": null
+    }
+  ]
+}

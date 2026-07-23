@@ -1,0 +1,61 @@
+{
+  "id": "VAL_STAN_027",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_027\nDATE: 1708-05-09\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 9 maggio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nHo ricevuto la sua tardi, e solo li 6 di maggio, e la posta parte di qua il venerdì che fu li 4, onde le rispondo oggi li 9 per la posta di Ferrara, abbenché mi dicano ch’alle volte si perdono o tardano. Riceverò i favori del cervello petrificato dal signor ##ANN10## a suo commodo, non potendo né meno io lavorare adesso attorno la disertazione per le lezioni, né ho potuto farlo nelle brevi vacanze di Pasqua, poiché oltre mille intrighi ho assistito alla correzione d’un libro del signor ##ANN6##, ch’ora è già terminato.  \n\nI semi del ##ANN5## non mi parvero semi per la loro piccolezza, e sovente diversità di struttura. Ma vostra signoria illustrissima, che ha ottimi miscroscopii, giudicio finissimo e pazienza malpighiana, potrà assicurarsi del fatto, disegnarne le figure, e dar l’ultima mano alla cosa. Le mando inclusi i semi del ",
+      "entity": null
+    },
+    {
+      "text": "musco corolloide",
+      "entity": {
+        "text": "musco corolloide",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " anch’essi galantissimi, di bellissimo colore, e degni della sua vista. Prenda anche per me alcuni di quegl’echini con le sue spina, poiché credo sieno differenti da que’ che si trovano in Monte Baldo veronese, non avendo le spina.  \n\nIl prezzo distinto delle calcette, e fazzoletti di Bologna, Milano, Parma, Napoli in Basilea qui niuno lo sa, e ne meno il signor ##ANN11##. Sa bene che più costano e più sono stimati que’ di Napoli. Il signor ##ANN8## ha tre figli, cioè due maschi ed una femmina. Il signor Ermanno e signor ",
+      "entity": null
+    },
+    {
+      "text": "abbate Fardella",
+      "entity": {
+        "text": "abbate Fardella",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " le rendono multiplicati i saluti. L’altr’ieri in una conclusione pubblica in S. Giustina fu argomentato contro l’opinione de’ nascimenti ab ovo in favore d’Aristotele, e il difendente in fine portò molte mie sperienze, e particolarmente quella dell’",
+      "entity": null
+    },
+    {
+      "text": "anguilla",
+      "entity": {
+        "text": "anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " contro i testi d’Aristotele che citò. Ero presente, onde s’imagini che rossore. Tutti gli abbati (ed era in 50 facendosi adesso capitolo) mi guardavano, e tutti gli altri innumerabili uditori, onde avrei voluto avere allora quella pietra di calandrino, che m’avesse renduto invisibile. Gli fui bene obbligato del sommo onore, che non meritavo giammai, ma me presente posero in troppa disperazione la mia modestia. Il fratismo ar(istote)lico che mai disse? \n\nL’abbraccio in fretta, poiché mi chiamano a tavola. Di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

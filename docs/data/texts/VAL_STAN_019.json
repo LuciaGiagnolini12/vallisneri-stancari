@@ -1,0 +1,74 @@
+{
+  "id": "VAL_STAN_019",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_019\nDATE: 1707-10-05\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nTencarola villa del Padoano adì 5 ottobre 1707  \n\nIllustrissimo signor Stancardi mio signore riveritissimo  \n\nIo sono chiuso dalle acque per l’inondazione d’un fiume che ci circonda, onde qui ozioso cerco l’occasione di ingannare il tempo. Il bello si è che non ho carta, e pur le voglio scrivere alcune curiose notizie, che forse non saranno discare alla nostra Accademia di nobili curiosi. Ho avute da un dottissimo amico venuto poco fa da Costantinopoli una razza di piccolissimi semi giallici e di virtù non ultima nell’arte nostra. Si chiamano ##ANN12##, voce araba che significa seme d’India. Raccolgono in loro amendune le virtù della ##ANN7## e dell’##ANN8## poiché sono specifici e potentissimi esterminatori delle febbri intermittenti e della disenteria. L’operazione sua manifesta è provocare il vomito bellamente, e senza empito pericoloso, il che, dati al peso d’una dramma senza pestarli, fanno poco dopo, ed altro non si vede. Bisogna però che costino di particelle eterogenee, con alcune delle quali eccitino il vomito, e con l’altre domino il fermento febbrile e disenterico, altrimenti ogni vomitorio farebbe il medesimo effetto, il che non si osserva. Gliene mando alcuni, acciocché li vegga col suo nobile microscopio e ne scopra la figura almeno esterna, non avendo qui in villa portato meco niente, poiché forse dovrebbe essere scabbro e pungente, irritando con tanta facilità la villosa tunica dello stomaco. Subito giunte ne posi a nascere, ma non si è ancor veduto cosa alcuna, non essendo state queste come i pini affricani, che così felicemente mi germogliarono.  \n\nMi diede l’amico saggio altre notizie, che come nuove stimerò che nè a lei nè a questi dottissimi signori saranno ingrate. Badiano è una ##ANN14## che rinchiude in sè alcuni grani ritondi e grossi, come que’ del pepe commune, i quali masticati o bolliti rendono gratissimo odore di finocchio, ma più aromatico e più soave. Questi non hanno uso nella medicina, ma li prendono per delizia, e per lo più sull’erba the o caffè. Sapide è una radice grossa quanto uno de’ nostri ##ANN24##i e gli è simile ancor nel colore, ma il sapore è mordace e masticata rende la scialiva pienamente bianca e spummosa. Si servono di questa i Turchi detti Halvagi, cioè zuccanieri, per far bianco prestamente il zuccaro, cioè con la decozione di questa radice nell’acqua commune fanno bollire e schiumano il zuccaro e riesce assai più bianco del nostro. Questo è guadagno di tempo e di perfezione, poiché in Venezia vi fanno molte e lunghe preparazioni e poi non arriva al candore di quello. ##ANN15## = oti, cioè ",
+      "entity": null
+    },
+    {
+      "text": "erba del pastore",
+      "entity": {
+        "text": "erba del pastore",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ". Di questa si servono per far più vivo e brillante il colore del chermesi, cioè fanno bollire quest’erba con un poco di alume nell’acqua commune e in questa decozione poi fanno bollire la ##ANN9##. Questa si cola, e con la colatura facendo bollire il zuccaro o a consistenza di giulebbe o di conserva etc. lo rende splendidamente vermiglio, la qual arte manca a nostri zuccanieri.  \n\nMa torniamo ai secreti medici, de’ quali ne abbiamo tanto di bisogno ne’ mali particolarmente contumaci e ribelli ad ogni sorta di rimedi, e riescono sovente l’obbrobrio e lo scandalo nostro. Curano le febbri lunghe, il morbo gallico, l’ippocondria e simile con l’",
+      "entity": null
+    },
+    {
+      "text": "arsenico giallo",
+      "entity": {
+        "text": "arsenico giallo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " detto orpimento, dandolo sino a un grano, al che non so se si arischierebbono gli europei, temendo non che un veleno scacciasse o frenasse l’altro, ma che uccidesse il paziente, liberandolo in perpetuo da ogni malore. È ben però vero che lo preparano assai sagacemente prima in tal forma. Ridotto in impalpabile polvere sotto il ##ANN20##, lo mettono in un fiasco di vetro dal collo stretto, sopraponendovi tanto spirito di vino e di terebentina che sopranuoti per la altezza di due deta traverso. Lo fanno stare in infusione o in digestione, per meglio dire, in bagno maria per 24 ore a fuoco lento assai, e l’opra è compita. Mentre si fa la digestione deve essere la bocca del fiasco ben lutata e dopo le ore 24 si apra e si faccia evaporare il fluido lentamente a siccità. Lo tengono per un arcano, ed io stimo non improbabile che que’ due spiriti raddolciscano o involvano o rintuzzino quegli aculei roditori dell’orpimento e lo rendano benigno e dolce rimedio. Ma qui non cessa la loro audacia medica. Danno anche per bocca il ##ANN16##, ma non arrivano a un terzo di grano, e lo danno ne’ suddetti ostichissimi e feroci malori. Lo preparano però prima con il mercurio crudo, mescolandone tanto seco quanto ne può imbevere, ch’è ordinariamente egual parte, e lo mescolano e lo agitano e lo dibattono tanto finattantocché si perda il corso e il lucido suo. Il bello è che lo fanno senza fuoco nè con tante scrupulose sublimazioni, come fanno i nostri chimici nella fabbrica del mercurio dolce, e m’asseriva il suddetto signore averne vedute tanto nell’ordinare il primo quanto il secondo nobilissime cure. Anche questo l’occultano come secreto, e abbenché sieno tenacissimi degli arcani loro, nulladimeno li manifestavano all’amico, stimandolo (come infatti era) dottissimo, per sentire il di lui parere e se sapesse modo di migliorarli. Non è però cosa tanto nuova nella medicina la prescrizione dell’arsenico anche crudo per bocca. Mi soviene che l’##ANN11## nella mineralogia di lui data dello Scrodero, dove tratta dell’arsenico, narra che un certo medico, se non m’inganno per nome ##ANN19##, dava una polvere contro dell’asma nella quale vi metteva un poco d’arsenico in sostanza, e parmi anche che dica che i nostri antichi lo davano nell’asma gravissimo sino a una mezza dramma, citando le lettere del ##ANN22##. È vero che l’acquetta celebre del Petesino mantoano si fa con arsenico solo in poca dosa cotto in una pentola di rame (con acqua a proporzione) non istagnata, ma forse o senza forse il vitriuolo del rame, che è un potentissimo veleno corrosivo unito all’arsenico e cavato dal medesimo, è quello che fa tutto il male, non il solo e semplice arsenico. Anzi, se non la repplicano più e più volte, è infruttuoso il di lei veleno, detergendo più tosto le prime vie, radendo e levando tutte le antiche ostruzioni e posature di fecce, ed i pazienti dopo vengono molto pingui e sanissimi.  \n\nColl’occasione che l’armata francese è stata nella mia patria, osservai con attenzione il loro modo di medicare, particolarmente negli ospitali, dove sono que’ cerusici e medici animosissimi e risoluti. Nelle febbri lunghe davano anch’essi a pazienti un poco d’arsenico, un preparato decotto in acqua semplice, e con felice successo. Alcuni però più scrupulosi e più cauti lo preparavano con sola acquavite e ne davano con maggior sicurezza in copia maggiore. Sicché concludiamo non essere tanto barbaro ed improbabile il modo turchesco di curar co’ veleni i loro infermi per lo più disperati di sanare per altra strada. E chi sa che la prima volta che sono stati trovati questi azzardati rimedi non sia stato il caso, credendo d’uccidere i pazienti, e li risanarono? Così accadette a quell’adultera ed infingarda donna che impaziente di veder morto il marito da un veleno datogli, repplicandone un altro di forze contrarie, lo richiamò alla primiera salute. In tutto però mi rimmetto alle di loro savie ponderazioni, contentandomi di narrare, non di riflettere sopra il narrato.  \n\nHo terminato il discorso sopra l’ovaja delle ##ANN17##, e subito sarò a Padoa lo manderò a Venezia al nostro stimatissimo signor Morgagni, acciocché letto, a vostra signoria illustrissima l’invii. Mandai un’altra assai grossa con varie stampe, cioè quella della ",
+      "entity": null
+    },
+    {
+      "text": "mosca rosisecca",
+      "entity": {
+        "text": "mosca rosisecca",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", e quella del ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", e suppongo l’abbia ricevuta. Io voleva veramente per essere troppo onerosa francarla, ma il postiglione mi disse che non hanno un tal commercio con que’ di Bologna, e non volle l’impegno. Compatisca dunque il tedio e la spesa, e incolpi la sua generosa benignità.  \n\nIntanto m’onori di qualche commando e creda che sono e sarò sempre di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "VAL_STAN_002",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_002\nDATE: 1705-12-03\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 3 dicembre 1705 \n\nIllustrissimo signor mio padrone singolarissimo \n\nTardi rispondo al gentilissimo foglio di vostra signoria illustrissima, perché tardi sono giunto a Padoa, avendo consumati 20 giorni in circa in questo breve viaggio, per essere stato inchiodato dalla strabocchevole copia d’acqua ora in un luogo ora in un altro con ##ANN18##colo anche della vita. Basta dirle che una rotta del Panaro trasportò la barca giù dell’alveo del fiume in un vicino bosco, onde bisognò che tutti lavorassimo d’accordo appiccandosi alle cime degli alberi, tanto che la fermammo. Giunti con istento a Lago scuro vidi un altro spettacolo, cioè uno venire giù per il Po nel bel mezzo attaccato ad una stuora, che a caso avea abbrancolata, e teneva fuora il capo dall’acqua, onde fu preso ancor vivo ed io gli assistei a fargli ricuperare il primiero vigore, il che accrebbe in me lo spavento. Creda, o mio signore, che quell’era un abozzo dell’universale diluvio. Case e chiese diroccate, ##ANN6## et uomini morti, cielo et acqua. Ora sono lode a Dio e al santo mio protettore in porto, e lasciamo un poco queste passate melancolie, discorrendo di cose più allegre. Il mio viaggio è stato di due mesi così lungo e pieno d’osservazioni, che farei un libro, non una lettera. Oltre che lo scrivere una cosa separata dall’altra non comparirebbe nulla. Bisogna che tutte le indirizzi a un fine, come son dietro, e le vedrà poi un giorno con qualche ordine. Non voglio però disgustarla, e che venga alla di lei mano questa mia senza qualche esperimentale tintura. L’animo suo dottissimo e gentile avezzo in un’Accademia sì colta gradirà forse più per ora qualche osservazione d’un’altra Accademia, che un rozzo ammasso di cose mie selvatiche ancora et indigeste.  \n\nPer vedere que’ savi accademici di Pisa se vi sia veramente aria nelle uova, ne’ ##ANN8##, nell’##ANN16##, ne’ ##ANN17##, ##ANN9##, ##ANN10##, ne’ vasi sanguigni, e cose tali, per quali vie entri od esca, qual quantità vi si truovi, e come pensarono di porre nella macchina loro pneumatica un vaso di cristalli aperto con acqua, dalla quale cavarono tutta l’aria che poterono, dopo v’immergevano un ##ANN15## in modo che stasse sotto della medesima, poi di nuovo cavavan l’aria. Usciva prima quella della macchina, dopo quella dell’acqua, se di nuovo qualche poca se n’era intrusa, e poi incominciava quella dentro all’uomo ad uscire, come a spilli per que’ piccoli pori che s’osservano ne’ dintorni del di lui guscio, e salendo su per l’acqua ad occhi veggenti bullicava al di sopra della medesima. Col quale sperimento hanno confermate le vie dell’aria nell’uovo osservate dal ##ANN7## e veggendo d’onde scappa principalmente e in quale quantità, hanno rinvenuto il loro sito e le di loro boccuccie. Così fecero co’ ##ANN14##, peri e ",
+      "entity": null
+    },
+    {
+      "text": "frutti varii",
+      "entity": {
+        "text": "frutti varii",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", ed osservarono che pochissima ne scappava dalla buccia, e molta dal luogo del fiore e del gambo, o picciuolo, con cui stavano appeso al ramo. Il che conferma le osservazioni del nostro commendabilissimo ##ANN5##. Posti ##ANN11##, rami, radici, frondi e simili diedero tutti quell’aria che contenevano, e chi per un sito chi per un altro, chi più e meno giusta la loro natura. Il che non poteva mai scoprirsi con sicurezza, se non mediante quell’acqua che mostra que’ raggi o quelle linee, dirò così, d’aria, quando scappa da suoi vaseletti, o cannellini, ne’ quali stava rinchiusa, ascendendo con giocondo spettacolo alla superficie dell’acqua, e facendo come una pioggia d’aria al rovescio. Da ciò si può sapere quali cose siano più pregne d’aria, o più flattuose, per dirla col volgo degli antichi, e quali meno, e per quali strade si insinui od esca.  \n\nHanno pure osservata molt’aria nel ##ANN12## con vari e repplicati sperimenti. Fra gli altri non ottiene per avventura l’ultimo luogo quello di legare sotto e sopra una grossa vena o arteria prima di cavarla dal corpo, poi posta nella macchina suddetta, cavare tutta l’aria, perloché enormemente si gonfiava. Dopo la tagliavano con un ordigno congegnato a posta con bell’arte senza riaprire la macchina, e vedevano molte bolle uscir fuora, ed il mercurio in un piccolo barometro tornare ad ascendere. Il che dicevano non possono fare gli spiriti soli, o altre particelle minute sciolte in vapori, non avendo l’elatere della medesima. Il tutto può vostra signoria illustrissima con questi altri virtuosissimi signori da me tanto stimati repplicare nella sua bella macchina, migliorare gli esperimenti, e raffinarli col sodo loro giudizio, e dare lumi più chiari all’ancor torbida e nera filosofia. Né vidi cose di minor peso e di minore curiosità in Firenze, particolarmente fatte con quel maraviglioso loro specchio ustorio, che scioglie ogni metallo, vetrifica ogn’erba, come anche il formaggio piacentino, calcina, o sfarina, e stritola tutte le gioie e marmi più duri. Fra le gioie il solo diamante non si squaglia né spezza, ma sfuma e cala insensibilmente, e fra marmi il porfido non si calcina né rompe, ma si colliqua come cera, d’indi raffreddato torna a indurarsi. Credono alcuni di que’ signori ciò accadere, perché sia un composto artificiale, di cui si sia perduto il modo di fabbricarlo, non perché sia della razza de’ marmi, al che io feci varie opposizioni, delle quali molte più efficaci gliene suggerirà il di lei purgatissimo giudicio.  \n\nMa veggo fornirsi il foglio, ed io ho stabilito non volerlo passare. Compatisca la rozzezza d’esporre queste ciancie, perché le ho scritte in una volata di penna, non avendo tempo di limarle e trascriverle. Mi rallegro del viaggio fatto sulle montagne del Martignone, e forse verrò questa estate nuovamente a riverirla per imparar qualche cosa. La prego avvisarmi se il nostro signor conte Luigi Marsigli è più in Milano, poiché gli scrissi e non ho avuta risposta.  \n\nI miei inchini a cotesti signori tutti, e segnatamente al signor ##ANN13## e signor ",
+      "entity": null
+    },
+    {
+      "text": "Manfredi",
+      "entity": {
+        "text": "Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "person",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": ", e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri \n\n ",
+      "entity": null
+    }
+  ]
+}

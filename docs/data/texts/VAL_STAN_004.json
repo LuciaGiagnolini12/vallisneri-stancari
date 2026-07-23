@@ -1,0 +1,48 @@
+{
+  "id": "VAL_STAN_004",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_004\nDATE: 1706-02-05\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 5 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nAndava tardando a scrivere a vostra signoria illustrissima, perché aspettava che il negligentissimo ##ANN6## stampasse un certo mio scoprimento nuovo, sopra il quale sentirò volentieri il suo dottissimo parere. Ma perché veggo troppo diferirlo, non posso più tollerare quest’interno prurito e scrivo, com’è mio debito. Farà riverenza all’illustrissimo signor senatore ##ANN9## e signor suo figlio coll’esprimergli il dispiacimento che ho di non poter godere un tanto onore, sperando però che quello che si differisce non si levi. E forse forse questa Pasqua potranno fare una scappata al Santo.  \n\nLe do poi nuova che finalmente ho trovato il seme della ##ANN3## ch’era posta con l’##ANN5##, e poche altre per esempio de’ nascimenti spontanei. Non anderà molto tempo che leggerà a suoi amici un mio scartafaccio sopra di questo e mostrerà le figure. Già gli anni addietro diedi fuora il seme dell’alga marina cercato e trovato felicemente a mia istanza dal mio carissimo amico signor ##ANN7##, il quale mando assieme con la generazione della ##ANN8## scoperta pur dal medesimo, e da me più volte ottenuta coll’esperienza. Arrosisco a mandarle simili bagatelle, ma perché a chi ben pondera ogni minima cosa nella natura è mirabile, e scoperta dà lume all’altre, perciò faccio animo a miei rossori e le invio.  \n\nHo pure già impressa in rame l’effigie d’un ",
+      "entity": null
+    },
+    {
+      "text": "semprevivo di Monte Baldo",
+      "entity": {
+        "text": "semprevivo di Monte Baldo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " non descritto da alcuno, favoritomi da un amico, che anch’esso manderò un giorno, siccome un seme saporitissimo di ",
+      "entity": null
+    },
+    {
+      "text": "pignolo affricano",
+      "entity": {
+        "text": "pignolo affricano",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " non mai veduto da questi botanici, che mi è nato felicemente.  \n\nI miei soliti inchini a tutti gentilissimi e virtuosissimi signori, ed abbracciandola col cuore resto di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri  ",
+      "entity": null
+    }
+  ]
+}

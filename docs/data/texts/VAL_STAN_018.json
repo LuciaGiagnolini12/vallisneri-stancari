@@ -1,0 +1,74 @@
+{
+  "id": "VAL_STAN_018",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_018\nDATE: 1707-09-12\nFROM: Antonio Vallisneri \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 12 settembre 1707  \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nRicevo in Padoa il di lei compitissimo e virtuosissimo foglio, e poco dopo dal sig. ##ANN5## la scatola col lucimetro, sali e fior di ferro, che chiama ##ANN2## pietra tartara. Per quante diligenze io abbia fatto, neanch’io ho potuto trovare alcuna che faccia menzione nè che descriva o disegni l’ovaja dell’##ANN11##, anzi ##ANN6## con la stridola turba de’ suoi seguaci scrive con meraviglia che «numquam semen nec ova viva sunt in anguilla». Esporrò dunque la storia e la manderò alla sua e mia riveritissima Accademia.  \n\nL’amico ha già scritto in Affrica per avere ##ANN7##. Intanto le mando l’argomento del mio libro sopra i medesimi, della quale ne potrà dare notizia a signori nostri accademici e dalla quale caverà molti lumi per fare le sue osservazioni. Quando l’avrà scriverò poi il modo di governarlo. Suppongo che abbia ricevuto un invoglietto che franco di porto le mandai da Reggio con i disegni dell’",
+      "entity": null
+    },
+    {
+      "text": "aculeo della mosca rosiseca",
+      "entity": {
+        "text": "aculeo della mosca rosiseca",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " ed anche della medesima. Giunto in Venezia ne ho avuta per fortuna una copia stampata dall’",
+      "entity": null
+    },
+    {
+      "text": "Albrizzi",
+      "entity": {
+        "text": "Albrizzi",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " con una lettera avvanti fatta da un mio amico, dove avrà molte curiose notizie sopra il suddetto, e vostra signoria illustrissima potrà illustrarle con la sua matematica e leggerle nell’Accademia. Sono nobilissime le di lei savie riflessioni sopra il lucimetro, e mi rallegro sommamente che stimi l’invenzione qualche cosa, mentre un nostro amico nulla la stima, anzi la credeva parto d’un italiano o grosso lombardo, ma si inganna, poiché io ho adesso nelle mani l’operetta in francese e il traduttore non ha mancato tanto, come suppone, avendo bensì parafrasato in molti luoghi, ma non contrafatti i sensi. Dove dicono che dice “linea spirale” si ingannano, ma dice “linea quasi spirale”, onde quel “quasi” diffende il traduttore. Insomma non mi truovo tanto male, come dice un signore veramente dotto, ma alle volte troppo sprezzatore delle fatiche altrui.  \n\nHo veduto il nostro caro e modestissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " in Venezia e m’ha dato nuova che un nostro coaccademico ha osservato anch’esso le mosche rosiseche, onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ##ANN12## in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in Padoa il nuovo matematico, ch’è modestissimo, savio e assai virtuoso, particolarmente nell’algebra. Gli ho portati i di lei saluti cordialissimi, e la risaluta con tutto lo spirito. Ho letto in Reggio le lettere in favore del signor marchese ##ANN13##, fra le quali quanto è dotta, ingegnosa, spiritosa quella del signor ",
+      "entity": null
+    },
+    {
+      "text": "Manfredi",
+      "entity": {
+        "text": "Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "person",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": "! Lo baci in mio nome.  \n\nI miei inchini agli altri amici, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisneri \n\n ",
+      "entity": null
+    }
+  ]
+}

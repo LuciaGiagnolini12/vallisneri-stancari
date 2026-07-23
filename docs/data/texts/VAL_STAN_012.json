@@ -1,0 +1,48 @@
+{
+  "id": "VAL_STAN_012",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_012\nDATE: 1707-03-24\nFROM: ##ANN5## \nTO: ##ANN1##\n\nPadoa 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di vostra signoria illustrissima e di cotesti virtuosissimi signori in farmi l’onore d’ascrivermi nella loro rinomata Accademia. Le rendo quante grazie so, e posso, e lascierò fare alla di lei eloquenza ad esprimere in termini i più vivi e i più espressivi gli ossequiosi sentimenti della mia gratitudine. Se altre volte hanno avuta la bontà di compatire le debolezze mie, benché mezzo selvatiche e forestiere, spero che maggiormente le compatiranno per l’avvenire, considerandole come dimestiche e come concitadine, protegendole ed illustrandole e creando in esse quel merito per genio che non possono aver per natura.  \n\nGodo che abbiano subito scoperti quegli avvelenati fori nell’aculeo dello ##ANN4##, e credo saranno anche in quello de’ nostri. M’è venuto un nido delle ##ANN3## descritto e disegnato dal signor Redi nella sua opera al padre Kircher, siccome m’è venuto un ##ANN7## vivo. Ho disegnato mandare sotto l’esame dell’Accademia nostra una parte dell’uno e tutto l’altro, acciocché ne facciamo la notomia e veggano d’incontrare quanto io osservai che potrà ricavare dall’argomento della mia istoria sopra il suddetto che le mandai. Ho già parlato questa matina all’illustrissimo signor ##ANN6##, acciocché se capita qualche bolognese m’avvisi, siccome l’ho scritto al nostro stimabilissimo signor ##ANN9##.  \n\nL’amico mio chimico adesso è a Vicenza, onde subito venuto gliene farò fare la prova. A me fu dato in Livorno per tale, e con una semplice lente si veggono particelle lucide fra le rosse che rassomigliano al ##ANN11##, ma il fuoco è quell’analista fedele che lo dimostra. Aspetterò un poco della ",
+      "entity": null
+    },
+    {
+      "text": "minera del mercurio d’Ungheria",
+      "entity": {
+        "text": "minera del mercurio d’Ungheria",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "organism",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": " e le altre cose che mi accenna, e se le capita congiontura invii la scatola al signor Morgagni o all’eccellentissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Marchese Filippo Bentivogli",
+      "entity": {
+        "text": "Marchese Filippo Bentivogli",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ", da quali subito l’avrò. Ho dati agli amici eruditi il frontespicio del libro dell’illustrissimo signor ##ANN10##, a cui si contenterà di portare gli umilissimi miei rispetti, come al di lui signor fratello ed altri nostri amici e padroni. \n\nPer la suddetta occasione che spero capiterà manderò il ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "organism",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": " ed altre mie bagatelle, e facendole devotissima riverenza, come a tutti i nostri riveriti accademici, resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n\n ",
+      "entity": null
+    }
+  ]
+}

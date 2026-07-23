@@ -1,0 +1,35 @@
+{
+  "id": "VAL_STAN_028",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_028\nDATE: 1707-06-10\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 10 giugno 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nRispondo tardi, poiché sono stato ne’ travagli acerbissimi, poiché non avendo che un unico figlio è stato questi in punto di morte, e non lo veggo ancor ben sicuro. Spero nulladimeno in Dio, ma mi palpita ancora il cuore.  \n\nHo veduti i semi inviatimi, che già grossamente aveo osservato, tolto quello del ##ANN9##, ch’è murario ordinariamente, in cui ho fatto moltissime curiose osservazioni. Il Petiver inglese gli ha osservati ancor lui, onde mi sono poi fermato, quando mi son trovato prevenuto. È ben vero che l’acutezza de’ di lei microscopii e la finezza del di lei giudizio può trovar molto di più, essendo un mare immenso ogni piccola cosetta della natura, o per dir meglio del grande Iddio, e mi farà sommo favore a parteciparmele, mandandomi le figure.  \n\nPer far servizio a un amico feci l’inclusa lettera, e gliela mandai subito, e la feci in una sola sera, come vostra signoria illustrissima purtroppo conoscerà. Questi ha stampata un’operetta in difesa di ##ANN8##, difendendolo dalle opposizioni fattegli da vari autori. Io l’ho difeso da quella de’ sassi piovuti, ma a mio modo. La lettera sta inserita nel suo libro, e n’ho fatte stampare alcune separate da mandare agli amici, fra quali vostra signoria illustrissima tiene il primo luogo. Se potrà cavarvi niente di buono da partecipare all’Accademia, lo faccia, non avendo potuto far altro sì per le lezioni poco fa terminate, sì per i consulti, e purghe, e cento altre occupazioncelle.  \n\nQui si dice per vera una nuova a lei, a me, a chi ha la fortuna di sapere il merito del nostro conte Marsigli, carissimo. Questa è che venga Generale del Papa. Di grazia m’avvisi subito, se è vero, poiché mi sarà una consolazione indicibile, o inesplicabile.  \n\nCredo che l’abbate nostro Fardella vada a Milano ad inchinar la regina passante, e che sarà regina della sua patria. Se può, vuole abbandonarci, lo che molto mi premerebbe, essendo un amico ingenuo della di lei e mia stampa, e d’altri pochi pochissimi. M’ha imposto che la riverisca, come fa il ##ANN5##.  \n\nCirca gli ##ANN10## faccia quelle poche osservazioni che può, li guardi nel sito loro, in qual positura stanno, se tutti a un modo o confusi di giacitura, in che stato sono, e simili. Non ho mai più lavorato attorno il cervello impietrito di bue, ma se Iddio mi consola colla salute del figlio, e se avrò un poco d’ozio, sarà la prima cosa.  \n\nRiverisca cordialmente i nostri amici comuni, e segnatamente que’ miei due distinti padroni, il signor senatore Orsi e ",
+      "entity": null
+    },
+    {
+      "text": "Signor Marchese Orsi",
+      "entity": {
+        "text": "Signor Marchese Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": ". L’abbraccio, e resto di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

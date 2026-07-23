@@ -1,0 +1,74 @@
+{
+  "id": "VAL_STAN_001",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_001\nDATE: 1705-08-16\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nReggio adì 16 agosto 1705  \n\nIllustrissimo signor mio padrone colendissimo  \n\nDirà bene vostra signoria illustrissima che io sono un uomo zotico o selvatico, non avendole mai scritto dopo il mio arrivo in patria. Compatisca la di lei gentilezza un errore del corpo, non d’animo, posciaché appena salutata la casa mi portai su’ monti vicini, a nuovamente osservare certe cose non bene osservate l’altr’anno. Ora il bollore della stagione ancora su’ luoghi dove gli altr’anni non si conosce mi ha respinto a casa, dove dimorerò sino a settembre, per portarmi poi a Livorno, Genova e Firenze. Ho fatta nuova descrizione della minera del nostro ##ANN10##, e per nominare vostra signoria illustrissima con lode e l’illustrissimo nostro signor ##ANN5## v’ho inserita la serie de’ capi che portai a Bologna, aggiungendovene anche alcuni altri trovati di nuovo, che manderò o porterò quest’altr’anno a Bologna.  \n\nHo avuta lettera responsiva dal ",
+      "entity": null
+    },
+    {
+      "text": "signor conte Luigi Marsilii",
+      "entity": {
+        "text": "signor conte Luigi Marsilii",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+        "type": "person",
+        "label": "Luigi Vittorio Filippo Marsili"
+      }
+    },
+    {
+      "text": ", nella quale l’avvisavo de’ favori ricevuti da lei e della presa serie de’ ##ANN9##, e m’ha risposto che io metta all’ordine delle altre robbe, se voglio nuovi baratti, come m’ingegnerò di fare. Mi ringrazia dell’esibizione fattale d’un mio casino sotto Reggio e di servirlo io in persona su le nostre Alpi, se voleva venire, poiché li suoi interessi lo tengono inchiodato in Milano, abbenché sia stuffo, dove non ha altro divertimento che carteggiar cogli amici e co’ letterati. Tornato da miei viaggi, fornirò il mio strambotto, e facendo osservazioni nuove, le aggiugnerò forse a questo, il quale verrà poi un giorno sotto l’occhio purgatissimo di vostra signoria illustrissima.  \n\nIntanto mi conservi il suo amore, e porti i riveritissimi miei rispetti al ",
+      "entity": null
+    },
+    {
+      "text": "signor Manfredi",
+      "entity": {
+        "text": "signor Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "type": "person",
+        "label": "Manfredi"
+      }
+    },
+    {
+      "text": ", ##ANN8##, ##ANN6##, ",
+      "entity": null
+    },
+    {
+      "text": "signor Valsalvi",
+      "entity": {
+        "text": "signor Valsalvi",
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+        "type": "person",
+        "label": "Giovanni Battista Valsalva"
+      }
+    },
+    {
+      "text": ", ",
+      "entity": null
+    },
+    {
+      "text": "signor Sandri",
+      "entity": {
+        "text": "signor Sandri",
+        "entity_id": "https://w3id.org/vallisnieri/person/sandri_unknown",
+        "type": "person",
+        "label": "Sandri"
+      }
+    },
+    {
+      "text": ", anime tutte elette ad illustrare non solamente la patria, ma l’Italia tutta, ed abbracciandola col cuore resto immutabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

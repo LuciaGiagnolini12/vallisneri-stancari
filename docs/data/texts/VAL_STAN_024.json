@@ -1,0 +1,61 @@
+{
+  "id": "VAL_STAN_024",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_024\nDATE: 1708-02-10\nFROM: ##ANN1## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 10 febbraio 1708 \n\nIllustrissimo signor Stancari, padrone colendissimo \n\nScrissi un’altra a vostra signoria illustrissima, e suppongo l’avrà ricevuta. Ora ho bisogno d’un favore. Nel leggere che ho fatto questi giorni le memorie dell’Accademia di Parigi, v’ho trovato un’istoria di monsieur ",
+      "entity": null
+    },
+    {
+      "text": "Verney il giovane",
+      "entity": {
+        "text": "Verney il giovane",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " sopra un ",
+      "entity": null
+    },
+    {
+      "text": "cervello di bue",
+      "entity": {
+        "text": "cervello di bue",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "specimen",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " capideffatto, a sua detta, di cui porta tre figure. Io ne ho due, ed ho fatto alcune sperienze, e truovo (come le accennai a bocca) ch’ella è materia osseo-capidea, ma non cervello. Ho fatto un lungo discorso sopra tal fatto, e vorrei che vostra signoria illustrissima riverisce a nome mio il signor ##ANN8##, e lo pregasse a mandarmi un disegno del cervello di bue che donò il ##ANN5## al Museo Aldrovandi, con un poco di descrizione della grandezza, del peso, e la figura tanto superiore quanto inferiore. Di grazia non manchi di questo favore, che voglio poi farli ridere col mio discorso. Si stampa adesso in Venezia il discorso dell’##ANN7## con la figura. Alla fine di Carnevale aspetto il nostro signor ##ANN6##.  \n\nLa riverisco in fretta col ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "type": "organism",
+        "label": "Milan"
+      }
+    },
+    {
+      "text": ", resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

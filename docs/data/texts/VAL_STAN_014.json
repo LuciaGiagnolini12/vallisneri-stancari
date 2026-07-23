@@ -1,0 +1,87 @@
+{
+  "id": "VAL_STAN_014",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_014\nDATE: 1707-05-23\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 23 maggio 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo già ricevuto dal gentilissimo e dottissimo signor ##ANN9## il riscontro della pontualità di vostra signoria illustrissima in avermi onorato del fedele recapito della mia insipida dissertazioncella sopra la ##ANN3##, e gliene rendo grazie vivissime. E del lucimetro che dice vostra signoria illustrissima? È riuscibile o no? Due ne faccio lavorare qui in Padoa di struttura diversa e vedremo l’esito, e avviserò. Per l’occasione del Santo forse potrebbono capitare bolognesi, onde manderò il ##ANN10## vivo e qualchecos’altra.  \n\nMi rallegro che lavori attorno al termometro, e perché non intorno al lucimetro? Può vostra signoria illustrissima migliorare anche questo, cambiarlo, perfezionarlo, e la prego caldamente, poiché è divisa l’opinione in sì e in no. Non guardi lo stile, nè i termini, guardi l’invenzione e la migliori.  \n\nIl segreto che lei mi scrive della ristampa dell’##ANN11## è qui pubblico, avendolo detto a tutti il signor ##ANN7## ed un tedesco venuto poco fa da Bologna. Le dico bene che l’istoria degli ",
+      "entity": null
+    },
+    {
+      "text": "animali grandi e minuti",
+      "entity": {
+        "text": "animali grandi e minuti",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " è piena di favole e di fosca ruggine antica, onde chi non lo lima o fa notazioni avrà poco applauso. Io non so cosa alcuna dell’Accademia di Prussia, lo scriverò al nostro ##ANN8## che ne sarà informato.  \n\nÈ verissimo che l’##ANN14## è stato condotto ed io nel tempo stesso onorato d’aumento decoroso e di riccondotta coll’aggregarmi anche al collegio del Duomo. Ciò è riuscito novo a tutti, poiché di 30 e più che anni et anni sospirano gli aumenti e riccondotte, io solo soletto fra gli artisti e prima di tanti più vecchi e più meritevoli di me in tempi così calamitosi sono stato distinto et onorato, poiché appena spirato il termine m’hanno graziato. Lode a Dio e a miei buoni amici e protettori. Io qui adesso mi godo lo stimatissimo signor ##ANN13##, ch’è venuto a sentire l’ultime lezioni chiamiamo “le stracche” e più languide e strappazzate. So che avrò perduto quel poco credito che avevo appresso di lui, ma che devo fare?  \n\nIeri l’altro osservavo un ##ANN6##, poiché volendo costui prendere certi ",
+      "entity": null
+    },
+    {
+      "text": "pidocchi silvestri",
+      "entity": {
+        "text": "pidocchi silvestri",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " andava taston tastone, ora da una parte ora dall’altra della foglia, finché casualmente incontrava in uno di questi e lo prendeva e vivo vivo lo trangugiava. Lo guardai con una buona lente, e vidi che avea i soliti occhi. Lo sentirò descritto dal signor ##ANN15## in una lettera a me indiritta. Io stentavo a crederlo se non l’osservavo con diligenza, e questi è un verme figlio d’una ",
+      "entity": null
+    },
+    {
+      "text": "mosca silvestre",
+      "entity": {
+        "text": "mosca silvestre",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", che fa su le ",
+      "entity": null
+    },
+    {
+      "text": "brassiche",
+      "entity": {
+        "text": "brassiche",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " e ",
+      "entity": null
+    },
+    {
+      "text": "rosai",
+      "entity": {
+        "text": "rosai",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " o dove annidano de’ suddetti pidocchi, il quale poi diventa pur mosca.  \n\nLe mando un invito a Letterati d’Italia, che forse si stamperà. È stato un mio amico che l’ha fatto, e aspetto subito il suo sincero parere. Ma sona la campana e s’avvicina il tempo della lezione. L’abbraccio col cuore e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n\nManderò poi l’invito a Letterati ecc. crescendo troppo di mole la lettera. \n\n ",
+      "entity": null
+    }
+  ]
+}

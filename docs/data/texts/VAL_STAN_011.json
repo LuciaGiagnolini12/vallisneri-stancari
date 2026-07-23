@@ -1,0 +1,61 @@
+{
+  "id": "VAL_STAN_011",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_011\nDATE: 1707\nFROM: ##ANN2## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nIllustrissimo signor mio padrone colendissimo \n\nCon l’occasione che rittorna a Venezia il riveritissimo nostro signor ##ANN9##, la di cui virtù e modestia merita tutte le lodi e l’amore di tutti, fuorché de Padoani, che o non lo conoscono o non lo vogliono conoscere, mando a vostra signoria illustrissima una scatoletta con uno ",
+      "entity": null
+    },
+    {
+      "text": "scorpione affricano",
+      "entity": {
+        "text": "scorpione affricano",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " di que’ descritti e disegnati dal signor ##ANN12##, acciocché nella sua virtuosissima Accademia faccia qualche osservazione. Questa deve essere con un finissimo microscopio intorno all’aculeo, nel quale né il signor Redi né il Padre ##ANN11## poterono mai scoprire i fori pe’ quali scappa fuora quel velenoso succo limpidissimo che insinua nella ferita. Il signor marchese ##ANN5##, un Padre benedettino ed io li trovammo con un esquisito microscopio venuto d’Inghilterra, e sono tre nelle tre facce laterali degli angoli dell’aculeo che fanno triangolare e ci apparirono ovali. Avevano ragione tutti di non trovarli, imperocché guardavano la cima dell’aculeo, che credevano forata, ma questa è di cornea e solida materia, forata solo, come diceva, lateralmente, acciocché nell’imprimere la ferita non venisse chiuso il foro, se fosse stato nella sommità. Parmi un giorno che vostra signoria illustrissima mi dicesse che altri l’hanno scoperto, ma allora (e saranno ben dodici anni) non avevamo avuto alcun lume, e bolliva solamente la lite se vi fossero o non vi fossero questi fori. Invio pure alcune grandi ##ANN4## depredatrici del mio orticello, gli occhi delle quali sono assai curiosi per certe fascie nericcie o filigginose che gli attraversano, ed hanno pure separati da detti altri tubercoletti semisferici lucidissimi, che anch’essi paiono occhi, onde, se tutti fossero, non sarebbe più favoloso l’Argo de’ fantastici poeti.  \n\nM’è giunto un libro manoscritto tradotto dal francese intitolato ##ANN8##, cioè modo di misurare la luce. Non so se ne abbiano notizia. Il ##ANN7## m’ha detto che lo farà stampare nel Seminario, come altre mie bagatelle.  \nMa chiamano in tavola. La riverisco col cuore. Se le capitasse congiontura, e mi volesse mandare di quelle ",
+      "entity": null
+    },
+    {
+      "text": "miniere senza nome",
+      "entity": {
+        "text": "miniere senza nome",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", ho un amico grande esperimentatore e prattico, e ne faressimo le pruove. Se può mi favorisca, come anche d’altre cosette, di quelle che ha doppie. M’avvisi pure se ha ",
+      "entity": null
+    },
+    {
+      "text": "camaleonti",
+      "entity": {
+        "text": "camaleonti",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", che gliene manderò uno, e di nuovo resto di vostra signoria illustrissima devotissimo servitore obbligatissimo A.V. ",
+      "entity": null
+    }
+  ]
+}

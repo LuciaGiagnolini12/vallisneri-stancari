@@ -1,0 +1,87 @@
+{
+  "id": "VAL_STAN_022",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_022\nDATE: 1707-12-05\nFROM: ##ANN1## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa 5 dicembre 1707  \n\nIllustrissimo ##ANN8##e mio padrone colendissimo \n\nIl gentilissimo nostro ",
+      "entity": null
+    },
+    {
+      "text": "signor Morgagni",
+      "entity": {
+        "text": "signor Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " m’ha date le leggi e l’indice dell’Accademia e m’ha detta l’impresa, onde l’avviso subito acciocché più non s’incommodi a mandarmi le suddette cose. Già avrà avuta un’altra mia con le regole di governare il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "type": "organism",
+        "label": "Milan"
+      }
+    },
+    {
+      "text": ", e, se muore, che cosa hanno da osservare.  \n\nSuppongo che avrà trovata un’altra in Bologna con dentro i semi di ",
+      "entity": null
+    },
+    {
+      "text": "gebelindi",
+      "entity": {
+        "text": "gebelindi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " e altre curiose notizie di robbe e rimedi constantinopolitani, le quali potrà partecipare in succinto all’Accademia, se stimerà bene. Ho avuto nuova dal ##ANN9## ##ANN6## che vostra signoria illustrissima ha detto in ristretto l’invenzione dell’ovaja dell’##ANN7##, voglia ##ANN12## sia stata gradita. Le dissi che avevo scritto qualche cosa sopra i ##ANN10##. Le mando l’estratto, e vi troverà forse qualche cosa di raro da riferire nell’Accademia. V’è l’##ANN13## dentro l’",
+      "entity": null
+    },
+    {
+      "text": "altr’uovo",
+      "entity": {
+        "text": "altr’uovo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", che pur conteneva una ##ANN14## che non veduto esposto o dichiarato da alcuno, e vi sono altre cosette curiose. V’è insino il ",
+      "entity": null
+    },
+    {
+      "text": "cacatù",
+      "entity": {
+        "text": "cacatù",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ".  \n\nMi perdoni del tedio. Aspetto nuova, che cosa fa il camaleonte. Il signor Morgagni è andato a Venezia.  \n\nL’abbraccio in fretta e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n",
+      "entity": null
+    }
+  ]
+}

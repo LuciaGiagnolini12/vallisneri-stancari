@@ -1,0 +1,61 @@
+{
+  "id": "VAL_STAN_023",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_023\nDATE: 1708-02-01\nFROM: ##ANN1## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPadoa primo febbraio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nGià il mio signor Stancari riveritissimo non si stupirà se gli rispondo tardi, poiché dirà che imparo da lui. Ho voluto terminare alcune cosette per risponderle con più quiete. Le rendo grazie delle belle notizie del ##ANN3##, e si uniformano con le mie, abbenché l’abbia guardato con una sola lente, ma buona. Io ne ho pochi e non posso fare la pruova se polverizzati movano il vomito. Un mio amico dottissimo da Genoa amico de’ ##ANN12## ancora si è tanto innamorato di questo seme che ne vuol far venire, dicendo che nel regno vegetabile non abbiano vomitorio sì blando che sarebbe necessario nella medicina, dovendo sempre riccorrere a minerali che sono sempre più pericolosi de’ vegetabili. Se ne farà venire n’avrò ancor io, e allora potremo fare tutte le pruove. \n\nNon so se avesse una mia con dentro un estratto di notizia sopra i mostri. \n\nLe sono poi obbligato della nuova che mi dà dell’aggradimento ch’hanno fatto questi signori della mia bagatella, la quale ho mandata a Venezia per farla stampare e l’ho limata e aggiuntovi qualche cosa. La servii col pregare il signor ##ANN6## e signor ##ANN9## acciocché gli mandassero qualche cosa, ma l’uno e l’altro si è scusato non avere cosa alcuna in pronto.  \n\nNon si sgomenti se non mangia l’inverno il ##ANN8##, poiché è della razza delle lucertole, de’ ##ANN15##, de’ ##ANN13## e simili, che stanno rintannati ne’ loro covili tutta quanta la stagione, senza cibarsi. È nobile e da par suo la riflessione fatta sopra gli occhi del camaleonte per confermare il suo parere sopra la vista od occhi degl’insetti che sono immobili. Ho sentita volentieri l’esperienza dell’empiastro fatto sopra le uova che impedisce loro il traspirato. Così faranno gl’empiastri e cerotti che poniamo noi altri medici sopra la cute degli infelici infermi, facendo loro sovente più male che bene.  \n\nCirca all’origine de’ fonti sopra le cime de’ monti, mi riserbo a soddisfarla o almeno a dire il mio parere in un o più discorsi che manderò all’Accademia. Dico più discorsi poiché voglio fare un trattatello fondato sopra le mie osservazioni dell’origine de’ fonti e fiumi perenni.  \n\nMa acciocché non venga questa lettera senza qualche tentura di cose nuove da partecipare nel primo congresso a signori accademici, le invio alcuni semi della ",
+      "entity": null
+    },
+    {
+      "text": "lenticola palustre",
+      "entity": {
+        "text": "lenticola palustre",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " da guardare pure col microscopio con cotesti signori. Averta che gli ho lasciati dentro i loro follicoli, poiché cavati sono così minuti che riescono troppo facili da smarrirsi. Per ordinario ne sono due per follicolo. Aggiungo dunque alle osservazioni stampate che questa estate ho veduto il fiore della lenticola, che diceva non avere osservato. Questi si truova avanti i primi di luglio, e ne vanno fiorendo delle altre sino a mezzo in circa il detto mese, non veggendosi tutte in un tempo fiorite. Dura il fiore tre o quattro giorni, se si conserva la lenticola nell’acqua, ma se si cava fuora, non arriva appena a un mezzo quarto d’ora. Esce dalle foglie lateralmente, e dove appunto poco dopo incominciano a vedersi i semi. Ha due fogliette sole, bianche, alquanto crassette, e pare piuttosto come un pistillo. Queste si inalzano sopra un piccolo picciuolo, o gambetto, lungo la metà del fiore in circa. Esce orizontalmente, poi si inalza appena uscito dalla foglia verso del cielo. Nel seccarsi resta spongiosetto, nella cima alquanto filamentoso o fimbriato, e dopo quasi affatto si perde, o cade. Non in tutte le lenticole ho trovato nè fiori nè seme, come dissi nel discorso, ma solamente in certi siti, e in certe lenticole minori, e di foglia polposa. Quelle che sono corredate di foglia alquanto più larga e sottile le ho trovate sterili, onde mi cresce il sospetto che toccai nel discorso che sieno come il ##ANN17## e simili. In certo fosso paludoso esposto a raggi del sole tre o quattro ore la matina, e in un altro tre o quattro ore il dopo pranzo verso Ponente le ho trovate sempre feconde, con questo solo divario, che dove il sole percuote co’ raggi più fervidi il dopo pranzo matura più presto il seme che in quelle dove giugne sol la matina. In certe fosse apriche, dove il sole si fa sentir tutto il giorno, o in quelle, nelle quali non dà nè punto nè poco, ho trovate sterili per lo più le lenticole, lussureggiando piuttosto in moltiplicare le foglie laterali, come spiegai, ricercandosi forse per la formaizone del seme, o per renderle, dirò così, seminifere, un certo grado determinato di calore. La figura del fiore è così da me rozzamente abbozzata, ma quando si secca riesce così.  \n\nGradiscano queste poche notizie che potranno loro signori perfezionare nella e state ventura, avendo a bella posta notato il tempo nel quale incominciano a fiorire, con tutte quelle circonstanze che m’hanno parute necessarie per una cognizione più certa. Il signor ##ANN14## e signor ",
+      "entity": null
+    },
+    {
+      "text": "Fardella",
+      "entity": {
+        "text": "Fardella",
+        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "type": "person",
+        "label": "Bellini, unknown"
+      }
+    },
+    {
+      "text": " la riveriscono con tutto lo spirito. Ho avuto il ",
+      "entity": null
+    },
+    {
+      "text": "Voduard",
+      "entity": {
+        "text": "Voduard",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": ", l’ho letto subito tutto, e vi truovo molte cose indegne d’un filosofo naturale, molte cose imaginate, molte piamente credute, molte falsamente supposte.  \n\nL’abbraccio col cuore, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "entity": null
+    }
+  ]
+}

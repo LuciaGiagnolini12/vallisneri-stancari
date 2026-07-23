@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vallisnieri–Stancari Correspondence · Digital Scholarly Edition</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+:root{
+  /* Base — aged parchment and sepia ink */
+  --ink:#1a1208;
+  --faded:#7a6e60;
+  --line:#d8cfc0;
+  --bg:#f2ece0;
+  --paper:#faf7f0;
+
+  /* Accent — burnished ochre / gold leaf */
+  --gold:#8b6318;
+  --gold-l:#fdf4dc;
+
+  /* Natural pigments for entity types */
+  --person:#1c3a6e;       /* Prussian blue */
+  --person-l:#eaeff7;
+  --place:#7a3e18;        /* Raw sienna */
+  --place-l:#f6ece4;
+  --org:#2a5c34;          /* Verdigris / botanical green */
+  --org-l:#e4f0e8;
+  --inst:#7a2830;         /* Madder lake */
+  --inst-l:#f6e8ea;
+
+  --serif:'Georgia',serif;
+  --sans:system-ui,-apple-system,sans-serif;
+  --mono:'Courier New',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;font-family:var(--sans);background:var(--bg);color:var(--ink);}
+
+/* ── Nav ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2e8d8;
+  display:flex;align-items:center;padding:0 24px;height:52px;gap:0;}
+.nav-brand{font-family:var(--serif);font-size:14px;font-style:italic;opacity:.9;margin-right:28px;white-space:nowrap;}
+.nav-links{display:flex;gap:2px;flex:1;}
+.nav-link{padding:6px 12px;font-size:11px;font-weight:500;cursor:pointer;border-radius:2px;
+  opacity:.7;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;}
+.nav-link:hover{opacity:1;background:rgba(255,255,255,.1);}
+.nav-link.on{opacity:1;background:rgba(255,255,255,.15);}
+
+/* ── Pages ── */
+.page{display:none;min-height:calc(100vh - 52px);margin-top:52px;}
+.page.on{display:block;}
+
+/* ── Home ── */
+.home-hero{background:#1e1610;color:#f2e8d8;padding:64px 48px 48px;
+  background-image:linear-gradient(135deg,#1e1610 50%,#2a1e10);}
+.home-hero h1{font-family:var(--serif);font-size:36px;font-style:italic;
+  font-weight:400;margin-bottom:8px;line-height:1.2;}
+.home-hero p{font-size:14px;opacity:.7;max-width:600px;line-height:1.7;}
+.home-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;
+  padding:24px 48px;background:var(--paper);border-bottom:1px solid var(--line);}
+.stat{text-align:center;padding:16px;}
+.stat-n{font-size:32px;font-weight:300;color:var(--gold);font-family:var(--mono);letter-spacing:-.02em;}
+.stat-l{font-size:11px;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-top:4px;}
+.home-intro{max-width:760px;margin:32px auto;padding:0 48px;font-family:var(--serif);
+  font-size:15px;line-height:1.9;color:#3a3632;}
+.home-intro h2{font-size:18px;font-weight:400;margin-bottom:12px;color:var(--gold);}
+.letter-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:10px;padding:24px 48px 48px;}
+.letter-card{background:var(--paper);border:1px solid var(--line);border-radius:3px;
+  padding:12px 14px;cursor:pointer;transition:border-color .15s;}
+.letter-card:hover{border-color:var(--gold);box-shadow:0 2px 8px rgba(139,99,24,.15);}
+.lc-id{font-size:10px;font-family:var(--mono);color:var(--faded);}
+.lc-date{font-size:12px;color:var(--ink);margin-top:2px;}
+.lc-counts{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;}
+.lc-badge{font-size:9px;padding:1px 5px;border-radius:2px;}
+
+/* ── Lettere / Testo ── */
+.letter-layout{display:grid;grid-template-columns:260px 1fr;height:calc(100vh - 52px);}
+.letter-sidebar{border-right:1px solid var(--line);overflow-y:auto;padding:12px 0;
+  background:var(--paper);}
+.ls-header{padding:8px 14px;font-size:10px;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--faded);}
+.ls-item{padding:7px 14px;cursor:pointer;font-size:11px;display:flex;
+  justify-content:space-between;align-items:center;border-left:3px solid transparent;}
+.ls-item:hover{background:var(--bg);}
+.ls-item.on{border-left-color:var(--gold);background:var(--gold-l);font-weight:600;}
+.letter-main{overflow-y:auto;padding:32px 40px;}
+.letter-meta{font-size:11px;font-family:var(--mono);color:var(--faded);margin-bottom:20px;
+  padding-bottom:12px;border-bottom:1px solid var(--line);}
+.letter-text{font-family:var(--serif);font-size:14.5px;line-height:2;color:#2a2520;
+  max-width:680px;}
+/* Entità evidenziate */
+.ent{border-radius:2px;padding:0 2px;cursor:pointer;transition:background .15s;}
+.ent.person {background:var(--person-l);color:var(--person);border-bottom:1.5px solid var(--person);}
+.ent.place  {background:var(--place-l); color:var(--place); border-bottom:1.5px solid var(--place);}
+.ent.organism{background:var(--org-l);  color:var(--org);   border-bottom:1.5px solid var(--org);}
+.ent.institution{background:var(--inst-l);color:var(--inst);border-bottom:1.5px solid var(--inst);}
+.ent:hover{filter:brightness(.92);}
+
+/* Popup entità */
+.entity-popup{position:fixed;z-index:200;background:var(--paper);border:1px solid var(--line);
+  border-radius:4px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:14px 16px;
+  max-width:280px;font-size:12px;display:none;}
+.entity-popup.on{display:block;}
+.ep-type{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  margin-bottom:4px;}
+.ep-label{font-size:15px;font-weight:500;margin-bottom:6px;}
+.ep-uri{font-size:9px;color:var(--faded);font-family:var(--mono);word-break:break-all;}
+.ep-uri a{color:inherit;text-decoration:underline;}
+.ep-close{position:absolute;top:8px;right:10px;cursor:pointer;color:var(--faded);
+  font-size:14px;}
+
+/* ── Entità list ── */
+.entities-wrap{padding:24px 32px;}
+.entities-toolbar{display:flex;gap:8px;margin-bottom:16px;align-items:center;flex-wrap:wrap;}
+.ent-filter{padding:4px 12px;border:1px solid var(--line);border-radius:12px;
+  font-size:11px;cursor:pointer;background:white;}
+.ent-filter:hover{border-color:var(--ink);}
+.ent-filter.on{background:var(--ink);color:white;border-color:var(--ink);}
+.ent-search{padding:5px 10px;border:1px solid var(--line);border-radius:2px;
+  font-size:11px;width:220px;}
+.ent-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px;}
+.ent-card{background:var(--paper);border:1px solid var(--line);border-radius:3px;
+  padding:11px 13px;cursor:pointer;transition:border-color .15s;}
+.ent-card:hover{border-color:var(--gold);box-shadow:0 2px 8px rgba(139,99,24,.12);}
+.ec-type{font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  margin-bottom:3px;}
+.ec-label{font-size:13px;font-weight:500;}
+.ec-sub{font-size:10px;color:var(--faded);margin-top:2px;font-style:italic;}
+.ec-letters{font-size:9px;color:var(--faded);font-family:var(--mono);margin-top:4px;}
+
+/* ── Rete ── */
+#network-wrap{height:calc(100vh - 52px);position:relative;overflow:hidden;}
+#network-svg{width:100%;height:100%;}
+.node circle{stroke:white;stroke-width:1.5;cursor:pointer;}
+.node text{font-size:10px;pointer-events:none;fill:var(--ink);}
+.link{stroke:var(--line);stroke-opacity:.6;}
+.link.transfer{stroke:var(--gold);stroke-opacity:.7;}
+.net-legend{position:absolute;bottom:20px;left:20px;background:rgba(255,255,255,.92);
+  border:1px solid var(--line);border-radius:4px;padding:10px 14px;font-size:10px;}
+.net-legend div{display:flex;align-items:center;gap:6px;margin-bottom:4px;}
+.net-legend span{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+
+/* ── Timeline ── */
+#timeline-wrap{padding:24px 32px;}
+#timeline-svg{width:100%;overflow:visible;}
+.tl-controls{display:flex;gap:8px;margin-bottom:16px;}
+
+/* ── Mappa ── */
+#map-wrap{height:calc(100vh - 52px);}
+#map{height:100%;width:100%;}
+
+/* ── SPARQL ── */
+.sparql-wrap{padding:24px 32px;max-width:900px;}
+.sparql-wrap h2{font-family:var(--serif);font-size:20px;font-weight:400;
+  margin-bottom:8px;color:var(--gold);}
+.sparql-wrap p{font-size:12px;color:var(--faded);margin-bottom:16px;}
+.sparql-editor{width:100%;height:160px;padding:10px;border:1px solid var(--line);
+  border-radius:3px;font-family:var(--mono);font-size:12px;resize:vertical;}
+.sparql-btn{padding:7px 18px;background:#1e1610;color:#f2e8d8;border:none;
+  border-radius:2px;font-size:12px;font-weight:600;cursor:pointer;margin-top:8px;}
+.sparql-btn:hover{opacity:.85;}
+.sparql-examples{display:flex;gap:6px;margin:10px 0;flex-wrap:wrap;}
+.sparql-ex{font-size:10px;padding:3px 8px;border:1px solid var(--line);border-radius:2px;
+  cursor:pointer;background:white;}
+.sparql-ex:hover{border-color:var(--gold);}
+#sparql-results{margin-top:16px;overflow-x:auto;}
+#sparql-results table{width:100%;border-collapse:collapse;font-size:11px;}
+#sparql-results th{background:var(--bg);padding:6px 10px;text-align:left;
+  font-weight:600;border-bottom:2px solid var(--line);}
+#sparql-results td{padding:5px 10px;border-bottom:1px solid var(--line);}
+#sparql-results tr:hover td{background:var(--gold-l);}
+.sparql-loading{font-size:12px;color:var(--faded);padding:12px 0;}
+
+/* ── Utility ── */
+.page-header{padding:28px 32px 0;}
+.page-header h2{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold);}
+.page-header p{font-size:12px;color:var(--faded);margin-top:4px;}
+.type-color{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">Vallisnieri – Stancari</div>
+  <div class="nav-links">
+    <div class="nav-link on"  onclick="showPage('home',this)">Home</div>
+    <div class="nav-link" onclick="showPage('letters',this)">Letters</div>
+    <div class="nav-link" onclick="showPage('entita',this)">Entità</div>
+    <div class="nav-link" onclick="showPage('rete',this)">Rete</div>
+    <div class="nav-link" onclick="showPage('timeline',this)">Timeline</div>
+    <div class="nav-link" onclick="showPage('mappa',this)">Mappa</div>
+    <div class="nav-link" onclick="showPage('sparql',this)">SPARQL</div>
+  </div>
+</nav>
+
+<!-- ── HOME ── -->
+<div class="page on" id="pg-home">
+  <div class="home-hero">
+    <h1>Vallisnieri–Stancari Correspondence</h1>
+    <p>A digital scholarly edition of 30 letters (1707–1709) from Antonio Vallisnieri to Francesco Vittorio Stancari.
+    A corpus of early eighteenth-century Italian history of science, extracted and annotated using
+    knowledge graph techniques and artificial intelligence.</p>
+  </div>
+  <div class="home-stats" id="home-stats"></div>
+  <div class="home-intro">
+    <h2>The corpus</h2>
+    <p>The letters document exchanges of biological specimens, scientific observations, texts and networks of
+    correspondents. Vallisnieri uses Stancari as a remote observer in Bologna, while writing from Padua.
+    The network includes correspondents in Venice, Naples, Rome, Amsterdam and London.</p>
+  </div>
+  <div class="letter-grid" id="home-letters"></div>
+</div>
+
+<!-- ── LETTERE ── -->
+<div class="page" id="pg-letters">
+  <div class="letter-layout">
+    <div class="letter-sidebar" id="letter-sidebar">
+      <div class="ls-header">30 letters</div>
+    </div>
+    <div class="letter-main" id="letter-main">
+      <div style="color:var(--faded);font-size:13px;padding-top:40px">Select a letter</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── ENTITÀ ── -->
+<div class="page" id="pg-entita">
+  <div class="entities-wrap">
+    <div class="page-header" style="padding-left:0">
+      <h2>Entities of the corpus</h2>
+      <p>Persons, places, organisms and texts extracted and reconciled with LOD resources.</p>
+    </div>
+    <div class="entities-toolbar" style="margin-top:14px">
+      <button class="ent-filter on" onclick="filterEnt('all',this)">All</button>
+      <button class="ent-filter" onclick="filterEnt('person',this)">Persons</button>
+      <button class="ent-filter" onclick="filterEnt('place',this)">Places</button>
+      <button class="ent-filter" onclick="filterEnt('organism',this)">Organisms</button>
+      <button class="ent-filter" onclick="filterEnt('institution',this)">Institutions</button>
+      <input class="ent-search" id="ent-search" placeholder="Search entities…" oninput="renderEntities()">
+    </div>
+    <div class="ent-grid" id="ent-grid"></div>
+  </div>
+</div>
+
+<!-- ── RETE ── -->
+<div class="page" id="pg-rete">
+  <div id="network-wrap">
+    <svg id="network-svg"></svg>
+    <div class="net-legend">
+      <div><span style="background:var(--person)"></span> Person</div>
+      <div><span style="background:var(--place)"></span> Place</div>
+      <div><span style="background:var(--org)"></span> Organism</div>
+      <div><span style="background:var(--inst)"></span> Institution</div>
+      <div style="margin-top:6px;font-size:9px;color:var(--faded)">
+        — co-occurrence · <span style="color:var(--gold)">— transfer</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── TIMELINE ── -->
+<div class="page" id="pg-timeline">
+  <div id="timeline-wrap">
+    <div class="page-header">
+      <h2>Specimen movements</h2>
+      <p>Trasferimenti documentati nelle letters.</p>
+    </div>
+    <div id="timeline-content" style="padding:24px 32px"></div>
+  </div>
+</div>
+
+<!-- ── MAPPA ── -->
+<div class="page" id="pg-mappa">
+  <div id="map-wrap"><div id="map"></div></div>
+</div>
+
+<!-- ── SPARQL ── -->
+<div class="page" id="pg-sparql">
+  <div class="sparql-wrap">
+    <h2>SPARQL Interface</h2>
+    <p>Query the corpus knowledge graph. The SPARQL engine runs entirely in the browser.</p>
+    <div class="sparql-examples">
+      <div class="sparql-ex" onclick="setQuery('persons')">All persons</div>
+      <div class="sparql-ex" onclick="setQuery('organisms')">Organisms with taxon</div>
+      <div class="sparql-ex" onclick="setQuery('places')">Reconciled places</div>
+      <div class="sparql-ex" onclick="setQuery('transfers')">Specimen transfers</div>
+      <div class="sparql-ex" onclick="setQuery('network')">Network of correspondents</div>
+    </div>
+    <textarea class="sparql-editor" id="sparql-editor"></textarea>
+    <br>
+    <button class="sparql-btn" onclick="runSparql()">Run query</button>
+    <div id="sparql-results"></div>
+  </div>
+</div>
+
+<!-- Popup entità -->
+<div class="entity-popup" id="entity-popup">
+  <span class="ep-close" onclick="closePopup()">✕</span>
+  <div class="ep-type" id="ep-type"></div>
+  <div class="ep-label" id="ep-label"></div>
+  <div class="ep-uri" id="ep-uri"></div>
+</div>
+
+<script>
+// ── Data ──────────────────────────────────────────────────────────────
+const DATA = {};
+let entFilter = 'all';
+let mapInstance = null, networkBuilt = false, timelineBuilt = false;
+
+async function loadData(key, url) {
+  if (DATA[key]) return DATA[key];
+  const r = await fetch(url);
+  DATA[key] = await r.json();
+  return DATA[key];
+}
+
+// ── Navigation ────────────────────────────────────────────────────────
+function showPage(id, btn) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('on'));
+  document.getElementById('pg-'+id).classList.add('on');
+  document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('on'));
+  if(btn) btn.classList.add('on');
+
+  if(id==='home')     initHome();
+  if(id==='letters')  initLettere();
+  if(id==='entita')   initEntita();
+  if(id==='rete')     initRete();
+  if(id==='timeline') initTimeline();
+  if(id==='mappa')    initMappa();
+  if(id==='sparql')   initSparql();
+}
+
+// ── HOME ──────────────────────────────────────────────────────────────
+async function initHome() {
+  const [letters, entities] = await Promise.all([
+    loadData('letters','data/letters.json'),
+    loadData('entities','data/entities.json')
+  ]);
+
+  // Stats
+  const persons   = entities.filter(e=>e.type==='person').length;
+  const orgs      = entities.filter(e=>e.type==='organism').length;
+  const places    = entities.filter(e=>e.type==='place').length;
+  document.getElementById('home-stats').innerHTML = `
+    <div class="stat"><div class="stat-n">${letters.length}</div><div class="stat-l">Letters</div></div>
+    <div class="stat"><div class="stat-n">${persons}</div><div class="stat-l">Persons</div></div>
+    <div class="stat"><div class="stat-n">${orgs}</div><div class="stat-l">Organisms</div></div>
+    <div class="stat"><div class="stat-n">${places}</div><div class="stat-l">Places</div></div>`;
+
+  // Letter grid
+  const typeColors = {person:'var(--person)',place:'var(--place)',
+    organism:'var(--org)',institution:'var(--inst)',text:'var(--faded)'};
+  document.getElementById('home-letters').innerHTML = letters.map(l=>`
+    <div class="letter-card" onclick="openLetter('${l.id}')">
+      <div class="lc-id">${l.id}</div>
+      <div class="lc-date">${l.date||'s.d.'}</div>
+      <div class="lc-counts">
+        ${Object.entries(l.counts||{}).map(([t,n])=>
+          `<span class="lc-badge" style="background:${typeColors[t]||'#ccc'}20;color:${typeColors[t]||'#666'}">${n} ${t}</span>`
+        ).join('')}
+      </div>
+    </div>`).join('');
+}
+
+function openLetter(id) {
+  showPage('letters', document.querySelector('.nav-link:nth-child(2)'));
+  setTimeout(()=>selectLetter(id), 100);
+}
+
+// ── LETTERE ──────────────────────────────────────────────────────────
+async function initLettere() {
+  const letters = await loadData('letters','data/letters.json');
+  const sidebar = document.getElementById('letter-sidebar');
+  const existing = sidebar.querySelectorAll('.ls-item');
+  if(existing.length) return;
+
+  letters.forEach(l=>{
+    const el = document.createElement('div');
+    el.className = 'ls-item';
+    el.id = 'ls-'+l.id;
+    el.innerHTML = `<span>${l.id.replace('VAL_STAN_','')}</span>
+      <span style="font-size:9px;color:var(--faded);font-family:var(--mono)">${l.date||'s.d.'}</span>`;
+    el.onclick = ()=>selectLetter(l.id);
+    sidebar.appendChild(el);
+  });
+}
+
+async function selectLetter(id) {
+  document.querySelectorAll('.ls-item').forEach(e=>e.classList.remove('on'));
+  const lsEl = document.getElementById('ls-'+id);
+  if(lsEl) lsEl.classList.add('on');
+
+  const main = document.getElementById('letter-main');
+  main.innerHTML = '<div style="color:var(--faded);font-size:12px">Loading…</div>';
+
+  const [letters, textData] = await Promise.all([
+    loadData('letters','data/letters.json'),
+    fetch(`data/texts/${id}.json`).then(r=>r.ok?r.json():null)
+  ]);
+
+  const letter = letters.find(l=>l.id===id);
+  if(!letter){ main.innerHTML='<div>Not found</div>'; return; }
+
+  let textHtml = '';
+  if(textData && textData.segments) {
+    textHtml = textData.segments.map(seg=>{
+      if(!seg.entity) return escHtml(seg.text);
+      const e = seg.entity;
+      const cls = e.type || 'unknown';
+      return `<span class="ent ${cls}"
+        onclick="showEntityPopup(event,'${esc(e.entity_id)}','${esc(e.label)}','${e.type}')"
+        title="${esc(e.label)} (${e.type})">${escHtml(seg.text)}</span>`;
+    }).join('');
+  } else {
+    textHtml = '<em style="color:var(--faded)">Testo non disponibile</em>';
+  }
+
+  main.innerHTML = `
+    <div class="letter-meta">
+      ${letter.id} · From: ${letter.from||'—'} · To: ${letter.to||'—'} · ${letter.date||'s.d.'}
+    </div>
+    <div class="letter-text">${textHtml}</div>`;
+}
+
+// ── ENTITÀ ───────────────────────────────────────────────────────────
+async function initEntita() {
+  await loadData('entities','data/entities.json');
+  renderEntities();
+}
+
+function filterEnt(type, btn) {
+  entFilter = type;
+  document.querySelectorAll('.ent-filter').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  renderEntities();
+}
+
+function renderEntities() {
+  const entities = DATA['entities'] || [];
+  const q = (document.getElementById('ent-search')?.value||'').toLowerCase();
+  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)',text:'var(--faded)'};
+  const labels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
+
+  const filtered = entities.filter(e=>{
+    if(entFilter!=='all' && e.type!==entFilter) return false;
+    if(q && !e.label.toLowerCase().includes(q) && !(e.taxon||'').toLowerCase().includes(q)) return false;
+    return true;
+  });
+
+  document.getElementById('ent-grid').innerHTML = filtered.map(e=>`
+    <div class="ent-card" onclick="showEntityDetail('${esc(e.id)}')">
+      <div class="ec-type" style="color:${colors[e.type]||'#666'}">${labels[e.type]||e.type}</div>
+      <div class="ec-label">${escHtml(e.label)}</div>
+      ${e.taxon?`<div class="ec-sub">${escHtml(e.taxon)}</div>`:''}
+      ${e.note&&e.note.includes('AMBIGUO')?'<div class="ec-sub" style="color:var(--gold)">⚠ uncertain identification</div>':''}
+      <div class="ec-letters">Cited in ${e.letters.length} ${e.letters.length===1?'letter':'letters'}</div>
+    </div>`).join('');
+}
+
+function showEntityDetail(id) {
+  const e = (DATA['entities']||[]).find(x=>x.id===id);
+  if(!e) return;
+  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)'};
+  const labels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
+  const uris = [
+    e.viaf    && `<a href="${e.viaf}"    target="_blank">VIAF</a>`,
+    e.wikidata && `<a href="${e.wikidata}" target="_blank">Wikidata</a>`,
+    e.gbif    && `<a href="${e.gbif}"    target="_blank">GBIF</a>`,
+    e.geonames && `<a href="${e.geonames}" target="_blank">GeoNames</a>`,
+  ].filter(Boolean).join(' · ');
+
+  alert(`${labels[e.type]||e.type}: ${e.label}\n${e.taxon?'Taxon: '+e.taxon+'\n':''}${uris?'URI: '+uris+'\n':''}Letters: ${e.letters.join(', ')}`);
+  // In produzione questo sarebbe un modal o una pagina dedicata
+}
+
+// ── RETE ─────────────────────────────────────────────────────────────
+async function initRete() {
+  if(networkBuilt) return;
+  networkBuilt = true;
+  const net = await loadData('network','data/network.json');
+  buildNetwork(net);
+}
+
+function buildNetwork(net) {
+  const svg = d3.select('#network-svg');
+  const w = document.getElementById('network-wrap').clientWidth;
+  const h = document.getElementById('network-wrap').clientHeight;
+  svg.attr('viewBox',`0 0 ${w} ${h}`);
+
+  const colors = {person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',institution:'#7a2830',default:'#9a8a78'};
+
+  const sim = d3.forceSimulation(net.nodes)
+    .force('link', d3.forceLink(net.edges).id(d=>d.id).distance(80))
+    .force('charge', d3.forceManyBody().strength(-120))
+    .force('center', d3.forceCenter(w/2, h/2))
+    .force('collision', d3.forceCollide(18));
+
+  const link = svg.append('g').selectAll('line')
+    .data(net.edges).join('line')
+    .attr('class', d=>'link '+(d.type||''))
+    .attr('stroke-width', d=>d.type==='transfer'?2:1);
+
+  const node = svg.append('g').selectAll('g')
+    .data(net.nodes).join('g')
+    .attr('class','node')
+    .call(d3.drag()
+      .on('start', (ev,d)=>{ if(!ev.active) sim.alphaTarget(.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag',  (ev,d)=>{ d.fx=ev.x; d.fy=ev.y; })
+      .on('end',   (ev,d)=>{ if(!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
+
+  node.append('circle')
+    .attr('r', d=>5 + Math.min(d.letters||1, 10))
+    .attr('fill', d=>colors[d.type]||colors.default)
+    .attr('fill-opacity', .8);
+
+  node.append('text')
+    .attr('dx',10).attr('dy',3)
+    .text(d=>d.label.length>20?d.label.slice(0,20)+'…':d.label);
+
+  sim.on('tick', ()=>{
+    link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
+        .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    node.attr('transform',d=>`translate(${d.x},${d.y})`);
+  });
+}
+
+// ── TIMELINE ─────────────────────────────────────────────────────────
+async function initTimeline() {
+  if(timelineBuilt) return;
+  timelineBuilt = true;
+  const movements = await loadData('movements','data/movements.json');
+
+  const wrap = document.getElementById('timeline-content');
+  if(!movements.length){ wrap.innerHTML='<p style="color:var(--faded)">No movements available.</p>'; return; }
+
+  const rows = movements.filter(m=>m.object && m.object!=='').map((m,i)=>`
+    <tr style="border-bottom:1px solid var(--line)">
+      <td style="padding:7px 10px;font-family:var(--mono);font-size:10px;color:var(--faded)">${m.letter.replace('VAL_STAN_','')}</td>
+      <td style="padding:7px 10px;font-size:11px">${escHtml(m.object)}</td>
+      <td style="padding:7px 10px;font-size:11px;color:var(--org)">${escHtml(m.object_taxon||'')}</td>
+      <td style="padding:7px 10px;font-size:11px">${escHtml(m.from_person||'')}</td>
+      <td style="padding:7px 10px;font-size:11px">${escHtml(m.to_person||'')}</td>
+      <td style="padding:7px 10px;font-size:11px;color:var(--place)">${escHtml(m.from_place||'?')} → ${escHtml(m.to_place||'?')}</td>
+    </tr>`).join('');
+
+  wrap.innerHTML = `
+    <table style="width:100%;border-collapse:collapse;font-size:11px">
+      <thead>
+        <tr style="border-bottom:2px solid var(--line)">
+          <th style="padding:6px 10px;text-align:left;font-size:9px;letter-spacing:.07em;text-transform:uppercase">Letter</th>
+          <th style="padding:6px 10px;text-align:left">Object</th>
+          <th style="padding:6px 10px;text-align:left">Taxon</th>
+          <th style="padding:6px 10px;text-align:left">From</th>
+          <th style="padding:6px 10px;text-align:left">To</th>
+          <th style="padding:6px 10px;text-align:left">Route</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+// ── MAPPA ─────────────────────────────────────────────────────────────
+async function initMappa() {
+  if(mapInstance) return;
+  const geo = await loadData('geo','data/geo.json');
+
+  mapInstance = L.map('map').setView([44.5, 11.5], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    attribution:'© OpenStreetMap contributors', maxZoom:18
+  }).addTo(mapInstance);
+
+  const colors = {'1':'#2a5c34','2-5':'#8b6318','6-10':'#7a3e18','10+':'#7a2830'};
+
+  geo.filter(p=>p.lat&&p.lng).forEach(p=>{
+    const n = p.letters.length;
+    const color = n>=10?colors['10+']:n>=6?colors['6-10']:n>=2?colors['2-5']:colors['1'];
+    const radius = 6 + Math.min(n*2, 16);
+
+    const marker = L.circleMarker([p.lat,p.lng],{
+      radius, fillColor:color, color:'white', weight:1.5,
+      fillOpacity:.8
+    }).addTo(mapInstance);
+
+    const links = [
+      p.wikidata&&`<a href="${p.wikidata}" target="_blank">Wikidata</a>`,
+      p.geonames&&`<a href="${p.geonames}" target="_blank">GeoNames</a>`,
+    ].filter(Boolean).join(' · ');
+
+    marker.bindPopup(`
+      <strong>${p.label}</strong><br>
+      <em style="font-size:11px;color:#666">${p.toponym||''}</em><br>
+      <span style="font-size:11px">Cited in ${n} ${n===1?'letter':'letters'}</span><br>
+      ${links?`<span style="font-size:10px">${links}</span>`:''}
+    `);
+  });
+}
+
+// ── SPARQL ────────────────────────────────────────────────────────────
+const SPARQL_EXAMPLES = {
+  persons: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+SELECT ?person ?label WHERE {
+  ?person a crm:E21_Person ;
+          <https://w3id.org/vallisnieri/label> ?label .
+} LIMIT 20`,
+  organisms: `PREFIX dsw: <http://purl.org/dsw/>
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+SELECT ?org ?label ?taxon WHERE {
+  ?org a dsw:IndividualOrganism ;
+       <https://w3id.org/vallisnieri/label> ?label ;
+       dsw:hasIdentification ?id .
+  ?id dwc:scientificName ?taxon .
+} LIMIT 20`,
+  places: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+SELECT ?place ?label ?wikidata WHERE {
+  ?place a crm:E53_Place ;
+         <https://w3id.org/vallisnieri/label> ?label .
+  OPTIONAL { ?place <https://w3id.org/vallisnieri/wikidataQID> ?wikidata }
+} LIMIT 20`,
+  transfers: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+SELECT ?event ?from ?to ?object WHERE {
+  ?event a crm:E10_Transfer_of_Custody ;
+         <https://w3id.org/vallisnieri/surrenderedBy> ?fromNode ;
+         <https://w3id.org/vallisnieri/receivedBy> ?toNode ;
+         <https://w3id.org/vallisnieri/transferredCustody> ?obj .
+  ?fromNode <https://w3id.org/vallisnieri/label> ?from .
+  ?toNode <https://w3id.org/vallisnieri/label> ?to .
+  OPTIONAL { ?obj <https://w3id.org/vallisnieri/label> ?object }
+} LIMIT 20`,
+  network: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+SELECT ?from ?to (COUNT(?letter) AS ?letters) WHERE {
+  ?letter a crm:E31_Document ;
+          <https://w3id.org/vallisnieri/documents> ?from, ?to .
+  ?from a crm:E21_Person .
+  ?to   a crm:E21_Person .
+  FILTER(?from != ?to)
+} GROUP BY ?from ?to ORDER BY DESC(?letters) LIMIT 20`
+};
+
+function setQuery(key) {
+  document.getElementById('sparql-editor').value = SPARQL_EXAMPLES[key]||'';
+}
+
+async function initSparql() {
+  setQuery('persons');
+}
+
+async function runSparql() {
+  const query = document.getElementById('sparql-editor').value.trim();
+  if(!query) return;
+
+  const resultsEl = document.getElementById('sparql-results');
+  resultsEl.innerHTML = '<div class="sparql-loading">Running query…</div>';
+
+  try {
+    // Usa il file TTL locale con Comunica (se disponibile) o endpoint diretto
+    // Per ora usa rdflib simulato — in produzione usare Comunica
+    const r = await fetch(`data/corpus.ttl`);
+    if(!r.ok){ throw new Error('corpus.ttl non trovato'); }
+
+    // Nota: per SPARQL vero nel browser serve Comunica
+    // Qui mostriamo istruzioni se Comunica non è caricato
+    if(typeof Comunica === 'undefined'){
+      resultsEl.innerHTML = `<p style="font-size:12px;color:var(--faded)">
+        To run SPARQL queries in the browser, you need to load
+        <a href="https://comunica.dev" target="_blank">Comunica</a>.
+        <br><br>Alternative: download <a href="data/corpus.ttl">corpus.ttl</a>
+        and open it with <a href="https://triply.cc/yasgui" target="_blank">YASGUI</a>
+        or a local triplestore.</p>`;
+      return;
+    }
+
+    // Con Comunica
+    const engine = new Comunica.QueryEngine();
+    const bindingsStream = await engine.queryBindings(query, {
+      sources: [{type:'file', value:'data/corpus.ttl'}]
+    });
+    const bindings = await bindingsStream.toArray();
+    if(!bindings.length){ resultsEl.innerHTML='<p style="color:var(--faded)">No results.</p>'; return; }
+
+    const vars = bindings[0].keys.map(k=>k.value);
+    const rows = bindings.map(b=>
+      `<tr>${vars.map(v=>`<td>${escHtml(b.get(v)?.value||'')}</td>`).join('')}</tr>`
+    ).join('');
+
+    resultsEl.innerHTML = `<p style="font-size:10px;color:var(--faded);margin-bottom:6px">${bindings.length} results</p>
+    <table><thead><tr>${vars.map(v=>`<th>${v}</th>`).join('')}</tr></thead>
+    <tbody>${rows}</tbody></table>`;
+
+  } catch(e) {
+    resultsEl.innerHTML = `<p style="color:var(--reject);font-size:12px">Errore: ${e.message}</p>`;
+  }
+}
+
+// ── Entity popup ──────────────────────────────────────────────────────
+function showEntityPopup(event, id, label, type) {
+  event.stopPropagation();
+  const popup = document.getElementById('entity-popup');
+  const entity = (DATA['entities']||[]).find(e=>e.id===id);
+  const typeLabels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution'};
+  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)'};
+
+  document.getElementById('ep-type').textContent  = typeLabels[type]||type;
+  document.getElementById('ep-type').style.color  = typeColors[type]||'var(--faded)';
+  document.getElementById('ep-label').textContent = label || (entity?.label||id);
+
+  let uriHtml = '';
+  if(entity){
+    const uris = [
+      entity.viaf    && `<a href="${entity.viaf}"    target="_blank">VIAF</a>`,
+      entity.wikidata&& `<a href="${entity.wikidata}" target="_blank">Wikidata</a>`,
+      entity.gbif    && `<a href="${entity.gbif}"    target="_blank">GBIF</a>`,
+      entity.geonames&& `<a href="${entity.geonames}" target="_blank">GeoNames</a>`,
+    ].filter(Boolean).join(' · ');
+    if(entity.taxon) uriHtml += `<div style="font-style:italic;margin-bottom:4px">${escHtml(entity.taxon)}</div>`;
+    if(uris) uriHtml += uris;
+  }
+  document.getElementById('ep-uri').innerHTML = uriHtml;
+
+  const x = Math.min(event.pageX+12, window.innerWidth-300);
+  const y = Math.min(event.pageY-10, window.innerHeight-200);
+  popup.style.left = x+'px';
+  popup.style.top  = y+'px';
+  popup.classList.add('on');
+}
+
+function closePopup() {
+  document.getElementById('entity-popup').classList.remove('on');
+}
+document.addEventListener('click', e=>{
+  if(!e.target.closest('.entity-popup')&&!e.target.closest('.ent')) closePopup();
+});
+
+// ── Utility ───────────────────────────────────────────────────────────
+function escHtml(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function esc(s){ return (s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
+
+// ── Init ──────────────────────────────────────────────────────────────
+initHome();
+</script>
+</body>
+</html>

@@ -1,0 +1,614 @@
+{
+  "nodes": [
+    {
+      "id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "label": "Luigi Vittorio Filippo Marsili",
+      "type": "person",
+      "letters": 6
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "label": "Orsi, Quaranta",
+      "type": "person",
+      "letters": 5
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/",
+      "label": "Bellini, unknown",
+      "type": "person",
+      "letters": 14
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "label": "Manfredi",
+      "type": "person",
+      "letters": 18
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "label": "Sandri",
+      "type": "person",
+      "letters": 3
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/text/",
+      "label": "Micrographia curiosa",
+      "type": "text",
+      "letters": 18
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "label": "Giuseppe Maria Marsili",
+      "type": "person",
+      "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "label": "Sbaraglia, Unknown",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "label": "Antonio Vallisneri",
+      "type": "person",
+      "letters": 28
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "label": "Giovanni Battista Valsalva",
+      "type": "person",
+      "letters": 6
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "label": "Dorelli",
+      "type": "person",
+      "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/institution/",
+      "label": "Luigi, Conte",
+      "type": "person",
+      "letters": 12
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "label": "Nanni",
+      "type": "person",
+      "letters": 5
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "label": "Vittorio Francesco Stancari",
+      "type": "person",
+      "letters": 28
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/institution/",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_013"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/text/",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/institution/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/institution/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "target": "https://w3id.org/vallisnieri/person/",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/",
+      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/",
+      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    }
+  ]
+}

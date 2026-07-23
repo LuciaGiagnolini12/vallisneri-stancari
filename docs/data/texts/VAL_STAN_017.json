@@ -1,0 +1,74 @@
+{
+  "id": "VAL_STAN_017",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_017\nDATE: 1707-07-31\nFROM: ##ANN3## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nReggio 31 luglio 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nSono in Reggio caldo, bollente, abbrustolito dal sole nel mio viaggio. Pure m’è restata la volontà di legger libri. Ho trovate le opere del ##ANN10## e vi veggo bene la notomia della ##ANN11## altre volte da me veduta, ma non già quella dell’##ANN9##, onde dubbito d’uno sbaglio in chi m’avvisò. Ho scorso pure ##ANN4## dell’anotomia dell’anguilla, e non fa parola della sua ovaja. Sicché spero d’essere il primo a dar fuora questa notizia, e la voglio dedicare alla sua e mia riverita Accademia in segno della stima che ne faccio e delle mie obbligazioni che le professo. Non ho veduto ancor sua risposta, onde, se vuole onorarmi di lettera, la potrà inviare a Padoa, poiché quanto prima colà rittorno. Ho avuto lettera da Livorno che con un bastimento o nave che aspettano da Tunisi di Barberia forse verranno ##ANN8## vivi e che subito ne invieranno uno a vostra signoria illustrissima, essendo il mio restato in Venezia in buone e dotte mani.  \n\nLe inviai per il nostro signor ##ANN6## una scatola con dentro il lucimetro ed altre bagatelle, che suppongo avrà ricevute. Ora le do parte che ho con mio sommo diletto il libretto francese nelle mani da cui è stato tradotto, e quanto prima ne farò riscontro per vedere dove ha sbagliato il traduttore. E pure un uomo dottissimo e di garbo tiene anche per certo che l’opera sia d’un bresciano sotto la maschera d’un francese. Il traduttore vuol far le sue discolpe e porre il tutto in chiaro, e gli ho raccomandato che lo faccia con tutta modestia, altrimenti rompo l’amicizia. L’autore è il reverendo Padre ",
+      "entity": null
+    },
+    {
+      "text": "Francesco Maria cappuccino",
+      "entity": {
+        "text": "Francesco Maria cappuccino",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": ", che dedicò l’opera al duca di Chartres stampata in Parigi appresso Giovanni Sevestre stampatore e librajo nella contrada di S. Giacomo dirimpetto a S. Vues 1700 con approvazione e privilegio del re. Vi è in fine l’approvazione pure del ##ANN7## secretario dell’Accademia Reale delle Scienze fatta in Parigi li 25 marzo 1700, con le approvazioni ancora del suo generale, del suo provinciale e di due teologi del suo ordine. Insomma l’opera è francese ed è stata applaudita in Francia ed approvata, poiché dice che si troveranno gli stromenti propri per fare questa esperienza appresso ",
+      "entity": null
+    },
+    {
+      "text": "Carlo des Feugerais",
+      "entity": {
+        "text": "Carlo des Feugerais",
+        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "type": "person",
+        "label": "Luigi, Conte"
+      }
+    },
+    {
+      "text": " mercante specchiaro et occhialaro dell’orologio del Palazzo al Fiore del Giglio coronato in Parigi. Vede come facilmente c’inganniamo.  \n\nSe alla Posta di Reggio potrò francare un piccolo invoglietto lo manderò, se no aspetterò congiontura, poiché non voglio darle tanto incommodo. Intanto mi conservi il suo affetto, m’onori co’ nostri amici ed accademici, e resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio Vallisnieri.  \n\nVedrà nell’annesso rotoletto i primi abozzi dell’istoria della ",
+      "entity": null
+    },
+    {
+      "text": "mosca rosiseca",
+      "entity": {
+        "text": "mosca rosiseca",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " con la figura dell’",
+      "entity": null
+    },
+    {
+      "text": "aculeo",
+      "entity": {
+        "text": "aculeo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "type": "organism",
+        "label": "uovo"
+      }
+    },
+    {
+      "text": " maraviglioso, e lo mostrerà poi a nostri accademici. ",
+      "entity": null
+    }
+  ]
+}

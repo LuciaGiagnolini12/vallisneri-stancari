@@ -1,0 +1,35 @@
+{
+  "id": "VAL_STAN_007",
+  "segments": [
+    {
+      "text": "LETTER_ID: VAL_STAN_008\nDATE: 1706-07-20\nFROM: ##ANN1## \nTO: ",
+      "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
+    },
+    {
+      "text": "\n\nPratissolo adì 20 luglio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nEssendo in villa ozioso e mal contento per il nuovo torbido che si avalla contro di noi, sono stato compassionato da un amico, il quale per sollevarmi m’ha mandate alcune ##ANN6## ed un ##ANN7## contro dello ##ANN3##. L’ho letto e lette non senza qualche solletico, e perché non m’hanno parute mal fatte, le ho fatte trascrivere a un giovinetto e gliene invio una copia. La prego bene di secretezza, e godersele col signor ##ANN4##, signor ##ANN5## ed altri nostri amici e padroni di ottimo gusto, ma faccia che non ne esca copia dalle loro mani. Credevo fare una scappata a Bologna, ma non lo credo più per certi affari sopraggiuntimi.  \n\nIntanto mi conservi il suo amore, inchini tutti, e segnatamente il signor ",
+      "entity": null
+    },
+    {
+      "text": "Quaranta Orsi",
+      "entity": {
+        "text": "Quaranta Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+        "type": "person",
+        "label": "Orsi, Quaranta"
+      }
+    },
+    {
+      "text": ", ed abbracciandola con lo spirito resto immutabilmente di vostra signoria illustrissima devotissimo servitore obbligatissimo Antonio Vallisnieri \n",
+      "entity": null
+    }
+  ]
+}
