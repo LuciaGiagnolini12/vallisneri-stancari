@@ -578,37 +578,115 @@ async function initTimeline() {
 // ── MAPPA ─────────────────────────────────────────────────────────────
 async function initMappa() {
   if(mapInstance) return;
-  const geo = await loadData('geo','data/geo.json');
+  const [geo, movements] = await Promise.all([
+    loadData('geo','data/geo.json'),
+    loadData('movements','data/movements.json')
+  ]);
 
   mapInstance = L.map('map').setView([44.5, 11.5], 6);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
     attribution:'© OpenStreetMap contributors', maxZoom:18
   }).addTo(mapInstance);
 
+  // Mappa id luogo → coordinate
+  const geoIdx = {};
+  geo.forEach(p=>{ if(p.lat&&p.lng) geoIdx[p.id]=p; });
+
+  // ── Layer 1: Luoghi menzionati ────────────────────────────────────
+  const placesLayer = L.layerGroup();
   const colors = {'1':'#2a5c34','2-5':'#8b6318','6-10':'#7a3e18','10+':'#7a2830'};
 
   geo.filter(p=>p.lat&&p.lng).forEach(p=>{
     const n = p.letters.length;
     const color = n>=10?colors['10+']:n>=6?colors['6-10']:n>=2?colors['2-5']:colors['1'];
     const radius = 6 + Math.min(n*2, 16);
-
     const marker = L.circleMarker([p.lat,p.lng],{
-      radius, fillColor:color, color:'white', weight:1.5,
-      fillOpacity:.8
-    }).addTo(mapInstance);
-
+      radius, fillColor:color, color:'white', weight:1.5, fillOpacity:.85
+    });
     const links = [
       p.wikidata&&`<a href="${p.wikidata}" target="_blank">Wikidata</a>`,
       p.geonames&&`<a href="${p.geonames}" target="_blank">GeoNames</a>`,
     ].filter(Boolean).join(' · ');
-
     marker.bindPopup(`
       <strong>${p.label}</strong><br>
       <em style="font-size:11px;color:#666">${p.toponym||''}</em><br>
-      <span style="font-size:11px">Cited in ${n} ${n===1?'letter':'letters'}</span><br>
-      ${links?`<span style="font-size:10px">${links}</span>`:''}
+      <span style="font-size:11px">Cited in ${n} ${n===1?'letter':'letters'}</span>
+      ${links?`<br><span style="font-size:10px">${links}</span>`:''}
     `);
+    placesLayer.addLayer(marker);
   });
+
+  // ── Layer 2: Movimenti ────────────────────────────────────────────
+  const movLayer = L.layerGroup();
+  const movColors = {
+    letter:   '#1c3a6e',   // Prussian blue — lettere
+    organism: '#2a5c34',   // Verdigris — specimen biologici
+    default:  '#8b6318',   // Ochre — altri
+  };
+
+  // Raggruppa movimenti per coppia from/to per evitare frecce duplicate
+  const routeCount = {};
+  movements.forEach(m=>{
+    if(!m.from_place_id || !m.to_place_id) return;
+    const key = `${m.from_place_id}|${m.to_place_id}`;
+    if(!routeCount[key]) routeCount[key]={count:0,type:m.object_type,objects:[],letters:[]};
+    routeCount[key].count++;
+    if(m.object && !routeCount[key].objects.includes(m.object))
+      routeCount[key].objects.push(m.object);
+    if(!routeCount[key].letters.includes(m.letter))
+      routeCount[key].letters.push(m.letter);
+    if(m.object_type) routeCount[key].type=m.object_type;
+  });
+
+  Object.entries(routeCount).forEach(([key, data])=>{
+    const [fpId, tpId] = key.split('|');
+    const fp = geoIdx[fpId], tp = geoIdx[tpId];
+    if(!fp||!tp) return;
+
+    const color = movColors[data.type]||movColors.default;
+    const weight = 1.5 + Math.min(data.count, 5);
+
+    // Linea curva con offset per non sovrapporre andata/ritorno
+    const latlng1 = [fp.lat, fp.lng], latlng2 = [tp.lat, tp.lng];
+
+    // Curva bezier approssimata con polyline intermedio
+    const midLat = (fp.lat+tp.lat)/2 + (tp.lng-fp.lng)*0.08;
+    const midLng = (fp.lng+tp.lng)/2 - (tp.lat-fp.lat)*0.08;
+    const line = L.polyline([latlng1,[midLat,midLng],latlng2],{
+      color, weight, opacity:.75, smoothFactor:2
+    });
+
+    // Freccia decorativa a metà percorso
+    const arrowIcon = L.divIcon({
+      html:`<div style="color:${color};font-size:11px;transform:rotate(${
+        Math.atan2(tp.lat-fp.lat, tp.lng-fp.lng)*180/Math.PI
+      }deg)">▶</div>`,
+      className:'', iconSize:[12,12]
+    });
+    L.marker([midLat,midLng],{icon:arrowIcon}).addTo(movLayer);
+
+    const popup = `
+      <strong>${data.objects.slice(0,3).join(', ')}${data.objects.length>3?'…':''}</strong><br>
+      <span style="font-size:10px">${fp.label} → ${tp.label}</span><br>
+      <span style="font-size:10px;color:#666">${data.count} movement${data.count>1?'s':''} · ${data.letters.length} ${data.letters.length===1?'letter':'letters'}</span>
+    `;
+    line.bindPopup(popup);
+    movLayer.addLayer(line);
+
+    // Punto partenza (piccolo cerchio)
+    L.circleMarker(latlng1,{radius:4,fillColor:color,color:'white',weight:1,fillOpacity:.9})
+      .addTo(movLayer);
+  });
+
+  // ── Layer control ────────────────────────────────────────────────
+  const baseMaps = {};
+  const overlays = {
+    'Places mentioned': placesLayer,
+    'Movements': movLayer
+  };
+  placesLayer.addTo(mapInstance);
+  movLayer.addTo(mapInstance);
+  L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(mapInstance);
 }
 
 // ── SPARQL ────────────────────────────────────────────────────────────
@@ -711,13 +789,20 @@ async function runSparql() {
 function openEntityPopup(event, id, label, type) {
   event.stopPropagation();
   const popup  = document.getElementById('entity-popup');
-  const entity = (DATA['entities']||[]).find(e=>e.id===id);
   const typeLabels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
   const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)'};
 
+  // Usa label e type direttamente dallo span — non affidarsi al lookup per questi
   document.getElementById('ep-type').textContent = typeLabels[type]||type;
   document.getElementById('ep-type').style.color = typeColors[type]||'var(--faded)';
-  document.getElementById('ep-label').textContent = (entity?.label)||label||id.split('/').pop();
+  document.getElementById('ep-label').textContent = label || id.split('/').pop();
+
+  // Cerca arricchimento LOD: prova match esatto, poi per slug finale dell'URI
+  const slug = id.split('/').pop();
+  const entities = DATA['entities']||[];
+  const entity = entities.find(e=>e.id===id)
+    || entities.find(e=>e.id.endsWith('/'+slug))
+    || entities.find(e=>e.label===label && e.type===type);
 
   let uriHtml = '';
   if(entity){
@@ -739,7 +824,6 @@ function openEntityPopup(event, id, label, type) {
   }
   document.getElementById('ep-uri').innerHTML = uriHtml;
 
-  // Posiziona il popup vicino al click ma dentro la viewport
   const pw = 280, ph = 180;
   let x = event.pageX + 14;
   let y = event.pageY - 10;
