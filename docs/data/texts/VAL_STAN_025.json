@@ -2,20 +2,7 @@
   "id": "VAL_STAN_025",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_025\nDATE: 1708-03-06\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: Vittorio Francesco Stancari\nPadoa 6 marzo 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nGià il nostro gentilissimo signor ",
+      "text": "Padoa 6 marzo 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nGià il nostro gentilissimo signor ",
       "entity": null
     },
     {
@@ -184,7 +171,7 @@
       }
     },
     {
-      "text": ". Egli ha già in pronto l’istoria naturale del mare, e quanto prima la darà alla luce sotto gli auspicii della società di Parigi. Vedremo qualche cosa d’ottimo gusto, ed io ne sono avidissimo.  \n\nL’abbraccio col cuore, e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "text": ". Egli ha già in pronto l’istoria naturale del mare, e quanto prima la darà alla luce sotto gli auspicii della società di Parigi. Vedremo qualche cosa d’ottimo gusto, ed io ne sono avidissimo.  \n\nL’abbraccio col cuore, e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

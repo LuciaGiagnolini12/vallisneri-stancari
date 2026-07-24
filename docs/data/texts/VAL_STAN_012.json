@@ -2,33 +2,7 @@
   "id": "VAL_STAN_012",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_012\nDATE: 1707-03-24\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di vostra signoria illustrissima e di cotesti virtuosissimi signori in farmi l’onore d’ascrivermi nella loro rinomata Accademia. Le rendo quante grazie so, e posso, e lascierò fare alla di lei eloquenza ad esprimere in termini i più vivi e i più espressivi gli ossequiosi sentimenti della mia gratitudine. Se altre volte hanno avuta la bontà di compatire le debolezze mie, benché mezzo selvatiche e forestiere, spero che maggiormente le compatiranno per l’avvenire, considerandole come dimestiche e come concitadine, protegendole ed illustrandole e creando in esse quel merito per genio che non possono aver per natura.  \n\nGodo che abbiano subito scoperti quegli avvelenati fori nell’aculeo dello ",
+      "text": "Padoa 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di vostra signoria illustrissima e di cotesti virtuosissimi signori in farmi l’onore d’ascrivermi nella loro rinomata Accademia. Le rendo quante grazie so, e posso, e lascierò fare alla di lei eloquenza ad esprimere in termini i più vivi e i più espressivi gli ossequiosi sentimenti della mia gratitudine. Se altre volte hanno avuta la bontà di compatire le debolezze mie, benché mezzo selvatiche e forestiere, spero che maggiormente le compatiranno per l’avvenire, considerandole come dimestiche e come concitadine, protegendole ed illustrandole e creando in esse quel merito per genio che non possono aver per natura.  \n\nGodo che abbiano subito scoperti quegli avvelenati fori nell’aculeo dello ",
       "entity": null
     },
     {
@@ -158,7 +132,7 @@
       }
     },
     {
-      "text": " ed altre mie bagatelle, e facendole devotissima riverenza, come a tutti i nostri riveriti accademici, resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n\n ",
+      "text": " ed altre mie bagatelle, e facendole devotissima riverenza, come a tutti i nostri riveriti accademici, resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

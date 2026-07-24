@@ -2,33 +2,7 @@
   "id": "VAL_STAN_022",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_022\nDATE: 1707-12-05\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 5 dicembre 1707  \n\nIllustrissimo ",
+      "text": "Padoa 5 dicembre 1707  \n\nIllustrissimo ",
       "entity": null
     },
     {
@@ -197,7 +171,7 @@
       }
     },
     {
-      "text": ".  \n\nMi perdoni del tedio. Aspetto nuova, che cosa fa il camaleonte. Il signor Morgagni è andato a Venezia.  \n\nL’abbraccio in fretta e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n",
+      "text": ".  \n\nMi perdoni del tedio. Aspetto nuova, che cosa fa il camaleonte. Il signor Morgagni è andato a Venezia.  \n\nL’abbraccio in fretta e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

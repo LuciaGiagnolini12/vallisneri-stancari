@@ -2,33 +2,7 @@
   "id": "VAL_STAN_020",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_020\nDATE: 1707-10-29\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 29 ottobre 1707  \n\nModo di governare il ",
+      "text": "Padoa 29 ottobre 1707  \n\nModo di governare il ",
       "entity": null
     },
     {
@@ -132,7 +106,7 @@
       }
     },
     {
-      "text": " maschi. Prego il signor Valsalvi a cercare nel nostro camaleonte le orecchie e farne diligente osservazione, poiché sono difficilissime da ritrovare. Osservi pure quella struttura d’occhi particolare non concessa ad alcun altro animale, e troverà qualche cosa di particolare ne’ muscoli. Registri vostra signoria illustrissima tutto l’osservato, come nelle interne viscere, e me l’avvisi, che l’inserirò nel mio tratatello illustrandolo col loro nome. L’argomento che loro mandai servirà per un abbozzo delle mie grossolane osservazioni, che aspettano polimento e l’ultima mano dalla loro diligentissima diligenza. \n\nA.V. ",
+      "text": " maschi. Prego il signor Valsalvi a cercare nel nostro camaleonte le orecchie e farne diligente osservazione, poiché sono difficilissime da ritrovare. Osservi pure quella struttura d’occhi particolare non concessa ad alcun altro animale, e troverà qualche cosa di particolare ne’ muscoli. Registri vostra signoria illustrissima tutto l’osservato, come nelle interne viscere, e me l’avvisi, che l’inserirò nel mio tratatello illustrandolo col loro nome. L’argomento che loro mandai servirà per un abbozzo delle mie grossolane osservazioni, che aspettano polimento e l’ultima mano dalla loro diligentissima diligenza. \n\nA.V.",
       "entity": null
     }
   ]

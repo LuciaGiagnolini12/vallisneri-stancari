@@ -2,20 +2,7 @@
   "id": "VAL_STAN_018",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_018\nDATE: 1707-09-12\nFROM: Antonio Vallisneri \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 12 settembre 1707  \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nRicevo in Padoa il di lei compitissimo e virtuosissimo foglio, e poco dopo dal sig. ",
+      "text": "Padoa 12 settembre 1707  \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nRicevo in Padoa il di lei compitissimo e virtuosissimo foglio, e poco dopo dal sig. ",
       "entity": null
     },
     {
@@ -158,7 +145,7 @@
       }
     },
     {
-      "text": "! Lo baci in mio nome.  \n\nI miei inchini agli altri amici, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisneri \n\n ",
+      "text": "! Lo baci in mio nome.  \n\nI miei inchini agli altri amici, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisneri",
       "entity": null
     }
   ]

@@ -2,33 +2,7 @@
   "id": "VAL_STAN_007",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_008\nDATE: 1706-07-20\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPratissolo adì 20 luglio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nEssendo in villa ozioso e mal contento per il nuovo torbido che si avalla contro di noi, sono stato compassionato da un amico, il quale per sollevarmi m’ha mandate alcune ",
+      "text": "Pratissolo adì 20 luglio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nEssendo in villa ozioso e mal contento per il nuovo torbido che si avalla contro di noi, sono stato compassionato da un amico, il quale per sollevarmi m’ha mandate alcune ",
       "entity": null
     },
     {
@@ -106,7 +80,7 @@
       }
     },
     {
-      "text": ", ed abbracciandola con lo spirito resto immutabilmente di vostra signoria illustrissima devotissimo servitore obbligatissimo Antonio Vallisnieri \n",
+      "text": ", ed abbracciandola con lo spirito resto immutabilmente di vostra signoria illustrissima devotissimo servitore obbligatissimo Antonio Vallisnieri",
       "entity": null
     }
   ]

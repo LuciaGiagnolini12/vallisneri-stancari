@@ -2,33 +2,7 @@
   "id": "VAL_STAN_004",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_004\nDATE: 1706-02-05\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 5 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nAndava tardando a scrivere a vostra signoria illustrissima, perché aspettava che il negligentissimo ",
+      "text": "Padoa 5 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nAndava tardando a scrivere a vostra signoria illustrissima, perché aspettava che il negligentissimo ",
       "entity": null
     },
     {
@@ -132,7 +106,7 @@
       }
     },
     {
-      "text": " non mai veduto da questi botanici, che mi è nato felicemente.  \n\nI miei soliti inchini a tutti gentilissimi e virtuosissimi signori, ed abbracciandola col cuore resto di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri  ",
+      "text": " non mai veduto da questi botanici, che mi è nato felicemente.  \n\nI miei soliti inchini a tutti gentilissimi e virtuosissimi signori, ed abbracciandola col cuore resto di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

@@ -2,33 +2,7 @@
   "id": "VAL_STAN_006",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_006\nDATE: 1706-05-21\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 21 maggio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nRicevei il suo compitissimo foglio in letto travagliato da una ",
+      "text": "Padoa 21 maggio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nRicevei il suo compitissimo foglio in letto travagliato da una ",
       "entity": null
     },
     {
@@ -132,8 +106,17 @@
       }
     },
     {
-      "text": " decoro di questo studio la riverisce, ed io mi protesto inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri \n\nSignor Vittorio Francesco Stancari ",
+      "text": " decoro di questo studio la riverisce, ed io mi protesto inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri \n\nSignor ",
       "entity": null
+    },
+    {
+      "text": "Vittorio Francesco Stancari",
+      "entity": {
+        "text": "Vittorio Francesco Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Vittorio Francesco Stancari"
+      }
     }
   ]
 }

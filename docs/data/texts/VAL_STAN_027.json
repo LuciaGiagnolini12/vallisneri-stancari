@@ -2,33 +2,7 @@
   "id": "VAL_STAN_027",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_027\nDATE: 1708-05-09\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 9 maggio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nHo ricevuto la sua tardi, e solo li 6 di maggio, e la posta parte di qua il venerdì che fu li 4, onde le rispondo oggi li 9 per la posta di Ferrara, abbenché mi dicano ch’alle volte si perdono o tardano. Riceverò i favori del cervello petrificato dal signor ",
+      "text": "Padoa 9 maggio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nHo ricevuto la sua tardi, e solo li 6 di maggio, e la posta parte di qua il venerdì che fu li 4, onde le rispondo oggi li 9 per la posta di Ferrara, abbenché mi dicano ch’alle volte si perdono o tardano. Riceverò i favori del cervello petrificato dal signor ",
       "entity": null
     },
     {
@@ -132,7 +106,7 @@
       }
     },
     {
-      "text": " contro i testi d’Aristotele che citò. Ero presente, onde s’imagini che rossore. Tutti gli abbati (ed era in 50 facendosi adesso capitolo) mi guardavano, e tutti gli altri innumerabili uditori, onde avrei voluto avere allora quella pietra di calandrino, che m’avesse renduto invisibile. Gli fui bene obbligato del sommo onore, che non meritavo giammai, ma me presente posero in troppa disperazione la mia modestia. Il fratismo ar(istote)lico che mai disse? \n\nL’abbraccio in fretta, poiché mi chiamano a tavola. Di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "text": " contro i testi d’Aristotele che citò. Ero presente, onde s’imagini che rossore. Tutti gli abbati (ed era in 50 facendosi adesso capitolo) mi guardavano, e tutti gli altri innumerabili uditori, onde avrei voluto avere allora quella pietra di calandrino, che m’avesse renduto invisibile. Gli fui bene obbligato del sommo onore, che non meritavo giammai, ma me presente posero in troppa disperazione la mia modestia. Il fratismo ar(istote)lico che mai disse? \n\nL’abbraccio in fretta, poiché mi chiamano a tavola. Di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

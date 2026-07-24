@@ -2,33 +2,7 @@
   "id": "VAL_STAN_023",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_023\nDATE: 1708-02-01\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa primo febbraio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nGià il mio signor Stancari riveritissimo non si stupirà se gli rispondo tardi, poiché dirà che imparo da lui. Ho voluto terminare alcune cosette per risponderle con più quiete. Le rendo grazie delle belle notizie del ",
+      "text": "Padoa primo febbraio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nGià il mio signor Stancari riveritissimo non si stupirà se gli rispondo tardi, poiché dirà che imparo da lui. Ho voluto terminare alcune cosette per risponderle con più quiete. Le rendo grazie delle belle notizie del ",
       "entity": null
     },
     {
@@ -184,7 +158,7 @@
       }
     },
     {
-      "text": ", l’ho letto subito tutto, e vi truovo molte cose indegne d’un filosofo naturale, molte cose imaginate, molte piamente credute, molte falsamente supposte.  \n\nL’abbraccio col cuore, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "text": ", l’ho letto subito tutto, e vi truovo molte cose indegne d’un filosofo naturale, molte cose imaginate, molte piamente credute, molte falsamente supposte.  \n\nL’abbraccio col cuore, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

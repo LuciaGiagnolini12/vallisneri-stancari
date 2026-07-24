@@ -2,33 +2,7 @@
   "id": "VAL_STAN_003",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_003\nDATE: 1706-01-10\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del signor ",
+      "text": "Padoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del signor ",
       "entity": null
     },
     {
@@ -275,7 +249,7 @@
       }
     },
     {
-      "text": " e suo signor figlio, e m’avvisino se vogliono venire a Padoa, poiché verso il fine di Carnevale sono in impegno d’andare a Venezia, onde sollecitino i loro da me sempre riveriti favori.  \n\nL’abbraccio caramente, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri  ",
+      "text": " e suo signor figlio, e m’avvisino se vogliono venire a Padoa, poiché verso il fine di Carnevale sono in impegno d’andare a Venezia, onde sollecitino i loro da me sempre riveriti favori.  \n\nL’abbraccio caramente, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

@@ -2,33 +2,7 @@
   "id": "VAL_STAN_015",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_015\nDATE: 1707-06-23\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nla matina del Corpus Domini 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ tardata tanto l’occasione di mandare a vostra signoria illustrissima il ",
+      "text": "la matina del Corpus Domini 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ tardata tanto l’occasione di mandare a vostra signoria illustrissima il ",
       "entity": null
     },
     {
@@ -119,7 +93,7 @@
       }
     },
     {
-      "text": ". Farò almeno fare i rami e li manderò. Intanto mando tre sole figure o tre primi abbozzi che mi sono restati sul tavolino, e mando tre mosche coll’aculeo cacciato fuora. Il bello si è dividerlo con uno spillo sottilissimo e guardare le seghe laterali artificiosissime di mezzo. È quasi impossibile che non venga la Galleria a qualcheduno in Bologna, onde procuri di vedere l’ultima parte stampata, dove troverà anche l’estratto d’un mio tratatello de’ mostri che ho avuto, ho ed ho veduto co’ proprii occhi, dov’è qualche osservazione nuova.  \n\nNon so quest’anno se si vedremo. Se potrò farò una scappata, ma dubbito. Mi rallegro del principe nuovo dell’Accademia. So che dovrei fare qualche componimento indiretto all’Accademia, e con un poco di tempo lo farò, per ora voglio terminare due cosette attorno alle quali lavoro. \n\nI miei soliti inchini e resto immutabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero e amico Antonio Vallisnieri ",
+      "text": ". Farò almeno fare i rami e li manderò. Intanto mando tre sole figure o tre primi abbozzi che mi sono restati sul tavolino, e mando tre mosche coll’aculeo cacciato fuora. Il bello si è dividerlo con uno spillo sottilissimo e guardare le seghe laterali artificiosissime di mezzo. È quasi impossibile che non venga la Galleria a qualcheduno in Bologna, onde procuri di vedere l’ultima parte stampata, dove troverà anche l’estratto d’un mio tratatello de’ mostri che ho avuto, ho ed ho veduto co’ proprii occhi, dov’è qualche osservazione nuova.  \n\nNon so quest’anno se si vedremo. Se potrò farò una scappata, ma dubbito. Mi rallegro del principe nuovo dell’Accademia. So che dovrei fare qualche componimento indiretto all’Accademia, e con un poco di tempo lo farò, per ora voglio terminare due cosette attorno alle quali lavoro. \n\nI miei soliti inchini e resto immutabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero e amico Antonio Vallisnieri",
       "entity": null
     }
   ]

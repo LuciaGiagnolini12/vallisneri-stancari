@@ -2,33 +2,7 @@
   "id": "VAL_STAN_017",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_017\nDATE: 1707-07-31\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nReggio 31 luglio 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nSono in Reggio caldo, bollente, abbrustolito dal sole nel mio viaggio. Pure m’è restata la volontà di legger libri. Ho trovate le opere del ",
+      "text": "Reggio 31 luglio 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nSono in Reggio caldo, bollente, abbrustolito dal sole nel mio viaggio. Pure m’è restata la volontà di legger libri. Ho trovate le opere del ",
       "entity": null
     },
     {
@@ -171,7 +145,7 @@
       }
     },
     {
-      "text": " maraviglioso, e lo mostrerà poi a nostri accademici. ",
+      "text": " maraviglioso, e lo mostrerà poi a nostri accademici.",
       "entity": null
     }
   ]

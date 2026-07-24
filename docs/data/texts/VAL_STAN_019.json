@@ -2,33 +2,7 @@
   "id": "VAL_STAN_019",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_019\nDATE: 1707-10-05\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nTencarola villa del Padoano adì 5 ottobre 1707  \n\nIllustrissimo signor Stancardi mio signore riveritissimo  \n\nIo sono chiuso dalle acque per l’inondazione d’un fiume che ci circonda, onde qui ozioso cerco l’occasione di ingannare il tempo. Il bello si è che non ho carta, e pur le voglio scrivere alcune curiose notizie, che forse non saranno discare alla nostra Accademia di nobili curiosi. Ho avute da un dottissimo amico venuto poco fa da Costantinopoli una razza di piccolissimi semi giallici e di virtù non ultima nell’arte nostra. Si chiamano ",
+      "text": "Tencarola villa del Padoano adì 5 ottobre 1707  \n\nIllustrissimo signor Stancardi mio signore riveritissimo  \n\nIo sono chiuso dalle acque per l’inondazione d’un fiume che ci circonda, onde qui ozioso cerco l’occasione di ingannare il tempo. Il bello si è che non ho carta, e pur le voglio scrivere alcune curiose notizie, che forse non saranno discare alla nostra Accademia di nobili curiosi. Ho avute da un dottissimo amico venuto poco fa da Costantinopoli una razza di piccolissimi semi giallici e di virtù non ultima nell’arte nostra. Si chiamano ",
       "entity": null
     },
     {
@@ -249,7 +223,7 @@
       }
     },
     {
-      "text": ", e suppongo l’abbia ricevuta. Io voleva veramente per essere troppo onerosa francarla, ma il postiglione mi disse che non hanno un tal commercio con que’ di Bologna, e non volle l’impegno. Compatisca dunque il tedio e la spesa, e incolpi la sua generosa benignità.  \n\nIntanto m’onori di qualche commando e creda che sono e sarò sempre di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri ",
+      "text": ", e suppongo l’abbia ricevuta. Io voleva veramente per essere troppo onerosa francarla, ma il postiglione mi disse che non hanno un tal commercio con que’ di Bologna, e non volle l’impegno. Compatisca dunque il tedio e la spesa, e incolpi la sua generosa benignità.  \n\nIntanto m’onori di qualche commando e creda che sono e sarò sempre di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri",
       "entity": null
     }
   ]

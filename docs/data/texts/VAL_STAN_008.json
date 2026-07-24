@@ -2,33 +2,7 @@
   "id": "VAL_STAN_008",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_008\nDATE: 1706-08-20\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nScandiano 20 agosto 1706 \n\nRiveritissimo mio ",
+      "text": "Scandiano 20 agosto 1706 \n\nRiveritissimo mio ",
       "entity": null
     },
     {
@@ -80,7 +54,7 @@
       }
     },
     {
-      "text": ", ma avendo lasciata Modana in mano de Francesi, e né meno bloccata, questi escono, ed oggi in 400 sono a Rubiera a danneggiare e a levare il resto, come riferisce uno che adesso di colà viene. Siamo, o amico, in una pessima condizione, non sapendo a chi obbedire, né chi sia che debba diffenderci, mentre troviamo che tutti vogliono il nostro, e tutti hanno le medesime regole generali, come abbiamo noi altri medici, benché di setta diversa. Tutti ne vogliono, e sta bene chi da tutti ha minor male.  \n\nL’abbraccio col cuore, e resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico A.V. \n",
+      "text": ", ma avendo lasciata Modana in mano de Francesi, e né meno bloccata, questi escono, ed oggi in 400 sono a Rubiera a danneggiare e a levare il resto, come riferisce uno che adesso di colà viene. Siamo, o amico, in una pessima condizione, non sapendo a chi obbedire, né chi sia che debba diffenderci, mentre troviamo che tutti vogliono il nostro, e tutti hanno le medesime regole generali, come abbiamo noi altri medici, benché di setta diversa. Tutti ne vogliono, e sta bene chi da tutti ha minor male.  \n\nL’abbraccio col cuore, e resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico A.V.",
       "entity": null
     }
   ]

@@ -2,33 +2,7 @@
   "id": "VAL_STAN_011",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_011\nDATE: 1707\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nIllustrissimo signor mio padrone colendissimo \n\nCon l’occasione che rittorna a Venezia il riveritissimo nostro signor ",
+      "text": "Illustrissimo signor mio padrone colendissimo \n\nCon l’occasione che rittorna a Venezia il riveritissimo nostro signor ",
       "entity": null
     },
     {
@@ -158,7 +132,7 @@
       }
     },
     {
-      "text": ", che gliene manderò uno, e di nuovo resto di vostra signoria illustrissima devotissimo servitore obbligatissimo A.V. ",
+      "text": ", che gliene manderò uno, e di nuovo resto di vostra signoria illustrissima devotissimo servitore obbligatissimo A.V.",
       "entity": null
     }
   ]

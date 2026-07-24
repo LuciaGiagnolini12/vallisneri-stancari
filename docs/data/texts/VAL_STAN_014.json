@@ -2,33 +2,7 @@
   "id": "VAL_STAN_014",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_014\nDATE: 1707-05-23\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 23 maggio 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo già ricevuto dal gentilissimo e dottissimo signor ",
+      "text": "Padoa 23 maggio 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo già ricevuto dal gentilissimo e dottissimo signor ",
       "entity": null
     },
     {
@@ -223,7 +197,7 @@
       }
     },
     {
-      "text": " o dove annidano de’ suddetti pidocchi, il quale poi diventa pur mosca.  \n\nLe mando un invito a Letterati d’Italia, che forse si stamperà. È stato un mio amico che l’ha fatto, e aspetto subito il suo sincero parere. Ma sona la campana e s’avvicina il tempo della lezione. L’abbraccio col cuore e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n\nManderò poi l’invito a Letterati ecc. crescendo troppo di mole la lettera. \n\n ",
+      "text": " o dove annidano de’ suddetti pidocchi, il quale poi diventa pur mosca.  \n\nLe mando un invito a Letterati d’Italia, che forse si stamperà. È stato un mio amico che l’ha fatto, e aspetto subito il suo sincero parere. Ma sona la campana e s’avvicina il tempo della lezione. L’abbraccio col cuore e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n\nManderò poi l’invito a Letterati ecc. crescendo troppo di mole la lettera.",
       "entity": null
     }
   ]

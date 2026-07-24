@@ -2,33 +2,7 @@
   "id": "VAL_STAN_029",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_029\nDATE: 1708-07-05\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 5 luglio 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nOh che rabbia ebbi l’altro giorno, quando passò il nostro stimatissimo signor conte Marsigli, che domandò di mia persona, ed ero quella matina a desinare col signor ",
+      "text": "Padoa 5 luglio 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nOh che rabbia ebbi l’altro giorno, quando passò il nostro stimatissimo signor conte Marsigli, che domandò di mia persona, ed ero quella matina a desinare col signor ",
       "entity": null
     },
     {
@@ -171,7 +145,7 @@
       }
     },
     {
-      "text": ", che una volta trionferà sopra i suoi emoli. \n\nL’abraccio in fretta, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "text": ", che una volta trionferà sopra i suoi emoli. \n\nL’abraccio in fretta, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

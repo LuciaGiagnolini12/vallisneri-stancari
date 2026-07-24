@@ -2,33 +2,7 @@
   "id": "VAL_STAN_024",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_024\nDATE: 1708-02-10\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 10 febbraio 1708 \n\nIllustrissimo signor Stancari, padrone colendissimo \n\nScrissi un’altra a vostra signoria illustrissima, e suppongo l’avrà ricevuta. Ora ho bisogno d’un favore. Nel leggere che ho fatto questi giorni le memorie dell’Accademia di Parigi, v’ho trovato un’istoria di monsieur ",
+      "text": "Padoa 10 febbraio 1708 \n\nIllustrissimo signor Stancari, padrone colendissimo \n\nScrissi un’altra a vostra signoria illustrissima, e suppongo l’avrà ricevuta. Ora ho bisogno d’un favore. Nel leggere che ho fatto questi giorni le memorie dell’Accademia di Parigi, v’ho trovato un’istoria di monsieur ",
       "entity": null
     },
     {
@@ -119,7 +93,7 @@
       }
     },
     {
-      "text": ", resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio Vallisnieri ",
+      "text": ", resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio Vallisnieri",
       "entity": null
     }
   ]

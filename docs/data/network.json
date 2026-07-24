@@ -1,27 +1,21 @@
 {
   "nodes": [
     {
-      "id": "https://w3id.org/vallisnieri/text/",
-      "label": "Micrographia curiosa",
-      "type": "text",
-      "letters": 18
-    },
-    {
       "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "label": "Vittorio Francesco Stancari",
       "type": "person",
       "letters": 28
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "label": "Antonio Vallisneri",
+      "id": "https://w3id.org/vallisnieri/person/",
+      "label": "Bellini, unknown",
       "type": "person",
-      "letters": 28
+      "letters": 14
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "label": "Manfredi",
-      "type": "person",
+      "id": "https://w3id.org/vallisnieri/text/",
+      "label": "Micrographia curiosa",
+      "type": "text",
       "letters": 18
     },
     {
@@ -31,38 +25,14 @@
       "letters": 5
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "label": "Dorelli",
+      "id": "https://w3id.org/vallisnieri/institution/",
+      "label": "Luigi, Conte",
       "type": "person",
-      "letters": 4
+      "letters": 12
     },
     {
       "id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
       "label": "Giovanni Battista Valsalva",
-      "type": "person",
-      "letters": 6
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "label": "Nanni",
-      "type": "person",
-      "letters": 5
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/",
-      "label": "Bellini, unknown",
-      "type": "person",
-      "letters": 14
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "label": "Giuseppe Maria Marsili",
-      "type": "person",
-      "letters": 4
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "label": "Luigi Vittorio Filippo Marsili",
       "type": "person",
       "letters": 6
     },
@@ -73,16 +43,46 @@
       "letters": 2
     },
     {
+      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "label": "Antonio Vallisneri",
+      "type": "person",
+      "letters": 28
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "label": "Dorelli",
+      "type": "person",
+      "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "label": "Luigi Vittorio Filippo Marsili",
+      "type": "person",
+      "letters": 6
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "label": "Nanni",
+      "type": "person",
+      "letters": 5
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "label": "Manfredi",
+      "type": "person",
+      "letters": 18
+    },
+    {
       "id": "https://w3id.org/vallisnieri/person/sandri_unknown",
       "label": "Sandri",
       "type": "person",
       "letters": 3
     },
     {
-      "id": "https://w3id.org/vallisnieri/institution/",
-      "label": "Luigi, Conte",
+      "id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "label": "Giuseppe Maria Marsili",
       "type": "person",
-      "letters": 12
+      "letters": 4
     }
   ],
   "edges": [

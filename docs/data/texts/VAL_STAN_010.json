@@ -2,33 +2,7 @@
   "id": "VAL_STAN_010",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_010 \nDATE: 1707-01-27\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 27 genajo 1707 \n\nIllustrissimo signore e padrone colendissimo \n\nIl gentilissimo e dottissimo ",
+      "text": "Padoa 27 genajo 1707 \n\nIllustrissimo signore e padrone colendissimo \n\nIl gentilissimo e dottissimo ",
       "entity": null
     },
     {
@@ -119,7 +93,7 @@
       }
     },
     {
-      "text": ", le quali restrinsero e stamparono nel presente foglio, che con qualche rossore le invio. Il trattatello della lenticola quanto prima si stamperà intero, e ne invierò una copia. \n\nIntanto mi conservi il suo amore, e desideroso di qualche suo preziosissimo commando mi dichiaro inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri ",
+      "text": ", le quali restrinsero e stamparono nel presente foglio, che con qualche rossore le invio. Il trattatello della lenticola quanto prima si stamperà intero, e ne invierò una copia. \n\nIntanto mi conservi il suo amore, e desideroso di qualche suo preziosissimo commando mi dichiaro inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri",
       "entity": null
     }
   ]

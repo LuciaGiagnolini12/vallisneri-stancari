@@ -2,33 +2,7 @@
   "id": "VAL_STAN_016",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_016\nDATE: 1707-07-14\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 14 luglio 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nCon l’occasione dell’illustrissimo signor ",
+      "text": "Padoa 14 luglio 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nCon l’occasione dell’illustrissimo signor ",
       "entity": null
     },
     {
@@ -301,7 +275,7 @@
       }
     },
     {
-      "text": ". Vede la nostra italiana infelicità in non potere aver libri. Caso avesse notizia di questi o d’altri che avessero fatta questa scoperta, m’avvisi, per non far io la fatica indarno. Mi fa animo però il signor Morgagni a farla, supponendola cosa novissima. \n\nHo trovato nel Levenoech le figure spropositate e false d’una supposta da lui ovaja delle anguille, dove suppone gli anguillini, non le uova, ma queste sono vesciche, che si truovano sovente piene di vermi anguilliformi, non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla moglie del signor Guglielmini. \n\n ",
+      "text": ". Vede la nostra italiana infelicità in non potere aver libri. Caso avesse notizia di questi o d’altri che avessero fatta questa scoperta, m’avvisi, per non far io la fatica indarno. Mi fa animo però il signor Morgagni a farla, supponendola cosa novissima. \n\nHo trovato nel Levenoech le figure spropositate e false d’una supposta da lui ovaja delle anguille, dove suppone gli anguillini, non le uova, ma queste sono vesciche, che si truovano sovente piene di vermi anguilliformi, non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla moglie del signor Guglielmini.",
       "entity": null
     }
   ]

@@ -2,33 +2,7 @@
   "id": "VAL_STAN_002",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_002\nDATE: 1705-12-03\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 3 dicembre 1705 \n\nIllustrissimo signor mio padrone singolarissimo \n\nTardi rispondo al gentilissimo foglio di vostra signoria illustrissima, perché tardi sono giunto a Padoa, avendo consumati 20 giorni in circa in questo breve viaggio, per essere stato inchiodato dalla strabocchevole copia d’acqua ora in un luogo ora in un altro con ",
+      "text": "Padoa 3 dicembre 1705 \n\nIllustrissimo signor mio padrone singolarissimo \n\nTardi rispondo al gentilissimo foglio di vostra signoria illustrissima, perché tardi sono giunto a Padoa, avendo consumati 20 giorni in circa in questo breve viaggio, per essere stato inchiodato dalla strabocchevole copia d’acqua ora in un luogo ora in un altro con ",
       "entity": null
     },
     {
@@ -236,7 +210,7 @@
       }
     },
     {
-      "text": ", e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri \n\n ",
+      "text": ", e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri",
       "entity": null
     }
   ]

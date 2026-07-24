@@ -2,33 +2,7 @@
   "id": "VAL_STAN_001",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_001\nDATE: 1705-08-16\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nReggio adì 16 agosto 1705  \n\nIllustrissimo signor mio padrone colendissimo  \n\nDirà bene vostra signoria illustrissima che io sono un uomo zotico o selvatico, non avendole mai scritto dopo il mio arrivo in patria. Compatisca la di lei gentilezza un errore del corpo, non d’animo, posciaché appena salutata la casa mi portai su’ monti vicini, a nuovamente osservare certe cose non bene osservate l’altr’anno. Ora il bollore della stagione ancora su’ luoghi dove gli altr’anni non si conosce mi ha respinto a casa, dove dimorerò sino a settembre, per portarmi poi a Livorno, Genova e Firenze. Ho fatta nuova descrizione della minera del nostro ",
+      "text": "Reggio adì 16 agosto 1705  \n\nIllustrissimo signor mio padrone colendissimo  \n\nDirà bene vostra signoria illustrissima che io sono un uomo zotico o selvatico, non avendole mai scritto dopo il mio arrivo in patria. Compatisca la di lei gentilezza un errore del corpo, non d’animo, posciaché appena salutata la casa mi portai su’ monti vicini, a nuovamente osservare certe cose non bene osservate l’altr’anno. Ora il bollore della stagione ancora su’ luoghi dove gli altr’anni non si conosce mi ha respinto a casa, dove dimorerò sino a settembre, per portarmi poi a Livorno, Genova e Firenze. Ho fatta nuova descrizione della minera del nostro ",
       "entity": null
     },
     {
@@ -145,7 +119,7 @@
       }
     },
     {
-      "text": ", anime tutte elette ad illustrare non solamente la patria, ma l’Italia tutta, ed abbracciandola col cuore resto immutabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri ",
+      "text": ", anime tutte elette ad illustrare non solamente la patria, ma l’Italia tutta, ed abbracciandola col cuore resto immutabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

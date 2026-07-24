@@ -2,33 +2,7 @@
   "id": "VAL_STAN_026",
   "segments": [
     {
-      "text": "LETTER_ID: VAL_STAN_026\nDATE: 1708-03-19\nFROM: ",
-      "entity": null
-    },
-    {
-      "text": "Antonio Vallisneri",
-      "entity": {
-        "text": "Antonio Vallisneri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-        "type": "person",
-        "label": "Antonio Vallisneri"
-      }
-    },
-    {
-      "text": " \nTO: ",
-      "entity": null
-    },
-    {
-      "text": "Vittorio Francesco Stancari",
-      "entity": {
-        "text": "Vittorio Francesco Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": "\n\nPadoa 19 marzo 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo ricevuto le figure del ",
+      "text": "Padoa 19 marzo 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo ricevuto le figure del ",
       "entity": null
     },
     {
@@ -106,7 +80,7 @@
       }
     },
     {
-      "text": " etc.  \n\nL’abbraccio col cuore e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri ",
+      "text": " etc.  \n\nL’abbraccio col cuore e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri",
       "entity": null
     }
   ]
