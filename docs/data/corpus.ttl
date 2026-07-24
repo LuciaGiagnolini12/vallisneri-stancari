@@ -4757,11 +4757,13 @@
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_003> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_003"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_003> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_003> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_006> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_006"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_006> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_006> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/place/basel> a crm:E53_Place ;
@@ -4784,6 +4786,156 @@
     skos:altLabel "Parma"@it ;
     skos:prefLabel "Parma"@it ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_001> a crm:E52_Time-Span ;
+    rdfs:label "1705-08-16"@it ;
+    crm:P82a_begin_of_the_begin "1705-08-16"@it ;
+    crm:P82b_end_of_the_end "1705-08-16"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_002> a crm:E52_Time-Span ;
+    rdfs:label "1705-12-03"@it ;
+    crm:P82a_begin_of_the_begin "1705-12-03"@it ;
+    crm:P82b_end_of_the_end "1705-12-03"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_003> a crm:E52_Time-Span ;
+    rdfs:label "1706-01-10"@it ;
+    crm:P82a_begin_of_the_begin "1706-01-10"@it ;
+    crm:P82b_end_of_the_end "1706-01-10"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_004> a crm:E52_Time-Span ;
+    rdfs:label "1706-02-05"@it ;
+    crm:P82a_begin_of_the_begin "1706-02-05"@it ;
+    crm:P82b_end_of_the_end "1706-02-05"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_005> a crm:E52_Time-Span ;
+    rdfs:label "1706-02-13"@it ;
+    crm:P82a_begin_of_the_begin "1706-02-13"@it ;
+    crm:P82b_end_of_the_end "1706-02-13"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_006> a crm:E52_Time-Span ;
+    rdfs:label "1706-05-21"@it ;
+    crm:P82a_begin_of_the_begin "1706-05-21"@it ;
+    crm:P82b_end_of_the_end "1706-05-21"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_007> a crm:E52_Time-Span ;
+    rdfs:label "1706-07-20"@it ;
+    crm:P82a_begin_of_the_begin "1706-07-20"@it ;
+    crm:P82b_end_of_the_end "1706-07-20"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_008> a crm:E52_Time-Span ;
+    rdfs:label "1706-08-20"@it ;
+    crm:P82a_begin_of_the_begin "1706-08-20"@it ;
+    crm:P82b_end_of_the_end "1706-08-20"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_009> a crm:E52_Time-Span ;
+    rdfs:label "1706-11-04"@it ;
+    crm:P82a_begin_of_the_begin "1706-11-04"@it ;
+    crm:P82b_end_of_the_end "1706-11-04"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_010> a crm:E52_Time-Span ;
+    rdfs:label "1707-01-27"@it ;
+    crm:P82a_begin_of_the_begin "1707-01-27"@it ;
+    crm:P82b_end_of_the_end "1707-01-27"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_011> a crm:E52_Time-Span ;
+    rdfs:label "1707"@it ;
+    crm:P82a_begin_of_the_begin "1707"@it ;
+    crm:P82b_end_of_the_end "1707"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_012> a crm:E52_Time-Span ;
+    rdfs:label "1707-03-24"@it ;
+    crm:P82a_begin_of_the_begin "1707-03-24"@it ;
+    crm:P82b_end_of_the_end "1707-03-24"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_013> a crm:E52_Time-Span ;
+    rdfs:label "1707-04-21"@it ;
+    crm:P82a_begin_of_the_begin "1707-04-21"@it ;
+    crm:P82b_end_of_the_end "1707-04-21"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_014> a crm:E52_Time-Span ;
+    rdfs:label "1707-05-23"@it ;
+    crm:P82a_begin_of_the_begin "1707-05-23"@it ;
+    crm:P82b_end_of_the_end "1707-05-23"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_015> a crm:E52_Time-Span ;
+    rdfs:label "1707-06-23"@it ;
+    crm:P82a_begin_of_the_begin "1707-06-23"@it ;
+    crm:P82b_end_of_the_end "1707-06-23"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_016> a crm:E52_Time-Span ;
+    rdfs:label "1707-07-14"@it ;
+    crm:P82a_begin_of_the_begin "1707-07-14"@it ;
+    crm:P82b_end_of_the_end "1707-07-14"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_017> a crm:E52_Time-Span ;
+    rdfs:label "1707-07-31"@it ;
+    crm:P82a_begin_of_the_begin "1707-07-31"@it ;
+    crm:P82b_end_of_the_end "1707-07-31"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_018> a crm:E52_Time-Span ;
+    rdfs:label "1707-09-12"@it ;
+    crm:P82a_begin_of_the_begin "1707-09-12"@it ;
+    crm:P82b_end_of_the_end "1707-09-12"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_019> a crm:E52_Time-Span ;
+    rdfs:label "1707-10-05"@it ;
+    crm:P82a_begin_of_the_begin "1707-10-05"@it ;
+    crm:P82b_end_of_the_end "1707-10-05"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_020> a crm:E52_Time-Span ;
+    rdfs:label "1707-10-29"@it ;
+    crm:P82a_begin_of_the_begin "1707-10-29"@it ;
+    crm:P82b_end_of_the_end "1707-10-29"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_021> a crm:E52_Time-Span ;
+    rdfs:label "1707-11-24"@it ;
+    crm:P82a_begin_of_the_begin "1707-11-24"@it ;
+    crm:P82b_end_of_the_end "1707-11-24"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_022> a crm:E52_Time-Span ;
+    rdfs:label "1707-12-05"@it ;
+    crm:P82a_begin_of_the_begin "1707-12-05"@it ;
+    crm:P82b_end_of_the_end "1707-12-05"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_023> a crm:E52_Time-Span ;
+    rdfs:label "1708-02-01"@it ;
+    crm:P82a_begin_of_the_begin "1708-02-01"@it ;
+    crm:P82b_end_of_the_end "1708-02-01"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_024> a crm:E52_Time-Span ;
+    rdfs:label "1708-02-10"@it ;
+    crm:P82a_begin_of_the_begin "1708-02-10"@it ;
+    crm:P82b_end_of_the_end "1708-02-10"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_025> a crm:E52_Time-Span ;
+    rdfs:label "1708-03-06"@it ;
+    crm:P82a_begin_of_the_begin "1708-03-06"@it ;
+    crm:P82b_end_of_the_end "1708-03-06"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_026> a crm:E52_Time-Span ;
+    rdfs:label "1708-03-19"@it ;
+    crm:P82a_begin_of_the_begin "1708-03-19"@it ;
+    crm:P82b_end_of_the_end "1708-03-19"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_027> a crm:E52_Time-Span ;
+    rdfs:label "1708-05-09"@it ;
+    crm:P82a_begin_of_the_begin "1708-05-09"@it ;
+    crm:P82b_end_of_the_end "1708-05-09"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_028> a crm:E52_Time-Span ;
+    rdfs:label "1707-06-10"@it ;
+    crm:P82a_begin_of_the_begin "1707-06-10"@it ;
+    crm:P82b_end_of_the_end "1707-06-10"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_029> a crm:E52_Time-Span ;
+    rdfs:label "1708-07-05"@it ;
+    crm:P82a_begin_of_the_begin "1708-07-05"@it ;
+    crm:P82b_end_of_the_end "1708-07-05"@it .
+
+<https://w3id.org/vallisnieri/timespan/VAL_STAN_030> a crm:E52_Time-Span ;
+    rdfs:label "1708-10-03"@it ;
+    crm:P82a_begin_of_the_begin "1708-10-03"@it ;
+    crm:P82b_end_of_the_end "1708-10-03"@it .
 
 <https://w3id.org/vallisnieri/appellation/_val_stan_002> a crm:E41_Appellation ;
     rdfs:label "Bellini"@it,
@@ -5190,86 +5342,103 @@
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_004> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_004"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_004> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_004> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_005> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_005"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_005> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_005> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_007> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_007"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_007> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_007> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_010> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_010"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_010> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_010> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_011> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_011"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_011> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_011> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_012> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_012"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_012> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_012> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_013> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_013"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_013> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_013> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_014> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_014"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_014> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_014> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_016> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_016"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_016> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_016> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_018> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_018"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_018> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_018> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_020> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_020"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_020> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_020> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_022> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_022"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_022> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_022> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_023> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_023"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_023> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_023> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_024> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_024"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_024> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_024> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_025> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_025"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_025> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_025> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_026> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_026"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_026> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_026> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_027> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_027"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_027> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_027> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/place/alps> a crm:E53_Place ;
@@ -5306,26 +5475,31 @@
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_001> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_001"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_001> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_001> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_002> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_002"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_002> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_002> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_008> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_008"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_008> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_008> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_009> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_009"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_009> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_009> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_029> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_029"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_029> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_029> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/place/apennine_mountains> a crm:E53_Place ;
@@ -5372,26 +5546,31 @@
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_015> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_015"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_015> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_015> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_019> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_019"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_019> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_019> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_021> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_021"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_021> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_021> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_028> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_028"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_028> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_028> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_030> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_030"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_030> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_030> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/text/> a dsw:IndividualOrganism,
@@ -5537,6 +5716,7 @@
 <https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_017> a crm:E22_Human-Made_Object ;
     rdfs:label "Lettera VAL_STAN_017"@it ;
     crm:P128_carries <https://w3id.org/vallisnieri/letter/VAL_STAN_017> ;
+    crm:P4_has_time-span <https://w3id.org/vallisnieri/timespan/VAL_STAN_017> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/place/livorno> a crm:E53_Place ;

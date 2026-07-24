@@ -1,22 +1,22 @@
 {
   "nodes": [
     {
+      "id": "https://w3id.org/vallisnieri/text/",
+      "label": "Micrographia curiosa",
+      "type": "text",
+      "letters": 18
+    },
+    {
       "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "label": "Vittorio Francesco Stancari",
       "type": "person",
       "letters": 28
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
-      "label": "Sbaraglia, Unknown",
+      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "label": "Antonio Vallisneri",
       "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "label": "Giovanni Battista Valsalva",
-      "type": "person",
-      "letters": 6
+      "letters": 28
     },
     {
       "id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
@@ -25,34 +25,10 @@
       "letters": 18
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/",
-      "label": "Bellini, unknown",
+      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "label": "Orsi, Quaranta",
       "type": "person",
-      "letters": 14
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "label": "Sandri",
-      "type": "person",
-      "letters": 3
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/text/",
-      "label": "Micrographia curiosa",
-      "type": "text",
-      "letters": 18
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "label": "Luigi Vittorio Filippo Marsili",
-      "type": "person",
-      "letters": 6
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "label": "Giuseppe Maria Marsili",
-      "type": "person",
-      "letters": 4
+      "letters": 5
     },
     {
       "id": "https://w3id.org/vallisnieri/person/dorelli_unknown",
@@ -61,22 +37,46 @@
       "letters": 4
     },
     {
+      "id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "label": "Giovanni Battista Valsalva",
+      "type": "person",
+      "letters": 6
+    },
+    {
       "id": "https://w3id.org/vallisnieri/person/nanni_unknown",
       "label": "Nanni",
       "type": "person",
       "letters": 5
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
-      "label": "Orsi, Quaranta",
+      "id": "https://w3id.org/vallisnieri/person/",
+      "label": "Bellini, unknown",
       "type": "person",
-      "letters": 5
+      "letters": 14
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "label": "Antonio Vallisneri",
+      "id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "label": "Giuseppe Maria Marsili",
       "type": "person",
-      "letters": 28
+      "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "label": "Luigi Vittorio Filippo Marsili",
+      "type": "person",
+      "letters": 6
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "label": "Sbaraglia, Unknown",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "label": "Sandri",
+      "type": "person",
+      "letters": 3
     },
     {
       "id": "https://w3id.org/vallisnieri/institution/",
