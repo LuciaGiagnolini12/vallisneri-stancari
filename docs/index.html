@@ -144,10 +144,27 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .node text{font-size:10px;pointer-events:none;fill:var(--ink);}
 .link{stroke:var(--line);stroke-opacity:.6;}
 .link.transfer{stroke:var(--gold);stroke-opacity:.7;}
+.net-toolbar{position:absolute;top:12px;left:12px;z-index:10;display:flex;flex-direction:column;gap:6px;}
+.net-filters{display:flex;align-items:center;gap:4px;background:rgba(255,255,255,.92);
+  border:1px solid var(--line);border-radius:4px;padding:5px 8px;}
+.net-fbtn{padding:2px 8px;border:1px solid var(--line);border-radius:2px;font-size:9px;
+  cursor:pointer;background:white;font-family:var(--sans);}
+.net-fbtn:hover{border-color:var(--ink);}
+.net-fbtn.on{background:var(--ink);color:white;border-color:var(--ink);}
+.net-search{padding:3px 7px;border:1px solid var(--line);border-radius:2px;font-size:9px;width:160px;}
 .net-legend{position:absolute;bottom:20px;left:20px;background:rgba(255,255,255,.92);
   border:1px solid var(--line);border-radius:4px;padding:10px 14px;font-size:10px;}
 .net-legend div{display:flex;align-items:center;gap:6px;margin-bottom:4px;}
 .net-legend span{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+.net-tooltip{position:absolute;background:var(--paper);border:1px solid var(--line);
+  border-radius:4px;box-shadow:0 4px 16px rgba(0,0,0,.12);padding:10px 14px;
+  pointer-events:none;display:none;z-index:20;max-width:220px;}
+.net-tooltip.on{display:block;}
+.net-tt-type{font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--faded);margin-bottom:3px;}
+.net-tt-label{font-size:13px;font-weight:500;margin-bottom:4px;}
+.net-tt-letters{font-size:10px;color:var(--faded);margin-bottom:3px;}
+.net-tt-uri{font-size:9px;color:var(--faded);font-family:var(--mono);word-break:break-all;}
+.net-tt-uri a{color:var(--gold);}
 
 /* ── Timeline ── */
 #timeline-wrap{padding:24px 32px;}
@@ -254,6 +271,24 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <!-- ── RETE ── -->
 <div class="page" id="pg-rete">
   <div id="network-wrap">
+    <div class="net-toolbar">
+      <div class="net-filters">
+        <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Type:</span>
+        <button class="net-fbtn on" data-type="all" onclick="netFilter('type','all',this)">All</button>
+        <button class="net-fbtn" data-type="person" onclick="netFilter('type','person',this)">Persons</button>
+        <button class="net-fbtn" data-type="place" onclick="netFilter('type','place',this)">Places</button>
+        <button class="net-fbtn" data-type="organism" onclick="netFilter('type','organism',this)">Organisms</button>
+      </div>
+      <div class="net-filters">
+        <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Edges:</span>
+        <button class="net-fbtn on" data-edge="all" onclick="netFilter('edge','all',this)">All</button>
+        <button class="net-fbtn" data-edge="transfer" onclick="netFilter('edge','transfer',this)">Transfers only</button>
+        <button class="net-fbtn" data-edge="co-occurrence" onclick="netFilter('edge','co-occurrence',this)">Co-occurrence only</button>
+      </div>
+      <div class="net-filters">
+        <input id="net-letter-filter" class="net-search" placeholder="Filter by letter (e.g. 001)…" oninput="netLetterFilter(this.value)">
+      </div>
+    </div>
     <svg id="network-svg"></svg>
     <div class="net-legend">
       <div><span style="background:var(--person)"></span> Person</div>
@@ -263,6 +298,13 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <div style="margin-top:6px;font-size:9px;color:var(--faded)">
         — co-occurrence · <span style="color:var(--gold)">— transfer</span>
       </div>
+    </div>
+    <!-- Tooltip -->
+    <div class="net-tooltip" id="net-tooltip">
+      <div class="net-tt-type" id="net-tt-type"></div>
+      <div class="net-tt-label" id="net-tt-label"></div>
+      <div class="net-tt-letters" id="net-tt-letters"></div>
+      <div class="net-tt-uri" id="net-tt-uri"></div>
     </div>
   </div>
 </div>
@@ -490,54 +532,136 @@ function showEntityDetail(id) {
 }
 
 // ── RETE ─────────────────────────────────────────────────────────────
+// ── Network state
+let netSim=null, netNodes=[], netEdges=[], netNodeSel=null, netLinkSel=null;
+let netTypeFilter='all', netEdgeFilter='all', netLetterF='';
+const netColors={person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',institution:'#7a2830',default:'#9a8a78'};
+const netTypeLabels={person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
+
 async function initRete() {
   if(networkBuilt) return;
   networkBuilt = true;
   const net = await loadData('network','data/network.json');
-  buildNetwork(net);
+  netNodes = net.nodes;
+  netEdges = net.edges;
+  buildNetwork();
 }
 
-function buildNetwork(net) {
-  const svg = d3.select('#network-svg');
-  const w = document.getElementById('network-wrap').clientWidth;
-  const h = document.getElementById('network-wrap').clientHeight;
-  svg.attr('viewBox',`0 0 ${w} ${h}`);
+function buildNetwork() {
+  const wrap = document.getElementById('network-wrap');
+  const w = wrap.clientWidth, h = wrap.clientHeight;
+  const svg = d3.select('#network-svg').attr('viewBox',`0 0 ${w} ${h}`);
+  svg.selectAll('*').remove();
 
-  const colors = {person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',institution:'#7a2830',default:'#9a8a78'};
+  // Zoom + Pan
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([.2,4]).on('zoom', ev=>g.attr('transform',ev.transform)));
 
-  const sim = d3.forceSimulation(net.nodes)
-    .force('link', d3.forceLink(net.edges).id(d=>d.id).distance(80))
-    .force('charge', d3.forceManyBody().strength(-120))
-    .force('center', d3.forceCenter(w/2, h/2))
-    .force('collision', d3.forceCollide(18));
-
-  const link = svg.append('g').selectAll('line')
-    .data(net.edges).join('line')
-    .attr('class', d=>'link '+(d.type||''))
-    .attr('stroke-width', d=>d.type==='transfer'?2:1);
-
-  const node = svg.append('g').selectAll('g')
-    .data(net.nodes).join('g')
-    .attr('class','node')
-    .call(d3.drag()
-      .on('start', (ev,d)=>{ if(!ev.active) sim.alphaTarget(.3).restart(); d.fx=d.x; d.fy=d.y; })
-      .on('drag',  (ev,d)=>{ d.fx=ev.x; d.fy=ev.y; })
-      .on('end',   (ev,d)=>{ if(!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
-
-  node.append('circle')
-    .attr('r', d=>5 + Math.min(d.letters||1, 10))
-    .attr('fill', d=>colors[d.type]||colors.default)
-    .attr('fill-opacity', .8);
-
-  node.append('text')
-    .attr('dx',10).attr('dy',3)
-    .text(d=>d.label.length>20?d.label.slice(0,20)+'…':d.label);
-
-  sim.on('tick', ()=>{
-    link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
-        .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
-    node.attr('transform',d=>`translate(${d.x},${d.y})`);
+  // Filtra nodi e archi
+  const visNodes = netNodes.filter(d=>{
+    if(netTypeFilter!=='all' && d.type!==netTypeFilter) return false;
+    if(netLetterF && !d.letters?.some?.(l=>l.includes(netLetterF))) {
+      // letters può essere un numero — skip filtro lettera se numero
+      if(typeof d.letters==='number') return true;
+      return false;
+    }
+    return true;
   });
+  const visIds = new Set(visNodes.map(d=>d.id));
+  const visEdges = netEdges.filter(d=>{
+    const src = d.source?.id||d.source, tgt = d.target?.id||d.target;
+    if(!visIds.has(src)||!visIds.has(tgt)) return false;
+    if(netEdgeFilter!=='all' && d.type!==netEdgeFilter) return false;
+    return true;
+  });
+
+  const sim = d3.forceSimulation(visNodes)
+    .force('link', d3.forceLink(visEdges).id(d=>d.id).distance(90))
+    .force('charge', d3.forceManyBody().strength(-150))
+    .force('center', d3.forceCenter(w/2, h/2))
+    .force('collision', d3.forceCollide(d=>8+Math.min(d.letters||1,10)));
+  if(netSim) netSim.stop();
+  netSim = sim;
+
+  netLinkSel = g.append('g').selectAll('line')
+    .data(visEdges).join('line')
+    .attr('stroke', d=>d.type==='transfer'?'var(--gold)':'var(--line)')
+    .attr('stroke-width', d=>d.type==='transfer'?2:1)
+    .attr('stroke-opacity', d=>d.type==='transfer'?.8:.5);
+
+  netNodeSel = g.append('g').selectAll('g')
+    .data(visNodes).join('g').attr('class','node')
+    .call(d3.drag()
+      .on('start',(ev,d)=>{ if(!ev.active) sim.alphaTarget(.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag', (ev,d)=>{ d.fx=ev.x; d.fy=ev.y; })
+      .on('end',  (ev,d)=>{ if(!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }))
+    .on('click', (ev,d)=>{ ev.stopPropagation(); showNetTooltip(ev,d); })
+    .on('mouseenter',(ev,d)=>showNetTooltip(ev,d))
+    .on('mouseleave',()=>hideNetTooltip());
+
+  netNodeSel.append('circle')
+    .attr('r', d=>6+Math.min(d.letters||1,10))
+    .attr('fill', d=>netColors[d.type]||netColors.default)
+    .attr('fill-opacity',.85)
+    .attr('stroke','white').attr('stroke-width',1.5);
+
+  netNodeSel.append('text')
+    .attr('dx',12).attr('dy',3).attr('font-size',9).attr('fill','var(--ink)')
+    .text(d=>d.label?.length>22?d.label.slice(0,22)+'…':d.label||'');
+
+  svg.on('click',()=>hideNetTooltip());
+
+  sim.on('tick',()=>{
+    netLinkSel
+      .attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
+      .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    netNodeSel.attr('transform',d=>`translate(${d.x},${d.y})`);
+  });
+}
+
+function netFilter(dim, val, btn){
+  if(dim==='type') netTypeFilter=val;
+  if(dim==='edge') netEdgeFilter=val;
+  btn.closest('.net-filters').querySelectorAll('.net-fbtn').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  buildNetwork();
+}
+
+function netLetterFilter(val){
+  netLetterF = val.trim().padStart(3,'0');
+  buildNetwork();
+}
+
+function showNetTooltip(ev,d){
+  const tt = document.getElementById('net-tooltip');
+  const entities = DATA['entities']||[];
+  const ent = entities.find(e=>e.id===d.id)||{};
+  const uris = [
+    ent.viaf    && `<a href="${ent.viaf}"    target="_blank">VIAF</a>`,
+    ent.wikidata&& `<a href="${ent.wikidata}" target="_blank">Wikidata</a>`,
+    ent.gbif    && `<a href="${ent.gbif}"    target="_blank">GBIF</a>`,
+  ].filter(Boolean).join(' · ');
+
+  document.getElementById('net-tt-type').textContent   = netTypeLabels[d.type]||d.type||'';
+  document.getElementById('net-tt-type').style.color   = netColors[d.type]||'var(--faded)';
+  document.getElementById('net-tt-label').textContent  = d.label||'—';
+  document.getElementById('net-tt-letters').textContent= typeof d.letters==='number'
+    ? `${d.letters} letter${d.letters!==1?'s':''}`
+    : `${(d.letters||[]).length} letters`;
+  document.getElementById('net-tt-uri').innerHTML = uris;
+
+  const wrap = document.getElementById('network-wrap').getBoundingClientRect();
+  let x = ev.clientX - wrap.left + 14;
+  let y = ev.clientY - wrap.top  - 10;
+  if(x + 230 > wrap.width)  x = ev.clientX - wrap.left - 234;
+  if(y + 120 > wrap.height) y = ev.clientY - wrap.top  - 124;
+  tt.style.left = x+'px';
+  tt.style.top  = y+'px';
+  tt.classList.add('on');
+}
+
+function hideNetTooltip(){
+  document.getElementById('net-tooltip').classList.remove('on');
 }
 
 // ── TIMELINE ─────────────────────────────────────────────────────────
