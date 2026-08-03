@@ -26,8 +26,8 @@
       "VAL_STAN_025",
       "VAL_STAN_030"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.7,
+    "lng": 10.633333333
   },
   {
     "id": "https://w3id.org/vallisnieri/place/modena",
@@ -47,8 +47,8 @@
       "VAL_STAN_029",
       "VAL_STAN_030"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.64582,
+    "lng": 10.92572
   },
   {
     "id": "https://w3id.org/vallisnieri/place/apennine_mountains",
@@ -62,8 +62,8 @@
       "VAL_STAN_009",
       "VAL_STAN_023"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 42.469166666,
+    "lng": 13.565555555
   },
   {
     "id": "https://w3id.org/vallisnieri/place/livorno",
@@ -79,8 +79,8 @@
       "VAL_STAN_016",
       "VAL_STAN_017"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 43.55,
+    "lng": 10.316666666
   },
   {
     "id": "https://w3id.org/vallisnieri/place/genoa",
@@ -114,8 +114,8 @@
       "VAL_STAN_016",
       "VAL_STAN_025"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 34.820277777,
+    "lng": -87.662777777
   },
   {
     "id": "https://w3id.org/vallisnieri/place/bologna",
@@ -142,8 +142,8 @@
       "VAL_STAN_026",
       "VAL_STAN_027"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.493888888,
+    "lng": 11.342777777
   },
   {
     "id": "https://w3id.org/vallisnieri/place/milan",
@@ -172,8 +172,8 @@
     "letters": [
       "VAL_STAN_001"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 46.578055555,
+    "lng": 8.615
   },
   {
     "id": "https://w3id.org/vallisnieri/place/padoa",
@@ -207,8 +207,8 @@
       "VAL_STAN_029",
       "VAL_STAN_030"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.407777777,
+    "lng": 11.873333333
   },
   {
     "id": "https://w3id.org/vallisnieri/place/ancona",
@@ -229,8 +229,8 @@
       "VAL_STAN_014",
       "VAL_STAN_020"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.65,
+    "lng": 10.783333333
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/semi_d_india",
@@ -282,8 +282,8 @@
       "VAL_STAN_004",
       "VAL_STAN_027"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.733,
+    "lng": 10.833
   },
   {
     "id": "https://w3id.org/vallisnieri/place/inghilterra",
@@ -297,8 +297,8 @@
       "VAL_STAN_015",
       "VAL_STAN_028"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 54.6,
+    "lng": -2.0
   },
   {
     "id": "https://w3id.org/vallisnieri/place/africa",
@@ -313,8 +313,8 @@
       "VAL_STAN_015",
       "VAL_STAN_018"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 0.0,
+    "lng": 15.0
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
@@ -369,8 +369,8 @@
       "VAL_STAN_019",
       "VAL_STAN_023"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.65,
+    "lng": 10.783333333
   },
   {
     "id": "https://w3id.org/vallisnieri/place/congo",
@@ -408,8 +408,8 @@
     "letters": [
       "VAL_STAN_016"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 40.2,
+    "lng": -3.5
   },
   {
     "id": "https://w3id.org/vallisnieri/place/toscana",
@@ -460,8 +460,8 @@
     "letters": [
       "VAL_STAN_017"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 36.800833333,
+    "lng": 10.18
   },
   {
     "id": "https://w3id.org/vallisnieri/place/parigi",
@@ -476,8 +476,8 @@
       "VAL_STAN_024",
       "VAL_STAN_025"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 48.856666666,
+    "lng": 2.352222222
   },
   {
     "id": "https://w3id.org/vallisnieri/place/costantinopoli",
@@ -492,8 +492,8 @@
       "VAL_STAN_022",
       "VAL_STAN_023"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 41.01,
+    "lng": 28.960277777
   },
   {
     "id": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
@@ -505,8 +505,8 @@
     "letters": [
       "VAL_STAN_019"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.3949,
+    "lng": 11.80919
   },
   {
     "id": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
@@ -532,8 +532,8 @@
     "letters": [
       "VAL_STAN_025"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 51.0,
+    "lng": 10.0
   },
   {
     "id": "https://w3id.org/vallisnieri/place/roma",
@@ -545,8 +545,8 @@
     "letters": [
       "VAL_STAN_025"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 41.893055555,
+    "lng": 12.482777777
   },
   {
     "id": "https://w3id.org/vallisnieri/place/lione",
@@ -558,8 +558,8 @@
     "letters": [
       "VAL_STAN_025"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.7675,
+    "lng": 4.835
   },
   {
     "id": "https://w3id.org/vallisnieri/place/ferrara",
@@ -571,8 +571,8 @@
     "letters": [
       "VAL_STAN_027"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.839166666,
+    "lng": 11.6175
   },
   {
     "id": "https://w3id.org/vallisnieri/place/parma",
@@ -584,8 +584,8 @@
     "letters": [
       "VAL_STAN_027"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.801472222,
+    "lng": 10.328
   },
   {
     "id": "https://w3id.org/vallisnieri/place/napoli",
@@ -597,8 +597,8 @@
     "letters": [
       "VAL_STAN_027"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 40.835833333,
+    "lng": 14.248611111
   },
   {
     "id": "https://w3id.org/vallisnieri/place/basilea",
@@ -610,8 +610,8 @@
     "letters": [
       "VAL_STAN_027"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 47.560555555,
+    "lng": 7.590555555
   },
   {
     "id": "https://w3id.org/vallisnieri/place/s_giustina",
@@ -623,8 +623,8 @@
     "letters": [
       "VAL_STAN_027"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.396388888,
+    "lng": 11.879722222
   },
   {
     "id": "https://w3id.org/vallisnieri/place/venezia",
@@ -636,8 +636,8 @@
     "letters": [
       "VAL_STAN_029"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.439722222,
+    "lng": 12.331944444
   },
   {
     "id": "https://w3id.org/vallisnieri/place/nome_normalizzato",
@@ -649,8 +649,8 @@
     "letters": [
       "VAL_STAN_029"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.156388888,
+    "lng": 10.791111111
   },
   {
     "id": "https://w3id.org/vallisnieri/place/finale",
