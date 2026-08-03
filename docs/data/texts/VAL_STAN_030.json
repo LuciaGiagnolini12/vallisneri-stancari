@@ -2,29 +2,16 @@
   "id": "VAL_STAN_030",
   "segments": [
     {
-      "text": "Padoa 3 ottobre 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo sospeso lo scrivere al mio signor ",
-      "entity": null
-    },
-    {
-      "text": "Stancari",
-      "entity": {
-        "text": "Stancari",
-        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-        "type": "person",
-        "label": "Vittorio Francesco Stancari"
-      }
-    },
-    {
-      "text": ", poiché in Venezia nel portarmi alla patria ebbi nuove funeste della di lei salute, ora nel rittornare a Padoa in passando per il Finale ho inteso dal signor ",
+      "text": "Padoa 3 ottobre 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo sospeso lo scrivere al mio signor Stancari, poiché in Venezia nel portarmi alla patria ebbi nuove funeste della di lei salute, ora nel rittornare a Padoa in passando per il Finale ho inteso dal signor ",
       "entity": null
     },
     {
       "text": "Manfredi",
       "entity": {
         "text": "Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Manfredi, signor"
       }
     },
     {
@@ -35,9 +22,9 @@
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {
@@ -48,22 +35,22 @@
       "text": "lucerta",
       "entity": {
         "text": "lucerta",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/lucerta",
         "type": "organism",
-        "label": "uovo"
+        "label": "lucerta"
       }
     },
     {
-      "text": ", e le ho messe a nascere.  \n\nUna volta le mandai una lettera con dentro una diretta al signor tenente generale ",
+      "text": ", e le ho messe a nascere.  \n\nUna volta le mandai una lettera con dentro una diretta al signor ",
       "entity": null
     },
     {
-      "text": "Marsigli",
+      "text": "tenente generale Marsigli",
       "entity": {
-        "text": "Marsigli",
-        "entity_id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+        "text": "tenente generale Marsigli",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Giuseppe Maria Marsili"
+        "label": "Marsili, Luigi Ferdinando"
       }
     },
     {
@@ -74,9 +61,9 @@
       "text": "bue",
       "entity": {
         "text": "bue",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/bue",
         "type": "organism",
-        "label": "uovo"
+        "label": "bue"
       }
     },
     {
@@ -87,23 +74,27 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
-      "text": " in Venezia, poiché appena ho toccate quell’acque. Riverisca ben di cuore cotesti signori fratelli Manfredi, e dica loro che il signor suo fratello ch’è al Finale non degenera punto dal dottissimo loro stipite.  \n\nLa riverisco, e resto di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio ",
+      "text": " in Venezia, poiché appena ho toccate quell’acque. Riverisca ben di cuore cotesti signori fratelli Manfredi, e dica loro che il ",
       "entity": null
     },
     {
-      "text": "Vallisnieri",
+      "text": "signor suo fratello",
       "entity": {
-        "text": "Vallisnieri",
-        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "text": "signor suo fratello",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Antonio Vallisneri"
+        "label": "Manfredi, signor"
       }
+    },
+    {
+      "text": " ch’è al Finale non degenera punto dal dottissimo loro stipite.  \n\nLa riverisco, e resto di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio Vallisnieri",
+      "entity": null
     }
   ]
 }

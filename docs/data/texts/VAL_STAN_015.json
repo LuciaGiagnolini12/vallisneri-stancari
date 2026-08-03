@@ -2,16 +2,29 @@
   "id": "VAL_STAN_015",
   "segments": [
     {
-      "text": "la matina del Corpus Domini 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ tardata tanto l’occasione di mandare a vostra signoria illustrissima il ",
+      "text": "la matina del Corpus Domini 1707 \n\nIllustrissimo ",
+      "entity": null
+    },
+    {
+      "text": "signor mio padrone",
+      "entity": {
+        "text": "signor mio padrone",
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+        "type": "person",
+        "label": "padronissimo"
+      }
+    },
+    {
+      "text": " colendissimo \n\nÈ tardata tanto l’occasione di mandare a vostra signoria illustrissima il ",
       "entity": null
     },
     {
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {
@@ -22,9 +35,9 @@
       "text": "Guglielmini",
       "entity": {
         "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Guglielmini, Domenico"
       }
     },
     {
@@ -35,22 +48,35 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
-      "text": " e ad altri, nè mai m’hanno ritrovata occasione alcuna. Voglio però scrivere subito a Livorno acciocché veggano in tutti i modi di provedermene un altro, e invece di mandarlo a me lo mandino a Bologna a vostra signoria illustrissima. Così saremo fuora d’ogni pericolo, abbenché collochi anche questo in mani degnissime e virtuose.  \n\nMi rallegro ch’abbia scoperte alcune cose intorno a certa proprietà della forza elastica dell’aria. Così ogni giorno si va guadagnando terreno, finattantoché si arriverà una volta a stabilire qualche sistema più certo.  \n\nLe rendo vivissime grazie delle belle notizie datemi intorno al lucimetro, che fatto in due modi sinora riesce mirabilmente. Anche la maniera che propone vostra signoria illustrissima più breve riesce, e già l’abbiamo sperimentata, ma solamente troviamo imbarazzo in aggiungerli e levarli con prestezza al tubo, particolarmente quando uno da sè solo vuol fare l’osservazione, imperocché quando sono un poco lontani si fanno tanti incastri quanti vetri, onde riesce facile il cavarli o aggiugnerli giusta i gradi più e meno della luce.  \n\nDue lettere ho fatte (senza mio nome) ad instanza d’un grande per questo invito a Letterati d’Italia. Si sono poste alla critica di più d’uno, ma la prima non è stata piaciuta poiché era mordace e toccava particolarmente la mancanza in Italia di mecenati, che non dà braccio agli osservatori, come fanno i prencipi e repubbliche ultramontane. Qui non mancano gl’ingegni, mancano i protettori che spendano e diano braccio a far ciò che la disgrazia o povertà di molti non può fare da sè. Questa lettera però era stata approvata dal signor ",
+      "text": " e ad altri, nè mai m’hanno ritrovata occasione alcuna. Voglio però scrivere subito a Livorno acciocché veggano in tutti i modi di provedermene un altro, e invece di mandarlo a me lo mandino a Bologna a vostra signoria illustrissima. Così saremo fuora d’ogni pericolo, abbenché collochi anche questo in mani degnissime e virtuose.  \n\nMi rallegro ch’abbia scoperte alcune cose intorno a certa proprietà della forza elastica dell’aria. Così ogni giorno si va guadagnando terreno, finattantoché si arriverà una volta a stabilire qualche sistema più certo.  \n\nLe rendo vivissime grazie delle belle notizie datemi intorno al lucimetro, che fatto in due modi sinora riesce mirabilmente. Anche la maniera che propone vostra signoria illustrissima più breve riesce, e già l’abbiamo sperimentata, ma solamente troviamo imbarazzo in aggiungerli e levarli con prestezza al tubo, particolarmente quando uno da sè solo vuol fare l’osservazione, imperocché quando sono un poco lontani si fanno tanti incastri quanti vetri, onde riesce facile il cavarli o aggiugnerli giusta i gradi più e meno della luce.  \n\nDue lettere ho fatte (senza mio nome) ad instanza d’un grande per questo invito a Letterati d’Italia. Si sono poste alla critica di più d’uno, ma la prima non è stata piaciuta poiché era mordace e toccava particolarmente la mancanza in Italia di mecenati, che non dà braccio agli osservatori, come fanno i prencipi e ",
       "entity": null
     },
     {
-      "text": "Marchese Orsi",
+      "text": "repubbliche ultramontane",
       "entity": {
-        "text": "Marchese Orsi",
-        "entity_id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+        "text": "repubbliche ultramontane",
+        "entity_id": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
         "type": "person",
-        "label": "Orsi, Quaranta"
+        "label": "repubbliche ultramontane"
+      }
+    },
+    {
+      "text": ". Qui non mancano gl’ingegni, mancano i protettori che spendano e diano braccio a far ciò che la disgrazia o povertà di molti non può fare da sè. Questa lettera però era stata approvata dal signor ",
+      "entity": null
+    },
+    {
+      "text": "marchese Orsi",
+      "entity": {
+        "text": "marchese Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/orsi_marchese",
+        "type": "person",
+        "label": "Orsi, marchese"
       }
     },
     {
@@ -61,9 +87,9 @@
       "text": "Trevisani",
       "entity": {
         "text": "Trevisani",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Trevisan, Bernardo"
       }
     },
     {
@@ -74,9 +100,9 @@
       "text": "mosca rosiseca",
       "entity": {
         "text": "mosca rosiseca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosca rosiseca"
       }
     },
     {
@@ -87,9 +113,9 @@
       "text": "Albrizzi",
       "entity": {
         "text": "Albrizzi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Albrizzi, Girolamo"
       }
     },
     {

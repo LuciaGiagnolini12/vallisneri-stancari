@@ -9,9 +9,9 @@
       "text": "Charas",
       "entity": {
         "text": "Charas",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/charas",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Charas"
       }
     },
     {
@@ -22,9 +22,9 @@
       "text": "vipera",
       "entity": {
         "text": "vipera",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/vipera",
         "type": "organism",
-        "label": "uovo"
+        "label": "vipera"
       }
     },
     {
@@ -35,9 +35,9 @@
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "uovo"
+        "label": "anguilla"
       }
     },
     {
@@ -48,9 +48,9 @@
       "text": "Gioanni de Muralto",
       "entity": {
         "text": "Gioanni de Muralto",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Muralto, Gioanni"
       }
     },
     {
@@ -61,9 +61,9 @@
       "text": "camaleonti",
       "entity": {
         "text": "camaleonti",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {
@@ -74,22 +74,22 @@
       "text": "Guglielmini",
       "entity": {
         "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Guglielmini, Domenico"
       }
     },
     {
-      "text": " una scatola con dentro il lucimetro ed altre bagatelle, che suppongo avrà ricevute. Ora le do parte che ho con mio sommo diletto il libretto francese nelle mani da cui è stato tradotto, e quanto prima ne farò riscontro per vedere dove ha sbagliato il traduttore. E pure un uomo dottissimo e di garbo tiene anche per certo che l’opera sia d’un bresciano sotto la maschera d’un francese. Il traduttore vuol far le sue discolpe e porre il tutto in chiaro, e gli ho raccomandato che lo faccia con tutta modestia, altrimenti rompo l’amicizia. L’autore è il reverendo Padre ",
+      "text": " una scatola con dentro il lucimetro ed altre bagatelle, che suppongo avrà ricevute. Ora le do parte che ho con mio sommo diletto il libretto francese nelle mani da cui è stato tradotto, e quanto prima ne farò riscontro per vedere dove ha sbagliato il traduttore. E pure un uomo dottissimo e di garbo tiene anche per certo che l’opera sia d’un bresciano sotto la maschera d’un francese. Il traduttore vuol far le sue discolpe e porre il tutto in chiaro, e gli ho raccomandato che lo faccia con tutta modestia, altrimenti rompo l’amicizia. L’autore è il reverendo ",
       "entity": null
     },
     {
-      "text": "Francesco Maria cappuccino",
+      "text": "Padre Francesco Maria cappuccino",
       "entity": {
-        "text": "Francesco Maria cappuccino",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "Padre Francesco Maria cappuccino",
+        "entity_id": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Cappuccino, Padre Francesco Maria"
       }
     },
     {
@@ -100,9 +100,9 @@
       "text": "Fontanelle",
       "entity": {
         "text": "Fontanelle",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/fontanelle",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Fontanelle"
       }
     },
     {
@@ -113,9 +113,9 @@
       "text": "Carlo des Feugerais",
       "entity": {
         "text": "Carlo des Feugerais",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Feugerais, Carlo des"
       }
     },
     {
@@ -126,26 +126,13 @@
       "text": "mosca rosiseca",
       "entity": {
         "text": "mosca rosiseca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosca rosiseca"
       }
     },
     {
-      "text": " con la figura dell’",
-      "entity": null
-    },
-    {
-      "text": "aculeo",
-      "entity": {
-        "text": "aculeo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": " maraviglioso, e lo mostrerà poi a nostri accademici.",
+      "text": " con la figura dell’aculeo maraviglioso, e lo mostrerà poi a nostri accademici.",
       "entity": null
     }
   ]

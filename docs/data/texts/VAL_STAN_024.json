@@ -6,25 +6,25 @@
       "entity": null
     },
     {
-      "text": "Verney il giovane",
+      "text": "Verney",
       "entity": {
-        "text": "Verney il giovane",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "Verney",
+        "entity_id": "https://w3id.org/vallisnieri/person/voduard",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Voduard, signor"
       }
     },
     {
-      "text": " sopra un ",
+      "text": " il giovane sopra un ",
       "entity": null
     },
     {
       "text": "cervello di bue",
       "entity": {
         "text": "cervello di bue",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "specimen",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/cervello_di_bue",
+        "type": "organism",
+        "label": "cervello di bue"
       }
     },
     {
@@ -35,9 +35,9 @@
       "text": "Donelli",
       "entity": {
         "text": "Donelli",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Giuseppe Donelli"
       }
     },
     {
@@ -48,22 +48,35 @@
       "text": "Malpighi",
       "entity": {
         "text": "Malpighi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Manfredi, signor"
       }
     },
     {
-      "text": " al Museo Aldrovandi, con un poco di descrizione della grandezza, del peso, e la figura tanto superiore quanto inferiore. Di grazia non manchi di questo favore, che voglio poi farli ridere col mio discorso. Si stampa adesso in Venezia il discorso dell’",
+      "text": " al ",
+      "entity": null
+    },
+    {
+      "text": "Museo Aldrovandi",
+      "entity": {
+        "text": "Museo Aldrovandi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/museo_aldrovandi",
+        "type": "organism",
+        "label": "Museo Aldrovandi"
+      }
+    },
+    {
+      "text": ", con un poco di descrizione della grandezza, del peso, e la figura tanto superiore quanto inferiore. Di grazia non manchi di questo favore, che voglio poi farli ridere col mio discorso. Si stampa adesso in Venezia il discorso dell’",
       "entity": null
     },
     {
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/place/https___www_wikidata_org_wiki_q2783",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "Portugal"
+        "label": "anguilla"
       }
     },
     {
@@ -74,9 +87,9 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Marsili, Luigi Ferdinando"
       }
     },
     {
@@ -87,9 +100,9 @@
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "Milan"
+        "label": "camaleonti"
       }
     },
     {

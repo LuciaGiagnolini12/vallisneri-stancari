@@ -9,7 +9,7 @@
       "text": "zolfo",
       "entity": {
         "text": "zolfo",
-        "entity_id": "https://www.wikidata.org/wiki/Q41365",
+        "entity_id": "https://w3id.org/vallisnieri/organism/q42038",
         "type": "organism",
         "label": "zolfo"
       }
@@ -22,9 +22,9 @@
       "text": "conte Marsilii",
       "entity": {
         "text": "conte Marsilii",
-        "entity_id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Giuseppe Maria Marsili"
+        "label": "Marsili, Luigi Ferdinando"
       }
     },
     {
@@ -35,9 +35,9 @@
       "text": "signor conte Luigi Marsilii",
       "entity": {
         "text": "signor conte Luigi Marsilii",
-        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Luigi Vittorio Filippo Marsili"
+        "label": "Marsili, Luigi Ferdinando"
       }
     },
     {
@@ -48,7 +48,7 @@
       "text": "sali fossili",
       "entity": {
         "text": "sali fossili",
-        "entity_id": "https://www.wikidata.org/wiki/Q207896",
+        "entity_id": "https://w3id.org/vallisnieri/organism/q176957",
         "type": "organism",
         "label": "sali fossili"
       }
@@ -61,9 +61,9 @@
       "text": "signor Manfredi",
       "entity": {
         "text": "signor Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Manfredi, signor"
       }
     },
     {
@@ -74,9 +74,9 @@
       "text": "signor Nanni",
       "entity": {
         "text": "signor Nanni",
-        "entity_id": "https://w3id.org/vallisnieri/person/nanni_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/nanni_pietro",
         "type": "person",
-        "label": "Nanni"
+        "label": "Pietro Nanni"
       }
     },
     {
@@ -84,12 +84,12 @@
       "entity": null
     },
     {
-      "text": "signor Dorelli",
+      "text": "signor Donelli",
       "entity": {
-        "text": "signor Dorelli",
-        "entity_id": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+        "text": "signor Donelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Dorelli"
+        "label": "Giuseppe Donelli"
       }
     },
     {
@@ -100,9 +100,9 @@
       "text": "signor Valsalvi",
       "entity": {
         "text": "signor Valsalvi",
-        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
         "type": "person",
-        "label": "Giovanni Battista Valsalva"
+        "label": "Valsalva Antonio Maria"
       }
     },
     {
@@ -113,9 +113,9 @@
       "text": "signor Sandri",
       "entity": {
         "text": "signor Sandri",
-        "entity_id": "https://w3id.org/vallisnieri/person/sandri_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/sandri_giacomo",
         "type": "person",
-        "label": "Sandri"
+        "label": "Giacomo Sandri"
       }
     },
     {

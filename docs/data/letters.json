@@ -19,11 +19,11 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "text": 3,
-      "person": 7,
-      "place": 6,
-      "organism": 12
+      "person": 6,
+      "place": 7,
+      "organism": 14
     },
-    "total_entities": 28
+    "total_entities": 30
   },
   {
     "id": "VAL_STAN_003",
@@ -32,12 +32,11 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "text": 3,
-      "person": 8,
-      "place": 8,
-      "specimen": 1,
-      "organism": 13
+      "person": 7,
+      "place": 10,
+      "specimen": 11
     },
-    "total_entities": 33
+    "total_entities": 31
   },
   {
     "id": "VAL_STAN_004",
@@ -47,10 +46,10 @@
     "counts": {
       "text": 7,
       "person": 5,
-      "place": 4,
+      "place": 3,
       "organism": 5
     },
-    "total_entities": 21
+    "total_entities": 20
   },
   {
     "id": "VAL_STAN_005",
@@ -59,12 +58,12 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "text": 3,
-      "person": 4,
+      "person": 3,
       "place": 2,
-      "specimen": 4,
-      "organism": 4
+      "specimen": 1,
+      "organism": 1
     },
-    "total_entities": 17
+    "total_entities": 10
   },
   {
     "id": "VAL_STAN_006",
@@ -72,13 +71,13 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 3,
+      "text": 4,
       "person": 6,
       "place": 4,
-      "organism": 7,
-      "specimen": 1
+      "organism": 4,
+      "specimen": 2
     },
-    "total_entities": 21
+    "total_entities": 20
   },
   {
     "id": "VAL_STAN_007",
@@ -86,12 +85,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 2,
+      "text": 1,
       "person": 6,
       "place": 2,
-      "organism": 2
+      "organism": 1
     },
-    "total_entities": 12
+    "total_entities": 10
   },
   {
     "id": "VAL_STAN_008",
@@ -100,8 +99,8 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "text": 2,
-      "person": 5,
-      "place": 4,
+      "person": 4,
+      "place": 5,
       "organism": 2
     },
     "total_entities": 13
@@ -113,9 +112,9 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "text": 3,
-      "person": 7,
+      "person": 8,
       "place": 7,
-      "organism": 14,
+      "organism": 13,
       "specimen": 3
     },
     "total_entities": 34
@@ -127,12 +126,11 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "text": 3,
-      "person": 6,
-      "institution": 1,
-      "place": 3,
-      "organism": 5
+      "person": 5,
+      "place": 4,
+      "organism": 4
     },
-    "total_entities": 18
+    "total_entities": 16
   },
   {
     "id": "VAL_STAN_011",
@@ -140,12 +138,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 2,
-      "person": 9,
-      "place": 5,
-      "organism": 4
+      "text": 3,
+      "person": 7,
+      "place": 4,
+      "organism": 3
     },
-    "total_entities": 20
+    "total_entities": 17
   },
   {
     "id": "VAL_STAN_012",
@@ -153,12 +151,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 6,
-      "person": 6,
+      "text": 7,
+      "person": 8,
       "place": 7,
-      "organism": 6
+      "organism": 4
     },
-    "total_entities": 25
+    "total_entities": 26
   },
   {
     "id": "VAL_STAN_013",
@@ -166,12 +164,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 3,
+      "text": 7,
       "person": 5,
       "place": 3,
-      "organism": 3
+      "organism": 2
     },
-    "total_entities": 14
+    "total_entities": 17
   },
   {
     "id": "VAL_STAN_014",
@@ -182,10 +180,10 @@
       "text": 5,
       "person": 8,
       "place": 6,
-      "organism": 8,
-      "specimen": 1
+      "organism": 10,
+      "specimen": 4
     },
-    "total_entities": 28
+    "total_entities": 33
   },
   {
     "id": "VAL_STAN_015",
@@ -193,13 +191,13 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 5,
+      "text": 7,
       "person": 10,
-      "place": 7,
-      "organism": 7,
-      "specimen": 1
+      "place": 9,
+      "organism": 4,
+      "specimen": 4
     },
-    "total_entities": 30
+    "total_entities": 34
   },
   {
     "id": "VAL_STAN_016",
@@ -207,13 +205,13 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 6,
-      "person": 15,
-      "place": 12,
-      "organism": 16,
-      "specimen": 1
+      "text": 5,
+      "person": 10,
+      "place": 13,
+      "organism": 6,
+      "specimen": 12
     },
-    "total_entities": 50
+    "total_entities": 46
   },
   {
     "id": "VAL_STAN_017",
@@ -221,12 +219,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 5,
+      "text": 6,
       "person": 8,
-      "place": 8,
-      "organism": 5
+      "place": 9,
+      "organism": 4
     },
-    "total_entities": 26
+    "total_entities": 27
   },
   {
     "id": "VAL_STAN_018",
@@ -234,11 +232,10 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 6,
-      "person": 9,
+      "text": 5,
+      "person": 10,
       "place": 5,
-      "organism": 4,
-      "specimen": 1
+      "organism": 5
     },
     "total_entities": 25
   },
@@ -248,12 +245,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 3,
-      "person": 11,
-      "place": 13,
-      "organism": 14
+      "text": 8,
+      "person": 9,
+      "place": 9,
+      "organism": 20
     },
-    "total_entities": 41
+    "total_entities": 46
   },
   {
     "id": "VAL_STAN_020",
@@ -261,12 +258,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 4,
-      "person": 5,
-      "place": 9,
-      "organism": 8
+      "text": 2,
+      "person": 3,
+      "place": 7,
+      "organism": 9
     },
-    "total_entities": 26
+    "total_entities": 21
   },
   {
     "id": "VAL_STAN_021",
@@ -274,12 +271,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 6,
-      "person": 6,
-      "place": 4,
+      "text": 4,
+      "person": 8,
+      "place": 3,
       "organism": 4
     },
-    "total_entities": 20
+    "total_entities": 19
   },
   {
     "id": "VAL_STAN_022",
@@ -287,12 +284,13 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 7,
-      "person": 7,
+      "text": 8,
+      "person": 6,
       "place": 4,
-      "organism": 8
+      "organism": 4,
+      "specimen": 1
     },
-    "total_entities": 26
+    "total_entities": 23
   },
   {
     "id": "VAL_STAN_023",
@@ -300,13 +298,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 4,
-      "person": 7,
-      "place": 7,
-      "organism": 9,
-      "specimen": 3
+      "text": 6,
+      "person": 9,
+      "place": 8,
+      "organism": 10
     },
-    "total_entities": 30
+    "total_entities": 33
   },
   {
     "id": "VAL_STAN_024",
@@ -314,13 +311,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 4,
+      "text": 2,
       "person": 6,
-      "place": 5,
-      "specimen": 1,
-      "organism": 2
+      "place": 4,
+      "organism": 4
     },
-    "total_entities": 18
+    "total_entities": 16
   },
   {
     "id": "VAL_STAN_025",
@@ -330,11 +326,11 @@
     "counts": {
       "text": 7,
       "person": 14,
-      "place": 10,
-      "specimen": 3,
-      "organism": 4
+      "place": 6,
+      "specimen": 2,
+      "organism": 11
     },
-    "total_entities": 38
+    "total_entities": 40
   },
   {
     "id": "VAL_STAN_026",
@@ -342,13 +338,13 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 4,
+      "text": 3,
       "person": 5,
       "place": 3,
       "specimen": 1,
       "organism": 3
     },
-    "total_entities": 16
+    "total_entities": 15
   },
   {
     "id": "VAL_STAN_027",
@@ -356,13 +352,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 3,
-      "person": 7,
+      "text": 5,
+      "person": 9,
       "place": 9,
-      "organism": 6,
-      "specimen": 1
+      "organism": 4
     },
-    "total_entities": 26
+    "total_entities": 27
   },
   {
     "id": "VAL_STAN_028",
@@ -370,13 +365,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 4,
-      "person": 8,
-      "place": 6,
-      "specimen": 1,
+      "text": 41,
+      "person": 9,
+      "place": 3,
       "organism": 2
     },
-    "total_entities": 21
+    "total_entities": 55
   },
   {
     "id": "VAL_STAN_029",
@@ -384,12 +378,12 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 4,
+      "text": 7,
       "person": 13,
-      "place": 7,
-      "organism": 5
+      "place": 4,
+      "organism": 4
     },
-    "total_entities": 29
+    "total_entities": 28
   },
   {
     "id": "VAL_STAN_030",
@@ -398,10 +392,10 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "text": 3,
-      "person": 5,
-      "place": 4,
-      "organism": 5
+      "person": 7,
+      "place": 5,
+      "organism": 4
     },
-    "total_entities": 17
+    "total_entities": 19
   }
 ]

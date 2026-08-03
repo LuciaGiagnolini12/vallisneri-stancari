@@ -2,16 +2,16 @@
   "id": "VAL_STAN_010",
   "segments": [
     {
-      "text": "Padoa 27 genajo 1707 \n\nIllustrissimo signore e padrone colendissimo \n\nIl gentilissimo e dottissimo ",
+      "text": "Padoa 27 genajo 1707 \n\nIllustrissimo signore e padrone colendissimo \n\nIl gentilissimo e dottissimo signor ",
       "entity": null
     },
     {
-      "text": "signor Morgagni",
+      "text": "Morgagni",
       "entity": {
-        "text": "signor Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
@@ -22,35 +22,35 @@
       "text": "Malpighi",
       "entity": {
         "text": "Malpighi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Malpighi, Marcello"
       }
     },
     {
-      "text": ". Mi spiace che resterà scandalizzato di questo nostro anatomico tutto pieno di fumo e di ruggine antica senza sistema, senza gusto, senza giudicio, e pomposo e strepitoso solamente di belle parolette nelle quali ha tutta la sua matta superbia. Oh se dovessimo argumentargli contro, quanto mal volentieri nel goderei!  \n\nDomatina voglio andare a ritrovare il ",
+      "text": ". Mi spiace che resterà scandalizzato di questo nostro anatomico tutto pieno di fumo e di ruggine antica senza sistema, senza gusto, senza giudicio, e pomposo e strepitoso solamente di belle parolette nelle quali ha tutta la sua matta superbia. Oh se dovessimo argumentargli contro, quanto mal volentieri nel goderei!  \n\nDomatina voglio andare a ritrovare il signor Morgagni e godere della stimatissima sua conversatione. Almeno potrò discorrere di qualche cosa, poiché quando non la discorro co’ miei sassi, è stimato inutile il mio discorso. Mi disse che ",
       "entity": null
     },
     {
-      "text": "signor Morgagni",
+      "text": "Vostra signoria illustrissima",
       "entity": {
-        "text": "signor Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "Vostra signoria illustrissima",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Stancari, Vittorio Francesco"
       }
     },
     {
-      "text": " e godere della stimatissima sua conversatione. Almeno potrò discorrere di qualche cosa, poiché quando non la discorro co’ miei sassi, è stimato inutile il mio discorso. Mi disse che vostra signoria illustrissima ha fatto nella sua dottissima Accademia un discorso sopra l’occhio della ",
+      "text": " ha fatto nella sua dottissima Accademia un discorso sopra l’occhio della ",
       "entity": null
     },
     {
       "text": "mosca",
       "entity": {
         "text": "mosca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosca",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosca"
       }
     },
     {
@@ -61,9 +61,9 @@
       "text": "cevettoni",
       "entity": {
         "text": "cevettoni",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/cevettoni",
         "type": "organism",
-        "label": "uovo"
+        "label": "cevettoni"
       }
     },
     {
@@ -74,9 +74,9 @@
       "text": "locusta",
       "entity": {
         "text": "locusta",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/locusta",
         "type": "organism",
-        "label": "uovo"
+        "label": "locusta"
       }
     },
     {
@@ -87,13 +87,26 @@
       "text": "autori della Galleria",
       "entity": {
         "text": "autori della Galleria",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
-        "type": "institution",
-        "label": "Luigi, Conte"
+        "entity_id": "https://w3id.org/vallisnieri/person/autore_galleria",
+        "type": "person",
+        "label": "Autore Galleria"
       }
     },
     {
-      "text": ", le quali restrinsero e stamparono nel presente foglio, che con qualche rossore le invio. Il trattatello della lenticola quanto prima si stamperà intero, e ne invierò una copia. \n\nIntanto mi conservi il suo amore, e desideroso di qualche suo preziosissimo commando mi dichiaro inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri",
+      "text": ", le quali restrinsero e stamparono nel presente foglio, che con qualche rossore le invio. Il trattatello della ",
+      "entity": null
+    },
+    {
+      "text": "lenticola",
+      "entity": {
+        "text": "lenticola",
+        "entity_id": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
+        "type": "organism",
+        "label": "lenticola palustre"
+      }
+    },
+    {
+      "text": " quanto prima si stamperà intero, e ne invierò una copia. \n\nIntanto mi conservi il suo amore, e desideroso di qualche suo preziosissimo commando mi dichiaro inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri",
       "entity": null
     }
   ]

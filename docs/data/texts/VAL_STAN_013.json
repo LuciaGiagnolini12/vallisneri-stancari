@@ -9,9 +9,9 @@
       "text": "lenticola palustre",
       "entity": {
         "text": "lenticola palustre",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
         "type": "organism",
-        "label": "Manfredi"
+        "label": "lenticola palustre"
       }
     },
     {
@@ -22,9 +22,9 @@
       "text": "Trionfetti",
       "entity": {
         "text": "Trionfetti",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/trionfetti",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Trionfetti, Lelio"
       }
     },
     {
@@ -32,25 +32,25 @@
       "entity": null
     },
     {
-      "text": "Guglielmini",
+      "text": "Guglielmini mio signore e padrone",
       "entity": {
-        "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "text": "Guglielmini mio signore e padrone",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Guglielmini, Domenico"
       }
     },
     {
-      "text": " mio signore e padrone dice essere stato un bresciano, e non essere altrimenti componimento francese, ma un italiano sotto maschera di francese. Io so ch’è stato un cappuccino che mi ha consegnato il manoscritto, e forse saprò il tutto e l’avviserò.  \n\nVolevo mandarle il ",
+      "text": " dice essere stato un bresciano, e non essere altrimenti componimento francese, ma un italiano sotto maschera di francese. Io so ch’è stato un cappuccino che mi ha consegnato il manoscritto, e forse saprò il tutto e l’avviserò.  \n\nVolevo mandarle il ",
       "entity": null
     },
     {
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/place/https___www_wikidata_org_wiki_q2783",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "Portugal"
+        "label": "camaleonti"
       }
     },
     {
@@ -61,9 +61,9 @@
       "text": "lucimetro",
       "entity": {
         "text": "lucimetro",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-        "type": "organism",
-        "label": "Manfredi"
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
       }
     },
     {
@@ -74,9 +74,9 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Morgagni, Giambattista"
       }
     },
     {

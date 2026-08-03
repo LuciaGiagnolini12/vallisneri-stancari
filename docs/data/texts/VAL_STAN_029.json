@@ -9,9 +9,9 @@
       "text": "Bernardo Trevisani",
       "entity": {
         "text": "Bernardo Trevisani",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Trevisan, Bernardo"
       }
     },
     {
@@ -22,9 +22,9 @@
       "text": "serenissimo di Mantova",
       "entity": {
         "text": "serenissimo di Mantova",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "serenissimo_di_mantova"
       }
     },
     {
@@ -35,9 +35,9 @@
       "text": "Casale",
       "entity": {
         "text": "Casale",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/casale",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "casale"
       }
     },
     {
@@ -48,9 +48,9 @@
       "text": "Molinetti",
       "entity": {
         "text": "Molinetti",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Molinetti, Michele Angelo"
       }
     },
     {
@@ -61,22 +61,22 @@
       "text": "Formica",
       "entity": {
         "text": "Formica",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/formica",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "formica"
       }
     },
     {
-      "text": " suo medico, e si sente anche il parere del signor ",
+      "text": " suo medico, e si sente anche il parere del ",
       "entity": null
     },
     {
-      "text": "Guglielmini",
+      "text": "signor Guglielmini",
       "entity": {
-        "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "text": "signor Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Guglielmini, signor"
       }
     },
     {
@@ -87,9 +87,9 @@
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "Milan"
+        "label": "camaleonti"
       }
     },
     {
@@ -100,9 +100,9 @@
       "text": "signor Morgagni",
       "entity": {
         "text": "signor Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
@@ -113,22 +113,22 @@
       "text": "moschi",
       "entity": {
         "text": "moschi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/moschi",
         "type": "organism",
-        "label": "uovo"
+        "label": "moschi"
       }
     },
     {
-      "text": " che va facendo, e dirà sempre più vostra signoria illustrissima degli altri, e illuminerà i ciechi se così seguiterà il buon gusto, addio nascimenti spontanei. La ringrazio del gradimento della mia lettera sopra la pioggia de’ ",
+      "text": " che va facendo, e dirà sempre più vostra signoria illustrissima degli altri, e illuminerà i ciechi se così seguiterà il buon gusto, addio nascimenti spontanei. La ringrazio del gradimento della mia lettera sopra la ",
       "entity": null
     },
     {
-      "text": "sassi",
+      "text": "pioggia de’ sassi",
       "entity": {
-        "text": "sassi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "pioggia de’ sassi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/pioggia_de_sassi",
         "type": "organism",
-        "label": "uovo"
+        "label": "pioggia de’ sassi"
       }
     },
     {
@@ -136,12 +136,12 @@
       "entity": null
     },
     {
-      "text": "Conte Luigi",
+      "text": "conte Luigi",
       "entity": {
-        "text": "Conte Luigi",
-        "entity_id": "https://w3id.org/vallisnieri/text/",
+        "text": "conte Luigi",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Micrographia curiosa"
+        "label": "Marsili, Luigi Ferdinando"
       }
     },
     {

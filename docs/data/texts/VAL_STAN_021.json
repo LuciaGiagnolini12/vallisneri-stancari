@@ -9,9 +9,9 @@
       "text": "Martinelli",
       "entity": {
         "text": "Martinelli",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Martinelli"
       }
     },
     {
@@ -22,9 +22,9 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
@@ -35,9 +35,9 @@
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {
@@ -48,35 +48,22 @@
       "text": "Trevisani",
       "entity": {
         "text": "Trevisani",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Trevisan, Bernardo"
       }
     },
     {
-      "text": ", a cui lo consegnai, finché stetti alla patria. Ora vi ho aggiunto come debbasi governare questo inverno, e se muore che cosa debbano principalmente osservare. Aspetto dunque nuova se è più vivo, e se morto che cosa hanno osservato.  \n\nDesidero pur sapere (ma senza adulazione da buono amico, come la stimo e la tengo di certo) com’è stato sentito il mio discorso sopra l’",
-      "entity": null
-    },
-    {
-      "text": "ovaja",
-      "entity": {
-        "text": "ovaja",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": " dell’",
+      "text": ", a cui lo consegnai, finché stetti alla patria. Ora vi ho aggiunto come debbasi governare questo inverno, e se muore che cosa debbano principalmente osservare. Aspetto dunque nuova se è più vivo, e se morto che cosa hanno osservato.  \n\nDesidero pur sapere (ma senza adulazione da buono amico, come la stimo e la tengo di certo) com’è stato sentito il mio discorso sopra l’ovaja dell’",
       "entity": null
     },
     {
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "uovo"
+        "label": "anguilla"
       }
     },
     {
@@ -87,9 +74,9 @@
       "text": "Lancisi",
       "entity": {
         "text": "Lancisi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/lancisi",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Lancisi"
       }
     },
     {
@@ -100,9 +87,9 @@
       "text": "mosca rosiseca",
       "entity": {
         "text": "mosca rosiseca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosca rosiseca"
       }
     },
     {
@@ -113,9 +100,9 @@
       "text": "Rubbi",
       "entity": {
         "text": "Rubbi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/rubbi",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Rubbi"
       }
     },
     {
@@ -126,13 +113,26 @@
       "text": "Valsalvi",
       "entity": {
         "text": "Valsalvi",
-        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
         "type": "person",
-        "label": "Giovanni Battista Valsalva"
+        "label": "Valsalva Antonio Maria"
       }
     },
     {
-      "text": " in occasione dell’orecchia. \n\nSegua ad amarmi, ch’io ad essere di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio Vallisnieri. \n\nDomenica prossima fa il suo ingresso il nuovo matematico con tanta aspettativa che non suol punto giovare.",
+      "text": " in occasione dell’orecchia. \n\nSegua ad amarmi, ch’io ad essere di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    },
+    {
+      "text": ". \n\nDomenica prossima fa il suo ingresso il nuovo matematico con tanta aspettativa che non suol punto giovare.",
       "entity": null
     }
   ]

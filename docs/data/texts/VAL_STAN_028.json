@@ -9,35 +9,61 @@
       "text": "Turnefort",
       "entity": {
         "text": "Turnefort",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "specimen",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/person/turnefort",
+        "type": "person",
+        "label": "Pitton de Tournefort, Joseph "
       }
     },
     {
-      "text": ", ch’è murario ordinariamente, in cui ho fatto moltissime curiose osservazioni. Il Petiver inglese gli ha osservati ancor lui, onde mi sono poi fermato, quando mi son trovato prevenuto. È ben vero che l’acutezza de’ di lei microscopii e la finezza del di lei giudizio può trovar molto di più, essendo un mare immenso ogni piccola cosetta della natura, o per dir meglio del grande Iddio, e mi farà sommo favore a parteciparmele, mandandomi le figure.  \n\nPer far servizio a un amico feci l’inclusa lettera, e gliela mandai subito, e la feci in una sola sera, come vostra signoria illustrissima purtroppo conoscerà. Questi ha stampata un’operetta in difesa di ",
+      "text": ", ch’è murario ordinariamente, in cui ho fatto moltissime curiose osservazioni. Il ",
+      "entity": null
+    },
+    {
+      "text": "Petiver inglese",
+      "entity": {
+        "text": "Petiver inglese",
+        "entity_id": "https://w3id.org/vallisnieri/person/petiver_james",
+        "type": "person",
+        "label": "Petiver, James "
+      }
+    },
+    {
+      "text": " gli ha osservati ancor lui, onde mi sono poi fermato, quando mi son trovato prevenuto. È ben vero che l’acutezza de’ di lei microscopii e la finezza del di lei giudizio può trovar molto di più, essendo un mare immenso ogni piccola cosetta della natura, o per dir meglio del grande Iddio, e mi farà sommo favore a parteciparmele, mandandomi le figure.  \n\nPer far servizio a un amico feci l’inclusa lettera, e gliela mandai subito, e la feci in una sola sera, come vostra signoria illustrissima purtroppo conoscerà. Questi ha stampata un’operetta in difesa di ",
       "entity": null
     },
     {
       "text": "Tito Livio",
       "entity": {
         "text": "Tito Livio",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/tito_livio",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Livio, Tito"
       }
     },
     {
-      "text": ", difendendolo dalle opposizioni fattegli da vari autori. Io l’ho difeso da quella de’ sassi piovuti, ma a mio modo. La lettera sta inserita nel suo libro, e n’ho fatte stampare alcune separate da mandare agli amici, fra quali vostra signoria illustrissima tiene il primo luogo. Se potrà cavarvi niente di buono da partecipare all’Accademia, lo faccia, non avendo potuto far altro sì per le lezioni poco fa terminate, sì per i consulti, e purghe, e cento altre occupazioncelle.  \n\nQui si dice per vera una nuova a lei, a me, a chi ha la fortuna di sapere il merito del nostro conte Marsigli, carissimo. Questa è che venga Generale del Papa. Di grazia m’avvisi subito, se è vero, poiché mi sarà una consolazione indicibile, o inesplicabile.  \n\nCredo che l’abbate nostro Fardella vada a Milano ad inchinar la regina passante, e che sarà regina della sua patria. Se può, vuole abbandonarci, lo che molto mi premerebbe, essendo un amico ingenuo della di lei e mia stampa, e d’altri pochi pochissimi. M’ha imposto che la riverisca, come fa il ",
+      "text": ", difendendolo dalle opposizioni fattegli da vari autori. Io l’ho difeso da quella de’ sassi piovuti, ma a mio modo. La lettera sta inserita nel suo libro, e n’ho fatte stampare alcune separate da mandare agli amici, fra quali vostra signoria illustrissima tiene il primo luogo. Se potrà cavarvi niente di buono da partecipare all’Accademia, lo faccia, non avendo potuto far altro sì per le lezioni poco fa terminate, sì per i consulti, e purghe, e cento altre occupazioncelle.  \n\nQui si dice per vera una nuova a lei, a me, a chi ha la fortuna di sapere il merito del nostro ",
       "entity": null
     },
     {
-      "text": "Signor Ermanno",
+      "text": "conte Marsigli",
       "entity": {
-        "text": "Signor Ermanno",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "text": "conte Marsigli",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Marsili, Luigi Ferdinando"
+      }
+    },
+    {
+      "text": ", carissimo. Questa è che venga Generale del Papa. Di grazia m’avvisi subito, se è vero, poiché mi sarà una consolazione indicibile, o inesplicabile.  \n\nCredo che l’abbate nostro Fardella vada a Milano ad inchinar la regina passante, e che sarà regina della sua patria. Se può, vuole abbandonarci, lo che molto mi premerebbe, essendo un amico ingenuo della di lei e mia stampa, e d’altri pochi pochissimi. M’ha imposto che la riverisca, come fa il ",
+      "entity": null
+    },
+    {
+      "text": "signor Ermanno",
+      "entity": {
+        "text": "signor Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "type": "person",
+        "label": "Hermann, Jakob"
       }
     },
     {
@@ -48,22 +74,48 @@
       "text": "ecchini",
       "entity": {
         "text": "ecchini",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/ecchini",
         "type": "organism",
-        "label": "uovo"
+        "label": "ecchini"
       }
     },
     {
-      "text": " faccia quelle poche osservazioni che può, li guardi nel sito loro, in qual positura stanno, se tutti a un modo o confusi di giacitura, in che stato sono, e simili. Non ho mai più lavorato attorno il cervello impietrito di bue, ma se Iddio mi consola colla salute del figlio, e se avrò un poco d’ozio, sarà la prima cosa.  \n\nRiverisca cordialmente i nostri amici comuni, e segnatamente que’ miei due distinti padroni, il signor senatore Orsi e ",
+      "text": " faccia quelle poche osservazioni che può, li guardi nel sito loro, in qual positura stanno, se tutti a un modo o confusi di giacitura, in che stato sono, e simili. Non ho mai più lavorato attorno il ",
       "entity": null
     },
     {
-      "text": "Signor Marchese Orsi",
+      "text": "cervello impietrito di bue",
       "entity": {
-        "text": "Signor Marchese Orsi",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "text": "cervello impietrito di bue",
+        "entity_id": "https://w3id.org/vallisnieri/organism/bue",
+        "type": "organism",
+        "label": "bue"
+      }
+    },
+    {
+      "text": ", ma se Iddio mi consola colla salute del figlio, e se avrò un poco d’ozio, sarà la prima cosa.  \n\nRiverisca cordialmente i nostri amici comuni, e segnatamente que’ miei due distinti padroni, il ",
+      "entity": null
+    },
+    {
+      "text": "signor senatore Orsi",
+      "entity": {
+        "text": "signor senatore Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Quaranta Orsi"
+      }
+    },
+    {
+      "text": " e ",
+      "entity": null
+    },
+    {
+      "text": "signor marchese Orsi",
+      "entity": {
+        "text": "signor marchese Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+        "type": "person",
+        "label": "Quaranta Orsi"
       }
     },
     {

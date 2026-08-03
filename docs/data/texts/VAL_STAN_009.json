@@ -2,16 +2,42 @@
   "id": "VAL_STAN_009",
   "segments": [
     {
-      "text": "Scandiano 4 novembre 1706 \n\nIllustrissimo signor mio padrone colendissimo \n\nVeramente a dirla con sincerità io stava sospeso in non vedere alcuna risposta a varie mie, e segnatamente all’ultima, dentro la quale erano certe lettere latine in diffesa del ",
+      "text": "Scandiano 4 novembre 1706 \n\nIllustrissimo ",
+      "entity": null
+    },
+    {
+      "text": "signor",
+      "entity": {
+        "text": "signor",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "type": "person",
+        "label": "Manfredi, signor"
+      }
+    },
+    {
+      "text": " mio ",
+      "entity": null
+    },
+    {
+      "text": "padrone",
+      "entity": {
+        "text": "padrone",
+        "entity_id": "https://w3id.org/vallisnieri/person/padrone",
+        "type": "person",
+        "label": "padrone"
+      }
+    },
+    {
+      "text": " colendissimo \n\nVeramente a dirla con sincerità io stava sospeso in non vedere alcuna risposta a varie mie, e segnatamente all’ultima, dentro la quale erano certe lettere latine in diffesa del ",
       "entity": null
     },
     {
       "text": "Malpighi",
       "entity": {
         "text": "Malpighi",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Malpighi, Marcello"
       }
     },
     {
@@ -22,22 +48,35 @@
       "text": "cevettoni",
       "entity": {
         "text": "cevettoni",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/cevettoni",
         "type": "organism",
-        "label": "uovo"
+        "label": "cevettoni"
       }
     },
     {
-      "text": " ed altri insetti di cotal sorta. La struttura veramente è maravigliosa, ed io una volta dubbitai che non fosser’occhi per più motivi.  \n\nIl primo fu l’avere osservati con una lente gli occhi di molti insetti, e averli trovati pelosi, il che mi accadette nella ",
+      "text": " ed altri ",
+      "entity": null
+    },
+    {
+      "text": "insetti",
+      "entity": {
+        "text": "insetti",
+        "entity_id": "https://w3id.org/vallisnieri/organism/insetti",
+        "type": "organism",
+        "label": "insetti"
+      }
+    },
+    {
+      "text": " di cotal sorta. La struttura veramente è maravigliosa, ed io una volta dubbitai che non fosser’occhi per più motivi.  \n\nIl primo fu l’avere osservati con una lente gli occhi di molti insetti, e averli trovati pelosi, il che mi accadette nella ",
       "entity": null
     },
     {
       "text": "mosca",
       "entity": {
         "text": "mosca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosca",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosca"
       }
     },
     {
@@ -48,9 +87,9 @@
       "text": "api",
       "entity": {
         "text": "api",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/api",
         "type": "organism",
-        "label": "uovo"
+        "label": "api"
       }
     },
     {
@@ -61,9 +100,9 @@
       "text": "mosconi",
       "entity": {
         "text": "mosconi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosconi",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosconi"
       }
     },
     {
@@ -74,9 +113,9 @@
       "text": "farfalle",
       "entity": {
         "text": "farfalle",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/farfalle",
         "type": "organism",
-        "label": "uovo"
+        "label": "farfalle"
       }
     },
     {
@@ -87,9 +126,9 @@
       "text": "vermi umani detti cucurbitini",
       "entity": {
         "text": "vermi umani detti cucurbitini",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/proglotti",
         "type": "organism",
-        "label": "uovo"
+        "label": "Proglotti"
       }
     },
     {
@@ -100,35 +139,61 @@
       "text": "scolopendra terrestre",
       "entity": {
         "text": "scolopendra terrestre",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/scolopendra_terrestre",
         "type": "organism",
-        "label": "uovo"
+        "label": "scolopendra terrestre"
       }
     },
     {
-      "text": ", benché tagliata in più pezzi, come osservò non senza stupore S. Agostino. Il che a me è succeduto moltissime volte.  \n\n4°. Tagli le corna genicolate o antenne lunghe nodose a certa specie di scarafaggi selvatici, e particolarmente a certuni che chiamano pesaferro. Li vedrà caminare a tastone a guisa di ciechi, incerti affatto del loro viaggio, timidissimi e paurosi d’inciampare, allungando pian piano sempre i piedi d’avanti uno dopo l’altro, e assicurandosi come facciamo a chiusi occhi di non cadere. E pure lasciano loro nel capo intatti i creduti lumi. Il che accade ancora alle lumache domiporte e nude, se si toglie loro le pieghevoli e molli corna. Parendo che siano lo stesso agli insetti le antenne quello che agli uomini ciechi e la mano e il bastone. \n\n5°. Ponderi, se le piace, la struttura, o natura, dirò così, proteiforme dell’",
+      "text": ", benché tagliata in più pezzi, come osservò non senza stupore ",
+      "entity": null
+    },
+    {
+      "text": "S. Agostino",
+      "entity": {
+        "text": "S. Agostino",
+        "entity_id": "https://w3id.org/vallisnieri/person/s_agostino",
+        "type": "person",
+        "label": "Augustine of Hippo"
+      }
+    },
+    {
+      "text": ". Il che a me è succeduto moltissime volte.  \n\n4°. Tagli le corna genicolate o antenne lunghe nodose a certa specie di scarafaggi selvatici, e particolarmente a certuni che chiamano pesaferro. Li vedrà caminare a tastone a guisa di ciechi, incerti affatto del loro viaggio, timidissimi e paurosi d’inciampare, allungando pian piano sempre i piedi d’avanti uno dopo l’altro, e assicurandosi come facciamo a chiusi occhi di non cadere. E pure lasciano loro nel capo intatti i creduti lumi. Il che accade ancora alle lumache domiporte e nude, se si toglie loro le pieghevoli e molli corna. Parendo che siano lo stesso agli insetti le antenne quello che agli uomini ciechi e la mano e il bastone. \n\n5°. Ponderi, se le piace, la struttura, o natura, dirò così, proteiforme dell’",
       "entity": null
     },
     {
       "text": "eruche",
       "entity": {
         "text": "eruche",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/eruche",
         "type": "organism",
-        "label": "uovo"
+        "label": "eruche"
       }
     },
     {
-      "text": ", o bruchi, e delle ",
+      "text": ", o ",
+      "entity": null
+    },
+    {
+      "text": "bruchi",
+      "entity": {
+        "text": "bruchi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/bruchi",
+        "type": "organism",
+        "label": "bruchi"
+      }
+    },
+    {
+      "text": ", e delle ",
       "entity": null
     },
     {
       "text": "crisalidi",
       "entity": {
         "text": "crisalidi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/crisalidi",
         "type": "organism",
-        "label": "uovo"
+        "label": "crisalidi"
       }
     },
     {
@@ -139,9 +204,9 @@
       "text": "ninfe",
       "entity": {
         "text": "ninfe",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/ninfea",
         "type": "organism",
-        "label": "uovo"
+        "label": "ninfe"
       }
     },
     {
@@ -152,48 +217,35 @@
       "text": "tetigometre",
       "entity": {
         "text": "tetigometre",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/tetigometre",
         "type": "organism",
-        "label": "uovo"
+        "label": "tetigometre"
       }
     },
     {
-      "text": ", e pure facendo l’officio d’embrione, non hanno bisogno di vedervi, ma solo di colare o triturare il cibo. Sono quasi per dire che ciò che al ",
-      "entity": null
-    },
-    {
-      "text": "pollo",
-      "entity": {
-        "text": "pollo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": " è l’uovo e il grano alle piante sieno quelle al volatile, imperocché veggiamo che nell’esterna scorza non hanno alcuna similitudine coll’interna ammirabile fabbrica, onde avranno uso diverso. Abbenché adunque abbiano i creduti occhi, non sono occhi, e così non saranno quegli che appariscono quando sono perfetti, benché appariscano tali e sieno stimati communemente per tali.  \n\nMa sento vostra signoria illustrissima dire che ho ancor del malo umore in testa guasto e corrotto dal fascino delle antiche melancolie. Che sto cogli antichi, i quali credettero col ",
+      "text": ", e pure facendo l’officio d’embrione, non hanno bisogno di vedervi, ma solo di colare o triturare il cibo. Sono quasi per dire che ciò che al pollo è l’uovo e il grano alle piante sieno quelle al volatile, imperocché veggiamo che nell’esterna scorza non hanno alcuna similitudine coll’interna ammirabile fabbrica, onde avranno uso diverso. Abbenché adunque abbiano i creduti occhi, non sono occhi, e così non saranno quegli che appariscono quando sono perfetti, benché appariscano tali e sieno stimati communemente per tali.  \n\nMa sento vostra signoria illustrissima dire che ho ancor del malo umore in testa guasto e corrotto dal fascino delle antiche melancolie. Che sto cogli antichi, i quali credettero col ",
       "entity": null
     },
     {
       "text": "Bosiarto",
       "entity": {
         "text": "Bosiarto",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/bosiarto",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Bochart, Samuel"
       }
     },
     {
-      "text": " deriso in questo proposito dal ",
+      "text": " deriso in questo proposito dal signor ",
       "entity": null
     },
     {
-      "text": "signor Redi",
+      "text": "Redi",
       "entity": {
-        "text": "signor Redi",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "text": "Redi",
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Redi, Francesco"
       }
     },
     {

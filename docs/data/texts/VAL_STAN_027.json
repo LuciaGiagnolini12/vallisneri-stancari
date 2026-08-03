@@ -9,9 +9,9 @@
       "text": "Donelli",
       "entity": {
         "text": "Donelli",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Giuseppe Donelli"
       }
     },
     {
@@ -22,9 +22,9 @@
       "text": "Marchese Orsi",
       "entity": {
         "text": "Marchese Orsi",
-        "entity_id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Orsi, Quaranta"
+        "label": "Manfredi, signor"
       }
     },
     {
@@ -32,25 +32,38 @@
       "entity": null
     },
     {
-      "text": "mosco ordinario",
+      "text": "mosco",
       "entity": {
-        "text": "mosco ordinario",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "mosco",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosco",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosco"
       }
     },
     {
-      "text": " non mi parvero semi per la loro piccolezza, e sovente diversità di struttura. Ma vostra signoria illustrissima, che ha ottimi miscroscopii, giudicio finissimo e pazienza malpighiana, potrà assicurarsi del fatto, disegnarne le figure, e dar l’ultima mano alla cosa. Le mando inclusi i semi del ",
+      "text": " ordinario non mi parvero semi per la loro piccolezza, e sovente diversità di struttura. Ma vostra signoria illustrissima, che ha ottimi miscroscopii, giudicio finissimo e pazienza ",
+      "entity": null
+    },
+    {
+      "text": "Malpighi",
+      "entity": {
+        "text": "Malpighi",
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
+        "type": "person",
+        "label": "Malpighi, Marcello"
+      }
+    },
+    {
+      "text": "ana, potrà assicurarsi del fatto, disegnarne le figure, e dar l’ultima mano alla cosa. Le mando inclusi i semi del ",
       "entity": null
     },
     {
       "text": "musco corolloide",
       "entity": {
         "text": "musco corolloide",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/musco_corolloide",
         "type": "organism",
-        "label": "uovo"
+        "label": "musco corolloide"
       }
     },
     {
@@ -61,48 +74,61 @@
       "text": "Ermanno",
       "entity": {
         "text": "Ermanno",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Hermann, Jakob"
       }
     },
     {
-      "text": ". Sa bene che più costano e più sono stimati que’ di Napoli. Il signor ",
+      "text": ". Sa bene che più costano e più sono stimati que’ di Napoli. Il ",
       "entity": null
     },
     {
-      "text": "Bernouli",
+      "text": "signor Bernouli",
       "entity": {
-        "text": "Bernouli",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "signor Bernouli",
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_bernouli",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "signor_bernouli"
       }
     },
     {
-      "text": " ha tre figli, cioè due maschi ed una femmina. Il signor Ermanno e signor ",
+      "text": " ha tre figli, cioè due maschi ed una femmina. Il signor Ermanno e ",
       "entity": null
     },
     {
-      "text": "abbate Fardella",
+      "text": "signor abbate Fardella",
       "entity": {
-        "text": "abbate Fardella",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "signor abbate Fardella",
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "signor_abbate_fardella"
       }
     },
     {
-      "text": " le rendono multiplicati i saluti. L’altr’ieri in una conclusione pubblica in S. Giustina fu argomentato contro l’opinione de’ nascimenti ab ovo in favore d’Aristotele, e il difendente in fine portò molte mie sperienze, e particolarmente quella dell’",
+      "text": " le rendono multiplicati i saluti. L’altr’ieri in una conclusione pubblica in S. Giustina fu argomentato contro l’opinione de’ nascimenti ab ovo in favore d’",
+      "entity": null
+    },
+    {
+      "text": "Aristotele",
+      "entity": {
+        "text": "Aristotele",
+        "entity_id": "https://w3id.org/vallisnieri/person/aristotele",
+        "type": "person",
+        "label": "Aristotle"
+      }
+    },
+    {
+      "text": ", e il difendente in fine portò molte mie sperienze, e particolarmente quella dell’",
       "entity": null
     },
     {
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "uovo"
+        "label": "anguilla"
       }
     },
     {

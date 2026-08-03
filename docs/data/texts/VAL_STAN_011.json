@@ -9,22 +9,35 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
-      "text": ", la di cui virtù e modestia merita tutte le lodi e l’amore di tutti, fuorché de Padoani, che o non lo conoscono o non lo vogliono conoscere, mando a vostra signoria illustrissima una scatoletta con uno ",
+      "text": ", la di cui virtù e modestia merita tutte le lodi e l’amore di tutti, fuorché de Padoani, che o non lo conoscono o non lo vogliono conoscere, mando a ",
+      "entity": null
+    },
+    {
+      "text": "Vostra signoria illustrissima",
+      "entity": {
+        "text": "Vostra signoria illustrissima",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " una scatoletta con uno ",
       "entity": null
     },
     {
       "text": "scorpione affricano",
       "entity": {
         "text": "scorpione affricano",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/scorpione_affricano",
         "type": "organism",
-        "label": "uovo"
+        "label": "scorpione affricano"
       }
     },
     {
@@ -35,22 +48,22 @@
       "text": "Redi",
       "entity": {
         "text": "Redi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Redi, Francesco"
       }
     },
     {
-      "text": ", acciocché nella sua virtuosissima Accademia faccia qualche osservazione. Questa deve essere con un finissimo microscopio intorno all’aculeo, nel quale né il signor Redi né il Padre ",
+      "text": ", acciocché nella sua virtuosissima Accademia faccia qualche osservazione. Questa deve essere con un finissimo microscopio intorno all’aculeo, nel quale né il signor Redi né il ",
       "entity": null
     },
     {
-      "text": "Buonanni",
+      "text": "Padre Buonanni",
       "entity": {
-        "text": "Buonanni",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "text": "Padre Buonanni",
+        "entity_id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Buonanni, Padre"
       }
     },
     {
@@ -61,9 +74,9 @@
       "text": "Passalacqua",
       "entity": {
         "text": "Passalacqua",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Passalacqua (marchese)"
       }
     },
     {
@@ -74,66 +87,49 @@
       "text": "locuste familiari",
       "entity": {
         "text": "locuste familiari",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/locusta",
         "type": "organism",
-        "label": "uovo"
+        "label": "locusta"
       }
     },
     {
-      "text": " depredatrici del mio orticello, gli occhi delle quali sono assai curiosi per certe fascie nericcie o filigginose che gli attraversano, ed hanno pure separati da detti altri tubercoletti semisferici lucidissimi, che anch’essi paiono occhi, onde, se tutti fossero, non sarebbe più favoloso l’Argo de’ fantastici poeti.  \n\nM’è giunto un libro manoscritto tradotto dal francese intitolato ",
-      "entity": null
-    },
-    {
-      "text": "Lucimetro",
-      "entity": {
-        "text": "Lucimetro",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-        "type": "person",
-        "label": "Manfredi"
-      }
-    },
-    {
-      "text": ", cioè modo di misurare la luce. Non so se ne abbiano notizia. Il ",
+      "text": " depredatrici del mio orticello, gli occhi delle quali sono assai curiosi per certe fascie nericcie o filigginose che gli attraversano, ed hanno pure separati da detti altri tubercoletti semisferici lucidissimi, che anch’essi paiono occhi, onde, se tutti fossero, non sarebbe più favoloso l’Argo de’ fantastici poeti.  \n\nM’è giunto un libro manoscritto tradotto dal francese intitolato Lucimetro, cioè modo di misurare la luce. Non so se ne abbiano notizia. Il ",
       "entity": null
     },
     {
       "text": "Cardinale",
       "entity": {
         "text": "Cardinale",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/cardinal",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Cardinal"
       }
     },
     {
-      "text": " m’ha detto che lo farà stampare nel Seminario, come altre mie bagatelle.  \nMa chiamano in tavola. La riverisco col cuore. Se le capitasse congiontura, e mi volesse mandare di quelle ",
-      "entity": null
-    },
-    {
-      "text": "miniere senza nome",
-      "entity": {
-        "text": "miniere senza nome",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": ", ho un amico grande esperimentatore e prattico, e ne faressimo le pruove. Se può mi favorisca, come anche d’altre cosette, di quelle che ha doppie. M’avvisi pure se ha ",
+      "text": " m’ha detto che lo farà stampare nel Seminario, come altre mie bagatelle.  \nMa chiamano in tavola. La riverisco col cuore. Se le capitasse congiontura, e mi volesse mandare di quelle miniere senza nome, ho un amico grande esperimentatore e prattico, e ne faressimo le pruove. Se può mi favorisca, come anche d’altre cosette, di quelle che ha doppie. M’avvisi pure se ha ",
       "entity": null
     },
     {
       "text": "camaleonti",
       "entity": {
         "text": "camaleonti",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {
-      "text": ", che gliene manderò uno, e di nuovo resto di vostra signoria illustrissima devotissimo servitore obbligatissimo A.V.",
+      "text": ", che gliene manderò uno, e di nuovo resto di vostra signoria illustrissima devotissimo servitore obbligatissimo ",
       "entity": null
+    },
+    {
+      "text": "A.V.",
+      "entity": {
+        "text": "A.V.",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

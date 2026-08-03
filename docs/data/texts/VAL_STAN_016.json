@@ -9,22 +9,35 @@
       "text": "Guglielmini",
       "entity": {
         "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Guglielmini, Domenico"
       }
     },
     {
-      "text": ", mi prendo l’ardire di mandarle una scatola con dentro il lucimetro fattomi da un mio amico. Vostra signoria illustrissima lo tornerà a incastrare assieme, osservando i numeri che vi son dentro. Lo porrà nell’osservare sopra un’assicella lunga alquanto incavata acciocché stia eguale, e anderà levando o aggiugnendo in fine i vetri, finché vegga l’ultimo grado della luce languente. La supplico bene a farvi sopra riflessioni ed a parteciparmele con sincerità da par suo. Sentirà grandi opposizioni dell’acutissimo e dottissimo signor Guglielmini, dubbitando insino che l’opera sia d’un francese. E pure ieri l’altro ebbi lettera dall’arciprete mio fratello che mi scrive aver nelle mani il libro francese consegnatogli dal cappuccino, che mi diede il manoscritto dello translattamento dell’opera (benché malamente) in toscano, dirò così, bastardo. Sabato sera parto per la patria e lo porterò meco a Padoa e correggerò gli abbagliamenti. Onde vostra signoria illustrissima, se vorrà onorarmi di risposta, può scrivere a Reggio.  \n\nLa prego bene, dopo che si sarà servita del lucimetro, tornarlo a consegnare all’illustrissimo signor Guglielmini, acciocché lo riporti a Padoa, poiché non ne ho altro. Un altro amico me lo fa adesso quadro, giusta le regole dell’autore, ma stimo sia per riuscire meglio il tondo. Con tal’occasione ho messe nella scatola varie bagatelle. Prima un pezzetto di nido delle ",
+      "text": ", mi prendo l’ardire di mandarle una scatola con dentro il lucimetro fattomi da un mio amico. Vostra signoria illustrissima lo tornerà a incastrare assieme, osservando i numeri che vi son dentro. Lo porrà nell’osservare sopra un’assicella lunga alquanto incavata acciocché stia eguale, e anderà levando o aggiugnendo in fine i vetri, finché vegga l’ultimo grado della luce languente. La supplico bene a farvi sopra riflessioni ed a parteciparmele con sincerità da par suo. Sentirà grandi opposizioni dell’acutissimo e dottissimo signor Guglielmini, dubbitando insino che l’opera sia d’un francese. E pure ieri l’altro ebbi lettera dall’",
+      "entity": null
+    },
+    {
+      "text": "arciprete mio",
+      "entity": {
+        "text": "arciprete mio",
+        "entity_id": "https://w3id.org/vallisnieri/person/arciprete_mio",
+        "type": "person",
+        "label": "Arciprete"
+      }
+    },
+    {
+      "text": " fratello che mi scrive aver nelle mani il libro francese consegnatogli dal cappuccino, che mi diede il manoscritto dello translattamento dell’opera (benché malamente) in toscano, dirò così, bastardo. Sabato sera parto per la patria e lo porterò meco a Padoa e correggerò gli abbagliamenti. Onde vostra signoria illustrissima, se vorrà onorarmi di risposta, può scrivere a Reggio.  \n\nLa prego bene, dopo che si sarà servita del lucimetro, tornarlo a consegnare all’illustrissimo signor Guglielmini, acciocché lo riporti a Padoa, poiché non ne ho altro. Un altro amico me lo fa adesso quadro, giusta le regole dell’autore, ma stimo sia per riuscire meglio il tondo. Con tal’occasione ho messe nella scatola varie bagatelle. Prima un pezzetto di nido delle ",
       "entity": null
     },
     {
       "text": "rondini",
       "entity": {
         "text": "rondini",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/rondini",
         "type": "organism",
-        "label": "uovo"
+        "label": "rondini"
       }
     },
     {
@@ -35,9 +48,9 @@
       "text": "Redi",
       "entity": {
         "text": "Redi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Redi, Francesco"
       }
     },
     {
@@ -48,9 +61,9 @@
       "text": "calamita bianca",
       "entity": {
         "text": "calamita bianca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/calamita_bianca",
+        "type": "specimen",
+        "label": "calamita bianca"
       }
     },
     {
@@ -61,35 +74,35 @@
       "text": "conchette",
       "entity": {
         "text": "conchette",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/conchette",
         "type": "specimen",
-        "label": "uovo"
+        "label": "conchette"
       }
     },
     {
-      "text": " che ho trovate dietro il mare Adriatico impietrite, dove sono molti scogli di simil sorta, dal che deduco che le conche o chiozzole impietrite che troviamo su’ monti non sono sempre impietrite dal tempo, ma s’impietrirono sino allora che il mare bagnava que’ monti. Quarto: ",
+      "text": " che ho trovate dietro il mare Adriatico impietrite, dove sono molti scogli di simil sorta, dal che deduco che le conche o chiozzole impietrite che troviamo su’ monti non sono sempre impietrite dal tempo, ma s’impietrirono sino allora che il mare bagnava que’ monti. Quarto: legno, d’onde gemme la ",
       "entity": null
     },
     {
-      "text": "legno",
+      "text": "manna",
       "entity": {
-        "text": "legno",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "manna",
+        "entity_id": "https://w3id.org/vallisnieri/organism/manna",
         "type": "organism",
-        "label": "uovo"
+        "label": "manna"
       }
     },
     {
-      "text": ", d’onde gemme la manna. Io l’ho preso per orno. Quinto: un ",
+      "text": ". Io l’ho preso per orno. Quinto: un ",
       "entity": null
     },
     {
       "text": "seme di cannella",
       "entity": {
         "text": "seme di cannella",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/cannella",
+        "type": "specimen",
+        "label": "seme di cannella"
       }
     },
     {
@@ -100,9 +113,9 @@
       "text": "fungo campaniforme",
       "entity": {
         "text": "fungo campaniforme",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/fungo_campaniforme",
         "type": "organism",
-        "label": "uovo"
+        "label": "fungo campaniforme"
       }
     },
     {
@@ -113,9 +126,9 @@
       "text": "pane del Congo",
       "entity": {
         "text": "pane del Congo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/pane_del_congo",
+        "type": "specimen",
+        "label": "pane del Congo"
       }
     },
     {
@@ -126,9 +139,9 @@
       "text": "cunzia di Spagna",
       "entity": {
         "text": "cunzia di Spagna",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/cunzia_di_spagna",
         "type": "organism",
-        "label": "uovo"
+        "label": "cunzia di Spagna"
       }
     },
     {
@@ -139,9 +152,9 @@
       "text": "noce moscata",
       "entity": {
         "text": "noce moscata",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/noce_moscata",
+        "type": "specimen",
+        "label": "noce moscata"
       }
     },
     {
@@ -152,9 +165,9 @@
       "text": "calamo aromatico",
       "entity": {
         "text": "calamo aromatico",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/calamo_aromatico",
+        "type": "specimen",
+        "label": "calamo aromatico"
       }
     },
     {
@@ -165,9 +178,9 @@
       "text": "zenzaro",
       "entity": {
         "text": "zenzaro",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/zenzaro",
+        "type": "specimen",
+        "label": "zenzaro"
       }
     },
     {
@@ -178,9 +191,9 @@
       "text": "rose",
       "entity": {
         "text": "rose",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/rose",
+        "type": "specimen",
+        "label": "rose"
       }
     },
     {
@@ -191,9 +204,9 @@
       "text": "fiori d’arancio",
       "entity": {
         "text": "fiori d’arancio",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/fiori_d_arancio",
+        "type": "specimen",
+        "label": "fiori d’arancio"
       }
     },
     {
@@ -204,9 +217,9 @@
       "text": "violette",
       "entity": {
         "text": "violette",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/violette",
+        "type": "specimen",
+        "label": "violette"
       }
     },
     {
@@ -217,22 +230,35 @@
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/place/https___www_wikidata_org_wiki_q2783",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "Portugal"
+        "label": "anguilla"
       }
     },
     {
-      "text": ". Quella che mando è il primo abbozzo fatto però in piccolo, dal quale si comprende per ora abbastanza. Sono 15 anni che la cerco e otto anni che scrissi al medico di Comacchio mio conterraneo, che abitando dov’è la metropoli delle anguille mi favorisce far diligentemente osservare quando l’autunno vanno al mare per depositarvi le uova me ne trovasse una gravida e me la mandasse conservata in acqua vite. In otto anni non ne ha vedute che due sole in molti migliori pesi, la prima non si conservò, la seconda me l’ha mandata subito che ha potuto et è stato per il Santo. M’era stato detto che Monsieur ",
+      "text": ". Quella che mando è il primo abbozzo fatto però in piccolo, dal quale si comprende per ora abbastanza. Sono 15 anni che la cerco e otto anni che scrissi al ",
       "entity": null
     },
     {
-      "text": "Charas",
+      "text": "medico di Comacchio",
       "entity": {
-        "text": "Charas",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "medico di Comacchio",
+        "entity_id": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "medico di Comacchio"
+      }
+    },
+    {
+      "text": " mio conterraneo, che abitando dov’è la metropoli delle anguille mi favorisce far diligentemente osservare quando l’autunno vanno al mare per depositarvi le uova me ne trovasse una gravida e me la mandasse conservata in acqua vite. In otto anni non ne ha vedute che due sole in molti migliori pesi, la prima non si conservò, la seconda me l’ha mandata subito che ha potuto et è stato per il Santo. M’era stato detto che ",
+      "entity": null
+    },
+    {
+      "text": "Monsieur Charas",
+      "entity": {
+        "text": "Monsieur Charas",
+        "entity_id": "https://w3id.org/vallisnieri/person/charas",
+        "type": "person",
+        "label": "Charas"
       }
     },
     {
@@ -243,9 +269,9 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
@@ -256,9 +282,9 @@
       "text": "Paulini",
       "entity": {
         "text": "Paulini",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/paulini",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Paulini"
       }
     },
     {
@@ -269,13 +295,26 @@
       "text": "Gioanni de Muralto",
       "entity": {
         "text": "Gioanni de Muralto",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Muralto, Gioanni"
       }
     },
     {
-      "text": ". Vede la nostra italiana infelicità in non potere aver libri. Caso avesse notizia di questi o d’altri che avessero fatta questa scoperta, m’avvisi, per non far io la fatica indarno. Mi fa animo però il signor Morgagni a farla, supponendola cosa novissima. \n\nHo trovato nel Levenoech le figure spropositate e false d’una supposta da lui ovaja delle anguille, dove suppone gli anguillini, non le uova, ma queste sono vesciche, che si truovano sovente piene di vermi anguilliformi, non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla moglie del signor Guglielmini.",
+      "text": ". Vede la nostra italiana infelicità in non potere aver libri. Caso avesse notizia di questi o d’altri che avessero fatta questa scoperta, m’avvisi, per non far io la fatica indarno. Mi fa animo però il signor Morgagni a farla, supponendola cosa novissima. \n\nHo trovato nel Levenoech le figure spropositate e false d’una supposta da lui ovaja delle anguille, dove suppone gli anguillini, non le uova, ma queste sono vesciche, che si truovano sovente piene di ",
+      "entity": null
+    },
+    {
+      "text": "vermi anguilliformi",
+      "entity": {
+        "text": "vermi anguilliformi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/vermi_anguilliformi",
+        "type": "organism",
+        "label": "vermi anguilliformi"
+      }
+    },
+    {
+      "text": ", non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla moglie del signor Guglielmini.",
       "entity": null
     }
   ]

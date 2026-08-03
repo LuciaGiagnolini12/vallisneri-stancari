@@ -2,16 +2,42 @@
   "id": "VAL_STAN_019",
   "segments": [
     {
-      "text": "Tencarola villa del Padoano adì 5 ottobre 1707  \n\nIllustrissimo signor Stancardi mio signore riveritissimo  \n\nIo sono chiuso dalle acque per l’inondazione d’un fiume che ci circonda, onde qui ozioso cerco l’occasione di ingannare il tempo. Il bello si è che non ho carta, e pur le voglio scrivere alcune curiose notizie, che forse non saranno discare alla nostra Accademia di nobili curiosi. Ho avute da un dottissimo amico venuto poco fa da Costantinopoli una razza di piccolissimi semi giallici e di virtù non ultima nell’arte nostra. Si chiamano ",
+      "text": "Tencarola villa del Padoano adì 5 ottobre 1707  \n\nIllustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Stancardi",
+      "entity": {
+        "text": "Stancardi",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " mio signore riveritissimo  \n\nIo sono chiuso dalle acque per l’inondazione d’un fiume che ci circonda, onde qui ozioso cerco l’occasione di ingannare il tempo. Il bello si è che non ho carta, e pur le voglio scrivere alcune curiose notizie, che forse non saranno discare alla nostra Accademia di nobili curiosi. Ho avute da un dottissimo amico venuto poco fa da Costantinopoli una razza di piccolissimi ",
+      "entity": null
+    },
+    {
+      "text": "semi",
+      "entity": {
+        "text": "semi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/semi",
+        "type": "organism",
+        "label": "semi"
+      }
+    },
+    {
+      "text": " giallici e di virtù non ultima nell’arte nostra. Si chiamano ",
       "entity": null
     },
     {
       "text": "gebelindi",
       "entity": {
         "text": "gebelindi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/gebelindi",
         "type": "organism",
-        "label": "uovo"
+        "label": "gebelindi"
       }
     },
     {
@@ -22,9 +48,9 @@
       "text": "china china",
       "entity": {
         "text": "china china",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/china_china",
         "type": "organism",
-        "label": "uovo"
+        "label": "china china"
       }
     },
     {
@@ -35,9 +61,9 @@
       "text": "ipecuacanne",
       "entity": {
         "text": "ipecuacanne",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/ipecuacanne",
         "type": "organism",
-        "label": "uovo"
+        "label": "ipecuacanne"
       }
     },
     {
@@ -48,74 +74,87 @@
       "text": "sciliqua",
       "entity": {
         "text": "sciliqua",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/sciliqua",
         "type": "organism",
-        "label": "uovo"
+        "label": "sciliqua"
       }
     },
     {
-      "text": " che rinchiude in sè alcuni grani ritondi e grossi, come que’ del pepe commune, i quali masticati o bolliti rendono gratissimo odore di finocchio, ma più aromatico e più soave. Questi non hanno uso nella medicina, ma li prendono per delizia, e per lo più sull’erba the o caffè. Sapide è una radice grossa quanto uno de’ nostri ",
+      "text": " che rinchiude in sè alcuni grani ritondi e grossi, come que’ del ",
       "entity": null
     },
     {
-      "text": "rap",
+      "text": "pepe commune",
       "entity": {
-        "text": "rap",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "pepe commune",
+        "entity_id": "https://w3id.org/vallisnieri/organism/pepe_commune",
         "type": "organism",
-        "label": "uovo"
+        "label": "pepe commune"
       }
     },
     {
-      "text": "i e gli è simile ancor nel colore, ma il sapore è mordace e masticata rende la scialiva pienamente bianca e spummosa. Si servono di questa i Turchi detti Halvagi, cioè zuccanieri, per far bianco prestamente il zuccaro, cioè con la decozione di questa radice nell’acqua commune fanno bollire e schiumano il zuccaro e riesce assai più bianco del nostro. Questo è guadagno di tempo e di perfezione, poiché in Venezia vi fanno molte e lunghe preparazioni e poi non arriva al candore di quello. ",
+      "text": ", i quali masticati o bolliti rendono gratissimo odore di ",
+      "entity": null
+    },
+    {
+      "text": "finocchio",
+      "entity": {
+        "text": "finocchio",
+        "entity_id": "https://w3id.org/vallisnieri/organism/finocchio",
+        "type": "organism",
+        "label": "finocchio"
+      }
+    },
+    {
+      "text": ", ma più aromatico e più soave. Questi non hanno uso nella medicina, ma li prendono per delizia, e per lo più sull’erba the o caffè. Sapide è una radice grossa quanto uno de’ nostri ",
+      "entity": null
+    },
+    {
+      "text": "rapi",
+      "entity": {
+        "text": "rapi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/rapi",
+        "type": "organism",
+        "label": "rapi"
+      }
+    },
+    {
+      "text": " e gli è simile ancor nel colore, ma il sapore è mordace e masticata rende la scialiva pienamente bianca e spummosa. Si servono di questa i Turchi detti Halvagi, cioè zuccanieri, per far bianco prestamente il zuccaro, cioè con la decozione di questa radice nell’acqua commune fanno bollire e schiumano il zuccaro e riesce assai più bianco del nostro. Questo è guadagno di tempo e di perfezione, poiché in Venezia vi fanno molte e lunghe preparazioni e poi non arriva al candore di quello. ",
       "entity": null
     },
     {
       "text": "chiogane",
       "entity": {
         "text": "chiogane",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/chiogane",
         "type": "organism",
-        "label": "uovo"
+        "label": "chiogane"
       }
     },
     {
-      "text": " = oti, cioè ",
+      "text": " = oti, cioè erba del pastore. Di questa si servono per far più vivo e brillante il colore del ",
       "entity": null
     },
     {
-      "text": "erba del pastore",
+      "text": "chermesi",
       "entity": {
-        "text": "erba del pastore",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "chermesi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/chermesi",
         "type": "organism",
-        "label": "uovo"
+        "label": "chermesi"
       }
     },
     {
-      "text": ". Di questa si servono per far più vivo e brillante il colore del chermesi, cioè fanno bollire quest’erba con un poco di alume nell’acqua commune e in questa decozione poi fanno bollire la ",
-      "entity": null
-    },
-    {
-      "text": "cocciniglia",
-      "entity": {
-        "text": "cocciniglia",
-        "entity_id": "https://www.wikidata.org/wiki/Q207896",
-        "type": "organism",
-        "label": "sali fossili"
-      }
-    },
-    {
-      "text": ". Questa si cola, e con la colatura facendo bollire il zuccaro o a consistenza di giulebbe o di conserva etc. lo rende splendidamente vermiglio, la qual arte manca a nostri zuccanieri.  \n\nMa torniamo ai secreti medici, de’ quali ne abbiamo tanto di bisogno ne’ mali particolarmente contumaci e ribelli ad ogni sorta di rimedi, e riescono sovente l’obbrobrio e lo scandalo nostro. Curano le febbri lunghe, il morbo gallico, l’ippocondria e simile con l’",
+      "text": ", cioè fanno bollire quest’erba con un poco di alume nell’acqua commune e in questa decozione poi fanno bollire la cocciniglia. Questa si cola, e con la colatura facendo bollire il zuccaro o a consistenza di giulebbe o di conserva etc. lo rende splendidamente vermiglio, la qual arte manca a nostri zuccanieri.  \n\nMa torniamo ai secreti medici, de’ quali ne abbiamo tanto di bisogno ne’ mali particolarmente contumaci e ribelli ad ogni sorta di rimedi, e riescono sovente l’obbrobrio e lo scandalo nostro. Curano le febbri lunghe, il morbo gallico, l’ippocondria e simile con l’",
       "entity": null
     },
     {
       "text": "arsenico giallo",
       "entity": {
         "text": "arsenico giallo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
         "type": "organism",
-        "label": "uovo"
+        "label": "arsenico giallo"
       }
     },
     {
@@ -126,35 +165,35 @@
       "text": "porfido",
       "entity": {
         "text": "porfido",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/porfido",
         "type": "organism",
-        "label": "uovo"
+        "label": "porfido"
       }
     },
     {
-      "text": ", lo mettono in un fiasco di vetro dal collo stretto, sopraponendovi tanto spirito di vino e di terebentina che sopranuoti per la altezza di due deta traverso. Lo fanno stare in infusione o in digestione, per meglio dire, in bagno maria per 24 ore a fuoco lento assai, e l’opra è compita. Mentre si fa la digestione deve essere la bocca del fiasco ben lutata e dopo le ore 24 si apra e si faccia evaporare il fluido lentamente a siccità. Lo tengono per un arcano, ed io stimo non improbabile che que’ due spiriti raddolciscano o involvano o rintuzzino quegli aculei roditori dell’orpimento e lo rendano benigno e dolce rimedio. Ma qui non cessa la loro audacia medica. Danno anche per bocca il ",
+      "text": ", lo mettono in un fiasco di vetro dal collo stretto, sopraponendovi tanto spirito di vino e di terebentina che sopranuoti per la altezza di due deta traverso. Lo fanno stare in infusione o in digestione, per meglio dire, in bagno maria per 24 ore a fuoco lento assai, e l’opra è compita. Mentre si fa la digestione deve essere la bocca del fiasco ben lutata e dopo le ore 24 si apra e si faccia evaporare il fluido lentamente a siccità. Lo tengono per un arcano, ed io stimo non improbabile che que’ due spiriti raddolciscano o involvano o rintuzzino quegli aculei roditori dell’orpimento e lo rendano benigno e dolce rimedio. Ma qui non cessa la loro audacia medica. Danno anche per bocca il solimato, ma non arrivano a un terzo di grano, e lo danno ne’ suddetti ostichissimi e feroci malori. Lo preparano però prima con il ",
       "entity": null
     },
     {
-      "text": "solimato",
+      "text": "mercurio",
       "entity": {
-        "text": "solimato",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "mercurio",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mercurio",
         "type": "organism",
-        "label": "uovo"
+        "label": "mercurio"
       }
     },
     {
-      "text": ", ma non arrivano a un terzo di grano, e lo danno ne’ suddetti ostichissimi e feroci malori. Lo preparano però prima con il mercurio crudo, mescolandone tanto seco quanto ne può imbevere, ch’è ordinariamente egual parte, e lo mescolano e lo agitano e lo dibattono tanto finattantocché si perda il corso e il lucido suo. Il bello è che lo fanno senza fuoco nè con tante scrupulose sublimazioni, come fanno i nostri chimici nella fabbrica del mercurio dolce, e m’asseriva il suddetto signore averne vedute tanto nell’ordinare il primo quanto il secondo nobilissime cure. Anche questo l’occultano come secreto, e abbenché sieno tenacissimi degli arcani loro, nulladimeno li manifestavano all’amico, stimandolo (come infatti era) dottissimo, per sentire il di lui parere e se sapesse modo di migliorarli. Non è però cosa tanto nuova nella medicina la prescrizione dell’arsenico anche crudo per bocca. Mi soviene che l’",
+      "text": " crudo, mescolandone tanto seco quanto ne può imbevere, ch’è ordinariamente egual parte, e lo mescolano e lo agitano e lo dibattono tanto finattantocché si perda il corso e il lucido suo. Il bello è che lo fanno senza fuoco nè con tante scrupulose sublimazioni, come fanno i nostri chimici nella fabbrica del mercurio dolce, e m’asseriva il suddetto signore averne vedute tanto nell’ordinare il primo quanto il secondo nobilissime cure. Anche questo l’occultano come secreto, e abbenché sieno tenacissimi degli arcani loro, nulladimeno li manifestavano all’amico, stimandolo (come infatti era) dottissimo, per sentire il di lui parere e se sapesse modo di migliorarli. Non è però cosa tanto nuova nella medicina la prescrizione dell’arsenico anche crudo per bocca. Mi soviene che l’",
       "entity": null
     },
     {
       "text": "Ettmulero",
       "entity": {
         "text": "Ettmulero",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/ettmulero",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "ettmulero"
       }
     },
     {
@@ -165,9 +204,9 @@
       "text": "Mirtino",
       "entity": {
         "text": "Mirtino",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/mirtino",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "mirtino"
       }
     },
     {
@@ -178,48 +217,74 @@
       "text": "Langio",
       "entity": {
         "text": "Langio",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/langio",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "langio"
       }
     },
     {
-      "text": ". È vero che l’acquetta celebre del Petesino mantoano si fa con arsenico solo in poca dosa cotto in una pentola di rame (con acqua a proporzione) non istagnata, ma forse o senza forse il vitriuolo del rame, che è un potentissimo veleno corrosivo unito all’arsenico e cavato dal medesimo, è quello che fa tutto il male, non il solo e semplice arsenico. Anzi, se non la repplicano più e più volte, è infruttuoso il di lei veleno, detergendo più tosto le prime vie, radendo e levando tutte le antiche ostruzioni e posature di fecce, ed i pazienti dopo vengono molto pingui e sanissimi.  \n\nColl’occasione che l’armata francese è stata nella mia patria, osservai con attenzione il loro modo di medicare, particolarmente negli ospitali, dove sono que’ cerusici e medici animosissimi e risoluti. Nelle febbri lunghe davano anch’essi a pazienti un poco d’arsenico, un preparato decotto in acqua semplice, e con felice successo. Alcuni però più scrupulosi e più cauti lo preparavano con sola acquavite e ne davano con maggior sicurezza in copia maggiore. Sicché concludiamo non essere tanto barbaro ed improbabile il modo turchesco di curar co’ veleni i loro infermi per lo più disperati di sanare per altra strada. E chi sa che la prima volta che sono stati trovati questi azzardati rimedi non sia stato il caso, credendo d’uccidere i pazienti, e li risanarono? Così accadette a quell’adultera ed infingarda donna che impaziente di veder morto il marito da un veleno datogli, repplicandone un altro di forze contrarie, lo richiamò alla primiera salute. In tutto però mi rimmetto alle di loro savie ponderazioni, contentandomi di narrare, non di riflettere sopra il narrato.  \n\nHo terminato il discorso sopra l’ovaja delle ",
+      "text": ". È vero che l’acquetta celebre del ",
+      "entity": null
+    },
+    {
+      "text": "Petesino mantoano",
+      "entity": {
+        "text": "Petesino mantoano",
+        "entity_id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+        "type": "person",
+        "label": "petesino_mantoano"
+      }
+    },
+    {
+      "text": " si fa con arsenico solo in poca dosa cotto in una pentola di rame (con acqua a proporzione) non istagnata, ma forse o senza forse il ",
+      "entity": null
+    },
+    {
+      "text": "vitriuolo",
+      "entity": {
+        "text": "vitriuolo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/vitriuolo",
+        "type": "organism",
+        "label": "vitriuolo"
+      }
+    },
+    {
+      "text": " del rame, che è un potentissimo veleno corrosivo unito all’arsenico e cavato dal medesimo, è quello che fa tutto il male, non il solo e semplice arsenico. Anzi, se non la repplicano più e più volte, è infruttuoso il di lei veleno, detergendo più tosto le prime vie, radendo e levando tutte le antiche ostruzioni e posature di fecce, ed i pazienti dopo vengono molto pingui e sanissimi.  \n\nColl’occasione che l’armata francese è stata nella mia patria, osservai con attenzione il loro modo di medicare, particolarmente negli ospitali, dove sono que’ cerusici e medici animosissimi e risoluti. Nelle febbri lunghe davano anch’essi a pazienti un poco d’arsenico, un preparato decotto in acqua semplice, e con felice successo. Alcuni però più scrupulosi e più cauti lo preparavano con sola acquavite e ne davano con maggior sicurezza in copia maggiore. Sicché concludiamo non essere tanto barbaro ed improbabile il modo turchesco di curar co’ veleni i loro infermi per lo più disperati di sanare per altra strada. E chi sa che la prima volta che sono stati trovati questi azzardati rimedi non sia stato il caso, credendo d’uccidere i pazienti, e li risanarono? Così accadette a quell’adultera ed infingarda donna che impaziente di veder morto il marito da un veleno datogli, repplicandone un altro di forze contrarie, lo richiamò alla primiera salute. In tutto però mi rimmetto alle di loro savie ponderazioni, contentandomi di narrare, non di riflettere sopra il narrato.  \n\nHo terminato il discorso sopra l’ovaja delle ",
       "entity": null
     },
     {
       "text": "anguille",
       "entity": {
         "text": "anguille",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "uovo"
+        "label": "anguilla"
       }
     },
     {
-      "text": ", e subito sarò a Padoa lo manderò a Venezia al nostro stimatissimo signor Morgagni, acciocché letto, a vostra signoria illustrissima l’invii. Mandai un’altra assai grossa con varie stampe, cioè quella della ",
+      "text": ", e subito sarò a Padoa lo manderò a Venezia al nostro stimatissimo signor ",
       "entity": null
     },
     {
-      "text": "mosca rosisecca",
+      "text": "Morgagni",
       "entity": {
-        "text": "mosca rosisecca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
       }
     },
     {
-      "text": ", e quella del ",
+      "text": ", acciocché letto, a vostra signoria illustrissima l’invii. Mandai un’altra assai grossa con varie stampe, cioè quella della mosca rosisecca, e quella del ",
       "entity": null
     },
     {
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {

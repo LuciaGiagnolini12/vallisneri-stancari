@@ -2,16 +2,29 @@
   "id": "VAL_STAN_023",
   "segments": [
     {
-      "text": "Padoa primo febbraio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nGià il mio signor Stancari riveritissimo non si stupirà se gli rispondo tardi, poiché dirà che imparo da lui. Ho voluto terminare alcune cosette per risponderle con più quiete. Le rendo grazie delle belle notizie del ",
+      "text": "Padoa primo febbraio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nGià il mio signor ",
+      "entity": null
+    },
+    {
+      "text": "Stancari",
+      "entity": {
+        "text": "Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " riveritissimo non si stupirà se gli rispondo tardi, poiché dirà che imparo da lui. Ho voluto terminare alcune cosette per risponderle con più quiete. Le rendo grazie delle belle notizie del ",
       "entity": null
     },
     {
       "text": "seme gebelindi",
       "entity": {
         "text": "seme gebelindi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/seme_gebelindi",
         "type": "organism",
-        "label": "uovo"
+        "label": "seme gebelindi"
       }
     },
     {
@@ -22,9 +35,9 @@
       "text": "vomitori",
       "entity": {
         "text": "vomitori",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/vomitori",
         "type": "organism",
-        "label": "uovo"
+        "label": "vomitori"
       }
     },
     {
@@ -35,9 +48,9 @@
       "text": "Guglielmini",
       "entity": {
         "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Guglielmini, Domenico"
       }
     },
     {
@@ -48,9 +61,9 @@
       "text": "Doglioli",
       "entity": {
         "text": "Doglioli",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Giuseppe Donelli"
       }
     },
     {
@@ -61,9 +74,9 @@
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {
@@ -74,9 +87,9 @@
       "text": "ramarri",
       "entity": {
         "text": "ramarri",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/ramarri",
         "type": "organism",
-        "label": "uovo"
+        "label": "ramarri"
       }
     },
     {
@@ -87,9 +100,9 @@
       "text": "serpenti",
       "entity": {
         "text": "serpenti",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/serpenti",
         "type": "organism",
-        "label": "uovo"
+        "label": "serpenti"
       }
     },
     {
@@ -100,9 +113,9 @@
       "text": "lenticola palustre",
       "entity": {
         "text": "lenticola palustre",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
         "type": "organism",
-        "label": "uovo"
+        "label": "lenticola palustre"
       }
     },
     {
@@ -113,9 +126,9 @@
       "text": "canape",
       "entity": {
         "text": "canape",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/canape",
         "type": "organism",
-        "label": "uovo"
+        "label": "canape"
       }
     },
     {
@@ -126,9 +139,9 @@
       "text": "Ermanno",
       "entity": {
         "text": "Ermanno",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Hermann, Jakob"
       }
     },
     {
@@ -139,9 +152,9 @@
       "text": "Fardella",
       "entity": {
         "text": "Fardella",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/fardella",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Fardella, signor"
       }
     },
     {
@@ -152,9 +165,9 @@
       "text": "Voduard",
       "entity": {
         "text": "Voduard",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/person/voduard",
+        "type": "person",
+        "label": "Voduard, signor"
       }
     },
     {

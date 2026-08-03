@@ -9,9 +9,9 @@
       "text": "terzana rabbiosa",
       "entity": {
         "text": "terzana rabbiosa",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/terzana_rabbiosa",
         "type": "organism",
-        "label": "uovo"
+        "label": "terzana rabbiosa"
       }
     },
     {
@@ -22,87 +22,61 @@
       "text": "insetti",
       "entity": {
         "text": "insetti",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/insetti",
         "type": "organism",
-        "label": "uovo"
+        "label": "insetti"
       }
     },
     {
-      "text": " e l’introduzione, e molte ciancie vorrebono levate. Per altro le osservazioni sono verissime, fatte e riffatte. Aspetto anch’io gli accennati suoi parti, che saranno maturi e perfetti e degni d’ammirazione.  \n\nÈ in una città degna de’ suoi studi il nostro signor ",
+      "text": " e l’introduzione, e molte ciancie vorrebono levate. Per altro le osservazioni sono verissime, fatte e riffatte. Aspetto anch’io gli accennati suoi parti, che saranno maturi e perfetti e degni d’ammirazione.  \n\nÈ in una città degna de’ suoi studi il nostro ",
       "entity": null
     },
     {
-      "text": "Conte Luigi",
+      "text": "signor conte Luigi",
       "entity": {
-        "text": "Conte Luigi",
-        "entity_id": "https://w3id.org/vallisnieri/text/",
+        "text": "signor conte Luigi",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Micrographia curiosa"
+        "label": "Marsili, Luigi Ferdinando"
       }
     },
     {
-      "text": ", e mi rallegro sommamente con vostra signoria illustrissima e col signor ",
+      "text": ", e mi rallegro sommamente con vostra signoria illustrissima e col ",
       "entity": null
     },
     {
-      "text": "Manfredi",
+      "text": "signor Manfredi",
       "entity": {
-        "text": "Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "text": "signor Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Manfredi, signor"
       }
     },
     {
-      "text": " dell’invito giustissimo per entrare in quella nascente Accademia, nella quale faranno spiccare il loro valore. Godo che levi da quella tomba di cantina le miniere, e restituisca alla luce e a miglior uso. Quando sarò a casa le manderò varie cose curiose, e mi rimmetterò poi a lei circa al rimmandarmi l’equivalente. Pareva che avessi fatto un buon baratto co’ ",
-      "entity": null
-    },
-    {
-      "text": "sali",
-      "entity": {
-        "text": "sali",
-        "entity_id": "https://www.wikidata.org/wiki/Q207896",
-        "type": "specimen",
-        "label": "sali fossili"
-      }
-    },
-    {
-      "text": ", ma mi scrive mio ",
+      "text": " dell’invito giustissimo per entrare in quella nascente Accademia, nella quale faranno spiccare il loro valore. Godo che levi da quella tomba di cantina le miniere, e restituisca alla luce e a miglior uso. Quando sarò a casa le manderò varie cose curiose, e mi rimmetterò poi a lei circa al rimmandarmi l’equivalente. Pareva che avessi fatto un buon baratto co’ sali, ma mi scrive mio ",
       "entity": null
     },
     {
       "text": "frate",
       "entity": {
         "text": "frate",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/frate",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "frate"
       }
     },
     {
-      "text": "llo che i venti sciroccali ne hanno sciolta una parte e m’hanno ruinate varie cose di mia premura con l’acqua fluente e raccolta da loro, sicché bisognerà riffarmi.  \n\nLe mando un caso d’un sudor di sangue mirabile e vero con un ",
-      "entity": null
-    },
-    {
-      "text": "miracolo finto",
-      "entity": {
-        "text": "miracolo finto",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": ". Un frate se ne voleva approfittare. Le invio pure un altro caso d’una portentosa diabete, ma dubbito della verità. Se vorrà il raziocinio che segue, lo manderò.  \n\nI miei soliti inchini. Il nostro signor ",
+      "text": "llo che i venti sciroccali ne hanno sciolta una parte e m’hanno ruinate varie cose di mia premura con l’acqua fluente e raccolta da loro, sicché bisognerà riffarmi.  \n\nLe mando un caso d’un sudor di sangue mirabile e vero con un miracolo finto. Un frate se ne voleva approfittare. Le invio pure un altro caso d’una portentosa diabete, ma dubbito della verità. Se vorrà il raziocinio che segue, lo manderò.  \n\nI miei soliti inchini. Il nostro signor ",
       "entity": null
     },
     {
       "text": "Guglielmini",
       "entity": {
         "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Guglielmini, Domenico"
       }
     },
     {
@@ -115,7 +89,7 @@
         "text": "Vittorio Francesco Stancari",
         "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
         "type": "person",
-        "label": "Vittorio Francesco Stancari"
+        "label": "Stancari, Vittorio Francesco"
       }
     }
   ]

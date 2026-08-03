@@ -9,9 +9,9 @@
       "text": "Guglielmini",
       "entity": {
         "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Guglielmini, Domenico"
       }
     },
     {
@@ -22,9 +22,9 @@
       "text": "Ferrante Imperato",
       "entity": {
         "text": "Ferrante Imperato",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Imperato, Ferrante"
       }
     },
     {
@@ -35,9 +35,9 @@
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "uovo"
+        "label": "anguilla"
       }
     },
     {
@@ -48,9 +48,9 @@
       "text": "Aristotele",
       "entity": {
         "text": "Aristotele",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/aristotele",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Aristotle"
       }
     },
     {
@@ -61,9 +61,9 @@
       "text": "camaleonti",
       "entity": {
         "text": "camaleonti",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "uovo"
+        "label": "camaleonti"
       }
     },
     {
@@ -74,9 +74,9 @@
       "text": "aculeo della mosca rosiseca",
       "entity": {
         "text": "aculeo della mosca rosiseca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
         "type": "organism",
-        "label": "uovo"
+        "label": "mosca rosiseca"
       }
     },
     {
@@ -87,9 +87,9 @@
       "text": "Albrizzi",
       "entity": {
         "text": "Albrizzi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Albrizzi, Girolamo"
       }
     },
     {
@@ -100,52 +100,52 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
-      "text": " in Venezia e m’ha dato nuova che un nostro coaccademico ha osservato anch’esso le mosche rosiseche, onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ",
+      "text": " in Venezia e m’ha dato nuova che ",
+      "entity": null
+    },
+    {
+      "text": "un nostro coaccademico",
+      "entity": {
+        "text": "un nostro coaccademico",
+        "entity_id": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+        "type": "person",
+        "label": "un_nostro_coaccademico"
+      }
+    },
+    {
+      "text": " ha osservato anch’esso le ",
+      "entity": null
+    },
+    {
+      "text": "mosche rosiseche",
+      "entity": {
+        "text": "mosche rosiseche",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
+        "type": "organism",
+        "label": "mosca rosiseca"
+      }
+    },
+    {
+      "text": ", onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ",
       "entity": null
     },
     {
       "text": "Testi",
       "entity": {
         "text": "Testi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/testi_lodovico",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Testi"
       }
     },
     {
-      "text": " in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in Padoa il nuovo matematico, ch’è modestissimo, savio e assai virtuoso, particolarmente nell’algebra. Gli ho portati i di lei saluti cordialissimi, e la risaluta con tutto lo spirito. Ho letto in Reggio le lettere in favore del signor marchese ",
-      "entity": null
-    },
-    {
-      "text": "Orsi",
-      "entity": {
-        "text": "Orsi",
-        "entity_id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
-        "type": "person",
-        "label": "Orsi, Quaranta"
-      }
-    },
-    {
-      "text": ", fra le quali quanto è dotta, ingegnosa, spiritosa quella del signor ",
-      "entity": null
-    },
-    {
-      "text": "Manfredi",
-      "entity": {
-        "text": "Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-        "type": "person",
-        "label": "Manfredi"
-      }
-    },
-    {
-      "text": "! Lo baci in mio nome.  \n\nI miei inchini agli altri amici, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisneri",
+      "text": " in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in Padoa il nuovo matematico, ch’è modestissimo, savio e assai virtuoso, particolarmente nell’algebra. Gli ho portati i di lei saluti cordialissimi, e la risaluta con tutto lo spirito. Ho letto in Reggio le lettere in favore del signor marchese Orsi, fra le quali quanto è dotta, ingegnosa, spiritosa quella del signor Manfredi! Lo baci in mio nome.  \n\nI miei inchini agli altri amici, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisneri",
       "entity": null
     }
   ]

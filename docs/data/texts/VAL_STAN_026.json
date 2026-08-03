@@ -9,22 +9,35 @@
       "text": "cervello petrificato",
       "entity": {
         "text": "cervello petrificato",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/cervello_petrificato",
         "type": "specimen",
-        "label": "uovo"
+        "label": "cervello petrificato"
       }
     },
     {
-      "text": " del Museo Aldrovandi con le notizie e spiegazioni necessarie. Mi pare bene che il pittore l’abbia disegnato assai grossolanamente, poiché ha pochi risalti, o poche ombre, parendomi che non fosse tanto liscio da per tutto. Nulladimeno lo porrò tal quale l’ha mandato. Sono bene molto obbligato al signor ",
+      "text": " del Museo ",
+      "entity": null
+    },
+    {
+      "text": "Aldrovandi",
+      "entity": {
+        "text": "Aldrovandi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "type": "person",
+        "label": "Manfredi, signor"
+      }
+    },
+    {
+      "text": " con le notizie e spiegazioni necessarie. Mi pare bene che il pittore l’abbia disegnato assai grossolanamente, poiché ha pochi risalti, o poche ombre, parendomi che non fosse tanto liscio da per tutto. Nulladimeno lo porrò tal quale l’ha mandato. Sono bene molto obbligato al signor ",
       "entity": null
     },
     {
       "text": "Donelli",
       "entity": {
         "text": "Donelli",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Giuseppe Donelli"
       }
     },
     {
@@ -35,9 +48,9 @@
       "text": "midollo",
       "entity": {
         "text": "midollo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/midollo",
         "type": "organism",
-        "label": "uovo"
+        "label": "midollo"
       }
     },
     {
@@ -48,9 +61,9 @@
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/place/https___www_wikidata_org_wiki_q2783",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "Portugal"
+        "label": "anguilla"
       }
     },
     {
@@ -61,9 +74,9 @@
       "text": "Morgagni",
       "entity": {
         "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
@@ -74,9 +87,9 @@
       "text": "beccheria",
       "entity": {
         "text": "beccheria",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/beccheria",
         "type": "organism",
-        "label": "uovo"
+        "label": "beccheria"
       }
     },
     {

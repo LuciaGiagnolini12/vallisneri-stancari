@@ -2,16 +2,16 @@
   "id": "VAL_STAN_003",
   "segments": [
     {
-      "text": "Padoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del signor ",
+      "text": "Padoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del ",
       "entity": null
     },
     {
-      "text": "Testi",
+      "text": "signor Testi",
       "entity": {
-        "text": "Testi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "signor Testi",
+        "entity_id": "https://w3id.org/vallisnieri/person/testi_ludovico",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Testi, signor"
       }
     },
     {
@@ -19,12 +19,12 @@
       "entity": null
     },
     {
-      "text": "Conte Luigi",
+      "text": "conte Luigi",
       "entity": {
-        "text": "Conte Luigi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "conte Luigi",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Marsili, Luigi Ferdinando"
       }
     },
     {
@@ -35,9 +35,9 @@
       "text": "serpente americano",
       "entity": {
         "text": "serpente americano",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/serpente_americano",
         "type": "specimen",
-        "label": "uovo"
+        "label": "serpente americano"
       }
     },
     {
@@ -48,9 +48,9 @@
       "text": "pesce cane",
       "entity": {
         "text": "pesce cane",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/pesce_cane",
+        "type": "specimen",
+        "label": "pesce cane"
       }
     },
     {
@@ -61,22 +61,22 @@
       "text": "pesce rondine",
       "entity": {
         "text": "pesce rondine",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/pesce_rondine",
+        "type": "specimen",
+        "label": "pesce rondine"
       }
     },
     {
-      "text": ", il quale m’ha asserito questo eminentissimo cardinale ",
+      "text": ", il quale m’ha asserito questo eminentissimo ",
       "entity": null
     },
     {
-      "text": "Cornaro",
+      "text": "cardinale Cornaro",
       "entity": {
-        "text": "Cornaro",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "cardinale Cornaro",
+        "entity_id": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Cornaro, Giorgio"
       }
     },
     {
@@ -87,9 +87,9 @@
       "text": "dracone marino",
       "entity": {
         "text": "dracone marino",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/dracone_marino",
+        "type": "specimen",
+        "label": "dracone marino"
       }
     },
     {
@@ -100,9 +100,9 @@
       "text": "pesce pastinaca",
       "entity": {
         "text": "pesce pastinaca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/pesce_pastinaca",
+        "type": "specimen",
+        "label": "pesce pastinaca"
       }
     },
     {
@@ -113,9 +113,9 @@
       "text": "pesce lepre",
       "entity": {
         "text": "pesce lepre",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/pesce_lepre",
+        "type": "specimen",
+        "label": "pesce lepre"
       }
     },
     {
@@ -126,9 +126,9 @@
       "text": "pesce colombo",
       "entity": {
         "text": "pesce colombo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/pesce_colombo",
+        "type": "specimen",
+        "label": "pesce colombo"
       }
     },
     {
@@ -139,9 +139,9 @@
       "text": "torpedine",
       "entity": {
         "text": "torpedine",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/torpedine",
+        "type": "specimen",
+        "label": "torpedine"
       }
     },
     {
@@ -152,9 +152,9 @@
       "text": "semi d’India",
       "entity": {
         "text": "semi d’India",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/semi_d_india",
+        "type": "place",
+        "label": "semi d’India"
       }
     },
     {
@@ -165,35 +165,22 @@
       "text": "miniere di Schio",
       "entity": {
         "text": "miniere di Schio",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+        "type": "place",
+        "label": "miniere di Schio"
       }
     },
     {
-      "text": ", quattro sorti di ",
-      "entity": null
-    },
-    {
-      "text": "miniere d’argento vivo",
-      "entity": {
-        "text": "miniere d’argento vivo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": ", tutti i vetri colorati che si fanno in Murano, una ",
+      "text": ", quattro sorti di miniere d’argento vivo, tutti i vetri colorati che si fanno in Murano, una ",
       "entity": null
     },
     {
       "text": "tartaruga marina",
       "entity": {
         "text": "tartaruga marina",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/tartaruga_marina",
+        "type": "specimen",
+        "label": "tartaruga marina"
       }
     },
     {
@@ -204,48 +191,35 @@
       "text": "balani",
       "entity": {
         "text": "balani",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/balani",
+        "type": "specimen",
+        "label": "balani"
       }
     },
     {
-      "text": " dentro la creta d’Ancona, e cento altre curiosità naturali, che mi danno occasione di rivolgere i libri e cercarne la nascita, i costumi, tutta l’idea. Portai pure dal mio viaggio due muli carichi de varie cose, che non saranno l’ultime del mio nascente museo, e ne aspetto dell’altre per mezzo d’un amico potente dalle coste dell’Affrica e da altre parti. I sali favoritemi per essere in una camera un poco umida e per i continui scilocchi che qui spirano, m’andavano tutti a spasso se presto non me n’avedevo, onde l’usura fatta avea poco buon fine. \n\nPorti i miei rispetti a cotesti miei stimatissimi padroni signori ",
+      "text": " dentro la creta d’Ancona, e cento altre curiosità naturali, che mi danno occasione di rivolgere i libri e cercarne la nascita, i costumi, tutta l’idea. Portai pure dal mio viaggio due muli carichi de varie cose, che non saranno l’ultime del mio nascente museo, e ne aspetto dell’altre per mezzo d’un amico potente dalle coste dell’Affrica e da altre parti. I sali favoritemi per essere in una camera un poco umida e per i continui scilocchi che qui spirano, m’andavano tutti a spasso se presto non me n’avedevo, onde l’usura fatta avea poco buon fine. \n\nPorti i miei rispetti a cotesti miei stimatissimi padroni ",
       "entity": null
     },
     {
-      "text": "Manfredi",
+      "text": "signori Manfredi e Nanni",
       "entity": {
-        "text": "Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "text": "signori Manfredi e Nanni",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Manfredi, signor"
       }
     },
     {
-      "text": " e ",
+      "text": ", siccome al ",
       "entity": null
     },
     {
-      "text": "Nanni",
+      "text": "signor Quaranta Orsi",
       "entity": {
-        "text": "Nanni",
-        "entity_id": "https://w3id.org/vallisnieri/person/nanni_unknown",
+        "text": "signor Quaranta Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
         "type": "person",
-        "label": "Nanni"
-      }
-    },
-    {
-      "text": ", siccome al signor ",
-      "entity": null
-    },
-    {
-      "text": "Quaranta Orsi",
-      "entity": {
-        "text": "Quaranta Orsi",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
-        "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Quaranta Orsi"
       }
     },
     {

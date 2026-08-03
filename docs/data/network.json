@@ -1,88 +1,454 @@
 {
   "nodes": [
     {
-      "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "label": "Vittorio Francesco Stancari",
+      "id": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
+      "label": "Cornaro, Giorgio",
       "type": "person",
-      "letters": 28
+      "letters": 1
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/",
-      "label": "Bellini, unknown",
-      "type": "person",
-      "letters": 14
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/text/",
-      "label": "Micrographia curiosa",
-      "type": "text",
-      "letters": 18
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
-      "label": "Orsi, Quaranta",
-      "type": "person",
-      "letters": 5
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/institution/",
-      "label": "Luigi, Conte",
-      "type": "person",
-      "letters": 12
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "label": "Giovanni Battista Valsalva",
-      "type": "person",
-      "letters": 6
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
-      "label": "Sbaraglia, Unknown",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "label": "Antonio Vallisneri",
-      "type": "person",
-      "letters": 28
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "label": "Dorelli",
-      "type": "person",
-      "letters": 4
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "label": "Luigi Vittorio Filippo Marsili",
-      "type": "person",
-      "letters": 6
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "label": "Nanni",
-      "type": "person",
-      "letters": 5
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "label": "Manfredi",
-      "type": "person",
-      "letters": 18
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "label": "Sandri",
+      "id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "label": "Albrizzi, Girolamo",
       "type": "person",
       "letters": 3
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "label": "Giuseppe Maria Marsili",
+      "id": "https://w3id.org/vallisnieri/person/bosiarto",
+      "label": "Bochart, Samuel",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "label": "signor_abbate_fardella",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "label": "Manfredi, signor",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "label": "Quaranta Orsi",
       "type": "person",
       "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/fardella",
+      "label": "Fardella, signor",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+      "label": "Buonanni, Padre",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "label": "Trevisan, Bernardo",
+      "type": "person",
+      "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/padrone",
+      "label": "padrone",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/charas",
+      "label": "Charas",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/mirtino",
+      "label": "mirtino",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "label": "repubbliche ultramontane",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "label": "un_nostro_coaccademico",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "label": "Feugerais, Carlo des",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/malpighi",
+      "label": "Malpighi, Marcello",
+      "type": "person",
+      "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "label": "Pietro Nanni",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/fontanelle",
+      "label": "Fontanelle",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "label": "Passalacqua (marchese)",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/aristotele",
+      "label": "Aristotle",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/iddio",
+      "label": "iddio",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/rubbi",
+      "label": "Rubbi",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bassi",
+      "label": "Bassi",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "label": "Cappuccino, Padre Francesco Maria",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "label": "padronissimo",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
+      "label": "Bellini",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/frate",
+      "label": "frate",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/cardinal",
+      "label": "Cardinal",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/petiver_james",
+      "label": "Petiver, James ",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "label": "Morgagni, Giambattista",
+      "type": "person",
+      "letters": 16
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "label": "Arciprete",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/autore_galleria",
+      "label": "Autore Galleria",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bernoulli",
+      "label": "Bernoulli, signor",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "label": "Cestoni, Giacinto",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "label": "fratello",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "label": "Principe di Toscana",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/formica",
+      "label": "formica",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "label": "Imperato, Ferrante",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/s_agostino",
+      "label": "Augustine of Hippo",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/voduard",
+      "label": "Voduard, signor",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "label": "Giuseppe Donelli",
+      "type": "person",
+      "letters": 6
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/principi",
+      "label": "princi",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "label": "Molinetti, Michele Angelo",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+      "label": "Sbaraglia, Giovanni Girolamo",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "label": "Scheuchzer, Johann Jakob",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/trionfetti",
+      "label": "Trionfetti, Lelio",
+      "type": "person",
+      "letters": 3
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "label": "Redi, Francesco",
+      "type": "person",
+      "letters": 5
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "label": "signor_bernouli",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/turnefort",
+      "label": "Pitton de Tournefort, Joseph ",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+      "label": "Bentivogli, Filippo",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "label": "Guglielmini, signor",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/paulini",
+      "label": "Paulini",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "label": "Hermann, Jakob",
+      "type": "person",
+      "letters": 5
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "label": "petesino_mantoano",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "label": "Testi",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "label": "Guglielmini, Domenico",
+      "type": "person",
+      "letters": 10
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/langio",
+      "label": "langio",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "label": "Orsi, marchese",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/tito_livio",
+      "label": "Livio, Tito",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "label": "Manfredi, signor",
+      "type": "person",
+      "letters": 12
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/lancisi",
+      "label": "Lancisi",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "label": "Valsalva Antonio Maria",
+      "type": "person",
+      "letters": 6
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "label": "Vallisneri, Antonio",
+      "type": "person",
+      "letters": 23
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "label": "Stancari, Vittorio Francesco",
+      "type": "person",
+      "letters": 30
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
+      "label": "Testi, signor",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "label": "serenissimo_di_mantova",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/casale",
+      "label": "casale",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "label": "medico di Comacchio",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "label": "Fardella, abate",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "label": "Muralto, Gioanni",
+      "type": "person",
+      "letters": 2
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "label": "Marsili, Luigi Ferdinando",
+      "type": "person",
+      "letters": 9
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/martinelli",
+      "label": "Martinelli",
+      "type": "person",
+      "letters": 4
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "label": "Valsalvi, signor",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/ettmulero",
+      "label": "ettmulero",
+      "type": "person",
+      "letters": 1
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+      "label": "Giacomo Sandri",
+      "type": "person",
+      "letters": 1
     }
   ],
   "edges": [
@@ -94,7 +460,7 @@
       "letter": "VAL_STAN_001"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "transfer",
       "object": "",
@@ -102,24 +468,24 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "type": "transfer",
       "object": "",
       "letter": "VAL_STAN_001"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "type": "transfer",
-      "object": "",
-      "letter": "VAL_STAN_002"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/institution/",
+      "source": "https://w3id.org/vallisnieri/person/testi_ludovico",
       "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "transfer",
       "object": "",
       "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "type": "transfer",
+      "object": "",
+      "letter": "VAL_STAN_004"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
@@ -129,60 +495,81 @@
       "letter": "VAL_STAN_006"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
       "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "transfer",
-      "object": "",
+      "object": "libro",
       "letter": "VAL_STAN_010"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/autore_galleria",
       "type": "transfer",
       "object": "",
       "letter": "VAL_STAN_010"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "type": "transfer",
       "object": "",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/trionfetti",
+      "type": "transfer",
+      "object": "discorso sopra la lenticola palustre",
       "letter": "VAL_STAN_013"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "transfer",
+      "object": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. ",
+      "letter": "VAL_STAN_013"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
       "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "transfer",
       "object": "",
-      "letter": "VAL_STAN_024"
+      "letter": "VAL_STAN_014"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
       "type": "transfer",
       "object": "",
-      "letter": "VAL_STAN_025"
+      "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "transfer",
+      "object": "camaleonti",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
       "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "transfer",
       "object": "",
-      "letter": "VAL_STAN_027"
+      "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "transfer",
-      "object": "",
-      "letter": "VAL_STAN_028"
+      "object": "figure del cervello petrificato",
+      "letter": "VAL_STAN_026"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/text/",
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "transfer",
       "object": "",
-      "letter": "VAL_STAN_029"
+      "letter": "VAL_STAN_026"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
@@ -192,423 +579,3063 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/nanni_pietro",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "target": "https://w3id.org/vallisnieri/person/sandri_giacomo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "target": "https://w3id.org/vallisnieri/person/nanni_pietro",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "target": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "target": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "target": "https://w3id.org/vallisnieri/person/sandri_giacomo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_001"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_001"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "target": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/nanni_unknown",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
+      "target": "https://w3id.org/vallisnieri/person/nanni_pietro",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/institution/",
+      "target": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
       "type": "co-occurrence",
       "letter": "VAL_STAN_003"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/institution/",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_003"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/testi_ludovico",
       "type": "co-occurrence",
       "letter": "VAL_STAN_003"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/person/nanni_unknown",
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
       "type": "co-occurrence",
       "letter": "VAL_STAN_003"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/testi_ludovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
       "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_003"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "source": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
+      "target": "https://w3id.org/vallisnieri/person/testi_ludovico",
       "type": "co-occurrence",
-      "letter": "VAL_STAN_007"
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/testi_ludovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/testi_ludovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "target": "https://w3id.org/vallisnieri/person/testi_ludovico",
       "type": "co-occurrence",
-      "letter": "VAL_STAN_007"
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "target": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
       "type": "co-occurrence",
-      "letter": "VAL_STAN_007"
+      "letter": "VAL_STAN_005"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_005"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "target": "https://w3id.org/vallisnieri/person/frate",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/frate",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/frate",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/frate",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/frate",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_007"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_007"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "target": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_007"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_007"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_007"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_007"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_sbaraglia_unknown",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_007"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bassi",
+      "target": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_008"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_unknown",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "source": "https://w3id.org/vallisnieri/person/bassi",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bassi",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/s_agostino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/bosiarto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/s_agostino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/bosiarto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/s_agostino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/bosiarto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/s_agostino",
+      "target": "https://w3id.org/vallisnieri/person/bosiarto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/s_agostino",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/s_agostino",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/s_agostino",
+      "target": "https://w3id.org/vallisnieri/person/padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bosiarto",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bosiarto",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bosiarto",
+      "target": "https://w3id.org/vallisnieri/person/padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/autore_galleria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/malpighi",
+      "target": "https://w3id.org/vallisnieri/person/autore_galleria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/autore_galleria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/autore_galleria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_010"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/buonanni_filippo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_011"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/cardinal",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+      "target": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+      "target": "https://w3id.org/vallisnieri/person/cardinal",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/cardinal",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "target": "https://w3id.org/vallisnieri/person/cardinal",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cardinal",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/cardinal",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/trionfetti",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_013"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_013"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_013"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_013"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_014"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
-      "target": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/person/marsili_luigivittoriofilippo",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/principi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/principi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/principi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/principi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/principi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/principi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/principi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/principi",
+      "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/principi",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/mio_fratello",
       "type": "co-occurrence",
       "letter": "VAL_STAN_016"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/person/dorelli_unknown",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/charas",
       "type": "co-occurrence",
       "letter": "VAL_STAN_016"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
       "type": "co-occurrence",
       "letter": "VAL_STAN_016"
     },
     {
-      "source": "https://w3id.org/vallisnieri/institution/",
-      "target": "https://w3id.org/vallisnieri/person/sandri_unknown",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/paulini",
       "type": "co-occurrence",
       "letter": "VAL_STAN_016"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/dorelli_unknown",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/charas",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/paulini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "target": "https://w3id.org/vallisnieri/person/charas",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "target": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "target": "https://w3id.org/vallisnieri/person/paulini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/paulini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/paulini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/paulini",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/paulini",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/paulini",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/paulini",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "target": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/fontanelle",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/fontanelle",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/charas",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/fontanelle",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/fontanelle",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "target": "https://w3id.org/vallisnieri/person/fontanelle",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fontanelle",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fontanelle",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/aristotele",
+      "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/aristotele",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/aristotele",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/aristotele",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/aristotele",
+      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/aristotele",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_018"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/mirtino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_019"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/valsalva_giovannibattista",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/langio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_019"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/sandri_unknown",
-      "target": "https://w3id.org/vallisnieri/person/",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/petesino_mantoano",
       "type": "co-occurrence",
       "letter": "VAL_STAN_019"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/",
-      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/ettmulero",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/mirtino",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/langio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/ettmulero",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mirtino",
+      "target": "https://w3id.org/vallisnieri/person/langio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mirtino",
+      "target": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mirtino",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mirtino",
+      "target": "https://w3id.org/vallisnieri/person/ettmulero",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mirtino",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/mirtino",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/langio",
+      "target": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/langio",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/langio",
+      "target": "https://w3id.org/vallisnieri/person/ettmulero",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/langio",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/langio",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "target": "https://w3id.org/vallisnieri/person/ettmulero",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/ettmulero",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ettmulero",
+      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/ettmulero",
+      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/rubbi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/rubbi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/rubbi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "target": "https://w3id.org/vallisnieri/person/rubbi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/rubbi",
+      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/rubbi",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/rubbi",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_021"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/iddio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_022"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/iddio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_022"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/iddio",
+      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_022"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/iddio",
+      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_022"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/iddio",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_022"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/voduard",
+      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/voduard",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/voduard",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/marsili_giuseppemaria",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/trionfetti",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/trionfetti",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/trionfetti",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "target": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/aristotele",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/aristotele",
+      "target": "https://w3id.org/vallisnieri/person/malpighi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_028"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/",
-      "target": "https://w3id.org/vallisnieri/person/https___w3id_org_vallisnieri_person_orsi_quaranta",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/petiver_james",
       "type": "co-occurrence",
       "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/tito_livio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/turnefort",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/petiver_james",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/tito_livio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/turnefort",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "target": "https://w3id.org/vallisnieri/person/petiver_james",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "target": "https://w3id.org/vallisnieri/person/tito_livio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "target": "https://w3id.org/vallisnieri/person/turnefort",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/petiver_james",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/tito_livio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/person/turnefort",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/petiver_james",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/tito_livio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/person/turnefort",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petiver_james",
+      "target": "https://w3id.org/vallisnieri/person/tito_livio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petiver_james",
+      "target": "https://w3id.org/vallisnieri/person/turnefort",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/tito_livio",
+      "target": "https://w3id.org/vallisnieri/person/turnefort",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/casale",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/formica",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/casale",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/formica",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/casale",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/formica",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/casale",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/formica",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "target": "https://w3id.org/vallisnieri/person/casale",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "target": "https://w3id.org/vallisnieri/person/formica",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/casale",
+      "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/casale",
+      "target": "https://w3id.org/vallisnieri/person/formica",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/casale",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/casale",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/casale",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/casale",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "target": "https://w3id.org/vallisnieri/person/formica",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/formica",
+      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/formica",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/formica",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/formica",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "target": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
     }
   ]
 }

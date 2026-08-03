@@ -6,29 +6,42 @@
       "entity": null
     },
     {
-      "text": "libretto de’ miei dialoghi",
+      "text": "libretto",
       "entity": {
-        "text": "libretto de’ miei dialoghi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "libretto",
+        "entity_id": "https://w3id.org/vallisnieri/organism/libretto",
         "type": "specimen",
-        "label": "uovo"
+        "label": "libretto"
       }
     },
     {
-      "text": ", il quale ho ardire d’indirizzare a vostra signoria illustrissima per mezzo del compitissimo signor ",
+      "text": " de’ miei dialoghi, il quale ho ardire d’indirizzare a vostra signoria illustrissima per mezzo del compitissimo signor ",
       "entity": null
     },
     {
       "text": "marchese Bentivogli",
       "entity": {
         "text": "marchese Bentivogli",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Bentivogli, Filippo"
       }
     },
     {
-      "text": ". La prego a guardarlo con occhio tutto benigno, perché egli è uno de’ primi parti che uscirono dalla mia arditissima penna, isporcato poi anche da centinaia d’errori dalla negligentissima negligenza dell’avaro stampatore.  \n\nI miei soliti inchini, ed abbracciandola col cuore resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
+      "text": ". La prego a guardarlo con occhio tutto benigno, perché egli è uno de’ primi parti che uscirono dalla mia arditissima penna, isporcato poi anche da centinaia d’errori dalla negligentissima negligenza dell’avaro ",
+      "entity": null
+    },
+    {
+      "text": "stampatore",
+      "entity": {
+        "text": "stampatore",
+        "entity_id": "https://w3id.org/vallisnieri/organism/stampatore",
+        "type": "organism",
+        "label": "stampatore"
+      }
+    },
+    {
+      "text": ".  \n\nI miei soliti inchini, ed abbracciandola col cuore resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

@@ -2,29 +2,16 @@
   "id": "VAL_STAN_022",
   "segments": [
     {
-      "text": "Padoa 5 dicembre 1707  \n\nIllustrissimo ",
+      "text": "Padoa 5 dicembre 1707  \n\nIllustrissimo signore mio padrone colendissimo \n\nIl gentilissimo nostro signor ",
       "entity": null
     },
     {
-      "text": "signor",
+      "text": "Morgagni",
       "entity": {
-        "text": "signor",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Luigi, Conte"
-      }
-    },
-    {
-      "text": "e mio padrone colendissimo \n\nIl gentilissimo nostro ",
-      "entity": null
-    },
-    {
-      "text": "signor Morgagni",
-      "entity": {
-        "text": "signor Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
-        "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
@@ -35,9 +22,9 @@
       "text": "camaleonte",
       "entity": {
         "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "Milan"
+        "label": "camaleonti"
       }
     },
     {
@@ -48,48 +35,35 @@
       "text": "gebelindi",
       "entity": {
         "text": "gebelindi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
+        "entity_id": "https://w3id.org/vallisnieri/organism/gebelindi",
+        "type": "specimen",
+        "label": "gebelindi"
       }
     },
     {
-      "text": " e altre curiose notizie di robbe e rimedi constantinopolitani, le quali potrà partecipare in succinto all’Accademia, se stimerà bene. Ho avuto nuova dal ",
+      "text": " e altre curiose notizie di robbe e rimedi constantinopolitani, le quali potrà partecipare in succinto all’Accademia, se stimerà bene. Ho avuto nuova dal signor Morgagni che ",
       "entity": null
     },
     {
-      "text": "signor",
+      "text": "Vostra signoria illustrissima",
       "entity": {
-        "text": "signor",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "text": "Vostra signoria illustrissima",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "Stancari, Vittorio Francesco"
       }
     },
     {
-      "text": " ",
-      "entity": null
-    },
-    {
-      "text": "Morgagni",
-      "entity": {
-        "text": "Morgagni",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
-        "type": "person",
-        "label": "Luigi, Conte"
-      }
-    },
-    {
-      "text": " che vostra signoria illustrissima ha detto in ristretto l’invenzione dell’ovaja dell’",
+      "text": " ha detto in ristretto l’invenzione dell’ovaja dell’",
       "entity": null
     },
     {
       "text": "anguilla",
       "entity": {
         "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
         "type": "organism",
-        "label": "uovo"
+        "label": "anguilla"
       }
     },
     {
@@ -100,74 +74,22 @@
       "text": "Iddio",
       "entity": {
         "text": "Iddio",
-        "entity_id": "https://w3id.org/vallisnieri/institution/",
+        "entity_id": "https://w3id.org/vallisnieri/person/iddio",
         "type": "person",
-        "label": "Luigi, Conte"
+        "label": "iddio"
       }
     },
     {
-      "text": " sia stata gradita. Le dissi che avevo scritto qualche cosa sopra i ",
-      "entity": null
-    },
-    {
-      "text": "mostri",
-      "entity": {
-        "text": "mostri",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": ". Le mando l’estratto, e vi troverà forse qualche cosa di raro da riferire nell’Accademia. V’è l’",
-      "entity": null
-    },
-    {
-      "text": "uovo",
-      "entity": {
-        "text": "uovo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": " dentro l’",
-      "entity": null
-    },
-    {
-      "text": "altr’uovo",
-      "entity": {
-        "text": "altr’uovo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": ", che pur conteneva una ",
-      "entity": null
-    },
-    {
-      "text": "mola",
-      "entity": {
-        "text": "mola",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": " che non veduto esposto o dichiarato da alcuno, e vi sono altre cosette curiose. V’è insino il ",
+      "text": " sia stata gradita. Le dissi che avevo scritto qualche cosa sopra i mostri. Le mando l’estratto, e vi troverà forse qualche cosa di raro da riferire nell’Accademia. V’è l’uovo dentro l’altr’uovo, che pur conteneva una mola che non veduto esposto o dichiarato da alcuno, e vi sono altre cosette curiose. V’è insino il ",
       "entity": null
     },
     {
       "text": "cacatù",
       "entity": {
         "text": "cacatù",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/cacat",
         "type": "organism",
-        "label": "uovo"
+        "label": "cacatù"
       }
     },
     {

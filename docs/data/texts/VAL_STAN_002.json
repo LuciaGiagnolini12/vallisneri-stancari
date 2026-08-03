@@ -9,35 +9,61 @@
       "text": "peri",
       "entity": {
         "text": "peri",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/peri",
         "type": "organism",
-        "label": "uovo"
+        "label": "peri"
       }
     },
     {
-      "text": "colo anche della vita. Basta dirle che una rotta del Panaro trasportò la barca giù dell’alveo del fiume in un vicino bosco, onde bisognò che tutti lavorassimo d’accordo appiccandosi alle cime degli alberi, tanto che la fermammo. Giunti con istento a Lago scuro vidi un altro spettacolo, cioè uno venire giù per il Po nel bel mezzo attaccato ad una stuora, che a caso avea abbrancolata, e teneva fuora il capo dall’acqua, onde fu preso ancor vivo ed io gli assistei a fargli ricuperare il primiero vigore, il che accrebbe in me lo spavento. Creda, o mio signore, che quell’era un abozzo dell’universale diluvio. Case e chiese diroccate, ",
+      "text": "colo anche della vita. Basta dirle che una rotta del ",
       "entity": null
     },
     {
-      "text": "bestiami",
+      "text": "Panaro",
       "entity": {
-        "text": "bestiami",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "text": "Panaro",
+        "entity_id": "https://w3id.org/vallisnieri/organism/panaro",
         "type": "organism",
-        "label": "uovo"
+        "label": "Panaro"
       }
     },
     {
-      "text": " et uomini morti, cielo et acqua. Ora sono lode a Dio e al santo mio protettore in porto, e lasciamo un poco queste passate melancolie, discorrendo di cose più allegre. Il mio viaggio è stato di due mesi così lungo e pieno d’osservazioni, che farei un libro, non una lettera. Oltre che lo scrivere una cosa separata dall’altra non comparirebbe nulla. Bisogna che tutte le indirizzi a un fine, come son dietro, e le vedrà poi un giorno con qualche ordine. Non voglio però disgustarla, e che venga alla di lei mano questa mia senza qualche esperimentale tintura. L’animo suo dottissimo e gentile avezzo in un’Accademia sì colta gradirà forse più per ora qualche osservazione d’un’altra Accademia, che un rozzo ammasso di cose mie selvatiche ancora et indigeste.  \n\nPer vedere que’ savi accademici di Pisa se vi sia veramente aria nelle uova, ne’ ",
+      "text": " trasportò la barca giù dell’alveo del fiume in un vicino bosco, onde bisognò che tutti lavorassimo d’accordo appiccandosi alle cime degli alberi, tanto che la fermammo. Giunti con istento a Lago scuro vidi un altro spettacolo, cioè uno venire giù per il Po nel bel mezzo attaccato ad una ",
+      "entity": null
+    },
+    {
+      "text": "stuora",
+      "entity": {
+        "text": "stuora",
+        "entity_id": "https://w3id.org/vallisnieri/organism/stuora",
+        "type": "organism",
+        "label": "stuora"
+      }
+    },
+    {
+      "text": ", che a caso avea abbrancolata, e teneva fuora il capo dall’acqua, onde fu preso ancor vivo ed io gli assistei a fargli ricuperare il primiero vigore, il che accrebbe in me lo spavento. Creda, o mio signore, che quell’era un abozzo dell’universale diluvio. Case e chiese diroccate, bestiami et uomini morti, cielo et acqua. Ora sono lode a Dio e al santo mio protettore in porto, e lasciamo un poco queste passate melancolie, discorrendo di cose più allegre. Il mio viaggio è stato di due mesi così lungo e pieno d’osservazioni, che farei un libro, non una lettera. Oltre che lo scrivere una cosa separata dall’altra non comparirebbe nulla. Bisogna che tutte le indirizzi a un fine, come son dietro, e le vedrà poi un giorno con qualche ordine. Non voglio però disgustarla, e che venga alla di lei mano questa mia senza qualche esperimentale tintura. L’animo suo dottissimo e gentile avezzo in un’Accademia sì colta gradirà forse più per ora qualche osservazione d’un’altra Accademia, che un rozzo ammasso di cose mie selvatiche ancora et indigeste.  \n\nPer vedere que’ savi accademici di Pisa se vi sia veramente aria nelle ",
+      "entity": null
+    },
+    {
+      "text": "uova",
+      "entity": {
+        "text": "uova",
+        "entity_id": "https://w3id.org/vallisnieri/organism/uova",
+        "type": "organism",
+        "label": "uova"
+      }
+    },
+    {
+      "text": ", ne’ ",
       "entity": null
     },
     {
       "text": "frutti",
       "entity": {
         "text": "frutti",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/frutti",
         "type": "organism",
-        "label": "uovo"
+        "label": "frutti"
       }
     },
     {
@@ -48,9 +74,9 @@
       "text": "erbe",
       "entity": {
         "text": "erbe",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/erbe",
         "type": "organism",
-        "label": "uovo"
+        "label": "erbe"
       }
     },
     {
@@ -61,9 +87,9 @@
       "text": "rami",
       "entity": {
         "text": "rami",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/rami",
         "type": "organism",
-        "label": "uovo"
+        "label": "rami"
       }
     },
     {
@@ -74,9 +100,9 @@
       "text": "radici",
       "entity": {
         "text": "radici",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/radici",
         "type": "organism",
-        "label": "uovo"
+        "label": "radici"
       }
     },
     {
@@ -87,35 +113,22 @@
       "text": "foglie",
       "entity": {
         "text": "foglie",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/foglie",
         "type": "organism",
-        "label": "uovo"
+        "label": "foglie"
       }
     },
     {
-      "text": ", ne’ vasi sanguigni, e cose tali, per quali vie entri od esca, qual quantità vi si truovi, e come pensarono di porre nella macchina loro pneumatica un vaso di cristalli aperto con acqua, dalla quale cavarono tutta l’aria che poterono, dopo v’immergevano un ",
-      "entity": null
-    },
-    {
-      "text": "uovo",
-      "entity": {
-        "text": "uovo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": " in modo che stasse sotto della medesima, poi di nuovo cavavan l’aria. Usciva prima quella della macchina, dopo quella dell’acqua, se di nuovo qualche poca se n’era intrusa, e poi incominciava quella dentro all’uomo ad uscire, come a spilli per que’ piccoli pori che s’osservano ne’ dintorni del di lui guscio, e salendo su per l’acqua ad occhi veggenti bullicava al di sopra della medesima. Col quale sperimento hanno confermate le vie dell’aria nell’uovo osservate dal ",
+      "text": ", ne’ vasi sanguigni, e cose tali, per quali vie entri od esca, qual quantità vi si truovi, e come pensarono di porre nella macchina loro pneumatica un vaso di cristalli aperto con acqua, dalla quale cavarono tutta l’aria che poterono, dopo v’immergevano un uovo in modo che stasse sotto della medesima, poi di nuovo cavavan l’aria. Usciva prima quella della macchina, dopo quella dell’acqua, se di nuovo qualche poca se n’era intrusa, e poi incominciava quella dentro all’uomo ad uscire, come a spilli per que’ piccoli pori che s’osservano ne’ dintorni del di lui guscio, e salendo su per l’acqua ad occhi veggenti bullicava al di sopra della medesima. Col quale sperimento hanno confermate le vie dell’aria nell’uovo osservate dal ",
       "entity": null
     },
     {
       "text": "Bellini",
       "entity": {
         "text": "Bellini",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Bellini"
       }
     },
     {
@@ -126,35 +139,22 @@
       "text": "pommi",
       "entity": {
         "text": "pommi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/pommi",
         "type": "organism",
-        "label": "uovo"
+        "label": "pommi"
       }
     },
     {
-      "text": ", peri e ",
-      "entity": null
-    },
-    {
-      "text": "frutti varii",
-      "entity": {
-        "text": "frutti varii",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
-        "type": "organism",
-        "label": "uovo"
-      }
-    },
-    {
-      "text": ", ed osservarono che pochissima ne scappava dalla buccia, e molta dal luogo del fiore e del gambo, o picciuolo, con cui stavano appeso al ramo. Il che conferma le osservazioni del nostro commendabilissimo ",
+      "text": ", peri e frutti varii, ed osservarono che pochissima ne scappava dalla buccia, e molta dal luogo del fiore e del gambo, o picciuolo, con cui stavano appeso al ramo. Il che conferma le osservazioni del nostro commendabilissimo ",
       "entity": null
     },
     {
       "text": "Malpighi",
       "entity": {
         "text": "Malpighi",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Malpighi, Marcello"
       }
     },
     {
@@ -165,9 +165,9 @@
       "text": "legumi",
       "entity": {
         "text": "legumi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/legumi",
         "type": "organism",
-        "label": "uovo"
+        "label": "legumi"
       }
     },
     {
@@ -178,35 +178,74 @@
       "text": "sangue",
       "entity": {
         "text": "sangue",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/sangue",
         "type": "organism",
-        "label": "uovo"
+        "label": "sangue"
       }
     },
     {
-      "text": " con vari e repplicati sperimenti. Fra gli altri non ottiene per avventura l’ultimo luogo quello di legare sotto e sopra una grossa vena o arteria prima di cavarla dal corpo, poi posta nella macchina suddetta, cavare tutta l’aria, perloché enormemente si gonfiava. Dopo la tagliavano con un ordigno congegnato a posta con bell’arte senza riaprire la macchina, e vedevano molte bolle uscir fuora, ed il mercurio in un piccolo barometro tornare ad ascendere. Il che dicevano non possono fare gli spiriti soli, o altre particelle minute sciolte in vapori, non avendo l’elatere della medesima. Il tutto può vostra signoria illustrissima con questi altri virtuosissimi signori da me tanto stimati repplicare nella sua bella macchina, migliorare gli esperimenti, e raffinarli col sodo loro giudizio, e dare lumi più chiari all’ancor torbida e nera filosofia. Né vidi cose di minor peso e di minore curiosità in Firenze, particolarmente fatte con quel maraviglioso loro specchio ustorio, che scioglie ogni metallo, vetrifica ogn’erba, come anche il formaggio piacentino, calcina, o sfarina, e stritola tutte le gioie e marmi più duri. Fra le gioie il solo diamante non si squaglia né spezza, ma sfuma e cala insensibilmente, e fra marmi il porfido non si calcina né rompe, ma si colliqua come cera, d’indi raffreddato torna a indurarsi. Credono alcuni di que’ signori ciò accadere, perché sia un composto artificiale, di cui si sia perduto il modo di fabbricarlo, non perché sia della razza de’ marmi, al che io feci varie opposizioni, delle quali molte più efficaci gliene suggerirà il di lei purgatissimo giudicio.  \n\nMa veggo fornirsi il foglio, ed io ho stabilito non volerlo passare. Compatisca la rozzezza d’esporre queste ciancie, perché le ho scritte in una volata di penna, non avendo tempo di limarle e trascriverle. Mi rallegro del viaggio fatto sulle montagne del Martignone, e forse verrò questa estate nuovamente a riverirla per imparar qualche cosa. La prego avvisarmi se il nostro signor conte Luigi Marsigli è più in Milano, poiché gli scrissi e non ho avuta risposta.  \n\nI miei inchini a cotesti signori tutti, e segnatamente al signor ",
+      "text": " con vari e repplicati sperimenti. Fra gli altri non ottiene per avventura l’ultimo luogo quello di legare sotto e sopra una grossa vena o arteria prima di cavarla dal corpo, poi posta nella macchina suddetta, cavare tutta l’aria, perloché enormemente si gonfiava. Dopo la tagliavano con un ordigno congegnato a posta con bell’arte senza riaprire la macchina, e vedevano molte bolle uscir fuora, ed il mercurio in un piccolo barometro tornare ad ascendere. Il che dicevano non possono fare gli spiriti soli, o altre particelle minute sciolte in vapori, non avendo l’elatere della medesima. Il tutto può vostra signoria illustrissima con questi altri virtuosissimi signori da me tanto stimati repplicare nella sua bella macchina, migliorare gli esperimenti, e raffinarli col sodo loro giudizio, e dare lumi più chiari all’ancor torbida e nera filosofia. Né vidi cose di minor peso e di minore curiosità in Firenze, particolarmente fatte con quel maraviglioso loro specchio ustorio, che scioglie ogni metallo, vetrifica ogn’erba, come anche il formaggio piacentino, calcina, o sfarina, e stritola tutte le gioie e marmi più duri. Fra le gioie il solo ",
       "entity": null
     },
     {
-      "text": "Nanni",
+      "text": "diamante",
       "entity": {
-        "text": "Nanni",
-        "entity_id": "https://w3id.org/vallisnieri/person/nanni_unknown",
-        "type": "person",
-        "label": "Nanni"
+        "text": "diamante",
+        "entity_id": "https://w3id.org/vallisnieri/organism/diamante",
+        "type": "organism",
+        "label": "diamante"
       }
     },
     {
-      "text": " e signor ",
+      "text": " non si squaglia né spezza, ma sfuma e cala insensibilmente, e fra marmi il ",
       "entity": null
     },
     {
-      "text": "Manfredi",
+      "text": "porfido",
       "entity": {
-        "text": "Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_unknown",
+        "text": "porfido",
+        "entity_id": "https://w3id.org/vallisnieri/organism/porfido",
+        "type": "organism",
+        "label": "porfido"
+      }
+    },
+    {
+      "text": " non si calcina né rompe, ma si colliqua come cera, d’indi raffreddato torna a indurarsi. Credono alcuni di que’ signori ciò accadere, perché sia un composto artificiale, di cui si sia perduto il modo di fabbricarlo, non perché sia della razza de’ marmi, al che io feci varie opposizioni, delle quali molte più efficaci gliene suggerirà il di lei purgatissimo giudicio.  \n\nMa veggo fornirsi il foglio, ed io ho stabilito non volerlo passare. Compatisca la rozzezza d’esporre queste ciancie, perché le ho scritte in una volata di penna, non avendo tempo di limarle e trascriverle. Mi rallegro del viaggio fatto sulle montagne del Martignone, e forse verrò questa estate nuovamente a riverirla per imparar qualche cosa. La prego avvisarmi se il nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "conte Luigi Marsigli",
+      "entity": {
+        "text": "conte Luigi Marsigli",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
-        "label": "Manfredi"
+        "label": "Marsili, Luigi Ferdinando"
+      }
+    },
+    {
+      "text": " è più in Milano, poiché gli scrissi e non ho avuta risposta.  \n\nI miei inchini a cotesti signori tutti, e segnatamente al ",
+      "entity": null
+    },
+    {
+      "text": "signor Nanni",
+      "entity": {
+        "text": "signor Nanni",
+        "entity_id": "https://w3id.org/vallisnieri/person/nanni_pietro",
+        "type": "person",
+        "label": "Pietro Nanni"
+      }
+    },
+    {
+      "text": " e ",
+      "entity": null
+    },
+    {
+      "text": "signor Manfredi",
+      "entity": {
+        "text": "signor Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "type": "person",
+        "label": "Manfredi, signor"
       }
     },
     {

@@ -2,42 +2,55 @@
   "id": "VAL_STAN_008",
   "segments": [
     {
-      "text": "Scandiano 20 agosto 1706 \n\nRiveritissimo mio ",
-      "entity": null
-    },
-    {
-      "text": "signor",
-      "entity": {
-        "text": "signor",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
-        "type": "person",
-        "label": "Bellini, unknown"
-      }
-    },
-    {
-      "text": "e padrone stimatissimo \n\nCon l’occasione d’un signor ",
+      "text": "Scandiano 20 agosto 1706 \n\nRiveritissimo mio signore padrone stimatissimo \n\nCon l’occasione d’un signor ",
       "entity": null
     },
     {
       "text": "Bassi",
       "entity": {
         "text": "Bassi",
-        "entity_id": "https://w3id.org/vallisnieri/person/",
+        "entity_id": "https://w3id.org/vallisnieri/person/bassi",
         "type": "person",
-        "label": "Bellini, unknown"
+        "label": "Bassi"
       }
     },
     {
-      "text": " che rittorna a Bologna, non manco di riverire il mio signor Stancari, pregandola ad avvisarmi, se ha ricevuto una mia con certe lettere latine spettanti al signor Sbaraglia. Pensavo di fare anche quest’anno una scorsa a Bologna per fare i nostri baratti, ma le milizie che per ogni parte c’inondano e ci ruinano m’impegnano a stare a casa, per animare almeno le ",
+      "text": " che rittorna a Bologna, non manco di riverire il mio signor ",
+      "entity": null
+    },
+    {
+      "text": "Stancari",
+      "entity": {
+        "text": "Stancari",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": ", pregandola ad avvisarmi, se ha ricevuto una mia con certe lettere latine spettanti al signor ",
+      "entity": null
+    },
+    {
+      "text": "Sbaraglia",
+      "entity": {
+        "text": "Sbaraglia",
+        "entity_id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+        "type": "person",
+        "label": "Sbaraglia, Giovanni Girolamo"
+      }
+    },
+    {
+      "text": ". Pensavo di fare anche quest’anno una scorsa a Bologna per fare i nostri baratti, ma le milizie che per ogni parte c’inondano e ci ruinano m’impegnano a stare a casa, per animare almeno le ",
       "entity": null
     },
     {
       "text": "donne",
       "entity": {
         "text": "donne",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/donne",
         "type": "organism",
-        "label": "uovo"
+        "label": "donne"
       }
     },
     {
@@ -48,9 +61,9 @@
       "text": "armata cesarea",
       "entity": {
         "text": "armata cesarea",
-        "entity_id": "https://w3id.org/vallisnieri/organism/",
+        "entity_id": "https://w3id.org/vallisnieri/organism/armata_cesarea",
         "type": "organism",
-        "label": "uovo"
+        "label": "armata cesarea"
       }
     },
     {
