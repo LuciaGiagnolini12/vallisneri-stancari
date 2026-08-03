@@ -1,454 +1,745 @@
 {
   "nodes": [
     {
-      "id": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
-      "label": "Cornaro, Giorgio",
+      "id": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+      "label": "Cappuccino, Padre Francesco Maria",
       "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
-      "label": "Albrizzi, Girolamo",
-      "type": "person",
-      "letters": 3
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/bosiarto",
-      "label": "Bochart, Samuel",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
-      "label": "signor_abbate_fardella",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/manfredi_signor",
-      "label": "Manfredi, signor",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
-      "label": "Quaranta Orsi",
-      "type": "person",
-      "letters": 4
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/fardella",
-      "label": "Fardella, signor",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
-      "label": "Buonanni, Padre",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
-      "label": "Trevisan, Bernardo",
-      "type": "person",
-      "letters": 4
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/padrone",
-      "label": "padrone",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/charas",
-      "label": "Charas",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/mirtino",
-      "label": "mirtino",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
-      "label": "repubbliche ultramontane",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
-      "label": "un_nostro_coaccademico",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
-      "label": "Feugerais, Carlo des",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/malpighi",
-      "label": "Malpighi, Marcello",
-      "type": "person",
-      "letters": 4
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/nanni_pietro",
-      "label": "Pietro Nanni",
-      "type": "person",
-      "letters": 2
+      "letters": [
+        "VAL_STAN_017"
+      ]
     },
     {
       "id": "https://w3id.org/vallisnieri/person/fontanelle",
       "label": "Fontanelle",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_017"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
-      "label": "Passalacqua (marchese)",
+      "id": "https://w3id.org/vallisnieri/person/charas",
+      "label": "Charas",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_016",
+        "VAL_STAN_017"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/aristotele",
-      "label": "Aristotle",
+      "id": "https://w3id.org/vallisnieri/person/bosiarto",
+      "label": "Bochart, Samuel",
       "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/iddio",
-      "label": "iddio",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/rubbi",
-      "label": "Rubbi",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/bassi",
-      "label": "Bassi",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
-      "label": "Cappuccino, Padre Francesco Maria",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
-      "label": "padronissimo",
-      "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_009"
+      ]
     },
     {
       "id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
       "label": "Bellini",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_002"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/frate",
-      "label": "frate",
+      "id": "https://w3id.org/vallisnieri/person/mirtino",
+      "label": "mirtino",
       "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/cardinal",
-      "label": "Cardinal",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/petiver_james",
-      "label": "Petiver, James ",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "label": "Morgagni, Giambattista",
-      "type": "person",
-      "letters": 16
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/arciprete_mio",
-      "label": "Arciprete",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/autore_galleria",
-      "label": "Autore Galleria",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/bernoulli",
-      "label": "Bernoulli, signor",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
-      "label": "Cestoni, Giacinto",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/mio_fratello",
-      "label": "fratello",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
-      "label": "Principe di Toscana",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/formica",
-      "label": "formica",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
-      "label": "Imperato, Ferrante",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/s_agostino",
-      "label": "Augustine of Hippo",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/voduard",
-      "label": "Voduard, signor",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
-      "label": "Giuseppe Donelli",
-      "type": "person",
-      "letters": 6
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/principi",
-      "label": "princi",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
-      "label": "Molinetti, Michele Angelo",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
-      "label": "Sbaraglia, Giovanni Girolamo",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
-      "label": "Scheuchzer, Johann Jakob",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/trionfetti",
-      "label": "Trionfetti, Lelio",
-      "type": "person",
-      "letters": 3
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/redi_francesco",
-      "label": "Redi, Francesco",
-      "type": "person",
-      "letters": 5
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "label": "signor_bernouli",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/turnefort",
-      "label": "Pitton de Tournefort, Joseph ",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
-      "label": "Bentivogli, Filippo",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "label": "Guglielmini, signor",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/paulini",
-      "label": "Paulini",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/hermann_jakob",
-      "label": "Hermann, Jakob",
-      "type": "person",
-      "letters": 5
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "label": "petesino_mantoano",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/testi_lodovico",
-      "label": "Testi",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
-      "label": "Guglielmini, Domenico",
-      "type": "person",
-      "letters": 10
+      "letters": [
+        "VAL_STAN_019"
+      ]
     },
     {
       "id": "https://w3id.org/vallisnieri/person/langio",
       "label": "langio",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_019"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/orsi_marchese",
-      "label": "Orsi, marchese",
+      "id": "https://w3id.org/vallisnieri/person/paulini",
+      "label": "Paulini",
       "type": "person",
-      "letters": 2
+      "letters": [
+        "VAL_STAN_016"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/tito_livio",
-      "label": "Livio, Tito",
+      "id": "https://w3id.org/vallisnieri/person/voduard",
+      "label": "Voduard, signor",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_023",
+        "VAL_STAN_024"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "label": "Manfredi, signor",
+      "id": "https://w3id.org/vallisnieri/person/s_agostino",
+      "label": "Augustine of Hippo",
       "type": "person",
-      "letters": 12
+      "letters": [
+        "VAL_STAN_009"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/lancisi",
-      "label": "Lancisi",
+      "id": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+      "label": "Cestoni, Giacinto",
       "type": "person",
-      "letters": 2
+      "letters": [
+        "VAL_STAN_004",
+        "VAL_STAN_014"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
-      "label": "Valsalva Antonio Maria",
+      "id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+      "label": "Bentivogli, Filippo",
       "type": "person",
-      "letters": 6
+      "letters": [
+        "VAL_STAN_005",
+        "VAL_STAN_012"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "label": "Vallisneri, Antonio",
+      "id": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+      "label": "un_nostro_coaccademico",
       "type": "person",
-      "letters": 23
+      "letters": [
+        "VAL_STAN_018"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "label": "Stancari, Vittorio Francesco",
+      "id": "https://w3id.org/vallisnieri/person/rubbi",
+      "label": "Rubbi",
       "type": "person",
-      "letters": 30
+      "letters": [
+        "VAL_STAN_021"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
-      "label": "Testi, signor",
+      "id": "https://w3id.org/vallisnieri/person/turnefort",
+      "label": "Pitton de Tournefort, Joseph ",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_028"
+      ]
     },
     {
       "id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
       "label": "serenissimo_di_mantova",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_029"
+      ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/casale",
-      "label": "casale",
+      "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "label": "Stancari, Vittorio Francesco",
       "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
-      "label": "medico di Comacchio",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
-      "label": "Fardella, abate",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
-      "label": "Muralto, Gioanni",
-      "type": "person",
-      "letters": 2
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
-      "label": "Marsili, Luigi Ferdinando",
-      "type": "person",
-      "letters": 9
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/martinelli",
-      "label": "Martinelli",
-      "type": "person",
-      "letters": 4
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/valsalvi_signor",
-      "label": "Valsalvi, signor",
-      "type": "person",
-      "letters": 1
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/ettmulero",
-      "label": "ettmulero",
-      "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_001",
+        "VAL_STAN_002",
+        "VAL_STAN_003",
+        "VAL_STAN_004",
+        "VAL_STAN_005",
+        "VAL_STAN_006",
+        "VAL_STAN_007",
+        "VAL_STAN_008",
+        "VAL_STAN_009",
+        "VAL_STAN_010",
+        "VAL_STAN_011",
+        "VAL_STAN_012",
+        "VAL_STAN_013",
+        "VAL_STAN_014",
+        "VAL_STAN_015",
+        "VAL_STAN_016",
+        "VAL_STAN_017",
+        "VAL_STAN_018",
+        "VAL_STAN_019",
+        "VAL_STAN_020",
+        "VAL_STAN_021",
+        "VAL_STAN_022",
+        "VAL_STAN_023",
+        "VAL_STAN_024",
+        "VAL_STAN_025",
+        "VAL_STAN_026",
+        "VAL_STAN_027",
+        "VAL_STAN_028",
+        "VAL_STAN_029",
+        "VAL_STAN_030"
+      ]
     },
     {
       "id": "https://w3id.org/vallisnieri/person/sandri_giacomo",
       "label": "Giacomo Sandri",
       "type": "person",
-      "letters": 1
+      "letters": [
+        "VAL_STAN_001"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+      "label": "Passalacqua (marchese)",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_011"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+      "label": "Muralto, Gioanni",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_016",
+        "VAL_STAN_017"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/lancisi",
+      "label": "Lancisi",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_021",
+        "VAL_STAN_022"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/petiver_james",
+      "label": "Petiver, James ",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_028"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/testi_lodovico",
+      "label": "Testi",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_018",
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/ettmulero",
+      "label": "ettmulero",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_019"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+      "label": "Albrizzi, Girolamo",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_004",
+        "VAL_STAN_015",
+        "VAL_STAN_018"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+      "label": "repubbliche ultramontane",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_015"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+      "label": "Guglielmini, signor",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_029"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/frate",
+      "label": "frate",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_006"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+      "label": "Molinetti, Michele Angelo",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_029"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/tito_livio",
+      "label": "Livio, Tito",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_028"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+      "label": "Buonanni, Padre",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_011"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/cardinal",
+      "label": "Cardinal",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_011"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+      "label": "petesino_mantoano",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_019"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+      "label": "Imperato, Ferrante",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_018"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/fardella",
+      "label": "Fardella, signor",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_023",
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+      "label": "Principe di Toscana",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "label": "Marsili, Luigi Ferdinando",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_001",
+        "VAL_STAN_002",
+        "VAL_STAN_003",
+        "VAL_STAN_006",
+        "VAL_STAN_024",
+        "VAL_STAN_025",
+        "VAL_STAN_028",
+        "VAL_STAN_029",
+        "VAL_STAN_030"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/principi",
+      "label": "princi",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_015"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "label": "Fardella, abate",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_028"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+      "label": "Feugerais, Carlo des",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_017",
+        "VAL_STAN_019"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/manfredi_signor",
+      "label": "Manfredi, signor",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_029"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/padrone",
+      "label": "padrone",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_009"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/malpighi",
+      "label": "Malpighi, Marcello",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_002",
+        "VAL_STAN_009",
+        "VAL_STAN_010",
+        "VAL_STAN_027"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "label": "signor_bernouli",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_027"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "label": "Hermann, Jakob",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_014",
+        "VAL_STAN_023",
+        "VAL_STAN_025",
+        "VAL_STAN_027",
+        "VAL_STAN_028"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/arciprete_mio",
+      "label": "Arciprete",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_016"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/martinelli",
+      "label": "Martinelli",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_021",
+        "VAL_STAN_022",
+        "VAL_STAN_023",
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "label": "Morgagni, Giambattista",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_010",
+        "VAL_STAN_011",
+        "VAL_STAN_012",
+        "VAL_STAN_013",
+        "VAL_STAN_014",
+        "VAL_STAN_015",
+        "VAL_STAN_016",
+        "VAL_STAN_018",
+        "VAL_STAN_019",
+        "VAL_STAN_021",
+        "VAL_STAN_022",
+        "VAL_STAN_023",
+        "VAL_STAN_025",
+        "VAL_STAN_026",
+        "VAL_STAN_029",
+        "VAL_STAN_030"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "label": "Manfredi, signor",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_001",
+        "VAL_STAN_002",
+        "VAL_STAN_003",
+        "VAL_STAN_006",
+        "VAL_STAN_009",
+        "VAL_STAN_012",
+        "VAL_STAN_018",
+        "VAL_STAN_024",
+        "VAL_STAN_025",
+        "VAL_STAN_026",
+        "VAL_STAN_027",
+        "VAL_STAN_030"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "label": "Quaranta Orsi",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_003",
+        "VAL_STAN_004",
+        "VAL_STAN_007",
+        "VAL_STAN_028"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "label": "Vallisneri, Antonio",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_001",
+        "VAL_STAN_003",
+        "VAL_STAN_004",
+        "VAL_STAN_005",
+        "VAL_STAN_006",
+        "VAL_STAN_007",
+        "VAL_STAN_008",
+        "VAL_STAN_009",
+        "VAL_STAN_010",
+        "VAL_STAN_011",
+        "VAL_STAN_012",
+        "VAL_STAN_013",
+        "VAL_STAN_014",
+        "VAL_STAN_015",
+        "VAL_STAN_017",
+        "VAL_STAN_019",
+        "VAL_STAN_020",
+        "VAL_STAN_021",
+        "VAL_STAN_023",
+        "VAL_STAN_026",
+        "VAL_STAN_027",
+        "VAL_STAN_029",
+        "VAL_STAN_030"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/nanni_pietro",
+      "label": "Pietro Nanni",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_001",
+        "VAL_STAN_002"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "label": "Valsalva Antonio Maria",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_001",
+        "VAL_STAN_007",
+        "VAL_STAN_020",
+        "VAL_STAN_021",
+        "VAL_STAN_024",
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/redi_francesco",
+      "label": "Redi, Francesco",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_009",
+        "VAL_STAN_011",
+        "VAL_STAN_012",
+        "VAL_STAN_016",
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+      "label": "medico di Comacchio",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_016"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "label": "Guglielmini, Domenico",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_006",
+        "VAL_STAN_012",
+        "VAL_STAN_013",
+        "VAL_STAN_014",
+        "VAL_STAN_015",
+        "VAL_STAN_016",
+        "VAL_STAN_017",
+        "VAL_STAN_018",
+        "VAL_STAN_019",
+        "VAL_STAN_023"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/aristotele",
+      "label": "Aristotle",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_018",
+        "VAL_STAN_027"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/iddio",
+      "label": "iddio",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_022"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+      "label": "Trevisan, Bernardo",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_015",
+        "VAL_STAN_021",
+        "VAL_STAN_022",
+        "VAL_STAN_029"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/trionfetti",
+      "label": "Trionfetti, Lelio",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_013",
+        "VAL_STAN_014",
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bernoulli",
+      "label": "Bernoulli, signor",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_025"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/casale",
+      "label": "casale",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_029"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+      "label": "Valsalvi, signor",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_029"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+      "label": "Scheuchzer, Johann Jakob",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_014"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "label": "Giuseppe Donelli",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_001",
+        "VAL_STAN_007",
+        "VAL_STAN_023",
+        "VAL_STAN_024",
+        "VAL_STAN_026",
+        "VAL_STAN_027"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/autore_galleria",
+      "label": "Autore Galleria",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_010"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "label": "Orsi, marchese",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_015",
+        "VAL_STAN_018"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/mio_fratello",
+      "label": "fratello",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_016"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+      "label": "signor_abbate_fardella",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_027"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/formica",
+      "label": "formica",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_029"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+      "label": "Sbaraglia, Giovanni Girolamo",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_007",
+        "VAL_STAN_008"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+      "label": "padronissimo",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_015"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/bassi",
+      "label": "Bassi",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_008"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
+      "label": "Testi, signor",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_003"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
+      "label": "Cornaro, Giorgio",
+      "type": "person",
+      "letters": [
+        "VAL_STAN_003"
+      ]
     }
   ],
   "edges": [

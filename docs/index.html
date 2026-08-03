@@ -163,8 +163,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .net-tt-type{font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--faded);margin-bottom:3px;}
 .net-tt-label{font-size:13px;font-weight:500;margin-bottom:4px;}
 .net-tt-letters{font-size:10px;color:var(--faded);margin-bottom:3px;}
-.net-tt-uri{font-size:9px;color:var(--faded);font-family:var(--mono);word-break:break-all;}
+.net-tt-uri{font-size:9px;color:var(--faded);font-family:var(--mono);word-break:break-all;margin-top:4px;}
 .net-tt-uri a{color:var(--gold);}
+.net-tt-letter{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 4px;
+  border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;background:white;}
+.net-tt-letter:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
 
 /* ── Timeline ── */
 #timeline-wrap{padding:24px 32px;}
@@ -212,7 +215,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
     <div class="nav-link on"  onclick="showPage('home',this)">Home</div>
     <div class="nav-link" onclick="showPage('letters',this)">Letters</div>
     <div class="nav-link" onclick="showPage('entita',this)">Entità</div>
-    <div class="nav-link" onclick="showPage('rete',this)">Rete</div>
+    <div class="nav-link" onclick="showPage('network',this)">Network</div>
     <div class="nav-link" onclick="showPage('timeline',this)">Timeline</div>
     <div class="nav-link" onclick="showPage('mappa',this)">Mappa</div>
     <div class="nav-link" onclick="showPage('sparql',this)">SPARQL</div>
@@ -269,7 +272,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 </div>
 
 <!-- ── RETE ── -->
-<div class="page" id="pg-rete">
+<div class="page" id="pg-network">
   <div id="network-wrap">
     <div class="net-toolbar">
       <div class="net-filters">
@@ -382,7 +385,7 @@ function showPage(id, btn) {
   if(id==='home')     initHome();
   if(id==='letters')  initLettere();
   if(id==='entita')   initEntita();
-  if(id==='rete')     initRete();
+  if(id==='network')     initNetwork();
   if(id==='timeline') initTimeline();
   if(id==='mappa')    initMappa();
   if(id==='sparql')   initSparql();
@@ -390,14 +393,14 @@ function showPage(id, btn) {
 
 function initFromHash() {
   const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','rete','timeline','mappa','sparql'];
+  const valid = ['home','letters','entita','network','timeline','mappa','sparql'];
   if(hash && valid.includes(hash)) showPage(hash);
   else initHome();
 }
 
 window.addEventListener('hashchange', () => {
   const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','rete','timeline','mappa','sparql'];
+  const valid = ['home','letters','entita','network','timeline','mappa','sparql'];
   if(hash && valid.includes(hash)) showPage(hash);
 });
 
@@ -559,7 +562,7 @@ let netTypeFilter='all', netEdgeFilter='all', netLetterF='';
 const netColors={person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',institution:'#7a2830',default:'#9a8a78'};
 const netTypeLabels={person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
 
-async function initRete() {
+async function initNetwork() {
   if(networkBuilt) return;
   networkBuilt = true;
   const net = await loadData('network','data/network.json');
@@ -581,10 +584,9 @@ function buildNetwork() {
   // Filtra nodi e archi
   const visNodes = netNodes.filter(d=>{
     if(netTypeFilter!=='all' && d.type!==netTypeFilter) return false;
-    if(netLetterF && !d.letters?.some?.(l=>l.includes(netLetterF))) {
-      // letters può essere un numero — skip filtro lettera se numero
-      if(typeof d.letters==='number') return true;
-      return false;
+    if(netLetterF){
+      const lids = Array.isArray(d.letters) ? d.letters : [];
+      if(!lids.some(l=>l.includes(netLetterF))) return false;
     }
     return true;
   });
@@ -657,32 +659,43 @@ function showNetTooltip(ev,d){
   const tt = document.getElementById('net-tooltip');
   const entities = DATA['entities']||[];
   const ent = entities.find(e=>e.id===d.id)||{};
+
   const uris = [
     ent.viaf    && `<a href="${ent.viaf}"    target="_blank">VIAF</a>`,
     ent.wikidata&& `<a href="${ent.wikidata}" target="_blank">Wikidata</a>`,
     ent.gbif    && `<a href="${ent.gbif}"    target="_blank">GBIF</a>`,
+    ent.geonames&& `<a href="${ent.geonames}" target="_blank">GeoNames</a>`,
   ].filter(Boolean).join(' · ');
 
-  document.getElementById('net-tt-type').textContent   = netTypeLabels[d.type]||d.type||'';
-  document.getElementById('net-tt-type').style.color   = netColors[d.type]||'var(--faded)';
-  document.getElementById('net-tt-label').textContent  = d.label||'—';
-  document.getElementById('net-tt-letters').textContent= typeof d.letters==='number'
-    ? `${d.letters} letter${d.letters!==1?'s':''}`
-    : `${(d.letters||[]).length} letters`;
-  document.getElementById('net-tt-uri').innerHTML = uris;
+  const lids = Array.isArray(d.letters) ? d.letters : [];
+  const letterLinks = lids.map(lid=>
+    `<span class="net-tt-letter" onclick="openLetterFromNet('${lid}')">${lid.replace('VAL_STAN_','')}</span>`
+  ).join(' ');
+
+  document.getElementById('net-tt-type').textContent  = netTypeLabels[d.type]||d.type||'';
+  document.getElementById('net-tt-type').style.color  = netColors[d.type]||'var(--faded)';
+  document.getElementById('net-tt-label').textContent = d.label||'—';
+  document.getElementById('net-tt-letters').innerHTML =
+    `<span style="color:var(--faded)">${lids.length} letter${lids.length!==1?'s':''}: </span>${letterLinks}`;
+  document.getElementById('net-tt-uri').innerHTML = uris||'';
 
   const wrap = document.getElementById('network-wrap').getBoundingClientRect();
   let x = ev.clientX - wrap.left + 14;
   let y = ev.clientY - wrap.top  - 10;
-  if(x + 230 > wrap.width)  x = ev.clientX - wrap.left - 234;
-  if(y + 120 > wrap.height) y = ev.clientY - wrap.top  - 124;
-  tt.style.left = x+'px';
-  tt.style.top  = y+'px';
+  if(x + 240 > wrap.width)  x = ev.clientX - wrap.left - 244;
+  if(y + 140 > wrap.height) y = ev.clientY - wrap.top  - 144;
+  tt.style.left = x+'px'; tt.style.top = y+'px';
   tt.classList.add('on');
 }
 
 function hideNetTooltip(){
   document.getElementById('net-tooltip').classList.remove('on');
+}
+
+function openLetterFromNet(lid){
+  hideNetTooltip();
+  showPage('letters');
+  setTimeout(()=>selectLetter(lid), 300);
 }
 
 // ── TIMELINE ─────────────────────────────────────────────────────────
