@@ -152,10 +152,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .net-fbtn:hover{border-color:var(--ink);}
 .net-fbtn.on{background:var(--ink);color:white;border-color:var(--ink);}
 .net-search{padding:3px 7px;border:1px solid var(--line);border-radius:2px;font-size:9px;width:160px;}
-.net-legend{position:absolute;bottom:20px;left:20px;background:rgba(255,255,255,.92);
-  border:1px solid var(--line);border-radius:4px;padding:10px 14px;font-size:10px;}
-.net-legend div{display:flex;align-items:center;gap:6px;margin-bottom:4px;}
-.net-legend span{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+.net-legend{position:absolute;bottom:20px;right:20px;background:rgba(255,255,255,.95);
+  border:1px solid var(--line);border-radius:6px;padding:12px 16px;font-size:10px;
+  box-shadow:0 2px 12px rgba(0,0,0,.08);min-width:180px;}
+.net-legend-title{font-size:8px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--faded);margin-bottom:8px;padding-bottom:5px;border-bottom:1px solid var(--line);}
+.net-legend-section{font-size:8px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--faded);margin:8px 0 4px;}
+.net-legend div{display:flex;align-items:center;gap:8px;margin-bottom:5px;font-size:10px;color:var(--ink);}
+.net-legend .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;border:1.5px solid white;
+  box-shadow:0 0 0 1px rgba(0,0,0,.15);}
+.net-legend .line{width:20px;height:2px;flex-shrink:0;border-radius:1px;}
 .net-tooltip{position:absolute;background:var(--paper);border:1px solid var(--line);
   border-radius:4px;box-shadow:0 4px 16px rgba(0,0,0,.12);padding:10px 14px;
   pointer-events:auto;display:none;z-index:20;max-width:240px;cursor:default;}
@@ -295,15 +302,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
     </div>
     <svg id="network-svg"></svg>
     <div class="net-legend">
-      <div><span style="background:var(--person)"></span> Person</div>
-      <div><span style="background:var(--place)"></span> Place</div>
-      <div><span style="background:var(--org)"></span> Organism</div>
-      <div><span style="background:var(--inst)"></span> Institution</div>
-      <div style="margin-top:6px;font-size:9px;color:var(--faded);line-height:1.6">
-        <span style="color:var(--line)">—</span> co-occurrence<br>
-        <span style="color:var(--gold)">—</span> object transfer (specimen, books)<br>
-        <span style="color:#2a5c34">—</span> mentions (person → organism)
-      </div>
+      <div class="net-legend-title">Legend</div>
+      <div class="net-legend-section">Nodes</div>
+      <div><span class="dot" style="background:var(--person)"></span> Person</div>
+      <div><span class="dot" style="background:var(--place)"></span> Place</div>
+      <div><span class="dot" style="background:var(--org)"></span> Organism</div>
+      <div><span class="dot" style="background:var(--inst)"></span> Institution</div>
+      <div style="font-size:9px;color:var(--faded);margin-top:2px;padding-left:18px">Size = n° of letters</div>
+      <div class="net-legend-section">Edges</div>
+      <div><span class="line" style="background:var(--gold)"></span> Object transfer</div>
+      <div><span class="line" style="background:#2a5c34"></span> Mentions</div>
+      <div><span class="line" style="background:var(--line)"></span> Co-occurrence</div>
     </div>
     <!-- Tooltip -->
     <div class="net-tooltip" id="net-tooltip">
@@ -901,52 +910,58 @@ function setQuery(key) {
 
 async function initSparql() {
   setQuery('persons');
+  // Pre-carica Comunica in background
+  setTimeout(()=>loadComunica().catch(()=>{}), 1000);
+}
+
+let _comunica = null;
+
+async function loadComunica() {
+  if(_comunica) return _comunica;
+  return new Promise((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = 'https://unpkg.com/@comunica/query-sparql@2.10.0/browser/comunica-browser.js';
+    s.onload = () => { _comunica = new Comunica.QueryEngine(); resolve(_comunica); };
+    s.onerror = () => reject(new Error('Cannot load Comunica'));
+    document.head.appendChild(s);
+  });
 }
 
 async function runSparql() {
   const query = document.getElementById('sparql-editor').value.trim();
   if(!query) return;
-
   const resultsEl = document.getElementById('sparql-results');
-  resultsEl.innerHTML = '<div class="sparql-loading">Running query…</div>';
-
+  resultsEl.innerHTML = '<div class="sparql-loading">Loading SPARQL engine…</div>';
   try {
-    // Usa il file TTL locale con Comunica (se disponibile) o endpoint diretto
-    // Per ora usa rdflib simulato — in produzione usare Comunica
-    const r = await fetch(`data/corpus.ttl`);
-    if(!r.ok){ throw new Error('corpus.ttl non trovato'); }
-
-    // Nota: per SPARQL vero nel browser serve Comunica
-    // Qui mostriamo istruzioni se Comunica non è caricato
-    if(typeof Comunica === 'undefined'){
-      resultsEl.innerHTML = `<p style="font-size:12px;color:var(--faded)">
-        To run SPARQL queries in the browser, you need to load
-        <a href="https://comunica.dev" target="_blank">Comunica</a>.
-        <br><br>Alternative: download <a href="data/corpus.ttl">corpus.ttl</a>
-        and open it with <a href="https://triply.cc/yasgui" target="_blank">YASGUI</a>
-        or a local triplestore.</p>`;
-      return;
-    }
-
-    // Con Comunica
-    const engine = new Comunica.QueryEngine();
+    const engine = await loadComunica();
+    resultsEl.innerHTML = '<div class="sparql-loading">Running query…</div>';
+    const base = window.location.href.split('#')[0].replace(/\/[^/]*$/, '/');
+    const ttlUrl = base + 'data/corpus.ttl';
     const bindingsStream = await engine.queryBindings(query, {
-      sources: [{type:'file', value:'data/corpus.ttl'}]
+      sources: [{ type: 'file', value: ttlUrl }]
     });
     const bindings = await bindingsStream.toArray();
-    if(!bindings.length){ resultsEl.innerHTML='<p style="color:var(--faded)">No results.</p>'; return; }
-
-    const vars = bindings[0].keys.map(k=>k.value);
+    if(!bindings.length){
+      resultsEl.innerHTML = '<p style="color:var(--faded);font-size:12px">No results.</p>';
+      return;
+    }
+    const vars = [...bindings[0].keys()].map(k=>k.value);
     const rows = bindings.map(b=>
-      `<tr>${vars.map(v=>`<td>${escHtml(b.get(v)?.value||'')}</td>`).join('')}</tr>`
+      `<tr>${vars.map(v=>{
+        const val = b.get(v)?.value||'';
+        const display = val.startsWith('http')
+          ? `<a href="${val}" target="_blank">${val.split('/').pop()}</a>`
+          : escHtml(val);
+        return `<td>${display}</td>`;
+      }).join('')}</tr>`
     ).join('');
-
-    resultsEl.innerHTML = `<p style="font-size:10px;color:var(--faded);margin-bottom:6px">${bindings.length} results</p>
-    <table><thead><tr>${vars.map(v=>`<th>${v}</th>`).join('')}</tr></thead>
-    <tbody>${rows}</tbody></table>`;
-
+    resultsEl.innerHTML = `<p style="font-size:10px;color:var(--faded);margin-bottom:6px">${bindings.length} result${bindings.length!==1?'s':''}</p>
+      <table><thead><tr>${vars.map(v=>`<th>${v}</th>`).join('')}</tr></thead>
+      <tbody>${rows}</tbody></table>`;
   } catch(e) {
-    resultsEl.innerHTML = `<p style="color:var(--reject);font-size:12px">Errore: ${e.message}</p>`;
+    resultsEl.innerHTML = `<p style="color:var(--reject);font-size:12px;margin-bottom:8px">Error: ${e.message}</p>
+      <p style="font-size:11px;color:var(--faded)">Alternative: download <a href="data/corpus.ttl">corpus.ttl</a>
+      and open with <a href="https://triply.cc/yasgui" target="_blank">YASGUI</a>.</p>`;
   }
 }
 
