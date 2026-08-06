@@ -177,9 +177,27 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .net-tt-letter:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
 
 /* ── Timeline ── */
-#timeline-wrap{padding:24px 32px;}
-#timeline-svg{width:100%;overflow:visible;}
-.tl-controls{display:flex;gap:8px;margin-bottom:16px;}
+/* Timeline */
+.tl-letter{margin-bottom:20px;border-left:3px solid var(--line);padding-left:14px;position:relative;cursor:pointer;}
+.tl-letter:hover{border-left-color:var(--gold);}
+.tl-letter.on{border-left-color:var(--gold);}
+.tl-dot{width:10px;height:10px;border-radius:50%;background:var(--gold);position:absolute;
+  left:-7px;top:4px;border:2px solid var(--bg);}
+.tl-meta{display:flex;align-items:baseline;gap:10px;margin-bottom:6px;}
+.tl-date{font-size:11px;font-family:var(--mono);color:var(--gold);font-weight:600;}
+.tl-id{font-size:10px;color:var(--faded);font-family:var(--mono);}
+.tl-from{font-size:11px;color:var(--ink);}
+.tl-entities{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px;}
+.tl-ent{display:inline-flex;align-items:center;gap:4px;font-size:9px;padding:2px 7px;
+  border-radius:12px;cursor:pointer;border:1px solid transparent;}
+.tl-ent.person  {background:var(--person-l);color:var(--person);border-color:#c8d4e8;}
+.tl-ent.place   {background:var(--place-l); color:var(--place); border-color:#e0cec8;}
+.tl-ent.organism{background:var(--org-l);   color:var(--org);   border-color:#c0dcc8;}
+.tl-ent.institution{background:var(--inst-l);color:var(--inst); border-color:#e0d0c0;}
+.tl-ent.transfer{background:var(--gold-l);  color:var(--gold);  border-color:#e0c878;}
+.tl-ent:hover{filter:brightness(.92);}
+.tl-year-marker{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--faded);padding:12px 0 6px;border-top:1px solid var(--line);margin-bottom:8px;margin-top:4px;}
 
 /* ── Mappa ── */
 #map-wrap{height:calc(100vh - 52px);}
@@ -715,38 +733,95 @@ function openLetterFromNet(lid){
 }
 
 // ── TIMELINE ─────────────────────────────────────────────────────────
+let tlFilter = 'all';
+
+function setTlFilter(f, btn){
+  tlFilter = f;
+  document.querySelectorAll('.tl-filter .fbtn').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  renderTimeline();
+}
+
 async function initTimeline() {
   if(timelineBuilt) return;
   timelineBuilt = true;
-  const movements = await loadData('movements','data/movements.json');
+  await Promise.all([
+    loadData('letters','data/letters.json'),
+    loadData('entities','data/entities.json'),
+    loadData('movements','data/movements.json')
+  ]);
+  renderTimeline();
+}
 
-  const wrap = document.getElementById('timeline-content');
-  if(!movements.length){ wrap.innerHTML='<p style="color:var(--faded)">No movements available.</p>'; return; }
+function renderTimeline(){
+  const letters   = DATA['letters']  || [];
+  const entities  = DATA['entities'] || [];
+  const movements = DATA['movements']|| [];
+  const entMap    = {};
+  entities.forEach(e=>entMap[e.id]=e);
 
-  const rows = movements.filter(m=>m.object && m.object!=='').map((m,i)=>`
-    <tr style="border-bottom:1px solid var(--line)">
-      <td style="padding:7px 10px;font-family:var(--mono);font-size:10px;color:var(--faded)">${m.letter.replace('VAL_STAN_','')}</td>
-      <td style="padding:7px 10px;font-size:11px">${escHtml(m.object)}</td>
-      <td style="padding:7px 10px;font-size:11px;color:var(--org)">${escHtml(m.object_taxon||'')}</td>
-      <td style="padding:7px 10px;font-size:11px">${escHtml(m.from_person||'')}</td>
-      <td style="padding:7px 10px;font-size:11px">${escHtml(m.to_person||'')}</td>
-      <td style="padding:7px 10px;font-size:11px;color:var(--place)">${escHtml(m.from_place||'?')} → ${escHtml(m.to_place||'?')}</td>
-    </tr>`).join('');
+  // Raggruppa movimenti per lettera
+  const movByLetter = {};
+  movements.forEach(m=>{ movByLetter[m.letter]=movByLetter[m.letter]||[]; movByLetter[m.letter].push(m); });
 
-  wrap.innerHTML = `
-    <table style="width:100%;border-collapse:collapse;font-size:11px">
-      <thead>
-        <tr style="border-bottom:2px solid var(--line)">
-          <th style="padding:6px 10px;text-align:left;font-size:9px;letter-spacing:.07em;text-transform:uppercase">Letter</th>
-          <th style="padding:6px 10px;text-align:left">Object</th>
-          <th style="padding:6px 10px;text-align:left">Taxon</th>
-          <th style="padding:6px 10px;text-align:left">From</th>
-          <th style="padding:6px 10px;text-align:left">To</th>
-          <th style="padding:6px 10px;text-align:left">Route</th>
-        </tr>
-      </thead>
-      <tbody>${rows}</tbody>
-    </table>`;
+  // Raggruppa lettere per anno
+  const byYear = {};
+  letters.forEach(l=>{
+    const year = (l.date||'').slice(0,4) || 'Unknown';
+    byYear[year] = byYear[year]||[];
+    byYear[year].push(l);
+  });
+
+  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)'};
+
+  let html = '';
+  for(const [year, yletters] of Object.entries(byYear).sort()){
+    html += `<div class="tl-year-marker">${year}</div>`;
+    for(const letter of yletters){
+      const lid = letter.id;
+      const movs = movByLetter[lid]||[];
+
+      // Entità della lettera dal corpus entities
+      const letterEnts = entities.filter(e=>e.letters?.includes(lid));
+
+      // Filtra per tipo
+      const visEnts = letterEnts.filter(e=>{
+        if(tlFilter==='all') return e.type!=='text';
+        if(tlFilter==='transfer') return false;
+        return e.type===tlFilter;
+      });
+      const visMovs = (tlFilter==='all'||tlFilter==='transfer')
+        ? movs.filter(m=>m.object) : [];
+
+      if(tlFilter!=='all' && visEnts.length===0 && visMovs.length===0) continue;
+
+      const entTags = visEnts.slice(0,12).map(e=>`
+        <span class="tl-ent ${e.type}" onclick="openLetter('${lid}')" title="${escHtml(e.label)}">
+          ${escHtml(e.label.length>20?e.label.slice(0,20)+'…':e.label)}
+        </span>`).join('');
+
+      const movTags = visMovs.slice(0,4).map(m=>`
+        <span class="tl-ent transfer" onclick="openLetter('${lid}')" title="${escHtml(m.object)} · ${escHtml(m.from_person||'')} → ${escHtml(m.to_person||'')}">
+          📦 ${escHtml(m.object.length>18?m.object.slice(0,18)+'…':m.object)}
+        </span>`).join('');
+
+      const more = letterEnts.length > 12
+        ? `<span style="font-size:9px;color:var(--faded)">+${letterEnts.length-12} more</span>` : '';
+
+      html += `<div class="tl-letter" onclick="openLetter('${lid}')">
+        <div class="tl-dot"></div>
+        <div class="tl-meta">
+          <span class="tl-date">${letter.date||'s.d.'}</span>
+          <span class="tl-id">${lid.replace('VAL_STAN_','VAL ')}</span>
+          <span class="tl-from">${letter.from?'From '+escHtml(letter.from):''}</span>
+        </div>
+        <div class="tl-entities">${entTags}${movTags}${more}</div>
+      </div>`;
+    }
+  }
+
+  document.getElementById('tl-container').innerHTML = html ||
+    '<p style="color:var(--faded);font-size:12px">No entries match the current filter.</p>';
 }
 
 // ── MAPPA ─────────────────────────────────────────────────────────────
