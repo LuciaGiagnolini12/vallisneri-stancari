@@ -285,8 +285,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <div class="net-filters">
         <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Edges:</span>
         <button class="net-fbtn on" data-edge="all" onclick="netFilter('edge','all',this)">All</button>
-        <button class="net-fbtn" data-edge="transfer" onclick="netFilter('edge','transfer',this)">Transfers only</button>
-        <button class="net-fbtn" data-edge="co-occurrence" onclick="netFilter('edge','co-occurrence',this)">Co-occurrence only</button>
+        <button class="net-fbtn" data-edge="transfer" onclick="netFilter('edge','transfer',this)">Transfers</button>
+        <button class="net-fbtn" data-edge="co-occurrence" onclick="netFilter('edge','co-occurrence',this)">Co-occurrence</button>
+        <button class="net-fbtn" data-edge="mentions" onclick="netFilter('edge','mentions',this)">Mentions</button>
       </div>
       <div class="net-filters">
         <input id="net-letter-filter" class="net-search" placeholder="Filter by letter (e.g. 001)…" oninput="netLetterFilter(this.value)">
@@ -298,8 +299,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <div><span style="background:var(--place)"></span> Place</div>
       <div><span style="background:var(--org)"></span> Organism</div>
       <div><span style="background:var(--inst)"></span> Institution</div>
-      <div style="margin-top:6px;font-size:9px;color:var(--faded)">
-        — co-occurrence · <span style="color:var(--gold)">— transfer</span>
+      <div style="margin-top:6px;font-size:9px;color:var(--faded);line-height:1.6">
+        <span style="color:var(--line)">—</span> co-occurrence<br>
+        <span style="color:var(--gold)">—</span> object transfer (specimen, books)<br>
+        <span style="color:#2a5c34">—</span> mentions (person → organism)
       </div>
     </div>
     <!-- Tooltip -->
@@ -606,11 +609,16 @@ function buildNetwork() {
   if(netSim) netSim.stop();
   netSim = sim;
 
+  const linkColors = {
+    'transfer':     {color:'var(--gold)',  width:2, opacity:.8},
+    'mentions':     {color:'#2a5c34',      width:1.5, opacity:.6},
+    'co-occurrence':{color:'var(--line)',  width:1, opacity:.4},
+  };
   netLinkSel = g.append('g').selectAll('line')
     .data(visEdges).join('line')
-    .attr('stroke', d=>d.type==='transfer'?'var(--gold)':'var(--line)')
-    .attr('stroke-width', d=>d.type==='transfer'?2:1)
-    .attr('stroke-opacity', d=>d.type==='transfer'?.8:.5);
+    .attr('stroke',        d=>(linkColors[d.type]||linkColors['co-occurrence']).color)
+    .attr('stroke-width',  d=>(linkColors[d.type]||linkColors['co-occurrence']).width)
+    .attr('stroke-opacity',d=>(linkColors[d.type]||linkColors['co-occurrence']).opacity);
 
   netNodeSel = g.append('g').selectAll('g')
     .data(visNodes).join('g').attr('class','node')
