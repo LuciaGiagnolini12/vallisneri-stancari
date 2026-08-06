@@ -629,10 +629,11 @@ function buildNetwork() {
     .on('click', (ev,d)=>{ ev.stopPropagation(); showNetTooltip(ev,d); });
 
   netNodeSel.append('circle')
-    .attr('r', d=>6+Math.min(d.letters||1,10))
+    .attr('r', d=>{ const n=Array.isArray(d.letters)?d.letters.length:(d.letters||1); return 6+Math.min(n,12); })
     .attr('fill', d=>netColors[d.type]||netColors.default)
     .attr('fill-opacity',.85)
-    .attr('stroke','white').attr('stroke-width',1.5);
+    .attr('stroke','white').attr('stroke-width',1.5)
+    .attr('cursor','pointer');
 
   netNodeSel.append('text')
     .attr('dx',12).attr('dy',3).attr('font-size',9).attr('fill','var(--ink)')
