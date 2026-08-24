@@ -5,50 +5,53 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vallisnieri–Stancari Correspondence · Digital Scholarly Edition</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <style>
 :root{
+  /* Base — aged parchment and sepia ink */
   --ink:#1a1208;
   --faded:#7a6e60;
   --line:#d8cfc0;
   --bg:#f2ece0;
   --paper:#faf7f0;
 
+  /* Accent — burnished ochre / gold leaf */
   --gold:#8b6318;
   --gold-l:#fdf4dc;
 
-  --person:#1c3a6e;
+  /* Natural pigments for entity types */
+  --person:#1c3a6e;       /* Prussian blue */
   --person-l:#eaeff7;
-  --place:#7a3e18;
+  --place:#7a3e18;        /* Raw sienna */
   --place-l:#f6ece4;
-  --org:#2a5c34;
+  --org:#2a5c34;          /* Verdigris / botanical green */
   --org-l:#e4f0e8;
-  --text-type:#5e35b1;
-  --text-type-l:#ede7f6;
+  --inst:#7a2830;         /* Madder lake */
+  --inst-l:#f6e8ea;
 
-  --serif:'EB Garamond', 'Georgia', serif;
+  --serif:'Georgia',serif;
   --sans:system-ui,-apple-system,sans-serif;
   --mono:'Courier New',monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{height:100%;font-family:var(--sans);background:var(--bg);color:var(--ink);}
 
+/* ── Nav ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2e8d8;
-  display:flex;align-items:center;padding:0 24px;height:52px;gap:0;box-shadow:0 2px 8px rgba(0,0,0,.2);}
-.nav-brand{font-family:var(--serif);font-size:15px;font-style:italic;opacity:.95;margin-right:28px;white-space:nowrap;}
+  display:flex;align-items:center;padding:0 24px;height:52px;gap:0;}
+.nav-brand{font-family:var(--serif);font-size:14px;font-style:italic;opacity:.9;margin-right:28px;white-space:nowrap;}
 .nav-links{display:flex;gap:2px;flex:1;}
 .nav-link{padding:6px 12px;font-size:11px;font-weight:500;cursor:pointer;border-radius:2px;
-  opacity:.7;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;transition:all .2s;}
+  opacity:.7;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;}
 .nav-link:hover{opacity:1;background:rgba(255,255,255,.1);}
-.nav-link.on{opacity:1;background:rgba(255,255,255,.15);box-shadow:inset 0 -2px 0 var(--gold);}
+.nav-link.on{opacity:1;background:rgba(255,255,255,.15);}
 
+/* ── Pages ── */
 .page{display:none;min-height:calc(100vh - 52px);margin-top:52px;}
 .page.on{display:block;}
 
+/* ── Home ── */
 .home-hero{background:#1e1610;color:#f2e8d8;padding:64px 48px 48px;
   background-image:linear-gradient(135deg,#1e1610 50%,#2a1e10);}
 .home-hero h1{font-family:var(--serif);font-size:36px;font-style:italic;
@@ -65,254 +68,123 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .letter-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
   gap:10px;padding:24px 48px 48px;}
 .letter-card{background:var(--paper);border:1px solid var(--line);border-radius:3px;
-  padding:12px 14px;cursor:pointer;transition:all .2s;}
-.letter-card:hover{border-color:var(--gold);box-shadow:0 4px 12px rgba(139,99,24,.15);transform:translateY(-1px);}
+  padding:12px 14px;cursor:pointer;transition:border-color .15s;}
+.letter-card:hover{border-color:var(--gold);box-shadow:0 2px 8px rgba(139,99,24,.15);}
 .lc-id{font-size:10px;font-family:var(--mono);color:var(--faded);}
 .lc-date{font-size:12px;color:var(--ink);margin-top:2px;}
 .lc-counts{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;}
 .lc-badge{font-size:9px;padding:1px 5px;border-radius:2px;}
 
-.letter-layout{
-  display:grid;
-  grid-template-columns:280px minmax(0,1fr) 300px;
-  height:calc(100vh - 52px);
-  background:var(--bg);
-  transition:grid-template-columns .3s ease;
-}
-.letter-layout.zen-mode{grid-template-columns:0px minmax(0,1fr) 0px;}
-.letter-layout.zen-mode .letter-sidebar,
-.letter-layout.zen-mode .letter-entities-sidebar{
-  opacity:0;pointer-events:none;overflow:hidden;border:none;
-}
-
-.letter-sidebar{
-  border-right:1px solid var(--line);
-  overflow-y:auto;padding:16px 0;background:var(--paper);transition:opacity .3s;
-}
-.ls-header{
-  padding:0 18px 12px;font-size:11px;font-weight:700;letter-spacing:.1em;
-  text-transform:uppercase;color:var(--faded);border-bottom:1px solid var(--line);
-  display:flex;justify-content:space-between;align-items:center;
-}
-.ls-search-box{padding:12px 18px 8px;}
-.ls-search{
-  width:100%;padding:6px 10px;border:1px solid var(--line);border-radius:4px;
-  font-size:11px;background:white;color:var(--ink);transition:border-color .15s;
-}
-.ls-search:focus{outline:none;border-color:var(--gold);}
-.ls-year{
-  margin-top:8px;padding:10px 18px 6px;font-size:11px;font-weight:700;
-  color:var(--gold);letter-spacing:.08em;background:rgba(139,99,24,.03);
-  border-top:1px solid var(--line);border-bottom:1px solid rgba(216,207,192,.5);
-}
-.ls-item{
-  padding:10px 18px;cursor:pointer;font-size:12px;display:flex;
-  justify-content:space-between;align-items:center;border-left:3px solid transparent;transition:all .15s;
-}
+/* ── Lettere / Testo ── */
+.letter-layout{display:grid;grid-template-columns:260px 1fr;height:calc(100vh - 52px);}
+.letter-sidebar{border-right:1px solid var(--line);overflow-y:auto;padding:12px 0;
+  background:var(--paper);}
+.ls-header{padding:8px 14px;font-size:10px;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--faded);}
+.ls-item{padding:7px 14px;cursor:pointer;font-size:11px;display:flex;
+  justify-content:space-between;align-items:center;border-left:3px solid transparent;}
 .ls-item:hover{background:var(--bg);}
-.ls-item.on{border-left-color:var(--gold);background:var(--gold-l);font-weight:600;color:var(--ink);}
-.ls-item-id{font-family:var(--mono);font-size:11px;color:var(--ink);}
-.ls-item-date{font-size:10px;color:var(--faded);font-family:var(--mono);}
+.ls-item.on{border-left-color:var(--gold);background:var(--gold-l);font-weight:600;}
+.letter-main{overflow-y:auto;padding:32px 40px;}
+.letter-meta{font-size:11px;font-family:var(--mono);color:var(--faded);margin-bottom:20px;
+  padding-bottom:12px;border-bottom:1px solid var(--line);}
+.letter-text{font-family:var(--serif);font-size:14.5px;line-height:2;color:#2a2520;
+  max-width:680px;}
+/* Entità evidenziate */
+.ent{border-radius:2px;padding:0 2px;cursor:pointer;transition:background .15s;}
+.ent.person {background:var(--person-l);color:var(--person);border-bottom:1.5px solid var(--person);}
+.ent.place  {background:var(--place-l); color:var(--place); border-bottom:1.5px solid var(--place);}
+.ent.organism{background:var(--org-l);  color:var(--org);   border-bottom:1.5px solid var(--org);}
+.ent.institution{background:var(--inst-l);color:var(--inst);border-bottom:1.5px solid var(--inst);}
+.ent:hover{filter:brightness(.92);}
 
-.letter-main{
-  overflow-y:auto;padding:40px 56px;background:var(--bg);
-  display:flex;flex-direction:column;align-items:center;position:relative;
-}
-.zen-toggle{
-  position:absolute;top:16px;right:24px;background:var(--paper);
-  border:1px solid var(--line);border-radius:4px;padding:5px 10px;
-  font-size:10px;font-family:var(--mono);color:var(--faded);cursor:pointer;
-  z-index:10;transition:all .15s;box-shadow:0 2px 6px rgba(0,0,0,.05);
-}
-.zen-toggle:hover{border-color:var(--gold);color:var(--ink);background:white;}
-
-.letter-content-wrapper{
-  width:100%;max-width:720px;background:var(--paper);border:1px solid var(--line);
-  border-radius:6px;padding:56px 64px;box-shadow:0 8px 30px rgba(26,18,8,.06);
-}
-
-.letter-meta{
-  font-family:var(--sans);
-  margin-bottom:32px;
-  padding-bottom:18px;
-  border-bottom:1px solid var(--line);
-  background:rgba(216,207,192,.08);
-  padding:16px 20px;
-  border-radius:4px;
-  display:flex;
-  flex-direction:column;
-  gap:8px;
-}
-.letter-meta-row{
-  display:flex;
-  justify-content:space-between;
-  align-items:baseline;
-  gap:16px;
-  border-bottom:1px dashed rgba(216,207,192,.6);
-  padding-bottom:6px;
-}
-.letter-meta-row:last-child{
-  border-bottom:none;
-  padding-bottom:0;
-}
-.letter-meta-label{
-  font-size:10.5px;
-  font-weight:700;
-  color:var(--faded);
-  text-transform:uppercase;
-  letter-spacing:.08em;
-}
-.letter-meta-val{
-  font-size:12.5px;
-  font-family:var(--mono);
-  color:var(--ink);
-  font-weight:600;
-  text-align:right;
-}
-
-.letter-text{font-family:var(--serif);font-size:17px;line-height:2.2;color:#241c14;}
-
-.ent{border-radius:2px;padding:1px 3px;cursor:pointer;transition:all .15s ease;display:inline-block;margin:0 1px;}
-.ent.person {background:var(--person-l);color:var(--person);border-bottom:2px solid var(--person);}
-.ent.place  {background:var(--place-l); color:var(--place); border-bottom:2px solid var(--place);}
-.ent.organism{background:var(--org-l);  color:var(--org);   border-bottom:2px solid var(--org);}
-.ent.text   {background:var(--text-type-l);color:var(--text-type);border-bottom:2px solid var(--text-type);}
-.ent:hover{filter:brightness(.88);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.1);}
-.ent.highlighted{outline:2px solid var(--gold);background:var(--gold-l)!important;}
-
-.letter-entities-sidebar{border-left:1px solid var(--line);background:var(--paper);overflow-y:auto;padding:16px 0;transition:opacity .3s;}
-.le-header{padding:0 18px 12px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faded);border-bottom:1px solid var(--line);}
-.le-group{margin-bottom:14px;}
-.le-group-title{
-  padding:8px 18px 6px;font-size:10px;font-weight:700;text-transform:uppercase;
-  letter-spacing:.08em;border-top:1px solid var(--line);border-bottom:1px solid rgba(216,207,192,.3);background:rgba(216,207,192,.1);
-}
-.le-group-title.person{color:var(--person);background:rgba(28,58,110,.05);}
-.le-group-title.place{color:var(--place);background:rgba(122,62,24,.05);}
-.le-group-title.organism{color:var(--org);background:rgba(42,92,52,.05);}
-.le-group-title.text{color:var(--text-type);background:rgba(94,53,177,.05);}
-
-.le-item{
-  display:block;width:100%;text-align:left;border:0;background:transparent;
-  padding:8px 18px;cursor:pointer;font-size:11.5px;color:var(--ink);border-left:3px solid transparent;transition:all .15s;
-}
-.le-item:hover{background:var(--bg);padding-left:22px;}
-.le-item.person{border-left-color:var(--person);}
-.le-item.place{border-left-color:var(--place);}
-.le-item.organism{border-left-color:var(--org);}
-.le-item.text{border-left-color:var(--text-type);}
-.le-item.highlighted{background:var(--gold-l);font-weight:600;}
-.le-empty{padding:24px 18px;font-size:12px;color:var(--faded);font-style:italic;text-align:center;}
-
-.entity-popup{
-  position:fixed;z-index:200;background:var(--paper);border:1px solid var(--line);
-  border-radius:6px;box-shadow:0 10px 30px rgba(26,18,8,.18);padding:16px 20px;
-  max-width:300px;font-size:12px;display:none;animation:fadeIn .15s ease-out;
-}
-@keyframes fadeIn{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+/* Popup entità */
+.entity-popup{position:fixed;z-index:200;background:var(--paper);border:1px solid var(--line);
+  border-radius:4px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:14px 16px;
+  max-width:280px;font-size:12px;display:none;}
 .entity-popup.on{display:block;}
-.ep-type{font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
-.ep-label{font-size:16px;font-family:var(--serif);font-weight:500;margin-bottom:8px;color:var(--ink);}
-.ep-uri{font-size:10px;color:var(--faded);font-family:var(--mono);word-break:break-all;}
-.ep-uri a{color:var(--gold);text-decoration:none;font-weight:600;}
-.ep-uri a:hover{text-decoration:underline;}
-.ep-close{position:absolute;top:10px;right:12px;cursor:pointer;color:var(--faded);font-size:14px;background:none;border:none;padding:2px;}
-.ep-close:hover{color:var(--ink);}
+.ep-type{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  margin-bottom:4px;}
+.ep-label{font-size:15px;font-weight:500;margin-bottom:6px;}
+.ep-uri{font-size:9px;color:var(--faded);font-family:var(--mono);word-break:break-all;}
+.ep-uri a{color:inherit;text-decoration:underline;}
+.ep-close{position:absolute;top:8px;right:10px;cursor:pointer;color:var(--faded);
+  font-size:14px;}
 
-.entities-wrap{padding:32px 48px;}
-.entities-toolbar{display:flex;gap:8px;margin-bottom:20px;align-items:center;flex-wrap:wrap;}
-.ent-filter{padding:6px 14px;border:1px solid var(--line);border-radius:16px;font-size:11px;cursor:pointer;background:white;transition:all .15s;}
-.ent-filter:hover{border-color:var(--ink);background:var(--bg);}
+/* ── Entità list ── */
+.entities-wrap{padding:24px 32px;}
+.entities-toolbar{display:flex;gap:8px;margin-bottom:16px;align-items:center;flex-wrap:wrap;}
+.ent-filter{padding:4px 12px;border:1px solid var(--line);border-radius:12px;
+  font-size:11px;cursor:pointer;background:white;}
+.ent-filter:hover{border-color:var(--ink);}
 .ent-filter.on{background:var(--ink);color:white;border-color:var(--ink);}
-.ent-search{padding:6px 12px;border:1px solid var(--line);border-radius:4px;font-size:11px;width:240px;background:white;}
-.ent-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;}
-.ent-card{
-  background:var(--paper);border:1px solid var(--line);border-radius:6px;
-  padding:16px 18px;transition:all .2s;display:flex;flex-direction:column;justify-content:space-between;
-}
-.ent-card:hover{border-color:var(--gold);box-shadow:0 4px 14px rgba(139,99,24,.12);transform:translateY(-1px);}
-.ec-type{font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px;}
-.ec-label{font-size:15px;font-family:var(--serif);font-weight:500;color:var(--ink);}
-.ec-sub{font-size:11px;color:var(--faded);margin-top:2px;font-style:italic;}
-.ec-uris{margin-top:8px;font-size:10px;font-family:var(--mono);word-break:break-all;display:flex;gap:6px;flex-wrap:wrap;}
-.ec-uris a{color:var(--gold);text-decoration:none;font-weight:600;padding:1px 5px;background:rgba(139,99,24,.06);border-radius:3px;border:1px solid rgba(139,99,24,.2);}
-.ec-uris a:hover{background:var(--gold-l);text-decoration:underline;}
-.ec-letters{font-size:10px;color:var(--faded);margin-top:10px;padding-top:8px;border-top:1px dashed var(--line);line-height:1.6;}
-.ec-letter-tag{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 5px;border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;background:white;color:var(--ink);transition:all .1s;}
+.ent-search{padding:5px 10px;border:1px solid var(--line);border-radius:2px;
+  font-size:11px;width:220px;}
+.ent-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px;}
+.ent-card{background:var(--paper);border:1px solid var(--line);border-radius:3px;
+  padding:11px 13px;cursor:pointer;transition:border-color .15s;}
+.ent-card:hover{border-color:var(--gold);box-shadow:0 2px 8px rgba(139,99,24,.12);}
+.ec-type{font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  margin-bottom:3px;}
+.ec-label{font-size:13px;font-weight:500;}
+.ec-sub{font-size:10px;color:var(--faded);margin-top:2px;font-style:italic;}
+.ec-letters{font-size:9px;color:var(--faded);margin-top:5px;line-height:1.6;}
+.ec-letter-tag{display:inline-block;font-size:8px;font-family:var(--mono);padding:1px 4px;
+  border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;
+  background:var(--paper);color:var(--ink);}
 .ec-letter-tag:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
-.ep-letter-link{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 5px;border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:2px;background:white;transition:all .1s;}
-.ep-letter-link:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
+.ep-letter-link{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 4px;
+  border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;background:var(--paper);}
+.ep-letter-link:hover{background:var(--gold-l);border-color:var(--gold);}
 
+/* ── Rete ── */
 #network-wrap{height:calc(100vh - 52px);position:relative;overflow:hidden;}
 #network-svg{width:100%;height:100%;}
 .node circle{stroke:white;stroke-width:1.5;cursor:pointer;}
 .node text{font-size:10px;pointer-events:none;fill:var(--ink);}
 .link{stroke:var(--line);stroke-opacity:.6;}
 .link.transfer{stroke:var(--gold);stroke-opacity:.7;}
-.net-toolbar{position:absolute;top:16px;left:16px;z-index:10;display:flex;flex-direction:column;gap:8px;}
-.net-filters{display:flex;align-items:center;gap:6px;background:rgba(250,247,240,.95);border:1px solid var(--line);border-radius:6px;padding:6px 10px;box-shadow:0 4px 12px rgba(0,0,0,.08);}
-.net-fbtn{padding:3px 9px;border:1px solid var(--line);border-radius:3px;font-size:9.5px;cursor:pointer;background:white;font-family:var(--sans);transition:all .15s;}
-.net-fbtn:hover{border-color:var(--ink);}
-.net-fbtn.on{background:var(--ink);color:white;border-color:var(--ink);}
-.net-search{padding:4px 8px;border:1px solid var(--line);border-radius:3px;font-size:10px;width:180px;background:white;}
-.net-legend{position:absolute;bottom:24px;right:24px;background:rgba(250,247,240,.95);border:1px solid var(--line);border-radius:6px;padding:14px 18px;font-size:10.5px;box-shadow:0 4px 16px rgba(0,0,0,.1);min-width:190px;}
-.net-legend-title{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faded);margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--line);}
-.net-legend-section{font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--faded);margin:10px 0 4px;}
-.net-legend div{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:10.5px;color:var(--ink);}
-.net-legend .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;border:1.5px solid white;box-shadow:0 0 0 1px rgba(0,0,0,.15);}
-.net-legend .line{width:20px;height:2px;flex-shrink:0;border-radius:1px;}
-.net-tooltip{position:absolute;background:var(--paper);border:1px solid var(--line);border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.15);padding:12px 16px;pointer-events:auto;display:none;z-index:20;max-width:260px;cursor:default;}
-.net-tooltip.on{display:block;}
-.net-tt-type{font-size:8.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--faded);margin-bottom:4px;}
-.net-tt-label{font-size:14px;font-family:var(--serif);font-weight:500;margin-bottom:6px;}
-.net-tt-letters{font-size:10.5px;color:var(--faded);margin-bottom:6px;}
-.net-tt-uri{font-size:9.5px;color:var(--faded);font-family:var(--mono);word-break:break-all;margin-top:6px;}
-.net-tt-uri a{color:var(--gold);font-weight:600;}
-.net-tt-letter{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 5px;border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;background:white;}
-.net-tt-letter:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
+.net-legend{position:absolute;bottom:20px;left:20px;background:rgba(255,255,255,.92);
+  border:1px solid var(--line);border-radius:4px;padding:10px 14px;font-size:10px;}
+.net-legend div{display:flex;align-items:center;gap:6px;margin-bottom:4px;}
+.net-legend span{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
 
-.tl-letter{margin-bottom:24px;border-left:3px solid var(--line);padding-left:16px;position:relative;cursor:pointer;transition:all .15s;}
-.tl-letter:hover{border-left-color:var(--gold);transform:translateX(2px);}
-.tl-dot{width:10px;height:10px;border-radius:50%;background:var(--gold);position:absolute;left:-7px;top:4px;border:2px solid var(--bg);box-shadow:0 0 0 1px var(--gold);}
-.tl-meta{display:flex;align-items:baseline;gap:10px;margin-bottom:6px;}
-.tl-date{font-size:11.5px;font-family:var(--mono);color:var(--gold);font-weight:600;}
-.tl-id{font-size:10.5px;color:var(--faded);font-family:var(--mono);}
-.tl-from{font-size:11.5px;color:var(--ink);}
-.tl-entities{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px;}
-.tl-ent{display:inline-flex;align-items:center;gap:4px;font-size:9.5px;padding:2px 8px;border-radius:12px;cursor:pointer;border:1px solid transparent;transition:all .15s;}
-.tl-ent.person  {background:var(--person-l);color:var(--person);border-color:#c8d4e8;}
-.tl-ent.place   {background:var(--place-l); color:var(--place); border-color:#e0cec8;}
-.tl-ent.organism{background:var(--org-l);   color:var(--org);   border-color:#c0dcc8;}
-.tl-ent.text    {background:var(--text-type-l);color:var(--text-type);border-color:#d1c4e9;}
-.tl-ent.transfer{background:var(--gold-l);  color:var(--gold);  border-color:#e0c878;}
-.tl-ent:hover{filter:brightness(.9);transform:translateY(-1px);}
-.tl-year-marker{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faded);padding:16px 0 8px;border-top:1px solid var(--line);margin-bottom:12px;margin-top:6px;}
+/* ── Timeline ── */
+#timeline-wrap{padding:24px 32px;}
+#timeline-svg{width:100%;overflow:visible;}
+.tl-controls{display:flex;gap:8px;margin-bottom:16px;}
 
+/* ── Mappa ── */
 #map-wrap{height:calc(100vh - 52px);}
 #map{height:100%;width:100%;}
-.sparql-wrap{padding:32px 48px;max-width:960px;}
-.sparql-wrap h2{font-family:var(--serif);font-size:22px;font-weight:400;margin-bottom:8px;color:var(--gold);}
-.sparql-wrap p{font-size:12.5px;color:var(--faded);margin-bottom:18px;}
-.sparql-editor{width:100%;height:180px;padding:12px;border:1px solid var(--line);border-radius:4px;font-family:var(--mono);font-size:12px;resize:vertical;background:var(--paper);color:var(--ink);}
-.sparql-editor:focus{outline:none;border-color:var(--gold);}
-.sparql-btn{padding:8px 20px;background:#1e1610;color:#f2e8d8;border:none;border-radius:3px;font-size:12px;font-weight:600;cursor:pointer;margin-top:10px;transition:all .15s;}
-.sparql-btn:hover{opacity:.85;transform:translateY(-1px);}
-.sparql-examples{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap;}
-.sparql-ex{font-size:10.5px;padding:4px 10px;border:1px solid var(--line);border-radius:3px;cursor:pointer;background:white;transition:all .15s;}
-.sparql-ex:hover{border-color:var(--gold);background:var(--gold-l);color:var(--gold);}
-#sparql-results{margin-top:20px;overflow-x:auto;}
-#sparql-results table{width:100%;border-collapse:collapse;font-size:11.5px;background:var(--paper);border:1px solid var(--line);}
-#sparql-results th{background:var(--bg);padding:8px 12px;text-align:left;font-weight:600;border-bottom:2px solid var(--line);color:var(--ink);}
-#sparql-results td{padding:7px 12px;border-bottom:1px solid var(--line);}
-#sparql-results tr:hover td{background:var(--gold-l);}
-.sparql-loading{font-size:12.5px;color:var(--faded);padding:16px 0;}
 
+/* ── SPARQL ── */
+.sparql-wrap{padding:24px 32px;max-width:900px;}
+.sparql-wrap h2{font-family:var(--serif);font-size:20px;font-weight:400;
+  margin-bottom:8px;color:var(--gold);}
+.sparql-wrap p{font-size:12px;color:var(--faded);margin-bottom:16px;}
+.sparql-editor{width:100%;height:160px;padding:10px;border:1px solid var(--line);
+  border-radius:3px;font-family:var(--mono);font-size:12px;resize:vertical;}
+.sparql-btn{padding:7px 18px;background:#1e1610;color:#f2e8d8;border:none;
+  border-radius:2px;font-size:12px;font-weight:600;cursor:pointer;margin-top:8px;}
+.sparql-btn:hover{opacity:.85;}
+.sparql-examples{display:flex;gap:6px;margin:10px 0;flex-wrap:wrap;}
+.sparql-ex{font-size:10px;padding:3px 8px;border:1px solid var(--line);border-radius:2px;
+  cursor:pointer;background:white;}
+.sparql-ex:hover{border-color:var(--gold);}
+#sparql-results{margin-top:16px;overflow-x:auto;}
+#sparql-results table{width:100%;border-collapse:collapse;font-size:11px;}
+#sparql-results th{background:var(--bg);padding:6px 10px;text-align:left;
+  font-weight:600;border-bottom:2px solid var(--line);}
+#sparql-results td{padding:5px 10px;border-bottom:1px solid var(--line);}
+#sparql-results tr:hover td{background:var(--gold-l);}
+.sparql-loading{font-size:12px;color:var(--faded);padding:12px 0;}
+
+/* ── Utility ── */
 .page-header{padding:28px 32px 0;}
 .page-header h2{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold);}
 .page-header p{font-size:12px;color:var(--faded);margin-top:4px;}
-.fbtn{padding:4px 12px;border:1px solid var(--line);border-radius:14px;font-size:11px;cursor:pointer;background:white;transition:all .15s;}
-.fbtn:hover{border-color:var(--ink);}
-.fbtn.on{background:var(--ink);color:white;border-color:var(--ink);}
+.type-color{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;}
 </style>
 </head>
 <body>
@@ -320,10 +192,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <nav>
   <div class="nav-brand">Vallisnieri – Stancari</div>
   <div class="nav-links">
-    <div class="nav-link on" onclick="showPage('home',this)">Home</div>
+    <div class="nav-link on"  onclick="showPage('home',this)">Home</div>
     <div class="nav-link" onclick="showPage('letters',this)">Letters</div>
     <div class="nav-link" onclick="showPage('entita',this)">Entità</div>
-    <div class="nav-link" onclick="showPage('network',this)">Network</div>
+    <div class="nav-link" onclick="showPage('rete',this)">Rete</div>
     <div class="nav-link" onclick="showPage('timeline',this)">Timeline</div>
     <div class="nav-link" onclick="showPage('mappa',this)">Mappa</div>
     <div class="nav-link" onclick="showPage('sparql',this)">SPARQL</div>
@@ -334,39 +206,28 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <div class="page on" id="pg-home">
   <div class="home-hero">
     <h1>Vallisnieri–Stancari Correspondence</h1>
-    <p>A digital scholarly edition of 30 letters (1707–1709) from Antonio Vallisnieri to Francesco Vittorio Stancari.</p>
+    <p>A digital scholarly edition of 30 letters (1707–1709) from Antonio Vallisnieri to Francesco Vittorio Stancari.
+    A corpus of early eighteenth-century Italian history of science, extracted and annotated using
+    knowledge graph techniques and artificial intelligence.</p>
   </div>
   <div class="home-stats" id="home-stats"></div>
   <div class="home-intro">
     <h2>The corpus</h2>
-    <p>The letters document exchanges of biological specimens, scientific observations, texts and networks of correspondents.</p>
+    <p>The letters document exchanges of biological specimens, scientific observations, texts and networks of
+    correspondents. Vallisnieri uses Stancari as a remote observer in Bologna, while writing from Padua.
+    The network includes correspondents in Venice, Naples, Rome, Amsterdam and London.</p>
   </div>
   <div class="letter-grid" id="home-letters"></div>
 </div>
 
 <!-- ── LETTERE ── -->
 <div class="page" id="pg-letters">
-  <div class="letter-layout" id="letter-layout-grid">
+  <div class="letter-layout">
     <div class="letter-sidebar" id="letter-sidebar">
-      <div class="ls-header">
-        <span>Letters Index</span>
-        <span id="ls-count" style="font-size:10px;font-family:var(--mono);color:var(--faded)">30</span>
-      </div>
-      <div class="ls-search-box">
-        <input type="text" class="ls-search" id="ls-search" placeholder="Filter letters..." oninput="filterLetterSidebar(this.value)">
-      </div>
-      <div id="ls-list-container"></div>
+      <div class="ls-header">30 letters</div>
     </div>
     <div class="letter-main" id="letter-main">
-      <button class="zen-toggle" onclick="toggleZenMode()">⤢ Zen Mode</button>
-      <div class="letter-content-wrapper" style="text-align:center;padding:60px 40px;">
-        <div style="font-family:var(--serif);font-size:22px;color:var(--gold);margin-bottom:8px;">Vallisnieri–Stancari Digital Edition</div>
-        <div style="color:var(--faded);font-size:13.5px;max-width:380px;margin:0 auto;line-height:1.6;">Please select a letter from the left sidebar to read its critical text and explore annotated entities.</div>
-      </div>
-    </div>
-    <div class="letter-entities-sidebar" id="letter-entities-sidebar">
-      <div class="le-header">Entities in this letter</div>
-      <div class="le-empty">Select a letter to see its entities.</div>
+      <div style="color:var(--faded);font-size:13px;padding-top:40px">Select a letter</div>
     </div>
   </div>
 </div>
@@ -375,79 +236,45 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <div class="page" id="pg-entita">
   <div class="entities-wrap">
     <div class="page-header" style="padding-left:0">
-      <h2>Entities & Works of the corpus</h2>
-      <p>Persons, places, organisms, and cited texts/works reconciled with LOD resources.</p>
+      <h2>Entities of the corpus</h2>
+      <p>Persons, places, organisms and texts extracted and reconciled with LOD resources.</p>
     </div>
     <div class="entities-toolbar" style="margin-top:14px">
       <button class="ent-filter on" onclick="filterEnt('all',this)">All</button>
       <button class="ent-filter" onclick="filterEnt('person',this)">Persons</button>
       <button class="ent-filter" onclick="filterEnt('place',this)">Places</button>
       <button class="ent-filter" onclick="filterEnt('organism',this)">Organisms</button>
-      <button class="ent-filter" onclick="filterEnt('text',this)">Texts & Works</button>
-      <input class="ent-search" id="ent-search" placeholder="Search entities or works…" oninput="renderEntities()">
+      <button class="ent-filter" onclick="filterEnt('institution',this)">Institutions</button>
+      <input class="ent-search" id="ent-search" placeholder="Search entities…" oninput="renderEntities()">
     </div>
     <div class="ent-grid" id="ent-grid"></div>
   </div>
 </div>
 
 <!-- ── RETE ── -->
-<div class="page" id="pg-network">
+<div class="page" id="pg-rete">
   <div id="network-wrap">
-    <div class="net-toolbar">
-      <div class="net-filters">
-        <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Type:</span>
-        <button class="net-fbtn on" data-type="all" onclick="netToggleAll('type',this)">All</button>
-        <button class="net-fbtn on" data-type="person" onclick="netToggle('type','person',this)">Persons</button>
-        <button class="net-fbtn on" data-type="place" onclick="netToggle('type','place',this)">Places</button>
-        <button class="net-fbtn on" data-type="organism" onclick="netToggle('type','organism',this)">Organisms</button>
-        <button class="net-fbtn on" data-type="text" onclick="netToggle('text',this)">Texts</button>
-      </div>
-      <div class="net-filters">
-        <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Edges:</span>
-        <button class="net-fbtn on" data-edge="all" onclick="netFilter('edge','all',this)">All</button>
-        <button class="net-fbtn" data-edge="transfer" onclick="netFilter('edge','transfer',this)">Transfers</button>
-        <button class="net-fbtn" data-edge="co-occurrence" onclick="netFilter('edge','co-occurrence',this)">Co-occurrence</button>
-        <button class="net-fbtn" data-edge="mentions" onclick="netFilter('edge','mentions',this)">Mentions</button>
-      </div>
-      <div class="net-filters">
-        <input id="net-letter-filter" class="net-search" placeholder="Filter by letter (e.g. 001)…" oninput="netLetterFilter(this.value)">
-      </div>
-    </div>
     <svg id="network-svg"></svg>
     <div class="net-legend">
-      <div class="net-legend-title">Legend</div>
-      <div class="net-legend-section">Nodes</div>
-      <div><span class="dot" style="background:var(--person)"></span> Person</div>
-      <div><span class="dot" style="background:var(--place)"></span> Place</div>
-      <div><span class="dot" style="background:var(--org)"></span> Organism</div>
-      <div><span class="dot" style="background:var(--text-type)"></span> Text / Work</div>
-      <div style="font-size:9px;color:var(--faded);margin-top:2px;padding-left:18px">Size = n° of letters</div>
-    </div>
-    <div class="net-tooltip" id="net-tooltip">
-      <div class="net-tt-type" id="net-tt-type"></div>
-      <div class="net-tt-label" id="net-tt-label"></div>
-      <div class="net-tt-letters" id="net-tt-letters"></div>
-      <div class="net-tt-uri" id="net-tt-uri"></div>
+      <div><span style="background:var(--person)"></span> Person</div>
+      <div><span style="background:var(--place)"></span> Place</div>
+      <div><span style="background:var(--org)"></span> Organism</div>
+      <div><span style="background:var(--inst)"></span> Institution</div>
+      <div style="margin-top:6px;font-size:9px;color:var(--faded)">
+        — co-occurrence · <span style="color:var(--gold)">— transfer</span>
+      </div>
     </div>
   </div>
 </div>
 
 <!-- ── TIMELINE ── -->
 <div class="page" id="pg-timeline">
-  <div id="timeline-wrap" style="overflow-y:auto;height:calc(100vh - 52px)">
-    <div style="padding:24px 32px 0">
-      <h2 style="font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold)">Correspondence Timeline</h2>
-      <p style="font-size:12px;color:var(--faded);margin-top:4px">30 letters · 1707–1709 · click a letter to explore</p>
-      <div style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap;" class="tl-filter">
-        <button class="fbtn on" onclick="setTlFilter('all',this)">All</button>
-        <button class="fbtn" onclick="setTlFilter('person',this)">Persons</button>
-        <button class="fbtn" onclick="setTlFilter('organism',this)">Organisms</button>
-        <button class="fbtn" onclick="setTlFilter('place',this)">Places</button>
-        <button class="fbtn" onclick="setTlFilter('text',this)">Texts</button>
-        <button class="fbtn" onclick="setTlFilter('transfer',this)">Transfers</button>
-      </div>
+  <div id="timeline-wrap">
+    <div class="page-header">
+      <h2>Specimen movements</h2>
+      <p>Trasferimenti documentati nelle letters.</p>
     </div>
-    <div id="tl-container" style="padding:20px 32px 60px"></div>
+    <div id="timeline-content" style="padding:24px 32px"></div>
   </div>
 </div>
 
@@ -460,12 +287,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <div class="page" id="pg-sparql">
   <div class="sparql-wrap">
     <h2>SPARQL Interface</h2>
-    <p>Query the corpus knowledge graph directly in your browser using Comunica.</p>
+    <p>Query the corpus knowledge graph. The SPARQL engine runs entirely in the browser.</p>
     <div class="sparql-examples">
       <div class="sparql-ex" onclick="setQuery('persons')">All persons</div>
       <div class="sparql-ex" onclick="setQuery('organisms')">Organisms with taxon</div>
       <div class="sparql-ex" onclick="setQuery('places')">Reconciled places</div>
-      <div class="sparql-ex" onclick="setQuery('texts')">Texts & Works</div>
       <div class="sparql-ex" onclick="setQuery('transfers')">Specimen transfers</div>
       <div class="sparql-ex" onclick="setQuery('network')">Network of correspondents</div>
     </div>
@@ -476,19 +302,19 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   </div>
 </div>
 
-<!-- Popup (Attivo solo nel testo delle lettere) -->
+<!-- Popup entità -->
 <div class="entity-popup" id="entity-popup">
-  <button class="ep-close" onclick="closePopup()">✕</button>
+  <span class="ep-close" onclick="closePopup()">✕</span>
   <div class="ep-type" id="ep-type"></div>
   <div class="ep-label" id="ep-label"></div>
   <div class="ep-uri" id="ep-uri"></div>
 </div>
 
 <script>
+// ── Data ──────────────────────────────────────────────────────────────
 const DATA = {};
 let entFilter = 'all';
 let mapInstance = null, networkBuilt = false, timelineBuilt = false;
-let tlFilter = 'all';
 
 async function loadData(key, url) {
   if (DATA[key]) return DATA[key];
@@ -497,70 +323,48 @@ async function loadData(key, url) {
   return DATA[key];
 }
 
+// ── Navigation ────────────────────────────────────────────────────────
 function showPage(id, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('on'));
   document.getElementById('pg-'+id).classList.add('on');
   document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('on'));
   if(btn) btn.classList.add('on');
-  else document.querySelectorAll('.nav-link').forEach(b => {
-    if(b.getAttribute('onclick')?.includes(`'${id}'`)) b.classList.add('on');
-  });
 
-  if(id !== 'home') window.location.hash = id;
-  else history.replaceState(null, '', window.location.pathname);
-
-  if(id==='home') initHome();
-  if(id==='letters') initLettere();
-  if(id==='entita') initEntita();
-  if(id==='network') initNetwork();
+  if(id==='home')     initHome();
+  if(id==='letters')  initLettere();
+  if(id==='entita')   initEntita();
+  if(id==='rete')     initRete();
   if(id==='timeline') initTimeline();
-  if(id==='mappa') initMappa();
-  if(id==='sparql') initSparql();
+  if(id==='mappa')    initMappa();
+  if(id==='sparql')   initSparql();
 }
 
-function initFromHash() {
-  const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','network','timeline','mappa','sparql'];
-  if(hash && valid.includes(hash)) showPage(hash);
-  else initHome();
-}
-
-window.addEventListener('hashchange', () => {
-  const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','network','timeline','mappa','sparql'];
-  if(hash && valid.includes(hash)) showPage(hash);
-});
-
-function toggleZenMode() {
-  const layout = document.getElementById('letter-layout-grid');
-  const btn = document.querySelector('.zen-toggle');
-  layout.classList.toggle('zen-mode');
-  btn.textContent = layout.classList.contains('zen-mode') ? '⤡ Exit Zen' : '⤢ Zen Mode';
-}
-
+// ── HOME ──────────────────────────────────────────────────────────────
 async function initHome() {
   const [letters, entities] = await Promise.all([
     loadData('letters','data/letters.json'),
     loadData('entities','data/entities.json')
   ]);
-  const validEntities = entities.filter(e => !(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')));
-  const persons = validEntities.filter(e=>e.type==='person').length;
-  const orgs = validEntities.filter(e=>e.type==='organism').length;
-  const places = validEntities.filter(e=>e.type==='place').length;
-  const texts = validEntities.filter(e=>e.type==='text').length;
+
+  // Stats
+  const persons   = entities.filter(e=>e.type==='person').length;
+  const orgs      = entities.filter(e=>e.type==='organism').length;
+  const places    = entities.filter(e=>e.type==='place').length;
   document.getElementById('home-stats').innerHTML = `
     <div class="stat"><div class="stat-n">${letters.length}</div><div class="stat-l">Letters</div></div>
     <div class="stat"><div class="stat-n">${persons}</div><div class="stat-l">Persons</div></div>
     <div class="stat"><div class="stat-n">${orgs}</div><div class="stat-l">Organisms</div></div>
-    <div class="stat"><div class="stat-n">${texts}</div><div class="stat-l">Texts & Works</div></div>`;
+    <div class="stat"><div class="stat-n">${places}</div><div class="stat-l">Places</div></div>`;
 
-  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
+  // Letter grid
+  const typeColors = {person:'var(--person)',place:'var(--place)',
+    organism:'var(--org)',institution:'var(--inst)',text:'var(--faded)'};
   document.getElementById('home-letters').innerHTML = letters.map(l=>`
     <div class="letter-card" onclick="openLetter('${l.id}')">
       <div class="lc-id">${l.id}</div>
       <div class="lc-date">${l.date||'s.d.'}</div>
       <div class="lc-counts">
-        ${Object.entries(l.counts||{}).filter(([t])=>t!=='institution').map(([t,n])=>
+        ${Object.entries(l.counts||{}).map(([t,n])=>
           `<span class="lc-badge" style="background:${typeColors[t]||'#ccc'}20;color:${typeColors[t]||'#666'}">${n} ${t}</span>`
         ).join('')}
       </div>
@@ -572,75 +376,21 @@ function openLetter(id) {
   setTimeout(()=>selectLetter(id), 100);
 }
 
+// ── LETTERE ──────────────────────────────────────────────────────────
 async function initLettere() {
   const letters = await loadData('letters','data/letters.json');
-  const container = document.getElementById('ls-list-container');
-  if(container.dataset.initialized) return;
-  renderLetterSidebarList(letters);
-  container.dataset.initialized = 'true';
-}
+  const sidebar = document.getElementById('letter-sidebar');
+  const existing = sidebar.querySelectorAll('.ls-item');
+  if(existing.length) return;
 
-function renderLetterSidebarList(letters) {
-  const q = (document.getElementById('ls-search')?.value || '').toLowerCase();
-  const filtered = letters.filter(l => {
-    if(!q) return true;
-    return l.id.toLowerCase().includes(q) || (l.date||'').toLowerCase().includes(q) || (l.from||'').toLowerCase().includes(q) || (l.to||'').toLowerCase().includes(q);
-  });
-  const byYear = {};
-  filtered.forEach(l=>{ const y=(l.date||'').slice(0,4)||'Unknown'; (byYear[y]||(byYear[y]=[])).push(l); });
-  let html = '';
-  const years = Object.keys(byYear).sort();
-  if(years.length === 0) {
-    html = '<div style="padding:16px;font-size:11px;color:var(--faded);text-align:center;">No letters found.</div>';
-  } else {
-    years.forEach(year=>{
-      html += `<div class="ls-year">${year} (${byYear[year].length})</div>`;
-      byYear[year].forEach(l=>{
-        const shortId = l.id.replace('VAL_STAN_','');
-        html += `<div class="ls-item" id="ls-${l.id}" onclick="selectLetter('${l.id}')">
-          <span class="ls-item-id">Letter ${shortId}</span>
-          <span class="ls-item-date">${l.date||'s.d.'}</span>
-        </div>`;
-      });
-    });
-  }
-  document.getElementById('ls-list-container').innerHTML = html;
-  const activeLetter = document.querySelector('.letter-main').dataset.currentLetter;
-  if(activeLetter) {
-    const el = document.getElementById('ls-'+activeLetter);
-    if(el) el.classList.add('on');
-  }
-}
-
-function filterLetterSidebar(val) {
-  loadData('letters','data/letters.json').then(letters => { renderLetterSidebarList(letters); });
-}
-
-function renderLetterEntities(letterId){
-  const c = document.getElementById('letter-entities-sidebar');
-  const entities = (DATA.entities||[]).filter(e => {
-    if(!e.letters?.includes(letterId)) return false;
-    if(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
-    return true;
-  });
-  const labels = {person:'Persons',place:'Places',organism:'Organisms',text:'Texts & Works'};
-  const types = ['person','place','organism','text'];
-  let html = '<div class="le-header">Entities in this letter</div>';
-  if(!entities.length){ c.innerHTML = html + '<div class="le-empty">No entities associated with this letter.</div>'; return; }
-  types.forEach(type=>{
-    const list = entities.filter(e=>e.type===type).sort((a,b)=>a.label.localeCompare(b.label));
-    if(!list.length) return;
-    html += `<div class="le-group"><div class="le-group-title ${type}">${labels[type]} · ${list.length}</div>`;
-    list.forEach(e=>html += `<button class="le-item ${type}" data-entity-id="${escAttr(e.id)}" onmouseenter="highlightEntity('${e.id}', true)" onmouseleave="highlightEntity('${e.id}', false)">${escHtml(e.label)}</button>`);
-    html += '</div>';
-  });
-  c.innerHTML = html;
-}
-
-function highlightEntity(entityId, enable) {
-  document.querySelectorAll(`[data-entity-id="${entityId}"]`).forEach(el => {
-    if(enable) el.classList.add('highlighted');
-    else el.classList.remove('highlighted');
+  letters.forEach(l=>{
+    const el = document.createElement('div');
+    el.className = 'ls-item';
+    el.id = 'ls-'+l.id;
+    el.innerHTML = `<span>${l.id.replace('VAL_STAN_','')}</span>
+      <span style="font-size:9px;color:var(--faded);font-family:var(--mono)">${l.date||'s.d.'}</span>`;
+    el.onclick = ()=>selectLetter(l.id);
+    sidebar.appendChild(el);
   });
 }
 
@@ -650,18 +400,15 @@ async function selectLetter(id) {
   if(lsEl) lsEl.classList.add('on');
 
   const main = document.getElementById('letter-main');
-  main.dataset.currentLetter = id;
-  const zenBtnHtml = main.querySelector('.zen-toggle')?.outerHTML || '<button class="zen-toggle" onclick="toggleZenMode()">⤢ Zen Mode</button>';
-  main.innerHTML = zenBtnHtml + '<div class="letter-content-wrapper" style="text-align:center;padding:60px;"><div style="color:var(--faded);font-size:13px">Loading letter transcription…</div></div>';
+  main.innerHTML = '<div style="color:var(--faded);font-size:12px">Loading…</div>';
 
-  const [letters, entities, textData] = await Promise.all([
+  const [letters, textData] = await Promise.all([
     loadData('letters','data/letters.json'),
-    loadData('entities','data/entities.json'),
     fetch(`data/texts/${id}.json`).then(r=>r.ok?r.json():null)
   ]);
 
   const letter = letters.find(l=>l.id===id);
-  if(!letter){ main.innerHTML = zenBtnHtml + '<div class="letter-content-wrapper">Letter not found</div>'; return; }
+  if(!letter){ main.innerHTML='<div>Not found</div>'; return; }
 
   let textHtml = '';
   if(textData && textData.segments) {
@@ -669,44 +416,25 @@ async function selectLetter(id) {
       if(!seg.entity) return escHtml(seg.text);
       const e = seg.entity;
       const cls = e.type || 'unknown';
-      if(e.entity_id?.includes('VAL_STAN_') || e.label?.startsWith('VAL_STAN_')) return escHtml(seg.text);
+      // Usa data-* per evitare problemi con URI nell'onclick inline
       return `<span class="ent ${cls}"
         data-entity-id="${escAttr(e.entity_id)}"
         data-entity-label="${escAttr(e.label)}"
         data-entity-type="${e.type||''}"
-        onmouseenter="highlightEntity('${escAttr(e.entity_id)}', true)"
-        onmouseleave="highlightEntity('${escAttr(e.entity_id)}', false)"
         title="${escAttr(e.label)} (${e.type})">${escHtml(seg.text)}</span>`;
     }).join('');
   } else {
-    textHtml = '<em style="color:var(--faded)">Transcription not available for this item.</em>';
+    textHtml = '<em style="color:var(--faded)">Testo non disponibile</em>';
   }
 
-  main.innerHTML = zenBtnHtml + `
-    <div class="letter-content-wrapper">
-      <div class="letter-meta">
-        <div class="letter-meta-row">
-          <span class="letter-meta-label">Document ID</span>
-          <span class="letter-meta-val">${letter.id}</span>
-        </div>
-        <div class="letter-meta-row">
-          <span class="letter-meta-label">Date</span>
-          <span class="letter-meta-val">${letter.date || 's.d.'}</span>
-        </div>
-        <div class="letter-meta-row">
-          <span class="letter-meta-label">Sender</span>
-          <span class="letter-meta-val">${letter.from || '—'}</span>
-        </div>
-        <div class="letter-meta-row">
-          <span class="letter-meta-label">Recipient</span>
-          <span class="letter-meta-val">${letter.to || '—'}</span>
-        </div>
-      </div>
-      <div class="letter-text">${textHtml}</div>
-    </div>`;
-  renderLetterEntities(id);
+  main.innerHTML = `
+    <div class="letter-meta">
+      ${letter.id} · From: ${letter.from||'—'} · To: ${letter.to||'—'} · ${letter.date||'s.d.'}
+    </div>
+    <div class="letter-text">${textHtml}</div>`;
 }
 
+// ── ENTITÀ ───────────────────────────────────────────────────────────
 async function initEntita() {
   await loadData('entities','data/entities.json');
   renderEntities();
@@ -720,14 +448,10 @@ function filterEnt(type, btn) {
 }
 
 function renderEntities() {
-  const entities = (DATA['entities'] || []).filter(e => {
-    if (e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
-    return true;
-  });
-
+  const entities = DATA['entities'] || [];
   const q = (document.getElementById('ent-search')?.value||'').toLowerCase();
-  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
-  const labels = {person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
+  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)',text:'var(--faded)'};
+  const labels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
 
   const filtered = entities.filter(e=>{
     if(entFilter!=='all' && e.type!==entFilter) return false;
@@ -735,311 +459,182 @@ function renderEntities() {
     return true;
   });
 
-  document.getElementById('ent-grid').innerHTML = filtered.map(e=>{
-    const catalogueLink = e.catalogue || e.opac || e.url;
-
-    const uris = [
-      e.viaf && ('<a href="' + e.viaf + '" target="_blank">VIAF</a>'),
-      e.wikidata && ('<a href="' + e.wikidata + '" target="_blank">Wikidata</a>'),
-      e.gbif && ('<a href="' + e.gbif + '" target="_blank">GBIF</a>'),
-      e.geonames && ('<a href="' + e.geonames + '" target="_blank">GeoNames</a>'),
-      catalogueLink && ('<a href="' + catalogueLink + '" target="_blank" style="color:var(--text-type);font-weight:bold;">📖 Catalogue Link</a>')
-    ].filter(Boolean).join(' · ');
-
-    return `
-      <div class="ent-card">
-        <div>
-          <div class="ec-type" style="color:${colors[e.type]||'#666'}">${labels[e.type]||e.type}</div>
-          <div class="ec-label">${escHtml(e.label)}</div>
-          ${e.taxon?`<div class="ec-sub">${escHtml(e.taxon)}</div>`:''}
-          ${e.note&&e.note.includes('AMBIGUO')?'<div class="ec-sub" style="color:var(--gold)">⚠ uncertain identification</div>':''}
-          ${uris?`<div class="ec-uris">${uris}</div>`:''}
-        </div>
-        <div class="ec-letters">
-          ${e.letters.length} ${e.letters.length===1?'letter':'letters'}:
-          ${e.letters.slice(0,6).map(lid=>`<span class="ec-letter-tag" onclick="event.stopPropagation();openLetter('${lid}')">${lid.replace('VAL_STAN_','')}</span>`).join(' ')}
-          ${e.letters.length>6?`<span style="color:var(--faded)">+${e.letters.length-6}</span>`:''}
-        </div>
-      </div>`;
-  }).join('');
+  document.getElementById('ent-grid').innerHTML = filtered.map(e=>`
+    <div class="ent-card" onclick="showEntityDetail('${esc(e.id)}')">
+      <div class="ec-type" style="color:${colors[e.type]||'#666'}">${labels[e.type]||e.type}</div>
+      <div class="ec-label">${escHtml(e.label)}</div>
+      ${e.taxon?`<div class="ec-sub">${escHtml(e.taxon)}</div>`:''}
+      ${e.note&&e.note.includes('AMBIGUO')?'<div class="ec-sub" style="color:var(--gold)">⚠ uncertain identification</div>':''}
+      <div class="ec-letters">
+        ${e.letters.length} ${e.letters.length===1?'letter':'letters'}:
+        ${e.letters.slice(0,6).map(lid=>`<span class="ec-letter-tag" onclick="event.stopPropagation();openLetter('${lid}')">${lid.replace('VAL_STAN_','')}</span>`).join(' ')}
+        ${e.letters.length>6?`<span style="color:var(--faded)">+${e.letters.length-6}</span>`:''}
+      </div>
+    </div>`).join('');
 }
 
-let netSim=null, netNodes=[], netEdges=[], netNodeSel=null, netLinkSel=null;
-let netTypeFilters=new Set(['person','place','organism','text']);
-let netEdgeFilters=new Set(['transfer','co-occurrence','mentions']);
-let netLetterF='';
-const netColors={person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',text:'#5e35b1',default:'#9a8a78'};
-const netTypeLabels={person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
+function showEntityDetail(id) {
+  const e = (DATA['entities']||[]).find(x=>x.id===id);
+  if(!e) return;
+  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)'};
+  const labels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
+  const uris = [
+    e.viaf    && `<a href="${e.viaf}"    target="_blank">VIAF</a>`,
+    e.wikidata && `<a href="${e.wikidata}" target="_blank">Wikidata</a>`,
+    e.gbif    && `<a href="${e.gbif}"    target="_blank">GBIF</a>`,
+    e.geonames && `<a href="${e.geonames}" target="_blank">GeoNames</a>`,
+  ].filter(Boolean).join(' · ');
 
-async function initNetwork() {
+  alert(`${labels[e.type]||e.type}: ${e.label}\n${e.taxon?'Taxon: '+e.taxon+'\n':''}${uris?'URI: '+uris+'\n':''}Letters: ${e.letters.join(', ')}`);
+  // In produzione questo sarebbe un modal o una pagina dedicata
+}
+
+// ── RETE ─────────────────────────────────────────────────────────────
+async function initRete() {
   if(networkBuilt) return;
   networkBuilt = true;
   const net = await loadData('network','data/network.json');
-  netNodes = net.nodes.filter(d => !(d.id.includes('VAL_STAN_') || d.label?.startsWith('VAL_STAN_')));
-  netEdges = net.edges;
-  buildNetwork();
+  buildNetwork(net);
 }
 
-function buildNetwork() {
-  const wrap = document.getElementById('network-wrap');
-  const w = wrap.clientWidth, h = wrap.clientHeight;
-  const svg = d3.select('#network-svg').attr('viewBox',`0 0 ${w} ${h}`);
-  svg.selectAll('*').remove();
+function buildNetwork(net) {
+  const svg = d3.select('#network-svg');
+  const w = document.getElementById('network-wrap').clientWidth;
+  const h = document.getElementById('network-wrap').clientHeight;
+  svg.attr('viewBox',`0 0 ${w} ${h}`);
 
-  const g = svg.append('g');
-  svg.call(d3.zoom().scaleExtent([.2,4]).on('zoom', ev=>g.attr('transform',ev.transform)));
+  const colors = {person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',institution:'#7a2830',default:'#9a8a78'};
 
-  const visNodes = netNodes.filter(d=>{
-    if(!netTypeFilters.has(d.type)) return false;
-    if(netLetterF){
-      const lids = Array.isArray(d.letters) ? d.letters : [];
-      if(!lids.some(l=>l.includes(netLetterF))) return false;
-    }
-    return true;
-  });
-  const visIds = new Set(visNodes.map(d=>d.id));
-  const visEdges = netEdges.filter(d=>{
-    const src = d.source?.id||d.source, tgt = d.target?.id||d.target;
-    if(!visIds.has(src)||!visIds.has(tgt)) return false;
-    if(!netEdgeFilters.has(d.type)) return false;
-    return true;
-  });
-
-  const sim = d3.forceSimulation(visNodes)
-    .force('link', d3.forceLink(visEdges).id(d=>d.id).distance(90))
-    .force('charge', d3.forceManyBody().strength(-150))
+  const sim = d3.forceSimulation(net.nodes)
+    .force('link', d3.forceLink(net.edges).id(d=>d.id).distance(80))
+    .force('charge', d3.forceManyBody().strength(-120))
     .force('center', d3.forceCenter(w/2, h/2))
-    .force('collision', d3.forceCollide(d=>8+Math.min(d.letters||1,10)));
-  if(netSim) netSim.stop();
-  netSim = sim;
+    .force('collision', d3.forceCollide(18));
 
-  const linkColors = {
-    'transfer': {color:'var(--gold)', width:2, opacity:.8},
-    'mentions': {color:'#2a5c34', width:1.5, opacity:.6},
-    'co-occurrence':{color:'var(--line)', width:1, opacity:.4},
-  };
-  netLinkSel = g.append('g').selectAll('line')
-    .data(visEdges).join('line')
-    .attr('stroke', d=>(linkColors[d.type]||linkColors['co-occurrence']).color)
-    .attr('stroke-width', d=>(linkColors[d.type]||linkColors['co-occurrence']).width)
-    .attr('stroke-opacity',d=>(linkColors[d.type]||linkColors['co-occurrence']).opacity);
+  const link = svg.append('g').selectAll('line')
+    .data(net.edges).join('line')
+    .attr('class', d=>'link '+(d.type||''))
+    .attr('stroke-width', d=>d.type==='transfer'?2:1);
 
-  netNodeSel = g.append('g').selectAll('g')
-    .data(visNodes).join('g').attr('class','node')
+  const node = svg.append('g').selectAll('g')
+    .data(net.nodes).join('g')
+    .attr('class','node')
     .call(d3.drag()
-      .on('start',(ev,d)=>{ if(!ev.active) sim.alphaTarget(.3).restart(); d.fx=d.x; d.fy=d.y; })
-      .on('drag', (ev,d)=>{ d.fx=ev.x; d.fy=ev.y; })
-      .on('end', (ev,d)=>{ if(!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }))
-    .on('click', (ev,d)=>{ ev.stopPropagation(); showNetTooltip(ev,d); });
+      .on('start', (ev,d)=>{ if(!ev.active) sim.alphaTarget(.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag',  (ev,d)=>{ d.fx=ev.x; d.fy=ev.y; })
+      .on('end',   (ev,d)=>{ if(!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
 
-  netNodeSel.append('circle')
-    .attr('r', d=>{ const n=Array.isArray(d.letters)?d.letters.length:(d.letters||1); return 6+Math.min(n,12); })
-    .attr('fill', d=>netColors[d.type]||netColors.default)
-    .attr('fill-opacity',.85)
-    .attr('stroke','white').attr('stroke-width',1.5)
-    .attr('cursor','pointer');
+  node.append('circle')
+    .attr('r', d=>5 + Math.min(d.letters||1, 10))
+    .attr('fill', d=>colors[d.type]||colors.default)
+    .attr('fill-opacity', .8);
 
-  netNodeSel.append('text')
-    .attr('dx',12).attr('dy',3).attr('font-size',9).attr('fill','var(--ink)')
-    .text(d=>d.label?.length>22?d.label.slice(0,22)+'…':d.label||'');
+  node.append('text')
+    .attr('dx',10).attr('dy',3)
+    .text(d=>d.label.length>20?d.label.slice(0,20)+'…':d.label);
 
-  svg.on('click',()=>hideNetTooltip());
-
-  sim.on('tick',()=>{
-    netLinkSel
-      .attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
-      .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
-    netNodeSel.attr('transform',d=>`translate(${d.x},${d.y})`);
+  sim.on('tick', ()=>{
+    link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
+        .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    node.attr('transform',d=>`translate(${d.x},${d.y})`);
   });
 }
 
-function netToggle(dim, val, btn){
-  const filters = dim==='type' ? netTypeFilters : netEdgeFilters;
-  if(filters.has(val)){ filters.delete(val); btn.classList.remove('on'); }
-  else { filters.add(val); btn.classList.add('on'); }
-  const allBtns = dim==='type'
-    ? ['person','place','organism','text']
-    : ['transfer','co-occurrence','mentions'];
-  const allBtn = btn.closest('.net-filters').querySelector('[data-'+dim+'="all"]');
-  if(allBtn) allBtn.classList.toggle('on', allBtns.every(v=>filters.has(v)));
-  buildNetwork();
-}
-
-function netToggleAll(dim, btn){
-  const filters = dim==='type' ? netTypeFilters : netEdgeFilters;
-  const allVals = dim==='type'
-    ? ['person','place','organism','text']
-    : ['transfer','co-occurrence','mentions'];
-  const allOn = btn.classList.contains('on');
-  if(allOn){ filters.clear(); btn.classList.remove('on'); }
-  else { allVals.forEach(v=>filters.add(v)); btn.classList.add('on'); }
-  btn.closest('.net-filters').querySelectorAll('.net-fbtn:not([data-'+dim+'="all"])').forEach(b=>{
-    b.classList.toggle('on', !allOn);
-  });
-  buildNetwork();
-}
-
-function netLetterFilter(val){
-  netLetterF = val.trim().padStart(3,'0');
-  buildNetwork();
-}
-
-function showNetTooltip(ev,d){
-  const tt = document.getElementById('net-tooltip');
-  const entities = DATA['entities']||[];
-  const ent = entities.find(e=>e.id===d.id)||{};
-  const uris = [
-    ent.viaf && `<a href="${ent.viaf}" target="_blank">VIAF</a>`,
-    ent.wikidata&& `<a href="${ent.wikidata}" target="_blank">Wikidata</a>`,
-    ent.gbif && `<a href="${ent.gbif}" target="_blank">GBIF</a>`,
-    ent.geonames&& `<a href="${ent.geonames}" target="_blank">GeoNames</a>`,
-    ent.catalogue && `<a href="${ent.catalogue}" target="_blank">Catalogue</a>`
-  ].filter(Boolean).join(' · ');
-
-  const lids = Array.isArray(d.letters) ? d.letters : [];
-  const letterLinks = lids.map(lid=>
-    `<span class="net-tt-letter" onclick="openLetterFromNet('${lid}')">${lid.replace('VAL_STAN_','')}</span>`
-  ).join(' ');
-
-  document.getElementById('net-tt-type').textContent = netTypeLabels[d.type]||d.type||'';
-  document.getElementById('net-tt-type').style.color = netColors[d.type]||'var(--faded)';
-  document.getElementById('net-tt-label').textContent = d.label||'—';
-  document.getElementById('net-tt-letters').innerHTML =
-    `<span style="color:var(--faded)">${lids.length} letter${lids.length!==1?'s':''}: </span>${letterLinks}`;
-  document.getElementById('net-tt-uri').innerHTML = uris||'';
-
-  const wrap = document.getElementById('network-wrap').getBoundingClientRect();
-  let x = ev.clientX - wrap.left + 14;
-  let y = ev.clientY - wrap.top - 10;
-  if(x + 240 > wrap.width) x = ev.clientX - wrap.left - 244;
-  if(y + 140 > wrap.height) y = ev.clientY - wrap.top - 144;
-  tt.style.left = x+'px'; tt.style.top = y+'px';
-  tt.classList.add('on');
-}
-
-function hideNetTooltip(){ document.getElementById('net-tooltip').classList.remove('on'); }
-
-function openLetterFromNet(lid){
-  hideNetTooltip();
-  showPage('letters');
-  setTimeout(()=>selectLetter(lid), 300);
-}
-
-function setTlFilter(f, btn){
-  tlFilter = f;
-  document.querySelectorAll('.tl-filter .fbtn').forEach(b=>b.classList.remove('on'));
-  btn.classList.add('on');
-  renderTimeline();
-}
-
+// ── TIMELINE ─────────────────────────────────────────────────────────
 async function initTimeline() {
   if(timelineBuilt) return;
   timelineBuilt = true;
-  await Promise.all([
-    loadData('letters','data/letters.json'),
-    loadData('entities','data/entities.json'),
-    loadData('movements','data/movements.json')
-  ]);
-  renderTimeline();
+  const movements = await loadData('movements','data/movements.json');
+
+  const wrap = document.getElementById('timeline-content');
+  if(!movements.length){ wrap.innerHTML='<p style="color:var(--faded)">No movements available.</p>'; return; }
+
+  const rows = movements.filter(m=>m.object && m.object!=='').map((m,i)=>`
+    <tr style="border-bottom:1px solid var(--line)">
+      <td style="padding:7px 10px;font-family:var(--mono);font-size:10px;color:var(--faded)">${m.letter.replace('VAL_STAN_','')}</td>
+      <td style="padding:7px 10px;font-size:11px">${escHtml(m.object)}</td>
+      <td style="padding:7px 10px;font-size:11px;color:var(--org)">${escHtml(m.object_taxon||'')}</td>
+      <td style="padding:7px 10px;font-size:11px">${escHtml(m.from_person||'')}</td>
+      <td style="padding:7px 10px;font-size:11px">${escHtml(m.to_person||'')}</td>
+      <td style="padding:7px 10px;font-size:11px;color:var(--place)">${escHtml(m.from_place||'?')} → ${escHtml(m.to_place||'?')}</td>
+    </tr>`).join('');
+
+  wrap.innerHTML = `
+    <table style="width:100%;border-collapse:collapse;font-size:11px">
+      <thead>
+        <tr style="border-bottom:2px solid var(--line)">
+          <th style="padding:6px 10px;text-align:left;font-size:9px;letter-spacing:.07em;text-transform:uppercase">Letter</th>
+          <th style="padding:6px 10px;text-align:left">Object</th>
+          <th style="padding:6px 10px;text-align:left">Taxon</th>
+          <th style="padding:6px 10px;text-align:left">From</th>
+          <th style="padding:6px 10px;text-align:left">To</th>
+          <th style="padding:6px 10px;text-align:left">Route</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
 }
 
-function renderTimeline(){
-  const letters = DATA['letters'] || [];
-  const entities = (DATA['entities'] || []).filter(e => !(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')));
-  const movements = DATA['movements']|| [];
-  if(!letters.length || !entities.length){
-    document.getElementById('tl-container').innerHTML = '<p style="color:var(--faded);font-size:12px">Loading data…</p>';
-    return;
-  }
-  const movByLetter = {};
-  movements.forEach(m=>{ movByLetter[m.letter]=movByLetter[m.letter]||[]; movByLetter[m.letter].push(m); });
-
-  const byYear = {};
-  letters.forEach(l=>{
-    const year = (l.date||'').slice(0,4) || 'Unknown';
-    byYear[year] = byYear[year]||[];
-    byYear[year].push(l);
-  });
-
-  let html = '';
-  for(const [year, yletters] of Object.entries(byYear).sort()){
-    html += `<div class="tl-year-marker">${year}</div>`;
-    for(const letter of yletters){
-      const lid = letter.id;
-      const movs = movByLetter[lid]||[];
-      const letterEnts = entities.filter(e=>e.letters?.includes(lid));
-
-      const visEnts = letterEnts.filter(e=>{
-        if(tlFilter==='all') return true;
-        if(tlFilter==='transfer') return false;
-        return e.type===tlFilter;
-      });
-      const visMovs = (tlFilter==='all'||tlFilter==='transfer') ? movs.filter(m=>m.object) : [];
-      if(tlFilter!=='all' && visEnts.length===0 && visMovs.length===0) continue;
-
-      const entTags = visEnts.slice(0,12).map(e=>`
-        <span class="tl-ent ${e.type}" onclick="openLetter('${lid}')" title="${escHtml(e.label)}">
-          ${escHtml(e.label.length>20?e.label.slice(0,20)+'…':e.label)}
-        </span>`).join('');
-
-      const movTags = visMovs.slice(0,4).map(m=>`
-        <span class="tl-ent transfer" onclick="openLetter('${lid}')" title="${escHtml(m.object)} · ${escHtml(m.from_person||'')} → ${escHtml(m.to_person||'')}">
-          📦 ${escHtml(m.object.length>18?m.object.slice(0,18)+'…':m.object)}
-        </span>`).join('');
-
-      const more = letterEnts.length > 12 ? `<span style="font-size:9px;color:var(--faded)">+${letterEnts.length-12} more</span>` : '';
-
-      html += `<div class="tl-letter" onclick="openLetter('${lid}')">
-        <div class="tl-dot"></div>
-        <div class="tl-meta">
-          <span class="tl-date">${letter.date||'s.d.'}</span>
-          <span class="tl-id">${lid.replace('VAL_STAN_','VAL ')}</span>
-          <span class="tl-from">${letter.from?'From '+escHtml(letter.from):''}</span>
-        </div>
-        <div class="tl-entities">${entTags}${movTags}${more}</div>
-      </div>`;
-    }
-  }
-  document.getElementById('tl-container').innerHTML = html || '<p style="color:var(--faded);font-size:12px">No entries match the current filter.</p>';
-}
-
+// ── MAPPA ─────────────────────────────────────────────────────────────
 async function initMappa() {
   if(mapInstance) return;
   const [geo, movements] = await Promise.all([
     loadData('geo','data/geo.json'),
     loadData('movements','data/movements.json')
   ]);
-  mapInstance = L.map('map').setView([44.5, 11.5], 6);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{ attribution:'© OpenStreetMap contributors', maxZoom:18 }).addTo(mapInstance);
 
+  mapInstance = L.map('map').setView([44.5, 11.5], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    attribution:'© OpenStreetMap contributors', maxZoom:18
+  }).addTo(mapInstance);
+
+  // Mappa id luogo → coordinate
   const geoIdx = {};
   geo.forEach(p=>{ if(p.lat&&p.lng) geoIdx[p.id]=p; });
 
+  // ── Layer 1: Luoghi menzionati ────────────────────────────────────
   const placesLayer = L.layerGroup();
   const colors = {'1':'#2a5c34','2-5':'#8b6318','6-10':'#7a3e18','10+':'#7a2830'};
+
   geo.filter(p=>p.lat&&p.lng).forEach(p=>{
     const n = p.letters.length;
     const color = n>=10?colors['10+']:n>=6?colors['6-10']:n>=2?colors['2-5']:colors['1'];
     const radius = 6 + Math.min(n*2, 16);
-    const marker = L.circleMarker([p.lat,p.lng],{ radius, fillColor:color, color:'white', weight:1.5, fillOpacity:.85 });
+    const marker = L.circleMarker([p.lat,p.lng],{
+      radius, fillColor:color, color:'white', weight:1.5, fillOpacity:.85
+    });
     const links = [
       p.wikidata&&`<a href="${p.wikidata}" target="_blank">Wikidata</a>`,
       p.geonames&&`<a href="${p.geonames}" target="_blank">GeoNames</a>`,
     ].filter(Boolean).join(' · ');
-    marker.bindPopup(`<strong>${p.label}</strong><br><em style="font-size:11px;color:#666">${p.toponym||''}</em><br><span style="font-size:11px">Cited in ${n} ${n===1?'letter':'letters'}</span>${links?`<br><span style="font-size:10px">${links}</span>`:''}`);
+    marker.bindPopup(`
+      <strong>${p.label}</strong><br>
+      <em style="font-size:11px;color:#666">${p.toponym||''}</em><br>
+      <span style="font-size:11px">Cited in ${n} ${n===1?'letter':'letters'}</span>
+      ${links?`<br><span style="font-size:10px">${links}</span>`:''}
+    `);
     placesLayer.addLayer(marker);
   });
 
+  // ── Layer 2: Movimenti ────────────────────────────────────────────
   const movLayer = L.layerGroup();
-  const movColors = { letter:'#1c3a6e', organism:'#2a5c34', default:'#8b6318' };
+  const movColors = {
+    letter:   '#1c3a6e',   // Prussian blue — lettere
+    organism: '#2a5c34',   // Verdigris — specimen biologici
+    default:  '#8b6318',   // Ochre — altri
+  };
+
+  // Raggruppa movimenti per coppia from/to per evitare frecce duplicate
   const routeCount = {};
   movements.forEach(m=>{
     if(!m.from_place_id || !m.to_place_id) return;
     const key = `${m.from_place_id}|${m.to_place_id}`;
     if(!routeCount[key]) routeCount[key]={count:0,type:m.object_type,objects:[],letters:[]};
     routeCount[key].count++;
-    if(m.object && !routeCount[key].objects.includes(m.object)) routeCount[key].objects.push(m.object);
-    if(!routeCount[key].letters.includes(m.letter)) routeCount[key].letters.push(m.letter);
+    if(m.object && !routeCount[key].objects.includes(m.object))
+      routeCount[key].objects.push(m.object);
+    if(!routeCount[key].letters.includes(m.letter))
+      routeCount[key].letters.push(m.letter);
     if(m.object_type) routeCount[key].type=m.object_type;
   });
 
@@ -1047,27 +642,54 @@ async function initMappa() {
     const [fpId, tpId] = key.split('|');
     const fp = geoIdx[fpId], tp = geoIdx[tpId];
     if(!fp||!tp) return;
+
     const color = movColors[data.type]||movColors.default;
     const weight = 1.5 + Math.min(data.count, 5);
+
+    // Linea curva con offset per non sovrapporre andata/ritorno
     const latlng1 = [fp.lat, fp.lng], latlng2 = [tp.lat, tp.lng];
+
+    // Curva bezier approssimata con polyline intermedio
     const midLat = (fp.lat+tp.lat)/2 + (tp.lng-fp.lng)*0.08;
     const midLng = (fp.lng+tp.lng)/2 - (tp.lat-fp.lat)*0.08;
-    const line = L.polyline([latlng1,[midLat,midLng],latlng2],{ color, weight, opacity:.75, smoothFactor:2 });
+    const line = L.polyline([latlng1,[midLat,midLng],latlng2],{
+      color, weight, opacity:.75, smoothFactor:2
+    });
+
+    // Freccia decorativa a metà percorso
     const arrowIcon = L.divIcon({
-      html:`<div style="color:${color};font-size:11px;transform:rotate(${Math.atan2(tp.lat-fp.lat, tp.lng-fp.lng)*180/Math.PI}deg)">▶</div>`,
+      html:`<div style="color:${color};font-size:11px;transform:rotate(${
+        Math.atan2(tp.lat-fp.lat, tp.lng-fp.lng)*180/Math.PI
+      }deg)">▶</div>`,
       className:'', iconSize:[12,12]
     });
     L.marker([midLat,midLng],{icon:arrowIcon}).addTo(movLayer);
-    line.bindPopup(`<strong>${data.objects.slice(0,3).join(', ')}${data.objects.length>3?'…':''}</strong><br><span style="font-size:10px">${fp.label} → ${tp.label}</span>`);
+
+    const popup = `
+      <strong>${data.objects.slice(0,3).join(', ')}${data.objects.length>3?'…':''}</strong><br>
+      <span style="font-size:10px">${fp.label} → ${tp.label}</span><br>
+      <span style="font-size:10px;color:#666">${data.count} movement${data.count>1?'s':''} · ${data.letters.length} ${data.letters.length===1?'letter':'letters'}</span>
+    `;
+    line.bindPopup(popup);
     movLayer.addLayer(line);
-    L.circleMarker(latlng1,{radius:4,fillColor:color,color:'white',weight:1,fillOpacity:.9}).addTo(movLayer);
+
+    // Punto partenza (piccolo cerchio)
+    L.circleMarker(latlng1,{radius:4,fillColor:color,color:'white',weight:1,fillOpacity:.9})
+      .addTo(movLayer);
   });
 
-  L.control.layers({}, { 'Places mentioned': placesLayer, 'Movements': movLayer }, {collapsed:false}).addTo(mapInstance);
+  // ── Layer control ────────────────────────────────────────────────
+  const baseMaps = {};
+  const overlays = {
+    'Places mentioned': placesLayer,
+    'Movements': movLayer
+  };
   placesLayer.addTo(mapInstance);
   movLayer.addTo(mapInstance);
+  L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(mapInstance);
 }
 
+// ── SPARQL ────────────────────────────────────────────────────────────
 const SPARQL_EXAMPLES = {
   persons: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 SELECT ?person ?label WHERE {
@@ -1087,11 +709,6 @@ SELECT ?place ?label ?wikidata WHERE {
   ?place a crm:E53_Place ;
          <https://w3id.org/vallisnieri/label> ?label .
   OPTIONAL { ?place <https://w3id.org/vallisnieri/wikidataQID> ?wikidata }
-} LIMIT 20`,
-  texts: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-SELECT ?text ?label WHERE {
-  ?text a crm:E33_Linguistic_Object ;
-        <https://w3id.org/vallisnieri/label> ?label .
 } LIMIT 20`,
   transfers: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 SELECT ?event ?from ?to ?object WHERE {
@@ -1113,204 +730,134 @@ SELECT ?from ?to (COUNT(?letter) AS ?letters) WHERE {
 } GROUP BY ?from ?to ORDER BY DESC(?letters) LIMIT 20`
 };
 
-function setQuery(key) { document.getElementById('sparql-editor').value = SPARQL_EXAMPLES[key]||''; }
+function setQuery(key) {
+  document.getElementById('sparql-editor').value = SPARQL_EXAMPLES[key]||'';
+}
 
 async function initSparql() {
   setQuery('persons');
 }
 
-let _comunica = null;
-
-async function loadComunica() {
-  if (_comunica) return _comunica;
-
-  try {
-    const { QueryEngine } = await import(
-      'https://cdn.jsdelivr.net/npm/@comunica/query-sparql@latest/lib/index-browser.js'
-    );
-
-    _comunica = new QueryEngine();
-    return _comunica;
-
-  } catch (e) {
-    console.error('Comunica load failed:', e);
-    throw new Error(
-      'Cannot load the SPARQL engine. Check the network connection or CSP settings.'
-    );
-  }
-}
-
 async function runSparql() {
-  const query = document
-    .getElementById('sparql-editor')
-    .value
-    .trim();
-
-  if (!query) return;
+  const query = document.getElementById('sparql-editor').value.trim();
+  if(!query) return;
 
   const resultsEl = document.getElementById('sparql-results');
-
-  resultsEl.innerHTML =
-    '<div class="sparql-loading">Loading SPARQL engine…</div>';
+  resultsEl.innerHTML = '<div class="sparql-loading">Running query…</div>';
 
   try {
-    const engine = await loadComunica();
+    // Usa il file TTL locale con Comunica (se disponibile) o endpoint diretto
+    // Per ora usa rdflib simulato — in produzione usare Comunica
+    const r = await fetch(`data/corpus.ttl`);
+    if(!r.ok){ throw new Error('corpus.ttl non trovato'); }
 
-    resultsEl.innerHTML =
-      '<div class="sparql-loading">Running query…</div>';
-
-    const ttlUrl = new URL(
-      'data/corpus.ttl',
-      window.location.href
-    ).href;
-
-    const bindingsStream = await engine.queryBindings(query, {
-      sources: [ttlUrl]
-    });
-
-    const bindings = await bindingsStream.toArray();
-
-    if (!bindings.length) {
-      resultsEl.innerHTML =
-        '<p style="color:var(--faded);font-size:12px">No results found.</p>';
+    // Nota: per SPARQL vero nel browser serve Comunica
+    // Qui mostriamo istruzioni se Comunica non è caricato
+    if(typeof Comunica === 'undefined'){
+      resultsEl.innerHTML = `<p style="font-size:12px;color:var(--faded)">
+        To run SPARQL queries in the browser, you need to load
+        <a href="https://comunica.dev" target="_blank">Comunica</a>.
+        <br><br>Alternative: download <a href="data/corpus.ttl">corpus.ttl</a>
+        and open it with <a href="https://triply.cc/yasgui" target="_blank">YASGUI</a>
+        or a local triplestore.</p>`;
       return;
     }
 
-    const vars = [...bindings[0].keys()].map(k => k.value);
+    // Con Comunica
+    const engine = new Comunica.QueryEngine();
+    const bindingsStream = await engine.queryBindings(query, {
+      sources: [{type:'file', value:'data/corpus.ttl'}]
+    });
+    const bindings = await bindingsStream.toArray();
+    if(!bindings.length){ resultsEl.innerHTML='<p style="color:var(--faded)">No results.</p>'; return; }
 
-    const rows = bindings.map(binding => `
-      <tr>
-        ${vars.map(v => {
-          const term = binding.get(v);
-          const val = term ? term.value : '';
+    const vars = bindings[0].keys.map(k=>k.value);
+    const rows = bindings.map(b=>
+      `<tr>${vars.map(v=>`<td>${escHtml(b.get(v)?.value||'')}</td>`).join('')}</tr>`
+    ).join('');
 
-          const display = val.startsWith('http')
-            ? `<a href="${val}" target="_blank">${escHtml(val)}</a>`
-            : escHtml(val);
+    resultsEl.innerHTML = `<p style="font-size:10px;color:var(--faded);margin-bottom:6px">${bindings.length} results</p>
+    <table><thead><tr>${vars.map(v=>`<th>${v}</th>`).join('')}</tr></thead>
+    <tbody>${rows}</tbody></table>`;
 
-          return `<td>${display}</td>`;
-        }).join('')}
-      </tr>
-    `).join('');
-
-    resultsEl.innerHTML = `
-      <p style="font-size:10px;color:var(--faded);margin-bottom:6px">
-        ${bindings.length} result${bindings.length !== 1 ? 's' : ''}
-      </p>
-
-      <table>
-        <thead>
-          <tr>
-            ${vars.map(v => `<th>${escHtml(v)}</th>`).join('')}
-          </tr>
-        </thead>
-        <tbody>
-          ${rows}
-        </tbody>
-      </table>
-    `;
-
-  } catch (e) {
-    console.error(e);
-
-    resultsEl.innerHTML = `
-      <div style="
-        background:var(--paper);
-        border:1px solid var(--line);
-        padding:16px;
-        border-radius:4px;
-      ">
-        <p style="
-          color:var(--inst);
-          font-size:12px;
-          font-weight:600;
-          margin-bottom:6px;
-        ">
-          ⚠️ Cannot run the SPARQL query
-        </p>
-
-        <p style="
-          font-size:11.5px;
-          color:var(--faded);
-        ">
-          ${escHtml(e.message)}
-        </p>
-      </div>
-    `;
+  } catch(e) {
+    resultsEl.innerHTML = `<p style="color:var(--reject);font-size:12px">Errore: ${e.message}</p>`;
   }
 }
 
-function openEntityPopup(e, id, label, type) {
-  e.stopPropagation();
-  const popup = document.getElementById('entity-popup');
-  const typeLabels = {person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
-  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
+// ── Entity popup ──────────────────────────────────────────────────────
+function openEntityPopup(event, id, label, type) {
+  event.stopPropagation();
+  const popup  = document.getElementById('entity-popup');
+  const typeLabels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text'};
+  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)'};
 
+  // Usa label e type direttamente dallo span — non affidarsi al lookup per questi
   document.getElementById('ep-type').textContent = typeLabels[type]||type;
   document.getElementById('ep-type').style.color = typeColors[type]||'var(--faded)';
   document.getElementById('ep-label').textContent = label || id.split('/').pop();
 
+  // Cerca arricchimento LOD: prova match esatto, poi per slug finale dell'URI
   const slug = id.split('/').pop();
   const entities = DATA['entities']||[];
-  const entity = entities.find(x=>x.id===id) || entities.find(x=>x.id.endsWith('/'+slug)) || entities.find(x=>x.label===label && x.type===type);
+  const entity = entities.find(e=>e.id===id)
+    || entities.find(e=>e.id.endsWith('/'+slug))
+    || entities.find(e=>e.label===label && e.type===type);
 
   let uriHtml = '';
   if(entity){
-    if(entity.taxon) uriHtml += `<div style="font-style:italic;color:var(--org);margin-bottom:6px;font-size:11px">${escHtml(entity.taxon)}</div>`;
+    if(entity.taxon)
+      uriHtml += `<div style="font-style:italic;color:var(--org);margin-bottom:5px;font-size:11px">${escHtml(entity.taxon)}</div>`;
     const uris = [
-      entity.viaf && `<a href="${entity.viaf}" target="_blank">VIAF</a>`,
-      entity.wikidata && `<a href="${entity.wikidata}" target="_blank">Wikidata</a>`,
-      entity.gbif && `<a href="${entity.gbif}" target="_blank">GBIF</a>`,
-      entity.geonames && `<a href="${entity.geonames}" target="_blank">GeoNames</a>`,
-      entity.catalogue && `<a href="${entity.catalogue}" target="_blank">Catalogue</a>`,
-      entity.url && type === 'text' && `<a href="${entity.url}" target="_blank">Resource</a>`
+      entity.viaf     && `<a href="${entity.viaf}"     target="_blank">VIAF</a>`,
+      entity.wikidata && `<a href="${entity.wikidata}"  target="_blank">Wikidata</a>`,
+      entity.gbif     && `<a href="${entity.gbif}"     target="_blank">GBIF</a>`,
+      entity.geonames && `<a href="${entity.geonames}"  target="_blank">GeoNames</a>`,
     ].filter(Boolean).join(' · ');
-    if(uris) uriHtml += `<div style="margin-bottom:6px">${uris}</div>`;
+    if(uris) uriHtml += `<div style="margin-bottom:5px">${uris}</div>`;
     if(entity.letters?.length){
-      const links = entity.letters.map(lid=>`<span class="ep-letter-link" onclick="openLetter('${lid}');closePopup()">${lid.replace('VAL_STAN_','')}</span>`).join(' ');
-      uriHtml += `<div style="font-size:10px;margin-top:6px;color:var(--faded)">Letters: ${links}</div>`;
+      const links = entity.letters.map(lid=>
+        `<span class="ep-letter-link" onclick="openLetter('${lid}');closePopup()">${lid.replace('VAL_STAN_','')}</span>`
+      ).join(' ');
+      uriHtml += `<div style="font-size:10px;margin-top:4px;color:var(--faded)">Letters: ${links}</div>`;
     }
   }
   document.getElementById('ep-uri').innerHTML = uriHtml;
 
-  const targetEl = e.target.closest('.ent, .le-item');
-  if (!targetEl) return;
-  const rect = targetEl.getBoundingClientRect();
-  
+  const pw = 280, ph = 180;
+  let x = event.pageX + 14;
+  let y = event.pageY - 10;
+  if(x + pw > window.innerWidth  - 10) x = event.pageX - pw - 10;
+  if(y + ph > window.scrollY + window.innerHeight - 10) y = event.pageY - ph;
+  popup.style.left = x+'px';
+  popup.style.top  = y+'px';
   popup.classList.add('on');
-  const pw = popup.offsetWidth || 300;
-  const ph = popup.offsetHeight || 180;
-
-  let x = rect.left + (rect.width / 2) - (pw / 2);
-  let y = rect.bottom + 6;
-
-  if (x < 10) x = 10;
-  if (x + pw > window.innerWidth - 10) x = window.innerWidth - pw - 10;
-  if(y + ph > window.innerHeight - 10) {
-    y = rect.top - ph - 6;
-  }
-
-  popup.style.left = x+'px'; popup.style.top = y+'px';
 }
 
+// Event delegation — intercetta click su .ent via data attributes
 document.addEventListener('click', e=>{
-  const item = e.target.closest('.ent[data-entity-id], .le-item[data-entity-id]');
-  if(item){
-    const id = item.dataset.entityId;
-    const entity = (DATA.entities||[]).find(x=>x.id===id);
-    if(entity) openEntityPopup(e, id, entity.label, entity.type);
+  const span = e.target.closest('.ent[data-entity-id]');
+  if(span){
+    const id    = span.dataset.entityId;
+    const label = span.dataset.entityLabel;
+    const type  = span.dataset.entityType;
+    openEntityPopup(e, id, label, type);
     return;
   }
   if(!e.target.closest('.entity-popup')) closePopup();
 });
 
-function closePopup() { document.getElementById('entity-popup').classList.remove('on'); }
+function closePopup() {
+  document.getElementById('entity-popup').classList.remove('on');
+}
 
+// ── Utility ───────────────────────────────────────────────────────────
 function escHtml(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function escAttr(s){ return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;'); }
 function esc(s){ return (s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
 
-initFromHash();
+// ── Init ──────────────────────────────────────────────────────────────
+initHome();
 </script>
 </body>
 </html>

@@ -71,10 +71,10 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 4,
+      "text": 2,
       "person": 6,
       "place": 4,
-      "organism": 4,
+      "organism": 6,
       "specimen": 2
     },
     "total_entities": 20
@@ -191,10 +191,10 @@
     "from": "Antonio Vallisneri",
     "to": "Vittorio Francesco Stancari",
     "counts": {
-      "text": 7,
+      "text": 6,
       "person": 10,
       "place": 9,
-      "organism": 4,
+      "organism": 5,
       "specimen": 4
     },
     "total_entities": 34

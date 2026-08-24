@@ -1,0 +1,1 @@
+Couldn't find the requested file /browser/comunica-browser.js in @comunica/query-sparql.

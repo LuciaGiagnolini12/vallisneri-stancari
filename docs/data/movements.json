@@ -8,7 +8,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "descrizione_della_minera_del_nostro_zolfo_1",
+    "object": "Descrizione della minera del nostro zolfo",
     "object_type": "",
     "object_taxon": ""
   },
@@ -21,7 +21,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "capi_che_portai_a_bologna_2",
+    "object": "Capi che portai a bologna",
     "object_type": "",
     "object_taxon": ""
   },
@@ -34,7 +34,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "altri_capi_trovati_di_nuovo_3",
+    "object": "Altri capi trovati di nuovo",
     "object_type": "",
     "object_taxon": ""
   },
@@ -60,7 +60,7 @@
     "to_place": "Marsili, Luigi Ferdinando",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "",
-    "object": "mio_casino_6",
+    "object": "Mio casino",
     "object_type": "",
     "object_taxon": ""
   },
@@ -73,7 +73,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "",
-    "object": "strambotto_7",
+    "object": "Strambotto",
     "object_type": "",
     "object_taxon": ""
   },
@@ -86,7 +86,7 @@
     "to_place": "bosco_vicino_al_fiume_panaro",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bosco_vicino_al_fiume_panaro",
-    "object": "barca_1",
+    "object": "Barca",
     "object_type": "",
     "object_taxon": ""
   },
@@ -112,7 +112,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "scorpione_affricano_in_scatoletta_3",
+    "object": "Scorpione affricano in scatoletta",
     "object_type": "",
     "object_taxon": ""
   },
@@ -125,7 +125,7 @@
     "to_place": "Milan",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/milan",
-    "object": "sali_fossili_4",
+    "object": "Sali fossili",
     "object_type": "",
     "object_taxon": ""
   },
@@ -138,7 +138,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "foglio_1",
+    "object": "Foglio",
     "object_type": "",
     "object_taxon": ""
   },
@@ -151,7 +151,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "mascella_di_balena_2",
+    "object": "Mascella di balena",
     "object_type": "",
     "object_taxon": ""
   },
@@ -190,7 +190,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "testa_di_cane_carcaria_5",
+    "object": "Testa di cane carcaria",
     "object_type": "",
     "object_taxon": ""
   },
@@ -203,7 +203,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/oceano",
     "to_place_id": "",
-    "object": "sega_del_pesce_spada_6",
+    "object": "Sega del pesce spada",
     "object_type": "",
     "object_taxon": ""
   },
@@ -216,7 +216,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/ancona",
     "to_place_id": "",
-    "object": "spada_del_pesce_spada_7",
+    "object": "Spada del pesce spada",
     "object_type": "",
     "object_taxon": ""
   },
@@ -333,7 +333,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "miniere_d_argento_vivo_16",
+    "object": "Miniere d argento vivo",
     "object_type": "",
     "object_taxon": ""
   },
@@ -346,7 +346,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/ancona",
     "to_place_id": "",
-    "object": "vetri_colorati_17",
+    "object": "Vetri colorati",
     "object_type": "",
     "object_taxon": ""
   },
@@ -372,7 +372,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "cranio_di_tartaruga_marina_19",
+    "object": "Cranio di tartaruga marina",
     "object_type": "",
     "object_taxon": ""
   },
@@ -385,7 +385,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "teste_di_pelecani_20",
+    "object": "Teste di pelecani",
     "object_type": "",
     "object_taxon": ""
   },
@@ -398,7 +398,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/ancona",
     "to_place_id": "",
-    "object": "dattili_21",
+    "object": "Dattili",
     "object_type": "",
     "object_taxon": ""
   },
@@ -424,7 +424,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "sali_fossili_23",
+    "object": "Sali fossili",
     "object_type": "",
     "object_taxon": ""
   },
@@ -437,7 +437,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "muli_carichi_di_varie_cose_24",
+    "object": "Muli carichi di varie cose",
     "object_type": "",
     "object_taxon": ""
   },
@@ -450,7 +450,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/coste_dell_affrica",
     "to_place_id": "",
-    "object": "altre_cose_25",
+    "object": "Altre cose",
     "object_type": "",
     "object_taxon": ""
   },
@@ -476,7 +476,7 @@
     "to_place": "Quaranta Orsi",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "saluti_2",
+    "object": "Saluti",
     "object_type": "",
     "object_taxon": ""
   },
@@ -489,7 +489,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "seme_della_lenticola_palustre_3",
+    "object": "Seme della lenticola palustre",
     "object_type": "",
     "object_taxon": ""
   },
@@ -593,7 +593,7 @@
     "to_place": "Vallisneri, Antonio",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "parti_sali_fossili_2",
+    "object": "Parti sali fossili",
     "object_type": "",
     "object_taxon": ""
   },
@@ -607,7 +607,7 @@
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
     "object": "caso d'un sudor di sangue",
-    "object_type": "text",
+    "object_type": "organism",
     "object_taxon": ""
   },
   {
@@ -620,7 +620,7 @@
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
     "object": "caso d'una portentosa diabete",
-    "object_type": "text",
+    "object_type": "organism",
     "object_taxon": ""
   },
   {
@@ -632,7 +632,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "varie_cose_curiose_5",
+    "object": "Varie cose curiose",
     "object_type": "",
     "object_taxon": ""
   },
@@ -645,7 +645,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "copia_2",
+    "object": "Copia",
     "object_type": "",
     "object_taxon": ""
   },
@@ -658,7 +658,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "amore_3",
+    "object": "Amore",
     "object_type": "",
     "object_taxon": ""
   },
@@ -671,7 +671,7 @@
     "to_place": "Quaranta Orsi",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "saluti_4",
+    "object": "Saluti",
     "object_type": "",
     "object_taxon": ""
   },
@@ -697,7 +697,7 @@
     "to_place": "",
     "from_place_id": "https://w3id.org/vallisnieri/place/modena",
     "to_place_id": "",
-    "object": "francesi_3",
+    "object": "Francesi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -710,7 +710,7 @@
     "to_place": "",
     "from_place_id": "https://w3id.org/vallisnieri/place/ancona",
     "to_place_id": "",
-    "object": "400_uomini_4",
+    "object": "400 uomini",
     "object_type": "",
     "object_taxon": ""
   },
@@ -723,7 +723,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "scorpione_affricano_in_scatoletta_2",
+    "object": "Scorpione affricano in scatoletta",
     "object_type": "",
     "object_taxon": ""
   },
@@ -736,7 +736,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "cosarelle_3",
+    "object": "Cosarelle",
     "object_type": "",
     "object_taxon": ""
   },
@@ -762,7 +762,7 @@
     "to_place": "Autore Galleria",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "",
-    "object": "notizie_letterarie_2",
+    "object": "Notizie letterarie",
     "object_type": "",
     "object_taxon": ""
   },
@@ -775,7 +775,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "copia_del_trattatello_della_lenticola_3",
+    "object": "Copia del trattatello della lenticola",
     "object_type": "",
     "object_taxon": ""
   },
@@ -788,7 +788,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "scorpione_affricano_in_scatoletta_1",
+    "object": "Scorpione affricano in scatoletta",
     "object_type": "",
     "object_taxon": ""
   },
@@ -814,7 +814,7 @@
     "to_place": "Vallisneri, Antonio",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "libro_manoscritto_tradotto_dal_francese_lucimetro_3",
+    "object": "Libro manoscritto tradotto dal francese lucimetro",
     "object_type": "",
     "object_taxon": ""
   },
@@ -827,7 +827,7 @@
     "to_place": "Vallisneri, Antonio",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "miniere_senza_nome_4",
+    "object": "Miniere senza nome",
     "object_type": "",
     "object_taxon": ""
   },
@@ -853,7 +853,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "scorpione_affricano_in_scatoletta_1",
+    "object": "Scorpione affricano in scatoletta",
     "object_type": "",
     "object_taxon": ""
   },
@@ -866,7 +866,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "nido_delle_rondini_della_coccincina_2",
+    "object": "Nido delle rondini della coccincina",
     "object_type": "",
     "object_taxon": ""
   },
@@ -879,7 +879,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "camaleonte_vivo_3",
+    "object": "Camaleonte vivo",
     "object_type": "",
     "object_taxon": ""
   },
@@ -905,7 +905,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "altre_mie_bagatelle_5",
+    "object": "Altre mie bagatelle",
     "object_type": "",
     "object_taxon": ""
   },
@@ -918,7 +918,7 @@
     "to_place": "Manfredi, signor",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "frontespicio_del_libro_dell_illustrissimo_signor_manfredi_6",
+    "object": "Frontespicio del libro dell illustrissimo signor manfredi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -957,7 +957,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "camaleonte_vivo_ed_altre_cosette_3",
+    "object": "Camaleonte vivo ed altre cosette",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1009,7 +1009,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "camaleonte_vivo_3",
+    "object": "Camaleonte vivo",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1048,7 +1048,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "foglio_4",
+    "object": "Foglio",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1061,7 +1061,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "mosche_5",
+    "object": "Mosche",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1074,7 +1074,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "trattatello_de_mostri_6",
+    "object": "Trattatello de mostri",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1100,7 +1100,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/bologna",
     "to_place_id": "",
-    "object": "scatola_con_varie_bagatelle_2",
+    "object": "Scatola con varie bagatelle",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1113,7 +1113,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "pezzetto_di_nido_delle_rondini_della_coccincina_3",
+    "object": "Pezzetto di nido delle rondini della coccincina",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1126,7 +1126,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "pezzetto_di_vera_calamita_bianca_4",
+    "object": "Pezzetto di vera calamita bianca",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1139,7 +1139,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "conchette_impietrite_5",
+    "object": "Conchette impietrite",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1152,7 +1152,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "legno_che_genera_manna_6",
+    "object": "Legno che genera manna",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1165,7 +1165,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "seme_di_cannella",
+    "object": "Seme di cannella",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1178,7 +1178,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "fungo_campaniforme_con_semi_8",
+    "object": "Fungo campaniforme con semi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1217,7 +1217,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "ovaja_dell_anguilla_11",
+    "object": "Ovaja dell anguilla",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1230,7 +1230,7 @@
     "to_place": "Vallisneri, Antonio",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "opere_del_charas_1",
+    "object": "Opere del charas",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1243,7 +1243,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
     "to_place_id": "",
-    "object": "camaleonti_vivi_3",
+    "object": "Camaleonti vivi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1256,7 +1256,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "scatola_con_il_lucimetro_e_altre_bagatelle_4",
+    "object": "Scatola con il lucimetro e altre bagatelle",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1282,7 +1282,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "abozzi_dell_istoria_della_mosca_rosiseca_7",
+    "object": "Abozzi dell istoria della mosca rosiseca",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1295,7 +1295,7 @@
     "to_place": "",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "scatola_con_lucimetro_sali_e_fior_di_ferro_2",
+    "object": "Scatola con lucimetro sali e fior di ferro",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1308,7 +1308,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/africa",
     "to_place_id": "",
-    "object": "argomento_del_mio_libro_sopra_i_medesimi_camaleonti_3",
+    "object": "Argomento del mio libro sopra i medesimi camaleonti",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1321,7 +1321,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "",
-    "object": "disegni_dell_aculeo_della_mosca_rosiseca_4",
+    "object": "Disegni dell aculeo della mosca rosiseca",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1334,7 +1334,7 @@
     "to_place": "",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "",
-    "object": "copia_stampata_dall_albrizzi_5",
+    "object": "Copia stampata dall albrizzi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1347,7 +1347,7 @@
     "to_place": "",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "saluti_6",
+    "object": "Saluti",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1360,7 +1360,7 @@
     "to_place": "",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "inchini_7",
+    "object": "Inchini",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1373,7 +1373,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/costantinopoli",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "semi_giallici_gebelindi_1",
+    "object": "Semi giallici gebelindi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1386,7 +1386,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/costantinopoli",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "grani_simile_al_pepe_2",
+    "object": "Grani simile al pepe",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1399,7 +1399,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/costantinopoli",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "radice_simile_al_rapa_3",
+    "object": "Radice simile al rapa",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1412,7 +1412,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/costantinopoli",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "erba_chiogane_4",
+    "object": "Erba chiogane",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1425,7 +1425,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/costantinopoli",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "arsenico_giallo_orpimento_5",
+    "object": "Arsenico giallo orpimento",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1490,7 +1490,7 @@
     "to_place": "",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "foglie_di_brassiche_4",
+    "object": "Foglie di brassiche",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1516,7 +1516,7 @@
     "to_place": "Trevisan, Bernardo",
     "from_place_id": "https://w3id.org/vallisnieri/place/modena",
     "to_place_id": "",
-    "object": "carta_1",
+    "object": "Carta",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1555,7 +1555,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "discorso_della_mosca_rosiseca_4",
+    "object": "Discorso della mosca rosiseca",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1581,7 +1581,7 @@
     "to_place": "Padova",
     "from_place_id": "https://w3id.org/vallisnieri/place/bologna",
     "to_place_id": "https://w3id.org/vallisnieri/place/padoa",
-    "object": "morgagni_7",
+    "object": "Morgagni",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1594,7 +1594,7 @@
     "to_place": "Vallisneri, Antonio",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "valsalvi_8",
+    "object": "Valsalvi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1607,7 +1607,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "leggi_e_l_indice_dell_accademia_1",
+    "object": "Leggi e l indice dell accademia",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1633,7 +1633,7 @@
     "to_place": "Bologna",
     "from_place_id": "https://w3id.org/vallisnieri/place/costantinopoli",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "semi_di_gebelindi_3",
+    "object": "Semi di gebelindi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1646,7 +1646,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "estratto_4",
+    "object": "Estratto",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1685,7 +1685,7 @@
     "to_place": "Reggio Emilia",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
-    "object": "estratto_di_notizia_sopra_i_mostri_2",
+    "object": "Estratto di notizia sopra i mostri",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1698,7 +1698,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "semi_della_lenticola_palustre_3",
+    "object": "Semi della lenticola palustre",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1711,7 +1711,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "voduard_4",
+    "object": "Voduard",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1724,7 +1724,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "memorie_dell_accademia_di_parigi_1",
+    "object": "Memorie dell accademia di parigi",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1737,7 +1737,7 @@
     "to_place": "",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "disegno_del_cervello_di_bue_2",
+    "object": "Disegno del cervello di bue",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1750,7 +1750,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
     "to_place_id": "",
-    "object": "discorso_sopra_l_anguilla_con_la_figura_3",
+    "object": "Discorso sopra l anguilla con la figura",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1763,7 +1763,7 @@
     "to_place": "",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "morgagni_4",
+    "object": "Morgagni",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1815,7 +1815,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "ritratto_del_cervello_petrificato_3",
+    "object": "Ritratto del cervello petrificato",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1828,7 +1828,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "estratto_delle_mie_osservazioni_sopra_i_cervelli_4",
+    "object": "Estratto delle mie osservazioni sopra i cervelli",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1841,7 +1841,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "copia_della_disertazione_sopra_la_lenticola_5",
+    "object": "Copia della disertazione sopra la lenticola",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1854,7 +1854,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "cinquanta_copie_delle_figure_6",
+    "object": "Cinquanta copie delle figure",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1880,7 +1880,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "osservazioni_de_fonti_8",
+    "object": "Osservazioni de fonti",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1893,7 +1893,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "libri_del_seminario_9",
+    "object": "Libri del seminario",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1919,7 +1919,7 @@
     "to_place": "Vallisneri, Antonio",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "osservazioni_2",
+    "object": "Osservazioni",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1932,7 +1932,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "copia_dell_anguilla_3",
+    "object": "Copia dell anguilla",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1945,7 +1945,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "cervello_petrificato_1",
+    "object": "Cervello petrificato",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1958,7 +1958,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "semi_del_musco_ordinario_2",
+    "object": "Semi del musco ordinario",
     "object_type": "",
     "object_taxon": ""
   },
@@ -1997,7 +1997,7 @@
     "to_place": "",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "figure_2",
+    "object": "Figure",
     "object_type": "",
     "object_taxon": ""
   },
@@ -2010,7 +2010,7 @@
     "to_place": "",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "osservazioni_6",
+    "object": "Osservazioni",
     "object_type": "",
     "object_taxon": ""
   },
@@ -2036,7 +2036,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "",
     "to_place_id": "",
-    "object": "semi_di_musco_10",
+    "object": "Semi di musco",
     "object_type": "",
     "object_taxon": ""
   },
@@ -2049,7 +2049,7 @@
     "to_place": "Bologna",
     "from_place_id": "",
     "to_place_id": "https://w3id.org/vallisnieri/place/bologna",
-    "object": "scorpione_affricano_2",
+    "object": "Scorpione affricano",
     "object_type": "",
     "object_taxon": ""
   },
@@ -2075,7 +2075,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "camaleonte_femmina_2",
+    "object": "Camaleonte femmina",
     "object_type": "",
     "object_taxon": ""
   },
@@ -2088,7 +2088,7 @@
     "to_place": "Stancari, Vittorio Francesco",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "uova_di_camaleonte_3",
+    "object": "Uova di camaleonte",
     "object_type": "",
     "object_taxon": ""
   },
@@ -2101,7 +2101,7 @@
     "to_place": "Marsili, Luigi Ferdinando",
     "from_place_id": "https://w3id.org/vallisnieri/place/padoa",
     "to_place_id": "",
-    "object": "estratto_del_discorso_sul_cervello_di_bue_impietrito_4",
+    "object": "Estratto del discorso sul cervello di bue impietrito",
     "object_type": "",
     "object_taxon": ""
   }

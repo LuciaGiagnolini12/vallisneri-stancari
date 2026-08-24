@@ -908,7 +908,7 @@
     {
       "id": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
       "label": "caso d'un sudor di sangue",
-      "type": "text",
+      "type": "organism",
       "letters": [
         "VAL_STAN_006",
         "VAL_STAN_028"
@@ -917,7 +917,7 @@
     {
       "id": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
       "label": "caso d'una portentosa diabete",
-      "type": "text",
+      "type": "organism",
       "letters": [
         "VAL_STAN_006",
         "VAL_STAN_028"
@@ -1389,7 +1389,7 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "id": "https://w3id.org/vallisnieri/organism/salangana",
       "label": "rondini della Coccincina",
       "type": "organism",
       "letters": [
@@ -1459,7 +1459,7 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/text/camaleonte_vivo",
+      "id": "https://w3id.org/vallisnieri/text/camaleonte",
       "label": "camaleonte vivo",
       "type": "text",
       "letters": [
@@ -1593,7 +1593,7 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "id": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "label": "Orsi, marchese",
       "type": "person",
       "letters": [
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/charas",
-      "label": "Charas",
+      "label": "Charas, Moyse",
       "type": "person",
       "letters": [
         "VAL_STAN_016",
@@ -1709,7 +1709,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
-      "label": "Muralto, Gioanni",
+      "label": "Muralt, Johannes",
       "type": "person",
       "letters": [
         "VAL_STAN_016",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/paulini",
-      "label": "Paulini",
+      "label": "Paullini, Christian Franz",
       "type": "person",
       "letters": [
         "VAL_STAN_016"
@@ -2451,7 +2451,7 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/organism/cacat",
+      "id": "https://w3id.org/vallisnieri/organism/cacatu",
       "label": "cacatù",
       "type": "organism",
       "letters": [
@@ -6176,6 +6176,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "target": "https://w3id.org/vallisnieri/organism/terzana_rabbiosa",
       "type": "mentions",
       "letter": "VAL_STAN_006"
@@ -6194,6 +6206,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/terzana_rabbiosa",
       "type": "mentions",
       "letter": "VAL_STAN_006"
@@ -6212,6 +6236,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/organism/terzana_rabbiosa",
       "type": "mentions",
       "letter": "VAL_STAN_006"
@@ -6230,6 +6266,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "target": "https://w3id.org/vallisnieri/organism/terzana_rabbiosa",
       "type": "mentions",
       "letter": "VAL_STAN_006"
@@ -6243,6 +6291,18 @@
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "target": "https://w3id.org/vallisnieri/organism/pesci",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/frate",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/frate",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
       "type": "mentions",
       "letter": "VAL_STAN_006"
     },
@@ -6273,6 +6333,18 @@
     {
       "source": "https://w3id.org/vallisnieri/person/frate",
       "target": "https://w3id.org/vallisnieri/organism/q176957",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
       "type": "mentions",
       "letter": "VAL_STAN_006"
     },
@@ -6338,6 +6410,42 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/place/ancona",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/place/ancona",
+      "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
       "target": "https://w3id.org/vallisnieri/place/milan",
       "type": "mentions",
       "letter": "VAL_STAN_006"
@@ -6418,6 +6526,72 @@
       "source": "https://w3id.org/vallisnieri/organism/q176957",
       "target": "https://w3id.org/vallisnieri/place/ancona",
       "type": "mentions",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/organism/terzana_rabbiosa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/organism/insetti",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/organism/q42038",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/organism/pesci",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/organism/q176957",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/organism/terzana_rabbiosa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/organism/insetti",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/organism/q42038",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/organism/pesci",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_006"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/organism/q176957",
+      "type": "co-occurrence",
       "letter": "VAL_STAN_006"
     },
     {
@@ -9263,13 +9437,13 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "target": "https://w3id.org/vallisnieri/organism/salangana",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
-      "target": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "target": "https://w3id.org/vallisnieri/organism/salangana",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
@@ -9287,7 +9461,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "target": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "target": "https://w3id.org/vallisnieri/organism/salangana",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
@@ -9299,7 +9473,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
-      "target": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "target": "https://w3id.org/vallisnieri/organism/salangana",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
@@ -9323,7 +9497,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "target": "https://w3id.org/vallisnieri/organism/salangana",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
@@ -9341,13 +9515,13 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "target": "https://w3id.org/vallisnieri/organism/salangana",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/redi_francesco",
-      "target": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "target": "https://w3id.org/vallisnieri/organism/salangana",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
@@ -9448,31 +9622,31 @@
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/place/livorno",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/place/ancona",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/place/africa",
       "type": "mentions",
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/organism/minera_mercurio",
       "type": "mentions",
       "letter": "VAL_STAN_012"
@@ -9526,19 +9700,19 @@
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/organism/camaleonte",
       "type": "co-occurrence",
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/organism/scorpione_affricano",
       "type": "co-occurrence",
       "letter": "VAL_STAN_012"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
+      "source": "https://w3id.org/vallisnieri/organism/salangana",
       "target": "https://w3id.org/vallisnieri/organism/q42038",
       "type": "co-occurrence",
       "letter": "VAL_STAN_012"
@@ -10652,7 +10826,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
@@ -10682,7 +10856,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
-      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
@@ -10718,7 +10892,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
@@ -10753,37 +10927,37 @@
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/person/principi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
@@ -10897,37 +11071,37 @@
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/organism/camaleonte",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/organism/pesci",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/organism/q42038",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/organism/locusta",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/organism/scorpione_affricano",
       "type": "mentions",
       "letter": "VAL_STAN_015"
@@ -11179,55 +11353,55 @@
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/livorno",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/genoa",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/florence",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/inghilterra",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/africa",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/modena",
       "type": "mentions",
       "letter": "VAL_STAN_015"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/rubiera",
       "type": "mentions",
       "letter": "VAL_STAN_015"
@@ -14156,7 +14330,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/ferrante_imperato",
-      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "type": "co-occurrence",
       "letter": "VAL_STAN_018"
     },
@@ -14192,7 +14366,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/aristotele",
-      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "type": "co-occurrence",
       "letter": "VAL_STAN_018"
     },
@@ -14240,7 +14414,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/testi_lodovico",
-      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "type": "co-occurrence",
       "letter": "VAL_STAN_018"
     },
@@ -14252,7 +14426,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "target": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "type": "co-occurrence",
       "letter": "VAL_STAN_018"
     },
@@ -14263,7 +14437,7 @@
       "letter": "VAL_STAN_018"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
       "type": "co-occurrence",
       "letter": "VAL_STAN_018"
@@ -14341,7 +14515,7 @@
       "letter": "VAL_STAN_018"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/organism/anguilla",
       "type": "mentions",
       "letter": "VAL_STAN_018"
@@ -14437,7 +14611,7 @@
       "letter": "VAL_STAN_018"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/orsi_marchese",
+      "source": "https://w3id.org/vallisnieri/person/orsi_quaranta",
       "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "mentions",
       "letter": "VAL_STAN_018"
@@ -18161,13 +18335,13 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "target": "https://w3id.org/vallisnieri/organism/cacat",
+      "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/organism/cacat",
+      "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
@@ -18179,7 +18353,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/iddio",
-      "target": "https://w3id.org/vallisnieri/organism/cacat",
+      "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
@@ -18203,7 +18377,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/lancisi",
-      "target": "https://w3id.org/vallisnieri/organism/cacat",
+      "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
@@ -18215,7 +18389,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/martinelli",
-      "target": "https://w3id.org/vallisnieri/organism/cacat",
+      "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
@@ -18227,7 +18401,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
-      "target": "https://w3id.org/vallisnieri/organism/cacat",
+      "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
@@ -18292,25 +18466,25 @@
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/cacat",
+      "source": "https://w3id.org/vallisnieri/organism/cacatu",
       "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/cacat",
+      "source": "https://w3id.org/vallisnieri/organism/cacatu",
       "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/cacat",
+      "source": "https://w3id.org/vallisnieri/organism/cacatu",
       "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
       "type": "mentions",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/cacat",
+      "source": "https://w3id.org/vallisnieri/organism/cacatu",
       "target": "https://w3id.org/vallisnieri/place/costantinopoli",
       "type": "mentions",
       "letter": "VAL_STAN_022"
@@ -18323,24 +18497,24 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/organism/camaleonte",
-      "target": "https://w3id.org/vallisnieri/organism/cacat",
+      "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/cacat",
+      "source": "https://w3id.org/vallisnieri/organism/cacatu",
       "target": "https://w3id.org/vallisnieri/organism/gebelindi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/cacat",
+      "source": "https://w3id.org/vallisnieri/organism/cacatu",
       "target": "https://w3id.org/vallisnieri/organism/anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/organism/cacat",
+      "source": "https://w3id.org/vallisnieri/organism/cacatu",
       "target": "https://w3id.org/vallisnieri/organism/vipere",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
@@ -22447,6 +22621,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
       "target": "https://w3id.org/vallisnieri/organism/ecchini",
       "type": "mentions",
       "letter": "VAL_STAN_028"
@@ -22459,6 +22645,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
       "target": "https://w3id.org/vallisnieri/organism/ecchini",
       "type": "mentions",
       "letter": "VAL_STAN_028"
@@ -22471,6 +22669,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/quaranta_orsi",
       "target": "https://w3id.org/vallisnieri/organism/ecchini",
       "type": "mentions",
       "letter": "VAL_STAN_028"
@@ -22483,6 +22693,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/petiver_james",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petiver_james",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/petiver_james",
       "target": "https://w3id.org/vallisnieri/organism/ecchini",
       "type": "mentions",
       "letter": "VAL_STAN_028"
@@ -22495,6 +22717,18 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/tito_livio",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/tito_livio",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/tito_livio",
       "target": "https://w3id.org/vallisnieri/organism/ecchini",
       "type": "mentions",
       "letter": "VAL_STAN_028"
@@ -22502,6 +22736,18 @@
     {
       "source": "https://w3id.org/vallisnieri/person/tito_livio",
       "target": "https://w3id.org/vallisnieri/organism/bue",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/turnefort",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/turnefort",
+      "target": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
       "type": "mentions",
       "letter": "VAL_STAN_028"
     },
@@ -22614,6 +22860,18 @@
       "letter": "VAL_STAN_028"
     },
     {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/ecchini",
       "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "mentions",
@@ -22647,6 +22905,30 @@
       "source": "https://w3id.org/vallisnieri/organism/bue",
       "target": "https://w3id.org/vallisnieri/place/milan",
       "type": "mentions",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/organism/ecchini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+      "target": "https://w3id.org/vallisnieri/organism/bue",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/organism/ecchini",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+      "target": "https://w3id.org/vallisnieri/organism/bue",
+      "type": "co-occurrence",
       "letter": "VAL_STAN_028"
     },
     {

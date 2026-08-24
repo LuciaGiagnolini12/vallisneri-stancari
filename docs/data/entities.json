@@ -44,7 +44,7 @@
       "VAL_STAN_030"
     ],
     "viaf": "https://viaf.org/viaf/54168259/",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2662898",
     "gbif": "",
     "geonames": "",
     "note": ""
@@ -1549,7 +1549,7 @@
   {
     "id": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
     "slug": "caso_d_un_sudor_di_sangue",
-    "type": "text",
+    "type": "organism",
     "label": "caso d'un sudor di sangue",
     "letters": [
       "VAL_STAN_006",
@@ -1564,7 +1564,7 @@
   {
     "id": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
     "slug": "caso_d_una_portentosa_diabete",
-    "type": "text",
+    "type": "organism",
     "label": "caso d'una portentosa diabete",
     "letters": [
       "VAL_STAN_006",
@@ -2406,8 +2406,8 @@
     "note": ""
   },
   {
-    "id": "https://w3id.org/vallisnieri/organism/rondini_della_coccincina",
-    "slug": "rondini_della_coccincina",
+    "id": "https://w3id.org/vallisnieri/organism/salangana",
+    "slug": "salangana",
     "type": "organism",
     "label": "rondini della Coccincina",
     "letters": [
@@ -2533,8 +2533,8 @@
     "note": ""
   },
   {
-    "id": "https://w3id.org/vallisnieri/text/camaleonte_vivo",
-    "slug": "camaleonte_vivo",
+    "id": "https://w3id.org/vallisnieri/text/camaleonte",
+    "slug": "camaleonte",
     "type": "text",
     "label": "camaleonte vivo",
     "letters": [
@@ -2775,8 +2775,8 @@
     "note": ""
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/orsi_marchese",
-    "slug": "orsi_marchese",
+    "id": "https://w3id.org/vallisnieri/person/orsi_quaranta",
+    "slug": "orsi_quaranta",
     "type": "person",
     "label": "Orsi, marchese",
     "letters": [
@@ -2955,7 +2955,7 @@
     "id": "https://w3id.org/vallisnieri/person/charas",
     "slug": "charas",
     "type": "person",
-    "label": "Charas",
+    "label": "Charas, Moyse",
     "letters": [
       "VAL_STAN_016",
       "VAL_STAN_017"
@@ -2970,13 +2970,13 @@
     "id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
     "slug": "gioanni_de_muralto",
     "type": "person",
-    "label": "Muralto, Gioanni",
+    "label": "Muralt, Johannes",
     "letters": [
       "VAL_STAN_016",
       "VAL_STAN_017"
     ],
-    "viaf": "",
-    "wikidata": "",
+    "viaf": "http://viaf.org/viaf/59876646 ",
+    "wikidata": "https://www.wikidata.org/entity/Q117161",
     "gbif": "",
     "geonames": "",
     "note": "[AMBIGUO] Nome non specificato"
@@ -2985,12 +2985,12 @@
     "id": "https://w3id.org/vallisnieri/person/paulini",
     "slug": "paulini",
     "type": "person",
-    "label": "Paulini",
+    "label": "Paullini, Christian Franz",
     "letters": [
       "VAL_STAN_016"
     ],
     "viaf": "https://viaf.org/viaf/13102571/",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q27585092",
     "gbif": "",
     "geonames": "",
     "note": "[AMBIGUO] Nome non specificato"
@@ -3225,7 +3225,7 @@
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q16575455",
     "gbif": "",
     "geonames": "",
     "note": "",
@@ -3661,7 +3661,7 @@
       "VAL_STAN_027"
     ],
     "viaf": "https://viaf.org/viaf/7524651/",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q868",
     "gbif": "",
     "geonames": "",
     "note": "[AMBIGUO] citato"
@@ -3972,7 +3972,7 @@
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q43511",
     "gbif": "",
     "geonames": "",
     "note": "",
@@ -4057,7 +4057,7 @@
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q925",
     "gbif": "",
     "geonames": "",
     "note": "",
@@ -4074,7 +4074,7 @@
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q214863",
     "gbif": "",
     "geonames": "",
     "note": "",
@@ -4354,15 +4354,15 @@
     "note": ""
   },
   {
-    "id": "https://w3id.org/vallisnieri/organism/cacat",
-    "slug": "cacat",
+    "id": "https://w3id.org/vallisnieri/organism/cacatu",
+    "slug": "cacatu",
     "type": "organism",
     "label": "cacatù",
     "letters": [
       "VAL_STAN_022"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q827257",
     "gbif": "",
     "geonames": "",
     "note": "",

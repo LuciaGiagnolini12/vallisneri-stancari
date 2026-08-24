@@ -11,7 +11,7 @@
         "text": "Charas",
         "entity_id": "https://w3id.org/vallisnieri/person/charas",
         "type": "person",
-        "label": "Charas"
+        "label": "Charas, Moyse"
       }
     },
     {
@@ -50,7 +50,7 @@
         "text": "Gioanni de Muralto",
         "entity_id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
         "type": "person",
-        "label": "Muralto, Gioanni"
+        "label": "Muralt, Johannes"
       }
     },
     {

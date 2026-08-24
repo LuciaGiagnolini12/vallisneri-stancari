@@ -3156,11 +3156,12 @@
     owl:sameAs <https://www.wikidata.org/entity/Q21439438> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
-<https://w3id.org/vallisnieri/organism/cacat> a dsw:IndividualOrganism ;
+<https://w3id.org/vallisnieri/organism/cacatu> a dsw:IndividualOrganism ;
     rdfs:label "cacatù"@it ;
     dsw:hasIdentification <https://w3id.org/vallisnieri/identification/cacat_val_stan_022> ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/cacat_val_stan_022> ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_022> ;
+    owl:sameAs <https://www.wikidata.org/entity/Q827257> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/organism/calamo_aromatico> a dwc:PreservedSpecimen ;
@@ -3300,6 +3301,7 @@
     dsw:hasIdentification <https://w3id.org/vallisnieri/identification/finocchio_val_stan_019> ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/finocchio_val_stan_019> ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_019> ;
+    owl:sameAs <https://www.wikidata.org/entity/Q43511> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/organism/fiori_d_arancio> a dwc:PreservedSpecimen ;
@@ -3405,6 +3407,7 @@
     dsw:hasIdentification <https://w3id.org/vallisnieri/identification/manna_val_stan_016> ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/manna_val_stan_016> ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_016> ;
+    owl:sameAs <https://www.wikidata.org/entity/Q16575455> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/organism/mercurio> a dsw:IndividualOrganism ;
@@ -3412,6 +3415,7 @@
     dsw:hasIdentification <https://w3id.org/vallisnieri/identification/mercurio_val_stan_019> ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/mercurio_val_stan_019> ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_019> ;
+    owl:sameAs <https://www.wikidata.org/entity/Q925> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/organism/midollo> a dsw:IndividualOrganism ;
@@ -3634,13 +3638,6 @@
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_016> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
-<https://w3id.org/vallisnieri/organism/rondini_della_coccincina> a dsw:IndividualOrganism ;
-    rdfs:label "rondini della Coccincina"@it ;
-    dsw:hasIdentification <https://w3id.org/vallisnieri/identification/swallows_val_stan_012> ;
-    crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/swallows_val_stan_012> ;
-    crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_012> ;
-    prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
-
 <https://w3id.org/vallisnieri/organism/rosai> a dsw:IndividualOrganism ;
     rdfs:label "rosai"@it ;
     dsw:hasIdentification <https://w3id.org/vallisnieri/identification/rosai_val_stan_014> ;
@@ -3653,6 +3650,13 @@
     dsw:hasIdentification <https://w3id.org/vallisnieri/identification/rosa_val_stan_016> ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/rosa_val_stan_016> ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_016> ;
+    prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
+
+<https://w3id.org/vallisnieri/organism/salangana> a dsw:IndividualOrganism ;
+    rdfs:label "rondini della Coccincina"@it ;
+    dsw:hasIdentification <https://w3id.org/vallisnieri/identification/swallows_val_stan_012> ;
+    crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/swallows_val_stan_012> ;
+    crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_012> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/organism/sangue> a dsw:IndividualOrganism ;
@@ -3788,6 +3792,7 @@
     dsw:hasIdentification <https://w3id.org/vallisnieri/identification/vitriolo_val_stan_019> ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/vitriolo_val_stan_019> ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_019> ;
+    owl:sameAs <https://www.wikidata.org/entity/Q214863> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/organism/vomitori> a dsw:IndividualOrganism ;
@@ -3820,7 +3825,8 @@
         "[AMBIGUO] filosofo"@it ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_018>,
         <https://w3id.org/vallisnieri/letter/VAL_STAN_027> ;
-    owl:sameAs <https://viaf.org/viaf/7524651/> ;
+    owl:sameAs <https://viaf.org/viaf/7524651/>,
+        <https://www.wikidata.org/entity/Q868> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/person/bellini_lorenzo> a crm:E21_Person ;
@@ -3886,7 +3892,7 @@
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/person/charas> a crm:E21_Person ;
-    rdfs:label "Charas"@it ;
+    rdfs:label "Charas, Moyse"@it ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/charas_val_stan_017>,
         <https://w3id.org/vallisnieri/appellation/monsieur_charas_val_stan_016> ;
     crm:P3_has_note "[AMBIGUO] Autore di opere mediche"@it,
@@ -3942,14 +3948,15 @@
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/person/gioanni_de_muralto> a crm:E21_Person ;
-    rdfs:label "Muralto, Gioanni"@it,
-        "Muralto, Gioanni de"@it ;
+    rdfs:label "Muralt, Johannes"@it ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/gioanni_de_muralto_val_stan_016>,
         <https://w3id.org/vallisnieri/appellation/gioanni_de_muralto_val_stan_017> ;
     crm:P3_has_note "[AMBIGUO] Autore di opere mediche"@it,
         "[AMBIGUO] Nome non specificato"@it ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_016>,
         <https://w3id.org/vallisnieri/letter/VAL_STAN_017> ;
+    owl:sameAs <https://w3id.org/vallisnieri/>,
+        <https://www.wikidata.org/entity/Q117161> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/person/hermann_jakob> a crm:E21_Person ;
@@ -4045,7 +4052,7 @@
     owl:sameAs <https://w3id.org/vallisnieri/> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
-<https://w3id.org/vallisnieri/person/orsi_marchese> a crm:E21_Person ;
+<https://w3id.org/vallisnieri/person/orsi_quaranta> a crm:E21_Person ;
     rdfs:label "Orsi, marchese"@it ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/marchese_orsi_val_stan_015>,
         <https://w3id.org/vallisnieri/appellation/orsi_marchese_val_stan_018> ;
@@ -4074,11 +4081,12 @@
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/person/paulini> a crm:E21_Person ;
-    rdfs:label "Paulini"@it ;
+    rdfs:label "Paullini, Christian Franz"@it ;
     crm:P1_is_identified_by <https://w3id.org/vallisnieri/appellation/paulini_val_stan_016> ;
     crm:P3_has_note "[AMBIGUO] Nome non specificato"@it ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_016> ;
-    owl:sameAs <https://viaf.org/viaf/13102571/> ;
+    owl:sameAs <https://viaf.org/viaf/13102571/>,
+        <https://www.wikidata.org/entity/Q27585092> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
 <https://w3id.org/vallisnieri/person/petesino_mantoano> a crm:E21_Person ;
@@ -4395,7 +4403,8 @@
         <https://w3id.org/vallisnieri/letter/VAL_STAN_028> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
-<https://w3id.org/vallisnieri/text/camaleonte_vivo> a crm:E31_Document ;
+<https://w3id.org/vallisnieri/text/camaleonte> a dsw:IndividualOrganism,
+        crm:E31_Document ;
     rdfs:label "camaleonte"@it,
         "camaleonte vivo"@it ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_013>,
@@ -10079,13 +10088,15 @@
     skos:altLabel "S. Giustina"@it ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
-<https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue> a crm:E31_Document ;
+<https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue> a dsw:IndividualOrganism,
+        crm:E31_Document ;
     rdfs:label "caso d'un sudor di sangue"@it ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_006>,
         <https://w3id.org/vallisnieri/letter/VAL_STAN_028> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
-<https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete> a crm:E31_Document ;
+<https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete> a dsw:IndividualOrganism,
+        crm:E31_Document ;
     rdfs:label "caso d'una portentosa diabete"@it ;
     crm:P70i_is_documented_in <https://w3id.org/vallisnieri/letter/VAL_STAN_006>,
         <https://w3id.org/vallisnieri/letter/VAL_STAN_028> ;
@@ -11064,6 +11075,7 @@
         <https://w3id.org/vallisnieri/letter/VAL_STAN_027>,
         <https://w3id.org/vallisnieri/letter/VAL_STAN_029>,
         <https://w3id.org/vallisnieri/letter/VAL_STAN_030> ;
-    owl:sameAs <https://viaf.org/viaf/54168259/> ;
+    owl:sameAs <https://viaf.org/viaf/54168259/>,
+        <https://www.wikidata.org/entity/Q2662898> ;
     prov:wasAttributedTo <https://w3id.org/vallisnieri/agent/llm_extraction> .
 
