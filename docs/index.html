@@ -12,27 +12,22 @@
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <style>
 :root{
-  /* Base — aged parchment and sepia ink */
   --ink:#1a1208;
   --faded:#7a6e60;
   --line:#d8cfc0;
   --bg:#f2ece0;
   --paper:#faf7f0;
 
-  /* Accent — burnished ochre / gold leaf */
   --gold:#8b6318;
   --gold-l:#fdf4dc;
 
-  /* Natural pigments for entity types (including text/works) */
-  --person:#1c3a6e;        /* Prussian blue */
+  --person:#1c3a6e;
   --person-l:#eaeff7;
-  --place:#7a3e18;         /* Raw sienna */
+  --place:#7a3e18;
   --place-l:#f6ece4;
-  --org:#2a5c34;           /* Verdigris / botanical green */
+  --org:#2a5c34;
   --org-l:#e4f0e8;
-  --inst:#7a2830;          /* Madder lake */
-  --inst-l:#f6e8ea;
-  --text-type:#5e35b1;     /* Deep purple for texts/works */
+  --text-type:#5e35b1;
   --text-type-l:#ede7f6;
 
   --serif:'EB Garamond', 'Georgia', serif;
@@ -42,7 +37,6 @@
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{height:100%;font-family:var(--sans);background:var(--bg);color:var(--ink);}
 
-/* ── Nav ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2e8d8;
   display:flex;align-items:center;padding:0 24px;height:52px;gap:0;box-shadow:0 2px 8px rgba(0,0,0,.2);}
 .nav-brand{font-family:var(--serif);font-size:15px;font-style:italic;opacity:.95;margin-right:28px;white-space:nowrap;}
@@ -52,11 +46,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .nav-link:hover{opacity:1;background:rgba(255,255,255,.1);}
 .nav-link.on{opacity:1;background:rgba(255,255,255,.15);box-shadow:inset 0 -2px 0 var(--gold);}
 
-/* ── Pages ── */
 .page{display:none;min-height:calc(100vh - 52px);margin-top:52px;}
 .page.on{display:block;}
 
-/* ── Home ── */
 .home-hero{background:#1e1610;color:#f2e8d8;padding:64px 48px 48px;
   background-image:linear-gradient(135deg,#1e1610 50%,#2a1e10);}
 .home-hero h1{font-family:var(--serif);font-size:36px;font-style:italic;
@@ -80,9 +72,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .lc-counts{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;}
 .lc-badge{font-size:9px;padding:1px 5px;border-radius:2px;}
 
-/* ─────────────────────────────────────────────────────────────
-   ── LETTERS SECTION ──
-   ───────────────────────────────────────────────────────────── */
 .letter-layout{
   display:grid;
   grid-template-columns:280px minmax(0,1fr) 300px;
@@ -183,12 +172,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 
 .letter-text{font-family:var(--serif);font-size:17px;line-height:2.2;color:#241c14;}
 
-/* Entities highlighted in text */
 .ent{border-radius:2px;padding:1px 3px;cursor:pointer;transition:all .15s ease;display:inline-block;margin:0 1px;}
 .ent.person {background:var(--person-l);color:var(--person);border-bottom:2px solid var(--person);}
 .ent.place  {background:var(--place-l); color:var(--place); border-bottom:2px solid var(--place);}
 .ent.organism{background:var(--org-l);  color:var(--org);   border-bottom:2px solid var(--org);}
-.ent.institution{background:var(--inst-l);color:var(--inst);border-bottom:2px solid var(--inst);}
 .ent.text   {background:var(--text-type-l);color:var(--text-type);border-bottom:2px solid var(--text-type);}
 .ent:hover{filter:brightness(.88);transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.1);}
 .ent.highlighted{outline:2px solid var(--gold);background:var(--gold-l)!important;}
@@ -203,7 +190,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .le-group-title.person{color:var(--person);background:rgba(28,58,110,.05);}
 .le-group-title.place{color:var(--place);background:rgba(122,62,24,.05);}
 .le-group-title.organism{color:var(--org);background:rgba(42,92,52,.05);}
-.le-group-title.institution{color:var(--inst);background:rgba(122,40,48,.05);}
 .le-group-title.text{color:var(--text-type);background:rgba(94,53,177,.05);}
 
 .le-item{
@@ -214,12 +200,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .le-item.person{border-left-color:var(--person);}
 .le-item.place{border-left-color:var(--place);}
 .le-item.organism{border-left-color:var(--org);}
-.le-item.institution{border-left-color:var(--inst);}
 .le-item.text{border-left-color:var(--text-type);}
 .le-item.highlighted{background:var(--gold-l);font-weight:600;}
 .le-empty{padding:24px 18px;font-size:12px;color:var(--faded);font-style:italic;text-align:center;}
 
-/* Popup */
 .entity-popup{
   position:fixed;z-index:200;background:var(--paper);border:1px solid var(--line);
   border-radius:6px;box-shadow:0 10px 30px rgba(26,18,8,.18);padding:16px 20px;
@@ -235,7 +219,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .ep-close{position:absolute;top:10px;right:12px;cursor:pointer;color:var(--faded);font-size:14px;background:none;border:none;padding:2px;}
 .ep-close:hover{color:var(--ink);}
 
-/* Entities List Page (Autoconsistent Cards) */
 .entities-wrap{padding:32px 48px;}
 .entities-toolbar{display:flex;gap:8px;margin-bottom:20px;align-items:center;flex-wrap:wrap;}
 .ent-filter{padding:6px 14px;border:1px solid var(--line);border-radius:16px;font-size:11px;cursor:pointer;background:white;transition:all .15s;}
@@ -260,7 +243,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .ep-letter-link{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 5px;border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:2px;background:white;transition:all .1s;}
 .ep-letter-link:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
 
-/* Network */
 #network-wrap{height:calc(100vh - 52px);position:relative;overflow:hidden;}
 #network-svg{width:100%;height:100%;}
 .node circle{stroke:white;stroke-width:1.5;cursor:pointer;}
@@ -289,7 +271,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .net-tt-letter{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 5px;border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;background:white;}
 .net-tt-letter:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
 
-/* Timeline */
 .tl-letter{margin-bottom:24px;border-left:3px solid var(--line);padding-left:16px;position:relative;cursor:pointer;transition:all .15s;}
 .tl-letter:hover{border-left-color:var(--gold);transform:translateX(2px);}
 .tl-dot{width:10px;height:10px;border-radius:50%;background:var(--gold);position:absolute;left:-7px;top:4px;border:2px solid var(--bg);box-shadow:0 0 0 1px var(--gold);}
@@ -302,13 +283,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .tl-ent.person  {background:var(--person-l);color:var(--person);border-color:#c8d4e8;}
 .tl-ent.place   {background:var(--place-l); color:var(--place); border-color:#e0cec8;}
 .tl-ent.organism{background:var(--org-l);   color:var(--org);   border-color:#c0dcc8;}
-.tl-ent.institution{background:var(--inst-l);color:var(--inst); border-color:#e0d0c0;}
 .tl-ent.text    {background:var(--text-type-l);color:var(--text-type);border-color:#d1c4e9;}
 .tl-ent.transfer{background:var(--gold-l);  color:var(--gold);  border-color:#e0c878;}
 .tl-ent:hover{filter:brightness(.9);transform:translateY(-1px);}
 .tl-year-marker{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faded);padding:16px 0 8px;border-top:1px solid var(--line);margin-bottom:12px;margin-top:6px;}
 
-/* Map & SPARQL */
 #map-wrap{height:calc(100vh - 52px);}
 #map{height:100%;width:100%;}
 .sparql-wrap{padding:32px 48px;max-width:960px;}
@@ -328,7 +307,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 #sparql-results tr:hover td{background:var(--gold-l);}
 .sparql-loading{font-size:12.5px;color:var(--faded);padding:16px 0;}
 
-/* Utility */
 .page-header{padding:28px 32px 0;}
 .page-header h2{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold);}
 .page-header p{font-size:12px;color:var(--faded);margin-top:4px;}
@@ -398,7 +376,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   <div class="entities-wrap">
     <div class="page-header" style="padding-left:0">
       <h2>Entities & Works of the corpus</h2>
-      <p>Persons, places, organisms, institutions, and cited texts/works reconciled with LOD resources.</p>
+      <p>Persons, places, organisms, and cited texts/works reconciled with LOD resources.</p>
     </div>
     <div class="entities-toolbar" style="margin-top:14px">
       <button class="ent-filter on" onclick="filterEnt('all',this)">All</button>
@@ -422,8 +400,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
         <button class="net-fbtn on" data-type="person" onclick="netToggle('type','person',this)">Persons</button>
         <button class="net-fbtn on" data-type="place" onclick="netToggle('type','place',this)">Places</button>
         <button class="net-fbtn on" data-type="organism" onclick="netToggle('type','organism',this)">Organisms</button>
-        <button class="net-fbtn on" data-type="institution" onclick="netToggle('type','institution',this)">Institutions</button>
-        <button class="net-fbtn on" data-type="text" onclick="netToggle('type','text',this)">Texts</button>
+        <button class="net-fbtn on" data-type="text" onclick="netToggle('text',this)">Texts</button>
       </div>
       <div class="net-filters">
         <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Edges:</span>
@@ -443,7 +420,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <div><span class="dot" style="background:var(--person)"></span> Person</div>
       <div><span class="dot" style="background:var(--place)"></span> Place</div>
       <div><span class="dot" style="background:var(--org)"></span> Organism</div>
-      <div><span class="dot" style="background:var(--inst)"></span> Institution</div>
       <div><span class="dot" style="background:var(--text-type)"></span> Text / Work</div>
       <div style="font-size:9px;color:var(--faded);margin-top:2px;padding-left:18px">Size = n° of letters</div>
     </div>
@@ -484,11 +460,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <div class="page" id="pg-sparql">
   <div class="sparql-wrap">
     <h2>SPARQL Interface</h2>
-    <p>Query the corpus knowledge graph. The SPARQL engine runs entirely in the browser.</p>
+    <p>Query the corpus knowledge graph directly in your browser using Comunica.</p>
     <div class="sparql-examples">
       <div class="sparql-ex" onclick="setQuery('persons')">All persons</div>
       <div class="sparql-ex" onclick="setQuery('organisms')">Organisms with taxon</div>
       <div class="sparql-ex" onclick="setQuery('places')">Reconciled places</div>
+      <div class="sparql-ex" onclick="setQuery('texts')">Texts & Works</div>
       <div class="sparql-ex" onclick="setQuery('transfers')">Specimen transfers</div>
       <div class="sparql-ex" onclick="setQuery('network')">Network of correspondents</div>
     </div>
@@ -499,7 +476,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   </div>
 </div>
 
-<!-- Popup (Usato solo nel testo delle lettere) -->
+<!-- Popup (Attivo solo nel testo delle lettere) -->
 <div class="entity-popup" id="entity-popup">
   <button class="ep-close" onclick="closePopup()">✕</button>
   <div class="ep-type" id="ep-type"></div>
@@ -577,13 +554,13 @@ async function initHome() {
     <div class="stat"><div class="stat-n">${orgs}</div><div class="stat-l">Organisms</div></div>
     <div class="stat"><div class="stat-n">${texts}</div><div class="stat-l">Texts & Works</div></div>`;
 
-  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)',text:'var(--text-type)'};
+  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
   document.getElementById('home-letters').innerHTML = letters.map(l=>`
     <div class="letter-card" onclick="openLetter('${l.id}')">
       <div class="lc-id">${l.id}</div>
       <div class="lc-date">${l.date||'s.d.'}</div>
       <div class="lc-counts">
-        ${Object.entries(l.counts||{}).map(([t,n])=>
+        ${Object.entries(l.counts||{}).filter(([t])=>t!=='institution').map(([t,n])=>
           `<span class="lc-badge" style="background:${typeColors[t]||'#ccc'}20;color:${typeColors[t]||'#666'}">${n} ${t}</span>`
         ).join('')}
       </div>
@@ -646,8 +623,8 @@ function renderLetterEntities(letterId){
     if(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
     return true;
   });
-  const labels = {person:'Persons',place:'Places',organism:'Organisms',institution:'Institutions',text:'Texts & Works'};
-  const types = ['person','place','organism','institution','text'];
+  const labels = {person:'Persons',place:'Places',organism:'Organisms',text:'Texts & Works'};
+  const types = ['person','place','organism','text'];
   let html = '<div class="le-header">Entities in this letter</div>';
   if(!entities.length){ c.innerHTML = html + '<div class="le-empty">No entities associated with this letter.</div>'; return; }
   types.forEach(type=>{
@@ -692,7 +669,6 @@ async function selectLetter(id) {
       if(!seg.entity) return escHtml(seg.text);
       const e = seg.entity;
       const cls = e.type || 'unknown';
-      // Evita di rendere cliccabile come entità la lettera stessa
       if(e.entity_id?.includes('VAL_STAN_') || e.label?.startsWith('VAL_STAN_')) return escHtml(seg.text);
       return `<span class="ent ${cls}"
         data-entity-id="${escAttr(e.entity_id)}"
@@ -745,14 +721,13 @@ function filterEnt(type, btn) {
 
 function renderEntities() {
   const entities = (DATA['entities'] || []).filter(e => {
-    // Rimuove rigorosamente le lettere scambiate per opere o testi
     if (e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
     return true;
   });
 
   const q = (document.getElementById('ent-search')?.value||'').toLowerCase();
-  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)',text:'var(--text-type)'};
-  const labels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text / Work'};
+  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
+  const labels = {person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
 
   const filtered = entities.filter(e=>{
     if(entFilter!=='all' && e.type!==entFilter) return false;
@@ -761,7 +736,6 @@ function renderEntities() {
   });
 
   document.getElementById('ent-grid').innerHTML = filtered.map(e=>{
-    // Recupera il link del catalogo direttamente dal dataset (senza fallback automatici)
     const catalogueLink = e.catalogue || e.opac || e.url;
 
     const uris = [
@@ -791,11 +765,11 @@ function renderEntities() {
 }
 
 let netSim=null, netNodes=[], netEdges=[], netNodeSel=null, netLinkSel=null;
-let netTypeFilters=new Set(['person','place','organism','institution','text']);
+let netTypeFilters=new Set(['person','place','organism','text']);
 let netEdgeFilters=new Set(['transfer','co-occurrence','mentions']);
 let netLetterF='';
-const netColors={person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',institution:'#7a2830',text:'#5e35b1',default:'#9a8a78'};
-const netTypeLabels={person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text / Work'};
+const netColors={person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',text:'#5e35b1',default:'#9a8a78'};
+const netTypeLabels={person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
 
 async function initNetwork() {
   if(networkBuilt) return;
@@ -884,7 +858,7 @@ function netToggle(dim, val, btn){
   if(filters.has(val)){ filters.delete(val); btn.classList.remove('on'); }
   else { filters.add(val); btn.classList.add('on'); }
   const allBtns = dim==='type'
-    ? ['person','place','organism','institution','text']
+    ? ['person','place','organism','text']
     : ['transfer','co-occurrence','mentions'];
   const allBtn = btn.closest('.net-filters').querySelector('[data-'+dim+'="all"]');
   if(allBtn) allBtn.classList.toggle('on', allBtns.every(v=>filters.has(v)));
@@ -894,7 +868,7 @@ function netToggle(dim, val, btn){
 function netToggleAll(dim, btn){
   const filters = dim==='type' ? netTypeFilters : netEdgeFilters;
   const allVals = dim==='type'
-    ? ['person','place','organism','institution','text']
+    ? ['person','place','organism','text']
     : ['transfer','co-occurrence','mentions'];
   const allOn = btn.classList.contains('on');
   if(allOn){ filters.clear(); btn.classList.remove('on'); }
@@ -1114,6 +1088,11 @@ SELECT ?place ?label ?wikidata WHERE {
          <https://w3id.org/vallisnieri/label> ?label .
   OPTIONAL { ?place <https://w3id.org/vallisnieri/wikidataQID> ?wikidata }
 } LIMIT 20`,
+  texts: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+SELECT ?text ?label WHERE {
+  ?text a crm:E33_Linguistic_Object ;
+        <https://w3id.org/vallisnieri/label> ?label .
+} LIMIT 20`,
   transfers: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 SELECT ?event ?from ?to ?object WHERE {
   ?event a crm:E10_Transfer_of_Custody ;
@@ -1138,98 +1117,134 @@ function setQuery(key) { document.getElementById('sparql-editor').value = SPARQL
 
 async function initSparql() {
   setQuery('persons');
-  setTimeout(()=>loadComunica().catch(()=>{}), 1000);
 }
 
 let _comunica = null;
 
 async function loadComunica() {
   if (_comunica) return _comunica;
-  
-  // Verifica preventiva se Comunica è già globale
-  if (typeof Comunica !== 'undefined' && Comunica.QueryEngine) {
-    _comunica = new Comunica.QueryEngine();
+
+  try {
+    const { QueryEngine } = await import(
+      'https://cdn.jsdelivr.net/npm/@comunica/query-sparql@latest/lib/index-browser.js'
+    );
+
+    _comunica = new QueryEngine();
     return _comunica;
+
+  } catch (e) {
+    console.error('Comunica load failed:', e);
+    throw new Error(
+      'Cannot load the SPARQL engine. Check the network connection or CSP settings.'
+    );
   }
-
-  const cdns = [
-    'https://cdn.jsdelivr.net/npm/@comunica/query-sparql@2.10.0/browser/comunica-browser.js',
-    'https://unpkg.com/@comunica/query-sparql@2.10.0/browser/comunica-browser.js'
-  ];
-
-  for (const cdn of cdns) {
-    try {
-      await new Promise((resolve, reject) => {
-        const s = document.createElement('script');
-        s.src = cdn;
-        s.crossOrigin = 'anonymous';
-        s.onload = resolve;
-        s.onerror = reject;
-        document.head.appendChild(s);
-      });
-
-      if (typeof Comunica !== 'undefined' && Comunica.QueryEngine) {
-        _comunica = new Comunica.QueryEngine();
-        return _comunica;
-      }
-    } catch (e) {
-      console.warn("CDN failed, trying next...", cdn);
-      continue;
-    }
-  }
-  
-  throw new Error("Impossibile caricare il motore SPARQL (Comunica) via CDN. Verifica la connessione o i blocchi di rete.");
 }
 
 async function runSparql() {
-  const query = document.getElementById('sparql-editor').value.trim();
-  if(!query) return;
+  const query = document
+    .getElementById('sparql-editor')
+    .value
+    .trim();
+
+  if (!query) return;
+
   const resultsEl = document.getElementById('sparql-results');
-  resultsEl.innerHTML = '<div class="sparql-loading">Caricamento del motore SPARQL in corso…</div>';
-  
+
+  resultsEl.innerHTML =
+    '<div class="sparql-loading">Loading SPARQL engine…</div>';
+
   try {
     const engine = await loadComunica();
-    resultsEl.innerHTML = '<div class="sparql-loading">Esecuzione della query nel grafo…</div>';
-    
-    const base = window.location.href.split('#')[0].replace(/\/[^/]*$/, '/');
-    const ttlUrl = base + 'data/corpus.ttl';
-    
-    const bindingsStream = await engine.queryBindings(query, { sources: [{ type: 'file', value: ttlUrl }] });
+
+    resultsEl.innerHTML =
+      '<div class="sparql-loading">Running query…</div>';
+
+    const ttlUrl = new URL(
+      'data/corpus.ttl',
+      window.location.href
+    ).href;
+
+    const bindingsStream = await engine.queryBindings(query, {
+      sources: [ttlUrl]
+    });
+
     const bindings = await bindingsStream.toArray();
-    
-    if(!bindings.length){
-      resultsEl.innerHTML = '<p style="color:var(--faded);font-size:12px">Nessun risultato trovato.</p>';
+
+    if (!bindings.length) {
+      resultsEl.innerHTML =
+        '<p style="color:var(--faded);font-size:12px">No results found.</p>';
       return;
     }
-    
+
     const vars = [...bindings[0].keys()].map(k => k.value);
-    const rows = bindings.map(b =>
-      `<tr>${vars.map(v => {
-        const val = b.get(v)?.value || '';
-        const display = val.startsWith('http') ? `<a href="${val}" target="_blank">${val.split('/').pop()}</a>` : escHtml(val);
-        return `<td>${display}</td>`;
-      }).join('')}</tr>`
-    ).join('');
-    
-    resultsEl.innerHTML = `<p style="font-size:10px;color:var(--faded);margin-bottom:6px">${bindings.length} risultato${bindings.length!==1?'i':''}</p>
-      <table><thead><tr>${vars.map(v => `<th>${v}</th>`).join('')}</thead>
-      <tbody>${rows}</tbody></table>`;
-      
-  } catch(e) {
+
+    const rows = bindings.map(binding => `
+      <tr>
+        ${vars.map(v => {
+          const term = binding.get(v);
+          const val = term ? term.value : '';
+
+          const display = val.startsWith('http')
+            ? `<a href="${val}" target="_blank">${escHtml(val)}</a>`
+            : escHtml(val);
+
+          return `<td>${display}</td>`;
+        }).join('')}
+      </tr>
+    `).join('');
+
     resultsEl.innerHTML = `
-      <div style="background:var(--paper);border:1px solid var(--line);padding:16px;border-radius:4px;">
-        <p style="color:var(--inst);font-size:12px;font-weight:600;margin-bottom:6px;">⚠️ Impossibile eseguire la query nel browser</p>
-        <p style="font-size:11.5px;color:var(--faded);margin-bottom:10px;">${e.message}</p>
-        <p style="font-size:11.5px;color:var(--ink);">Puoi comunque interrogare il grafo scaricando il file RDF/Turtle del corpus (<a href="data/corpus.ttl" target="_blank" style="color:var(--gold);font-weight:600;">corpus.ttl</a>) e aprendolo tramite endpoint locali o strumenti come <a href="https://triply.cc/yasgui" target="_blank" style="color:var(--gold);font-weight:600;">YASGUI</a>.</p>
-      </div>`;
+      <p style="font-size:10px;color:var(--faded);margin-bottom:6px">
+        ${bindings.length} result${bindings.length !== 1 ? 's' : ''}
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            ${vars.map(v => `<th>${escHtml(v)}</th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          ${rows}
+        </tbody>
+      </table>
+    `;
+
+  } catch (e) {
+    console.error(e);
+
+    resultsEl.innerHTML = `
+      <div style="
+        background:var(--paper);
+        border:1px solid var(--line);
+        padding:16px;
+        border-radius:4px;
+      ">
+        <p style="
+          color:var(--inst);
+          font-size:12px;
+          font-weight:600;
+          margin-bottom:6px;
+        ">
+          ⚠️ Cannot run the SPARQL query
+        </p>
+
+        <p style="
+          font-size:11.5px;
+          color:var(--faded);
+        ">
+          ${escHtml(e.message)}
+        </p>
+      </div>
+    `;
   }
 }
 
 function openEntityPopup(e, id, label, type) {
   e.stopPropagation();
   const popup = document.getElementById('entity-popup');
-  const typeLabels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text / Work'};
-  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)',text:'var(--text-type)'};
+  const typeLabels = {person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
+  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
 
   document.getElementById('ep-type').textContent = typeLabels[type]||type;
   document.getElementById('ep-type').style.color = typeColors[type]||'var(--faded)';
