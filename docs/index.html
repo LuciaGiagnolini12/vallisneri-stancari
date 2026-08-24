@@ -142,7 +142,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   border-radius:6px;padding:56px 64px;box-shadow:0 8px 30px rgba(26,18,8,.06);
 }
 
-/* Updated Epistle Header / Frontispiece */
 .letter-meta{
   font-family:var(--sans);
   margin-bottom:32px;
@@ -236,20 +235,26 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .ep-close{position:absolute;top:10px;right:12px;cursor:pointer;color:var(--faded);font-size:14px;background:none;border:none;padding:2px;}
 .ep-close:hover{color:var(--ink);}
 
-/* Entities List Page */
+/* Entities List Page (Autoconsistent Cards) */
 .entities-wrap{padding:32px 48px;}
 .entities-toolbar{display:flex;gap:8px;margin-bottom:20px;align-items:center;flex-wrap:wrap;}
 .ent-filter{padding:6px 14px;border:1px solid var(--line);border-radius:16px;font-size:11px;cursor:pointer;background:white;transition:all .15s;}
 .ent-filter:hover{border-color:var(--ink);background:var(--bg);}
 .ent-filter.on{background:var(--ink);color:white;border-color:var(--ink);}
 .ent-search{padding:6px 12px;border:1px solid var(--line);border-radius:4px;font-size:11px;width:240px;background:white;}
-.ent-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;}
-.ent-card{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:14px 16px;cursor:pointer;transition:all .2s;}
-.ent-card:hover{border-color:var(--gold);box-shadow:0 4px 12px rgba(139,99,24,.12);transform:translateY(-1px);}
-.ec-type{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px;}
-.ec-label{font-size:14px;font-family:var(--serif);font-weight:500;}
-.ec-sub{font-size:11px;color:var(--faded);margin-top:3px;font-style:italic;}
-.ec-letters{font-size:10px;color:var(--faded);margin-top:8px;line-height:1.6;}
+.ent-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;}
+.ent-card{
+  background:var(--paper);border:1px solid var(--line);border-radius:6px;
+  padding:16px 18px;transition:all .2s;display:flex;flex-direction:column;justify-content:space-between;
+}
+.ent-card:hover{border-color:var(--gold);box-shadow:0 4px 14px rgba(139,99,24,.12);transform:translateY(-1px);}
+.ec-type{font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px;}
+.ec-label{font-size:15px;font-family:var(--serif);font-weight:500;color:var(--ink);}
+.ec-sub{font-size:11px;color:var(--faded);margin-top:2px;font-style:italic;}
+.ec-uris{margin-top:8px;font-size:10px;font-family:var(--mono);word-break:break-all;display:flex;gap:6px;flex-wrap:wrap;}
+.ec-uris a{color:var(--gold);text-decoration:none;font-weight:600;padding:1px 5px;background:rgba(139,99,24,.06);border-radius:3px;border:1px solid rgba(139,99,24,.2);}
+.ec-uris a:hover{background:var(--gold-l);text-decoration:underline;}
+.ec-letters{font-size:10px;color:var(--faded);margin-top:10px;padding-top:8px;border-top:1px dashed var(--line);line-height:1.6;}
 .ec-letter-tag{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 5px;border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:1px;background:white;color:var(--ink);transition:all .1s;}
 .ec-letter-tag:hover{background:var(--gold-l);border-color:var(--gold);color:var(--gold);}
 .ep-letter-link{display:inline-block;font-size:9px;font-family:var(--mono);padding:1px 5px;border:1px solid var(--line);border-radius:2px;cursor:pointer;margin:2px;background:white;transition:all .1s;}
@@ -400,7 +405,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <button class="ent-filter" onclick="filterEnt('person',this)">Persons</button>
       <button class="ent-filter" onclick="filterEnt('place',this)">Places</button>
       <button class="ent-filter" onclick="filterEnt('organism',this)">Organisms</button>
-      <button class="ent-filter" onclick="filterEnt('institution',this)">Institutions</button>
       <button class="ent-filter" onclick="filterEnt('text',this)">Texts & Works</button>
       <input class="ent-search" id="ent-search" placeholder="Search entities or works…" oninput="renderEntities()">
     </div>
@@ -495,7 +499,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   </div>
 </div>
 
-<!-- Popup -->
+<!-- Popup (Usato solo nel testo delle lettere) -->
 <div class="entity-popup" id="entity-popup">
   <button class="ep-close" onclick="closePopup()">✕</button>
   <div class="ep-type" id="ep-type"></div>
@@ -562,10 +566,11 @@ async function initHome() {
     loadData('letters','data/letters.json'),
     loadData('entities','data/entities.json')
   ]);
-  const persons = entities.filter(e=>e.type==='person').length;
-  const orgs = entities.filter(e=>e.type==='organism').length;
-  const places = entities.filter(e=>e.type==='place').length;
-  const texts = entities.filter(e=>e.type==='text').length;
+  const validEntities = entities.filter(e => !(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')));
+  const persons = validEntities.filter(e=>e.type==='person').length;
+  const orgs = validEntities.filter(e=>e.type==='organism').length;
+  const places = validEntities.filter(e=>e.type==='place').length;
+  const texts = validEntities.filter(e=>e.type==='text').length;
   document.getElementById('home-stats').innerHTML = `
     <div class="stat"><div class="stat-n">${letters.length}</div><div class="stat-l">Letters</div></div>
     <div class="stat"><div class="stat-n">${persons}</div><div class="stat-l">Persons</div></div>
@@ -636,7 +641,11 @@ function filterLetterSidebar(val) {
 
 function renderLetterEntities(letterId){
   const c = document.getElementById('letter-entities-sidebar');
-  const entities = (DATA.entities||[]).filter(e=>e.letters?.includes(letterId));
+  const entities = (DATA.entities||[]).filter(e => {
+    if(!e.letters?.includes(letterId)) return false;
+    if(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
+    return true;
+  });
   const labels = {person:'Persons',place:'Places',organism:'Organisms',institution:'Institutions',text:'Texts & Works'};
   const types = ['person','place','organism','institution','text'];
   let html = '<div class="le-header">Entities in this letter</div>';
@@ -683,6 +692,8 @@ async function selectLetter(id) {
       if(!seg.entity) return escHtml(seg.text);
       const e = seg.entity;
       const cls = e.type || 'unknown';
+      // Evita di rendere cliccabile come entità la lettera stessa
+      if(e.entity_id?.includes('VAL_STAN_') || e.label?.startsWith('VAL_STAN_')) return escHtml(seg.text);
       return `<span class="ent ${cls}"
         data-entity-id="${escAttr(e.entity_id)}"
         data-entity-label="${escAttr(e.label)}"
@@ -733,7 +744,12 @@ function filterEnt(type, btn) {
 }
 
 function renderEntities() {
-  const entities = DATA['entities'] || [];
+  const entities = (DATA['entities'] || []).filter(e => {
+    // Rimuove rigorosamente le lettere scambiate per opere o testi
+    if (e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
+    return true;
+  });
+
   const q = (document.getElementById('ent-search')?.value||'').toLowerCase();
   const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',institution:'var(--inst)',text:'var(--text-type)'};
   const labels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text / Work'};
@@ -744,36 +760,34 @@ function renderEntities() {
     return true;
   });
 
-  document.getElementById('ent-grid').innerHTML = filtered.map(e=>`
-    <div class="ent-card" onclick="showEntityDetail('${esc(e.id)}')">
-      <div class="ec-type" style="color:${colors[e.type]||'#666'}">${labels[e.type]||e.type}</div>
-      <div class="ec-label">${escHtml(e.label)}</div>
-      ${e.taxon?`<div class="ec-sub">${escHtml(e.taxon)}</div>`:''}
-      ${e.note&&e.note.includes('AMBIGUO')?'<div class="ec-sub" style="color:var(--gold)">⚠ uncertain identification</div>':''}
-      <div class="ec-letters">
-        ${e.letters.length} ${e.letters.length===1?'letter':'letters'}:
-        ${e.letters.slice(0,6).map(lid=>`<span class="ec-letter-tag" onclick="event.stopPropagation();openLetter('${lid}')">${lid.replace('VAL_STAN_','')}</span>`).join(' ')}
-        ${e.letters.length>6?`<span style="color:var(--faded)">+${e.letters.length-6}</span>`:''}
-      </div>
-    </div>`).join('');
-}
+  document.getElementById('ent-grid').innerHTML = filtered.map(e=>{
+    // Recupera il link del catalogo direttamente dal dataset (senza fallback automatici)
+    const catalogueLink = e.catalogue || e.opac || e.url;
 
-function showEntityDetail(id) {
-  const e = (DATA['entities']||[]).find(x=>x.id===id);
-  if(!e) return;
-  const labels = {person:'Person',place:'Place',organism:'Organism',institution:'Institution',text:'Text / Work'};
-  const uris = [
-    e.viaf && 'VIAF: ' + e.viaf,
-    e.wikidata && 'Wikidata: ' + e.wikidata,
-    e.gbif && 'GBIF: ' + e.gbif,
-    e.geonames && 'GeoNames: ' + e.geonames,
-  ].filter(Boolean).join(' | ');
+    const uris = [
+      e.viaf && ('<a href="' + e.viaf + '" target="_blank">VIAF</a>'),
+      e.wikidata && ('<a href="' + e.wikidata + '" target="_blank">Wikidata</a>'),
+      e.gbif && ('<a href="' + e.gbif + '" target="_blank">GBIF</a>'),
+      e.geonames && ('<a href="' + e.geonames + '" target="_blank">GeoNames</a>'),
+      catalogueLink && ('<a href="' + catalogueLink + '" target="_blank" style="color:var(--text-type);font-weight:bold;">📖 Catalogue Link</a>')
+    ].filter(Boolean).join(' · ');
 
-  let msg = (labels[e.type]||e.type) + ': ' + e.label + '\n';
-  if(e.taxon) msg += 'Taxon: ' + e.taxon + '\n';
-  if(uris) msg += 'URI: ' + uris + '\n';
-  msg += 'Letters: ' + e.letters.join(', ');
-  alert(msg);
+    return `
+      <div class="ent-card">
+        <div>
+          <div class="ec-type" style="color:${colors[e.type]||'#666'}">${labels[e.type]||e.type}</div>
+          <div class="ec-label">${escHtml(e.label)}</div>
+          ${e.taxon?`<div class="ec-sub">${escHtml(e.taxon)}</div>`:''}
+          ${e.note&&e.note.includes('AMBIGUO')?'<div class="ec-sub" style="color:var(--gold)">⚠ uncertain identification</div>':''}
+          ${uris?`<div class="ec-uris">${uris}</div>`:''}
+        </div>
+        <div class="ec-letters">
+          ${e.letters.length} ${e.letters.length===1?'letter':'letters'}:
+          ${e.letters.slice(0,6).map(lid=>`<span class="ec-letter-tag" onclick="event.stopPropagation();openLetter('${lid}')">${lid.replace('VAL_STAN_','')}</span>`).join(' ')}
+          ${e.letters.length>6?`<span style="color:var(--faded)">+${e.letters.length-6}</span>`:''}
+        </div>
+      </div>`;
+  }).join('');
 }
 
 let netSim=null, netNodes=[], netEdges=[], netNodeSel=null, netLinkSel=null;
@@ -787,7 +801,7 @@ async function initNetwork() {
   if(networkBuilt) return;
   networkBuilt = true;
   const net = await loadData('network','data/network.json');
-  netNodes = net.nodes;
+  netNodes = net.nodes.filter(d => !(d.id.includes('VAL_STAN_') || d.label?.startsWith('VAL_STAN_')));
   netEdges = net.edges;
   buildNetwork();
 }
@@ -905,6 +919,7 @@ function showNetTooltip(ev,d){
     ent.wikidata&& `<a href="${ent.wikidata}" target="_blank">Wikidata</a>`,
     ent.gbif && `<a href="${ent.gbif}" target="_blank">GBIF</a>`,
     ent.geonames&& `<a href="${ent.geonames}" target="_blank">GeoNames</a>`,
+    ent.catalogue && `<a href="${ent.catalogue}" target="_blank">Catalogue</a>`
   ].filter(Boolean).join(' · ');
 
   const lids = Array.isArray(d.letters) ? d.letters : [];
@@ -956,7 +971,7 @@ async function initTimeline() {
 
 function renderTimeline(){
   const letters = DATA['letters'] || [];
-  const entities = DATA['entities'] || [];
+  const entities = (DATA['entities'] || []).filter(e => !(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')));
   const movements = DATA['movements']|| [];
   if(!letters.length || !entities.length){
     document.getElementById('tl-container').innerHTML = '<p style="color:var(--faded);font-size:12px">Loading data…</p>';
@@ -1127,57 +1142,86 @@ async function initSparql() {
 }
 
 let _comunica = null;
+
 async function loadComunica() {
-  if(_comunica) return _comunica;
+  if (_comunica) return _comunica;
+  
+  // Verifica preventiva se Comunica è già globale
+  if (typeof Comunica !== 'undefined' && Comunica.QueryEngine) {
+    _comunica = new Comunica.QueryEngine();
+    return _comunica;
+  }
+
   const cdns = [
-    'comunica-browser.js',
     'https://cdn.jsdelivr.net/npm/@comunica/query-sparql@2.10.0/browser/comunica-browser.js',
-    'https://unpkg.com/@comunica/query-sparql@2.10.0/browser/comunica-browser.js',
+    'https://unpkg.com/@comunica/query-sparql@2.10.0/browser/comunica-browser.js'
   ];
-  for(const cdn of cdns){
+
+  for (const cdn of cdns) {
     try {
       await new Promise((resolve, reject) => {
         const s = document.createElement('script');
         s.src = cdn;
+        s.crossOrigin = 'anonymous';
         s.onload = resolve;
         s.onerror = reject;
         document.head.appendChild(s);
       });
-      if(typeof Comunica !== 'undefined'){
+
+      if (typeof Comunica !== 'undefined' && Comunica.QueryEngine) {
         _comunica = new Comunica.QueryEngine();
         return _comunica;
       }
-    } catch(e){ continue; }
+    } catch (e) {
+      console.warn("CDN failed, trying next...", cdn);
+      continue;
+    }
   }
-  throw new Error('Cannot load Comunica.');
+  
+  throw new Error("Impossibile caricare il motore SPARQL (Comunica) via CDN. Verifica la connessione o i blocchi di rete.");
 }
 
 async function runSparql() {
   const query = document.getElementById('sparql-editor').value.trim();
   if(!query) return;
   const resultsEl = document.getElementById('sparql-results');
-  resultsEl.innerHTML = '<div class="sparql-loading">Loading SPARQL engine…</div>';
+  resultsEl.innerHTML = '<div class="sparql-loading">Caricamento del motore SPARQL in corso…</div>';
+  
   try {
     const engine = await loadComunica();
-    resultsEl.innerHTML = '<div class="sparql-loading">Running query…</div>';
+    resultsEl.innerHTML = '<div class="sparql-loading">Esecuzione della query nel grafo…</div>';
+    
     const base = window.location.href.split('#')[0].replace(/\/[^/]*$/, '/');
     const ttlUrl = base + 'data/corpus.ttl';
+    
     const bindingsStream = await engine.queryBindings(query, { sources: [{ type: 'file', value: ttlUrl }] });
     const bindings = await bindingsStream.toArray();
-    if(!bindings.length){ resultsEl.innerHTML = '<p style="color:var(--faded);font-size:12px">No results.</p>'; return; }
-    const vars = [...bindings[0].keys()].map(k=>k.value);
-    const rows = bindings.map(b=>
-      `<tr>${vars.map(v=>{
-        const val = b.get(v)?.value||'';
+    
+    if(!bindings.length){
+      resultsEl.innerHTML = '<p style="color:var(--faded);font-size:12px">Nessun risultato trovato.</p>';
+      return;
+    }
+    
+    const vars = [...bindings[0].keys()].map(k => k.value);
+    const rows = bindings.map(b =>
+      `<tr>${vars.map(v => {
+        const val = b.get(v)?.value || '';
         const display = val.startsWith('http') ? `<a href="${val}" target="_blank">${val.split('/').pop()}</a>` : escHtml(val);
         return `<td>${display}</td>`;
       }).join('')}</tr>`
     ).join('');
-    resultsEl.innerHTML = `<p style="font-size:10px;color:var(--faded);margin-bottom:6px">${bindings.length} result${bindings.length!==1?'s':''}</p>
-      <table><thead><tr>${vars.map(v=>`<th>${v}</th>`).join('')}</tr></thead>
+    
+    resultsEl.innerHTML = `<p style="font-size:10px;color:var(--faded);margin-bottom:6px">${bindings.length} risultato${bindings.length!==1?'i':''}</p>
+      <table><thead><tr>${vars.map(v => `<th>${v}</th>`).join('')}</thead>
       <tbody>${rows}</tbody></table>`;
+      
   } catch(e) {
-    resultsEl.innerHTML = `<p style="color:var(--reject);font-size:12px;margin-bottom:8px">Error: ${e.message}</p>`;
+    resultsEl.innerHTML = `
+      <div style="background:var(--paper);border:1px solid var(--line);padding:16px;border-radius:4px;">
+        <p style="color:var(--inst);font-size:12px;font-weight:600;margin-bottom:6px;">⚠️ Impossibile eseguire la query nel browser</p>
+        <p style="font-size:11.5px;color:var(--faded);margin-bottom:10px;">${e.message}</p>
+        <p style="font-size:11.5px;color:var(--ink);">Puoi comunque interrogare il grafo scaricando il file RDF/Turtle del corpus (<a href="data/corpus.ttl" target="_blank" style="color:var(--gold);font-weight:600;">corpus.ttl</a>) e aprendolo tramite endpoint locali o strumenti come <a href="https://triply.cc/yasgui" target="_blank" style="color:var(--gold);font-weight:600;">YASGUI</a>.</p>
+      </div>`;
   }
 }
 
@@ -1204,9 +1248,8 @@ function openEntityPopup(e, id, label, type) {
       entity.gbif && `<a href="${entity.gbif}" target="_blank">GBIF</a>`,
       entity.geonames && `<a href="${entity.geonames}" target="_blank">GeoNames</a>`,
       entity.catalogue && `<a href="${entity.catalogue}" target="_blank">Catalogue</a>`,
-      entity.url && type === 'text' && `<a href="${entity.url}" target="_blank">Catalog Resource</a>`
+      entity.url && type === 'text' && `<a href="${entity.url}" target="_blank">Resource</a>`
     ].filter(Boolean).join(' · ');
-
     if(uris) uriHtml += `<div style="margin-bottom:6px">${uris}</div>`;
     if(entity.letters?.length){
       const links = entity.letters.map(lid=>`<span class="ep-letter-link" onclick="openLetter('${lid}');closePopup()">${lid.replace('VAL_STAN_','')}</span>`).join(' ');
@@ -1228,12 +1271,11 @@ function openEntityPopup(e, id, label, type) {
 
   if (x < 10) x = 10;
   if (x + pw > window.innerWidth - 10) x = window.innerWidth - pw - 10;
-  if (y + ph > window.innerHeight - 10) {
+  if(y + ph > window.innerHeight - 10) {
     y = rect.top - ph - 6;
   }
 
-  popup.style.left = x + 'px';
-  popup.style.top = y + 'px';
+  popup.style.left = x+'px'; popup.style.top = y+'px';
 }
 
 document.addEventListener('click', e=>{
