@@ -11,7 +11,7 @@
         "text": "Manfredi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi, signor"
+        "label": "Eustachio Manfredi"
       }
     },
     {
@@ -89,7 +89,7 @@
         "text": "signor suo fratello",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi, signor"
+        "label": "Eustachio Manfredi"
       }
     },
     {

@@ -87,7 +87,7 @@
     "label": "Genoa",
     "toponym": "Genova",
     "modern": "Genoa",
-    "wikidata": "https://www.wikidata.org/entity/Q2074",
+    "wikidata": "https://www.wikidata.org/entity/Q1449",
     "geonames": "https://www.geonames.org/3176219",
     "letters": [
       "VAL_STAN_001",
@@ -97,15 +97,15 @@
       "VAL_STAN_020",
       "VAL_STAN_023"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 44.407222222,
+    "lng": 8.933888888
   },
   {
     "id": "https://w3id.org/vallisnieri/place/florence",
     "label": "Florence",
     "toponym": "Firenze",
     "modern": "Florence",
-    "wikidata": "https://www.wikidata.org/entity/Q79743",
+    "wikidata": "https://www.wikidata.org/entity/Q2044",
     "geonames": "https://www.geonames.org/3176959",
     "letters": [
       "VAL_STAN_001",
@@ -114,8 +114,8 @@
       "VAL_STAN_016",
       "VAL_STAN_025"
     ],
-    "lat": 34.820277777,
-    "lng": -87.662777777
+    "lat": 43.771388888,
+    "lng": 11.254166666
   },
   {
     "id": "https://w3id.org/vallisnieri/place/bologna",
@@ -150,7 +150,7 @@
     "label": "Milan",
     "toponym": "Milano",
     "modern": "Milan",
-    "wikidata": "https://www.wikidata.org/entity/Q1543",
+    "wikidata": "https://www.wikidata.org/entity/Q490",
     "geonames": "https://www.geonames.org/3173435",
     "letters": [
       "VAL_STAN_001",
@@ -159,8 +159,8 @@
       "VAL_STAN_027",
       "VAL_STAN_028"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.466944444,
+    "lng": 9.19
   },
   {
     "id": "https://w3id.org/vallisnieri/place/alps",
@@ -213,7 +213,7 @@
   {
     "id": "https://w3id.org/vallisnieri/place/ancona",
     "label": "Rubiera",
-    "toponym": "Lago scuro",
+    "toponym": "Rubiera",
     "modern": "Rubiera",
     "wikidata": "https://www.wikidata.org/entity/Q111275",
     "geonames": "https://www.geonames.org/3168820",
@@ -288,7 +288,7 @@
   {
     "id": "https://w3id.org/vallisnieri/place/inghilterra",
     "label": "United Kingdom",
-    "toponym": "Inghilterra",
+    "toponym": "United Kingdom",
     "modern": "United Kingdom",
     "wikidata": "https://www.wikidata.org/entity/Q145",
     "geonames": "https://www.geonames.org/2635167",
@@ -306,7 +306,7 @@
     "toponym": "Africa",
     "modern": "Africa",
     "wikidata": "https://www.wikidata.org/entity/Q15",
-    "geonames": "https://www.geonames.org/2306104",
+    "geonames": "https://viaf.org/en/viaf/127043766",
     "letters": [
       "VAL_STAN_011",
       "VAL_STAN_012",
@@ -318,16 +318,16 @@
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
-    "label": "minera del mercurio d’Ungheria",
+    "label": "Miniera di mercurio di Idra",
     "toponym": "minera del mercurio d’Ungheria",
     "modern": "minera del mercurio d’Ungheria",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q12073970",
     "geonames": "",
     "letters": [
       "VAL_STAN_012"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 45.99968338,
+    "lng": 14.02252769
   },
   {
     "id": "https://w3id.org/vallisnieri/place/bresciano",
@@ -390,13 +390,13 @@
     "label": "adriatico",
     "toponym": "Adriatico",
     "modern": "adriatico",
-    "wikidata": "",
-    "geonames": "",
+    "wikidata": "https://www.wikidata.org/entity/Q13924",
+    "geonames": "https://www.geonames.org/3183462",
     "letters": [
       "VAL_STAN_016"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 42.775833,
+    "lng": 15.426111
   },
   {
     "id": "https://w3id.org/vallisnieri/place/spagna",
@@ -404,7 +404,7 @@
     "toponym": "Spagna",
     "modern": "Spain",
     "wikidata": "https://www.wikidata.org/entity/Q29",
-    "geonames": "https://www.geonames.org/3573890",
+    "geonames": "https://www.geonames.org/2510769",
     "letters": [
       "VAL_STAN_016"
     ],
@@ -416,20 +416,20 @@
     "label": "toscana",
     "toponym": "Toscana",
     "modern": "toscana",
-    "wikidata": "",
-    "geonames": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1273",
+    "geonames": "https://viaf.org/en/viaf/128956370",
     "letters": [
       "VAL_STAN_016"
     ],
-    "lat": null,
-    "lng": null
+    "lat": 43.45,
+    "lng": 11.2
   },
   {
     "id": "https://w3id.org/vallisnieri/place/coccincina",
     "label": "coccincina",
     "toponym": "Coccincina",
     "modern": "coccincina",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q505503",
     "geonames": "",
     "letters": [
       "VAL_STAN_016"
@@ -466,7 +466,7 @@
   {
     "id": "https://w3id.org/vallisnieri/place/parigi",
     "label": "Paris",
-    "toponym": "Parigi",
+    "toponym": "Paris",
     "modern": "Paris",
     "wikidata": "https://www.wikidata.org/entity/Q90",
     "geonames": "https://www.geonames.org/2988507",
@@ -590,7 +590,7 @@
   {
     "id": "https://w3id.org/vallisnieri/place/napoli",
     "label": "Naples",
-    "toponym": "Napoli",
+    "toponym": "Naples",
     "modern": "Naples",
     "wikidata": "https://www.wikidata.org/entity/Q2634",
     "geonames": "https://www.geonames.org/3172394",
@@ -629,7 +629,7 @@
   {
     "id": "https://w3id.org/vallisnieri/place/venezia",
     "label": "Venice",
-    "toponym": "Venezia",
+    "toponym": "Venice",
     "modern": "Venice",
     "wikidata": "https://www.wikidata.org/entity/Q641",
     "geonames": "https://www.geonames.org/3164603",
@@ -642,7 +642,7 @@
   {
     "id": "https://w3id.org/vallisnieri/place/nome_normalizzato",
     "label": "Mantua",
-    "toponym": "Mantova",
+    "toponym": "Mantua",
     "modern": "Mantua",
     "wikidata": "https://www.wikidata.org/entity/Q6247",
     "geonames": "https://www.geonames.org/3174051",
@@ -658,7 +658,7 @@
     "toponym": "Finale",
     "modern": "finale",
     "wikidata": "",
-    "geonames": "",
+    "geonames": "https://www.geonames.org/8953078",
     "letters": [
       "VAL_STAN_030"
     ],

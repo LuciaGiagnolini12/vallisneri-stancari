@@ -3,7 +3,7 @@
     "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_001",
     "slug": "VAL_STAN_001",
     "type": "text",
-    "label": "VAL_STAN_001",
+    "label": "Lettera 1",
     "letters": [
       "VAL_STAN_001"
     ],
@@ -11,6 +11,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -47,6 +49,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q2662898",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -87,9 +91,11 @@
       "VAL_STAN_030"
     ],
     "viaf": "https://viaf.org/viaf/22924568/",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q11116711",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -112,13 +118,15 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
     "slug": "manfredi_eustachio",
     "type": "person",
-    "label": "Manfredi, signor",
+    "label": "Eustachio Manfredi",
     "letters": [
       "VAL_STAN_001",
       "VAL_STAN_002",
@@ -137,6 +145,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -152,6 +162,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -171,6 +183,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -186,10 +200,12 @@
       "VAL_STAN_024",
       "VAL_STAN_025"
     ],
-    "viaf": "",
+    "viaf": "http://viaf.org/viaf/57415601 ",
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -204,6 +220,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -235,6 +253,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q13360",
     "gbif": "",
     "geonames": "https://www.geonames.org/3169522",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Reggio",
     "modern": "Reggio Emilia"
@@ -259,6 +279,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q279",
     "gbif": "",
     "geonames": "https://www.geonames.org/3173331",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "patria",
     "modern": "Modena"
@@ -277,6 +299,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1285",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "monti vicini",
     "modern": "Apennine Mountains"
@@ -297,6 +321,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q6761",
     "gbif": "",
     "geonames": "https://www.geonames.org/3174659",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Livorno",
     "modern": "Livorno"
@@ -315,9 +341,11 @@
       "VAL_STAN_023"
     ],
     "viaf": "",
-    "wikidata": "https://www.wikidata.org/entity/Q2074",
+    "wikidata": "https://www.wikidata.org/entity/Q1449",
     "gbif": "",
     "geonames": "https://www.geonames.org/3176219",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Genova",
     "modern": "Genoa"
@@ -335,9 +363,11 @@
       "VAL_STAN_025"
     ],
     "viaf": "",
-    "wikidata": "https://www.wikidata.org/entity/Q79743",
+    "wikidata": "https://www.wikidata.org/entity/Q2044",
     "gbif": "",
     "geonames": "https://www.geonames.org/3176959",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Firenze",
     "modern": "Florence"
@@ -369,6 +399,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1891",
     "gbif": "",
     "geonames": "https://www.geonames.org/3181928",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Bologna",
     "modern": "Bologna"
@@ -386,9 +418,11 @@
       "VAL_STAN_028"
     ],
     "viaf": "",
-    "wikidata": "https://www.wikidata.org/entity/Q1543",
+    "wikidata": "https://www.wikidata.org/entity/Q490",
     "gbif": "",
     "geonames": "https://www.geonames.org/3173435",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Milano",
     "modern": "Milan"
@@ -405,6 +439,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1286",
     "gbif": "",
     "geonames": "https://www.geonames.org/2990440",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Alpi",
     "modern": "Alps"
@@ -425,6 +461,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -441,6 +479,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -456,9 +496,11 @@
       "VAL_STAN_015"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q682",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Sulphur",
     "vernacular": "zolfo",
@@ -478,6 +520,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Fossil salts",
     "vernacular": "sali fossili",
@@ -487,7 +531,7 @@
     "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_002",
     "slug": "VAL_STAN_002",
     "type": "text",
-    "label": "VAL_STAN_002",
+    "label": "Lettera 2",
     "letters": [
       "VAL_STAN_002"
     ],
@@ -495,20 +539,24 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
     "slug": "bellini_lorenzo",
     "type": "person",
-    "label": "Bellini",
+    "label": "Bellini Lorenzo",
     "letters": [
       "VAL_STAN_002"
     ],
-    "viaf": "https://viaf.org/viaf/100161245/",
-    "wikidata": "",
+    "viaf": "http://viaf.org/viaf/56656245 ",
+    "wikidata": "https://www.wikidata.org/entity/Q1383562",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -526,6 +574,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q232583",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -562,6 +612,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q617",
     "gbif": "",
     "geonames": "https://www.geonames.org/3171728",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Padoa",
     "modern": "Padova"
@@ -587,8 +639,10 @@
     "wikidata": "https://www.wikidata.org/entity/Q111275",
     "gbif": "",
     "geonames": "https://www.geonames.org/3168820",
+    "catalog": "",
+    "author": "",
     "note": "",
-    "toponym": "Lago scuro",
+    "toponym": "Rubiera",
     "modern": "Rubiera"
   },
   {
@@ -603,6 +657,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -620,6 +676,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "stauara",
@@ -639,6 +697,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Gallus gallus domesticus",
     "vernacular": "uovo",
@@ -656,6 +716,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "frutto",
@@ -673,6 +735,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "erba",
@@ -690,6 +754,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "ramo",
@@ -707,6 +773,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "radice",
@@ -724,6 +792,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "foglia",
@@ -741,6 +811,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "mela",
@@ -758,6 +830,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pera",
@@ -775,6 +849,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "legume",
@@ -792,6 +868,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "sangue",
@@ -809,6 +887,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "diamante",
@@ -824,9 +904,11 @@
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q337238",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "porfido",
@@ -844,6 +926,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -858,6 +942,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q3106895",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -875,20 +961,24 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
     "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
     "slug": "testi_ludovico",
     "type": "person",
-    "label": "Testi, signor",
+    "label": "Ludovico Testi",
     "letters": [
       "VAL_STAN_003"
     ],
-    "viaf": "",
+    "viaf": "http://viaf.org/viaf/73201503 ",
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -904,6 +994,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -921,6 +1013,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -935,6 +1029,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "snake",
@@ -952,6 +1048,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "dogfish",
@@ -969,6 +1067,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "swallowfish",
@@ -986,6 +1086,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "sea dragon",
@@ -1003,6 +1105,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q104704536",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "sea bass",
@@ -1020,6 +1124,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "rabbitfish",
@@ -1037,6 +1143,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1519607",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pomfret",
@@ -1054,6 +1162,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q41317",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "electric ray",
@@ -1071,6 +1181,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "semi d’India",
     "modern": "semi d’India"
@@ -1087,6 +1199,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "miniere di Schio",
     "modern": "miniere di Schio"
@@ -1103,6 +1217,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "sea turtle",
@@ -1120,6 +1236,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pelican",
@@ -1134,9 +1252,11 @@
       "VAL_STAN_003"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2336729",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "barnacles",
@@ -1154,6 +1274,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1170,6 +1292,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] [AMBIGUO] Nome e cognome sconosciuti, ruolo incerto."
   },
   {
@@ -1185,6 +1309,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q2251697",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] [AMBIGUO] Nome e cognome sconosciuti, ruolo incerto."
   },
   {
@@ -1199,6 +1325,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Santo",
     "modern": "santo"
@@ -1216,6 +1344,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1945737",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Monte Baldo",
     "modern": "monte_baldo"
@@ -1233,6 +1363,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1248,6 +1380,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1263,6 +1397,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1278,6 +1414,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1293,6 +1431,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1308,6 +1448,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1326,6 +1468,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q26875",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "lenticchia d'acqua",
@@ -1340,9 +1484,11 @@
       "VAL_STAN_004"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q37868",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "alga marina",
@@ -1360,6 +1506,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pulce",
@@ -1377,6 +1525,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q190489",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "semprevivo",
@@ -1394,6 +1544,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q959738",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pignolo africano",
@@ -1411,6 +1563,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1426,6 +1580,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q106831526",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto, vettore della lettera"
   },
   {
@@ -1444,6 +1600,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "http://id.sbn.it/bid/LO1E006288",
+    "author": "",
     "note": ""
   },
   {
@@ -1459,6 +1617,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1473,6 +1633,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1490,6 +1652,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1507,6 +1671,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1521,6 +1687,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] anonimo"
   },
   {
@@ -1544,6 +1712,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] ruolo incerto"
   },
   {
@@ -1559,6 +1729,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1574,6 +1746,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1588,6 +1762,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "malattia (probabilmente febbre tifoide o malaria)",
@@ -1607,6 +1783,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1390",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "insetti",
@@ -1626,6 +1804,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pesce",
@@ -1648,6 +1828,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "seme",
@@ -1665,6 +1847,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1680,6 +1864,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q3107217",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -1694,6 +1880,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1711,6 +1899,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1725,6 +1915,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1743,6 +1935,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1757,6 +1951,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1774,6 +1970,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1791,6 +1989,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -1805,6 +2005,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Citato in riferimento a un'osservazione."
   },
   {
@@ -1819,6 +2021,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Citato in riferimento a una disputa scientifica."
   },
   {
@@ -1837,6 +2041,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q311187",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Citato in riferimento a una disputa scientifica."
   },
   {
@@ -1851,6 +2057,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Titolo onorifico"
   },
   {
@@ -1866,6 +2074,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q312476",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1884,6 +2094,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q859257",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1901,6 +2113,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q756082",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1918,6 +2132,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q2213438",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1932,9 +2148,11 @@
       "VAL_STAN_009"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q11946202",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1952,6 +2170,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q159715",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1969,6 +2189,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1145974",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -1986,6 +2208,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2003,6 +2227,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q21439438",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2020,6 +2246,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q1781247",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2029,14 +2257,16 @@
     "id": "https://w3id.org/vallisnieri/organism/ninfea",
     "slug": "ninfea",
     "type": "organism",
-    "label": "ninfe",
+    "label": "ninfea",
     "letters": [
       "VAL_STAN_009"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q146628",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2051,9 +2281,11 @@
       "VAL_STAN_009"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q461209",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2075,6 +2307,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2094,6 +2328,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2111,6 +2347,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2140,6 +2378,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q511841",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2154,6 +2394,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Anonimi"
   },
   {
@@ -2170,6 +2412,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2185,6 +2429,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2202,6 +2448,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q15122569",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "locusta",
@@ -2219,20 +2467,24 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
     "slug": "buonanni_filippo",
     "type": "person",
-    "label": "Buonanni, Padre",
+    "label": "Buonanni, Filippo",
     "letters": [
       "VAL_STAN_011"
     ],
-    "viaf": "",
+    "viaf": "http://viaf.org/viaf/47034603  ",
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2247,6 +2499,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2261,6 +2515,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -2277,8 +2533,10 @@
     "wikidata": "https://www.wikidata.org/entity/Q145",
     "gbif": "",
     "geonames": "https://www.geonames.org/2635167",
+    "catalog": "",
+    "author": "",
     "note": "",
-    "toponym": "Inghilterra",
+    "toponym": "United Kingdom",
     "modern": "United Kingdom"
   },
   {
@@ -2295,7 +2553,9 @@
     "viaf": "",
     "wikidata": "https://www.wikidata.org/entity/Q15",
     "gbif": "",
-    "geonames": "https://www.geonames.org/2306104",
+    "geonames": "https://viaf.org/en/viaf/127043766",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Africa",
     "modern": "Africa"
@@ -2319,6 +2579,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "http://id.sbn.it/bid/UBOE007143",
+    "author": "",
     "note": ""
   },
   {
@@ -2336,6 +2598,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q19125",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "scorpione",
@@ -2368,6 +2632,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q37686",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "camaleonte",
@@ -2385,6 +2651,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2403,20 +2671,24 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/salangana",
     "slug": "salangana",
     "type": "organism",
-    "label": "rondini della Coccincina",
+    "label": "Salangana",
     "letters": [
       "VAL_STAN_012"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q27611284",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "swallows",
@@ -2426,14 +2698,16 @@
     "id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
     "slug": "minera_mercurio",
     "type": "place",
-    "label": "minera del mercurio d’Ungheria",
+    "label": "Miniera di mercurio di Idra",
     "letters": [
       "VAL_STAN_012"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q12073970",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "minera del mercurio d’Ungheria",
     "modern": "minera del mercurio d’Ungheria"
@@ -2450,6 +2724,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2466,6 +2742,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome non identificato, ruolo incerto. [AMBIGUO]"
   },
   {
@@ -2481,6 +2759,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Bresciano",
     "modern": "bresciano"
@@ -2498,6 +2778,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Francia",
     "modern": "francia"
@@ -2506,7 +2788,7 @@
     "id": "https://w3id.org/vallisnieri/text/discorso_sopra_la_lenticola_palustre",
     "slug": "discorso_sopra_la_lenticola_palustre",
     "type": "text",
-    "label": "discorso sopra la lenticola palustre",
+    "label": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.",
     "letters": [
       "VAL_STAN_013",
       "VAL_STAN_028"
@@ -2515,6 +2797,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2530,6 +2814,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2544,9 +2830,11 @@
       "VAL_STAN_028"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q37686",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2561,6 +2849,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "http://id.sbn.it/bid/PUVE030542",
+    "author": "",
     "note": ""
   },
   {
@@ -2575,6 +2865,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2589,6 +2881,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q123900",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto"
   },
   {
@@ -2607,6 +2901,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto"
   },
   {
@@ -2622,6 +2918,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2637,6 +2935,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2653,6 +2953,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2669,6 +2971,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2686,6 +2990,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2703,6 +3009,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pidocchi",
@@ -2720,6 +3028,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "mosca",
@@ -2729,15 +3039,17 @@
     "id": "https://w3id.org/vallisnieri/organism/brassiche",
     "slug": "brassiche",
     "type": "organism",
-    "label": "brassiche",
+    "label": "brassica",
     "letters": [
       "VAL_STAN_014",
       "VAL_STAN_020"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q58677",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2752,9 +3064,11 @@
       "VAL_STAN_014"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q291177",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -2772,13 +3086,15 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/person/orsi_quaranta",
     "slug": "orsi_quaranta",
     "type": "person",
-    "label": "Orsi, marchese",
+    "label": "Orsi, Quaranta",
     "letters": [
       "VAL_STAN_015",
       "VAL_STAN_018"
@@ -2787,6 +3103,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -2804,6 +3122,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -2818,6 +3138,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] anonimo"
   },
   {
@@ -2832,6 +3154,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] anonimo"
   },
   {
@@ -2846,6 +3170,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] anonimo"
   },
   {
@@ -2862,6 +3188,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q111275",
     "gbif": "",
     "geonames": "https://www.geonames.org/3168820",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Rubiera",
     "modern": "Rubiera"
@@ -2880,6 +3208,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2899,6 +3229,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2918,6 +3250,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "mosca rosiseca",
@@ -2935,6 +3269,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -2949,6 +3285,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Anonimo"
   },
   {
@@ -2964,6 +3302,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome non specificato"
   },
   {
@@ -2979,6 +3319,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q117161",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome non specificato"
   },
   {
@@ -2993,6 +3335,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q27585092",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome non specificato"
   },
   {
@@ -3007,6 +3351,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Anonimo"
   },
   {
@@ -3021,6 +3367,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Anonimo"
   },
   {
@@ -3035,6 +3383,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Congo",
     "modern": "congo"
@@ -3048,9 +3398,11 @@
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q13924",
     "gbif": "",
-    "geonames": "",
+    "geonames": "https://www.geonames.org/3183462",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Adriatico",
     "modern": "adriatico"
@@ -3066,7 +3418,9 @@
     "viaf": "",
     "wikidata": "https://www.wikidata.org/entity/Q29",
     "gbif": "",
-    "geonames": "https://www.geonames.org/3573890",
+    "geonames": "https://www.geonames.org/2510769",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Spagna",
     "modern": "Spain"
@@ -3080,9 +3434,11 @@
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1273",
     "gbif": "",
-    "geonames": "",
+    "geonames": "https://viaf.org/en/viaf/128956370",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Toscana",
     "modern": "toscana"
@@ -3096,9 +3452,11 @@
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q505503",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Coccincina",
     "modern": "coccincina"
@@ -3115,6 +3473,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Indie",
     "modern": "indie"
@@ -3133,6 +3493,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3148,6 +3510,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3163,6 +3527,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3177,6 +3543,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "rondine",
@@ -3194,6 +3562,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "calamita",
@@ -3211,6 +3581,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "conchiglia",
@@ -3228,6 +3600,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q16575455",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "manna",
@@ -3242,9 +3616,11 @@
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q28165",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "cannella",
@@ -3262,6 +3638,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "fungo",
@@ -3279,6 +3657,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "pane",
@@ -3296,6 +3676,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "cunzia",
@@ -3313,6 +3695,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "rosa",
@@ -3330,6 +3714,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "fiore d'arancio",
@@ -3347,6 +3733,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "viola",
@@ -3361,9 +3749,11 @@
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q156099",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "garofano",
@@ -3378,9 +3768,11 @@
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q83165",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "noce moscata",
@@ -3398,6 +3790,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "calamò",
@@ -3407,14 +3801,16 @@
     "id": "https://w3id.org/vallisnieri/organism/zenzaro",
     "slug": "zenzaro",
     "type": "specimen",
-    "label": "zenzaro",
+    "label": "zenzero",
     "letters": [
       "VAL_STAN_016"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q35625",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "zenzero",
@@ -3441,6 +3837,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q9154612",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "anguilla",
@@ -3458,6 +3856,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "verme",
@@ -3475,6 +3875,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3489,6 +3891,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Autore del lucimetro"
   },
   {
@@ -3503,6 +3907,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Segretario dell'Accademia Reale delle Scienze"
   },
   {
@@ -3518,6 +3924,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Mercante specchiaro"
   },
   {
@@ -3532,6 +3940,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q3572",
     "gbif": "",
     "geonames": "https://www.geonames.org/2464470",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Tunisi di Barberia",
     "modern": "Tunis"
@@ -3551,8 +3961,10 @@
     "wikidata": "https://www.wikidata.org/entity/Q90",
     "gbif": "",
     "geonames": "https://www.geonames.org/2988507",
+    "catalog": "",
+    "author": "",
     "note": "",
-    "toponym": "Parigi",
+    "toponym": "Paris",
     "modern": "Paris"
   },
   {
@@ -3568,6 +3980,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3583,6 +3997,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3604,6 +4020,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3618,6 +4036,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "serpente",
@@ -3635,6 +4055,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3649,6 +4071,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -3664,13 +4088,15 @@
     "wikidata": "https://www.wikidata.org/entity/Q868",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] citato"
   },
   {
     "id": "https://w3id.org/vallisnieri/person/testi_lodovico",
     "slug": "testi_lodovico",
     "type": "person",
-    "label": "Testi",
+    "label": "Testi, Lodovico",
     "letters": [
       "VAL_STAN_018",
       "VAL_STAN_025"
@@ -3679,6 +4105,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] morto"
   },
   {
@@ -3693,6 +4121,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -3707,6 +4137,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3721,6 +4153,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Medico che usava arsenico per l'asma"
   },
   {
@@ -3735,6 +4169,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Autore citato da Vallisneri"
   },
   {
@@ -3749,6 +4185,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Medico che usava arsenico"
   },
   {
@@ -3763,6 +4201,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Autore citato da Vallisneri"
   },
   {
@@ -3780,6 +4220,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q406",
     "gbif": "",
     "geonames": "https://www.geonames.org/745044",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Costantinopoli",
     "modern": "Istanbul"
@@ -3796,6 +4238,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q18498961",
     "gbif": "",
     "geonames": "https://www.geonames.org/3165824",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Tencarola villa del Padoano",
     "modern": "Tencarola"
@@ -3814,6 +4258,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3829,6 +4275,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3844,6 +4292,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3859,6 +4309,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3874,6 +4326,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -3890,6 +4344,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "pianta sconosciuta",
     "vernacular": null,
@@ -3904,9 +4360,11 @@
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q160090",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "pianta sconosciuta",
     "vernacular": null,
@@ -3921,9 +4379,11 @@
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q756292",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "pianta sconosciuta",
     "vernacular": null,
@@ -3941,6 +4401,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "pianta sconosciuta",
     "vernacular": null,
@@ -3955,9 +4417,11 @@
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/Q43084",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Piper nigrum",
     "vernacular": "pepe nero",
@@ -3975,6 +4439,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q43511",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Foeniculum vulgare",
     "vernacular": "finocchio",
@@ -3992,6 +4458,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Brassica rapa",
     "vernacular": "rapa",
@@ -4009,6 +4477,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Achillea millefolium",
     "vernacular": "erba del pastore",
@@ -4026,6 +4496,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Dactylopius coccus",
     "vernacular": "cocciniglia",
@@ -4043,6 +4515,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "As4S4",
     "vernacular": "orpimento",
@@ -4060,6 +4534,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q925",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Hg",
     "vernacular": "mercurio",
@@ -4077,6 +4553,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q214863",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Sulphate",
     "vernacular": "vitriolo",
@@ -4094,6 +4572,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4108,6 +4588,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "tarma del grano",
@@ -4125,6 +4607,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4142,6 +4626,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "anatra",
@@ -4163,6 +4649,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "vipera",
@@ -4180,6 +4668,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "cigno",
@@ -4197,6 +4687,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4214,6 +4706,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4231,6 +4725,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto, probabilmente messaggero o funzionario."
   },
   {
@@ -4245,6 +4741,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto, probabilmente messaggero o funzionario."
   },
   {
@@ -4260,6 +4758,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto, probabilmente messaggero o funzionario."
   },
   {
@@ -4277,6 +4777,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4293,6 +4795,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4307,6 +4811,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4321,6 +4827,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Riferimento divino"
   },
   {
@@ -4336,6 +4844,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4351,6 +4861,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4365,6 +4877,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q827257",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "cacatù",
@@ -4382,6 +4896,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4397,6 +4913,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto"
   },
   {
@@ -4412,6 +4930,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Ruolo incerto"
   },
   {
@@ -4426,6 +4946,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4443,6 +4965,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4460,6 +4984,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4477,6 +5003,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "Cannabis sativa",
     "vernacular": "canapa",
@@ -4494,6 +5022,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "lucertole",
@@ -4511,6 +5041,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "serpenti",
@@ -4528,6 +5060,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4543,6 +5077,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Museo Aldrovandi",
     "modern": "Museum of Natural History (Bologna)"
@@ -4560,6 +5096,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4574,6 +5112,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "cervello di bue",
@@ -4591,6 +5131,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4608,6 +5150,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4622,6 +5166,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Non identificabile con persone nate dopo il 1680"
   },
   {
@@ -4636,6 +5182,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Non identificabile con persone nate dopo il 1680"
   },
   {
@@ -4650,6 +5198,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q183",
     "gbif": "",
     "geonames": "https://www.geonames.org/10238486",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Germania",
     "modern": "Germania"
@@ -4666,6 +5216,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q220",
     "gbif": "",
     "geonames": "https://www.geonames.org/3169070",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Roma",
     "modern": "Roma"
@@ -4682,6 +5234,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q456",
     "gbif": "",
     "geonames": "https://www.geonames.org/2996944",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Lione",
     "modern": "Lione"
@@ -4698,6 +5252,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4712,6 +5268,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4727,6 +5285,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4741,6 +5301,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "scorpione africano",
@@ -4758,6 +5320,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "gioie dell'isola d'Elba",
@@ -4776,6 +5340,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "cervello fossile",
@@ -4793,6 +5359,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4807,6 +5375,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4821,6 +5391,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4832,9 +5404,11 @@
       "VAL_STAN_026"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q546523",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4852,6 +5426,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -4869,6 +5445,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -4883,6 +5461,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -4897,6 +5477,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -4911,6 +5493,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q13362",
     "gbif": "",
     "geonames": "https://www.geonames.org/3177090",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Ferrara",
     "modern": "Ferrara"
@@ -4927,6 +5511,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q2683",
     "gbif": "",
     "geonames": "https://www.geonames.org/3171457",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Parma",
     "modern": "parma"
@@ -4943,8 +5529,10 @@
     "wikidata": "https://www.wikidata.org/entity/Q2634",
     "gbif": "",
     "geonames": "https://www.geonames.org/3172394",
+    "catalog": "",
+    "author": "",
     "note": "",
-    "toponym": "Napoli",
+    "toponym": "Naples",
     "modern": "Naples"
   },
   {
@@ -4959,6 +5547,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q78",
     "gbif": "",
     "geonames": "https://www.geonames.org/2661604",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Basilea",
     "modern": "Basel"
@@ -4975,6 +5565,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q219502",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "S. Giustina",
     "modern": "s_giustina"
@@ -4991,6 +5583,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5005,6 +5599,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5019,6 +5615,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5033,6 +5631,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "muschio",
@@ -5050,6 +5650,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "muschio corallo",
@@ -5059,7 +5661,7 @@
     "id": "https://w3id.org/vallisnieri/organism/echini",
     "slug": "echini",
     "type": "organism",
-    "label": "echini con le spina",
+    "label": "echini",
     "letters": [
       "VAL_STAN_027"
     ],
@@ -5067,6 +5669,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "riccio di mare",
@@ -5084,20 +5688,24 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
     "slug": "fardella_michelangelo",
     "type": "person",
-    "label": "Fardella, abate",
+    "label": "Fardella, Michelangelo",
     "letters": [
       "VAL_STAN_028"
     ],
-    "viaf": "",
+    "viaf": "http://viaf.org/viaf/71418257 ",
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -5112,6 +5720,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -5126,6 +5736,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q2039",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] incerto"
   },
   {
@@ -5140,6 +5752,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5151,9 +5765,11 @@
       "VAL_STAN_028"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q83483",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "ricci di mare",
@@ -5172,6 +5788,8 @@
     "wikidata": "https://www.wikidata.org/entity/Q19610691",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -5189,6 +5807,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5203,6 +5823,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Titolo e nome sconosciuti"
   },
   {
@@ -5217,6 +5839,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome sconosciuto"
   },
   {
@@ -5231,6 +5855,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome sconosciuto"
   },
   {
@@ -5245,6 +5871,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome sconosciuto"
   },
   {
@@ -5259,6 +5887,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "[AMBIGUO] Nome sconosciuto"
   },
   {
@@ -5273,6 +5903,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5287,6 +5919,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5301,8 +5935,10 @@
     "wikidata": "https://www.wikidata.org/entity/Q641",
     "gbif": "",
     "geonames": "https://www.geonames.org/3164603",
+    "catalog": "",
+    "author": "",
     "note": "",
-    "toponym": "Venezia",
+    "toponym": "Venice",
     "modern": "Venice"
   },
   {
@@ -5317,8 +5953,10 @@
     "wikidata": "https://www.wikidata.org/entity/Q6247",
     "gbif": "",
     "geonames": "https://www.geonames.org/3174051",
+    "catalog": "",
+    "author": "",
     "note": "",
-    "toponym": "Mantova",
+    "toponym": "Mantua",
     "modern": "Mantua"
   },
   {
@@ -5333,6 +5971,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5348,6 +5988,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "http://id.sbn.it/bid/BVEE074532",
+    "author": "",
     "note": ""
   },
   {
@@ -5362,6 +6004,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5376,6 +6020,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "muschio",
@@ -5393,6 +6039,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": null,
@@ -5410,6 +6058,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": ""
   },
   {
@@ -5423,7 +6073,9 @@
     "viaf": "",
     "wikidata": "",
     "gbif": "",
-    "geonames": "",
+    "geonames": "https://www.geonames.org/8953078",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Finale",
     "modern": "finale"
@@ -5440,6 +6092,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "toponym": "Accademia",
     "modern": "accademia"
@@ -5456,6 +6110,8 @@
     "wikidata": "",
     "gbif": "",
     "geonames": "",
+    "catalog": "",
+    "author": "",
     "note": "",
     "taxon": "",
     "vernacular": "lucertola",

@@ -180,7 +180,7 @@
         "text": "Testi",
         "entity_id": "https://w3id.org/vallisnieri/person/testi_lodovico",
         "type": "person",
-        "label": "Testi"
+        "label": "Testi, Lodovico"
       }
     },
     {
@@ -219,7 +219,7 @@
         "text": "Gabriele Manfredi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi, signor"
+        "label": "Eustachio Manfredi"
       }
     },
     {

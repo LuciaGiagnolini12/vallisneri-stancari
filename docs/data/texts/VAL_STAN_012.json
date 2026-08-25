@@ -37,7 +37,7 @@
         "text": "rondini della Coccincina",
         "entity_id": "https://w3id.org/vallisnieri/organism/salangana",
         "type": "organism",
-        "label": "rondini della Coccincina"
+        "label": "Salangana"
       }
     },
     {
@@ -115,7 +115,7 @@
         "text": "minera del mercurio d’Ungheria",
         "entity_id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
         "type": "place",
-        "label": "minera del mercurio d’Ungheria"
+        "label": "Miniera di mercurio di Idra"
       }
     },
     {
@@ -141,7 +141,7 @@
         "text": "Manfredi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi, signor"
+        "label": "Eustachio Manfredi"
       }
     },
     {

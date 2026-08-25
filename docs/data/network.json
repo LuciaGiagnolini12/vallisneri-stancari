@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_001",
-      "label": "VAL_STAN_001",
+      "label": "Lettera 1",
       "type": "text",
       "letters": [
         "VAL_STAN_001"
@@ -93,7 +93,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "label": "Manfredi, signor",
+      "label": "Eustachio Manfredi",
       "type": "person",
       "letters": [
         "VAL_STAN_001",
@@ -330,7 +330,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_002",
-      "label": "VAL_STAN_002",
+      "label": "Lettera 2",
       "type": "text",
       "letters": [
         "VAL_STAN_002"
@@ -338,7 +338,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
-      "label": "Bellini",
+      "label": "Bellini Lorenzo",
       "type": "person",
       "letters": [
         "VAL_STAN_002"
@@ -546,7 +546,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
-      "label": "Testi, signor",
+      "label": "Ludovico Testi",
       "type": "person",
       "letters": [
         "VAL_STAN_003"
@@ -1161,7 +1161,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/organism/ninfea",
-      "label": "ninfe",
+      "label": "ninfea",
       "type": "organism",
       "letters": [
         "VAL_STAN_009"
@@ -1276,7 +1276,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
-      "label": "Buonanni, Padre",
+      "label": "Buonanni, Filippo",
       "type": "person",
       "letters": [
         "VAL_STAN_011"
@@ -1390,7 +1390,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/organism/salangana",
-      "label": "rondini della Coccincina",
+      "label": "Salangana",
       "type": "organism",
       "letters": [
         "VAL_STAN_012"
@@ -1398,7 +1398,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
-      "label": "minera del mercurio d’Ungheria",
+      "label": "Miniera di mercurio di Idra",
       "type": "place",
       "letters": [
         "VAL_STAN_012"
@@ -1442,7 +1442,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/text/discorso_sopra_la_lenticola_palustre",
-      "label": "discorso sopra la lenticola palustre",
+      "label": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.",
       "type": "text",
       "letters": [
         "VAL_STAN_013",
@@ -1569,7 +1569,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/organism/brassiche",
-      "label": "brassiche",
+      "label": "brassica",
       "type": "organism",
       "letters": [
         "VAL_STAN_014",
@@ -1594,7 +1594,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/orsi_quaranta",
-      "label": "Orsi, marchese",
+      "label": "Orsi, Quaranta",
       "type": "person",
       "letters": [
         "VAL_STAN_015",
@@ -1930,7 +1930,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/organism/zenzaro",
-      "label": "zenzaro",
+      "label": "zenzero",
       "type": "specimen",
       "letters": [
         "VAL_STAN_016"
@@ -2081,7 +2081,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/testi_lodovico",
-      "label": "Testi",
+      "label": "Testi, Lodovico",
       "type": "person",
       "letters": [
         "VAL_STAN_018",
@@ -2818,7 +2818,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/organism/echini",
-      "label": "echini con le spina",
+      "label": "echini",
       "type": "organism",
       "letters": [
         "VAL_STAN_027"
@@ -2834,7 +2834,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
-      "label": "Fardella, abate",
+      "label": "Fardella, Michelangelo",
       "type": "person",
       "letters": [
         "VAL_STAN_028"
@@ -9733,7 +9733,7 @@
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/person/trionfetti",
       "type": "transfer",
-      "object": "discorso sopra la lenticola palustre",
+      "object": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.",
       "letter": "VAL_STAN_013"
     },
     {

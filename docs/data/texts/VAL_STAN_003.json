@@ -11,7 +11,7 @@
         "text": "signor Testi",
         "entity_id": "https://w3id.org/vallisnieri/person/testi_ludovico",
         "type": "person",
-        "label": "Testi, signor"
+        "label": "Ludovico Testi"
       }
     },
     {
@@ -206,7 +206,7 @@
         "text": "signori Manfredi e Nanni",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi, signor"
+        "label": "Eustachio Manfredi"
       }
     },
     {

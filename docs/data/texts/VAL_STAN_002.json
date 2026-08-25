@@ -128,7 +128,7 @@
         "text": "Bellini",
         "entity_id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
         "type": "person",
-        "label": "Bellini"
+        "label": "Bellini Lorenzo"
       }
     },
     {
@@ -245,7 +245,7 @@
         "text": "signor Manfredi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Manfredi, signor"
+        "label": "Eustachio Manfredi"
       }
     },
     {
