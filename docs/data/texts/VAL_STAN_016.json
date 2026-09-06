@@ -310,20 +310,7 @@
       }
     },
     {
-      "text": ", della quale ne aspetto 24 vasi da ",
-      "entity": null
-    },
-    {
-      "text": "Genoa",
-      "entity": {
-        "text": "Genoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
-        "type": "place",
-        "label": "Genova"
-      }
-    },
-    {
-      "text": ") gettandovelo poco a poco di sopra, mescolando l’aceto e facendo strato sino che si tinga. Nella medesima maniera si ha da mettere beni[..]na (forse belzoino), confezione d’ambra, muschio e zibetto, cioè del primo dramma 1, della seconda dramme 5, del terzo dramme 2, del quarto dramma 1, alle quali cose s’aggiungono dramme 2 di polviglio, ",
+      "text": ", della quale ne aspetto 24 vasi da Genoa) gettandovelo poco a poco di sopra, mescolando l’aceto e facendo strato sino che si tinga. Nella medesima maniera si ha da mettere beni[..]na (forse belzoino), confezione d’ambra, muschio e zibetto, cioè del primo dramma 1, della seconda dramme 5, del terzo dramme 2, del quarto dramma 1, alle quali cose s’aggiungono dramme 2 di polviglio, ",
       "entity": null
     },
     {

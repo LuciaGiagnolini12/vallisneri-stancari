@@ -37,7 +37,20 @@
       }
     },
     {
-      "text": ", Genova e ",
+      "text": ", ",
+      "entity": null
+    },
+    {
+      "text": "Genova",
+      "entity": {
+        "text": "Genova",
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "type": "place",
+        "label": "Genova"
+      }
+    },
+    {
+      "text": " e ",
       "entity": null
     },
     {
@@ -124,7 +137,7 @@
         "text": "Milano",
         "entity_id": "https://w3id.org/vallisnieri/place/milan",
         "type": "place",
-        "label": "Milan"
+        "label": "Milano"
       }
     },
     {

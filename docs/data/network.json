@@ -258,7 +258,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/place/milan",
-      "label": "Milan",
+      "label": "Milano",
       "type": "place",
       "letters": [
         "VAL_STAN_001",
@@ -3041,6 +3041,174 @@
       "letter": "UNASSIGNED"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/pisa",
+      "target": "https://w3id.org/vallisnieri/place/lago_scuro",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pisa",
+      "target": "https://w3id.org/vallisnieri/place/ancona",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pisa",
+      "target": "https://w3id.org/vallisnieri/place/portogallo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pisa",
+      "target": "https://w3id.org/vallisnieri/place/murano",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pisa",
+      "target": "https://w3id.org/vallisnieri/place/pratissolo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pisa",
+      "target": "https://w3id.org/vallisnieri/place/sicily",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pisa",
+      "target": "https://w3id.org/vallisnieri/place/istria",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lago_scuro",
+      "target": "https://w3id.org/vallisnieri/place/ancona",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lago_scuro",
+      "target": "https://w3id.org/vallisnieri/place/portogallo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lago_scuro",
+      "target": "https://w3id.org/vallisnieri/place/murano",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lago_scuro",
+      "target": "https://w3id.org/vallisnieri/place/pratissolo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lago_scuro",
+      "target": "https://w3id.org/vallisnieri/place/sicily",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lago_scuro",
+      "target": "https://w3id.org/vallisnieri/place/istria",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ancona",
+      "target": "https://w3id.org/vallisnieri/place/portogallo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ancona",
+      "target": "https://w3id.org/vallisnieri/place/murano",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ancona",
+      "target": "https://w3id.org/vallisnieri/place/pratissolo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ancona",
+      "target": "https://w3id.org/vallisnieri/place/sicily",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ancona",
+      "target": "https://w3id.org/vallisnieri/place/istria",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/portogallo",
+      "target": "https://w3id.org/vallisnieri/place/murano",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/portogallo",
+      "target": "https://w3id.org/vallisnieri/place/pratissolo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/portogallo",
+      "target": "https://w3id.org/vallisnieri/place/sicily",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/portogallo",
+      "target": "https://w3id.org/vallisnieri/place/istria",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/murano",
+      "target": "https://w3id.org/vallisnieri/place/pratissolo",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/murano",
+      "target": "https://w3id.org/vallisnieri/place/sicily",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/murano",
+      "target": "https://w3id.org/vallisnieri/place/istria",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pratissolo",
+      "target": "https://w3id.org/vallisnieri/place/sicily",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/pratissolo",
+      "target": "https://w3id.org/vallisnieri/place/istria",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/sicily",
+      "target": "https://w3id.org/vallisnieri/place/istria",
+      "type": "co-occurrence",
+      "letter": "UNASSIGNED"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/sandri_giacomo",
       "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "type": "co-occurrence",
@@ -3851,6 +4019,222 @@
       "letter": "VAL_STAN_001"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/alps",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_001"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "target": "https://w3id.org/vallisnieri/person/malpighi",
       "type": "co-occurrence",
@@ -5557,6 +5941,78 @@
     {
       "source": "https://w3id.org/vallisnieri/organism/erbe",
       "target": "https://w3id.org/vallisnieri/organism/peri",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/panaro",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/panaro",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/panaro",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/panaro",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/panaro",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_002"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
@@ -7673,6 +8129,204 @@
       "letter": "VAL_STAN_003"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/africa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "target": "https://w3id.org/vallisnieri/place/africa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "target": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "target": "https://w3id.org/vallisnieri/place/schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "target": "https://w3id.org/vallisnieri/place/schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/semi_d_india",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/schio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/schio",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_003"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
       "type": "co-occurrence",
@@ -8231,6 +8885,18 @@
       "letter": "VAL_STAN_004"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_004"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
       "type": "co-occurrence",
@@ -8407,6 +9073,18 @@
     {
       "source": "https://w3id.org/vallisnieri/place/bologna",
       "target": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_005"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_005"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_005"
     },
@@ -9421,6 +10099,36 @@
     {
       "source": "https://w3id.org/vallisnieri/place/rubiera",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/scandiano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/scandiano",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/scandiano",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/scandiano",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_008"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
       "type": "co-occurrence",
       "letter": "VAL_STAN_008"
     },
@@ -12041,6 +12749,84 @@
       "letter": "VAL_STAN_009"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/scandiano",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/scandiano",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/scandiano",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/parigi",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/parigi",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_009"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/malpighi",
       "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
       "type": "co-occurrence",
@@ -12745,6 +13531,36 @@
     {
       "source": "https://w3id.org/vallisnieri/text/armata_cesarea",
       "target": "https://w3id.org/vallisnieri/text/lucimetro",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/africa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_011"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
       "type": "co-occurrence",
       "letter": "VAL_STAN_011"
     },
@@ -13511,6 +14327,54 @@
       "letter": "VAL_STAN_012"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/organism/minera_mercurio",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/minera_mercurio",
+      "target": "https://w3id.org/vallisnieri/place/africa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/minera_mercurio",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/minera_mercurio",
+      "target": "https://w3id.org/vallisnieri/place/rubiera",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/minera_mercurio",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_012"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
       "target": "https://w3id.org/vallisnieri/person/trionfetti",
       "type": "co-occurrence",
@@ -13747,6 +14611,12 @@
     {
       "source": "https://w3id.org/vallisnieri/text/discorso_sopra_la_lenticola_palustre",
       "target": "https://w3id.org/vallisnieri/text/lucimetro",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_013"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/francia",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "co-occurrence",
       "letter": "VAL_STAN_013"
     },
@@ -16987,6 +17857,60 @@
     {
       "source": "https://w3id.org/vallisnieri/text/invito_a_letterati_d_italia",
       "target": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/africa",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/livorno",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_015"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
       "type": "co-occurrence",
       "letter": "VAL_STAN_015"
     },
@@ -21527,6 +22451,306 @@
       "letter": "VAL_STAN_016"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/spagna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/adriatico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/coccincina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/indie",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/spagna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/adriatico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/coccincina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/spagna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/adriatico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/coccincina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/adriatico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/coccincina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/spagna",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/livorno",
+      "target": "https://w3id.org/vallisnieri/place/adriatico",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/livorno",
+      "target": "https://w3id.org/vallisnieri/place/coccincina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/livorno",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/livorno",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/adriatico",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/adriatico",
+      "target": "https://w3id.org/vallisnieri/place/coccincina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/adriatico",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/adriatico",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/adriatico",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/adriatico",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/coccincina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/coccincina",
+      "target": "https://w3id.org/vallisnieri/place/congo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/coccincina",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/coccincina",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/coccincina",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/congo",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/congo",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/congo",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/toscana",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_016"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
       "target": "https://w3id.org/vallisnieri/person/fontanelle",
       "type": "co-occurrence",
@@ -22603,6 +23827,96 @@
     {
       "source": "https://w3id.org/vallisnieri/text/libretto_francese",
       "target": "https://w3id.org/vallisnieri/text/anotomia_dell_anguilla",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+      "target": "https://w3id.org/vallisnieri/place/francia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/francia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/francia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/place/francia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/parigi",
+      "target": "https://w3id.org/vallisnieri/place/livorno",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/parigi",
+      "target": "https://w3id.org/vallisnieri/place/francia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_017"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/livorno",
+      "target": "https://w3id.org/vallisnieri/place/francia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_017"
     },
@@ -26939,6 +28253,96 @@
       "letter": "VAL_STAN_019"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/francia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/francia",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/francia",
+      "target": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/francia",
+      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_019"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/anatre",
       "type": "co-occurrence",
@@ -27613,6 +29017,18 @@
     {
       "source": "https://w3id.org/vallisnieri/place/parigi",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_020"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "target": "https://w3id.org/vallisnieri/place/genoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_020"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_020"
     },
@@ -30227,6 +31643,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/organism/anguilla",
       "type": "co-occurrence",
@@ -30565,6 +31987,24 @@
     {
       "source": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
       "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_024"
     },
@@ -33647,6 +35087,120 @@
       "letter": "VAL_STAN_025"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/germania",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/lione",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/place/roma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/germania",
+      "target": "https://w3id.org/vallisnieri/place/florence",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/germania",
+      "target": "https://w3id.org/vallisnieri/place/lione",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/germania",
+      "target": "https://w3id.org/vallisnieri/place/roma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/germania",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/germania",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/germania",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/lione",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/roma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/florence",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lione",
+      "target": "https://w3id.org/vallisnieri/place/roma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lione",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lione",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/lione",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/roma",
+      "target": "https://w3id.org/vallisnieri/place/parigi",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/roma",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/roma",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_025"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "target": "https://w3id.org/vallisnieri/organism/midollo",
       "type": "co-occurrence",
@@ -33949,6 +35503,12 @@
     {
       "source": "https://w3id.org/vallisnieri/text/stampa_dell_anguilla",
       "target": "https://w3id.org/vallisnieri/text/cerveello_petrificato",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_026"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_026"
     },
@@ -35341,6 +36901,192 @@
     {
       "source": "https://w3id.org/vallisnieri/text/semi_musco_corolloide",
       "target": "https://w3id.org/vallisnieri/text/disertazione_stampata",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/napoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/s_giustina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/parma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/ferrara",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/napoli",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/s_giustina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/parma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/napoli",
+      "target": "https://w3id.org/vallisnieri/place/milan",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/napoli",
+      "target": "https://w3id.org/vallisnieri/place/s_giustina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/napoli",
+      "target": "https://w3id.org/vallisnieri/place/parma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/napoli",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/napoli",
+      "target": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/napoli",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/s_giustina",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/parma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/s_giustina",
+      "target": "https://w3id.org/vallisnieri/place/parma",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/s_giustina",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/s_giustina",
+      "target": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/s_giustina",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/parma",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/parma",
+      "target": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/parma",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_027"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/monte_baldo",
+      "target": "https://w3id.org/vallisnieri/place/basilea",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
@@ -39179,6 +40925,12 @@
       "letter": "VAL_STAN_028"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/milan",
+      "target": "https://w3id.org/vallisnieri/place/inghilterra",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_028"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
       "type": "co-occurrence",
@@ -40127,6 +41879,36 @@
       "letter": "VAL_STAN_029"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/place/nome_normalizzato",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/nome_normalizzato",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/nome_normalizzato",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/nome_normalizzato",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/modena",
+      "target": "https://w3id.org/vallisnieri/place/venezia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_029"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/organism/lucerta",
       "type": "co-occurrence",
@@ -40363,6 +42145,30 @@
     {
       "source": "https://w3id.org/vallisnieri/text/estratto_della_mia_lettera_sopra_la_mosca_rosiseca",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_cervelli_impiegtriti",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_030"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/finale",
+      "target": "https://w3id.org/vallisnieri/place/bologna",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_030"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/finale",
+      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_030"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/finale",
+      "target": "https://w3id.org/vallisnieri/place/modena",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_030"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/finale",
+      "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "co-occurrence",
       "letter": "VAL_STAN_030"
     }

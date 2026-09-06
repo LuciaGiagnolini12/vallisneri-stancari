@@ -155,11 +155,11 @@
   },
   {
     "id": "https://w3id.org/vallisnieri/place/milan",
-    "label": "Milan",
+    "label": "Milano",
     "toponym": "Milano",
     "modern": "Milan",
     "wikidata": "https://www.wikidata.org/entity/Q490",
-    "geonames": "",
+    "geonames": "https://www.geonames.org/6542283",
     "letters": [
       "VAL_STAN_001",
       "VAL_STAN_002",

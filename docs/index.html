@@ -52,38 +52,102 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .home-shell{background:
   radial-gradient(circle at 86% 18%,rgba(139,99,24,.10),transparent 28%),
   linear-gradient(180deg,#f7f1e5 0%,var(--bg) 58%,#eee6d7 100%);}
-.home-hero{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);
-  gap:52px;align-items:end;background:#1e1610;color:#f2e8d8;padding:76px 7vw 66px;
+.home-hero{position:relative;overflow:hidden;display:block;
+  gap:52px;align-items:end;background:#1e1610;color:#f2e8d8;padding:108px 7vw 132px;
   background-image:
     radial-gradient(circle at 82% 25%,rgba(182,139,55,.20),transparent 25%),
     linear-gradient(135deg,#17110c 0%,#25190e 58%,#302113 100%);}
-.home-hero:before{content:"1707—1709";position:absolute;right:6vw;top:22px;font:10px var(--mono);
-  letter-spacing:.16em;color:#c9b99c;opacity:.55;}
 .home-hero:after{content:"";position:absolute;right:-90px;bottom:-130px;width:360px;height:360px;
   border:1px solid rgba(255,255,255,.08);border-radius:50%;box-shadow:0 0 0 34px rgba(255,255,255,.025),0 0 0 68px rgba(255,255,255,.018);}
+.hero-year{position:absolute;right:5vw;top:46%;transform:translateY(-50%);font-family:var(--serif);
+  font-size:clamp(70px,11vw,168px);font-weight:300;color:rgba(232,208,158,.10);letter-spacing:-.03em;
+  line-height:1;pointer-events:none;white-space:nowrap;z-index:0;}
 .hero-copy{position:relative;z-index:1;max-width:760px;}
-.hero-kicker{font:10px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#c7a85c;margin-bottom:18px;}
-.home-hero h1{font-family:var(--serif);font-size:clamp(38px,4.8vw,64px);font-style:italic;
-  font-weight:400;margin-bottom:18px;line-height:1.08;letter-spacing:-.02em;}
-.home-hero p{font-size:14px;opacity:.72;max-width:650px;line-height:1.85;}
-.hero-note{position:relative;z-index:1;align-self:end;border-left:1px solid rgba(201,168,92,.55);
-  padding:8px 0 8px 22px;color:#d7cbb8;font-family:var(--serif);font-size:13px;line-height:1.7;}
-.hero-note strong{display:block;color:#f1e8d8;font-weight:400;font-size:18px;margin-bottom:4px;}
-.home-stats{display:grid;grid-template-columns:repeat(5,1fr);max-width:1180px;margin:-24px auto 0;position:relative;z-index:3;
-  background:rgba(250,247,240,.94);backdrop-filter:blur(8px);border:1px solid rgba(216,207,192,.9);
-  box-shadow:0 16px 40px rgba(61,43,20,.10);border-radius:8px;overflow:hidden;}
-.stat{text-align:left;padding:23px 26px;border-right:1px solid var(--line);}
+.hero-kicker{display:flex;align-items:center;gap:12px;font:10px var(--mono);letter-spacing:.16em;
+  text-transform:uppercase;color:#c7a85c;margin-bottom:22px;}
+.hero-kicker:before{content:"";display:inline-block;width:34px;height:1px;background:#c7a85c;opacity:.7;}
+.home-hero h1{font-family:var(--serif);font-size:clamp(44px,6.4vw,84px);font-style:italic;
+  font-weight:400;margin-bottom:22px;line-height:1.04;letter-spacing:-.02em;}
+.home-hero p{font-size:14px;opacity:.72;max-width:600px;line-height:1.85;margin-bottom:34px;}
+.hero-cta{display:inline-flex;align-items:center;gap:10px;font:11px var(--sans);font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;color:#1e1610;background:#e8d09e;border:none;
+  padding:13px 22px;border-radius:2px;cursor:pointer;transition:transform .18s ease,background .18s ease;}
+.hero-cta:hover{background:#f2dcae;}
+.hero-cta span{display:inline-block;transition:transform .18s ease;}
+.hero-cta:hover span{transform:translateX(4px);}
+.home-bios{max-width:1180px;margin:48px auto 0;padding:0 48px;display:grid;
+  grid-template-columns:1fr 1fr;gap:22px;}
+.bio-card{background:rgba(250,247,240,.9);border:1px solid var(--line);border-radius:8px;
+  padding:26px 28px;box-shadow:0 8px 24px rgba(61,43,20,.06);}
+.bio-card-name{font-family:var(--serif);font-size:20px;font-style:italic;color:var(--ink);
+  margin-bottom:2px;}
+.bio-card-dates{font:10px var(--mono);letter-spacing:.06em;color:var(--gold);
+  text-transform:uppercase;margin-bottom:12px;}
+.bio-card p{font-size:13px;line-height:1.75;color:#3a3632;}
+.home-stats{display:grid;grid-template-columns:repeat(5,1fr);max-width:1180px;margin:-64px auto 0;position:relative;z-index:3;
+  background:rgba(250,247,240,.96);backdrop-filter:blur(8px);border:1px solid rgba(216,207,192,.9);
+  box-shadow:0 20px 48px rgba(61,43,20,.14);border-radius:8px;overflow:hidden;}
+.stat{text-align:left;padding:26px 26px;border-right:1px solid var(--line);}
 .stat:last-child{border-right:0;}
-.stat-n{font-size:34px;font-weight:300;color:var(--gold);font-family:var(--mono);letter-spacing:-.04em;}
+.stat-n{font-size:36px;font-weight:300;color:var(--gold);font-family:var(--mono);letter-spacing:-.04em;}
 .stat-l{font-size:9px;color:var(--faded);text-transform:uppercase;letter-spacing:.13em;margin-top:5px;}
-.home-intro{max-width:980px;margin:62px auto 18px;padding:0 48px;font-family:var(--serif);
-  font-size:16px;line-height:1.9;color:#3a3632;display:grid;grid-template-columns:190px 1fr;gap:42px;}
+
+.home-intro{max-width:980px;margin:88px auto 18px;padding:0 48px;font-family:var(--serif);
+  font-size:16px;line-height:1.9;color:#3a3632;display:grid;grid-template-columns:190px 1fr;gap:42px;
+  position:relative;}
 .home-intro h2{font-size:11px;font-family:var(--sans);font-weight:700;text-transform:uppercase;
   letter-spacing:.13em;margin:4px 0 0;color:var(--gold);}
-.home-intro p{max-width:690px;}
-.home-intro p:first-letter{font-size:2.8em;float:left;line-height:.82;padding:7px 8px 0 0;color:var(--gold);}
-.home-section-head{max-width:1180px;margin:54px auto 0;padding:0 48px;display:flex;justify-content:space-between;align-items:end;}
-.home-section-head h2{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--ink);}
+.corpus-mark{position:absolute;left:-6px;top:-38px;font-family:var(--serif);font-size:150px;font-weight:300;
+  color:rgba(139,99,24,.07);line-height:1;pointer-events:none;z-index:0;}
+.corpus-lede{font-style:italic;font-size:19px;color:var(--ink);margin-bottom:14px;max-width:690px;
+  position:relative;z-index:1;}
+.home-intro p:not(.corpus-lede){max-width:690px;position:relative;z-index:1;}
+.home-intro p:not(.corpus-lede):first-of-type:first-letter{font-size:2.8em;float:left;line-height:.82;
+  padding:7px 8px 0 0;color:var(--gold);}
+
+.home-detail{max-width:980px;margin:8px auto 0;padding:0 48px;}
+.theme-cards{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--line);
+  border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:8px;}
+.theme-card{background:rgba(250,247,240,.92);padding:28px 30px;transition:background .2s ease;position:relative;}
+.theme-card:hover{background:var(--paper);}
+.theme-card-num{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.1em;
+  display:block;margin-bottom:10px;}
+.theme-card h3{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.1em;margin:0 0 10px;color:var(--ink);}
+.theme-card p{font-family:var(--serif);font-size:14.5px;line-height:1.8;color:#3a3632;margin:0;}
+.theme-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:transparent;
+  transition:background .2s ease;}
+.theme-card:hover:before{background:var(--gold);}
+
+/* visual thread timeline */
+.home-thread{max-width:1180px;margin:74px auto 0;padding:0 48px;}
+.thread-years{display:flex;justify-content:space-between;align-items:center;position:relative;
+  font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--faded);padding:0 6px;}
+.thread-years span{background:var(--bg);padding:0 10px;position:relative;z-index:1;font-weight:700;color:var(--ink);}
+.thread-line{position:relative;height:1px;background:var(--line);margin:22px 0 18px;}
+.thread-dots{position:absolute;inset:0;display:flex;justify-content:space-between;align-items:center;
+  padding:0 2%;}
+.thread-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);transform:translateY(-2.5px);
+  opacity:.75;}
+.thread-marks{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 16px;padding:0 6px;}
+.thread-mark{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--faded);}
+.thread-mark:hover{color:var(--gold);}
+
+.home-bios{max-width:1180px;margin:74px auto 0;padding:0 48px;display:grid;
+  grid-template-columns:1fr 1fr;gap:22px;}
+.bio-card{position:relative;background:rgba(250,247,240,.9);border:1px solid var(--line);border-radius:8px;
+  padding:30px 30px 26px 88px;box-shadow:0 8px 24px rgba(61,43,20,.06);overflow:hidden;}
+.bio-initial{position:absolute;left:18px;top:14px;font-family:var(--serif);font-size:72px;font-style:italic;
+  font-weight:300;color:var(--gold-l);line-height:1;}
+.bio-card-name{font-family:var(--serif);font-size:23px;font-style:italic;color:var(--ink);
+  margin-bottom:4px;position:relative;z-index:1;}
+.bio-card-dates{font:10px var(--mono);letter-spacing:.06em;color:var(--gold);
+  text-transform:uppercase;margin-bottom:14px;position:relative;z-index:1;display:flex;align-items:center;gap:8px;}
+.bio-card-dates:after{content:"";flex:1;height:1px;background:var(--line);}
+.bio-card p{font-size:13px;line-height:1.75;color:#3a3632;position:relative;z-index:1;}
+
+.home-section-head{max-width:1180px;margin:78px auto 0;padding:0 48px;display:flex;justify-content:space-between;align-items:end;}
+.home-section-head h2{font-family:var(--serif);font-size:30px;font-weight:400;font-style:italic;color:var(--ink);}
 .home-section-head span{font:9px var(--mono);color:var(--faded);letter-spacing:.08em;text-transform:uppercase;}
 .letter-grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
   gap:12px;padding:18px 48px 64px;}
@@ -100,12 +164,20 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .lc-badge{font-size:8px;padding:3px 6px;border-radius:99px;border:1px solid rgba(0,0,0,.06);}
 
 @media (max-width:800px){
-  .home-hero{grid-template-columns:1fr;gap:28px;padding:62px 28px 56px;}
-  .hero-note{max-width:420px;}
-  .home-stats{margin:0;border-radius:0;grid-template-columns:1fr;}
-  .stat{border-right:0;border-bottom:1px solid var(--line);}
-  .stat:last-child{border-bottom:0;}
-  .home-intro{grid-template-columns:1fr;gap:10px;padding:0 28px;margin-top:42px;}
+  .home-hero{grid-template-columns:1fr;gap:28px;padding:62px 28px 96px;}
+  .hero-year{display:none;}
+  .home-stats{margin:-48px 16px 0;border-radius:8px;grid-template-columns:1fr 1fr;}
+  .stat{border-right:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .stat:nth-child(2n){border-right:0;}
+  .home-intro{grid-template-columns:1fr;gap:10px;padding:0 28px;margin-top:56px;}
+  .corpus-mark{display:none;}
+  .home-detail{padding:0 28px;}
+  .theme-cards{grid-template-columns:1fr;}
+  .home-thread{padding:0 28px;}
+  .thread-marks{gap:8px 12px;}
+  .home-bios{grid-template-columns:1fr;padding:0 28px;}
+  .bio-card{padding-left:30px;}
+  .bio-initial{display:none;}
   .home-section-head{padding:0 28px;}
   .letter-grid{padding-left:28px;padding-right:28px;}
 }
@@ -375,30 +447,75 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <div class="page on" id="pg-home">
   <div class="home-shell">
     <div class="home-hero">
+      <div class="hero-year">1707–1709</div>
       <div class="hero-copy">
-        <div class="hero-kicker">Digital scholarly edition · 1707–1709</div>
+        <div class="hero-kicker">Digital scholarly edition</div>
         <h1>Vallisnieri–Stancari<br>Correspondence</h1>
         <p>A digital scholarly edition of 30 letters (1707–1709) from Antonio Vallisnieri to Vittorio Francesco Stancari.
         A corpus of early eighteenth-century Italian history of science, extracted and annotated using
         knowledge graph techniques and artificial intelligence.</p>
-      </div>
-      <div class="hero-note">
-        <strong>Antonio Vallisnieri</strong>
-        Naturalist and physician, correspondent of Stancari — his letters trace specimens, texts and observations moving across Padua, Bologna and Europe.
+        <button class="hero-cta" onclick="document.getElementById('home-letters').scrollIntoView({behavior:'smooth',block:'start'})">Explore the correspondence <span>→</span></button>
       </div>
     </div>
 
     <div class="home-stats" id="home-stats"></div>
 
     <div class="home-intro">
+      <div class="corpus-mark">30</div>
       <h2>The corpus</h2>
-      <p>The letters document exchanges of biological specimens, scientific observations, texts and networks of
-      correspondents. Vallisnieri uses Stancari as a remote observer in Bologna, while writing from Padua.</p>
+      <div>
+        <p class="corpus-lede">Thirty letters. One scientific correspondence. A window onto the Republic of Letters.</p>
+        <p>The letters are preserved in the Historical Archive of the University of Bologna, as part of a small collection acquired on the antiquarian market in 2013. Dating from 1705 to 1708, all thirty are addressed by Antonio Vallisnieri to Francesco Vittorio Stancari — a young lecturer in mathematics, physicist, astronomer, and the first secretary of the newly founded Academy of Sciences of Bologna. Despite its modest size, the collection touches on many of the subjects that would remain central to Vallisnieri's work for years to come, and offers a window onto the wider scientific network of the Republic of Letters.</p>
+      </div>
+    </div>
+
+    <div class="home-detail">
+      <div class="theme-cards">
+        <div class="theme-card">
+          <span class="theme-card-num">01</span>
+          <h3>Research themes</h3>
+          <p>Across the letters, Vallisnieri returns again and again to a handful of subjects: insects (especially the rose-gall fly), the seed of the water lentil, the ovary of the eel, chameleons, the ox brain, and the lucimeter — a French-invented instrument for measuring light, whose translation, construction and delivery to Bologna he tracks letter by letter between February and July 1707.</p>
+        </div>
+        <div class="theme-card">
+          <span class="theme-card-num">02</span>
+          <h3>Writing & circulating knowledge</h3>
+          <p>Ten of the thirty letters carry attachments: extracts from the journal <em>La Galleria di Minerva</em>, to which Vallisnieri contributed for over twenty years (often under pseudonyms or students' names); pen-and-ink drawings of the lentil seed, the flea, the rose-gall fly and the eel's ovary; and, in one case, an actual specimen — three flies preserved inside a small folded paper packet.</p>
+        </div>
+        <div class="theme-card">
+          <span class="theme-card-num">03</span>
+          <h3>Vallisnieri's museum</h3>
+          <p>From 1695 Vallisnieri assembled a personal natural history museum, modelled on that of Ferdinando Marsili, acquiring specimens through fieldwork, exchange, gift and purchase — a whale jaw, an American serpent, a shark's head, and Indian seeds all entered his gallery via the correspondence documented here.</p>
+        </div>
+        <div class="theme-card">
+          <span class="theme-card-num">04</span>
+          <h3>A wider network</h3>
+          <p>Behind the exchange with Stancari lies a much larger web of correspondents — Marsili, Eustachio Manfredi, Giovanni Battista Morgagni, and the self-taught apothecary Diacinto Cestoni in Livorno, through whom Vallisnieri obtained rare specimens such as the chameleons discussed throughout these letters. Of Vallisnieri's roughly 12,000 surviving letters, more than ninety percent of his correspondents were based in northern Italy.</p>
+        </div>
+      </div>
     </div>
 
     <div class="home-section-head">
-      <h2>Browse the correspondence</h2>
-      <span>30 documents · 1707—1709</span>
+      <h2>The correspondents</h2>
+      <span>Two scholars, one exchange</span>
+    </div>
+    <div class="home-bios">
+      <div class="bio-card">
+        <div class="bio-initial">S</div>
+        <div class="bio-card-name">Francesco Vittorio Stancari</div>
+        <div class="bio-card-dates">Bologna, 1678 – Bologna, 1709</div>
+        <p>At the time of this correspondence (1705–1708), Stancari was a young lecturer in mathematics at the University of Bologna, as well as a physicist, astronomer, and the first secretary of the newly established Academy of Sciences of Bologna. The thirty letters Vallisnieri addressed to him — acquired by the University's Historical Archive on the antiquarian market in 2013 — are the only surviving trace of their exchange, yet they touch on many of the subjects that would occupy Vallisnieri for years to come.</p>
+      </div>
+      <div class="bio-card">
+        <div class="bio-initial">V</div>
+        <div class="bio-card-name">Antonio Vallisnieri</div>
+        <div class="bio-card-dates">Trassilico, 1661 – Padua, 1730</div>
+        <p>Born in Trassilico and raised in Scandiano, Vallisnieri travelled to Bologna in 1682 to study medicine under Marcello Malpighi, whose Galilean experimental philosophy shaped his entire career. After taking his degree in Reggio Emilia (1685) and practising medicine in Venice and Parma, he turned increasingly to natural history — first to entomology, refuting the doctrine of spontaneous generation. His 1696 Primo dialogo earned him, in 1700, the Chair of Practical Medicine at Padua, and in 1711 the more prestigious Chair of Theoretical Medicine, which he held until his death in 1730.</p>
+      </div>
+    </div>
+
+    <div class="home-section-head">
+      <h2>Explore the correspondence</h2>
+      <span>30 letters · 1707—1709</span>
     </div>
     <div class="letter-grid" id="home-letters"></div>
   </div>
@@ -812,7 +929,6 @@ function renderEntities() {
           <div class="ec-type" style="color:${colors[e.type]||'#666'}">${labels[e.type]||e.type}</div>
           <div class="ec-label">${escHtml(e.label)}</div>
           ${e.taxon?`<div class="ec-sub">${escHtml(e.taxon)}</div>`:''}
-          ${e.note&&e.note.includes('AMBIGUO')?'<div class="ec-sub" style="color:var(--gold)">⚠ uncertain identification</div>':''}
           ${uris?`<div class="ec-uris">${uris}</div>`:''}
         </div>
         <div class="ec-letters">
@@ -902,10 +1018,10 @@ function buildNetwork() {
   }
 
   const sim = d3.forceSimulation(visNodes)
-    .force('link', d3.forceLink(visEdges).id(d=>d.id).distance(90))
-    .force('charge', d3.forceManyBody().strength(-150))
+    .force('link', d3.forceLink(visEdges).id(d=>d.id).distance(140))
+    .force('charge', d3.forceManyBody().strength(-260))
     .force('center', d3.forceCenter(w/2, h/2))
-    .force('collision', d3.forceCollide(d=>8+Math.min(d.letters||1,10)));
+    .force('collision', d3.forceCollide(d=>14+Math.min(d.letters||1,10)));
   if(netSim) netSim.stop();
   netSim = sim;
   netCurrentVisEdges = visEdges;

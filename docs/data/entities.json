@@ -489,7 +489,7 @@
     "id": "https://w3id.org/vallisnieri/place/milan",
     "slug": "milan",
     "type": "place",
-    "label": "Milan",
+    "label": "Milano",
     "letters": [
       "VAL_STAN_001",
       "VAL_STAN_002",
@@ -500,11 +500,11 @@
     "viaf": "",
     "wikidata": "https://www.wikidata.org/entity/Q490",
     "gbif": "",
-    "geonames": "",
+    "geonames": "https://www.geonames.org/6542283",
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": "",
+    "nameInText": "Milano",
     "toponym": "Milano",
     "modern": "Milan"
   },
@@ -603,7 +603,7 @@
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": "Genoa",
+    "nameInText": "Genova",
     "toponym": "Genova",
     "modern": "Genova"
   },

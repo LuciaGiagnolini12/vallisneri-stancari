@@ -1,5 +1,16 @@
 [
   {
+    "id": "UNASSIGNED",
+    "date": "",
+    "from": "",
+    "to": "",
+    "counts": {
+      "place": 8,
+      "organism": 7
+    },
+    "total_entities": 15
+  },
+  {
     "id": "VAL_STAN_001",
     "date": "1705-08-16",
     "from": "Antonio Vallisneri",
