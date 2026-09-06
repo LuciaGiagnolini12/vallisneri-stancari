@@ -245,7 +245,20 @@
       }
     },
     {
-      "text": " con vari e repplicati sperimenti. Fra gli altri non ottiene per avventura l’ultimo luogo quello di legare sotto e sopra una grossa vena o arteria prima di cavarla dal corpo, poi posta nella macchina suddetta, cavare tutta l’aria, perloché enormemente si gonfiava. Dopo la tagliavano con un ordigno congegnato a posta con bell’arte senza riaprire la macchina, e vedevano molte bolle uscir fuora, ed il mercurio in un piccolo barometro tornare ad ascendere. Il che dicevano non possono fare gli spiriti soli, o altre particelle minute sciolte in vapori, non avendo l’elatere della medesima. Il tutto può vostra signoria illustrissima con questi altri virtuosissimi signori da me tanto stimati repplicare nella sua bella macchina, migliorare gli esperimenti, e raffinarli col sodo loro giudizio, e dare lumi più chiari all’ancor torbida e nera filosofia. Né vidi cose di minor peso e di minore curiosità in Firenze, particolarmente fatte con quel maraviglioso loro specchio ustorio, che scioglie ogni metallo, vetrifica ogn’erba, come anche il formaggio piacentino, calcina, o sfarina, e stritola tutte le gioie e marmi più duri. Fra le gioie il solo ",
+      "text": " con vari e repplicati sperimenti. Fra gli altri non ottiene per avventura l’ultimo luogo quello di legare sotto e sopra una grossa vena o arteria prima di cavarla dal corpo, poi posta nella macchina suddetta, cavare tutta l’aria, perloché enormemente si gonfiava. Dopo la tagliavano con un ordigno congegnato a posta con bell’arte senza riaprire la macchina, e vedevano molte bolle uscir fuora, ed il mercurio in un piccolo barometro tornare ad ascendere. Il che dicevano non possono fare gli spiriti soli, o altre particelle minute sciolte in vapori, non avendo l’elatere della medesima. Il tutto può vostra signoria illustrissima con questi altri virtuosissimi signori da me tanto stimati repplicare nella sua bella macchina, migliorare gli esperimenti, e raffinarli col sodo loro giudizio, e dare lumi più chiari all’ancor torbida e nera filosofia. Né vidi cose di minor peso e di minore curiosità in ",
+      "entity": null
+    },
+    {
+      "text": "Firenze",
+      "entity": {
+        "text": "Firenze",
+        "entity_id": "https://w3id.org/vallisnieri/place/florence",
+        "type": "place",
+        "label": "Firenze"
+      }
+    },
+    {
+      "text": ", particolarmente fatte con quel maraviglioso loro specchio ustorio, che scioglie ogni metallo, vetrifica ogn’erba, come anche il formaggio piacentino, calcina, o sfarina, e stritola tutte le gioie e marmi più duri. Fra le gioie il solo ",
       "entity": null
     },
     {

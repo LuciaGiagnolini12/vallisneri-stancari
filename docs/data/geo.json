@@ -200,33 +200,12 @@
     "lng": null
   },
   {
-    "id": "https://w3id.org/vallisnieri/place/modena",
-    "label": "Modena",
-    "toponym": "Modena",
-    "modern": "Modena",
-    "wikidata": "",
-    "geonames": "",
-    "letters": [
-      "VAL_STAN_001",
-      "VAL_STAN_008",
-      "VAL_STAN_009",
-      "VAL_STAN_015",
-      "VAL_STAN_016",
-      "VAL_STAN_019",
-      "VAL_STAN_021",
-      "VAL_STAN_029",
-      "VAL_STAN_030"
-    ],
-    "lat": null,
-    "lng": null
-  },
-  {
     "id": "https://w3id.org/vallisnieri/place/genoa",
-    "label": "Genoa",
+    "label": "Genova",
     "toponym": "Genova",
     "modern": "Genova",
     "wikidata": "https://www.wikidata.org/entity/Q1449",
-    "geonames": "",
+    "geonames": "https://www.geonames.org/6542282",
     "letters": [
       "VAL_STAN_001",
       "VAL_STAN_015",
@@ -257,7 +236,7 @@
     "toponym": "Firenze",
     "modern": "Firenze",
     "wikidata": "https://www.wikidata.org/entity/Q2044",
-    "geonames": "",
+    "geonames": "https://www.geonames.org/6542285",
     "letters": [
       "VAL_STAN_001",
       "VAL_STAN_002",
@@ -444,6 +423,26 @@
     ],
     "lat": 44.5925,
     "lng": 10.687777777
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/modena",
+    "label": "Modena",
+    "toponym": "Modena",
+    "modern": "Modena",
+    "wikidata": "",
+    "geonames": "",
+    "letters": [
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_019",
+      "VAL_STAN_021",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "lat": null,
+    "lng": null
   },
   {
     "id": "https://w3id.org/vallisnieri/place/rubiera",

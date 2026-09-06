@@ -37,7 +37,20 @@
       }
     },
     {
-      "text": ", Genova e Firenze. Ho fatta nuova descrizione della minera del nostro ",
+      "text": ", Genova e ",
+      "entity": null
+    },
+    {
+      "text": "Firenze",
+      "entity": {
+        "text": "Firenze",
+        "entity_id": "https://w3id.org/vallisnieri/place/florence",
+        "type": "place",
+        "label": "Firenze"
+      }
+    },
+    {
+      "text": ". Ho fatta nuova descrizione della minera del nostro ",
       "entity": null
     },
     {
