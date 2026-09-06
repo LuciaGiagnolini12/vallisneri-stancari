@@ -297,16 +297,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .net-fbtn:hover{border-color:var(--ink);}
 .net-fbtn.on{background:var(--ink);color:white;border-color:var(--ink);}
 .net-search{padding:4px 8px;border:1px solid var(--line);border-radius:3px;font-size:10px;width:180px;background:white;}
-.net-focus-banner{
-  position:absolute;top:16px;right:16px;z-index:10;background:rgba(30,22,16,.92);color:#f2e8d8;
-  border-radius:6px;padding:8px 14px;font-size:11px;box-shadow:0 4px 12px rgba(0,0,0,.15);
-  display:none;align-items:center;gap:10px;
-}
-.net-focus-banner.on{display:flex;}
-.net-focus-banner strong{font-family:var(--serif);font-style:italic;font-size:13px;font-weight:400;}
-.net-focus-banner button{background:none;border:1px solid rgba(255,255,255,.3);color:#f2e8d8;border-radius:3px;
-  padding:2px 8px;font-size:10px;cursor:pointer;}
-.net-focus-banner button:hover{background:rgba(255,255,255,.12);}
 .net-legend{position:absolute;bottom:24px;right:24px;background:rgba(250,247,240,.95);border:1px solid var(--line);border-radius:6px;padding:14px 18px;font-size:10.5px;box-shadow:0 4px 16px rgba(0,0,0,.1);min-width:190px;}
 .net-legend-title{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faded);margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--line);}
 .net-legend-section{font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--faded);margin:10px 0 4px;}
@@ -475,20 +465,21 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <div class="net-filters">
         <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Entity:</span>
         <input id="net-entity-filter" class="net-search" list="net-entity-list"
-               placeholder="Filter by entity name…"
+               placeholder="Type to search…"
                oninput="netEntityFilterInput(this.value)"
                onchange="netEntityFilterInput(this.value)"
                onkeydown="if(event.key==='Enter') netEntityFilterInput(this.value)">
         <datalist id="net-entity-list"></datalist>
         <button class="net-fbtn" id="net-entity-clear" style="display:none" onclick="netClearEntityFocus()">✕ Clear</button>
       </div>
+      <div class="net-filters" id="net-focus-banner" style="display:none">
+        <span style="font-size:10px;color:var(--faded)">Showing:</span>
+        <span style="font-size:11px;font-style:italic;font-family:var(--serif)" id="net-focus-label"></span>
+        <span style="font-size:10px;color:var(--faded)">+ <span id="net-focus-count"></span> direct connection(s)</span>
+      </div>
       <div class="net-filters">
         <input id="net-letter-filter" class="net-search" placeholder="Filter by letter (e.g. 001)…" oninput="netLetterFilter(this.value)">
       </div>
-    </div>
-    <div class="net-focus-banner" id="net-focus-banner">
-      <span>Showing: <strong id="net-focus-label"></strong> + <span id="net-focus-count"></span> direct connection(s)</span>
-      <button onclick="netClearEntityFocus()">✕ Clear</button>
     </div>
     <svg id="network-svg"></svg>
     <div class="net-legend">
@@ -861,6 +852,11 @@ function buildNetwork() {
   svg.call(d3.zoom().scaleExtent([.2,4]).on('zoom', ev=>g.attr('transform',ev.transform)));
 
   let visNodes = netNodes.filter(d=>{
+    // L'entità in focus resta sempre visibile anche se il suo tipo viene
+    // disattivato dai filtri: l'utente vuole poter "spegnere" un tipo
+    // per ripulire i VICINI di quel tipo (es. altri Testi) senza perdere
+    // il nodo su cui si è specificamente concentrato.
+    if(d.id === netFocusEntity) return true;
     if(!netTypeFilters.has(d.type)) return false;
     if(netLetterF){
       const lids = Array.isArray(d.letters) ? d.letters : [];
@@ -897,11 +893,11 @@ function buildNetwork() {
     visEdges = focusEdges;
 
     const focusNode = netNodes.find(d=>d.id===netFocusEntity);
-    document.getElementById('net-focus-label').textContent = focusNode?.label || netFocusEntity;
+    document.getElementById('net-focus-label').textContent = focusNode?.label?.trim() || netFocusEntity;
     document.getElementById('net-focus-count').textContent = focusEdges.length;
-    banner.classList.add('on');
+    banner.style.display = 'flex';
   } else {
-    banner.classList.remove('on');
+    banner.style.display = 'none';
   }
 
   const sim = d3.forceSimulation(visNodes)
@@ -977,6 +973,7 @@ function netLetterFilter(val){
 
 function netEntityFilterInput(value){
   const q = value.trim().toLowerCase();
+  netUpdateEntityDatalist(q);
   if(!q){ netClearEntityFocus(); return; }
   // Confronto sempre "trimmato" su entrambi i lati: alcune etichette nei
   // dati hanno uno spazio finale residuo (es. "Petiver, James "), che
@@ -998,30 +995,43 @@ function netEntityFilterInput(value){
   }
 }
 
+function netUpdateEntityDatalist(q){
+  // "Lazy": non elenchiamo tutte le entità appena si clicca nel campo
+  // (con centinaia di nodi la tendina diventa inutilizzabile). Il
+  // datalist resta vuoto finché l'utente non digita almeno un carattere,
+  // poi mostriamo al massimo 20 corrispondenze, ordinate alfabeticamente.
+  const list = document.getElementById('net-entity-list');
+  if(!q){ list.innerHTML = ''; return; }
+  const matches = netEntityLabelIndex
+    .filter(e => e.label.trim().toLowerCase().includes(q))
+    .slice(0, 20);
+  list.innerHTML = matches.map(e=>`<option value="${escAttr(e.label.trim())}">`).join('');
+}
+
 function netClearEntityFocus(){
   netFocusEntity = null;
   const input = document.getElementById('net-entity-filter');
   if(input) input.value = '';
   const clearBtn = document.getElementById('net-entity-clear');
   if(clearBtn) clearBtn.style.display = 'none';
+  netUpdateEntityDatalist('');
   buildNetwork();
 }
 
 function netPopulateEntityDatalist(){
-  // Etichette uniche, ordinate, per il datalist di ricerca. Se due entità
-  // condividono la stessa etichetta, viene usata la prima incontrata: è un
-  // limite accettabile per un campo di ricerca testuale come questo.
+  // Costruisce solo l'indice etichetta→id usato per il match e per i
+  // suggerimenti "lazy" (vedi netUpdateEntityDatalist); il <datalist> nel
+  // DOM resta vuoto finché l'utente non inizia a digitare.
   const seen = new Set();
   netEntityLabelIndex = [];
   netNodes.forEach(d=>{
-    if(d.label && !seen.has(d.label)){
-      seen.add(d.label);
-      netEntityLabelIndex.push({id:d.id, label:d.label});
+    const label = (d.label||'').trim();
+    if(label && !seen.has(label)){
+      seen.add(label);
+      netEntityLabelIndex.push({id:d.id, label:label});
     }
   });
   netEntityLabelIndex.sort((a,b)=>a.label.localeCompare(b.label));
-  const list = document.getElementById('net-entity-list');
-  list.innerHTML = netEntityLabelIndex.map(e=>`<option value="${escAttr(e.label)}">`).join('');
 }
 
 function showNetTooltip(ev,d){
