@@ -323,8 +323,17 @@
       }
     },
     {
-      "text": ", e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri",
+      "text": ", e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio ",
       "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

@@ -31,9 +31,9 @@
       "text": "Martinelli",
       "entity": {
         "text": "Martinelli",
-        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli_cristino",
         "type": "person",
-        "label": "Martinelli"
+        "label": "Martinelli, Cristino "
       }
     },
     {
@@ -96,9 +96,9 @@
       "text": "Lancisi",
       "entity": {
         "text": "Lancisi",
-        "entity_id": "https://w3id.org/vallisnieri/person/lancisi",
+        "entity_id": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
         "type": "person",
-        "label": "Lancisi"
+        "label": "Lancisi, Giovanni Maria "
       }
     },
     {
@@ -115,20 +115,7 @@
       }
     },
     {
-      "text": ", che aggiugnerò al discorso che già ho esteso. La supplico a non privarmi di questa consolazione. Aspetto pure le leggi dell’Accademia, l’indice degli accademici, il corpo della sua impresa e cose simili. ",
-      "entity": null
-    },
-    {
-      "text": "Rubbi",
-      "entity": {
-        "text": "Rubbi",
-        "entity_id": "https://w3id.org/vallisnieri/person/rubbi",
-        "type": "person",
-        "label": "Rubbi"
-      }
-    },
-    {
-      "text": " un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor ",
+      "text": ", che aggiugnerò al discorso che già ho esteso. La supplico a non privarmi di questa consolazione. Aspetto pure le leggi dell’Accademia, l’indice degli accademici, il corpo della sua impresa e cose simili. Rubbi un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor ",
       "entity": null
     },
     {

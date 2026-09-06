@@ -431,6 +431,7 @@
     "label": "Vallisneri, Antonio",
     "letters": [
       "VAL_STAN_001",
+      "VAL_STAN_002",
       "VAL_STAN_003",
       "VAL_STAN_004",
       "VAL_STAN_005",
@@ -724,7 +725,7 @@
     "id": "https://w3id.org/vallisnieri/place/florence",
     "slug": "florence",
     "type": "place",
-    "label": "Florence",
+    "label": "Firenze",
     "letters": [
       "VAL_STAN_001",
       "VAL_STAN_002",
@@ -1123,23 +1124,6 @@
     "certainty": "MEDIO"
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
-    "slug": "vallisnieri__antonio",
-    "type": "person",
-    "label": "Vallisnieri, Antonio",
-    "letters": [
-      "VAL_STAN_002"
-    ],
-    "viaf": "",
-    "wikidata": "",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "",
-    "nameInText": ""
-  },
-  {
     "id": "https://w3id.org/vallisnieri/organism/pelecano",
     "slug": "pelecano",
     "type": "organism",
@@ -1325,7 +1309,7 @@
       "VAL_STAN_003"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q7372",
     "gbif": "",
     "geonames": "",
     "catalog": "",
@@ -1500,7 +1484,7 @@
     "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
     "slug": "testi_ludovico",
     "type": "person",
-    "label": "Ludovico Testi",
+    "label": "Testi, Ludovico",
     "letters": [
       "VAL_STAN_003"
     ],
@@ -1517,7 +1501,7 @@
     "id": "https://w3id.org/vallisnieri/place/venezia",
     "slug": "venezia",
     "type": "place",
-    "label": "Venice",
+    "label": "Venezia",
     "letters": [
       "VAL_STAN_003",
       "VAL_STAN_005",
@@ -1526,7 +1510,7 @@
     "viaf": "",
     "wikidata": "https://www.wikidata.org/entity/Q641",
     "gbif": "",
-    "geonames": "https://www.geonames.org/3164603",
+    "geonames": "https://www.geonames.org/6542284",
     "catalog": "",
     "author": "",
     "note": "",
@@ -3092,7 +3076,7 @@
     "id": "https://w3id.org/vallisnieri/place/spagna",
     "slug": "spagna",
     "type": "place",
-    "label": "Spain",
+    "label": "Spagna",
     "letters": [
       "VAL_STAN_016"
     ],
@@ -3867,23 +3851,6 @@
     "certainty": "BASSO"
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-    "slug": "petesino_mantoano",
-    "type": "person",
-    "label": "petesino_mantoano",
-    "letters": [
-      "VAL_STAN_019"
-    ],
-    "viaf": "",
-    "wikidata": "",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "[AMBIGUO] Medico che usava arsenico",
-    "nameInText": "Petesino mantoano"
-  },
-  {
     "id": "https://w3id.org/vallisnieri/organism/gebelindi",
     "slug": "gebelindi",
     "type": "organism",
@@ -4003,18 +3970,18 @@
     "id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
     "slug": "arsenico_giallo",
     "type": "organism",
-    "label": "arsenico giallo",
+    "label": "arsenico",
     "letters": [
       "VAL_STAN_019"
     ],
     "viaf": "",
-    "wikidata": "",
+    "wikidata": "https://www.wikidata.org/entity/Q871",
     "gbif": "",
     "geonames": "",
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": "arsenico giallo",
+    "nameInText": "arsenico",
     "taxon": "",
     "vernacular": "orpimento",
     "certainty": "ALTO"
@@ -4023,18 +3990,18 @@
     "id": "https://w3id.org/vallisnieri/person/ettmulero",
     "slug": "ettmulero",
     "type": "person",
-    "label": "ettmulero",
+    "label": "Ettmüller, Michael ",
     "letters": [
       "VAL_STAN_019"
     ],
-    "viaf": "",
-    "wikidata": "",
+    "viaf": "http://viaf.org/viaf/74632189",
+    "wikidata": "https://www.wikidata.org/entity/Q101975",
     "gbif": "",
     "geonames": "",
     "catalog": "",
     "author": "",
     "note": "[AMBIGUO] Autore citato da Vallisneri",
-    "nameInText": "Ettmulero"
+    "nameInText": "ettmulero"
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/chiogane",
@@ -4097,7 +4064,7 @@
     "id": "https://w3id.org/vallisnieri/person/mirtino",
     "slug": "mirtino",
     "type": "person",
-    "label": "mirtino",
+    "label": "Mirtino",
     "letters": [
       "VAL_STAN_019"
     ],
@@ -4211,11 +4178,11 @@
     "id": "https://w3id.org/vallisnieri/person/langio",
     "slug": "langio",
     "type": "person",
-    "label": "langio",
+    "label": "Lange, Johan Christian ",
     "letters": [
       "VAL_STAN_019"
     ],
-    "viaf": "",
+    "viaf": "http://viaf.org/viaf/20563173",
     "wikidata": "",
     "gbif": "",
     "geonames": "",
@@ -4363,23 +4330,6 @@
     "certainty": "ALTO"
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/rubbi",
-    "slug": "rubbi",
-    "type": "person",
-    "label": "Rubbi",
-    "letters": [
-      "VAL_STAN_021"
-    ],
-    "viaf": "https://viaf.org/viaf/40581759/",
-    "wikidata": "",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "[AMBIGUO] Ruolo incerto, probabilmente messaggero o funzionario.",
-    "nameInText": "Rubbi"
-  },
-  {
     "id": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
     "slug": "leggi_dell_accademia",
     "type": "text",
@@ -4398,16 +4348,17 @@
     "nameInText": ""
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/martinelli",
-    "slug": "martinelli",
+    "id": "https://w3id.org/vallisnieri/person/martinelli_cristino",
+    "slug": "martinelli_cristino",
     "type": "person",
-    "label": "Martinelli",
+    "label": "Martinelli, Cristino ",
     "letters": [
       "VAL_STAN_021",
+      "VAL_STAN_022",
       "VAL_STAN_023",
       "VAL_STAN_025"
     ],
-    "viaf": "https://viaf.org/viaf/46947092/",
+    "viaf": "http://viaf.org/viaf/309592811",
     "wikidata": "",
     "gbif": "",
     "geonames": "",
@@ -4417,15 +4368,16 @@
     "nameInText": "Martinelli"
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/lancisi",
-    "slug": "lancisi",
+    "id": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
+    "slug": "lancisi_giovanni_maria",
     "type": "person",
-    "label": "Lancisi",
+    "label": "Lancisi, Giovanni Maria ",
     "letters": [
-      "VAL_STAN_021"
+      "VAL_STAN_021",
+      "VAL_STAN_022"
     ],
-    "viaf": "https://viaf.org/viaf/66774462/",
-    "wikidata": "",
+    "viaf": "http://viaf.org/viaf/66774462",
+    "wikidata": "https://www.wikidata.org/entity/Q1230485",
     "gbif": "",
     "geonames": "",
     "catalog": "",
@@ -4606,9 +4558,9 @@
     "certainty": "MEDIO"
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/voduard",
+    "id": "https://w3id.org/vallisnieri/text/voduard",
     "slug": "voduard",
-    "type": "person",
+    "type": "text",
     "label": "Voduard",
     "letters": [
       "VAL_STAN_023",
@@ -4647,13 +4599,13 @@
     "id": "https://w3id.org/vallisnieri/person/fardella",
     "slug": "fardella",
     "type": "person",
-    "label": "Fardella, signor",
+    "label": "Fardella, Michelangelo",
     "letters": [
       "VAL_STAN_023",
       "VAL_STAN_025"
     ],
-    "viaf": "",
-    "wikidata": "",
+    "viaf": "http://viaf.org/viaf/71418257",
+    "wikidata": "https://www.wikidata.org/entity/Q2262516",
     "gbif": "",
     "geonames": "",
     "catalog": "",
@@ -4834,14 +4786,15 @@
     "modern": "Roma"
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/bernoulli",
-    "slug": "bernoulli",
+    "id": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
+    "slug": "bernoulli_jakob",
     "type": "person",
-    "label": "Bernoulli, signor",
+    "label": "Bernoulli, Jakob ",
     "letters": [
-      "VAL_STAN_025"
+      "VAL_STAN_025",
+      "VAL_STAN_027"
     ],
-    "viaf": "",
+    "viaf": "http://viaf.org/viaf/14793931 ",
     "wikidata": "",
     "gbif": "",
     "geonames": "",
@@ -5085,23 +5038,6 @@
     "nameInText": "",
     "toponym": "Naples",
     "modern": "Naples"
-  },
-  {
-    "id": "https://w3id.org/vallisnieri/person/signor_bernouli",
-    "slug": "signor_bernouli",
-    "type": "person",
-    "label": "Bernoulli, Jakob ",
-    "letters": [
-      "VAL_STAN_027"
-    ],
-    "viaf": "http://viaf.org/viaf/14793931 ",
-    "wikidata": "",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "[AMBIGUO] incerto",
-    "nameInText": "signor Bernouli"
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/musco_corolloide",
@@ -5438,7 +5374,7 @@
     "id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
     "slug": "serenissimo_di_mantova",
     "type": "person",
-    "label": "serenissimo_di_mantova",
+    "label": "serenissimo di Mantova",
     "letters": [
       "VAL_STAN_029"
     ],
@@ -5508,23 +5444,6 @@
     "taxon": "",
     "vernacular": "",
     "certainty": "BASSO"
-  },
-  {
-    "id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-    "slug": "signor_guglielmini",
-    "type": "person",
-    "label": "Guglielmini, signor",
-    "letters": [
-      "VAL_STAN_029"
-    ],
-    "viaf": "",
-    "wikidata": "",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "[AMBIGUO] Nome sconosciuto",
-    "nameInText": "signor Guglielmini"
   },
   {
     "id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",

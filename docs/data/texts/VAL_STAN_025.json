@@ -135,9 +135,9 @@
       "text": "Martinelli",
       "entity": {
         "text": "Martinelli",
-        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli_cristino",
         "type": "person",
-        "label": "Martinelli"
+        "label": "Martinelli, Cristino "
       }
     },
     {
@@ -226,9 +226,9 @@
       "text": "Bernoulli",
       "entity": {
         "text": "Bernoulli",
-        "entity_id": "https://w3id.org/vallisnieri/person/bernoulli",
+        "entity_id": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
         "type": "person",
-        "label": "Bernoulli, signor"
+        "label": "Bernoulli, Jakob "
       }
     },
     {
@@ -293,7 +293,7 @@
         "text": "Fardella",
         "entity_id": "https://w3id.org/vallisnieri/person/fardella",
         "type": "person",
-        "label": "Fardella, signor"
+        "label": "Fardella, Michelangelo"
       }
     },
     {

@@ -253,7 +253,7 @@
   },
   {
     "id": "https://w3id.org/vallisnieri/place/florence",
-    "label": "Florence",
+    "label": "Firenze",
     "toponym": "Firenze",
     "modern": "Firenze",
     "wikidata": "https://www.wikidata.org/entity/Q2044",
@@ -404,11 +404,11 @@
   },
   {
     "id": "https://w3id.org/vallisnieri/place/venezia",
-    "label": "Venice",
+    "label": "Venezia",
     "toponym": "Venice",
     "modern": "Venice",
     "wikidata": "https://www.wikidata.org/entity/Q641",
-    "geonames": "https://www.geonames.org/3164603",
+    "geonames": "https://www.geonames.org/6542284",
     "letters": [
       "VAL_STAN_003",
       "VAL_STAN_005",
@@ -520,7 +520,7 @@
   },
   {
     "id": "https://w3id.org/vallisnieri/place/spagna",
-    "label": "Spain",
+    "label": "Spagna",
     "toponym": "Spagna",
     "modern": "Spain",
     "wikidata": "https://www.wikidata.org/entity/Q29",

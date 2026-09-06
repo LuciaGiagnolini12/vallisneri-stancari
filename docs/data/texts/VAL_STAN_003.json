@@ -20,7 +20,7 @@
         "text": "signor Testi",
         "entity_id": "https://w3id.org/vallisnieri/person/testi_ludovico",
         "type": "person",
-        "label": "Ludovico Testi"
+        "label": "Testi, Ludovico"
       }
     },
     {
@@ -280,7 +280,7 @@
         "text": "Venezia",
         "entity_id": "https://w3id.org/vallisnieri/place/venezia",
         "type": "place",
-        "label": "Venice"
+        "label": "Venezia"
       }
     },
     {

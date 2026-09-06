@@ -302,9 +302,9 @@
     "to": "Vittorio Francesco Stancari",
     "counts": {
       "organism": 9,
-      "text": 5,
+      "text": 6,
       "place": 7,
-      "person": 9
+      "person": 8
     },
     "total_entities": 30
   },

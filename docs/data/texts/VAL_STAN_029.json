@@ -46,7 +46,7 @@
         "text": "serenissimo di Mantova",
         "entity_id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
         "type": "person",
-        "label": "serenissimo_di_mantova"
+        "label": "serenissimo di Mantova"
       }
     },
     {
@@ -63,20 +63,7 @@
       }
     },
     {
-      "text": ", Formica suo medico, e si sente anche il parere del ",
-      "entity": null
-    },
-    {
-      "text": "signor Guglielmini",
-      "entity": {
-        "text": "signor Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-        "type": "person",
-        "label": "Guglielmini, signor"
-      }
-    },
-    {
-      "text": ". Ma fra tutti non abbiamo potuto trovare il rimedio della morte, essendo volato al cielo questa matina a ore dieci, dopo avere fatto tutto quello deve fare ottimo Prencipe catolico.  \n\nSaprei volentieri cosa fa il ",
+      "text": ", Formica suo medico, e si sente anche il parere del signor Guglielmini. Ma fra tutti non abbiamo potuto trovare il rimedio della morte, essendo volato al cielo questa matina a ore dieci, dopo avere fatto tutto quello deve fare ottimo Prencipe catolico.  \n\nSaprei volentieri cosa fa il ",
       "entity": null
     },
     {
@@ -111,7 +98,7 @@
         "text": "Venezia",
         "entity_id": "https://w3id.org/vallisnieri/place/venezia",
         "type": "place",
-        "label": "Venice"
+        "label": "Venezia"
       }
     },
     {

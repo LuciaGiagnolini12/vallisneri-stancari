@@ -171,16 +171,16 @@
       "entity": null
     },
     {
-      "text": "arsenico giallo",
+      "text": "arsenico",
       "entity": {
-        "text": "arsenico giallo",
+        "text": "arsenico",
         "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
         "type": "organism",
-        "label": "arsenico giallo"
+        "label": "arsenico"
       }
     },
     {
-      "text": " detto orpimento, dandolo sino a un grano, al che non so se si arischierebbono gli europei, temendo non che un veleno scacciasse o frenasse l’altro, ma che uccidesse il paziente, liberandolo in perpetuo da ogni malore. È ben però vero che lo preparano assai sagacemente prima in tal forma. Ridotto in impalpabile polvere sotto il ",
+      "text": " giallo detto orpimento, dandolo sino a un grano, al che non so se si arischierebbono gli europei, temendo non che un veleno scacciasse o frenasse l’altro, ma che uccidesse il paziente, liberandolo in perpetuo da ogni malore. È ben però vero che lo preparano assai sagacemente prima in tal forma. Ridotto in impalpabile polvere sotto il ",
       "entity": null
     },
     {
@@ -219,20 +219,46 @@
       }
     },
     {
-      "text": " dolce, e m’asseriva il suddetto signore averne vedute tanto nell’ordinare il primo quanto il secondo nobilissime cure. Anche questo l’occultano come secreto, e abbenché sieno tenacissimi degli arcani loro, nulladimeno li manifestavano all’amico, stimandolo (come infatti era) dottissimo, per sentire il di lui parere e se sapesse modo di migliorarli. Non è però cosa tanto nuova nella medicina la prescrizione dell’arsenico anche crudo per bocca. Mi soviene che l’",
+      "text": " dolce, e m’asseriva il suddetto signore averne vedute tanto nell’ordinare il primo quanto il secondo nobilissime cure. Anche questo l’occultano come secreto, e abbenché sieno tenacissimi degli arcani loro, nulladimeno li manifestavano all’amico, stimandolo (come infatti era) dottissimo, per sentire il di lui parere e se sapesse modo di migliorarli. Non è però cosa tanto nuova nella medicina la prescrizione dell’",
       "entity": null
     },
     {
-      "text": "Ettmulero",
+      "text": "arsenico",
       "entity": {
-        "text": "Ettmulero",
-        "entity_id": "https://w3id.org/vallisnieri/person/ettmulero",
-        "type": "person",
-        "label": "ettmulero"
+        "text": "arsenico",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+        "type": "organism",
+        "label": "arsenico"
       }
     },
     {
-      "text": " nella mineralogia di lui data dello Scrodero, dove tratta dell’arsenico, narra che un certo medico, se non m’inganno per nome ",
+      "text": " anche crudo per bocca. Mi soviene che l’",
+      "entity": null
+    },
+    {
+      "text": "ettmulero",
+      "entity": {
+        "text": "ettmulero",
+        "entity_id": "https://w3id.org/vallisnieri/person/ettmulero",
+        "type": "person",
+        "label": "Ettmüller, Michael "
+      }
+    },
+    {
+      "text": " nella mineralogia di lui data dello Scrodero, dove tratta dell’",
+      "entity": null
+    },
+    {
+      "text": "arsenico",
+      "entity": {
+        "text": "arsenico",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+        "type": "organism",
+        "label": "arsenico"
+      }
+    },
+    {
+      "text": ", narra che un certo medico, se non m’inganno per nome ",
       "entity": null
     },
     {
@@ -241,11 +267,24 @@
         "text": "Mirtino",
         "entity_id": "https://w3id.org/vallisnieri/person/mirtino",
         "type": "person",
-        "label": "mirtino"
+        "label": "Mirtino"
       }
     },
     {
-      "text": ", dava una polvere contro dell’asma nella quale vi metteva un poco d’arsenico in sostanza, e parmi anche che dica che i nostri antichi lo davano nell’asma gravissimo sino a una mezza dramma, citando le lettere del ",
+      "text": ", dava una polvere contro dell’asma nella quale vi metteva un poco d’",
+      "entity": null
+    },
+    {
+      "text": "arsenico",
+      "entity": {
+        "text": "arsenico",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+        "type": "organism",
+        "label": "arsenico"
+      }
+    },
+    {
+      "text": " in sostanza, e parmi anche che dica che i nostri antichi lo davano nell’asma gravissimo sino a una mezza dramma, citando le lettere del ",
       "entity": null
     },
     {
@@ -254,24 +293,24 @@
         "text": "Langio",
         "entity_id": "https://w3id.org/vallisnieri/person/langio",
         "type": "person",
-        "label": "langio"
+        "label": "Lange, Johan Christian "
       }
     },
     {
-      "text": ". È vero che l’acquetta celebre del ",
+      "text": ". È vero che l’acquetta celebre del Petesino mantoano si fa con ",
       "entity": null
     },
     {
-      "text": "Petesino mantoano",
+      "text": "arsenico",
       "entity": {
-        "text": "Petesino mantoano",
-        "entity_id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-        "type": "person",
-        "label": "petesino_mantoano"
+        "text": "arsenico",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+        "type": "organism",
+        "label": "arsenico"
       }
     },
     {
-      "text": " si fa con arsenico solo in poca dosa cotto in una pentola di rame (con acqua a proporzione) non istagnata, ma forse o senza forse il ",
+      "text": " solo in poca dosa cotto in una pentola di rame (con acqua a proporzione) non istagnata, ma forse o senza forse il ",
       "entity": null
     },
     {
@@ -284,7 +323,46 @@
       }
     },
     {
-      "text": " del rame, che è un potentissimo veleno corrosivo unito all’arsenico e cavato dal medesimo, è quello che fa tutto il male, non il solo e semplice arsenico. Anzi, se non la repplicano più e più volte, è infruttuoso il di lei veleno, detergendo più tosto le prime vie, radendo e levando tutte le antiche ostruzioni e posature di fecce, ed i pazienti dopo vengono molto pingui e sanissimi.  \n\nColl’occasione che l’armata francese è stata nella mia patria, osservai con attenzione il loro modo di medicare, particolarmente negli ospitali, dove sono que’ cerusici e medici animosissimi e risoluti. Nelle febbri lunghe davano anch’essi a pazienti un poco d’arsenico, un preparato decotto in acqua semplice, e con felice successo. Alcuni però più scrupulosi e più cauti lo preparavano con sola acquavite e ne davano con maggior sicurezza in copia maggiore. Sicché concludiamo non essere tanto barbaro ed improbabile il modo turchesco di curar co’ veleni i loro infermi per lo più disperati di sanare per altra strada. E chi sa che la prima volta che sono stati trovati questi azzardati rimedi non sia stato il caso, credendo d’uccidere i pazienti, e li risanarono? Così accadette a quell’adultera ed infingarda donna che impaziente di veder morto il marito da un veleno datogli, repplicandone un altro di forze contrarie, lo richiamò alla primiera salute. In tutto però mi rimmetto alle di loro savie ponderazioni, contentandomi di narrare, non di riflettere sopra il narrato.  \n\nHo terminato il discorso sopra l’",
+      "text": " del rame, che è un potentissimo veleno corrosivo unito all’",
+      "entity": null
+    },
+    {
+      "text": "arsenico",
+      "entity": {
+        "text": "arsenico",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+        "type": "organism",
+        "label": "arsenico"
+      }
+    },
+    {
+      "text": " e cavato dal medesimo, è quello che fa tutto il male, non il solo e semplice ",
+      "entity": null
+    },
+    {
+      "text": "arsenico",
+      "entity": {
+        "text": "arsenico",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+        "type": "organism",
+        "label": "arsenico"
+      }
+    },
+    {
+      "text": ". Anzi, se non la repplicano più e più volte, è infruttuoso il di lei veleno, detergendo più tosto le prime vie, radendo e levando tutte le antiche ostruzioni e posature di fecce, ed i pazienti dopo vengono molto pingui e sanissimi.  \n\nColl’occasione che l’armata francese è stata nella mia patria, osservai con attenzione il loro modo di medicare, particolarmente negli ospitali, dove sono que’ cerusici e medici animosissimi e risoluti. Nelle febbri lunghe davano anch’essi a pazienti un poco d’",
+      "entity": null
+    },
+    {
+      "text": "arsenico",
+      "entity": {
+        "text": "arsenico",
+        "entity_id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+        "type": "organism",
+        "label": "arsenico"
+      }
+    },
+    {
+      "text": ", un preparato decotto in acqua semplice, e con felice successo. Alcuni però più scrupulosi e più cauti lo preparavano con sola acquavite e ne davano con maggior sicurezza in copia maggiore. Sicché concludiamo non essere tanto barbaro ed improbabile il modo turchesco di curar co’ veleni i loro infermi per lo più disperati di sanare per altra strada. E chi sa che la prima volta che sono stati trovati questi azzardati rimedi non sia stato il caso, credendo d’uccidere i pazienti, e li risanarono? Così accadette a quell’adultera ed infingarda donna che impaziente di veder morto il marito da un veleno datogli, repplicandone un altro di forze contrarie, lo richiamò alla primiera salute. In tutto però mi rimmetto alle di loro savie ponderazioni, contentandomi di narrare, non di riflettere sopra il narrato.  \n\nHo terminato il discorso sopra l’",
       "entity": null
     },
     {

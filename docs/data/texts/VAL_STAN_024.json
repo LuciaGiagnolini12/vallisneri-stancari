@@ -31,7 +31,7 @@
       "text": "Verney",
       "entity": {
         "text": "Verney",
-        "entity_id": "https://w3id.org/vallisnieri/person/voduard",
+        "entity_id": "https://w3id.org/vallisnieri/text/voduard",
         "type": "person",
         "label": "Voduard"
       }

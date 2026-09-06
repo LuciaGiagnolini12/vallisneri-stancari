@@ -222,6 +222,7 @@
       "type": "person",
       "letters": [
         "VAL_STAN_001",
+        "VAL_STAN_002",
         "VAL_STAN_003",
         "VAL_STAN_004",
         "VAL_STAN_005",
@@ -402,7 +403,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/place/florence",
-      "label": "Florence",
+      "label": "Firenze",
       "type": "place",
       "letters": [
         "VAL_STAN_001",
@@ -591,14 +592,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
-      "label": "Vallisnieri, Antonio",
-      "type": "person",
-      "letters": [
-        "VAL_STAN_002"
-      ]
-    },
-    {
       "id": "https://w3id.org/vallisnieri/organism/pelecano",
       "label": "pelecano",
       "type": "organism",
@@ -755,7 +748,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
-      "label": "Ludovico Testi",
+      "label": "Testi, Ludovico",
       "type": "person",
       "letters": [
         "VAL_STAN_003"
@@ -763,7 +756,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/place/venezia",
-      "label": "Venice",
+      "label": "Venezia",
       "type": "place",
       "letters": [
         "VAL_STAN_003",
@@ -944,7 +937,7 @@
     {
       "id": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
       "label": "sudor di sangue",
-      "type": "text",
+      "type": "organism",
       "letters": [
         "VAL_STAN_006"
       ]
@@ -997,6 +990,14 @@
       "letters": [
         "VAL_STAN_008",
         "VAL_STAN_009"
+      ]
+    },
+    {
+      "id": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "label": "armata cesarea",
+      "type": "text",
+      "letters": [
+        "VAL_STAN_008"
       ]
     },
     {
@@ -1504,7 +1505,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/place/spagna",
-      "label": "Spain",
+      "label": "Spagna",
       "type": "place",
       "letters": [
         "VAL_STAN_016"
@@ -1849,14 +1850,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "label": "petesino_mantoano",
-      "type": "person",
-      "letters": [
-        "VAL_STAN_019"
-      ]
-    },
-    {
       "id": "https://w3id.org/vallisnieri/organism/gebelindi",
       "label": "gebelindi",
       "type": "organism",
@@ -1908,7 +1901,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
-      "label": "arsenico giallo",
+      "label": "arsenico",
       "type": "organism",
       "letters": [
         "VAL_STAN_019"
@@ -1916,7 +1909,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/ettmulero",
-      "label": "ettmulero",
+      "label": "Ettmüller, Michael ",
       "type": "person",
       "letters": [
         "VAL_STAN_019"
@@ -1948,7 +1941,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/mirtino",
-      "label": "mirtino",
+      "label": "Mirtino",
       "type": "person",
       "letters": [
         "VAL_STAN_019"
@@ -1998,7 +1991,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/langio",
-      "label": "langio",
+      "label": "Lange, Johan Christian ",
       "type": "person",
       "letters": [
         "VAL_STAN_019"
@@ -2065,14 +2058,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/rubbi",
-      "label": "Rubbi",
-      "type": "person",
-      "letters": [
-        "VAL_STAN_021"
-      ]
-    },
-    {
       "id": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
       "label": "leggi dell'Accademia",
       "type": "text",
@@ -2082,21 +2067,23 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/martinelli",
-      "label": "Martinelli",
+      "id": "https://w3id.org/vallisnieri/person/martinelli_cristino",
+      "label": "Martinelli, Cristino ",
       "type": "person",
       "letters": [
         "VAL_STAN_021",
+        "VAL_STAN_022",
         "VAL_STAN_023",
         "VAL_STAN_025"
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/lancisi",
-      "label": "Lancisi",
+      "id": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
+      "label": "Lancisi, Giovanni Maria ",
       "type": "person",
       "letters": [
-        "VAL_STAN_021"
+        "VAL_STAN_021",
+        "VAL_STAN_022"
       ]
     },
     {
@@ -2173,9 +2160,9 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/voduard",
+      "id": "https://w3id.org/vallisnieri/text/voduard",
       "label": "Voduard",
-      "type": "person",
+      "type": "text",
       "letters": [
         "VAL_STAN_023",
         "VAL_STAN_024"
@@ -2191,7 +2178,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/fardella",
-      "label": "Fardella, signor",
+      "label": "Fardella, Michelangelo",
       "type": "person",
       "letters": [
         "VAL_STAN_023",
@@ -2273,11 +2260,12 @@
       ]
     },
     {
-      "id": "https://w3id.org/vallisnieri/person/bernoulli",
-      "label": "Bernoulli, signor",
+      "id": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
+      "label": "Bernoulli, Jakob ",
       "type": "person",
       "letters": [
-        "VAL_STAN_025"
+        "VAL_STAN_025",
+        "VAL_STAN_027"
       ]
     },
     {
@@ -2382,14 +2370,6 @@
       "id": "https://w3id.org/vallisnieri/place/napoli",
       "label": "Naples",
       "type": "place",
-      "letters": [
-        "VAL_STAN_027"
-      ]
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "label": "Bernoulli, Jakob ",
-      "type": "person",
       "letters": [
         "VAL_STAN_027"
       ]
@@ -2542,7 +2522,7 @@
     },
     {
       "id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
-      "label": "serenissimo_di_mantova",
+      "label": "serenissimo di Mantova",
       "type": "person",
       "letters": [
         "VAL_STAN_029"
@@ -2569,14 +2549,6 @@
       "id": "https://w3id.org/vallisnieri/organism/pioggia_de_sassi",
       "label": "pioggia de’ sassi",
       "type": "organism",
-      "letters": [
-        "VAL_STAN_029"
-      ]
-    },
-    {
-      "id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "label": "Guglielmini, signor",
-      "type": "person",
       "letters": [
         "VAL_STAN_029"
       ]
@@ -3892,12 +3864,6 @@
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_002"
-    },
-    {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/person/malpighi",
       "type": "co-occurrence",
@@ -3906,12 +3872,6 @@
     {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_002"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
-      "target": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
@@ -3935,19 +3895,13 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/malpighi",
-      "target": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "target": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_002"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
@@ -3959,13 +3913,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
-      "target": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_002"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/nanni_pietro",
-      "target": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
@@ -4438,79 +4386,79 @@
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/porfido",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/legumi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/rami",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/foglie",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/radici",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/stuora",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/frutti",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/sangue",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/pommi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/diamante",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/uova",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/erbe",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/peri",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
@@ -4660,38 +4608,20 @@
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/panaro",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/place/rubiera",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
-      "target": "https://w3id.org/vallisnieri/place/florence",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_002"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
-      "target": "https://w3id.org/vallisnieri/place/milan",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_002"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/place/padoa",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_002"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisnieri__antonio",
-      "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "co-occurrence",
       "letter": "VAL_STAN_002"
     },
@@ -6461,19 +6391,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/place/rubiera",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_003"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/semi_d_india",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_003"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "co-occurrence",
       "letter": "VAL_STAN_003"
     },
@@ -9568,12 +9486,6 @@
       "letter": "VAL_STAN_009"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/malpighi",
-      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_009"
-    },
-    {
       "source": "https://w3id.org/vallisnieri/person/bosiarto",
       "target": "https://w3id.org/vallisnieri/person/s_agostino",
       "type": "co-occurrence",
@@ -10236,12 +10148,6 @@
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/proglotti",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_009"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/organism/uova",
       "type": "co-occurrence",
       "letter": "VAL_STAN_009"
     },
@@ -23188,54 +23094,6 @@
       "letter": "VAL_STAN_018"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/ettmulero",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/mirtino",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/person/langio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
       "target": "https://w3id.org/vallisnieri/person/ettmulero",
       "type": "co-occurrence",
@@ -23350,132 +23208,6 @@
       "letter": "VAL_STAN_019"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/porfido",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/sciliqua",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/china_china",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/camaleonte",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/gebelindi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/finocchio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/vitriuolo",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/mercurio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/chermesi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/anguilla",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/chiogane",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/ipecuacanne",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/pesci",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/balene",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/rapi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/pepe_commune",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/minerali",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/text/camaleonte",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/organism/semi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
       "target": "https://w3id.org/vallisnieri/organism/porfido",
       "type": "co-occurrence",
@@ -24065,12 +23797,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/organism/porfido",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/organism/sciliqua",
       "type": "co-occurrence",
       "letter": "VAL_STAN_019"
@@ -24264,54 +23990,6 @@
     {
       "source": "https://w3id.org/vallisnieri/person/langio",
       "target": "https://w3id.org/vallisnieri/organism/semi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/rubiera",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/francia",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/modena",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/padoa",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "co-occurrence",
       "letter": "VAL_STAN_019"
     },
@@ -26406,30 +26084,6 @@
     {
       "source": "https://w3id.org/vallisnieri/organism/minerali",
       "target": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/text/ovaja_delle_anguille",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/text/gebelindi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/text/mineralogia_di_lui_dello_scrodero",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_019"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/petesino_mantoano",
-      "target": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
       "type": "co-occurrence",
       "letter": "VAL_STAN_019"
     },
@@ -27964,62 +27618,20 @@
       "letter": "VAL_STAN_020"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/person/lancisi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "target": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
@@ -28031,7 +27643,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
-      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "target": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
@@ -28042,68 +27654,44 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
-      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
+      "target": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
-      "target": "https://w3id.org/vallisnieri/person/lancisi",
+      "target": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/organism/anguilla",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/organism/camaleonte",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/organism/vipere",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
@@ -28120,25 +27708,25 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/camaleonte",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/vipere",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
@@ -28156,25 +27744,25 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/organism/anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/organism/camaleonte",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/organism/vipere",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
@@ -28186,37 +27774,19 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/modena",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/place/padoa",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
-      "target": "https://w3id.org/vallisnieri/place/bologna",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
-      "target": "https://w3id.org/vallisnieri/place/modena",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
@@ -28228,19 +27798,19 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/place/modena",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
@@ -28264,24 +27834,6 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/rubbi",
-      "target": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_021"
-    },
-    {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
       "type": "co-occurrence",
@@ -28312,19 +27864,19 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
@@ -28348,19 +27900,19 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_021"
@@ -28498,13 +28050,13 @@
       "letter": "VAL_STAN_021"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/gebelindi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
@@ -28522,13 +28074,13 @@
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/organism/cacatu",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/organism/gebelindi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
@@ -28546,13 +28098,13 @@
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/costantinopoli",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
@@ -28564,13 +28116,13 @@
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/place/costantinopoli",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
@@ -28636,25 +28188,25 @@
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/regole_di_governare_il_camaleonte",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/sperienze_di_cose_portate_dall_indie",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/indice_dell_accademia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
@@ -28678,25 +28230,25 @@
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/text/regole_di_governare_il_camaleonte",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/text/sperienze_di_cose_portate_dall_indie",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/lancisi",
+      "source": "https://w3id.org/vallisnieri/person/lancisi_giovanni_maria",
       "target": "https://w3id.org/vallisnieri/text/indice_dell_accademia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_022"
@@ -29051,19 +28603,13 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
       "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
-      "target": "https://w3id.org/vallisnieri/person/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -29081,43 +28627,25 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "target": "https://w3id.org/vallisnieri/person/voduard",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
       "target": "https://w3id.org/vallisnieri/person/fardella",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
-      "target": "https://w3id.org/vallisnieri/person/voduard",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/person/fardella",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
-      "target": "https://w3id.org/vallisnieri/person/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -29134,30 +28662,6 @@
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/person/fardella",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "target": "https://w3id.org/vallisnieri/person/fardella",
       "type": "co-occurrence",
@@ -29254,43 +28758,43 @@
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/fiore_della_lenticola_palustre",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/ramarri",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/vomitori",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/serpenti",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/seme_gebelindi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/canape",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
@@ -29345,60 +28849,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
-      "target": "https://w3id.org/vallisnieri/organism/canape",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/fiore_della_lenticola_palustre",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/camaleonte",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/ramarri",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/vomitori",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/serpenti",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/vipere",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/seme_gebelindi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
       "target": "https://w3id.org/vallisnieri/organism/canape",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
@@ -29590,19 +29040,19 @@
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/rubiera",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/genoa",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
@@ -29622,48 +29072,6 @@
     {
       "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
       "target": "https://w3id.org/vallisnieri/place/costantinopoli",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/rubiera",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/apennine_mountains",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/genoa",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/padoa",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/costantinopoli",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30226,14 +29634,32 @@
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/gebelindi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30268,32 +29694,14 @@
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/text/gebelindi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_023"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30328,6 +29736,18 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/fardella",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30354,6 +29774,12 @@
     {
       "source": "https://w3id.org/vallisnieri/person/fardella",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/fardella",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30388,6 +29814,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/fiore_della_lenticola_palustre",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30418,6 +29850,18 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/fiore_della_lenticola_palustre",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/camaleonte",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/ramarri",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30448,6 +29892,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/ramarri",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/vomitori",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30478,6 +29928,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/vomitori",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/serpenti",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30504,6 +29960,12 @@
     {
       "source": "https://w3id.org/vallisnieri/organism/serpenti",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/serpenti",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30520,6 +29982,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/vipere",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/seme_gebelindi",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30550,6 +30018,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/seme_gebelindi",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/canape",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30576,6 +30050,18 @@
     {
       "source": "https://w3id.org/vallisnieri/organism/canape",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/canape",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/reggio_emilia",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30586,6 +30072,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/rubiera",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/place/apennine_mountains",
       "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "type": "co-occurrence",
@@ -30616,6 +30108,12 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/apennine_mountains",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/place/genoa",
       "target": "https://w3id.org/vallisnieri/text/gebelindi",
       "type": "co-occurrence",
@@ -30630,6 +30128,18 @@
     {
       "source": "https://w3id.org/vallisnieri/place/genoa",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/genoa",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/padoa",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30640,6 +30150,18 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/costantinopoli",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/bologna",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "target": "https://w3id.org/vallisnieri/text/gebelindi",
       "type": "co-occurrence",
@@ -30648,6 +30170,12 @@
     {
       "source": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30664,8 +30192,20 @@
       "letter": "VAL_STAN_023"
     },
     {
+      "source": "https://w3id.org/vallisnieri/text/gebelindi",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
       "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_023"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_023"
     },
@@ -30676,22 +30216,16 @@
       "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
-      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "source": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
+      "letter": "VAL_STAN_023"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/person/voduard",
+      "source": "https://w3id.org/vallisnieri/text/armata_cesarea",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
-      "target": "https://w3id.org/vallisnieri/person/voduard",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
+      "letter": "VAL_STAN_023"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
@@ -30760,24 +30294,6 @@
       "letter": "VAL_STAN_024"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/anguilla",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/museo_aldrovandi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/organism/cervello_di_bue",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
-    },
-    {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "target": "https://w3id.org/vallisnieri/organism/museo_aldrovandi",
       "type": "co-occurrence",
@@ -30821,18 +30337,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
-      "target": "https://w3id.org/vallisnieri/place/parigi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
-      "target": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_024"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
       "target": "https://w3id.org/vallisnieri/place/parigi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_024"
@@ -30940,8 +30444,20 @@
       "letter": "VAL_STAN_024"
     },
     {
+      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_024"
     },
@@ -30952,13 +30468,13 @@
       "letter": "VAL_STAN_024"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
-      "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+      "source": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_024"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/voduard",
+      "source": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_024"
@@ -30976,6 +30492,12 @@
       "letter": "VAL_STAN_024"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/anguilla",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/camaleonte",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
       "type": "co-occurrence",
@@ -30988,14 +30510,32 @@
       "letter": "VAL_STAN_024"
     },
     {
+      "source": "https://w3id.org/vallisnieri/organism/museo_aldrovandi",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/organism/cervello_di_bue",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/organism/cervello_di_bue",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_024"
     },
     {
       "source": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
       "type": "co-occurrence",
       "letter": "VAL_STAN_024"
     },
@@ -31018,6 +30558,18 @@
       "letter": "VAL_STAN_024"
     },
     {
+      "source": "https://w3id.org/vallisnieri/place/parigi",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
+      "source": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+      "target": "https://w3id.org/vallisnieri/text/voduard",
+      "type": "co-occurrence",
+      "letter": "VAL_STAN_024"
+    },
+    {
       "source": "https://w3id.org/vallisnieri/person/redi_francesco",
       "target": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "type": "co-occurrence",
@@ -31025,7 +30577,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/redi_francesco",
-      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31043,7 +30595,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/redi_francesco",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31073,7 +30625,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31091,7 +30643,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31115,7 +30667,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
-      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31133,7 +30685,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31157,7 +30709,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "target": "https://w3id.org/vallisnieri/person/bernoulli",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31168,49 +30720,49 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/trionfetti",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/hermann_jakob",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/fardella",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -31223,7 +30775,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/trionfetti",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31247,7 +30799,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
-      "target": "https://w3id.org/vallisnieri/person/martinelli",
+      "target": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
@@ -31282,7 +30834,7 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/person/testi_lodovico",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -31468,79 +31020,79 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/insetti",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/camaleonte",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/gebelindi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/gioie_d_elba",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/balene",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/cervello_petrificato",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/pesci_esotici",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/minerali",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/scorpione_d_affrica",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/semi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -31666,49 +31218,49 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/insetti",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/gioie_d_elba",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/balene",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/cervello_petrificato",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/pesci_esotici",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/minerali",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/scorpione_d_affrica",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/organism/semi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -32038,49 +31590,49 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/reggio_emilia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/germania",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/florence",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/lione",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/roma",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/parigi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/padoa",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/bologna",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -32164,31 +31716,31 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/germania",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/florence",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/lione",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/roma",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/place/parigi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -33082,37 +32634,37 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/discorso_de_mentiti_cervelli",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/opera",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/disertazione_stampata",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/libri",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/bernoulli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/istoria_naturale_del_mare",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -33190,37 +32742,37 @@
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/discorso_de_mentiti_cervelli",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/opera",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/disertazione_stampata",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/libri",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/martinelli",
+      "source": "https://w3id.org/vallisnieri/person/martinelli_cristino",
       "target": "https://w3id.org/vallisnieri/text/istoria_naturale_del_mare",
       "type": "co-occurrence",
       "letter": "VAL_STAN_025"
@@ -34409,7 +33961,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/malpighi",
-      "target": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "target": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
@@ -34433,19 +33985,7 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_027"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "target": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_027"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/hermann_jakob",
-      "target": "https://w3id.org/vallisnieri/person/signor_bernouli",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
@@ -34462,32 +34002,26 @@
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/aristotele",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_027"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "target": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
@@ -34606,31 +34140,25 @@
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/observable_entity/echini_spina",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "target": "https://w3id.org/vallisnieri/organism/anguilla",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_027"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/musco_corolloide",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/echini",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/organism/mosco",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
@@ -34876,55 +34404,43 @@
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/ferrara",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "target": "https://w3id.org/vallisnieri/place/bologna",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_027"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/napoli",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/milan",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/s_giustina",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/parma",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "target": "https://w3id.org/vallisnieri/place/padoa",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_027"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/monte_baldo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/place/basilea",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
@@ -35482,20 +34998,14 @@
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/sperienze_anguilla",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
     {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
+      "source": "https://w3id.org/vallisnieri/person/bernoulli_jakob",
       "target": "https://w3id.org/vallisnieri/text/semi_musco_corolloide",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_027"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_bernouli",
-      "target": "https://w3id.org/vallisnieri/text/disertazione_stampata",
       "type": "co-occurrence",
       "letter": "VAL_STAN_027"
     },
@@ -39683,12 +39193,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
-      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
       "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
@@ -39707,12 +39211,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
       "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
@@ -39720,12 +39218,6 @@
     {
       "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
       "target": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
-      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
     },
@@ -39749,12 +39241,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
-      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
       "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
@@ -39767,36 +39253,12 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
-      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
       "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
       "target": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
@@ -39899,30 +39361,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/organism/pioggia_de_sassi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/organism/camaleonte",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/organism/moschi",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/organism/vipere",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
       "target": "https://w3id.org/vallisnieri/organism/pioggia_de_sassi",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
@@ -40026,36 +39464,6 @@
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
       "target": "https://w3id.org/vallisnieri/place/nome_normalizzato",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/place/bologna",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/place/nome_normalizzato",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/place/modena",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/place/padoa",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/place/venezia",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"
     },
@@ -40355,42 +39763,6 @@
     },
     {
       "source": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
-      "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_cervelli_impiegtriti",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/text/vallisneri_lettera_pioggia_sass",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/text/galleria",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
-      "target": "https://w3id.org/vallisnieri/text/armata_cesarea",
-      "type": "co-occurrence",
-      "letter": "VAL_STAN_029"
-    },
-    {
-      "source": "https://w3id.org/vallisnieri/person/signor_guglielmini",
       "target": "https://w3id.org/vallisnieri/text/vallisneri_discorso_cervelli_impiegtriti",
       "type": "co-occurrence",
       "letter": "VAL_STAN_029"

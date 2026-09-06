@@ -176,7 +176,7 @@
         "text": "Fardella",
         "entity_id": "https://w3id.org/vallisnieri/person/fardella",
         "type": "person",
-        "label": "Fardella, signor"
+        "label": "Fardella, Michelangelo"
       }
     },
     {
@@ -187,8 +187,8 @@
       "text": "Voduard",
       "entity": {
         "text": "Voduard",
-        "entity_id": "https://w3id.org/vallisnieri/person/voduard",
-        "type": "person",
+        "entity_id": "https://w3id.org/vallisnieri/text/voduard",
+        "type": "text",
         "label": "Voduard"
       }
     },

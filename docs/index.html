@@ -825,6 +825,7 @@ function renderEntities() {
 }
 
 let netSim=null, netNodes=[], netEdges=[], netNodeSel=null, netLinkSel=null;
+let netCurrentVisEdges=[]; // ultimo set di archi effettivamente disegnati, usato dall'hover per trovare i vicini
 let netTypeFilters=new Set(['person','place','organism','text']);
 let netLetterF='';
 let netFocusEntity=null;
@@ -907,6 +908,7 @@ function buildNetwork() {
     .force('collision', d3.forceCollide(d=>8+Math.min(d.letters||1,10)));
   if(netSim) netSim.stop();
   netSim = sim;
+  netCurrentVisEdges = visEdges;
 
   netLinkSel = g.append('g').selectAll('line')
     .data(visEdges).join('line')
@@ -920,7 +922,9 @@ function buildNetwork() {
       .on('start',(ev,d)=>{ if(!ev.active) sim.alphaTarget(.3).restart(); d.fx=d.x; d.fy=d.y; })
       .on('drag', (ev,d)=>{ d.fx=ev.x; d.fy=ev.y; })
       .on('end', (ev,d)=>{ if(!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }))
-    .on('click', (ev,d)=>{ ev.stopPropagation(); showNetTooltip(ev,d); });
+    .on('click', (ev,d)=>{ ev.stopPropagation(); showNetTooltip(ev,d); })
+    .on('mouseenter', (ev,d)=>{ netHighlightNeighbors(d.id); })
+    .on('mouseleave', ()=>{ netClearHighlight(); });
 
   netNodeSel.append('circle')
     .attr('r', d=>{ const n=Array.isArray(d.letters)?d.letters.length:(d.letters||1); return 6+Math.min(n,12); })
@@ -942,6 +946,56 @@ function buildNetwork() {
       .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
     netNodeSel.attr('transform',d=>`translate(${d.x},${d.y})`);
   });
+}
+
+function netHighlightNeighbors(nodeId){
+  // Vicini diretti = nodi collegati da almeno un arco (tra quelli
+  // effettivamente disegnati con i filtri correnti) al nodo sotto hover.
+  const neighborIds = new Set([nodeId]);
+  netCurrentVisEdges.forEach(d=>{
+    const src = d.source?.id||d.source, tgt = d.target?.id||d.target;
+    if(src === nodeId) neighborIds.add(tgt);
+    if(tgt === nodeId) neighborIds.add(src);
+  });
+
+  netNodeSel.select('circle')
+    .transition().duration(120)
+    .attr('fill-opacity', d => neighborIds.has(d.id) ? .95 : .12)
+    .attr('stroke-opacity', d => neighborIds.has(d.id) ? 1 : .12);
+  netNodeSel.select('text')
+    .transition().duration(120)
+    .style('opacity', d => neighborIds.has(d.id) ? 1 : .12);
+
+  netLinkSel
+    .transition().duration(120)
+    .attr('stroke-opacity', d=>{
+      const src = d.source?.id||d.source, tgt = d.target?.id||d.target;
+      return (src === nodeId || tgt === nodeId) ? .9 : .05;
+    })
+    .attr('stroke', d=>{
+      const src = d.source?.id||d.source, tgt = d.target?.id||d.target;
+      return (src === nodeId || tgt === nodeId) ? 'var(--gold)' : 'var(--line)';
+    })
+    .attr('stroke-width', d=>{
+      const src = d.source?.id||d.source, tgt = d.target?.id||d.target;
+      return (src === nodeId || tgt === nodeId) ? 2 : 1;
+    });
+}
+
+function netClearHighlight(){
+  if(!netNodeSel || !netLinkSel) return;
+  netNodeSel.select('circle')
+    .transition().duration(150)
+    .attr('fill-opacity', .85)
+    .attr('stroke-opacity', 1);
+  netNodeSel.select('text')
+    .transition().duration(150)
+    .style('opacity', 1);
+  netLinkSel
+    .transition().duration(150)
+    .attr('stroke-opacity', .4)
+    .attr('stroke', 'var(--line)')
+    .attr('stroke-width', 1);
 }
 
 function netToggle(dim, val, btn){
