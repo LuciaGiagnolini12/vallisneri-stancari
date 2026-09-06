@@ -1,0 +1,392 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_23 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Apennine Mountains]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/apennine_mountains",
+        "label": "Apennine Mountains",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[armata cesarea]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_cesarea",
+        "label": "armata cesarea",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[canape]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/canape",
+        "label": "canape",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso sopra l'ovaja dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
+        "label": "discorso sopra l'ovaja dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Donelli, Giuseppe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "label": "Donelli, Giuseppe",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Estratto di notizia sopra i mostri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/estratto_di_notizia_sopra_i_mostri_2",
+        "label": "Estratto di notizia sopra i mostri",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Fardella, signor]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/fardella",
+        "label": "Fardella, signor",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[fiore della lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/fiore_della_lenticola_palustre",
+        "label": "fiore della lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/gebelindi",
+        "label": "gebelindi",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Genoa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "label": "Genoa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Hermann, Jakob]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "label": "Hermann, Jakob",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Istanbul]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/costantinopoli",
+        "label": "Istanbul",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/lenticola_palustre",
+        "label": "lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_023]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_023",
+        "label": "Lettera VAL_STAN_023",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Martinelli]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "label": "Martinelli",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[ramarri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/ramarri",
+        "label": "ramarri",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[seme gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/seme_gebelindi",
+        "label": "seme gebelindi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Semi della lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi_della_lenticola_palustre_3",
+        "label": "Semi della lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[serpenti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/serpenti",
+        "label": "serpenti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tratatello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "label": "tratatello",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_023",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vipere",
+        "label": "vipere",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Voduard]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/voduard",
+        "label": "Voduard",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Voduard]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/voduard_4",
+        "label": "Voduard",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vomitori]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vomitori",
+        "label": "vomitori",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

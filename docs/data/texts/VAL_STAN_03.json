@@ -1,0 +1,480 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_03 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Africa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/africa",
+        "label": "Africa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Altre cose]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/altre_cose_25",
+        "label": "Altre cose",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[balani]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/balani",
+        "label": "balani",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[balena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/balene",
+        "label": "balena",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[caso d'innocente veleno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/caso_d_innocente_veleno",
+        "label": "caso d'innocente veleno",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cornaro, Giorgio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
+        "label": "Cornaro, Giorgio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cranio di tartaruga marina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cranio_di_tartaruga_marina_19",
+        "label": "Cranio di tartaruga marina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Dattili]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/dattili_21",
+        "label": "Dattili",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[dracone marino]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/dracone_marino",
+        "label": "dracone marino",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Foglio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/foglio_1",
+        "label": "Foglio",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Indie]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/indie",
+        "label": "Indie",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_003]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_003",
+        "label": "Lettera VAL_STAN_003",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libri",
+        "label": "libri",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Mascella di balena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mascella_di_balena_2",
+        "label": "Mascella di balena",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Miniere d argento vivo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/miniere_d_argento_vivo_16",
+        "label": "Miniere d argento vivo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[miniere di Schio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/location/miniere_di_schio",
+        "label": "miniere di Schio",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Muli carichi di varie cose]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/muli_carichi_di_varie_cose_24",
+        "label": "Muli carichi di varie cose",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pelecano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pelecano",
+        "label": "pelecano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesce cane]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesce_cane",
+        "label": "pesce cane",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesce colombo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesce_colombo",
+        "label": "pesce colombo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesce lepre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesce_lepre",
+        "label": "pesce lepre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesce pastinaca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesce_pastinaca",
+        "label": "pesce pastinaca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesce rondine]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesce_rondine",
+        "label": "pesce rondine",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Quaranta Orsi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+        "label": "Quaranta Orsi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Sali fossili]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/sali_fossili_23",
+        "label": "Sali fossili",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Sega del pesce spada]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/sega_del_pesce_spada_6",
+        "label": "Sega del pesce spada",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi d’India]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi_d_india",
+        "label": "semi d’India",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[serpente americano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/serpente_americano",
+        "label": "serpente americano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Spada del pesce spada]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/spada_del_pesce_spada_7",
+        "label": "Spada del pesce spada",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tartaruga marina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/tartaruga_marina",
+        "label": "tartaruga marina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Testa di cane carcaria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/testa_di_cane_carcaria_5",
+        "label": "Testa di cane carcaria",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Teste di pelecani]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/teste_di_pelecani_20",
+        "label": "Teste di pelecani",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Testi, signor]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/testi_ludovico",
+        "label": "Testi, signor",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[torpedine]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/torpedine",
+        "label": "torpedine",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_003",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Venice]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/venezia",
+        "label": "Venice",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vetri colorati]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vetri_colorati_17",
+        "label": "Vetri colorati",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

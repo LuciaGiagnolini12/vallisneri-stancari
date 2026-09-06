@@ -1,0 +1,170 @@
+{
+  "id": "VAL_STAN_029",
+  "segments": [
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 5 luglio 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nOh che rabbia ebbi l’altro giorno, quando passò il nostro stimatissimo signor conte Marsigli, che domandò di mia persona, ed ero quella matina a desinare col signor ",
+      "entity": null
+    },
+    {
+      "text": "Bernardo Trevisani",
+      "entity": {
+        "text": "Bernardo Trevisani",
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+        "type": "person",
+        "label": "Trevisan, Bernardo"
+      }
+    },
+    {
+      "text": " nobile veneto, e non potei vederlo. Ora gli scrivo, e mando a vostra signoria illustrissima la lettera acciocché subito gliela faccia recapitare, rallegrandomi e con lui, e con la patria, e con vostra signoria illustrissima, e meco stesso d’un tanto acquisto. Oh adesso sì che fiorirà la «",
+      "entity": null
+    },
+    {
+      "text": "Galleria",
+      "entity": {
+        "text": "Galleria",
+        "entity_id": "https://w3id.org/vallisnieri/text/galleria",
+        "type": "text",
+        "label": "Galleria"
+      }
+    },
+    {
+      "text": "», e la soda e buona letteratura! Le scrissi un’altra, e non ebbi risposta. Non ho mai potuto fornire il mio discorso de’ cervelli impietriti per le visite di molto infermi premurosissime, fra quali v’era il ",
+      "entity": null
+    },
+    {
+      "text": "serenissimo di Mantova",
+      "entity": {
+        "text": "serenissimo di Mantova",
+        "entity_id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+        "type": "person",
+        "label": "serenissimo_di_mantova"
+      }
+    },
+    {
+      "text": ", che medicavo insieme con il Casale, ",
+      "entity": null
+    },
+    {
+      "text": "Molinetti",
+      "entity": {
+        "text": "Molinetti",
+        "entity_id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+        "type": "person",
+        "label": "Molinetti, Michele Angelo"
+      }
+    },
+    {
+      "text": ", Formica suo medico, e si sente anche il parere del ",
+      "entity": null
+    },
+    {
+      "text": "signor Guglielmini",
+      "entity": {
+        "text": "signor Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+        "type": "person",
+        "label": "Guglielmini, signor"
+      }
+    },
+    {
+      "text": ". Ma fra tutti non abbiamo potuto trovare il rimedio della morte, essendo volato al cielo questa matina a ore dieci, dopo avere fatto tutto quello deve fare ottimo Prencipe catolico.  \n\nSaprei volentieri cosa fa il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": ", e se è più inter vivos. Il nostro ",
+      "entity": null
+    },
+    {
+      "text": "signor Morgagni",
+      "entity": {
+        "text": "signor Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " è per partirsi per ",
+      "entity": null
+    },
+    {
+      "text": "Venezia",
+      "entity": {
+        "text": "Venezia",
+        "entity_id": "https://w3id.org/vallisnieri/place/venezia",
+        "type": "place",
+        "label": "Venice"
+      }
+    },
+    {
+      "text": ", essendo stato ad onorare ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": ". Adì 6 ricevo la sua gentilissima. Il mio figlio sta bene, ed oggi che ha compito un mese si battezzerà e sarà un di lei servitore, come son io. Mi rallegro della descrizione de’ semi de ",
+      "entity": null
+    },
+    {
+      "text": "moschi",
+      "entity": {
+        "text": "moschi",
+        "entity_id": "https://w3id.org/vallisnieri/organism/moschi",
+        "type": "organism",
+        "label": "moschi"
+      }
+    },
+    {
+      "text": " che va facendo, e dirà sempre più vostra signoria illustrissima degli altri, e illuminerà i ciechi se così seguiterà il buon gusto, addio nascimenti spontanei. La ringrazio del gradimento della mia ",
+      "entity": null
+    },
+    {
+      "text": "lettera sopra la pioggia de’ sassi",
+      "entity": {
+        "text": "lettera sopra la pioggia de’ sassi",
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_lettera_pioggia_sass",
+        "type": "text",
+        "label": "lettera sopra la pioggia de’ sassi"
+      }
+    },
+    {
+      "text": ", ed altre credute prodigiose. Io le stimo, come ha letto, scherzi della natura. Se tocco il punto, godo, se no, la prego avvisarmi per carità. La prego a mandare l’inclusa al nostro conte Luigi, che una volta trionferà sopra i suoi emoli. \n\nL’abraccio in fretta, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    }
+  ]
+}

@@ -2,7 +2,16 @@
   "id": "VAL_STAN_003",
   "segments": [
     {
-      "text": "Padoa 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 10 gennaio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nHo fatto la prima volta una larga usura nel partecipare a vostra signoria illustrissima i consaputi esperimenti, imperocché ho ricavato più di sapere di quello che ho communicato. Le rendo ben mille grazie con tutto il cuore, e le prommetto fornite le lezioni di parteciparle qualche altra cosa. Sono così affollate una dopo l’altra ch’appena abbiamo tempo di respirare, onde compatisca questa sforzata negligenza in servirla. Acciocché non venga questa con qualche tintura di curiosità, le invio un foglio del ",
       "entity": null
     },
     {
@@ -28,7 +37,20 @@
       }
     },
     {
-      "text": ", se ha mutato cielo. Vogli Iddio che muti fortuna, o che si stanchi almeno una volta di flagellare a torto un uomo di tanto merito.  \n\nHo fatto anch’io adesso un bell’acquisto per la mia galleria. Ho avuta una mascella di balena che pesa da cento libbre, un ",
+      "text": ", se ha mutato cielo. Vogli Iddio che muti fortuna, o che si stanchi almeno una volta di flagellare a torto un uomo di tanto merito.  \n\nHo fatto anch’io adesso un bell’acquisto per la mia galleria. Ho avuta una mascella di ",
+      "entity": null
+    },
+    {
+      "text": "balena",
+      "entity": {
+        "text": "balena",
+        "entity_id": "https://w3id.org/vallisnieri/organism/balene",
+        "type": "organism",
+        "label": "balena"
+      }
+    },
+    {
+      "text": " che pesa da cento libbre, un ",
       "entity": null
     },
     {
@@ -36,7 +58,7 @@
       "entity": {
         "text": "serpente americano",
         "entity_id": "https://w3id.org/vallisnieri/organism/serpente_americano",
-        "type": "specimen",
+        "type": "organism",
         "label": "serpente americano"
       }
     },
@@ -49,7 +71,7 @@
       "entity": {
         "text": "pesce cane",
         "entity_id": "https://w3id.org/vallisnieri/organism/pesce_cane",
-        "type": "specimen",
+        "type": "organism",
         "label": "pesce cane"
       }
     },
@@ -62,7 +84,7 @@
       "entity": {
         "text": "pesce rondine",
         "entity_id": "https://w3id.org/vallisnieri/organism/pesce_rondine",
-        "type": "specimen",
+        "type": "organism",
         "label": "pesce rondine"
       }
     },
@@ -88,7 +110,7 @@
       "entity": {
         "text": "dracone marino",
         "entity_id": "https://w3id.org/vallisnieri/organism/dracone_marino",
-        "type": "specimen",
+        "type": "organism",
         "label": "dracone marino"
       }
     },
@@ -101,7 +123,7 @@
       "entity": {
         "text": "pesce pastinaca",
         "entity_id": "https://w3id.org/vallisnieri/organism/pesce_pastinaca",
-        "type": "specimen",
+        "type": "organism",
         "label": "pesce pastinaca"
       }
     },
@@ -114,7 +136,7 @@
       "entity": {
         "text": "pesce lepre",
         "entity_id": "https://w3id.org/vallisnieri/organism/pesce_lepre",
-        "type": "specimen",
+        "type": "organism",
         "label": "pesce lepre"
       }
     },
@@ -127,7 +149,7 @@
       "entity": {
         "text": "pesce colombo",
         "entity_id": "https://w3id.org/vallisnieri/organism/pesce_colombo",
-        "type": "specimen",
+        "type": "organism",
         "label": "pesce colombo"
       }
     },
@@ -140,7 +162,7 @@
       "entity": {
         "text": "torpedine",
         "entity_id": "https://w3id.org/vallisnieri/organism/torpedine",
-        "type": "specimen",
+        "type": "organism",
         "label": "torpedine"
       }
     },
@@ -167,7 +189,7 @@
         "text": "miniere di Schio",
         "entity_id": "https://w3id.org/vallisnieri/location/miniere_di_schio",
         "type": "place",
-        "label": "miniere di Schio"
+        "label": "Schio"
       }
     },
     {
@@ -179,7 +201,7 @@
       "entity": {
         "text": "tartaruga marina",
         "entity_id": "https://w3id.org/vallisnieri/organism/tartaruga_marina",
-        "type": "specimen",
+        "type": "organism",
         "label": "tartaruga marina"
       }
     },
@@ -192,12 +214,25 @@
       "entity": {
         "text": "balani",
         "entity_id": "https://w3id.org/vallisnieri/organism/balani",
-        "type": "specimen",
+        "type": "organism",
         "label": "balani"
       }
     },
     {
-      "text": " dentro la creta d’Ancona, e cento altre curiosità naturali, che mi danno occasione di rivolgere i libri e cercarne la nascita, i costumi, tutta l’idea. Portai pure dal mio viaggio due muli carichi de varie cose, che non saranno l’ultime del mio nascente museo, e ne aspetto dell’altre per mezzo d’un amico potente dalle coste dell’Affrica e da altre parti. I sali favoritemi per essere in una camera un poco umida e per i continui scilocchi che qui spirano, m’andavano tutti a spasso se presto non me n’avedevo, onde l’usura fatta avea poco buon fine. \n\nPorti i miei rispetti a cotesti miei stimatissimi padroni ",
+      "text": " dentro la creta d’Ancona, e cento altre curiosità naturali, che mi danno occasione di rivolgere i libri e cercarne la nascita, i costumi, tutta l’idea. Portai pure dal mio viaggio due muli carichi de varie cose, che non saranno l’ultime del mio nascente museo, e ne aspetto dell’altre per mezzo d’un amico potente dalle coste dell’",
+      "entity": null
+    },
+    {
+      "text": "Affrica",
+      "entity": {
+        "text": "Affrica",
+        "entity_id": "https://w3id.org/vallisnieri/place/africa",
+        "type": "place",
+        "label": "Africa"
+      }
+    },
+    {
+      "text": " e da altre parti. I sali favoritemi per essere in una camera un poco umida e per i continui scilocchi che qui spirano, m’andavano tutti a spasso se presto non me n’avedevo, onde l’usura fatta avea poco buon fine. \n\nPorti i miei rispetti a cotesti miei stimatissimi padroni ",
       "entity": null
     },
     {
@@ -206,7 +241,7 @@
         "text": "signori Manfredi e Nanni",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Eustachio Manfredi"
+        "label": "Manfredi, Eustachio"
       }
     },
     {
@@ -223,8 +258,43 @@
       }
     },
     {
-      "text": " e suo signor figlio, e m’avvisino se vogliono venire a Padoa, poiché verso il fine di Carnevale sono in impegno d’andare a Venezia, onde sollecitino i loro da me sempre riveriti favori.  \n\nL’abbraccio caramente, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
+      "text": " e suo signor figlio, e m’avvisino se vogliono venire a ",
       "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": ", poiché verso il fine di Carnevale sono in impegno d’andare a ",
+      "entity": null
+    },
+    {
+      "text": "Venezia",
+      "entity": {
+        "text": "Venezia",
+        "entity_id": "https://w3id.org/vallisnieri/place/venezia",
+        "type": "place",
+        "label": "Venice"
+      }
+    },
+    {
+      "text": ", onde sollecitino i loro da me sempre riveriti favori.  \n\nL’abbraccio caramente, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

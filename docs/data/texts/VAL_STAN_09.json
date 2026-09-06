@@ -1,0 +1,425 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_09 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Apennine Mountains]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/apennine_mountains",
+        "label": "Apennine Mountains",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[api]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/api",
+        "label": "api",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Augustine of Hippo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/s_agostino",
+        "label": "Augustine of Hippo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[balena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/balene",
+        "label": "balena",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bochart, Samuel]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bosiarto",
+        "label": "Bochart, Samuel",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[bruchi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/bruchi",
+        "label": "bruchi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cevettoni]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cevettoni",
+        "label": "cevettoni",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cosarelle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cosarelle_3",
+        "label": "Cosarelle",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[crisalidi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/crisalidi",
+        "label": "crisalidi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+        "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[egg]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/uova",
+        "label": "egg",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[eruche]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/eruche",
+        "label": "eruche",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[farfalle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/farfalle",
+        "label": "farfalle",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[insetti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/insetti",
+        "label": "insetti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_009]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_009",
+        "label": "Lettera VAL_STAN_009",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Malpighi, Marcello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
+        "label": "Malpighi, Marcello",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Micrographia curiosa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/micrographia_curiosa",
+        "label": "Micrographia curiosa",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mosca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca",
+        "label": "mosca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mosconi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosconi",
+        "label": "mosconi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[ninfe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/ninfea",
+        "label": "ninfe",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padrone]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/padrone",
+        "label": "Padrone",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Paris]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "label": "Paris",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesci esotici]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesci_esotici",
+        "label": "pesci esotici",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Proglotti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/proglotti",
+        "label": "Proglotti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Redi, Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "label": "Redi, Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scolopendra terrestre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scolopendra_terrestre",
+        "label": "scolopendra terrestre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scorpione affricano in scatoletta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano_in_scatoletta_2",
+        "label": "Scorpione affricano in scatoletta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi",
+        "label": "semi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tetigometre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/tetigometre",
+        "label": "tetigometre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_009",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

@@ -2,7 +2,16 @@
   "id": "VAL_STAN_006",
   "segments": [
     {
-      "text": "Padoa 21 maggio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nRicevei il suo compitissimo foglio in letto travagliato da una ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 21 maggio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nRicevei il suo compitissimo foglio in letto travagliato da una ",
       "entity": null
     },
     {
@@ -15,7 +24,20 @@
       }
     },
     {
-      "text": ", che m’ha tenuto 30 giorni in letto e 40 in casa, e se non era la china chinata, che volli contro il parere d’alcuni miei amici, vi sarei ancora. Ora rescrivo, guardo il fascio delle lettere, a cui devo rispondere, e truovo la sua compitissima. Mandai con rossore il mio libretto de’ dialoghi, primo parto degli anni pieni di caldo e con poco giudicio. Vi mancano le figure degl’",
+      "text": ", che m’ha tenuto 30 giorni in letto e 40 in casa, e se non era la china chinata, che volli contro il parere d’alcuni miei amici, vi sarei ancora. Ora rescrivo, guardo il fascio delle lettere, a cui devo rispondere, e truovo la sua compitissima. Mandai con rossore il mio libretto de’ ",
+      "entity": null
+    },
+    {
+      "text": "dialoghi",
+      "entity": {
+        "text": "dialoghi",
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+        "type": "text",
+        "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700. "
+      }
+    },
+    {
+      "text": ", primo parto degli anni pieni di caldo e con poco giudicio. Vi mancano le figure degl’",
       "entity": null
     },
     {
@@ -50,24 +72,11 @@
         "text": "signor Manfredi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Eustachio Manfredi"
+        "label": "Manfredi, Eustachio"
       }
     },
     {
-      "text": " dell’invito giustissimo per entrare in quella nascente Accademia, nella quale faranno spiccare il loro valore. Godo che levi da quella tomba di cantina le miniere, e restituisca alla luce e a miglior uso. Quando sarò a casa le manderò varie cose curiose, e mi rimmetterò poi a lei circa al rimmandarmi l’equivalente. Pareva che avessi fatto un buon baratto co’ sali, ma mi scrive mio ",
-      "entity": null
-    },
-    {
-      "text": "frate",
-      "entity": {
-        "text": "frate",
-        "entity_id": "https://w3id.org/vallisnieri/person/frate",
-        "type": "person",
-        "label": "frate"
-      }
-    },
-    {
-      "text": "llo che i venti sciroccali ne hanno sciolta una parte e m’hanno ruinate varie cose di mia premura con l’acqua fluente e raccolta da loro, sicché bisognerà riffarmi.  \n\nLe mando un caso d’un sudor di sangue mirabile e vero con un miracolo finto. Un frate se ne voleva approfittare. Le invio pure un altro caso d’una portentosa diabete, ma dubbito della verità. Se vorrà il raziocinio che segue, lo manderò.  \n\nI miei soliti inchini. Il nostro signor ",
+      "text": " dell’invito giustissimo per entrare in quella nascente Accademia, nella quale faranno spiccare il loro valore. Godo che levi da quella tomba di cantina le miniere, e restituisca alla luce e a miglior uso. Quando sarò a casa le manderò varie cose curiose, e mi rimmetterò poi a lei circa al rimmandarmi l’equivalente. Pareva che avessi fatto un buon baratto co’ sali, ma mi scrive mio fratello che i venti sciroccali ne hanno sciolta una parte e m’hanno ruinate varie cose di mia premura con l’acqua fluente e raccolta da loro, sicché bisognerà riffarmi.  \n\nLe mando un caso d’un sudor di sangue mirabile e vero con un miracolo finto. Un frate se ne voleva approfittare. Le invio pure un altro caso d’una portentosa diabete, ma dubbito della verità. Se vorrà il raziocinio che segue, lo manderò.  \n\nI miei soliti inchini. Il nostro signor ",
       "entity": null
     },
     {
@@ -80,7 +89,20 @@
       }
     },
     {
-      "text": " decoro di questo studio la riverisce, ed io mi protesto inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri \n\nSignor ",
+      "text": " decoro di questo studio la riverisce, ed io mi protesto inalterabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    },
+    {
+      "text": " \n\nSignor ",
       "entity": null
     },
     {

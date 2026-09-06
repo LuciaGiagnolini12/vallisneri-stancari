@@ -2,7 +2,16 @@
   "id": "VAL_STAN_012",
   "segments": [
     {
-      "text": "Padoa 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di ",
       "entity": null
     },
     {
@@ -37,7 +46,7 @@
         "text": "rondini della Coccincina",
         "entity_id": "https://w3id.org/vallisnieri/organism/salangana",
         "type": "organism",
-        "label": "Salangana"
+        "label": "rondini della Coccincina"
       }
     },
     {
@@ -54,7 +63,20 @@
       }
     },
     {
-      "text": " nella sua opera al padre Kircher, siccome m’è venuto un ",
+      "text": " nella sua ",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " al padre Kircher, siccome m’è venuto un ",
       "entity": null
     },
     {
@@ -93,7 +115,20 @@
       }
     },
     {
-      "text": ".  \n\nL’amico mio chimico adesso è a Vicenza, onde subito venuto gliene farò fare la prova. A me fu dato in Livorno per tale, e con una semplice lente si veggono particelle lucide fra le rosse che rassomigliano al ",
+      "text": ".  \n\nL’amico mio chimico adesso è a Vicenza, onde subito venuto gliene farò fare la prova. A me fu dato in ",
+      "entity": null
+    },
+    {
+      "text": "Livorno",
+      "entity": {
+        "text": "Livorno",
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "type": "place",
+        "label": "Livorno"
+      }
+    },
+    {
+      "text": " per tale, e con una semplice lente si veggono particelle lucide fra le rosse che rassomigliano al ",
       "entity": null
     },
     {
@@ -115,11 +150,24 @@
         "text": "minera del mercurio d’Ungheria",
         "entity_id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
         "type": "place",
-        "label": "Miniera di mercurio di Idra"
+        "label": "minera del mercurio d’Ungheria"
       }
     },
     {
-      "text": " e le altre cose che mi accenna, e se le capita congiontura invii la scatola al signor Morgagni o all’eccellentissimo signor ",
+      "text": " e le altre cose che mi accenna, e se le capita congiontura invii la scatola al signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " o all’eccellentissimo signor ",
       "entity": null
     },
     {
@@ -132,26 +180,39 @@
       }
     },
     {
-      "text": ", da quali subito l’avrò. Ho dati agli amici eruditi il frontespicio del libro dell’illustrissimo signor ",
+      "text": ", da quali subito l’avrò. Ho dati agli amici eruditi il frontespicio del libro dell’illustrissimo signor Manfredi, a cui si contenterà di portare gli umilissimi miei rispetti, come al di lui signor fratello ed altri nostri amici e padroni. \n\nPer la suddetta occasione che spero capiterà manderò il ",
       "entity": null
     },
     {
-      "text": "Manfredi",
+      "text": "lucimetro",
       "entity": {
-        "text": "Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-        "type": "person",
-        "label": "Eustachio Manfredi"
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
       }
     },
     {
-      "text": ", a cui si contenterà di portare gli umilissimi miei rispetti, come al di lui signor fratello ed altri nostri amici e padroni. \n\nPer la suddetta occasione che spero capiterà manderò il lucimetro ed altre mie bagatelle, e facendole devotissima riverenza, come a tutti i nostri riveriti accademici, resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero ",
+      "text": " ed altre mie bagatelle, e facendole devotissima riverenza, come a tutti i nostri riveriti accademici, resto al solito di ",
       "entity": null
     },
     {
-      "text": "Antonio Vallisnieri",
+      "text": "Vostra Signoria",
       "entity": {
-        "text": "Antonio Vallisnieri",
+        "text": "Vostra Signoria",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
         "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
         "type": "person",
         "label": "Vallisneri, Antonio"

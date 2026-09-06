@@ -1,0 +1,205 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_26 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[beccheria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/beccheria",
+        "label": "beccheria",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cervello petrificato]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cervello_petrificato",
+        "label": "cervello petrificato",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Copia dell anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/copia_dell_anguilla_3",
+        "label": "Copia dell anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Donelli, Giuseppe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "label": "Donelli, Giuseppe",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[figure del cervello petrificato]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/cerveello_petrificato",
+        "label": "figure del cervello petrificato",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_026]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_026",
+        "label": "Lettera VAL_STAN_026",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[midollo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/midollo",
+        "label": "midollo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Museo di Storia Naturale dell'Università di Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+        "label": "Museo di Storia Naturale dell'Università di Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Osservazioni]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/osservazioni_2",
+        "label": "Osservazioni",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[stampa dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/stampa_dell_anguilla",
+        "label": "stampa dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_026",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

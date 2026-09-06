@@ -1,0 +1,568 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_19 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[aculeo della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca_rosiseca",
+        "label": "aculeo della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[armata francese]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_francese",
+        "label": "armata francese",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[arsenico giallo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/arsenico_giallo",
+        "label": "arsenico giallo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Arsenico giallo orpimento]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/arsenico_giallo_orpimento_5",
+        "label": "Arsenico giallo orpimento",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[balena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/balene",
+        "label": "balena",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/camaleonte",
+        "label": "camaleonte",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[chermesi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/chermesi",
+        "label": "chermesi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[china china]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/china_china",
+        "label": "china china",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[china china e dell’ipecuacanne]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/china_china_e_dell_ipecuacanne",
+        "label": "china china e dell’ipecuacanne",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[chiogane]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/chiogane",
+        "label": "chiogane",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Erba chiogane]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/erba_chiogane_4",
+        "label": "Erba chiogane",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Ettmulero]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/ettmulero",
+        "label": "Ettmulero",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Feugerais, Carlo des]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+        "label": "Feugerais, Carlo des",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[finocchio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/finocchio",
+        "label": "finocchio",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[France]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/francia",
+        "label": "France",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/gebelindi",
+        "label": "gebelindi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/gebelindi",
+        "label": "gebelindi",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Grani simile al pepe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/grani_simile_al_pepe_2",
+        "label": "Grani simile al pepe",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[ipecuacanne]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/ipecuacanne",
+        "label": "ipecuacanne",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Istanbul]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/costantinopoli",
+        "label": "Istanbul",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Langio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/langio",
+        "label": "Langio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_019]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_019",
+        "label": "Lettera VAL_STAN_019",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mercurio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mercurio",
+        "label": "mercurio",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[minerali]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/minerali",
+        "label": "minerali",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mineralogia di lui dello Scrodero]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/mineralogia_di_lui_dello_scrodero",
+        "label": "mineralogia di lui dello Scrodero",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Mirtino]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/mirtino",
+        "label": "Mirtino",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[ovaja delle anguille]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/ovaja_delle_anguille",
+        "label": "ovaja delle anguille",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pepe commune]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pepe_commune",
+        "label": "pepe commune",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesci]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesci",
+        "label": "pesci",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Petesino mantoano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+        "label": "Petesino mantoano",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[porfido]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/porfido",
+        "label": "porfido",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Radice simile al rapa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/radice_simile_al_rapa_3",
+        "label": "Radice simile al rapa",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[rapi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/rapi",
+        "label": "rapi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[sciliqua]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/sciliqua",
+        "label": "sciliqua",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi",
+        "label": "semi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Semi giallici gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi_giallici_gebelindi_1",
+        "label": "Semi giallici gebelindi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Tencarola]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+        "label": "Tencarola",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_019",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vitriuolo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vitriuolo",
+        "label": "vitriuolo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

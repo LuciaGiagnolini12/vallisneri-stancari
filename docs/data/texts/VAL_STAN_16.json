@@ -1,0 +1,590 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_16 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Adriatico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/adriatico",
+        "label": "Adriatico",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Arciprete]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/arciprete_mio",
+        "label": "Arciprete",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[calamita bianca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/calamita_bianca",
+        "label": "calamita bianca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[calamo aromatico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/calamo_aromatico",
+        "label": "calamo aromatico",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cannella]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cannella",
+        "label": "cannella",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Charas, Moyse]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/charas",
+        "label": "Charas, Moyse",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Coccincina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/coccincina",
+        "label": "Coccincina",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[conchette]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/conchette",
+        "label": "conchette",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Conchette impietrite]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/conchette_impietrite_5",
+        "label": "Conchette impietrite",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Congo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/congo",
+        "label": "Congo",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cunzia di Spagna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cunzia_di_spagna",
+        "label": "cunzia di Spagna",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[fiori d’arancio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/fiori_d_arancio",
+        "label": "fiori d’arancio",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Florence]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/florence",
+        "label": "Florence",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[fratello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/mio_fratello",
+        "label": "fratello",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[fungo campaniforme]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/fungo_campaniforme",
+        "label": "fungo campaniforme",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Fungo campaniforme con semi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/fungo_campaniforme_con_semi_8",
+        "label": "Fungo campaniforme con semi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[garofano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/garofano",
+        "label": "garofano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Genoa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "label": "Genoa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Helena Cenarum]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/helena_cenarum",
+        "label": "Helena Cenarum",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Indie]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/indie",
+        "label": "Indie",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Legno che genera manna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/legno_che_genera_manna_6",
+        "label": "Legno che genera manna",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_016]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_016",
+        "label": "Lettera VAL_STAN_016",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Levenoech]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/levenoech",
+        "label": "Levenoech",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Livorno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "label": "Livorno",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[manna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/manna",
+        "label": "manna",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[medico di Comacchio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+        "label": "medico di Comacchio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Muralt, Johannes]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+        "label": "Muralt, Johannes",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[noce moscata]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/noce_moscata",
+        "label": "noce moscata",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Ovaja dell anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/ovaja_dell_anguilla_11",
+        "label": "Ovaja dell anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pane del Congo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pane_del_congo",
+        "label": "pane del Congo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Paullini, Christian Franz]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/paulini",
+        "label": "Paullini, Christian Franz",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Pezzetto di nido delle rondini della coccincina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pezzetto_di_nido_delle_rondini_della_coccincina_3",
+        "label": "Pezzetto di nido delle rondini della coccincina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Pezzetto di vera calamita bianca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pezzetto_di_vera_calamita_bianca_4",
+        "label": "Pezzetto di vera calamita bianca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Redi, Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "label": "Redi, Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[rondini]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/rondini",
+        "label": "rondini",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[rose]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/rose",
+        "label": "rose",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scatola con varie bagatelle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scatola_con_varie_bagatelle_2",
+        "label": "Scatola con varie bagatelle",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Seme di cannella]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/seme_di_cannella",
+        "label": "Seme di cannella",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Spain]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/spagna",
+        "label": "Spain",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[sperienze di cose portate dall’Indie]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/sperienze_di_cose_portate_dall_indie",
+        "label": "sperienze di cose portate dall’Indie",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Toscana]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/toscana",
+        "label": "Toscana",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_016",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vermi anguilliformi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vermi_anguilliformi",
+        "label": "vermi anguilliformi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[violette]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/violette",
+        "label": "violette",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[zenzaro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/zenzaro",
+        "label": "zenzaro",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

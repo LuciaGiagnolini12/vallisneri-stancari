@@ -1,0 +1,271 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_21 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[aculeo della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca_rosiseca",
+        "label": "aculeo della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Carta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/carta_1",
+        "label": "Carta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Discorso della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/discorso_della_mosca_rosiseca_4",
+        "label": "Discorso della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso sopra l'ovaja dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
+        "label": "discorso sopra l'ovaja dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lancisi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/lancisi",
+        "label": "Lancisi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[leggi dell'Accademia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
+        "label": "leggi dell'Accademia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_021]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_021",
+        "label": "Lettera VAL_STAN_021",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Martinelli]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "label": "Martinelli",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/morgagni_7",
+        "label": "Morgagni",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubbi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/rubbi",
+        "label": "Rubbi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trevisan, Bernardo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+        "label": "Trevisan, Bernardo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_021",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalva, Antonio Maria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "label": "Valsalva, Antonio Maria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalvi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/valsalvi_8",
+        "label": "Valsalvi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vipere",
+        "label": "vipere",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_30 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Accademia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/accademia",
+        "label": "Accademia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[bue]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/bue",
+        "label": "bue",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Camaleonte femmina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte_femmina_2",
+        "label": "Camaleonte femmina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Considerazioni, ed Esperienze di Antonio Vallisnieri intorno al creduto Cervello Impietrito , Padoa, Nella Stamperia del Seminario, Appresso Giovanni Manfrè, 1710.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_cervelli_impiegtriti",
+        "label": "Considerazioni, ed Esperienze di Antonio Vallisnieri intorno al creduto Cervello Impietrito , Padoa, Nella Stamperia del Seminario, Appresso Giovanni Manfrè, 1710.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[egg]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/uova",
+        "label": "egg",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[estratto]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/estratto_della_mia_lettera_sopra_la_mosca_rosiseca",
+        "label": "estratto",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Estratto del discorso sul cervello di bue impietrito]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/estratto_del_discorso_sul_cervello_di_bue_impietrito_4",
+        "label": "Estratto del discorso sul cervello di bue impietrito",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Finale]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/finale",
+        "label": "Finale",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_030]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_030",
+        "label": "Lettera VAL_STAN_030",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[lucerta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/lucerta",
+        "label": "lucerta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Uova di camaleonte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/uova_di_camaleonte_3",
+        "label": "Uova di camaleonte",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_030",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

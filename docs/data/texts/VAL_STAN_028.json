@@ -2,7 +2,16 @@
   "id": "VAL_STAN_028",
   "segments": [
     {
-      "text": "Padoa 10 giugno 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nRispondo tardi, poiché sono stato ne’ travagli acerbissimi, poiché non avendo che un unico figlio è stato questi in punto di morte, e non lo veggo ancor ben sicuro. Spero nulladimeno in Dio, ma mi palpita ancora il cuore.  \n\nHo veduti i semi inviatimi, che già grossamente aveo osservato, tolto quello del ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 10 giugno 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nRispondo tardi, poiché sono stato ne’ travagli acerbissimi, poiché non avendo che un unico figlio è stato questi in punto di morte, e non lo veggo ancor ben sicuro. Spero nulladimeno in Dio, ma mi palpita ancora il cuore.  \n\nHo veduti i semi inviatimi, che già grossamente aveo osservato, tolto quello del ",
       "entity": null
     },
     {
@@ -41,7 +50,20 @@
       }
     },
     {
-      "text": ", difendendolo dalle opposizioni fattegli da vari autori. Io l’ho difeso da quella de’ sassi piovuti, ma a mio modo. La lettera sta inserita nel suo libro, e n’ho fatte stampare alcune separate da mandare agli amici, fra quali vostra signoria illustrissima tiene il primo luogo. Se potrà cavarvi niente di buono da partecipare all’Accademia, lo faccia, non avendo potuto far altro sì per le lezioni poco fa terminate, sì per i consulti, e purghe, e cento altre occupazioncelle.  \n\nQui si dice per vera una nuova a lei, a me, a chi ha la fortuna di sapere il merito del nostro ",
+      "text": ", difendendolo dalle opposizioni fattegli da vari autori. Io l’ho difeso da quella de’ sassi piovuti, ma a mio modo. La lettera sta inserita nel suo ",
+      "entity": null
+    },
+    {
+      "text": "libro",
+      "entity": {
+        "text": "libro",
+        "entity_id": "https://w3id.org/vallisnieri/text/libro",
+        "type": "text",
+        "label": "libro"
+      }
+    },
+    {
+      "text": ", e n’ho fatte stampare alcune separate da mandare agli amici, fra quali vostra signoria illustrissima tiene il primo luogo. Se potrà cavarvi niente di buono da partecipare all’Accademia, lo faccia, non avendo potuto far altro sì per le lezioni poco fa terminate, sì per i consulti, e purghe, e cento altre occupazioncelle.  \n\nQui si dice per vera una nuova a lei, a me, a chi ha la fortuna di sapere il merito del nostro ",
       "entity": null
     },
     {
@@ -54,7 +76,20 @@
       }
     },
     {
-      "text": ", carissimo. Questa è che venga Generale del Papa. Di grazia m’avvisi subito, se è vero, poiché mi sarà una consolazione indicibile, o inesplicabile.  \n\nCredo che l’abbate nostro Fardella vada a Milano ad inchinar la regina passante, e che sarà regina della sua patria. Se può, vuole abbandonarci, lo che molto mi premerebbe, essendo un amico ingenuo della di lei e mia stampa, e d’altri pochi pochissimi. M’ha imposto che la riverisca, come fa il ",
+      "text": ", carissimo. Questa è che venga Generale del Papa. Di grazia m’avvisi subito, se è vero, poiché mi sarà una consolazione indicibile, o inesplicabile.  \n\nCredo che l’abbate nostro Fardella vada a ",
+      "entity": null
+    },
+    {
+      "text": "Milano",
+      "entity": {
+        "text": "Milano",
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "type": "place",
+        "label": "Milan"
+      }
+    },
+    {
+      "text": " ad inchinar la regina passante, e che sarà regina della sua patria. Se può, vuole abbandonarci, lo che molto mi premerebbe, essendo un amico ingenuo della di lei e mia stampa, e d’altri pochi pochissimi. M’ha imposto che la riverisca, come fa il ",
       "entity": null
     },
     {
@@ -93,20 +128,7 @@
       }
     },
     {
-      "text": ", ma se Iddio mi consola colla salute del figlio, e se avrò un poco d’ozio, sarà la prima cosa.  \n\nRiverisca cordialmente i nostri amici comuni, e segnatamente que’ miei due distinti padroni, il ",
-      "entity": null
-    },
-    {
-      "text": "signor senatore Orsi",
-      "entity": {
-        "text": "signor senatore Orsi",
-        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
-        "type": "person",
-        "label": "Quaranta Orsi"
-      }
-    },
-    {
-      "text": " e ",
+      "text": ", ma se Iddio mi consola colla salute del figlio, e se avrò un poco d’ozio, sarà la prima cosa.  \n\nRiverisca cordialmente i nostri amici comuni, e segnatamente que’ miei due distinti padroni, il signor senatore Orsi e ",
       "entity": null
     },
     {

@@ -1,0 +1,326 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_12 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Africa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/africa",
+        "label": "Africa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Altre mie bagatelle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/altre_mie_bagatelle_5",
+        "label": "Altre mie bagatelle",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bentivogli, Filippo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+        "label": "Bentivogli, Filippo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Camaleonte vivo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte_vivo_3",
+        "label": "Camaleonte vivo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+        "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Frontespicio del libro dell illustrissimo signor manfredi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/frontespicio_del_libro_dell_illustrissimo_signor_manfredi_6",
+        "label": "Frontespicio del libro dell illustrissimo signor manfredi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_012]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_012",
+        "label": "Lettera VAL_STAN_012",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libro",
+        "label": "libro",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Livorno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "label": "Livorno",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Micrographia curiosa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/micrographia_curiosa",
+        "label": "Micrographia curiosa",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[minera del mercurio d’Ungheria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/minera_mercurio",
+        "label": "minera del mercurio d’Ungheria",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Nido delle rondini della coccincina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/nido_delle_rondini_della_coccincina_2",
+        "label": "Nido delle rondini della coccincina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[opera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "label": "opera",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Osservazioni intorno alle vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/osservazioni_intorno_alle_vipere",
+        "label": "Osservazioni intorno alle vipere",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Redi, Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "label": "Redi, Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[rondini della Coccincina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/salangana",
+        "label": "rondini della Coccincina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scorpione affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano",
+        "label": "scorpione affricano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scorpione affricano in scatoletta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano_in_scatoletta_1",
+        "label": "Scorpione affricano in scatoletta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_012",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[zolfo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q42038",
+        "label": "zolfo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

@@ -1,0 +1,4881 @@
+[
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_001",
+    "slug": "VAL_STAN_001",
+    "type": "text",
+    "label": "Lettera 1",
+    "letters": [
+      "VAL_STAN_001"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+    "slug": "vallisneri_antonio",
+    "type": "person",
+    "label": "Vallisneri, Antonio",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_017",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_023",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "https://viaf.org/viaf/54168259/",
+    "wikidata": "https://www.wikidata.org/entity/Q2662898",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "Vallisnieri"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+    "slug": "stancari_vittoriofrancesco",
+    "type": "person",
+    "label": "Stancari, Vittorio Francesco",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "https://viaf.org/viaf/22924568/",
+    "wikidata": "https://www.wikidata.org/entity/Q11116711",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+    "slug": "marsili_luigi_ferdinando",
+    "type": "person",
+    "label": "Marsili, Luigi Ferdinando",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_006",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "http://viaf.org/viaf/27075563",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+    "slug": "manfredi_eustachio",
+    "type": "person",
+    "label": "Manfredi, Eustachio",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_006",
+      "VAL_STAN_009",
+      "VAL_STAN_012",
+      "VAL_STAN_018",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "http://viaf.org/viaf/19725880 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/nanni_pietro",
+    "slug": "nanni_pietro",
+    "type": "person",
+    "label": "Nanni, Pietro",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+    "slug": "donelli_giuseppe",
+    "type": "person",
+    "label": "Donelli, Giuseppe",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_007",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_026",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+    "slug": "valsalva_antonio_maria",
+    "type": "person",
+    "label": "Valsalva, Antonio Maria",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_007",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_024",
+      "VAL_STAN_025"
+    ],
+    "viaf": "http://viaf.org/viaf/57415601 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+    "slug": "sandri_giacomo",
+    "type": "person",
+    "label": "Sandri, Giacomo",
+    "letters": [
+      "VAL_STAN_001"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/modena",
+    "slug": "modena",
+    "type": "place",
+    "label": "Modena",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_019",
+      "VAL_STAN_021",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q279",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3173331",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "patria",
+    "modern": "Modena"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/livorno",
+    "slug": "livorno",
+    "type": "place",
+    "label": "Livorno",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_012",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q6761",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3174659",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Livorno",
+    "modern": "Livorno"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/genoa",
+    "slug": "genoa",
+    "type": "place",
+    "label": "Genoa",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_020",
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1449",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3176219",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Genova",
+    "modern": "Genoa"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/florence",
+    "slug": "florence",
+    "type": "place",
+    "label": "Florence",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2044",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3176959",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Firenze",
+    "modern": "Florence"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/bologna",
+    "slug": "bologna",
+    "type": "place",
+    "label": "Bologna",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_007",
+      "VAL_STAN_008",
+      "VAL_STAN_009",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_026",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1891",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3181928",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Bologna",
+    "modern": "Bologna"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/milan",
+    "slug": "milan",
+    "type": "place",
+    "label": "Milan",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_002",
+      "VAL_STAN_006",
+      "VAL_STAN_027",
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q490",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3173435",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Milano",
+    "modern": "Milan"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/alps",
+    "slug": "alps",
+    "type": "place",
+    "label": "Alps",
+    "letters": [
+      "VAL_STAN_001"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1286",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Alps",
+    "modern": "Alps",
+    "nameInText": "Alpi"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/q42038",
+    "slug": "q42038",
+    "type": "organism",
+    "label": "zolfo",
+    "letters": [
+      "VAL_STAN_001",
+      "VAL_STAN_006",
+      "VAL_STAN_012",
+      "VAL_STAN_014",
+      "VAL_STAN_015"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q682",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Sulphur",
+    "vernacular": "zolfo",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_002",
+    "slug": "VAL_STAN_002",
+    "type": "text",
+    "label": "Lettera 2",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
+    "slug": "bellini_lorenzo",
+    "type": "person",
+    "label": "Bellini, Lorenzo",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "http://viaf.org/viaf/56656245 ",
+    "wikidata": "https://www.wikidata.org/entity/Q1383562",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/malpighi",
+    "slug": "malpighi",
+    "type": "person",
+    "label": "Malpighi, Marcello",
+    "letters": [
+      "VAL_STAN_002",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_027"
+    ],
+    "viaf": "https://viaf.org/viaf/85044/",
+    "wikidata": "https://www.wikidata.org/entity/Q232583",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/padoa",
+    "slug": "padoa",
+    "type": "place",
+    "label": "Padova",
+    "letters": [
+      "VAL_STAN_002",
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_006",
+      "VAL_STAN_009",
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_026",
+      "VAL_STAN_027",
+      "VAL_STAN_028",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q617",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3171728",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Padoa",
+    "modern": "Padova",
+    "nameInText": "Padoa"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/uova",
+    "slug": "uova",
+    "type": "organism",
+    "label": "egg",
+    "letters": [
+      "VAL_STAN_002",
+      "VAL_STAN_009",
+      "VAL_STAN_020",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q17147",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Gallus gallus domesticus",
+    "vernacular": "uovo",
+    "certainty": "ALTO",
+    "nameInText": "uova"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/frutti",
+    "slug": "frutti",
+    "type": "organism",
+    "label": "frutti",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "frutto",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/erbe",
+    "slug": "erbe",
+    "type": "organism",
+    "label": "erbe",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "erba",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/rami",
+    "slug": "rami",
+    "type": "organism",
+    "label": "rami",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "ramo",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/radici",
+    "slug": "radici",
+    "type": "organism",
+    "label": "radici",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "radice",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/foglie",
+    "slug": "foglie",
+    "type": "organism",
+    "label": "foglie",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "foglia",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pommi",
+    "slug": "pommi",
+    "type": "organism",
+    "label": "pommi",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "mela",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/peri",
+    "slug": "peri",
+    "type": "organism",
+    "label": "peri",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "pera",
+    "certainty": "MEDIO",
+    "nameInText": "peri "
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/legumi",
+    "slug": "legumi",
+    "type": "organism",
+    "label": "legumi",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "legume",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/sangue",
+    "slug": "sangue",
+    "type": "organism",
+    "label": "sangue",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "sangue",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/diamante",
+    "slug": "diamante",
+    "type": "organism",
+    "label": "diamante",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "diamante",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/porfido",
+    "slug": "porfido",
+    "type": "organism",
+    "label": "porfido",
+    "letters": [
+      "VAL_STAN_002",
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q337238",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "porfido",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/lago_scuro",
+    "slug": "lago_scuro",
+    "type": "place",
+    "label": "Lago Scuro",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q26939160",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/8960905",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Lago Scuro",
+    "modern": "Lago Scuro",
+    "nameInText": "Lago scuro"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/pisa",
+    "slug": "pisa",
+    "type": "place",
+    "label": "Pisa",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q13375",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/6542122",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Pisa",
+    "modern": "Pisa"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_003",
+    "slug": "VAL_STAN_003",
+    "type": "text",
+    "label": "VAL_STAN_003",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/cardinale_cornaro",
+    "slug": "cardinale_cornaro",
+    "type": "person",
+    "label": "Cornaro, Giorgio",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "http://viaf.org/viaf/89065367 ",
+    "wikidata": "https://www.wikidata.org/entity/Q3106895",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+    "slug": "quaranta_orsi",
+    "type": "person",
+    "label": "Quaranta Orsi",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_004",
+      "VAL_STAN_007",
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
+    "slug": "testi_ludovico",
+    "type": "person",
+    "label": "Ludovico Testi",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "http://viaf.org/viaf/73201503 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/serpente_americano",
+    "slug": "serpente_americano",
+    "type": "organism",
+    "label": "serpente americano",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "snake",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pesce_cane",
+    "slug": "pesce_cane",
+    "type": "organism",
+    "label": "shark",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q7372",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "dogfish",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pesce_rondine",
+    "slug": "pesce_rondine",
+    "type": "organism",
+    "label": "pesce rondine",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "swallowfish",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/dracone_marino",
+    "slug": "dracone_marino",
+    "type": "organism",
+    "label": "dracone marino",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "sea dragon",
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pesce_pastinaca",
+    "slug": "pesce_pastinaca",
+    "type": "organism",
+    "label": "pesce pastinaca",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q104704536",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "sea bass",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pesce_lepre",
+    "slug": "pesce_lepre",
+    "type": "organism",
+    "label": "pesce lepre",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "rabbitfish",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pesce_colombo",
+    "slug": "pesce_colombo",
+    "type": "organism",
+    "label": "pesce colombo",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1519607",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "pomfret",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/torpedine",
+    "slug": "torpedine",
+    "type": "organism",
+    "label": "torpedine",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q41317",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "electric ray",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/tartaruga_marina",
+    "slug": "tartaruga_marina",
+    "type": "organism",
+    "label": "tartaruga marina",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "sea turtle",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pelecano",
+    "slug": "pelecano",
+    "type": "organism",
+    "label": "pelecano",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "pelican",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/balani",
+    "slug": "balani",
+    "type": "organism",
+    "label": "balani",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2336729",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "barnacles",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/balene",
+    "slug": "balene",
+    "type": "organism",
+    "label": "balena",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_009",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_019",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1865281",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/sicily",
+    "slug": "sicily",
+    "type": "place",
+    "label": "Sicily",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1460",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Sicily",
+    "modern": "Sicily",
+    "nameInText": "Sicilia"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/portogallo",
+    "slug": "portogallo",
+    "type": "place",
+    "label": "Portugal",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q45",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2264397",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Portugal",
+    "modern": "Portugal",
+    "nameInText": "Portogallo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/indie",
+    "slug": "indie",
+    "type": "place",
+    "label": "indie",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Indie",
+    "modern": "indie"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/schio",
+    "slug": "schio",
+    "type": "place",
+    "label": "Schio",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q47262",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/6538270",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Schio",
+    "modern": "Schio"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/murano",
+    "slug": "murano",
+    "type": "place",
+    "label": "Murano",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q52437",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3172456",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Murano",
+    "modern": "Murano"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/ancona",
+    "slug": "ancona",
+    "type": "place",
+    "label": "Ancona",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q111275",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3168820",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Rubiera",
+    "modern": "Ancona"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/istria",
+    "slug": "istria",
+    "type": "place",
+    "label": "Istria",
+    "letters": [
+      "VAL_STAN_003"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q639912",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3175397",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Istria",
+    "modern": "Istria"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/venezia",
+    "slug": "venezia",
+    "type": "place",
+    "label": "Venice",
+    "letters": [
+      "VAL_STAN_003",
+      "VAL_STAN_005",
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q641",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3164603",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Venice",
+    "modern": "Venice"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_004",
+    "slug": "VAL_STAN_004",
+    "type": "text",
+    "label": "VAL_STAN_004",
+    "letters": [
+      "VAL_STAN_004"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+    "slug": "albrizzi_girolamo",
+    "type": "person",
+    "label": "Albrizzi, Girolamo",
+    "letters": [
+      "VAL_STAN_004",
+      "VAL_STAN_015",
+      "VAL_STAN_018"
+    ],
+    "viaf": "http://viaf.org/viaf/98868893 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] [AMBIGUO] Nome e cognome sconosciuti, ruolo incerto."
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+    "slug": "cestoni_giacinto",
+    "type": "person",
+    "label": "Cestoni, Giacinto",
+    "letters": [
+      "VAL_STAN_004",
+      "VAL_STAN_014"
+    ],
+    "viaf": "http://viaf.org/viaf/88626387 ",
+    "wikidata": "https://www.wikidata.org/entity/Q2251697",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] [AMBIGUO] Nome e cognome sconosciuti, ruolo incerto."
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/monte_baldo",
+    "slug": "monte_baldo",
+    "type": "place",
+    "label": "monte_baldo",
+    "letters": [
+      "VAL_STAN_004",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1945737",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Monte Baldo",
+    "modern": "monte_baldo",
+    "nameInText": "Monte Baldo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
+    "slug": "lenticola_palustre",
+    "type": "organism",
+    "label": "lenticola palustre",
+    "letters": [
+      "VAL_STAN_004",
+      "VAL_STAN_010",
+      "VAL_STAN_013",
+      "VAL_STAN_023",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q26875",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "lenticchia d'acqua",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/alga_marina",
+    "slug": "alga_marina",
+    "type": "organism",
+    "label": "alga marina",
+    "letters": [
+      "VAL_STAN_004"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q37868",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "alga marina",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/semprevivo",
+    "slug": "semprevivo",
+    "type": "organism",
+    "label": "semprevivo",
+    "letters": [
+      "VAL_STAN_004"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q190489",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "semprevivo",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pignolo_affricano",
+    "slug": "pignolo_affricano",
+    "type": "organism",
+    "label": "pignolo affricano",
+    "letters": [
+      "VAL_STAN_004"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q959738",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "pignolo africano",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/de_arcano_lenticulae_palustris_s",
+    "slug": "de_arcano_lenticulae_palustris_s",
+    "type": "text",
+    "label": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.",
+    "letters": [
+      "VAL_STAN_004",
+      "VAL_STAN_013",
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "http://id.sbn.it/bid/PUVE030542",
+    "author": "",
+    "note": "",
+    "nameInText": "scartafaccio"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_005",
+    "slug": "VAL_STAN_005",
+    "type": "text",
+    "label": "VAL_STAN_005",
+    "letters": [
+      "VAL_STAN_005"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+    "slug": "bentivogli_filippo",
+    "type": "person",
+    "label": "Bentivogli, Filippo",
+    "letters": [
+      "VAL_STAN_005",
+      "VAL_STAN_012"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q106831526",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Ruolo incerto, vettore della lettera"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+    "slug": "libretto_de_miei_dialoghi",
+    "type": "text",
+    "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700. ",
+    "letters": [
+      "VAL_STAN_005",
+      "VAL_STAN_006",
+      "VAL_STAN_009",
+      "VAL_STAN_012",
+      "VAL_STAN_015",
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "http://id.sbn.it/bid/LO1E006288",
+    "author": "",
+    "note": "",
+    "nameInText": "dialoghi"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_006",
+    "slug": "VAL_STAN_006",
+    "type": "text",
+    "label": "VAL_STAN_006",
+    "letters": [
+      "VAL_STAN_006"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+    "slug": "guglielmini_domenico",
+    "type": "person",
+    "label": "Guglielmini, Domenico",
+    "letters": [
+      "VAL_STAN_006",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_023"
+    ],
+    "viaf": "https://viaf.org/viaf/50006688/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] ruolo incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/insetti",
+    "slug": "insetti",
+    "type": "organism",
+    "label": "insetti",
+    "letters": [
+      "VAL_STAN_006",
+      "VAL_STAN_009",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1390",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "insetti",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_007",
+    "slug": "VAL_STAN_007",
+    "type": "text",
+    "label": "VAL_STAN_007",
+    "letters": [
+      "VAL_STAN_007"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+    "slug": "sbaraglia_giovanni_girolamo",
+    "type": "person",
+    "label": "Sbaraglia, Giovanni Girolamo",
+    "letters": [
+      "VAL_STAN_007",
+      "VAL_STAN_008"
+    ],
+    "viaf": "http://viaf.org/viaf/17568270 ",
+    "wikidata": "https://www.wikidata.org/entity/Q3107217",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/pratissolo",
+    "slug": "pratissolo",
+    "type": "place",
+    "label": "Pratissolo",
+    "letters": [
+      "VAL_STAN_007"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q18447250",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/8949109",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Pratissolo",
+    "modern": "Pratissolo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_008",
+    "slug": "VAL_STAN_008",
+    "type": "text",
+    "label": "VAL_STAN_008",
+    "letters": [
+      "VAL_STAN_008"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/bassi",
+    "slug": "bassi",
+    "type": "person",
+    "label": "Bassi",
+    "letters": [
+      "VAL_STAN_008"
+    ],
+    "viaf": "https://viaf.org/viaf/96325760/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/scandiano",
+    "slug": "scandiano",
+    "type": "place",
+    "label": "Scandiano",
+    "letters": [
+      "VAL_STAN_008"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q111289",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/6541832",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Scandiano",
+    "modern": "Scandiano"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_009",
+    "slug": "VAL_STAN_009",
+    "type": "text",
+    "label": "VAL_STAN_009",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/s_agostino",
+    "slug": "s_agostino",
+    "type": "person",
+    "label": "Augustine of Hippo",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "https://viaf.org/viaf/66806872/",
+    "wikidata": "https://www.wikidata.org/entity/Q8018",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Citato in riferimento a un'osservazione."
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/bosiarto",
+    "slug": "bosiarto",
+    "type": "person",
+    "label": "Bochart, Samuel",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "http://viaf.org/viaf/59167015 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Citato in riferimento a una disputa scientifica."
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/redi_francesco",
+    "slug": "redi_francesco",
+    "type": "person",
+    "label": "Redi, Francesco",
+    "letters": [
+      "VAL_STAN_009",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_016",
+      "VAL_STAN_025"
+    ],
+    "viaf": "https://viaf.org/viaf/84814826/",
+    "wikidata": "https://www.wikidata.org/entity/Q311187",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Citato in riferimento a una disputa scientifica."
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cevettoni",
+    "slug": "cevettoni",
+    "type": "organism",
+    "label": "cevettoni",
+    "letters": [
+      "VAL_STAN_009",
+      "VAL_STAN_010"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q312476",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/mosca",
+    "slug": "mosca",
+    "type": "organism",
+    "label": "mosca",
+    "letters": [
+      "VAL_STAN_009",
+      "VAL_STAN_010"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q859257",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/api",
+    "slug": "api",
+    "type": "organism",
+    "label": "api",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q756082",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/mosconi",
+    "slug": "mosconi",
+    "type": "organism",
+    "label": "mosconi",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2213438",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/farfalle",
+    "slug": "farfalle",
+    "type": "organism",
+    "label": "farfalle",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q11946202",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/proglotti",
+    "slug": "proglotti",
+    "type": "organism",
+    "label": "Proglotti",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q159715",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO",
+    "nameInText": "cucurbitini"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/scolopendra_terrestre",
+    "slug": "scolopendra_terrestre",
+    "type": "organism",
+    "label": "scolopendra terrestre",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1145974",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/eruche",
+    "slug": "eruche",
+    "type": "organism",
+    "label": "eruche",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/bruchi",
+    "slug": "bruchi",
+    "type": "organism",
+    "label": "bruchi",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q21439438",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/crisalidi",
+    "slug": "crisalidi",
+    "type": "organism",
+    "label": "crisalidi",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1781247",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/ninfea",
+    "slug": "ninfea",
+    "type": "organism",
+    "label": "ninfea",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q146628",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/tetigometre",
+    "slug": "tetigometre",
+    "type": "organism",
+    "label": "tetigometre",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q461209",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/vermi_de__cavalli",
+    "slug": "vermi_de__cavalli",
+    "type": "organism",
+    "label": "Vermi de' cavalli",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q8421245",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/occhio",
+    "slug": "occhio",
+    "type": "organism",
+    "label": "occhio",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q7364",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/palpebra",
+    "slug": "palpebra",
+    "type": "organism",
+    "label": "eyelid",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q48228",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/corna",
+    "slug": "corna",
+    "type": "organism",
+    "label": "horns",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q82025",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "corna"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/antenne",
+    "slug": "antenne",
+    "type": "organism",
+    "label": "antennae",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q204664",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "antenne"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/scarafaggio",
+    "slug": "scarafaggio",
+    "type": "organism",
+    "label": "cockroach",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1661828",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "scarafaggi"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/chicken",
+    "slug": "chicken",
+    "type": "organism",
+    "label": "chicken",
+    "letters": [
+      "VAL_STAN_009"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q780",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "pollo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/parigi",
+    "slug": "parigi",
+    "type": "place",
+    "label": "Paris",
+    "letters": [
+      "VAL_STAN_009",
+      "VAL_STAN_017",
+      "VAL_STAN_020",
+      "VAL_STAN_024",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q90",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2988507",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Paris",
+    "modern": "Paris"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_010",
+    "slug": "VAL_STAN_010",
+    "type": "text",
+    "label": "VAL_STAN_010",
+    "letters": [
+      "VAL_STAN_010"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+    "slug": "morgagni_giambattista",
+    "type": "person",
+    "label": "Morgagni, Giambattista",
+    "letters": [
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_016",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "https://viaf.org/viaf/68968590/",
+    "wikidata": "https://www.wikidata.org/entity/Q511841",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/locusta",
+    "slug": "locusta",
+    "type": "organism",
+    "label": "locusta",
+    "letters": [
+      "VAL_STAN_010",
+      "VAL_STAN_011",
+      "VAL_STAN_014",
+      "VAL_STAN_015"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q15122569",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "locusta",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_011",
+    "slug": "VAL_STAN_011",
+    "type": "text",
+    "label": "VAL_STAN_011",
+    "letters": [
+      "VAL_STAN_011"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+    "slug": "buonanni_filippo",
+    "type": "person",
+    "label": "Buonanni, Filippo",
+    "letters": [
+      "VAL_STAN_011"
+    ],
+    "viaf": "http://viaf.org/viaf/47034603  ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+    "slug": "passalacqua_marchese",
+    "type": "person",
+    "label": "Passalacqua (marchese)",
+    "letters": [
+      "VAL_STAN_011"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/inghilterra",
+    "slug": "inghilterra",
+    "type": "place",
+    "label": "United Kingdom",
+    "letters": [
+      "VAL_STAN_011",
+      "VAL_STAN_015",
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q145",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2635167",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "United Kingdom",
+    "modern": "United Kingdom"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/scorpione_affricano",
+    "slug": "scorpione_affricano",
+    "type": "organism",
+    "label": "scorpione affricano",
+    "letters": [
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_014",
+      "VAL_STAN_015"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q19125",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "scorpione",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/camaleonte",
+    "slug": "camaleonte",
+    "type": "organism",
+    "label": "camaleonti",
+    "letters": [
+      "VAL_STAN_011",
+      "VAL_STAN_012",
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_015",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_020",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q37686",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "camaleonte",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_012",
+    "slug": "VAL_STAN_012",
+    "type": "text",
+    "label": "VAL_STAN_012",
+    "letters": [
+      "VAL_STAN_012"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/salangana",
+    "slug": "salangana",
+    "type": "organism",
+    "label": "Salangana",
+    "letters": [
+      "VAL_STAN_012"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q27611284",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "swallows",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
+    "slug": "minera_mercurio",
+    "type": "place",
+    "label": "Miniera di mercurio di Idra",
+    "letters": [
+      "VAL_STAN_012"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q12073970",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "minera del mercurio d’Ungheria",
+    "modern": "minera del mercurio d’Ungheria"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_013",
+    "slug": "VAL_STAN_013",
+    "type": "text",
+    "label": "VAL_STAN_013",
+    "letters": [
+      "VAL_STAN_013"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/trionfetti",
+    "slug": "trionfetti",
+    "type": "person",
+    "label": "Trionfetti, Lelio",
+    "letters": [
+      "VAL_STAN_013",
+      "VAL_STAN_014",
+      "VAL_STAN_025"
+    ],
+    "viaf": "http://viaf.org/viaf/90254364",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Nome non identificato, ruolo incerto. [AMBIGUO]"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_014",
+    "slug": "VAL_STAN_014",
+    "type": "text",
+    "label": "VAL_STAN_014",
+    "letters": [
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+    "slug": "scheuchzer_johann_jakob",
+    "type": "person",
+    "label": "Scheuchzer, Johann Jakob",
+    "letters": [
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q123900",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Ruolo incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+    "slug": "hermann_jakob",
+    "type": "person",
+    "label": "Hermann, Jakob",
+    "letters": [
+      "VAL_STAN_014",
+      "VAL_STAN_023",
+      "VAL_STAN_025",
+      "VAL_STAN_027",
+      "VAL_STAN_028"
+    ],
+    "viaf": "http://viaf.org/viaf/67268667 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Ruolo incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/insetto_cieco",
+    "slug": "insetto_cieco",
+    "type": "organism",
+    "label": "insetto cieco",
+    "letters": [
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pidocchi_silvestri",
+    "slug": "pidocchi_silvestri",
+    "type": "organism",
+    "label": "pidocchi silvestri",
+    "letters": [
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "pidocchi",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/mosca_silvestre",
+    "slug": "mosca_silvestre",
+    "type": "organism",
+    "label": "mosca silvestre",
+    "letters": [
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "mosca",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/brassiche",
+    "slug": "brassiche",
+    "type": "organism",
+    "label": "brassica",
+    "letters": [
+      "VAL_STAN_014",
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q58677",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/rosai",
+    "slug": "rosai",
+    "type": "organism",
+    "label": "rosai",
+    "letters": [
+      "VAL_STAN_014"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q291177",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_015",
+    "slug": "VAL_STAN_015",
+    "type": "text",
+    "label": "VAL_STAN_015",
+    "letters": [
+      "VAL_STAN_015"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/orsi_quaranta",
+    "slug": "orsi_quaranta",
+    "type": "person",
+    "label": "Orsi, Quaranta",
+    "letters": [
+      "VAL_STAN_015",
+      "VAL_STAN_018"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+    "slug": "bernardo_trevisani",
+    "type": "person",
+    "label": "Trevisan, Bernardo",
+    "letters": [
+      "VAL_STAN_015",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_029"
+    ],
+    "viaf": "http://viaf.org/viaf/39728066 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
+    "slug": "mosca_rosiseca",
+    "type": "organism",
+    "label": "mosca rosiseca",
+    "letters": [
+      "VAL_STAN_015",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_021",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "mosca rosiseca",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_016",
+    "slug": "VAL_STAN_016",
+    "type": "text",
+    "label": "VAL_STAN_016",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/charas",
+    "slug": "charas",
+    "type": "person",
+    "label": "Charas, Moyse",
+    "letters": [
+      "VAL_STAN_016",
+      "VAL_STAN_017"
+    ],
+    "viaf": "https://viaf.org/viaf/117486/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Nome non specificato"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+    "slug": "gioanni_de_muralto",
+    "type": "person",
+    "label": "Muralt, Johannes",
+    "letters": [
+      "VAL_STAN_016",
+      "VAL_STAN_017"
+    ],
+    "viaf": "http://viaf.org/viaf/59876646 ",
+    "wikidata": "https://www.wikidata.org/entity/Q117161",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Nome non specificato"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/paulini",
+    "slug": "paulini",
+    "type": "person",
+    "label": "Paullini, Christian Franz",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "https://viaf.org/viaf/13102571/",
+    "wikidata": "https://www.wikidata.org/entity/Q27585092",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Nome non specificato"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/arciprete_mio",
+    "slug": "arciprete_mio",
+    "type": "person",
+    "label": "Arciprete",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "https://viaf.org/viaf/163823217/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Anonimo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/medico_di_comacchio",
+    "slug": "medico_di_comacchio",
+    "type": "person",
+    "label": "medico di Comacchio",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Anonimo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/congo",
+    "slug": "congo",
+    "type": "place",
+    "label": "congo",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q971",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2260494",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Congo",
+    "modern": "congo"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/adriatico",
+    "slug": "adriatico",
+    "type": "place",
+    "label": "adriatico",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q13924",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3183462",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Adriatico",
+    "modern": "adriatico"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/spagna",
+    "slug": "spagna",
+    "type": "place",
+    "label": "Spain",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q29",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2510769",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Spagna",
+    "modern": "Spain"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/toscana",
+    "slug": "toscana",
+    "type": "place",
+    "label": "toscana",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q1273",
+    "gbif": "",
+    "geonames": "https://viaf.org/en/viaf/128956370",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Toscana",
+    "modern": "toscana"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/coccincina",
+    "slug": "coccincina",
+    "type": "place",
+    "label": "coccincina",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q505503",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Coccincina",
+    "modern": "coccincina"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/rondini",
+    "slug": "rondini",
+    "type": "organism",
+    "label": "rondini",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "rondine",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/calamita_bianca",
+    "slug": "calamita_bianca",
+    "type": "specimen",
+    "label": "calamita bianca",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "calamita",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/conchette",
+    "slug": "conchette",
+    "type": "specimen",
+    "label": "conchette",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "conchiglia",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/manna",
+    "slug": "manna",
+    "type": "organism",
+    "label": "manna",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q16575455",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "manna",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cannella",
+    "slug": "cannella",
+    "type": "specimen",
+    "label": "seme di cannella",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q28165",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "cannella",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/fungo_campaniforme",
+    "slug": "fungo_campaniforme",
+    "type": "organism",
+    "label": "fungo campaniforme",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "fungo",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pane_del_congo",
+    "slug": "pane_del_congo",
+    "type": "specimen",
+    "label": "pane del Congo",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "pane",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cunzia_di_spagna",
+    "slug": "cunzia_di_spagna",
+    "type": "organism",
+    "label": "cunzia di Spagna",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "cunzia",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/rose",
+    "slug": "rose",
+    "type": "specimen",
+    "label": "rose",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "rosa",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/fiori_d_arancio",
+    "slug": "fiori_d_arancio",
+    "type": "specimen",
+    "label": "fiori d’arancio",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "fiore d'arancio",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/violette",
+    "slug": "violette",
+    "type": "specimen",
+    "label": "violette",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "viola",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/garofano",
+    "slug": "garofano",
+    "type": "specimen",
+    "label": "garofano",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q156099",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "garofano",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/noce_moscata",
+    "slug": "noce_moscata",
+    "type": "specimen",
+    "label": "noce moscata",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q83165",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "noce moscata",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/calamo_aromatico",
+    "slug": "calamo_aromatico",
+    "type": "specimen",
+    "label": "calamo aromatico",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "calamò",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/zenzaro",
+    "slug": "zenzaro",
+    "type": "specimen",
+    "label": "zenzero",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q35625",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "zenzero",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/anguilla",
+    "slug": "anguilla",
+    "type": "organism",
+    "label": "anguilla",
+    "letters": [
+      "VAL_STAN_016",
+      "VAL_STAN_017",
+      "VAL_STAN_018",
+      "VAL_STAN_019",
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_024",
+      "VAL_STAN_025",
+      "VAL_STAN_026",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q9154612",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "anguilla",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/vermi_anguilliformi",
+    "slug": "vermi_anguilliformi",
+    "type": "organism",
+    "label": "vermi anguilliformi",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "verme",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_017",
+    "slug": "VAL_STAN_017",
+    "type": "text",
+    "label": "VAL_STAN_017",
+    "letters": [
+      "VAL_STAN_017"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+    "slug": "padre_francesco_maria_cappuccino",
+    "type": "person",
+    "label": "Cappuccino, Padre Francesco Maria",
+    "letters": [
+      "VAL_STAN_017"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Autore del lucimetro"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/fontanelle",
+    "slug": "fontanelle",
+    "type": "person",
+    "label": "Fontanelle",
+    "letters": [
+      "VAL_STAN_017"
+    ],
+    "viaf": "https://viaf.org/viaf/99744686/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Segretario dell'Accademia Reale delle Scienze"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+    "slug": "carlo_des_feugerais",
+    "type": "person",
+    "label": "Feugerais, Carlo des",
+    "letters": [
+      "VAL_STAN_017",
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Mercante specchiaro"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+    "slug": "tunisi_di_barberia",
+    "type": "place",
+    "label": "Tunis",
+    "letters": [
+      "VAL_STAN_017"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q3572",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2464470",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Tunisi di Barberia",
+    "modern": "Tunis"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/vipera",
+    "slug": "vipera",
+    "type": "organism",
+    "label": "vipera",
+    "letters": [
+      "VAL_STAN_017"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "serpente",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_018",
+    "slug": "VAL_STAN_018",
+    "type": "text",
+    "label": "VAL_STAN_018",
+    "letters": [
+      "VAL_STAN_018"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+    "slug": "ferrante_imperato",
+    "type": "person",
+    "label": "Imperato, Ferrante",
+    "letters": [
+      "VAL_STAN_018"
+    ],
+    "viaf": "https://viaf.org/viaf/42607432/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/aristotele",
+    "slug": "aristotele",
+    "type": "person",
+    "label": "Aristotle",
+    "letters": [
+      "VAL_STAN_018",
+      "VAL_STAN_027"
+    ],
+    "viaf": "https://viaf.org/viaf/7524651/",
+    "wikidata": "https://www.wikidata.org/entity/Q868",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] citato"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/testi_lodovico",
+    "slug": "testi_lodovico",
+    "type": "person",
+    "label": "Testi, Lodovico",
+    "letters": [
+      "VAL_STAN_018",
+      "VAL_STAN_025"
+    ],
+    "viaf": "https://viaf.org/viaf/148376734/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] morto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+    "slug": "un_nostro_coaccademico",
+    "type": "person",
+    "label": "un_nostro_coaccademico",
+    "letters": [
+      "VAL_STAN_018"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_019",
+    "slug": "VAL_STAN_019",
+    "type": "text",
+    "label": "VAL_STAN_019",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/mirtino",
+    "slug": "mirtino",
+    "type": "person",
+    "label": "mirtino",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Medico che usava arsenico per l'asma"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/langio",
+    "slug": "langio",
+    "type": "person",
+    "label": "langio",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Autore citato da Vallisneri"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/petesino_mantoano",
+    "slug": "petesino_mantoano",
+    "type": "person",
+    "label": "petesino_mantoano",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Medico che usava arsenico"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/ettmulero",
+    "slug": "ettmulero",
+    "type": "person",
+    "label": "ettmulero",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Autore citato da Vallisneri"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+    "slug": "tencarola_villa_del_padoano",
+    "type": "place",
+    "label": "Tencarola",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q18498961",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3165824",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Tencarola villa del Padoano",
+    "modern": "Tencarola"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/gebelindi",
+    "slug": "gebelindi",
+    "type": "organism",
+    "label": "gebelindi",
+    "letters": [
+      "VAL_STAN_019",
+      "VAL_STAN_022",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "pianta sconosciuta",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/china_china",
+    "slug": "china_china",
+    "type": "organism",
+    "label": "china china",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q160090",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "pianta sconosciuta",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/ipecuacanne",
+    "slug": "ipecuacanne",
+    "type": "organism",
+    "label": "ipecuacanne",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q756292",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "pianta sconosciuta",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/sciliqua",
+    "slug": "sciliqua",
+    "type": "organism",
+    "label": "sciliqua",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "pianta sconosciuta",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/pepe_commune",
+    "slug": "pepe_commune",
+    "type": "organism",
+    "label": "pepe commune",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/Q43084",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Piper nigrum",
+    "vernacular": "pepe nero",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/finocchio",
+    "slug": "finocchio",
+    "type": "organism",
+    "label": "finocchio",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q43511",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Foeniculum vulgare",
+    "vernacular": "finocchio",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/rapi",
+    "slug": "rapi",
+    "type": "organism",
+    "label": "rapi",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Brassica rapa",
+    "vernacular": "rapa",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/chiogane",
+    "slug": "chiogane",
+    "type": "organism",
+    "label": "chiogane",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Achillea millefolium",
+    "vernacular": "erba del pastore",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/chermesi",
+    "slug": "chermesi",
+    "type": "organism",
+    "label": "chermesi",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Dactylopius coccus",
+    "vernacular": "cocciniglia",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/arsenico_giallo",
+    "slug": "arsenico_giallo",
+    "type": "organism",
+    "label": "arsenico giallo",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "As4S4",
+    "vernacular": "orpimento",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/mercurio",
+    "slug": "mercurio",
+    "type": "organism",
+    "label": "mercurio",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q925",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Hg",
+    "vernacular": "mercurio",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/vitriuolo",
+    "slug": "vitriuolo",
+    "type": "organism",
+    "label": "vitriuolo",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q214863",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Sulphate",
+    "vernacular": "vitriolo",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_020",
+    "slug": "VAL_STAN_020",
+    "type": "text",
+    "label": "VAL_STAN_020",
+    "letters": [
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/tarme_da_farina",
+    "slug": "tarme_da_farina",
+    "type": "organism",
+    "label": "tarme da farina",
+    "letters": [
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "tarma del grano",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cedrara",
+    "slug": "cedrara",
+    "type": "organism",
+    "label": "cedrara",
+    "letters": [
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/anatre",
+    "slug": "anatre",
+    "type": "organism",
+    "label": "anatre",
+    "letters": [
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "anatra",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cigno",
+    "slug": "cigno",
+    "type": "organism",
+    "label": "cigno",
+    "letters": [
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "cigno",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/acqua_vite_canforata",
+    "slug": "acqua_vite_canforata",
+    "type": "organism",
+    "label": "acqua vite canforata",
+    "letters": [
+      "VAL_STAN_020"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_021",
+    "slug": "VAL_STAN_021",
+    "type": "text",
+    "label": "VAL_STAN_021",
+    "letters": [
+      "VAL_STAN_021"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/rubbi",
+    "slug": "rubbi",
+    "type": "person",
+    "label": "Rubbi",
+    "letters": [
+      "VAL_STAN_021"
+    ],
+    "viaf": "https://viaf.org/viaf/40581759/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Ruolo incerto, probabilmente messaggero o funzionario."
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_022",
+    "slug": "VAL_STAN_022",
+    "type": "text",
+    "label": "VAL_STAN_022",
+    "letters": [
+      "VAL_STAN_022"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cacatu",
+    "slug": "cacatu",
+    "type": "organism",
+    "label": "cacatù",
+    "letters": [
+      "VAL_STAN_022"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q827257",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "cacatù",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_023",
+    "slug": "VAL_STAN_023",
+    "type": "text",
+    "label": "VAL_STAN_023",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/fardella",
+    "slug": "fardella",
+    "type": "person",
+    "label": "Fardella, signor",
+    "letters": [
+      "VAL_STAN_023",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Ruolo incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/voduard",
+    "slug": "voduard",
+    "type": "person",
+    "label": "Voduard, signor",
+    "letters": [
+      "VAL_STAN_023",
+      "VAL_STAN_024"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Ruolo incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/seme_gebelindi",
+    "slug": "seme_gebelindi",
+    "type": "organism",
+    "label": "seme gebelindi",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/vomitori",
+    "slug": "vomitori",
+    "type": "organism",
+    "label": "vomitori",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/fiore_della_lenticola_palustre",
+    "slug": "fiore_della_lenticola_palustre",
+    "type": "organism",
+    "label": "fiore della lenticola palustre",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/canape",
+    "slug": "canape",
+    "type": "organism",
+    "label": "canape",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "Cannabis sativa",
+    "vernacular": "canapa",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/ramarri",
+    "slug": "ramarri",
+    "type": "organism",
+    "label": "ramarri",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "lucertole",
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/serpenti",
+    "slug": "serpenti",
+    "type": "organism",
+    "label": "serpenti",
+    "letters": [
+      "VAL_STAN_023"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "serpenti",
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_024",
+    "slug": "VAL_STAN_024",
+    "type": "text",
+    "label": "VAL_STAN_024",
+    "letters": [
+      "VAL_STAN_024"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+    "slug": "museo_aldrovandi",
+    "type": "place",
+    "label": "Museum of Natural History (Bologna)",
+    "letters": [
+      "VAL_STAN_024",
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Museo Aldrovandi",
+    "modern": "Museum of Natural History (Bologna)"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+    "slug": "vallisneri_discorso_anguilla",
+    "type": "text",
+    "label": "discorso dell’anguilla",
+    "letters": [
+      "VAL_STAN_024",
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cervello_di_bue",
+    "slug": "cervello_di_bue",
+    "type": "organism",
+    "label": "cervello di bue",
+    "letters": [
+      "VAL_STAN_024"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "cervello di bue",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/museo_aldrovandi",
+    "slug": "museo_aldrovandi",
+    "type": "organism",
+    "label": "Museo Aldrovandi",
+    "letters": [
+      "VAL_STAN_024"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_025",
+    "slug": "VAL_STAN_025",
+    "type": "text",
+    "label": "VAL_STAN_025",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/bernoulli",
+    "slug": "bernoulli",
+    "type": "person",
+    "label": "Bernoulli, signor",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Non identificabile con persone nate dopo il 1680"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+    "slug": "prencipe_di_toscana",
+    "type": "person",
+    "label": "Principe di Toscana",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "https://viaf.org/viaf/3932357/",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Non identificabile con persone nate dopo il 1680"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/germania",
+    "slug": "germania",
+    "type": "place",
+    "label": "Germania",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q183",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/10238486",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Germania",
+    "modern": "Germania"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/roma",
+    "slug": "roma",
+    "type": "place",
+    "label": "Roma",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q220",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3169070",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Roma",
+    "modern": "Roma"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/lione",
+    "slug": "lione",
+    "type": "place",
+    "label": "Lione",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q456",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2996944",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Lione",
+    "modern": "Lione"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/discorso_de_mentiti_cervelli",
+    "slug": "discorso_de_mentiti_cervelli",
+    "type": "text",
+    "label": "discorso de’ mentiti cervelli",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/istoria_naturale_del_mare",
+    "slug": "istoria_naturale_del_mare",
+    "type": "text",
+    "label": "istoria naturale del mare",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/disertazione_stampata",
+    "slug": "disertazione_stampata",
+    "type": "text",
+    "label": "disertazione stampata",
+    "letters": [
+      "VAL_STAN_025",
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/scorpione_d_affrica",
+    "slug": "scorpione_d_affrica",
+    "type": "specimen",
+    "label": "scorpione d’Affrica",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "scorpione africano",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/gioie_d_elba",
+    "slug": "gioie_d_elba",
+    "type": "organism",
+    "label": "gioie d’Elba",
+    "letters": [
+      "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "gioie dell'isola d'Elba",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/cervello_petrificato",
+    "slug": "cervello_petrificato",
+    "type": "organism",
+    "label": "cervello petrificato",
+    "letters": [
+      "VAL_STAN_025",
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "cervello fossile",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_026",
+    "slug": "VAL_STAN_026",
+    "type": "text",
+    "label": "VAL_STAN_026",
+    "letters": [
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/cerveello_petrificato",
+    "slug": "cerveello_petrificato",
+    "type": "text",
+    "label": "figure del cervello petrificato",
+    "letters": [
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/stampa_dell_anguilla",
+    "slug": "stampa_dell_anguilla",
+    "type": "text",
+    "label": "stampa dell’anguilla",
+    "letters": [
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/midollo",
+    "slug": "midollo",
+    "type": "organism",
+    "label": "midollo",
+    "letters": [
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q546523",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/beccheria",
+    "slug": "beccheria",
+    "type": "organism",
+    "label": "beccheria",
+    "letters": [
+      "VAL_STAN_026"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_027",
+    "slug": "VAL_STAN_027",
+    "type": "text",
+    "label": "VAL_STAN_027",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/signor_bernouli",
+    "slug": "signor_bernouli",
+    "type": "person",
+    "label": "signor_bernouli",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+    "slug": "signor_abbate_fardella",
+    "type": "person",
+    "label": "signor_abbate_fardella",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/ferrara",
+    "slug": "ferrara",
+    "type": "place",
+    "label": "Ferrara",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q13362",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3177090",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Ferrara",
+    "modern": "Ferrara"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/parma",
+    "slug": "parma",
+    "type": "place",
+    "label": "parma",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2683",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3171457",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Parma",
+    "modern": "parma"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/napoli",
+    "slug": "napoli",
+    "type": "place",
+    "label": "Naples",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q2634",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3172394",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Naples",
+    "modern": "Naples"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/basilea",
+    "slug": "basilea",
+    "type": "place",
+    "label": "Basel",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q78",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/2661604",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Basilea",
+    "modern": "Basel"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/s_giustina",
+    "slug": "s_giustina",
+    "type": "place",
+    "label": "s_giustina",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q219502",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "S. Giustina",
+    "modern": "s_giustina"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/semi_musco_corolloide",
+    "slug": "semi_musco_corolloide",
+    "type": "text",
+    "label": "semi del musco corolloide",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/echini_spina",
+    "slug": "echini_spina",
+    "type": "text",
+    "label": "echini con le spina",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/sperienze_anguilla",
+    "slug": "sperienze_anguilla",
+    "type": "text",
+    "label": "sperienze dell’anguilla",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/mosco",
+    "slug": "mosco",
+    "type": "organism",
+    "label": "mosco",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "muschio",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/musco_corolloide",
+    "slug": "musco_corolloide",
+    "type": "organism",
+    "label": "musco corolloide",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "muschio corallo",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/echini",
+    "slug": "echini",
+    "type": "organism",
+    "label": "echini",
+    "letters": [
+      "VAL_STAN_027"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "riccio di mare",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_028",
+    "slug": "VAL_STAN_028",
+    "type": "text",
+    "label": "VAL_STAN_028",
+    "letters": [
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+    "slug": "fardella_michelangelo",
+    "type": "person",
+    "label": "Fardella, Michelangelo",
+    "letters": [
+      "VAL_STAN_028"
+    ],
+    "viaf": "http://viaf.org/viaf/71418257 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/petiver_james",
+    "slug": "petiver_james",
+    "type": "person",
+    "label": "Petiver, James ",
+    "letters": [
+      "VAL_STAN_028"
+    ],
+    "viaf": "http://viaf.org/viaf/34799386 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/tito_livio",
+    "slug": "tito_livio",
+    "type": "person",
+    "label": "Livio, Tito",
+    "letters": [
+      "VAL_STAN_028"
+    ],
+    "viaf": "https://viaf.org/viaf/99942145/",
+    "wikidata": "https://www.wikidata.org/entity/Q2039",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] incerto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/turnefort",
+    "slug": "turnefort",
+    "type": "person",
+    "label": "Pitton de Tournefort, Joseph ",
+    "letters": [
+      "VAL_STAN_028"
+    ],
+    "viaf": "http://viaf.org/viaf/24663685 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/ecchini",
+    "slug": "ecchini",
+    "type": "organism",
+    "label": "ecchini",
+    "letters": [
+      "VAL_STAN_028"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q83483",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "ricci di mare",
+    "certainty": "MEDIO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/bue",
+    "slug": "bue",
+    "type": "organism",
+    "label": "bue",
+    "letters": [
+      "VAL_STAN_028",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q19610691",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": null,
+    "certainty": "BASSO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_029",
+    "slug": "VAL_STAN_029",
+    "type": "text",
+    "label": "VAL_STAN_029",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+    "slug": "serenissimo_di_mantova",
+    "type": "person",
+    "label": "serenissimo_di_mantova",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Titolo e nome sconosciuti"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+    "slug": "molinetti_michele_angelo",
+    "type": "person",
+    "label": "Molinetti, Michele Angelo",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "http://viaf.org/viaf/220541665 ",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Nome sconosciuto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+    "slug": "signor_guglielmini",
+    "type": "person",
+    "label": "Guglielmini, signor",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "[AMBIGUO] Nome sconosciuto"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/nome_normalizzato",
+    "slug": "nome_normalizzato",
+    "type": "place",
+    "label": "Mantua",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q6247",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/3174051",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Mantua",
+    "modern": "Mantua"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/galleria",
+    "slug": "galleria",
+    "type": "text",
+    "label": "Galleria",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_cervelli_impiegtriti",
+    "slug": "vallisneri_discorso_cervelli_impiegtriti",
+    "type": "text",
+    "label": "Considerazioni, ed Esperienze di Antonio Vallisnieri intorno al creduto Cervello Impietrito […], Padoa, Nella Stamperia del Seminario, Appresso Giovanni Manfrè, 1710. ",
+    "letters": [
+      "VAL_STAN_029",
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "http://id.sbn.it/bid/BVEE074532",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/vallisneri_lettera_pioggia_sass",
+    "slug": "vallisneri_lettera_pioggia_sass",
+    "type": "text",
+    "label": "lettera sopra la pioggia de’ sassi",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/moschi",
+    "slug": "moschi",
+    "type": "organism",
+    "label": "moschi",
+    "letters": [
+      "VAL_STAN_029"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "muschio",
+    "certainty": "ALTO"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/letter/VAL_STAN_030",
+    "slug": "VAL_STAN_030",
+    "type": "text",
+    "label": "VAL_STAN_030",
+    "letters": [
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/finale",
+    "slug": "finale",
+    "type": "place",
+    "label": "finale",
+    "letters": [
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "https://www.geonames.org/8953078",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "toponym": "Finale",
+    "modern": "finale"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/organism/lucerta",
+    "slug": "lucerta",
+    "type": "organism",
+    "label": "lucerta",
+    "letters": [
+      "VAL_STAN_030"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "taxon": "",
+    "vernacular": "lucertola",
+    "certainty": "MEDIO"
+  }
+]

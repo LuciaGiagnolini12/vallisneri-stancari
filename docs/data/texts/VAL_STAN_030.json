@@ -2,20 +2,42 @@
   "id": "VAL_STAN_030",
   "segments": [
     {
-      "text": "Padoa 3 ottobre 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo sospeso lo scrivere al mio signor Stancari, poiché in Venezia nel portarmi alla patria ebbi nuove funeste della di lei salute, ora nel rittornare a Padoa in passando per il Finale ho inteso dal signor ",
-      "entity": null
-    },
-    {
-      "text": "Manfredi",
+      "text": "Padoa",
       "entity": {
-        "text": "Manfredi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-        "type": "person",
-        "label": "Eustachio Manfredi"
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
       }
     },
     {
-      "text": ", che colà è medico ben degno, ch’ella sta bene e che il ",
+      "text": " 3 ottobre 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo sospeso lo scrivere al mio signor Stancari, poiché in Venezia nel portarmi alla patria ebbi nuove funeste della di lei salute, ora nel rittornare a ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " in passando per il ",
+      "entity": null
+    },
+    {
+      "text": "Finale",
+      "entity": {
+        "text": "Finale",
+        "entity_id": "https://w3id.org/vallisnieri/place/finale",
+        "type": "place",
+        "label": "Finale"
+      }
+    },
+    {
+      "text": " ho inteso dal signor Manfredi, che colà è medico ben degno, ch’ella sta bene e che il ",
       "entity": null
     },
     {
@@ -28,7 +50,33 @@
       }
     },
     {
-      "text": " è morto. Mi rallegro ch’essa stia bene tanto quanto d’un mio fratello, ed avevo un acerbo travaglio della sua indisposizione. Nulla importa del camaleonte, poiché adesso n’ho avuto un altro, ch’è femmina, e questa matina ha fatto 24 uova belissime grosse più che quelle di ",
+      "text": " è morto. Mi rallegro ch’essa stia bene tanto quanto d’un mio fratello, ed avevo un acerbo travaglio della sua indisposizione. Nulla importa del ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": ", poiché adesso n’ho avuto un altro, ch’è femmina, e questa matina ha fatto 24 ",
+      "entity": null
+    },
+    {
+      "text": "uova",
+      "entity": {
+        "text": "uova",
+        "entity_id": "https://w3id.org/vallisnieri/organism/uova",
+        "type": "organism",
+        "label": "egg"
+      }
+    },
+    {
+      "text": " belissime grosse più che quelle di ",
       "entity": null
     },
     {
@@ -41,20 +89,33 @@
       }
     },
     {
-      "text": ", e le ho messe a nascere.  \n\nUna volta le mandai una lettera con dentro una diretta al signor ",
+      "text": ", e le ho messe a nascere.  \n\nUna volta le mandai una lettera con dentro una diretta al signor tenente generale ",
       "entity": null
     },
     {
-      "text": "tenente generale Marsigli",
+      "text": "Marsigli",
       "entity": {
-        "text": "tenente generale Marsigli",
+        "text": "Marsigli",
         "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
         "type": "person",
         "label": "Marsili, Luigi Ferdinando"
       }
     },
     {
-      "text": ", ma non ebbi risposta nè dall’uno nè dall’altro. Ora saprei volontieri nuove d’entrambi, e di grazia mi consoli con due sole sue righe.  \n\nIo per l’avvanti starò in Padoa, e qui aspetterò qualcheduno de’ suoi riveriti commandi.  \n\nHo compito il discorso sopra il cervello di ",
+      "text": ", ma non ebbi risposta nè dall’uno nè dall’altro. Ora saprei volontieri nuove d’entrambi, e di grazia mi consoli con due sole sue righe.  \n\nIo per l’avvanti starò in ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", e qui aspetterò qualcheduno de’ suoi riveriti commandi.  \n\nHo compito il discorso sopra il cervello di ",
       "entity": null
     },
     {
@@ -89,12 +150,34 @@
         "text": "signor suo fratello",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Eustachio Manfredi"
+        "label": "Manfredi, Eustachio"
       }
     },
     {
-      "text": " ch’è al Finale non degenera punto dal dottissimo loro stipite.  \n\nLa riverisco, e resto di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio Vallisnieri",
+      "text": " ch’è al ",
       "entity": null
+    },
+    {
+      "text": "Finale",
+      "entity": {
+        "text": "Finale",
+        "entity_id": "https://w3id.org/vallisnieri/place/finale",
+        "type": "place",
+        "label": "Finale"
+      }
+    },
+    {
+      "text": " non degenera punto dal dottissimo loro stipite.  \n\nLa riverisco, e resto di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

@@ -1,0 +1,165 @@
+{
+  "id": "VAL_STAN_011",
+  "segments": [
+    {
+      "text": "Illustrissimo signor mio padrone colendissimo \n\nCon l’occasione che rittorna a Venezia il riveritissimo nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": ", la di cui virtù e modestia merita tutte le lodi e l’amore di tutti, fuorché de Padoani, che o non lo conoscono o non lo vogliono conoscere, mando a ",
+      "entity": null
+    },
+    {
+      "text": "Vostra signoria illustrissima",
+      "entity": {
+        "text": "Vostra signoria illustrissima",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " una scatoletta con uno ",
+      "entity": null
+    },
+    {
+      "text": "scorpione affricano",
+      "entity": {
+        "text": "scorpione affricano",
+        "entity_id": "https://w3id.org/vallisnieri/organism/scorpione_affricano",
+        "type": "organism",
+        "label": "scorpione affricano"
+      }
+    },
+    {
+      "text": " di que’ descritti e disegnati dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Redi",
+      "entity": {
+        "text": "Redi",
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "type": "person",
+        "label": "Redi, Francesco"
+      }
+    },
+    {
+      "text": ", acciocché nella sua virtuosissima Accademia faccia qualche osservazione. Questa deve essere con un finissimo microscopio intorno all’aculeo, nel quale né il signor ",
+      "entity": null
+    },
+    {
+      "text": "Redi",
+      "entity": {
+        "text": "Redi",
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "type": "person",
+        "label": "Redi, Francesco"
+      }
+    },
+    {
+      "text": " né il ",
+      "entity": null
+    },
+    {
+      "text": "Padre Buonanni",
+      "entity": {
+        "text": "Padre Buonanni",
+        "entity_id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+        "type": "person",
+        "label": "Buonanni, Filippo"
+      }
+    },
+    {
+      "text": " poterono mai scoprire i fori pe’ quali scappa fuora quel velenoso succo limpidissimo che insinua nella ferita. Il signor marchese ",
+      "entity": null
+    },
+    {
+      "text": "Passalacqua",
+      "entity": {
+        "text": "Passalacqua",
+        "entity_id": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+        "type": "person",
+        "label": "Passalacqua (marchese)"
+      }
+    },
+    {
+      "text": ", un Padre benedettino ed io li trovammo con un esquisito microscopio venuto d’",
+      "entity": null
+    },
+    {
+      "text": "Inghilterra",
+      "entity": {
+        "text": "Inghilterra",
+        "entity_id": "https://w3id.org/vallisnieri/place/inghilterra",
+        "type": "place",
+        "label": "United Kingdom"
+      }
+    },
+    {
+      "text": ", e sono tre nelle tre facce laterali degli angoli dell’aculeo che fanno triangolare e ci apparirono ovali. Avevano ragione tutti di non trovarli, imperocché guardavano la cima dell’aculeo, che credevano forata, ma questa è di cornea e solida materia, forata solo, come diceva, lateralmente, acciocché nell’imprimere la ferita non venisse chiuso il foro, se fosse stato nella sommità. Parmi un giorno che ",
+      "entity": null
+    },
+    {
+      "text": "Vostra signoria illustrissima",
+      "entity": {
+        "text": "Vostra signoria illustrissima",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " mi dicesse che altri l’hanno scoperto, ma allora (e saranno ben dodici anni) non avevamo avuto alcun lume, e bolliva solamente la lite se vi fossero o non vi fossero questi fori. Invio pure alcune grandi ",
+      "entity": null
+    },
+    {
+      "text": "locuste familiari",
+      "entity": {
+        "text": "locuste familiari",
+        "entity_id": "https://w3id.org/vallisnieri/organism/locusta",
+        "type": "organism",
+        "label": "locusta"
+      }
+    },
+    {
+      "text": " depredatrici del mio orticello, gli occhi delle quali sono assai curiosi per certe fascie nericcie o filigginose che gli attraversano, ed hanno pure separati da detti altri tubercoletti semisferici lucidissimi, che anch’essi paiono occhi, onde, se tutti fossero, non sarebbe più favoloso l’Argo de’ fantastici poeti.  \n\nM’è giunto un libro manoscritto tradotto dal francese intitolato Lucimetro, cioè modo di misurare la luce. Non so se ne abbiano notizia. Il Cardinale m’ha detto che lo farà stampare nel Seminario, come altre mie bagatelle.  \nMa chiamano in tavola. La riverisco col cuore. Se le capitasse congiontura, e mi volesse mandare di quelle miniere senza nome, ho un amico grande esperimentatore e prattico, e ne faressimo le pruove. Se può mi favorisca, come anche d’altre cosette, di quelle che ha doppie. M’avvisi pure se ha ",
+      "entity": null
+    },
+    {
+      "text": "camaleonti",
+      "entity": {
+        "text": "camaleonti",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": ", che gliene manderò uno, e di nuovo resto di ",
+      "entity": null
+    },
+    {
+      "text": "Vostra signoria illustrissima",
+      "entity": {
+        "text": "Vostra signoria illustrissima",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " devotissimo servitore obbligatissimo A.V.",
+      "entity": null
+    }
+  ]
+}

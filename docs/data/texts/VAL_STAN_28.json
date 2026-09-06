@@ -1,0 +1,634 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_28 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[anotomia dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/anotomia_dell_anguilla",
+        "label": "anotomia dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[armata cesarea]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_cesarea",
+        "label": "armata cesarea",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[armata francese]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_francese",
+        "label": "armata francese",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[bue]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/bue",
+        "label": "bue",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/camaleonte",
+        "label": "camaleonte",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[caso d'innocente veleno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/caso_d_innocente_veleno",
+        "label": "caso d'innocente veleno",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[caso d'un sudor di sangue]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+        "label": "caso d'un sudor di sangue",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[caso d'una portentosa diabete]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+        "label": "caso d'una portentosa diabete",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[china china e dell’ipecuacanne]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/china_china_e_dell_ipecuacanne",
+        "label": "china china e dell’ipecuacanne",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[curiosa invenzione di misurare la luce]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/curiosa_invenzione_di_misurare_la_luce",
+        "label": "curiosa invenzione di misurare la luce",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+        "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso sopra l'ovaja dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
+        "label": "discorso sopra l'ovaja dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso sopra la lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_sopra_la_lenticola_palustre",
+        "label": "discorso sopra la lenticola palustre",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[dissertazioncella sopra la lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/dissertazioncella_sopra_la_lenticola_palustre",
+        "label": "dissertazioncella sopra la lenticola palustre",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[ecchini]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/ecchini",
+        "label": "ecchini",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[effigie d’un semprevivo di Monte Baldo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/effigie_d_un_semprevivo_di_monte_baldo",
+        "label": "effigie d’un semprevivo di Monte Baldo",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[estratto]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/estratto_della_mia_lettera_sopra_la_mosca_rosiseca",
+        "label": "estratto",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Fardella, abate]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
+        "label": "Fardella, abate",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Figure]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/figure_2",
+        "label": "Figure",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[foglio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/foglio",
+        "label": "foglio",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/gebelindi",
+        "label": "gebelindi",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[generazione della pulce]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/generazione_della_pulce",
+        "label": "generazione della pulce",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Helena Cenarum]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/helena_cenarum",
+        "label": "Helena Cenarum",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Hermann, Jakob]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "label": "Hermann, Jakob",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[indice dell'Accademia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/indice_dell_accademia",
+        "label": "indice dell'Accademia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[invito a Letterati d’Italia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/invito_a_letterati_d_italia",
+        "label": "invito a Letterati d’Italia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria degli animali grandi e minuti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_degli_animali_grandi_e_minuti",
+        "label": "istoria degli animali grandi e minuti",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[leggi dell'Accademia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
+        "label": "leggi dell'Accademia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_028]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_028",
+        "label": "Lettera VAL_STAN_028",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Levenoech]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/levenoech",
+        "label": "Levenoech",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libretto francese]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_francese",
+        "label": "libretto francese",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libri",
+        "label": "libri",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libro",
+        "label": "libro",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Livio, Tito]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/tito_livio",
+        "label": "Livio, Tito",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Milan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "label": "Milan",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mineralogia di lui dello Scrodero]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/mineralogia_di_lui_dello_scrodero",
+        "label": "mineralogia di lui dello Scrodero",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[opera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "label": "opera",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Osservazioni]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/osservazioni_6",
+        "label": "Osservazioni",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[ovaja delle anguille]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/ovaja_delle_anguille",
+        "label": "ovaja delle anguille",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Petiver, James]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/petiver_james",
+        "label": "Petiver, James",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Pitton de Tournefort, Joseph]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/turnefort",
+        "label": "Pitton de Tournefort, Joseph",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Quaranta Orsi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+        "label": "Quaranta Orsi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[regole di governare il camaleonte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/regole_di_governare_il_camaleonte",
+        "label": "regole di governare il camaleonte",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scartafaccio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/scartafaccio",
+        "label": "scartafaccio",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scoprimento nuovo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/scoprimento_nuovo",
+        "label": "scoprimento nuovo",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[seme dell’alga marina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/seme_dell_alga_marina",
+        "label": "seme dell’alga marina",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[seme saporitissimo di pignolo affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/seme_saporitissimo_di_pignolo_affricano",
+        "label": "seme saporitissimo di pignolo affricano",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Semi di musco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi_di_musco_10",
+        "label": "Semi di musco",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[sperienze di cose portate dall’Indie]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/sperienze_di_cose_portate_dall_indie",
+        "label": "sperienze di cose portate dall’Indie",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tratatello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "label": "tratatello",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[United Kingdom]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/inghilterra",
+        "label": "United Kingdom",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_028",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

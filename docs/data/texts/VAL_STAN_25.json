@@ -1,0 +1,513 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_25 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[aculeo della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca_rosiseca",
+        "label": "aculeo della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[balena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/balene",
+        "label": "balena",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bernoulli, signor]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bernoulli",
+        "label": "Bernoulli, signor",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cervello petrificato]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cervello_petrificato",
+        "label": "cervello petrificato",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cinquanta copie delle figure]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cinquanta_copie_delle_figure_6",
+        "label": "Cinquanta copie delle figure",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Copia della disertazione sopra la lenticola]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/copia_della_disertazione_sopra_la_lenticola_5",
+        "label": "Copia della disertazione sopra la lenticola",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso dell'anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+        "label": "discorso dell'anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso de’ mentiti cervelli]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_de_mentiti_cervelli",
+        "label": "discorso de’ mentiti cervelli",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[disertazione]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/disertazione_stampata",
+        "label": "disertazione",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Estratto delle mie osservazioni sopra i cervelli]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/estratto_delle_mie_osservazioni_sopra_i_cervelli_4",
+        "label": "Estratto delle mie osservazioni sopra i cervelli",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Fardella, signor]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/fardella",
+        "label": "Fardella, signor",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Florence]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/florence",
+        "label": "Florence",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/gebelindi",
+        "label": "gebelindi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Germania]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/germania",
+        "label": "Germania",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[gioie d’Elba]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/gioie_d_elba",
+        "label": "gioie d’Elba",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Hermann, Jakob]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "label": "Hermann, Jakob",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[insetti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/insetti",
+        "label": "insetti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria naturale del mare]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_naturale_del_mare",
+        "label": "istoria naturale del mare",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/lenticola_palustre",
+        "label": "lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_025]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_025",
+        "label": "Lettera VAL_STAN_025",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libri",
+        "label": "libri",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Libri del seminario]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/libri_del_seminario_9",
+        "label": "Libri del seminario",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lione]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/lione",
+        "label": "Lione",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Martinelli]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "label": "Martinelli",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[minerali]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/minerali",
+        "label": "minerali",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[opera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "label": "opera",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Osservazioni de fonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/osservazioni_de_fonti_8",
+        "label": "Osservazioni de fonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Paris]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "label": "Paris",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesci esotici]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesci_esotici",
+        "label": "pesci esotici",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Principe di Toscana]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+        "label": "Principe di Toscana",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Redi, Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "label": "Redi, Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Ritratto del cervello petrificato]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/ritratto_del_cervello_petrificato_3",
+        "label": "Ritratto del cervello petrificato",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Roma]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/roma",
+        "label": "Roma",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scorpione d’Affrica]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_d_affrica",
+        "label": "scorpione d’Affrica",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi",
+        "label": "semi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Testi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/testi_lodovico",
+        "label": "Testi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trionfetti, Lelio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/trionfetti",
+        "label": "Trionfetti, Lelio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_025",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalva, Antonio Maria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "label": "Valsalva, Antonio Maria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

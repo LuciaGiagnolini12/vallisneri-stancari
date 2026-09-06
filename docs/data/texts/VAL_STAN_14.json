@@ -1,0 +1,381 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_14 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[balena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/balene",
+        "label": "balena",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[brassiche]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/brassiche",
+        "label": "brassiche",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Camaleonte vivo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte_vivo_3",
+        "label": "Camaleonte vivo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cestoni, Giacinto]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+        "label": "Cestoni, Giacinto",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/de_arcano_lenticulae_palustris_s",
+        "label": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[dissertazioncella sopra la lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/dissertazioncella_sopra_la_lenticola_palustre",
+        "label": "dissertazioncella sopra la lenticola palustre",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Hermann, Jakob]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "label": "Hermann, Jakob",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[insetto cieco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/insetto_cieco",
+        "label": "insetto cieco",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[invito a Letterati d’Italia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/invito_a_letterati_d_italia",
+        "label": "invito a Letterati d’Italia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria degli animali grandi e minuti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_degli_animali_grandi_e_minuti",
+        "label": "istoria degli animali grandi e minuti",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_014]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_014",
+        "label": "Lettera VAL_STAN_014",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[locusta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/locusta",
+        "label": "locusta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[minerali]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/minerali",
+        "label": "minerali",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[minerali]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q176957",
+        "label": "minerali",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mosca silvestre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca_silvestre",
+        "label": "mosca silvestre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesci esotici]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesci_esotici",
+        "label": "pesci esotici",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pidocchi silvestri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pidocchi_silvestri",
+        "label": "pidocchi silvestri",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[rosai]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/rosai",
+        "label": "rosai",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scheuchzer, Johann Jakob]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/scheuchzer_johann_jakob",
+        "label": "Scheuchzer, Johann Jakob",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scorpione affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano",
+        "label": "scorpione affricano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi",
+        "label": "semi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trionfetti, Lelio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/trionfetti",
+        "label": "Trionfetti, Lelio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_014",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[zolfo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q42038",
+        "label": "zolfo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_20 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[acqua vite canforata]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/acqua_vite_canforata",
+        "label": "acqua vite canforata",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anatre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anatre",
+        "label": "anatre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[brassiche]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/brassiche",
+        "label": "brassiche",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cedrara]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cedrara",
+        "label": "cedrara",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cigno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cigno",
+        "label": "cigno",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[egg]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/uova",
+        "label": "egg",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Foglie di brassiche]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/foglie_di_brassiche_4",
+        "label": "Foglie di brassiche",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Genoa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "label": "Genoa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Istanbul]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/costantinopoli",
+        "label": "Istanbul",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_020]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_020",
+        "label": "Lettera VAL_STAN_020",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Paris]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "label": "Paris",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tarme da farina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/tarme_da_farina",
+        "label": "tarme da farina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tratatello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "label": "tratatello",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_020",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalva, Antonio Maria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "label": "Valsalva, Antonio Maria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vipere",
+        "label": "vipere",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

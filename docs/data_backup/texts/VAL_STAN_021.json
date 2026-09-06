@@ -1,0 +1,200 @@
+{
+  "id": "VAL_STAN_021",
+  "segments": [
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 24 novembre 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ passato per ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " l’eccellentissimo ",
+      "entity": null
+    },
+    {
+      "text": "Martinelli",
+      "entity": {
+        "text": "Martinelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "type": "person",
+        "label": "Martinelli"
+      }
+    },
+    {
+      "text": ", ed il signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " ed io la desideravamo per goderla, ma abbiamo inteso sia tornata a ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ". Avevo trovata una carta dov’era il modo di governare il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " lasciato l’estate scorsa all’eccellentissimo ",
+      "entity": null
+    },
+    {
+      "text": "Trevisani",
+      "entity": {
+        "text": "Trevisani",
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+        "type": "person",
+        "label": "Trevisan, Bernardo"
+      }
+    },
+    {
+      "text": ", a cui lo consegnai, finché stetti alla patria. Ora vi ho aggiunto come debbasi governare questo inverno, e se muore che cosa debbano principalmente osservare. Aspetto dunque nuova se è più vivo, e se morto che cosa hanno osservato.  \n\nDesidero pur sapere (ma senza adulazione da buono amico, come la stimo e la tengo di certo) com’è stato sentito il mio discorso sopra l’ovaja dell’",
+      "entity": null
+    },
+    {
+      "text": "anguilla",
+      "entity": {
+        "text": "anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
+        "type": "organism",
+        "label": "anguilla"
+      }
+    },
+    {
+      "text": ", poiché dubbito che abbia sortita quella fortuna che sortì il discorso del ",
+      "entity": null
+    },
+    {
+      "text": "Lancisi",
+      "entity": {
+        "text": "Lancisi",
+        "entity_id": "https://w3id.org/vallisnieri/person/lancisi",
+        "type": "person",
+        "label": "Lancisi"
+      }
+    },
+    {
+      "text": ". Non voglio da lei lodi, ma voglio critica per potermi correggere per l’avvenire. Aspetto pure le sue riflessioni sopra l’",
+      "entity": null
+    },
+    {
+      "text": "ordigno della mosca rosiseca",
+      "entity": {
+        "text": "ordigno della mosca rosiseca",
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "type": "text",
+        "label": "ordigno della mosca rosiseca"
+      }
+    },
+    {
+      "text": ", che aggiugnerò al discorso che già ho esteso. La supplico a non privarmi di questa consolazione. Aspetto pure le ",
+      "entity": null
+    },
+    {
+      "text": "leggi dell’Accademia",
+      "entity": {
+        "text": "leggi dell’Accademia",
+        "entity_id": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
+        "type": "text",
+        "label": "leggi dell’Accademia"
+      }
+    },
+    {
+      "text": ", l’indice degli accademici, il corpo della sua impresa e cose simili. ",
+      "entity": null
+    },
+    {
+      "text": "Rubbi",
+      "entity": {
+        "text": "Rubbi",
+        "entity_id": "https://w3id.org/vallisnieri/person/rubbi",
+        "type": "person",
+        "label": "Rubbi"
+      }
+    },
+    {
+      "text": " un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": ", che ogni giorno m’onora della sua presenza alla mia lezione e mi dà animo e coraggio. Citai nell’ultima il nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Valsalvi",
+      "entity": {
+        "text": "Valsalvi",
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "type": "person",
+        "label": "Valsalva, Antonio Maria"
+      }
+    },
+    {
+      "text": " in occasione dell’orecchia. \n\nSegua ad amarmi, ch’io ad essere di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    },
+    {
+      "text": ". \n\nDomenica prossima fa il suo ingresso il nuovo matematico con tanta aspettativa che non suol punto giovare.",
+      "entity": null
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_24 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cervello di bue]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cervello_di_bue",
+        "label": "cervello di bue",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso dell'anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+        "label": "discorso dell'anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Discorso sopra l anguilla con la figura]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/discorso_sopra_l_anguilla_con_la_figura_3",
+        "label": "Discorso sopra l anguilla con la figura",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Disegno del cervello di bue]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/disegno_del_cervello_di_bue_2",
+        "label": "Disegno del cervello di bue",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Donelli, Giuseppe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "label": "Donelli, Giuseppe",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_024]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_024",
+        "label": "Lettera VAL_STAN_024",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Memorie dell accademia di parigi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/memorie_dell_accademia_di_parigi_1",
+        "label": "Memorie dell accademia di parigi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/morgagni_4",
+        "label": "Morgagni",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Museo Aldrovandi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/museo_aldrovandi",
+        "label": "Museo Aldrovandi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Museo di Storia Naturale dell'Università di Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+        "label": "Museo di Storia Naturale dell'Università di Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Paris]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "label": "Paris",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_024",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalva, Antonio Maria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "label": "Valsalva, Antonio Maria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Voduard]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/voduard",
+        "label": "Voduard",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

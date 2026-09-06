@@ -1,0 +1,330 @@
+{
+  "id": "VAL_STAN_017",
+  "segments": [
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " 31 luglio 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nSono in ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " caldo, bollente, abbrustolito dal sole nel mio viaggio. Pure m’è restata la volontà di legger libri. Ho trovate le opere del ",
+      "entity": null
+    },
+    {
+      "text": "Charas",
+      "entity": {
+        "text": "Charas",
+        "entity_id": "https://w3id.org/vallisnieri/person/charas",
+        "type": "person",
+        "label": "Charas, Moyse"
+      }
+    },
+    {
+      "text": " e vi veggo bene la notomia della ",
+      "entity": null
+    },
+    {
+      "text": "vipera",
+      "entity": {
+        "text": "vipera",
+        "entity_id": "https://w3id.org/vallisnieri/organism/vipera",
+        "type": "organism",
+        "label": "vipera"
+      }
+    },
+    {
+      "text": " altre volte da me veduta, ma non già quella dell’",
+      "entity": null
+    },
+    {
+      "text": "anguilla",
+      "entity": {
+        "text": "anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
+        "type": "organism",
+        "label": "anguilla"
+      }
+    },
+    {
+      "text": ", onde dubbito d’uno sbaglio in chi m’avvisò. Ho scorso pure ",
+      "entity": null
+    },
+    {
+      "text": "Gioanni de Muralto",
+      "entity": {
+        "text": "Gioanni de Muralto",
+        "entity_id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+        "type": "person",
+        "label": "Muralt, Johannes"
+      }
+    },
+    {
+      "text": " dell’",
+      "entity": null
+    },
+    {
+      "text": "anotomia dell’anguilla",
+      "entity": {
+        "text": "anotomia dell’anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/text/anotomia_dell_anguilla",
+        "type": "text",
+        "label": "anotomia dell’anguilla"
+      }
+    },
+    {
+      "text": ", e non fa parola della sua ovaja. Sicché spero d’essere il primo a dar fuora questa notizia, e la voglio dedicare alla sua e mia riverita Accademia in segno della stima che ne faccio e delle mie obbligazioni che le professo. Non ho veduto ancor sua risposta, onde, se vuole onorarmi di lettera, la potrà inviare a ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": ", poiché quanto prima colà rittorno. Ho avuto lettera da ",
+      "entity": null
+    },
+    {
+      "text": "Livorno",
+      "entity": {
+        "text": "Livorno",
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "type": "place",
+        "label": "Livorno"
+      }
+    },
+    {
+      "text": " che con un bastimento o nave che aspettano da ",
+      "entity": null
+    },
+    {
+      "text": "Tunisi di Barberia",
+      "entity": {
+        "text": "Tunisi di Barberia",
+        "entity_id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+        "type": "place",
+        "label": "Tunis"
+      }
+    },
+    {
+      "text": " forse verranno ",
+      "entity": null
+    },
+    {
+      "text": "camaleonti",
+      "entity": {
+        "text": "camaleonti",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " vivi e che subito ne invieranno uno a vostra signoria illustrissima, essendo il mio restato in Venezia in buone e dotte mani.  \n\nLe inviai per il nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "type": "person",
+        "label": "Guglielmini, Domenico"
+      }
+    },
+    {
+      "text": " una scatola con dentro il lucimetro ed altre bagatelle, che suppongo avrà ricevute. Ora le do parte che ho con mio sommo diletto il ",
+      "entity": null
+    },
+    {
+      "text": "libretto francese",
+      "entity": {
+        "text": "libretto francese",
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_francese",
+        "type": "text",
+        "label": "libretto francese"
+      }
+    },
+    {
+      "text": " nelle mani da cui è stato tradotto, e quanto prima ne farò riscontro per vedere dove ha sbagliato il traduttore. E pure un uomo dottissimo e di garbo tiene anche per certo che l’",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " sia d’un bresciano sotto la maschera d’un francese. Il traduttore vuol far le sue discolpe e porre il tutto in chiaro, e gli ho raccomandato che lo faccia con tutta modestia, altrimenti rompo l’amicizia. L’autore è il reverendo ",
+      "entity": null
+    },
+    {
+      "text": "Padre Francesco Maria cappuccino",
+      "entity": {
+        "text": "Padre Francesco Maria cappuccino",
+        "entity_id": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+        "type": "person",
+        "label": "Cappuccino, Padre Francesco Maria"
+      }
+    },
+    {
+      "text": ", che dedicò l’",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " al duca di Chartres stampata in ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": " appresso Giovanni Sevestre stampatore e librajo nella contrada di S. Giacomo dirimpetto a S. Vues 1700 con approvazione e privilegio del re. Vi è in fine l’approvazione pure del ",
+      "entity": null
+    },
+    {
+      "text": "Fontanelle",
+      "entity": {
+        "text": "Fontanelle",
+        "entity_id": "https://w3id.org/vallisnieri/person/fontanelle",
+        "type": "person",
+        "label": "Fontanelle"
+      }
+    },
+    {
+      "text": " secretario dell’Accademia Reale delle Scienze fatta in ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": " li 25 marzo 1700, con le approvazioni ancora del suo generale, del suo provinciale e di due teologi del suo ordine. Insomma l’",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " è francese ed è stata applaudita in Francia ed approvata, poiché dice che si troveranno gli stromenti propri per fare questa esperienza appresso ",
+      "entity": null
+    },
+    {
+      "text": "Carlo des Feugerais",
+      "entity": {
+        "text": "Carlo des Feugerais",
+        "entity_id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+        "type": "person",
+        "label": "Feugerais, Carlo des"
+      }
+    },
+    {
+      "text": " mercante specchiaro et occhialaro dell’orologio del Palazzo al Fiore del Giglio coronato in ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": ". Vede come facilmente c’inganniamo.  \n\nSe alla Posta di ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " potrò francare un piccolo invoglietto lo manderò, se no aspetterò congiontura, poiché non voglio darle tanto incommodo. Intanto mi conservi il suo affetto, m’onori co’ nostri amici ed accademici, e resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    },
+    {
+      "text": ".  \n\nVedrà nell’annesso rotoletto i primi abozzi dell’",
+      "entity": null
+    },
+    {
+      "text": "istoria della mosca rosiseca",
+      "entity": {
+        "text": "istoria della mosca rosiseca",
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "type": "text",
+        "label": "istoria della mosca rosiseca"
+      }
+    },
+    {
+      "text": " con la figura dell’aculeo maraviglioso, e lo mostrerà poi a nostri accademici.",
+      "entity": null
+    }
+  ]
+}

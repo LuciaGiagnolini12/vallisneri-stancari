@@ -2,7 +2,16 @@
   "id": "VAL_STAN_004",
   "segments": [
     {
-      "text": "Padoa 5 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nAndava tardando a scrivere a vostra signoria illustrissima, perché aspettava che il negligentissimo ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 5 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nAndava tardando a scrivere a vostra signoria illustrissima, perché aspettava che il negligentissimo ",
       "entity": null
     },
     {
@@ -15,7 +24,20 @@
       }
     },
     {
-      "text": " stampasse un certo mio scoprimento nuovo, sopra il quale sentirò volentieri il suo dottissimo parere. Ma perché veggo troppo diferirlo, non posso più tollerare quest’interno prurito e scrivo, com’è mio debito. Farà riverenza all’illustrissimo signor senatore ",
+      "text": " stampasse un certo mio ",
+      "entity": null
+    },
+    {
+      "text": "scoprimento nuovo",
+      "entity": {
+        "text": "scoprimento nuovo",
+        "entity_id": "https://w3id.org/vallisnieri/text/scoprimento_nuovo",
+        "type": "text",
+        "label": "scoprimento nuovo"
+      }
+    },
+    {
+      "text": ", sopra il quale sentirò volentieri il suo dottissimo parere. Ma perché veggo troppo diferirlo, non posso più tollerare quest’interno prurito e scrivo, com’è mio debito. Farà riverenza all’illustrissimo signor senatore ",
       "entity": null
     },
     {
@@ -54,7 +76,33 @@
       }
     },
     {
-      "text": ", e poche altre per esempio de’ nascimenti spontanei. Non anderà molto tempo che leggerà a suoi amici un mio scartafaccio sopra di questo e mostrerà le figure. Già gli anni addietro diedi fuora il seme dell’alga marina cercato e trovato felicemente a mia istanza dal mio carissimo amico signor ",
+      "text": ", e poche altre per esempio de’ nascimenti spontanei. Non anderà molto tempo che leggerà a suoi amici un mio ",
+      "entity": null
+    },
+    {
+      "text": "scartafaccio",
+      "entity": {
+        "text": "scartafaccio",
+        "entity_id": "https://w3id.org/vallisnieri/text/de_arcano_lenticulae_palustris_s",
+        "type": "text",
+        "label": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51."
+      }
+    },
+    {
+      "text": " sopra di questo e mostrerà le figure. Già gli anni addietro diedi fuora il seme dell’",
+      "entity": null
+    },
+    {
+      "text": "alga marina",
+      "entity": {
+        "text": "alga marina",
+        "entity_id": "https://w3id.org/vallisnieri/organism/alga_marina",
+        "type": "organism",
+        "label": "alga marina"
+      }
+    },
+    {
+      "text": " cercato e trovato felicemente a mia istanza dal mio carissimo amico signor ",
       "entity": null
     },
     {
@@ -93,7 +141,20 @@
       }
     },
     {
-      "text": " di Monte Baldo non descritto da alcuno, favoritomi da un amico, che anch’esso manderò un giorno, siccome un seme saporitissimo di ",
+      "text": " di ",
+      "entity": null
+    },
+    {
+      "text": "Monte Baldo",
+      "entity": {
+        "text": "Monte Baldo",
+        "entity_id": "https://w3id.org/vallisnieri/place/monte_baldo",
+        "type": "place",
+        "label": "Monte Baldo"
+      }
+    },
+    {
+      "text": " non descritto da alcuno, favoritomi da un amico, che anch’esso manderò un giorno, siccome un seme saporitissimo di ",
       "entity": null
     },
     {
@@ -106,8 +167,17 @@
       }
     },
     {
-      "text": " non mai veduto da questi botanici, che mi è nato felicemente.  \n\nI miei soliti inchini a tutti gentilissimi e virtuosissimi signori, ed abbracciandola col cuore resto di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
+      "text": " non mai veduto da questi botanici, che mi è nato felicemente.  \n\nI miei soliti inchini a tutti gentilissimi e virtuosissimi signori, ed abbracciandola col cuore resto di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
       "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

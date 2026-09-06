@@ -49,11 +49,43 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .page{display:none;min-height:calc(100vh - 52px);margin-top:52px;}
 .page.on{display:block;}
 
-.home-hero{background:#1e1610;color:#f2e8d8;padding:64px 48px 48px;
-  background-image:linear-gradient(135deg,#1e1610 50%,#2a1e10);}
-.home-hero h1{font-family:var(--serif);font-size:36px;font-style:italic;
-  font-weight:400;margin-bottom:8px;line-height:1.2;}
-.home-hero p{font-size:14px;opacity:.7;max-width:600px;line-height:1.7;}
+.home-hero{position:relative;background:#1e1610;color:#f2e8d8;padding:72px 48px 56px;
+  background-image:
+    radial-gradient(ellipse 900px 600px at 85% 20%, rgba(139,99,24,.16), transparent 65%),
+    linear-gradient(135deg,#1e1610 45%,#2a1e10 100%);
+  overflow:hidden;
+  display:grid;grid-template-columns:1fr 340px;gap:40px;align-items:center;}
+.home-hero::before{content:'';position:absolute;inset:0;pointer-events:none;opacity:.05;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, #f2e8d8 2px, #f2e8d8 3px),
+    repeating-linear-gradient(90deg, transparent, transparent 2px, #f2e8d8 2px, #f2e8d8 3px);
+  background-size:38px 38px;}
+.home-hero::after{content:'';position:absolute;top:14px;left:14px;right:14px;bottom:14px;
+  border:1px solid rgba(242,232,216,.18);pointer-events:none;}
+.home-hero-text{position:relative;z-index:1;}
+.home-hero-eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--gold);opacity:.85;margin-bottom:14px;
+  display:flex;align-items:center;gap:10px;}
+.home-hero-eyebrow::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(139,99,24,.6),transparent);}
+.home-hero h1{font-family:var(--serif);font-size:38px;font-style:italic;
+  font-weight:400;margin-bottom:14px;line-height:1.22;}
+.home-hero p{font-size:14px;opacity:.72;max-width:580px;line-height:1.8;}
+.home-hero-portrait{position:relative;z-index:1;justify-self:center;}
+.home-hero-portrait-frame{position:relative;width:260px;padding:10px;
+  background:linear-gradient(160deg,rgba(242,232,216,.06),rgba(242,232,216,.02));
+  border:1px solid rgba(139,99,24,.5);border-radius:2px;
+  box-shadow:0 24px 60px rgba(0,0,0,.45), inset 0 0 0 1px rgba(0,0,0,.3);}
+.home-hero-portrait-frame::before{content:'';position:absolute;top:5px;left:5px;right:5px;bottom:5px;
+  border:1px solid rgba(139,99,24,.3);pointer-events:none;}
+.home-hero-portrait img{display:block;width:100%;height:auto;filter:sepia(.35) contrast(1.05);
+  border:1px solid rgba(0,0,0,.4);}
+.home-hero-caption{margin-top:10px;text-align:center;font-family:var(--mono);
+  font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);opacity:.75;}
+@media (max-width:760px){
+  .home-hero{grid-template-columns:1fr;padding:48px 24px 40px;}
+  .home-hero-portrait{justify-self:start;}
+  .home-hero-portrait-frame{width:180px;}
+}
 .home-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;
   padding:24px 48px;background:var(--paper);border-bottom:1px solid var(--line);}
 .stat{text-align:center;padding:16px;}
@@ -170,7 +202,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   text-align:right;
 }
 
-.letter-text{font-family:var(--serif);font-size:17px;line-height:2.2;color:#241c14;}
+.letter-text{font-family:var(--serif);font-size:17px;line-height:1.8;color:#241c14;white-space:pre-wrap;}
 
 .ent{border-radius:2px;padding:1px 3px;cursor:pointer;transition:all .15s ease;display:inline-block;margin:0 1px;}
 .ent.person {background:var(--person-l);color:var(--person);border-bottom:2px solid var(--person);}
@@ -322,10 +354,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   <div class="nav-links">
     <div class="nav-link on" onclick="showPage('home',this)">Home</div>
     <div class="nav-link" onclick="showPage('letters',this)">Letters</div>
-    <div class="nav-link" onclick="showPage('entita',this)">Entità</div>
+    <div class="nav-link" onclick="showPage('entita',this)">Entities</div>
     <div class="nav-link" onclick="showPage('network',this)">Network</div>
-    <div class="nav-link" onclick="showPage('timeline',this)">Timeline</div>
-    <div class="nav-link" onclick="showPage('mappa',this)">Mappa</div>
+    <div class="nav-link" onclick="showPage('map',this)">Map</div>
     <div class="nav-link" onclick="showPage('sparql',this)">SPARQL</div>
   </div>
 </nav>
@@ -333,8 +364,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 <!-- ── HOME ── -->
 <div class="page on" id="pg-home">
   <div class="home-hero">
-    <h1>Vallisnieri–Stancari Correspondence</h1>
-    <p>A digital scholarly edition of 30 letters (1707–1709) from Antonio Vallisnieri to Francesco Vittorio Stancari.</p>
+    <div class="home-hero-text">
+      <div class="home-hero-eyebrow">Digital Scholarly Edition · 1707–1709</div>
+      <h1>Vallisnieri–Stancari Correspondence</h1>
+      <p>A digital scholarly edition of 30 letters (1707–1709) from Antonio Vallisnieri to Vittorio Francesco  Stancari.</p>
+    </div>
+    <div class="home-hero-portrait">
+      <div class="home-hero-portrait-frame">
+        <img src="images/vallisnieri-portrait.jpg" alt="Ritratto di Antonio Vallisnieri, litografia di L. Rossi">
+      </div>
+      <div class="home-hero-caption">Antonio Vallisnieri · Lithograph by L. Rossi</div>
+    </div>
   </div>
   <div class="home-stats" id="home-stats"></div>
   <div class="home-intro">
@@ -371,7 +411,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   </div>
 </div>
 
-<!-- ── ENTITÀ ── -->
+<!-- ── entity ── -->
 <div class="page" id="pg-entita">
   <div class="entities-wrap">
     <div class="page-header" style="padding-left:0">
@@ -382,7 +422,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <button class="ent-filter on" onclick="filterEnt('all',this)">All</button>
       <button class="ent-filter" onclick="filterEnt('person',this)">Persons</button>
       <button class="ent-filter" onclick="filterEnt('place',this)">Places</button>
-      <button class="ent-filter" onclick="filterEnt('organism',this)">Organisms</button>
+      <button class="ent-filter" onclick="filterEnt('organism',this)">Observable Entities</button>
       <button class="ent-filter" onclick="filterEnt('text',this)">Texts & Works</button>
       <input class="ent-search" id="ent-search" placeholder="Search entities or works…" oninput="renderEntities()">
     </div>
@@ -399,13 +439,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
         <button class="net-fbtn on" data-type="all" onclick="netToggleAll('type',this)">All</button>
         <button class="net-fbtn on" data-type="person" onclick="netToggle('type','person',this)">Persons</button>
         <button class="net-fbtn on" data-type="place" onclick="netToggle('type','place',this)">Places</button>
-        <button class="net-fbtn on" data-type="organism" onclick="netToggle('type','organism',this)">Organisms</button>
-        <button class="net-fbtn on" data-type="text" onclick="netToggle('text',this)">Texts</button>
+        <button class="net-fbtn on" data-type="organism" onclick="netToggle('type','organism',this)">Observable Entities</button>
+        <button class="net-fbtn on" data-type="text" onclick="netToggle('type','text',this)">Texts</button>
       </div>
       <div class="net-filters">
         <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Edges:</span>
         <button class="net-fbtn on" data-edge="all" onclick="netFilter('edge','all',this)">All</button>
-        <button class="net-fbtn" data-edge="transfer" onclick="netFilter('edge','transfer',this)">Transfers</button>
         <button class="net-fbtn" data-edge="co-occurrence" onclick="netFilter('edge','co-occurrence',this)">Co-occurrence</button>
         <button class="net-fbtn" data-edge="mentions" onclick="netFilter('edge','mentions',this)">Mentions</button>
       </div>
@@ -419,7 +458,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <div class="net-legend-section">Nodes</div>
       <div><span class="dot" style="background:var(--person)"></span> Person</div>
       <div><span class="dot" style="background:var(--place)"></span> Place</div>
-      <div><span class="dot" style="background:var(--org)"></span> Organism</div>
+      <div><span class="dot" style="background:var(--org)"></span> Observable Entity</div>
       <div><span class="dot" style="background:var(--text-type)"></span> Text / Work</div>
       <div style="font-size:9px;color:var(--faded);margin-top:2px;padding-left:18px">Size = n° of letters</div>
     </div>
@@ -441,7 +480,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <div style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap;" class="tl-filter">
         <button class="fbtn on" onclick="setTlFilter('all',this)">All</button>
         <button class="fbtn" onclick="setTlFilter('person',this)">Persons</button>
-        <button class="fbtn" onclick="setTlFilter('organism',this)">Organisms</button>
+        <button class="fbtn" onclick="setTlFilter('organism',this)">Observable Entities</button>
         <button class="fbtn" onclick="setTlFilter('place',this)">Places</button>
         <button class="fbtn" onclick="setTlFilter('text',this)">Texts</button>
         <button class="fbtn" onclick="setTlFilter('transfer',this)">Transfers</button>
@@ -451,8 +490,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   </div>
 </div>
 
-<!-- ── MAPPA ── -->
-<div class="page" id="pg-mappa">
+<!-- ── map ── -->
+<div class="page" id="pg-map">
   <div id="map-wrap"><div id="map"></div></div>
 </div>
 
@@ -463,7 +502,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
     <p>Query the corpus knowledge graph directly in your browser using Comunica.</p>
     <div class="sparql-examples">
       <div class="sparql-ex" onclick="setQuery('persons')">All persons</div>
-      <div class="sparql-ex" onclick="setQuery('organisms')">Organisms with taxon</div>
+      <div class="sparql-ex" onclick="setQuery('organisms')">Observable Entities</div>
       <div class="sparql-ex" onclick="setQuery('places')">Reconciled places</div>
       <div class="sparql-ex" onclick="setQuery('texts')">Texts & Works</div>
       <div class="sparql-ex" onclick="setQuery('transfers')">Specimen transfers</div>
@@ -514,20 +553,20 @@ function showPage(id, btn) {
   if(id==='entita') initEntita();
   if(id==='network') initNetwork();
   if(id==='timeline') initTimeline();
-  if(id==='mappa') initMappa();
+  if(id==='map') initmap();
   if(id==='sparql') initSparql();
 }
 
 function initFromHash() {
   const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','network','timeline','mappa','sparql'];
+  const valid = ['home','letters','entita','network','timeline','map','sparql'];
   if(hash && valid.includes(hash)) showPage(hash);
   else initHome();
 }
 
 window.addEventListener('hashchange', () => {
   const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','network','timeline','mappa','sparql'];
+  const valid = ['home','letters','entita','network','timeline','map','sparql'];
   if(hash && valid.includes(hash)) showPage(hash);
 });
 
@@ -543,18 +582,17 @@ async function initHome() {
     loadData('letters','data/letters.json'),
     loadData('entities','data/entities.json')
   ]);
-  const validEntities = entities.filter(e => !(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')));
-  const persons = validEntities.filter(e=>e.type==='person').length;
-  const orgs = validEntities.filter(e=>e.type==='organism').length;
-  const places = validEntities.filter(e=>e.type==='place').length;
-  const texts = validEntities.filter(e=>e.type==='text').length;
+  const persons = entities.filter(e=>e.type==='person').length;
+  const orgs = entities.filter(e=>e.type==='organism').length;
+  const places = entities.filter(e=>e.type==='place').length;
+  const texts = entities.filter(e=>e.type==='text').length;
   document.getElementById('home-stats').innerHTML = `
     <div class="stat"><div class="stat-n">${letters.length}</div><div class="stat-l">Letters</div></div>
     <div class="stat"><div class="stat-n">${persons}</div><div class="stat-l">Persons</div></div>
-    <div class="stat"><div class="stat-n">${orgs}</div><div class="stat-l">Organisms</div></div>
+    <div class="stat"><div class="stat-n">${orgs}</div><div class="stat-l">Observable Entities</div></div>
     <div class="stat"><div class="stat-n">${texts}</div><div class="stat-l">Texts & Works</div></div>`;
 
-  const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
+  const typeColors = {person:'var(--person)',place:'var(--place)', organism:'var(--org)',text:'var(--text-type)'};
   document.getElementById('home-letters').innerHTML = letters.map(l=>`
     <div class="letter-card" onclick="openLetter('${l.id}')">
       <div class="lc-id">${l.id}</div>
@@ -618,12 +656,8 @@ function filterLetterSidebar(val) {
 
 function renderLetterEntities(letterId){
   const c = document.getElementById('letter-entities-sidebar');
-  const entities = (DATA.entities||[]).filter(e => {
-    if(!e.letters?.includes(letterId)) return false;
-    if(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
-    return true;
-  });
-  const labels = {person:'Persons',place:'Places',organism:'Organisms',text:'Texts & Works'};
+  const entities = (DATA.entities||[]).filter(e => e.letters?.includes(letterId));
+  const labels = {person:'Persons',place:'Places',organism:'Observable Entities',text:'Texts & Works'};
   const types = ['person','place','organism','text'];
   let html = '<div class="le-header">Entities in this letter</div>';
   if(!entities.length){ c.innerHTML = html + '<div class="le-empty">No entities associated with this letter.</div>'; return; }
@@ -669,7 +703,6 @@ async function selectLetter(id) {
       if(!seg.entity) return escHtml(seg.text);
       const e = seg.entity;
       const cls = e.type || 'unknown';
-      if(e.entity_id?.includes('VAL_STAN_') || e.label?.startsWith('VAL_STAN_')) return escHtml(seg.text);
       return `<span class="ent ${cls}"
         data-entity-id="${escAttr(e.entity_id)}"
         data-entity-label="${escAttr(e.label)}"
@@ -720,14 +753,11 @@ function filterEnt(type, btn) {
 }
 
 function renderEntities() {
-  const entities = (DATA['entities'] || []).filter(e => {
-    if (e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')) return false;
-    return true;
-  });
+  const entities = DATA['entities'] || [];
 
   const q = (document.getElementById('ent-search')?.value||'').toLowerCase();
-  const colors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
-  const labels = {person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
+  const colors = {person:'var(--person)',place:'var(--place)', organism:'var(--org)',text:'var(--text-type)'};
+  const labels = {person:'Person',place:'Place',organism:'Observable entity',text:'Text / Work'};
 
   const filtered = entities.filter(e=>{
     if(entFilter!=='all' && e.type!==entFilter) return false;
@@ -736,7 +766,7 @@ function renderEntities() {
   });
 
   document.getElementById('ent-grid').innerHTML = filtered.map(e=>{
-    const catalogueLink = e.catalogue || e.opac || e.url;
+    const catalogueLink = e.catalog || e.catalogue || e.opac || e.url;
 
     const uris = [
       e.viaf && ('<a href="' + e.viaf + '" target="_blank">VIAF</a>'),
@@ -766,16 +796,16 @@ function renderEntities() {
 
 let netSim=null, netNodes=[], netEdges=[], netNodeSel=null, netLinkSel=null;
 let netTypeFilters=new Set(['person','place','organism','text']);
-let netEdgeFilters=new Set(['transfer','co-occurrence','mentions']);
+let netEdgeFilters=new Set(['co-occurrence','mentions']);
 let netLetterF='';
 const netColors={person:'#1c3a6e',place:'#7a3e18',organism:'#2a5c34',text:'#5e35b1',default:'#9a8a78'};
-const netTypeLabels={person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
+const netTypeLabels={person:'Person',place:'Place',organism:'Observable Entity',text:'Text / Work'};
 
 async function initNetwork() {
   if(networkBuilt) return;
   networkBuilt = true;
   const net = await loadData('network','data/network.json');
-  netNodes = net.nodes.filter(d => !(d.id.includes('VAL_STAN_') || d.label?.startsWith('VAL_STAN_')));
+  netNodes = net.nodes;
   netEdges = net.edges;
   buildNetwork();
 }
@@ -814,7 +844,6 @@ function buildNetwork() {
   netSim = sim;
 
   const linkColors = {
-    'transfer': {color:'var(--gold)', width:2, opacity:.8},
     'mentions': {color:'#2a5c34', width:1.5, opacity:.6},
     'co-occurrence':{color:'var(--line)', width:1, opacity:.4},
   };
@@ -859,7 +888,7 @@ function netToggle(dim, val, btn){
   else { filters.add(val); btn.classList.add('on'); }
   const allBtns = dim==='type'
     ? ['person','place','organism','text']
-    : ['transfer','co-occurrence','mentions'];
+    : ['co-occurrence','mentions'];
   const allBtn = btn.closest('.net-filters').querySelector('[data-'+dim+'="all"]');
   if(allBtn) allBtn.classList.toggle('on', allBtns.every(v=>filters.has(v)));
   buildNetwork();
@@ -869,13 +898,28 @@ function netToggleAll(dim, btn){
   const filters = dim==='type' ? netTypeFilters : netEdgeFilters;
   const allVals = dim==='type'
     ? ['person','place','organism','text']
-    : ['transfer','co-occurrence','mentions'];
+    : ['co-occurrence','mentions'];
   const allOn = btn.classList.contains('on');
   if(allOn){ filters.clear(); btn.classList.remove('on'); }
   else { allVals.forEach(v=>filters.add(v)); btn.classList.add('on'); }
   btn.closest('.net-filters').querySelectorAll('.net-fbtn:not([data-'+dim+'="all"])').forEach(b=>{
     b.classList.toggle('on', !allOn);
   });
+  buildNetwork();
+}
+
+function netFilter(dim, val, btn){
+  if(dim==='edge'){
+    if(val==='all'){
+      netEdgeFilters = new Set(['co-occurrence','mentions']);
+      btn.closest('.net-filters').querySelectorAll('.net-fbtn').forEach(b=>b.classList.remove('on'));
+      btn.classList.add('on');
+    } else {
+      netEdgeFilters = new Set([val]);
+      btn.closest('.net-filters').querySelectorAll('.net-fbtn').forEach(b=>b.classList.remove('on'));
+      btn.classList.add('on');
+    }
+  }
   buildNetwork();
 }
 
@@ -893,7 +937,7 @@ function showNetTooltip(ev,d){
     ent.wikidata&& `<a href="${ent.wikidata}" target="_blank">Wikidata</a>`,
     ent.gbif && `<a href="${ent.gbif}" target="_blank">GBIF</a>`,
     ent.geonames&& `<a href="${ent.geonames}" target="_blank">GeoNames</a>`,
-    ent.catalogue && `<a href="${ent.catalogue}" target="_blank">Catalogue</a>`
+    ent.catalog && `<a href="${ent.catalog}" target="_blank">Catalogue</a>`
   ].filter(Boolean).join(' · ');
 
   const lids = Array.isArray(d.letters) ? d.letters : [];
@@ -945,7 +989,7 @@ async function initTimeline() {
 
 function renderTimeline(){
   const letters = DATA['letters'] || [];
-  const entities = (DATA['entities'] || []).filter(e => !(e.id.includes('VAL_STAN_') || e.label.startsWith('VAL_STAN_')));
+  const entities = DATA['entities'] || [];
   const movements = DATA['movements']|| [];
   if(!letters.length || !entities.length){
     document.getElementById('tl-container').innerHTML = '<p style="color:var(--faded);font-size:12px">Loading data…</p>';
@@ -1003,7 +1047,7 @@ function renderTimeline(){
   document.getElementById('tl-container').innerHTML = html || '<p style="color:var(--faded);font-size:12px">No entries match the current filter.</p>';
 }
 
-async function initMappa() {
+async function initmap() {
   if(mapInstance) return;
   const [geo, movements] = await Promise.all([
     loadData('geo','data/geo.json'),
@@ -1015,7 +1059,6 @@ async function initMappa() {
   const geoIdx = {};
   geo.forEach(p=>{ if(p.lat&&p.lng) geoIdx[p.id]=p; });
 
-  // ── Luoghi: pallini gialli, dimensione = frequenza ──────────────
   const placesLayer = L.layerGroup();
   geo.filter(p=>p.lat&&p.lng).forEach(p=>{
     const n = p.letters.length;
@@ -1038,7 +1081,6 @@ async function initMappa() {
     placesLayer.addLayer(marker);
   });
 
-  // ── Movimenti: linee blu con popup lettere ────────────────────────
   const movLayer = L.layerGroup();
   const routeCount = {};
   movements.forEach(m=>{
@@ -1073,7 +1115,6 @@ async function initMappa() {
       <div>${letterTags}</div>
     `, {maxWidth:260});
     movLayer.addLayer(line);
-    // Freccia a metà
     const arrowIcon = L.divIcon({
       html:`<div style="color:#1c3a6e;font-size:10px;transform:rotate(${Math.atan2(tp.lat-fp.lat,tp.lng-fp.lng)*180/Math.PI}deg)">▶</div>`,
       className:'', iconSize:[12,12]
@@ -1088,47 +1129,55 @@ async function initMappa() {
 
 const SPARQL_EXAMPLES = {
   persons: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?person ?label WHERE {
   ?person a crm:E21_Person ;
-          <https://w3id.org/vallisnieri/label> ?label .
-} LIMIT 20`,
+          rdfs:label ?label .
+} LIMIT 50`,
   organisms: `PREFIX dsw: <http://purl.org/dsw/>
 PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?org ?label ?taxon WHERE {
-  ?org a dsw:IndividualOrganism ;
-       <https://w3id.org/vallisnieri/label> ?label ;
-       dsw:hasIdentification ?id .
-  ?id dwc:scientificName ?taxon .
-} LIMIT 20`,
+  ?org a dsw:Organism ;
+       rdfs:label ?label ;
+       <http://purl.org/dsw/hasIdentification> ?id .
+  OPTIONAL { ?id dwc:scientificName ?taxon }
+} LIMIT 50`,
   places: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-SELECT ?place ?label ?wikidata WHERE {
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?place ?label ?sameAs WHERE {
   ?place a crm:E53_Place ;
-         <https://w3id.org/vallisnieri/label> ?label .
-  OPTIONAL { ?place <https://w3id.org/vallisnieri/wikidataQID> ?wikidata }
-} LIMIT 20`,
+         rdfs:label ?label .
+  OPTIONAL { ?place owl:sameAs ?sameAs }
+} LIMIT 50`,
   texts: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?text ?label WHERE {
-  ?text a crm:E33_Linguistic_Object ;
-        <https://w3id.org/vallisnieri/label> ?label .
-} LIMIT 20`,
+  ?text a crm:E31_Document ;
+        rdfs:label ?label .
+  FILTER(!CONTAINS(STR(?text), "/letter/"))
+} LIMIT 50`,
   transfers: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-SELECT ?event ?from ?to ?object WHERE {
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?from ?to ?objectLabel WHERE {
   ?event a crm:E10_Transfer_of_Custody ;
-         <https://w3id.org/vallisnieri/surrenderedBy> ?fromNode ;
-         <https://w3id.org/vallisnieri/receivedBy> ?toNode ;
-         <https://w3id.org/vallisnieri/transferredCustody> ?obj .
-  ?fromNode <https://w3id.org/vallisnieri/label> ?from .
-  ?toNode <https://w3id.org/vallisnieri/label> ?to .
-  OPTIONAL { ?obj <https://w3id.org/vallisnieri/label> ?object }
-} LIMIT 20`,
+         crm:P28_custody_surrendered_by ?fromNode ;
+         crm:P29_custody_received_by ?toNode ;
+         crm:P30_transferred_custody_of ?obj .
+  ?fromNode rdfs:label ?from .
+  ?toNode rdfs:label ?to .
+  OPTIONAL { ?obj rdfs:label ?objectLabel }
+} LIMIT 50`,
   network: `PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-SELECT ?from ?to (COUNT(?letter) AS ?letters) WHERE {
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?fromLabel ?toLabel (COUNT(DISTINCT ?letter) AS ?letters) WHERE {
   ?letter a crm:E31_Document ;
-          <https://w3id.org/vallisnieri/documents> ?from, ?to .
-  ?from a crm:E21_Person .
-  ?to   a crm:E21_Person .
+          crm:P70_documents ?from , ?to .
+  ?from a crm:E21_Person ; rdfs:label ?fromLabel .
+  ?to   a crm:E21_Person ; rdfs:label ?toLabel .
   FILTER(?from != ?to)
-} GROUP BY ?from ?to ORDER BY DESC(?letters) LIMIT 20`
+} GROUP BY ?fromLabel ?toLabel ORDER BY DESC(?letters) LIMIT 20`
 };
 
 function setQuery(key) { document.getElementById('sparql-editor').value = SPARQL_EXAMPLES[key]||''; }
@@ -1261,7 +1310,7 @@ async function runSparql() {
 function openEntityPopup(e, id, label, type) {
   e.stopPropagation();
   const popup = document.getElementById('entity-popup');
-  const typeLabels = {person:'Person',place:'Place',organism:'Organism',text:'Text / Work'};
+  const typeLabels = {person:'Person',place:'Place',organism:'Observable Entity',text:'Text / Work'};
   const typeColors = {person:'var(--person)',place:'var(--place)',organism:'var(--org)',text:'var(--text-type)'};
 
   document.getElementById('ep-type').textContent = typeLabels[type]||type;
@@ -1280,7 +1329,7 @@ function openEntityPopup(e, id, label, type) {
       entity.wikidata && `<a href="${entity.wikidata}" target="_blank">Wikidata</a>`,
       entity.gbif && `<a href="${entity.gbif}" target="_blank">GBIF</a>`,
       entity.geonames && `<a href="${entity.geonames}" target="_blank">GeoNames</a>`,
-      entity.catalogue && `<a href="${entity.catalogue}" target="_blank">Catalogue</a>`,
+      entity.catalog && `<a href="${entity.catalog}" target="_blank">Catalogue</a>`,
       entity.url && type === 'text' && `<a href="${entity.url}" target="_blank">Resource</a>`
     ].filter(Boolean).join(' · ');
     if(uris) uriHtml += `<div style="margin-bottom:6px">${uris}</div>`;

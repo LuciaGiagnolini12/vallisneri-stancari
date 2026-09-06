@@ -1,0 +1,161 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_08 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[armata cesarea]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/armata_cesarea",
+        "label": "armata cesarea",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[armata cesarea]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_cesarea",
+        "label": "armata cesarea",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bassi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bassi",
+        "label": "Bassi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[donne]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/donne",
+        "label": "donne",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Francesi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/francesi_3",
+        "label": "Francesi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_008]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_008",
+        "label": "Lettera VAL_STAN_008",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Sbaraglia, Giovanni Girolamo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+        "label": "Sbaraglia, Giovanni Girolamo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_008",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

@@ -2,7 +2,16 @@
   "id": "VAL_STAN_019",
   "segments": [
     {
-      "text": "Tencarola villa del Padoano adì 5 ottobre 1707  \n\nIllustrissimo signor ",
+      "text": "Tencarola villa del Padoano",
+      "entity": {
+        "text": "Tencarola villa del Padoano",
+        "entity_id": "https://w3id.org/vallisnieri/place/tencarola_villa_del_padoano",
+        "type": "place",
+        "label": "Tencarola"
+      }
+    },
+    {
+      "text": " adì 5 ottobre 1707  \n\nIllustrissimo signor ",
       "entity": null
     },
     {
@@ -15,7 +24,20 @@
       }
     },
     {
-      "text": " mio signore riveritissimo  \n\nIo sono chiuso dalle acque per l’inondazione d’un fiume che ci circonda, onde qui ozioso cerco l’occasione di ingannare il tempo. Il bello si è che non ho carta, e pur le voglio scrivere alcune curiose notizie, che forse non saranno discare alla nostra Accademia di nobili curiosi. Ho avute da un dottissimo amico venuto poco fa da Costantinopoli una razza di piccolissimi ",
+      "text": " mio signore riveritissimo  \n\nIo sono chiuso dalle acque per l’inondazione d’un fiume che ci circonda, onde qui ozioso cerco l’occasione di ingannare il tempo. Il bello si è che non ho carta, e pur le voglio scrivere alcune curiose notizie, che forse non saranno discare alla nostra Accademia di nobili curiosi. Ho avute da un dottissimo amico venuto poco fa da ",
+      "entity": null
+    },
+    {
+      "text": "Costantinopoli",
+      "entity": {
+        "text": "Costantinopoli",
+        "entity_id": "https://w3id.org/vallisnieri/place/costantinopoli",
+        "type": "place",
+        "label": "Istanbul"
+      }
+    },
+    {
+      "text": " una razza di piccolissimi ",
       "entity": null
     },
     {
@@ -35,8 +57,8 @@
       "text": "gebelindi",
       "entity": {
         "text": "gebelindi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/gebelindi",
-        "type": "organism",
+        "entity_id": "https://w3id.org/vallisnieri/text/gebelindi",
+        "type": "text",
         "label": "gebelindi"
       }
     },
@@ -184,7 +206,20 @@
       }
     },
     {
-      "text": " crudo, mescolandone tanto seco quanto ne può imbevere, ch’è ordinariamente egual parte, e lo mescolano e lo agitano e lo dibattono tanto finattantocché si perda il corso e il lucido suo. Il bello è che lo fanno senza fuoco nè con tante scrupulose sublimazioni, come fanno i nostri chimici nella fabbrica del mercurio dolce, e m’asseriva il suddetto signore averne vedute tanto nell’ordinare il primo quanto il secondo nobilissime cure. Anche questo l’occultano come secreto, e abbenché sieno tenacissimi degli arcani loro, nulladimeno li manifestavano all’amico, stimandolo (come infatti era) dottissimo, per sentire il di lui parere e se sapesse modo di migliorarli. Non è però cosa tanto nuova nella medicina la prescrizione dell’arsenico anche crudo per bocca. Mi soviene che l’",
+      "text": " crudo, mescolandone tanto seco quanto ne può imbevere, ch’è ordinariamente egual parte, e lo mescolano e lo agitano e lo dibattono tanto finattantocché si perda il corso e il lucido suo. Il bello è che lo fanno senza fuoco nè con tante scrupulose sublimazioni, come fanno i nostri chimici nella fabbrica del ",
+      "entity": null
+    },
+    {
+      "text": "mercurio",
+      "entity": {
+        "text": "mercurio",
+        "entity_id": "https://w3id.org/vallisnieri/organism/mercurio",
+        "type": "organism",
+        "label": "mercurio"
+      }
+    },
+    {
+      "text": " dolce, e m’asseriva il suddetto signore averne vedute tanto nell’ordinare il primo quanto il secondo nobilissime cure. Anche questo l’occultano come secreto, e abbenché sieno tenacissimi degli arcani loro, nulladimeno li manifestavano all’amico, stimandolo (come infatti era) dottissimo, per sentire il di lui parere e se sapesse modo di migliorarli. Non è però cosa tanto nuova nella medicina la prescrizione dell’arsenico anche crudo per bocca. Mi soviene che l’",
       "entity": null
     },
     {
@@ -249,20 +284,33 @@
       }
     },
     {
-      "text": " del rame, che è un potentissimo veleno corrosivo unito all’arsenico e cavato dal medesimo, è quello che fa tutto il male, non il solo e semplice arsenico. Anzi, se non la repplicano più e più volte, è infruttuoso il di lei veleno, detergendo più tosto le prime vie, radendo e levando tutte le antiche ostruzioni e posature di fecce, ed i pazienti dopo vengono molto pingui e sanissimi.  \n\nColl’occasione che l’armata francese è stata nella mia patria, osservai con attenzione il loro modo di medicare, particolarmente negli ospitali, dove sono que’ cerusici e medici animosissimi e risoluti. Nelle febbri lunghe davano anch’essi a pazienti un poco d’arsenico, un preparato decotto in acqua semplice, e con felice successo. Alcuni però più scrupulosi e più cauti lo preparavano con sola acquavite e ne davano con maggior sicurezza in copia maggiore. Sicché concludiamo non essere tanto barbaro ed improbabile il modo turchesco di curar co’ veleni i loro infermi per lo più disperati di sanare per altra strada. E chi sa che la prima volta che sono stati trovati questi azzardati rimedi non sia stato il caso, credendo d’uccidere i pazienti, e li risanarono? Così accadette a quell’adultera ed infingarda donna che impaziente di veder morto il marito da un veleno datogli, repplicandone un altro di forze contrarie, lo richiamò alla primiera salute. In tutto però mi rimmetto alle di loro savie ponderazioni, contentandomi di narrare, non di riflettere sopra il narrato.  \n\nHo terminato il discorso sopra l’ovaja delle ",
+      "text": " del rame, che è un potentissimo veleno corrosivo unito all’arsenico e cavato dal medesimo, è quello che fa tutto il male, non il solo e semplice arsenico. Anzi, se non la repplicano più e più volte, è infruttuoso il di lei veleno, detergendo più tosto le prime vie, radendo e levando tutte le antiche ostruzioni e posature di fecce, ed i pazienti dopo vengono molto pingui e sanissimi.  \n\nColl’occasione che l’armata francese è stata nella mia patria, osservai con attenzione il loro modo di medicare, particolarmente negli ospitali, dove sono que’ cerusici e medici animosissimi e risoluti. Nelle febbri lunghe davano anch’essi a pazienti un poco d’arsenico, un preparato decotto in acqua semplice, e con felice successo. Alcuni però più scrupulosi e più cauti lo preparavano con sola acquavite e ne davano con maggior sicurezza in copia maggiore. Sicché concludiamo non essere tanto barbaro ed improbabile il modo turchesco di curar co’ veleni i loro infermi per lo più disperati di sanare per altra strada. E chi sa che la prima volta che sono stati trovati questi azzardati rimedi non sia stato il caso, credendo d’uccidere i pazienti, e li risanarono? Così accadette a quell’adultera ed infingarda donna che impaziente di veder morto il marito da un veleno datogli, repplicandone un altro di forze contrarie, lo richiamò alla primiera salute. In tutto però mi rimmetto alle di loro savie ponderazioni, contentandomi di narrare, non di riflettere sopra il narrato.  \n\nHo terminato il discorso sopra l’",
       "entity": null
     },
     {
-      "text": "anguille",
+      "text": "ovaja delle anguille",
       "entity": {
-        "text": "anguille",
-        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
-        "type": "organism",
-        "label": "anguilla"
+        "text": "ovaja delle anguille",
+        "entity_id": "https://w3id.org/vallisnieri/text/ovaja_delle_anguille",
+        "type": "text",
+        "label": "ovaja delle anguille"
       }
     },
     {
-      "text": ", e subito sarò a Padoa lo manderò a Venezia al nostro stimatissimo signor ",
+      "text": ", e subito sarò a ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " lo manderò a Venezia al nostro stimatissimo signor ",
       "entity": null
     },
     {
@@ -288,8 +336,17 @@
       }
     },
     {
-      "text": ", e suppongo l’abbia ricevuta. Io voleva veramente per essere troppo onerosa francarla, ma il postiglione mi disse che non hanno un tal commercio con que’ di Bologna, e non volle l’impegno. Compatisca dunque il tedio e la spesa, e incolpi la sua generosa benignità.  \n\nIntanto m’onori di qualche commando e creda che sono e sarò sempre di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri",
+      "text": ", e suppongo l’abbia ricevuta. Io voleva veramente per essere troppo onerosa francarla, ma il postiglione mi disse che non hanno un tal commercio con que’ di Bologna, e non volle l’impegno. Compatisca dunque il tedio e la spesa, e incolpi la sua generosa benignità.  \n\nIntanto m’onori di qualche commando e creda che sono e sarò sempre di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio ",
       "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

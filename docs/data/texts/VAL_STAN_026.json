@@ -2,29 +2,38 @@
   "id": "VAL_STAN_026",
   "segments": [
     {
-      "text": "Padoa 19 marzo 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo ricevuto le figure del ",
-      "entity": null
-    },
-    {
-      "text": "cervello petrificato",
+      "text": "Padoa",
       "entity": {
-        "text": "cervello petrificato",
-        "entity_id": "https://w3id.org/vallisnieri/organism/cervello_petrificato",
-        "type": "specimen",
-        "label": "cervello petrificato"
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
       }
     },
     {
-      "text": " del Museo ",
+      "text": " 19 marzo 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo ricevuto le ",
       "entity": null
     },
     {
-      "text": "Aldrovandi",
+      "text": "figure del cervello petrificato",
       "entity": {
-        "text": "Aldrovandi",
-        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
-        "type": "person",
-        "label": "Eustachio Manfredi"
+        "text": "figure del cervello petrificato",
+        "entity_id": "https://w3id.org/vallisnieri/text/cerveello_petrificato",
+        "type": "text",
+        "label": "figure del cervello petrificato"
+      }
+    },
+    {
+      "text": " del ",
+      "entity": null
+    },
+    {
+      "text": "Museo Aldrovandi",
+      "entity": {
+        "text": "Museo Aldrovandi",
+        "entity_id": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+        "type": "place",
+        "label": "Museum of Natural History (Bologna)"
       }
     },
     {
@@ -37,7 +46,7 @@
         "text": "Donelli",
         "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Giuseppe Donelli"
+        "label": "Donelli, Giuseppe"
       }
     },
     {
@@ -54,15 +63,41 @@
       }
     },
     {
-      "text": ". Sentirà un giorno i miei spropositi. Anzi dica al signor Donelli, riverendolo ben di cuore a nome mio, che coll’occasione che farà la giunta al libro dell’Aldrovandi io lo servirò dove si degnerà commandarmi, parendo a me d’avere nella storia della natura molte cosette non ancora ben’osservate, o malamente spiegate. Io avrei bisogno di venire a stare sei mesi in Bologna, che facessimo molte osservazioni, ma quell’uxorem duxi ruina tutti i miei disegni. È uscita finalmente la stampa dell’",
+      "text": ". Sentirà un giorno i miei spropositi. Anzi dica al signor ",
       "entity": null
     },
     {
-      "text": "anguilla",
+      "text": "Donelli",
       "entity": {
-        "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
-        "type": "organism",
+        "text": "Donelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "type": "person",
+        "label": "Donelli, Giuseppe"
+      }
+    },
+    {
+      "text": ", riverendolo ben di cuore a nome mio, che coll’occasione che farà la giunta al libro dell’",
+      "entity": null
+    },
+    {
+      "text": "Aldrovandi",
+      "entity": {
+        "text": "Aldrovandi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "type": "person",
+        "label": "Manfredi, Eustachio"
+      }
+    },
+    {
+      "text": " io lo servirò dove si degnerà commandarmi, parendo a me d’avere nella storia della natura molte cosette non ancora ben’osservate, o malamente spiegate. Io avrei bisogno di venire a stare sei mesi in Bologna, che facessimo molte osservazioni, ma quell’uxorem duxi ruina tutti i miei disegni. È uscita finalmente la ",
+      "entity": null
+    },
+    {
+      "text": "stampa dell’anguilla",
+      "entity": {
+        "text": "stampa dell’anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/text/stampa_dell_anguilla",
+        "type": "text",
         "label": "anguilla"
       }
     },
@@ -93,8 +128,17 @@
       }
     },
     {
-      "text": " etc.  \n\nL’abbraccio col cuore e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio Vallisnieri",
+      "text": " etc.  \n\nL’abbraccio col cuore e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio ",
       "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

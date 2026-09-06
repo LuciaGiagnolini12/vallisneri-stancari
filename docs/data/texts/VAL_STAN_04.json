@@ -1,0 +1,271 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_04 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Albrizzi, Girolamo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+        "label": "Albrizzi, Girolamo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[alga marina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/alga_marina",
+        "label": "alga marina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cestoni, Giacinto]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+        "label": "Cestoni, Giacinto",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/de_arcano_lenticulae_palustris_s",
+        "label": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[effigie d’un semprevivo di Monte Baldo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/effigie_d_un_semprevivo_di_monte_baldo",
+        "label": "effigie d’un semprevivo di Monte Baldo",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[generazione della pulce]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/generazione_della_pulce",
+        "label": "generazione della pulce",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/lenticola_palustre",
+        "label": "lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_004]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_004",
+        "label": "Lettera VAL_STAN_004",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Monte Baldo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/monte_baldo",
+        "label": "Monte Baldo",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pignolo affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pignolo_affricano",
+        "label": "pignolo affricano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pulce]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pulce",
+        "label": "pulce",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Quaranta Orsi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+        "label": "Quaranta Orsi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Saluti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/saluti_2",
+        "label": "Saluti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Santo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/santo",
+        "label": "Santo",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scartafaccio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/scartafaccio",
+        "label": "scartafaccio",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scoprimento nuovo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/scoprimento_nuovo",
+        "label": "scoprimento nuovo",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Seme della lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/seme_della_lenticola_palustre_3",
+        "label": "Seme della lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[seme dell’alga marina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/seme_dell_alga_marina",
+        "label": "seme dell’alga marina",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[seme saporitissimo di pignolo affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/seme_saporitissimo_di_pignolo_affricano",
+        "label": "seme saporitissimo di pignolo affricano",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semprevivo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semprevivo",
+        "label": "semprevivo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_004",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

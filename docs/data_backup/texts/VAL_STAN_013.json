@@ -1,0 +1,92 @@
+{
+  "id": "VAL_STAN_013",
+  "segments": [
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 21 aprile 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nCapitandomi una congiontura mando il mio ",
+      "entity": null
+    },
+    {
+      "text": "discorso sopra la lenticola palustre",
+      "entity": {
+        "text": "discorso sopra la lenticola palustre",
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_sopra_la_lenticola_palustre",
+        "type": "text",
+        "label": "discorso sopra la lenticola palustre"
+      }
+    },
+    {
+      "text": ", e uno darà a nome mio all’illustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Trionfetti",
+      "entity": {
+        "text": "Trionfetti",
+        "entity_id": "https://w3id.org/vallisnieri/person/trionfetti",
+        "type": "person",
+        "label": "Trionfetti, Lelio"
+      }
+    },
+    {
+      "text": ", l’altro per lei. Invio pure una curiosa invenzione di misurare la luce, che forse non ha altro di buono che il buon desiderio di misurarla, e servirà d’eccitamento a migliori ingegni. Il peggiore si è ch’essendo stato un cappuccino che l’ha tradotto ha fallato nell’espressiva de’ termini matematici e non so se l’originale in francese sia così. Ho scritto subito per sapere com’è questa cosa, poiché il signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini mio signore e padrone",
+      "entity": {
+        "text": "Guglielmini mio signore e padrone",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "type": "person",
+        "label": "Guglielmini, Domenico"
+      }
+    },
+    {
+      "text": " dice essere stato un bresciano, e non essere altrimenti componimento francese, ma un italiano sotto maschera di francese. Io so ch’è stato un cappuccino che mi ha consegnato il manoscritto, e forse saprò il tutto e l’avviserò.  \n\nVolevo mandarle il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " vivo ed altre cosette, ma il latore non può portarle. Intanto compatirà la bagatella mia della lenticola, che in quanto al lucimetro non me ne voglio prendere briga. Aspetto questo maggio il riveritissimo nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": ", e un’ora mi pare mill’anni di goderlo, poiché vogliamo provare il lucimetro e fare altri esperimenti.  \n\nI miei inchini a tutti cotesti virtuosissimi signori e stimatissimi colleghi, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    }
+  ]
+}

@@ -2,7 +2,16 @@
   "id": "VAL_STAN_022",
   "segments": [
     {
-      "text": "Padoa 5 dicembre 1707  \n\nIllustrissimo signore mio padrone colendissimo \n\nIl gentilissimo nostro signor ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 5 dicembre 1707  \n\nIllustrissimo signore mio padrone colendissimo \n\nIl gentilissimo nostro signor ",
       "entity": null
     },
     {
@@ -15,15 +24,15 @@
       }
     },
     {
-      "text": " m’ha date le leggi e l’indice dell’Accademia e m’ha detta l’impresa, onde l’avviso subito acciocché più non s’incommodi a mandarmi le suddette cose. Già avrà avuta un’altra mia con le regole di governare il ",
+      "text": " m’ha date le leggi e l’indice dell’Accademia e m’ha detta l’impresa, onde l’avviso subito acciocché più non s’incommodi a mandarmi le suddette cose. Già avrà avuta un’altra mia con le ",
       "entity": null
     },
     {
-      "text": "camaleonte",
+      "text": "regole di governare il camaleonte",
       "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
+        "text": "regole di governare il camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/text/regole_di_governare_il_camaleonte",
+        "type": "text",
         "label": "camaleonti"
       }
     },
@@ -36,12 +45,25 @@
       "entity": {
         "text": "gebelindi",
         "entity_id": "https://w3id.org/vallisnieri/organism/gebelindi",
-        "type": "specimen",
+        "type": "organism",
         "label": "gebelindi"
       }
     },
     {
-      "text": " e altre curiose notizie di robbe e rimedi constantinopolitani, le quali potrà partecipare in succinto all’Accademia, se stimerà bene. Ho avuto nuova dal signor Morgagni che ",
+      "text": " e altre curiose notizie di robbe e rimedi constantinopolitani, le quali potrà partecipare in succinto all’Accademia, se stimerà bene. Ho avuto nuova dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " che ",
       "entity": null
     },
     {
@@ -67,20 +89,7 @@
       }
     },
     {
-      "text": ", voglia ",
-      "entity": null
-    },
-    {
-      "text": "Iddio",
-      "entity": {
-        "text": "Iddio",
-        "entity_id": "https://w3id.org/vallisnieri/person/iddio",
-        "type": "person",
-        "label": "iddio"
-      }
-    },
-    {
-      "text": " sia stata gradita. Le dissi che avevo scritto qualche cosa sopra i mostri. Le mando l’estratto, e vi troverà forse qualche cosa di raro da riferire nell’Accademia. V’è l’uovo dentro l’altr’uovo, che pur conteneva una mola che non veduto esposto o dichiarato da alcuno, e vi sono altre cosette curiose. V’è insino il ",
+      "text": ", voglia Iddio sia stata gradita. Le dissi che avevo scritto qualche cosa sopra i mostri. Le mando l’estratto, e vi troverà forse qualche cosa di raro da riferire nell’Accademia. V’è l’uovo dentro l’altr’uovo, che pur conteneva una mola che non veduto esposto o dichiarato da alcuno, e vi sono altre cosette curiose. V’è insino il ",
       "entity": null
     },
     {
@@ -93,7 +102,46 @@
       }
     },
     {
-      "text": ".  \n\nMi perdoni del tedio. Aspetto nuova, che cosa fa il camaleonte. Il signor Morgagni è andato a Venezia.  \n\nL’abbraccio in fretta e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
+      "text": ".  \n\nMi perdoni del tedio. Aspetto nuova, che cosa fa il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": ". Il signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " è andato a Venezia.  \n\nL’abbraccio in fretta e resto al solito di ",
+      "entity": null
+    },
+    {
+      "text": "Vostra signoria illustrissima",
+      "entity": {
+        "text": "Vostra signoria illustrissima",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

@@ -1,0 +1,66 @@
+{
+  "id": "VAL_STAN_005",
+  "segments": [
+    {
+      "text": "Venezia",
+      "entity": {
+        "text": "Venezia",
+        "entity_id": "https://w3id.org/vallisnieri/place/venezia",
+        "type": "place",
+        "label": "Venice"
+      }
+    },
+    {
+      "text": " adì 13 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nCon l’occasione che sono in ",
+      "entity": null
+    },
+    {
+      "text": "Venezia",
+      "entity": {
+        "text": "Venezia",
+        "entity_id": "https://w3id.org/vallisnieri/place/venezia",
+        "type": "place",
+        "label": "Venice"
+      }
+    },
+    {
+      "text": ", ho ritrovato un libretto de’ miei ",
+      "entity": null
+    },
+    {
+      "text": "dialoghi",
+      "entity": {
+        "text": "dialoghi",
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+        "type": "text",
+        "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700. "
+      }
+    },
+    {
+      "text": ", il quale ho ardire d’indirizzare a vostra signoria illustrissima per mezzo del compitissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "marchese Bentivogli",
+      "entity": {
+        "text": "marchese Bentivogli",
+        "entity_id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+        "type": "person",
+        "label": "Bentivogli, Filippo"
+      }
+    },
+    {
+      "text": ". La prego a guardarlo con occhio tutto benigno, perché egli è uno de’ primi parti che uscirono dalla mia arditissima penna, isporcato poi anche da centinaia d’errori dalla negligentissima negligenza dell’avaro stampatore.  \n\nI miei soliti inchini, ed abbracciandola col cuore resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    }
+  ]
+}

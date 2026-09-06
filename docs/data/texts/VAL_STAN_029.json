@@ -2,7 +2,16 @@
   "id": "VAL_STAN_029",
   "segments": [
     {
-      "text": "Padoa 5 luglio 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nOh che rabbia ebbi l’altro giorno, quando passò il nostro stimatissimo signor conte Marsigli, che domandò di mia persona, ed ero quella matina a desinare col signor ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 5 luglio 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nOh che rabbia ebbi l’altro giorno, quando passò il nostro stimatissimo signor conte Marsigli, che domandò di mia persona, ed ero quella matina a desinare col signor ",
       "entity": null
     },
     {
@@ -15,7 +24,20 @@
       }
     },
     {
-      "text": " nobile veneto, e non potei vederlo. Ora gli scrivo, e mando a vostra signoria illustrissima la lettera acciocché subito gliela faccia recapitare, rallegrandomi e con lui, e con la patria, e con vostra signoria illustrissima, e meco stesso d’un tanto acquisto. Oh adesso sì che fiorirà la «Galleria», e la soda e buona letteratura! Le scrissi un’altra, e non ebbi risposta. Non ho mai potuto fornire il mio discorso de’ cervelli impietriti per le visite di molto infermi premurosissime, fra quali v’era il ",
+      "text": " nobile veneto, e non potei vederlo. Ora gli scrivo, e mando a vostra signoria illustrissima la lettera acciocché subito gliela faccia recapitare, rallegrandomi e con lui, e con la patria, e con vostra signoria illustrissima, e meco stesso d’un tanto acquisto. Oh adesso sì che fiorirà la «",
+      "entity": null
+    },
+    {
+      "text": "Galleria",
+      "entity": {
+        "text": "Galleria",
+        "entity_id": "https://w3id.org/vallisnieri/text/galleria",
+        "type": "text",
+        "label": "Galleria"
+      }
+    },
+    {
+      "text": "», e la soda e buona letteratura! Le scrissi un’altra, e non ebbi risposta. Non ho mai potuto fornire il mio discorso de’ cervelli impietriti per le visite di molto infermi premurosissime, fra quali v’era il ",
       "entity": null
     },
     {
@@ -28,20 +50,7 @@
       }
     },
     {
-      "text": ", che medicavo insieme con il ",
-      "entity": null
-    },
-    {
-      "text": "Casale",
-      "entity": {
-        "text": "Casale",
-        "entity_id": "https://w3id.org/vallisnieri/person/casale",
-        "type": "person",
-        "label": "casale"
-      }
-    },
-    {
-      "text": ", ",
+      "text": ", che medicavo insieme con il Casale, ",
       "entity": null
     },
     {
@@ -54,20 +63,7 @@
       }
     },
     {
-      "text": ", ",
-      "entity": null
-    },
-    {
-      "text": "Formica",
-      "entity": {
-        "text": "Formica",
-        "entity_id": "https://w3id.org/vallisnieri/person/formica",
-        "type": "person",
-        "label": "formica"
-      }
-    },
-    {
-      "text": " suo medico, e si sente anche il parere del ",
+      "text": ", Formica suo medico, e si sente anche il parere del ",
       "entity": null
     },
     {
@@ -106,7 +102,33 @@
       }
     },
     {
-      "text": " è per partirsi per Venezia, essendo stato ad onorare Padoa. Adì 6 ricevo la sua gentilissima. Il mio figlio sta bene, ed oggi che ha compito un mese si battezzerà e sarà un di lei servitore, come son io. Mi rallegro della descrizione de’ semi de ",
+      "text": " è per partirsi per ",
+      "entity": null
+    },
+    {
+      "text": "Venezia",
+      "entity": {
+        "text": "Venezia",
+        "entity_id": "https://w3id.org/vallisnieri/place/venezia",
+        "type": "place",
+        "label": "Venice"
+      }
+    },
+    {
+      "text": ", essendo stato ad onorare ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ". Adì 6 ricevo la sua gentilissima. Il mio figlio sta bene, ed oggi che ha compito un mese si battezzerà e sarà un di lei servitore, come son io. Mi rallegro della descrizione de’ semi de ",
       "entity": null
     },
     {
@@ -119,34 +141,30 @@
       }
     },
     {
-      "text": " che va facendo, e dirà sempre più vostra signoria illustrissima degli altri, e illuminerà i ciechi se così seguiterà il buon gusto, addio nascimenti spontanei. La ringrazio del gradimento della mia lettera sopra la ",
+      "text": " che va facendo, e dirà sempre più vostra signoria illustrissima degli altri, e illuminerà i ciechi se così seguiterà il buon gusto, addio nascimenti spontanei. La ringrazio del gradimento della mia ",
       "entity": null
     },
     {
-      "text": "pioggia de’ sassi",
+      "text": "lettera sopra la pioggia de’ sassi",
       "entity": {
-        "text": "pioggia de’ sassi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/pioggia_de_sassi",
-        "type": "organism",
-        "label": "pioggia de’ sassi"
+        "text": "lettera sopra la pioggia de’ sassi",
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_lettera_pioggia_sass",
+        "type": "text",
+        "label": "lettera sopra la pioggia de’ sassi"
       }
     },
     {
-      "text": ", ed altre credute prodigiose. Io le stimo, come ha letto, scherzi della natura. Se tocco il punto, godo, se no, la prego avvisarmi per carità. La prego a mandare l’inclusa al nostro ",
+      "text": ", ed altre credute prodigiose. Io le stimo, come ha letto, scherzi della natura. Se tocco il punto, godo, se no, la prego avvisarmi per carità. La prego a mandare l’inclusa al nostro conte Luigi, che una volta trionferà sopra i suoi emoli. \n\nL’abraccio in fretta, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
       "entity": null
     },
     {
-      "text": "conte Luigi",
+      "text": "Vallisnieri",
       "entity": {
-        "text": "conte Luigi",
-        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
         "type": "person",
-        "label": "Marsili, Luigi Ferdinando"
+        "label": "Vallisneri, Antonio"
       }
-    },
-    {
-      "text": ", che una volta trionferà sopra i suoi emoli. \n\nL’abraccio in fretta, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
-      "entity": null
     }
   ]
 }

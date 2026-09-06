@@ -1,0 +1,222 @@
+{
+  "id": "VAL_STAN_012",
+  "segments": [
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 24 marzo 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nHa ecceduto la benignità di ",
+      "entity": null
+    },
+    {
+      "text": "Vostra Signoria",
+      "entity": {
+        "text": "Vostra Signoria",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " illustrissima e di cotesti virtuosissimi signori in farmi l’onore d’ascrivermi nella loro rinomata Accademia. Le rendo quante grazie so, e posso, e lascierò fare alla di lei eloquenza ad esprimere in termini i più vivi e i più espressivi gli ossequiosi sentimenti della mia gratitudine. Se altre volte hanno avuta la bontà di compatire le debolezze mie, benché mezzo selvatiche e forestiere, spero che maggiormente le compatiranno per l’avvenire, considerandole come dimestiche e come concitadine, protegendole ed illustrandole e creando in esse quel merito per genio che non possono aver per natura.  \n\nGodo che abbiano subito scoperti quegli avvelenati fori nell’aculeo dello ",
+      "entity": null
+    },
+    {
+      "text": "scorpione affricano",
+      "entity": {
+        "text": "scorpione affricano",
+        "entity_id": "https://w3id.org/vallisnieri/organism/scorpione_affricano",
+        "type": "organism",
+        "label": "scorpione affricano"
+      }
+    },
+    {
+      "text": ", e credo saranno anche in quello de’ nostri. M’è venuto un nido delle ",
+      "entity": null
+    },
+    {
+      "text": "rondini della Coccincina",
+      "entity": {
+        "text": "rondini della Coccincina",
+        "entity_id": "https://w3id.org/vallisnieri/organism/salangana",
+        "type": "organism",
+        "label": "Salangana"
+      }
+    },
+    {
+      "text": " descritto e disegnato dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Redi",
+      "entity": {
+        "text": "Redi",
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "type": "person",
+        "label": "Redi, Francesco"
+      }
+    },
+    {
+      "text": " nella sua ",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " al padre Kircher, siccome m’è venuto un ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " vivo. Ho disegnato mandare sotto l’esame dell’Accademia nostra una parte dell’uno e tutto l’altro, acciocché ne facciamo la notomia e veggano d’incontrare quanto io osservai che potrà ricavare dall’argomento della mia istoria sopra il suddetto che le mandai. Ho già parlato questa matina all’illustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "type": "person",
+        "label": "Guglielmini, Domenico"
+      }
+    },
+    {
+      "text": ", acciocché se capita qualche bolognese m’avvisi, siccome l’ho scritto al nostro stimabilissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": ".  \n\nL’amico mio chimico adesso è a Vicenza, onde subito venuto gliene farò fare la prova. A me fu dato in ",
+      "entity": null
+    },
+    {
+      "text": "Livorno",
+      "entity": {
+        "text": "Livorno",
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "type": "place",
+        "label": "Livorno"
+      }
+    },
+    {
+      "text": " per tale, e con una semplice lente si veggono particelle lucide fra le rosse che rassomigliano al ",
+      "entity": null
+    },
+    {
+      "text": "mercurio",
+      "entity": {
+        "text": "mercurio",
+        "entity_id": "https://w3id.org/vallisnieri/organism/q42038",
+        "type": "organism",
+        "label": "zolfo"
+      }
+    },
+    {
+      "text": ", ma il fuoco è quell’analista fedele che lo dimostra. Aspetterò un poco della ",
+      "entity": null
+    },
+    {
+      "text": "minera del mercurio d’Ungheria",
+      "entity": {
+        "text": "minera del mercurio d’Ungheria",
+        "entity_id": "https://w3id.org/vallisnieri/organism/minera_mercurio",
+        "type": "place",
+        "label": "Miniera di mercurio di Idra"
+      }
+    },
+    {
+      "text": " e le altre cose che mi accenna, e se le capita congiontura invii la scatola al signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " o all’eccellentissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Marchese Filippo Bentivogli",
+      "entity": {
+        "text": "Marchese Filippo Bentivogli",
+        "entity_id": "https://w3id.org/vallisnieri/person/bentivogli_filippo",
+        "type": "person",
+        "label": "Bentivogli, Filippo"
+      }
+    },
+    {
+      "text": ", da quali subito l’avrò. Ho dati agli amici eruditi il frontespicio del libro dell’illustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Manfredi",
+      "entity": {
+        "text": "Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "type": "person",
+        "label": "Manfredi, Eustachio"
+      }
+    },
+    {
+      "text": ", a cui si contenterà di portare gli umilissimi miei rispetti, come al di lui signor fratello ed altri nostri amici e padroni. \n\nPer la suddetta occasione che spero capiterà manderò il lucimetro ed altre mie bagatelle, e facendole devotissima riverenza, come a tutti i nostri riveriti accademici, resto al solito di ",
+      "entity": null
+    },
+    {
+      "text": "Vostra Signoria",
+      "entity": {
+        "text": "Vostra Signoria",
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "type": "person",
+        "label": "Stancari, Vittorio Francesco"
+      }
+    },
+    {
+      "text": " illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    }
+  ]
+}

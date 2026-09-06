@@ -1,0 +1,304 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_22 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cacatù]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cacatu",
+        "label": "cacatù",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso sopra l'ovaja dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_sopra_l_ovaja_dell_anguilla",
+        "label": "discorso sopra l'ovaja dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Estratto]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/estratto_4",
+        "label": "Estratto",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/gebelindi",
+        "label": "gebelindi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Iddio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/iddio",
+        "label": "Iddio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[indice dell'Accademia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/indice_dell_accademia",
+        "label": "indice dell'Accademia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Istanbul]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/costantinopoli",
+        "label": "Istanbul",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lancisi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/lancisi",
+        "label": "Lancisi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[leggi dell'Accademia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/leggi_dell_accademia",
+        "label": "leggi dell'Accademia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Leggi e l indice dell accademia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/leggi_e_l_indice_dell_accademia_1",
+        "label": "Leggi e l indice dell accademia",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_022]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_022",
+        "label": "Lettera VAL_STAN_022",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Martinelli]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "label": "Martinelli",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[regole di governare il camaleonte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/regole_di_governare_il_camaleonte",
+        "label": "regole di governare il camaleonte",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Semi di gebelindi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi_di_gebelindi_3",
+        "label": "Semi di gebelindi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[sperienze di cose portate dall’Indie]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/sperienze_di_cose_portate_dall_indie",
+        "label": "sperienze di cose portate dall’Indie",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tratatello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "label": "tratatello",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trevisan, Bernardo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+        "label": "Trevisan, Bernardo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_022",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vipere",
+        "label": "vipere",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

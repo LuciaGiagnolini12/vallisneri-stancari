@@ -2,7 +2,16 @@
   "id": "VAL_STAN_016",
   "segments": [
     {
-      "text": "Padoa 14 luglio 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nCon l’occasione dell’illustrissimo signor ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 14 luglio 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nCon l’occasione dell’illustrissimo signor ",
       "entity": null
     },
     {
@@ -15,7 +24,33 @@
       }
     },
     {
-      "text": ", mi prendo l’ardire di mandarle una scatola con dentro il lucimetro fattomi da un mio amico. Vostra signoria illustrissima lo tornerà a incastrare assieme, osservando i numeri che vi son dentro. Lo porrà nell’osservare sopra un’assicella lunga alquanto incavata acciocché stia eguale, e anderà levando o aggiugnendo in fine i vetri, finché vegga l’ultimo grado della luce languente. La supplico bene a farvi sopra riflessioni ed a parteciparmele con sincerità da par suo. Sentirà grandi opposizioni dell’acutissimo e dottissimo signor Guglielmini, dubbitando insino che l’opera sia d’un francese. E pure ieri l’altro ebbi lettera dall’",
+      "text": ", mi prendo l’ardire di mandarle una scatola con dentro il ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": " fattomi da un mio amico. Vostra signoria illustrissima lo tornerà a incastrare assieme, osservando i numeri che vi son dentro. Lo porrà nell’osservare sopra un’assicella lunga alquanto incavata acciocché stia eguale, e anderà levando o aggiugnendo in fine i vetri, finché vegga l’ultimo grado della luce languente. La supplico bene a farvi sopra riflessioni ed a parteciparmele con sincerità da par suo. Sentirà grandi opposizioni dell’acutissimo e dottissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "type": "person",
+        "label": "Guglielmini, Domenico"
+      }
+    },
+    {
+      "text": ", dubbitando insino che l’opera sia d’un francese. E pure ieri l’altro ebbi lettera dall’",
       "entity": null
     },
     {
@@ -28,7 +63,72 @@
       }
     },
     {
-      "text": " fratello che mi scrive aver nelle mani il libro francese consegnatogli dal cappuccino, che mi diede il manoscritto dello translattamento dell’opera (benché malamente) in toscano, dirò così, bastardo. Sabato sera parto per la patria e lo porterò meco a Padoa e correggerò gli abbagliamenti. Onde vostra signoria illustrissima, se vorrà onorarmi di risposta, può scrivere a Reggio.  \n\nLa prego bene, dopo che si sarà servita del lucimetro, tornarlo a consegnare all’illustrissimo signor Guglielmini, acciocché lo riporti a Padoa, poiché non ne ho altro. Un altro amico me lo fa adesso quadro, giusta le regole dell’autore, ma stimo sia per riuscire meglio il tondo. Con tal’occasione ho messe nella scatola varie bagatelle. Prima un pezzetto di nido delle ",
+      "text": " fratello che mi scrive aver nelle mani il libro francese consegnatogli dal cappuccino, che mi diede il manoscritto dello translattamento dell’opera (benché malamente) in toscano, dirò così, bastardo. Sabato sera parto per la patria e lo porterò meco a ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " e correggerò gli abbagliamenti. Onde vostra signoria illustrissima, se vorrà onorarmi di risposta, può scrivere a ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": ".  \n\nLa prego bene, dopo che si sarà servita del ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": ", tornarlo a consegnare all’illustrissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "type": "person",
+        "label": "Guglielmini, Domenico"
+      }
+    },
+    {
+      "text": ", acciocché lo riporti a ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", poiché non ne ho altro. Un altro amico me lo fa adesso quadro, giusta le regole dell’autore, ma stimo sia per riuscire meglio il tondo. Con tal’occasione ho messe nella scatola varie bagatelle. Prima un pezzetto di nido delle ",
       "entity": null
     },
     {
@@ -41,7 +141,20 @@
       }
     },
     {
-      "text": " della Coccincina descritto dal ",
+      "text": " della ",
+      "entity": null
+    },
+    {
+      "text": "Coccincina",
+      "entity": {
+        "text": "Coccincina",
+        "entity_id": "https://w3id.org/vallisnieri/place/coccincina",
+        "type": "place",
+        "label": "Coccincina"
+      }
+    },
+    {
+      "text": " descritto dal ",
       "entity": null
     },
     {
@@ -54,7 +167,20 @@
       }
     },
     {
-      "text": " nelle sue sperienze di cose portate dall’Indie, e potrà guardarlo co’ suoi nobili microscopii e scoprire la materia e la struttura. Secondo: un pezzetto di vera ",
+      "text": " nelle sue ",
+      "entity": null
+    },
+    {
+      "text": "sperienze di cose portate dall’Indie",
+      "entity": {
+        "text": "sperienze di cose portate dall’Indie",
+        "entity_id": "https://w3id.org/vallisnieri/text/sperienze_di_cose_portate_dall_indie",
+        "type": "text",
+        "label": "sperienze di cose portate dall’Indie"
+      }
+    },
+    {
+      "text": ", e potrà guardarlo co’ suoi nobili microscopii e scoprire la materia e la struttura. Secondo: un pezzetto di vera ",
       "entity": null
     },
     {
@@ -62,7 +188,7 @@
       "entity": {
         "text": "calamita bianca",
         "entity_id": "https://w3id.org/vallisnieri/organism/calamita_bianca",
-        "type": "specimen",
+        "type": "organism",
         "label": "calamita bianca"
       }
     },
@@ -75,12 +201,25 @@
       "entity": {
         "text": "conchette",
         "entity_id": "https://w3id.org/vallisnieri/organism/conchette",
-        "type": "specimen",
+        "type": "organism",
         "label": "conchette"
       }
     },
     {
-      "text": " che ho trovate dietro il mare Adriatico impietrite, dove sono molti scogli di simil sorta, dal che deduco che le conche o chiozzole impietrite che troviamo su’ monti non sono sempre impietrite dal tempo, ma s’impietrirono sino allora che il mare bagnava que’ monti. Quarto: legno, d’onde gemme la ",
+      "text": " che ho trovate dietro il mare ",
+      "entity": null
+    },
+    {
+      "text": "Adriatico",
+      "entity": {
+        "text": "Adriatico",
+        "entity_id": "https://w3id.org/vallisnieri/place/adriatico",
+        "type": "place",
+        "label": "Adriatico"
+      }
+    },
+    {
+      "text": " impietrite, dove sono molti scogli di simil sorta, dal che deduco che le conche o chiozzole impietrite che troviamo su’ monti non sono sempre impietrite dal tempo, ma s’impietrirono sino allora che il mare bagnava que’ monti. Quarto: legno, d’onde gemme la ",
       "entity": null
     },
     {
@@ -101,7 +240,7 @@
       "entity": {
         "text": "seme di cannella",
         "entity_id": "https://w3id.org/vallisnieri/organism/cannella",
-        "type": "specimen",
+        "type": "organism",
         "label": "seme di cannella"
       }
     },
@@ -127,7 +266,7 @@
       "entity": {
         "text": "pane del Congo",
         "entity_id": "https://w3id.org/vallisnieri/organism/pane_del_congo",
-        "type": "specimen",
+        "type": "organism",
         "label": "pane del Congo"
       }
     },
@@ -145,7 +284,46 @@
       }
     },
     {
-      "text": ", che non è che radice di cipparo odoroso spagnuolo. E perché nelle camere del serenissimo Prencipe di Toscana ne vidi in catini di majolica, che rendeva un odore soavissimo, procurai d’averne la ricetta, che feci tradurre subito dallo spagnuolo. Eccola.  \n\nLa cunzia deve lavarsi e nettarsi molto bene, e con il pistello s’ha da aprire sopra una pietra. Si metterà in un catino, infondendovi aceto fortissimo con un poco di lavanda e garoffoli in polvere, che però abbiano dato un bollo, gettandovelo sopra così caldo e coprendo il catino, acciocché non esca il fumo. Dopo raffreddato si piglia buccaro del più odoroso e ben pesto (buccaro è una terra odorosa delle Indie, della quale ne aspetto 24 vasi da Genoa) gettandovelo poco a poco di sopra, mescolando l’aceto e facendo strato sino che si tinga. Nella medesima maniera si ha da mettere beni[..]na (forse belzoino), confezione d’ambra, muschio e zibetto, cioè del primo dramma 1, della seconda dramme 5, del terzo dramme 2, del quarto dramma 1, alle quali cose s’aggiungono dramme 2 di polviglio, ",
+      "text": ", che non è che radice di cipparo odoroso spagnuolo. E perché nelle camere del serenissimo Prencipe di ",
+      "entity": null
+    },
+    {
+      "text": "Toscana",
+      "entity": {
+        "text": "Toscana",
+        "entity_id": "https://w3id.org/vallisnieri/place/toscana",
+        "type": "place",
+        "label": "Toscana"
+      }
+    },
+    {
+      "text": " ne vidi in catini di majolica, che rendeva un odore soavissimo, procurai d’averne la ricetta, che feci tradurre subito dallo spagnuolo. Eccola.  \n\nLa cunzia deve lavarsi e nettarsi molto bene, e con il pistello s’ha da aprire sopra una pietra. Si metterà in un catino, infondendovi aceto fortissimo con un poco di lavanda e garoffoli in polvere, che però abbiano dato un bollo, gettandovelo sopra così caldo e coprendo il catino, acciocché non esca il fumo. Dopo raffreddato si piglia buccaro del più odoroso e ben pesto (buccaro è una terra odorosa delle ",
+      "entity": null
+    },
+    {
+      "text": "Indie",
+      "entity": {
+        "text": "Indie",
+        "entity_id": "https://w3id.org/vallisnieri/place/indie",
+        "type": "place",
+        "label": "Indie"
+      }
+    },
+    {
+      "text": ", della quale ne aspetto 24 vasi da ",
+      "entity": null
+    },
+    {
+      "text": "Genoa",
+      "entity": {
+        "text": "Genoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "type": "place",
+        "label": "Genoa"
+      }
+    },
+    {
+      "text": ") gettandovelo poco a poco di sopra, mescolando l’aceto e facendo strato sino che si tinga. Nella medesima maniera si ha da mettere beni[..]na (forse belzoino), confezione d’ambra, muschio e zibetto, cioè del primo dramma 1, della seconda dramme 5, del terzo dramme 2, del quarto dramma 1, alle quali cose s’aggiungono dramme 2 di polviglio, ",
       "entity": null
     },
     {
@@ -153,7 +331,7 @@
       "entity": {
         "text": "noce moscata",
         "entity_id": "https://w3id.org/vallisnieri/organism/noce_moscata",
-        "type": "specimen",
+        "type": "organism",
         "label": "noce moscata"
       }
     },
@@ -166,7 +344,7 @@
       "entity": {
         "text": "calamo aromatico",
         "entity_id": "https://w3id.org/vallisnieri/organism/calamo_aromatico",
-        "type": "specimen",
+        "type": "organism",
         "label": "calamo aromatico"
       }
     },
@@ -179,8 +357,8 @@
       "entity": {
         "text": "zenzaro",
         "entity_id": "https://w3id.org/vallisnieri/organism/zenzaro",
-        "type": "specimen",
-        "label": "zenzero"
+        "type": "organism",
+        "label": "zenzaro"
       }
     },
     {
@@ -192,7 +370,7 @@
       "entity": {
         "text": "rose",
         "entity_id": "https://w3id.org/vallisnieri/organism/rose",
-        "type": "specimen",
+        "type": "organism",
         "label": "rose"
       }
     },
@@ -205,7 +383,7 @@
       "entity": {
         "text": "fiori d’arancio",
         "entity_id": "https://w3id.org/vallisnieri/organism/fiori_d_arancio",
-        "type": "specimen",
+        "type": "organism",
         "label": "fiori d’arancio"
       }
     },
@@ -218,7 +396,7 @@
       "entity": {
         "text": "violette",
         "entity_id": "https://w3id.org/vallisnieri/organism/violette",
-        "type": "specimen",
+        "type": "organism",
         "label": "violette"
       }
     },
@@ -262,7 +440,20 @@
       }
     },
     {
-      "text": " avea descritta quest’ovaja, ma né in Padoa né in Venezia si è trovato questo libro, per diligenze anche colà fatte dal nostro gentilissimo signor ",
+      "text": " avea descritta quest’ovaja, ma né in ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " né in Venezia si è trovato questo libro, per diligenze anche colà fatte dal nostro gentilissimo signor ",
       "entity": null
     },
     {
@@ -288,7 +479,20 @@
       }
     },
     {
-      "text": " ha pur fatto un libro sopra le anguille, intitolato “Helena Cenarum”, ma io non l’ho potuto vedere, abbenchè mi dicano non ne discorrere. Così ",
+      "text": " ha pur fatto un libro sopra le anguille, intitolato “",
+      "entity": null
+    },
+    {
+      "text": "Helena Cenarum",
+      "entity": {
+        "text": "Helena Cenarum",
+        "entity_id": "https://w3id.org/vallisnieri/text/helena_cenarum",
+        "type": "text",
+        "label": "Helena Cenarum"
+      }
+    },
+    {
+      "text": "”, ma io non l’ho potuto vedere, abbenchè mi dicano non ne discorrere. Così ",
       "entity": null
     },
     {
@@ -301,7 +505,33 @@
       }
     },
     {
-      "text": ". Vede la nostra italiana infelicità in non potere aver libri. Caso avesse notizia di questi o d’altri che avessero fatta questa scoperta, m’avvisi, per non far io la fatica indarno. Mi fa animo però il signor Morgagni a farla, supponendola cosa novissima. \n\nHo trovato nel Levenoech le figure spropositate e false d’una supposta da lui ovaja delle anguille, dove suppone gli anguillini, non le uova, ma queste sono vesciche, che si truovano sovente piene di ",
+      "text": ". Vede la nostra italiana infelicità in non potere aver libri. Caso avesse notizia di questi o d’altri che avessero fatta questa scoperta, m’avvisi, per non far io la fatica indarno. Mi fa animo però il signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " a farla, supponendola cosa novissima. \n\nHo trovato nel ",
+      "entity": null
+    },
+    {
+      "text": "Levenoech",
+      "entity": {
+        "text": "Levenoech",
+        "entity_id": "https://w3id.org/vallisnieri/text/levenoech",
+        "type": "text",
+        "label": "Levenoech"
+      }
+    },
+    {
+      "text": " le figure spropositate e false d’una supposta da lui ovaja delle anguille, dove suppone gli anguillini, non le uova, ma queste sono vesciche, che si truovano sovente piene di ",
       "entity": null
     },
     {
@@ -314,7 +544,20 @@
       }
     },
     {
-      "text": ", non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla moglie del signor Guglielmini.",
+      "text": ", non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla moglie del signor ",
+      "entity": null
+    },
+    {
+      "text": "Guglielmini",
+      "entity": {
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "type": "person",
+        "label": "Guglielmini, Domenico"
+      }
+    },
+    {
+      "text": ".",
       "entity": null
     }
   ]

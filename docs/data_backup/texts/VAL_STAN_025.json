@@ -1,0 +1,373 @@
+{
+  "id": "VAL_STAN_025",
+  "segments": [
+    {
+      "text": "Padoa 6 marzo 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nGià il nostro gentilissimo signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " è in Padoa, e m’avea avvisato della felice dimora che vostra signoria illustrissima ha fatta con quel dottissimo prelato, il quale sarà certamente di buon gusto, se gode conversare co’ pari suoi. Vorrei ben’avere qualche cosa degna di lei, e di lui, ma sa che il mio museo è nascente, è povero, anzi miserabile. Sono dietro adesso a comprare tutte le cose naturali d’un museo di Venezia, onde potrei dargli una buona cresciuta, se vi saranno cose doppie le manderò, se no mi scriverà già il nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Marsiglio",
+      "entity": {
+        "text": "Marsiglio",
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "type": "person",
+        "label": "Marsili, Luigi Ferdinando"
+      }
+    },
+    {
+      "text": " che non occorre parlarne. Se gradisce un ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "specimen",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " secco, uno ",
+      "entity": null
+    },
+    {
+      "text": "scorpione d’Affrica",
+      "entity": {
+        "text": "scorpione d’Affrica",
+        "entity_id": "https://w3id.org/vallisnieri/organism/scorpione_d_affrica",
+        "type": "specimen",
+        "label": "scorpione d’Affrica"
+      }
+    },
+    {
+      "text": " e ",
+      "entity": null
+    },
+    {
+      "text": "gioie d’Elba",
+      "entity": {
+        "text": "gioie d’Elba",
+        "entity_id": "https://w3id.org/vallisnieri/organism/gioie_d_elba",
+        "type": "organism",
+        "label": "gioie d’Elba"
+      }
+    },
+    {
+      "text": ", lo servirò, per altro ella già vide le mie miserie. M’avvisi nulladimeno cosa potrebbe gradire, che la servirò, come ho detto, e senza cerimonie. Aspetterò il ritratto del ",
+      "entity": null
+    },
+    {
+      "text": "cervello petrificato",
+      "entity": {
+        "text": "cervello petrificato",
+        "entity_id": "https://w3id.org/vallisnieri/organism/cervello_petrificato",
+        "type": "organism",
+        "label": "cervello petrificato"
+      }
+    },
+    {
+      "text": ", e questa Pasqua manderò l’estratto delle mie osservazioni sopra di questi imaginati cervelli.  \n\nCompatiranno le mie osservazioni sopra la lenticola, e a proposito di questa, io non ho più copia alcuna della ",
+      "entity": null
+    },
+    {
+      "text": "disertazione stampata",
+      "entity": {
+        "text": "disertazione stampata",
+        "entity_id": "https://w3id.org/vallisnieri/text/disertazione_stampata",
+        "type": "text",
+        "label": "disertazione stampata"
+      }
+    },
+    {
+      "text": ", poiché sino della ",
+      "entity": null
+    },
+    {
+      "text": "Germania",
+      "entity": {
+        "text": "Germania",
+        "entity_id": "https://w3id.org/vallisnieri/place/germania",
+        "type": "place",
+        "label": "Germania"
+      }
+    },
+    {
+      "text": " m’hanno scritto, e le ho tutte donate via. Bisogna che scriva all’eccellentissimo ",
+      "entity": null
+    },
+    {
+      "text": "Martinelli",
+      "entity": {
+        "text": "Martinelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/martinelli",
+        "type": "person",
+        "label": "Martinelli, signor"
+      }
+    },
+    {
+      "text": ", che forse ne avrà qualche copia. M’ha mandato ultimamente cinquanta copie delle figure, ma non v’è il discorso, onde se vuole di queste per ora la servirò. Anche da Roma ha scritto il signor ",
+      "entity": null
+    },
+    {
+      "text": "Trionfetti",
+      "entity": {
+        "text": "Trionfetti",
+        "entity_id": "https://w3id.org/vallisnieri/person/trionfetti",
+        "type": "person",
+        "label": "Trionfetti, Lelio"
+      }
+    },
+    {
+      "text": " a un mio amico che ne vorrebbe una copia, ed anche a quello ho data la medesima risposta. Si stampa in Venezia il discorso dell’",
+      "entity": null
+    },
+    {
+      "text": "anguilla",
+      "entity": {
+        "text": "anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
+        "type": "organism",
+        "label": "anguilla"
+      }
+    },
+    {
+      "text": ", e m’hanno servito benissimo nel rame, e il serenissimo ",
+      "entity": null
+    },
+    {
+      "text": "Prencipe di Toscana",
+      "entity": {
+        "text": "Prencipe di Toscana",
+        "entity_id": "https://w3id.org/vallisnieri/person/prencipe_di_toscana",
+        "type": "person",
+        "label": "Principe di Toscana"
+      }
+    },
+    {
+      "text": " n’ha subito voluto uno, poiché non lo credeva, dicendo che al ",
+      "entity": null
+    },
+    {
+      "text": "Redi",
+      "entity": {
+        "text": "Redi",
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "type": "person",
+        "label": "Redi, Francesco"
+      }
+    },
+    {
+      "text": " non era riuscito, ed è restato soddisfatto. \n\nCirca le osservazioni de’ fonti le manderò con un poco di tempo. Adesso ho le lezioni, questa Pasqua sarà destinata per fornire il ",
+      "entity": null
+    },
+    {
+      "text": "discorso de’ mentiti cervelli",
+      "entity": {
+        "text": "discorso de’ mentiti cervelli",
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_de_mentiti_cervelli",
+        "type": "text",
+        "label": "discorso de’ mentiti cervelli"
+      }
+    },
+    {
+      "text": ", tornano di maggio le lezioni, onde sino a questa e state non scriverò de’ fonti. Ho parlato col signor ",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "type": "person",
+        "label": "Hermann, Jakob"
+      }
+    },
+    {
+      "text": " circa quanto mi ha vostra signoria illustrissima ricercato. Il signor ",
+      "entity": null
+    },
+    {
+      "text": "Bernoulli",
+      "entity": {
+        "text": "Bernoulli",
+        "entity_id": "https://w3id.org/vallisnieri/person/bernoulli",
+        "type": "person",
+        "label": "Bernoulli, signor"
+      }
+    },
+    {
+      "text": " ha moglie e figlie. La moneta, che colà si spende con avantaggio, sono gli scudi di Francia, o i luigi di Francia. Le cose di cotesti Paesi colà gradite saranno guanti di Roma, calcetti di seta, fazzoletti di seta, tabacco bolognese, zendali di Firenza e simili.  \n\nEcco un catalogo de’ ",
+      "entity": null
+    },
+    {
+      "text": "libri",
+      "entity": {
+        "text": "libri",
+        "entity_id": "https://w3id.org/vallisnieri/text/libri",
+        "type": "text",
+        "label": "libri"
+      }
+    },
+    {
+      "text": " del Seminario, ma del prezzo me l’hanno imbrogliata col dirmi ch’è vario, e che faranno tutti i prezzi. Dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " intenderà i motivi, perché m’ha mandato cose sue all’Accademia. Godo che il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "specimen",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " stia bene. Intanto ebbi nuova che la nave che ne portava degli altri si è naufragata, onde se lo tenga sempre più caro. Il signor ",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "type": "person",
+        "label": "Hermann, Jakob"
+      }
+    },
+    {
+      "text": ", il signor abbate ",
+      "entity": null
+    },
+    {
+      "text": "Fardella",
+      "entity": {
+        "text": "Fardella",
+        "entity_id": "https://w3id.org/vallisnieri/person/fardella",
+        "type": "person",
+        "label": "Fardella, signor"
+      }
+    },
+    {
+      "text": " ed il signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " la riveriscono con tutto lo spirito, ed io la prego ad inchinare il signor ",
+      "entity": null
+    },
+    {
+      "text": "Gabriele Manfredi",
+      "entity": {
+        "text": "Gabriele Manfredi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "type": "person",
+        "label": "Manfredi, Eustachio"
+      }
+    },
+    {
+      "text": ", risalutato pure dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "type": "person",
+        "label": "Hermann, Jakob"
+      }
+    },
+    {
+      "text": ", al quale ieri portai i suoi saluti, i quali furono da lui, come da me, graditissimi. Suppongo che saprà che il signor nostro Marsigli è in ",
+      "entity": null
+    },
+    {
+      "text": "Lione",
+      "entity": {
+        "text": "Lione",
+        "entity_id": "https://w3id.org/vallisnieri/place/lione",
+        "type": "place",
+        "label": "Lione"
+      }
+    },
+    {
+      "text": ", e m’ha mandato a salutare, ricercando se ho ancor data alle stampe la mia ",
+      "entity": null
+    },
+    {
+      "text": "opera degl’insetti",
+      "entity": {
+        "text": "opera degl’insetti",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera degl’insetti"
+      }
+    },
+    {
+      "text": ". Egli ha già in pronto l’",
+      "entity": null
+    },
+    {
+      "text": "istoria naturale del mare",
+      "entity": {
+        "text": "istoria naturale del mare",
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_naturale_del_mare",
+        "type": "text",
+        "label": "istoria naturale del mare"
+      }
+    },
+    {
+      "text": ", e quanto prima la darà alla luce sotto gli auspicii della società di ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": ". Vedremo qualche cosa d’ottimo gusto, ed io ne sono avidissimo.  \n\nL’abbraccio col cuore, e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
+      "entity": null
+    }
+  ]
+}

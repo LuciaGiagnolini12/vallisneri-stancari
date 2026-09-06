@@ -1,0 +1,249 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_06 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[caso d'un sudor di sangue]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/caso_d_un_sudor_di_sangue",
+        "label": "caso d'un sudor di sangue",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[caso d'una portentosa diabete]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/caso_d_una_portentosa_diabete",
+        "label": "caso d'una portentosa diabete",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+        "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Frate]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/frate",
+        "label": "Frate",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[insetti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/insetti",
+        "label": "insetti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_006]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_006",
+        "label": "Lettera VAL_STAN_006",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Milan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "label": "Milan",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[minerali]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q176957",
+        "label": "minerali",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Parti sali fossili]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/parti_sali_fossili_2",
+        "label": "Parti sali fossili",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesci]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesci",
+        "label": "pesci",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi",
+        "label": "semi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[terzana rabbiosa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/terzana_rabbiosa",
+        "label": "terzana rabbiosa",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_006",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Varie cose curiose]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/varie_cose_curiose_5",
+        "label": "Varie cose curiose",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[zolfo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q42038",
+        "label": "zolfo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

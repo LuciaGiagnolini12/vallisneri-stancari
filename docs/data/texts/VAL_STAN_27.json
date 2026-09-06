@@ -1,0 +1,337 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_27 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Aristotle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/aristotele",
+        "label": "Aristotle",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Basel]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/basilea",
+        "label": "Basel",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cervello petrificato]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cervello_petrificato_1",
+        "label": "Cervello petrificato",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[disertazione]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/disertazione_stampata",
+        "label": "disertazione",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Donelli, Giuseppe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "label": "Donelli, Giuseppe",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[echini con le spina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/echini",
+        "label": "echini con le spina",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[echini con le spina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/echini_spina",
+        "label": "echini con le spina",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Ferrara]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/ferrara",
+        "label": "Ferrara",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Hermann, Jakob]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "label": "Hermann, Jakob",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_027]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_027",
+        "label": "Lettera VAL_STAN_027",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Malpighi, Marcello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
+        "label": "Malpighi, Marcello",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Milan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "label": "Milan",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Monte Baldo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/monte_baldo",
+        "label": "Monte Baldo",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mosco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosco",
+        "label": "mosco",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[musco corolloide]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/musco_corolloide",
+        "label": "musco corolloide",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Naples]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/napoli",
+        "label": "Naples",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Parma]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/parma",
+        "label": "Parma",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[S. Giustina]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/s_giustina",
+        "label": "S. Giustina",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi del musco corolloide]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/semi_musco_corolloide",
+        "label": "semi del musco corolloide",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Semi del musco ordinario]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi_del_musco_ordinario_2",
+        "label": "Semi del musco ordinario",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Signor abbate fardella]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+        "label": "Signor abbate fardella",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Signor bernouli]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_bernouli",
+        "label": "Signor bernouli",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[sperienze dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/sperienze_anguilla",
+        "label": "sperienze dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_027",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

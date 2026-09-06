@@ -2,7 +2,16 @@
   "id": "VAL_STAN_020",
   "segments": [
     {
-      "text": "Padoa 29 ottobre 1707  \n\nModo di governare il ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 29 ottobre 1707  \n\nModo di governare il ",
       "entity": null
     },
     {
@@ -41,7 +50,20 @@
       }
     },
     {
-      "text": " a poco lontana da lui, che anche a quella suol gittare la lingua e berre. Lo possono anche conservare in una gabbia capace. La sera si chiuda nella sua scatola e si lasci dormire.  \n\nQuesto modo di governare il camaleonte fu fatto per l’estate. Ora cessa il motivo del troppo caldo del sole e del mangiare e berre così frequente. Bisogna adesso guardarlo dal freddo e dal troppo calore del fuoco, acciocché non si soffochi. Se avesse commoda una ",
+      "text": " a poco lontana da lui, che anche a quella suol gittare la lingua e berre. Lo possono anche conservare in una gabbia capace. La sera si chiuda nella sua scatola e si lasci dormire.  \n\nQuesto modo di governare il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " fu fatto per l’estate. Ora cessa il motivo del troppo caldo del sole e del mangiare e berre così frequente. Bisogna adesso guardarlo dal freddo e dal troppo calore del fuoco, acciocché non si soffochi. Se avesse commoda una ",
       "entity": null
     },
     {
@@ -80,20 +102,20 @@
       }
     },
     {
-      "text": ". Notino nel levare i polmoni dal suo ventre, per tutto il quale si estendono, che gettano certi ramicelli dentro delle toniche dell’addomine, ed io penso che portino l’aria alla circonferenza del corpo, ch’è piena di minutissimi canali simili a que’ della buccia dell’",
+      "text": ". Notino nel levare i polmoni dal suo ventre, per tutto il quale si estendono, che gettano certi ramicelli dentro delle toniche dell’addomine, ed io penso che portino l’aria alla circonferenza del corpo, ch’è piena di minutissimi canali simili a que’ della buccia dell’uovo, come osservano anche gli accademici di ",
       "entity": null
     },
     {
-      "text": "uovo",
+      "text": "Parigi",
       "entity": {
-        "text": "uovo",
-        "entity_id": "https://w3id.org/vallisnieri/organism/uova",
-        "type": "organism",
-        "label": "uova"
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
       }
     },
     {
-      "text": ", come osservano anche gli accademici di Parigi nel ",
+      "text": " nel ",
       "entity": null
     },
     {
@@ -106,7 +128,20 @@
       }
     },
     {
-      "text": ". \n\nIo penso che il camaleonte mandato sia maschio, il quale si è tale gli troveranno due membri genitali, come hanno le ",
+      "text": ". \n\nIo penso che il ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " mandato sia maschio, il quale si è tale gli troveranno due membri genitali, come hanno le ",
       "entity": null
     },
     {
@@ -128,11 +163,37 @@
         "text": "Valsalvi",
         "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
         "type": "person",
-        "label": "Valsalva Antonio Maria"
+        "label": "Valsalva, Antonio Maria"
       }
     },
     {
-      "text": " a cercare nel nostro camaleonte le orecchie e farne diligente osservazione, poiché sono difficilissime da ritrovare. Osservi pure quella struttura d’occhi particolare non concessa ad alcun altro animale, e troverà qualche cosa di particolare ne’ muscoli. Registri vostra signoria illustrissima tutto l’osservato, come nelle interne viscere, e me l’avvisi, che l’inserirò nel mio tratatello illustrandolo col loro nome. L’argomento che loro mandai servirà per un abbozzo delle mie grossolane osservazioni, che aspettano polimento e l’ultima mano dalla loro diligentissima diligenza. \n\nA.V.",
+      "text": " a cercare nel nostro ",
+      "entity": null
+    },
+    {
+      "text": "camaleonte",
+      "entity": {
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
+        "type": "organism",
+        "label": "camaleonti"
+      }
+    },
+    {
+      "text": " le orecchie e farne diligente osservazione, poiché sono difficilissime da ritrovare. Osservi pure quella struttura d’occhi particolare non concessa ad alcun altro animale, e troverà qualche cosa di particolare ne’ muscoli. Registri vostra signoria illustrissima tutto l’osservato, come nelle interne viscere, e me l’avvisi, che l’inserirò nel mio ",
+      "entity": null
+    },
+    {
+      "text": "tratatello",
+      "entity": {
+        "text": "tratatello",
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "type": "text",
+        "label": "tratatello"
+      }
+    },
+    {
+      "text": " illustrandolo col loro nome. L’argomento che loro mandai servirà per un abbozzo delle mie grossolane osservazioni, che aspettano polimento e l’ultima mano dalla loro diligentissima diligenza. \n\nA.V.",
       "entity": null
     }
   ]

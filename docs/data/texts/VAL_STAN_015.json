@@ -2,20 +2,7 @@
   "id": "VAL_STAN_015",
   "segments": [
     {
-      "text": "la matina del Corpus Domini 1707 \n\nIllustrissimo ",
-      "entity": null
-    },
-    {
-      "text": "signor mio padrone",
-      "entity": {
-        "text": "signor mio padrone",
-        "entity_id": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
-        "type": "person",
-        "label": "padronissimo"
-      }
-    },
-    {
-      "text": " colendissimo \n\nÈ tardata tanto l’occasione di mandare a vostra signoria illustrissima il ",
+      "text": "la matina del Corpus Domini 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ tardata tanto l’occasione di mandare a vostra signoria illustrissima il ",
       "entity": null
     },
     {
@@ -54,20 +41,46 @@
       }
     },
     {
-      "text": " e ad altri, nè mai m’hanno ritrovata occasione alcuna. Voglio però scrivere subito a Livorno acciocché veggano in tutti i modi di provedermene un altro, e invece di mandarlo a me lo mandino a Bologna a vostra signoria illustrissima. Così saremo fuora d’ogni pericolo, abbenché collochi anche questo in mani degnissime e virtuose.  \n\nMi rallegro ch’abbia scoperte alcune cose intorno a certa proprietà della forza elastica dell’aria. Così ogni giorno si va guadagnando terreno, finattantoché si arriverà una volta a stabilire qualche sistema più certo.  \n\nLe rendo vivissime grazie delle belle notizie datemi intorno al lucimetro, che fatto in due modi sinora riesce mirabilmente. Anche la maniera che propone vostra signoria illustrissima più breve riesce, e già l’abbiamo sperimentata, ma solamente troviamo imbarazzo in aggiungerli e levarli con prestezza al tubo, particolarmente quando uno da sè solo vuol fare l’osservazione, imperocché quando sono un poco lontani si fanno tanti incastri quanti vetri, onde riesce facile il cavarli o aggiugnerli giusta i gradi più e meno della luce.  \n\nDue lettere ho fatte (senza mio nome) ad instanza d’un grande per questo invito a Letterati d’Italia. Si sono poste alla critica di più d’uno, ma la prima non è stata piaciuta poiché era mordace e toccava particolarmente la mancanza in Italia di mecenati, che non dà braccio agli osservatori, come fanno i prencipi e ",
+      "text": " e ad altri, nè mai m’hanno ritrovata occasione alcuna. Voglio però scrivere subito a ",
       "entity": null
     },
     {
-      "text": "repubbliche ultramontane",
+      "text": "Livorno",
       "entity": {
-        "text": "repubbliche ultramontane",
-        "entity_id": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
-        "type": "person",
-        "label": "repubbliche ultramontane"
+        "text": "Livorno",
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "type": "place",
+        "label": "Livorno"
       }
     },
     {
-      "text": ". Qui non mancano gl’ingegni, mancano i protettori che spendano e diano braccio a far ciò che la disgrazia o povertà di molti non può fare da sè. Questa lettera però era stata approvata dal signor ",
+      "text": " acciocché veggano in tutti i modi di provedermene un altro, e invece di mandarlo a me lo mandino a Bologna a vostra signoria illustrissima. Così saremo fuora d’ogni pericolo, abbenché collochi anche questo in mani degnissime e virtuose.  \n\nMi rallegro ch’abbia scoperte alcune cose intorno a certa proprietà della forza elastica dell’aria. Così ogni giorno si va guadagnando terreno, finattantoché si arriverà una volta a stabilire qualche sistema più certo.  \n\nLe rendo vivissime grazie delle belle notizie datemi intorno al ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": ", che fatto in due modi sinora riesce mirabilmente. Anche la maniera che propone vostra signoria illustrissima più breve riesce, e già l’abbiamo sperimentata, ma solamente troviamo imbarazzo in aggiungerli e levarli con prestezza al tubo, particolarmente quando uno da sè solo vuol fare l’osservazione, imperocché quando sono un poco lontani si fanno tanti incastri quanti vetri, onde riesce facile il cavarli o aggiugnerli giusta i gradi più e meno della luce.  \n\nDue lettere ho fatte (senza mio nome) ad instanza d’un grande per questo ",
+      "entity": null
+    },
+    {
+      "text": "invito a Letterati d’Italia",
+      "entity": {
+        "text": "invito a Letterati d’Italia",
+        "entity_id": "https://w3id.org/vallisnieri/text/invito_a_letterati_d_italia",
+        "type": "text",
+        "label": "invito a Letterati d’Italia"
+      }
+    },
+    {
+      "text": ". Si sono poste alla critica di più d’uno, ma la prima non è stata piaciuta poiché era mordace e toccava particolarmente la mancanza in Italia di mecenati, che non dà braccio agli osservatori, come fanno i prencipi e repubbliche ultramontane. Qui non mancano gl’ingegni, mancano i protettori che spendano e diano braccio a far ciò che la disgrazia o povertà di molti non può fare da sè. Questa lettera però era stata approvata dal signor ",
       "entity": null
     },
     {
@@ -93,16 +106,68 @@
       }
     },
     {
-      "text": " e da altri grandi uomini, ma altri hanno confessato che è ciò pur troppo vero, ma però non bisogna dirlo, onde hanno voluto ch’io ne faccia un’altra in generale senza toccare l’odiata verità. La vedrà un giorno, ma non è più di mio genio.  \n\nHo portato i suoi rispetti all’illustrissimo signor Guglielmini, al quale con tale occasione ho nuovamente discorso placidamente del lucimetro, come stimato da tutti riuscibile, e dalla prattica stessa, stimando io molto il parere d’un signore sì dotto e così acuto, ma egli di nuovo seriamente m’ha risposto essere una vanità il crederlo riuscibile e che meglio si misura con gli occhi nudi la luce che col lucimetro, poiché si veggono l’ombre u.g. de’ buchi del naso, le quali non vedrò col lucimetro, e conchiuse, che lui aveva ragioni evidenti che non poteva succedere, come se l’imagina l’autore. Intanto fummo chiamati all’esame d’un laureando e si troncò il discorso.  \n\nÈ uscito nella Galleria della Minerva l’estratto della mia lettera sopra la ",
+      "text": " e da altri grandi uomini, ma altri hanno confessato che è ciò pur troppo vero, ma però non bisogna dirlo, onde hanno voluto ch’io ne faccia un’altra in generale senza toccare l’odiata verità. La vedrà un giorno, ma non è più di mio genio.  \n\nHo portato i suoi rispetti all’illustrissimo signor ",
       "entity": null
     },
     {
-      "text": "mosca rosiseca",
+      "text": "Guglielmini",
       "entity": {
-        "text": "mosca rosiseca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
-        "type": "organism",
-        "label": "mosca rosiseca"
+        "text": "Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "type": "person",
+        "label": "Guglielmini, Domenico"
+      }
+    },
+    {
+      "text": ", al quale con tale occasione ho nuovamente discorso placidamente del ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": ", come stimato da tutti riuscibile, e dalla prattica stessa, stimando io molto il parere d’un signore sì dotto e così acuto, ma egli di nuovo seriamente m’ha risposto essere una vanità il crederlo riuscibile e che meglio si misura con gli occhi nudi la luce che col ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": ", poiché si veggono l’ombre u.g. de’ buchi del naso, le quali non vedrò col ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": ", e conchiuse, che lui aveva ragioni evidenti che non poteva succedere, come se l’imagina l’autore. Intanto fummo chiamati all’esame d’un laureando e si troncò il discorso.  \n\nÈ uscito nella Galleria della Minerva l’",
+      "entity": null
+    },
+    {
+      "text": "estratto della mia lettera sopra la mosca rosiseca",
+      "entity": {
+        "text": "estratto della mia lettera sopra la mosca rosiseca",
+        "entity_id": "https://w3id.org/vallisnieri/text/estratto_della_mia_lettera_sopra_la_mosca_rosiseca",
+        "type": "text",
+        "label": "estratto della mia lettera sopra la mosca rosiseca"
       }
     },
     {
@@ -119,8 +184,30 @@
       }
     },
     {
-      "text": ". Farò almeno fare i rami e li manderò. Intanto mando tre sole figure o tre primi abbozzi che mi sono restati sul tavolino, e mando tre mosche coll’aculeo cacciato fuora. Il bello si è dividerlo con uno spillo sottilissimo e guardare le seghe laterali artificiosissime di mezzo. È quasi impossibile che non venga la Galleria a qualcheduno in Bologna, onde procuri di vedere l’ultima parte stampata, dove troverà anche l’estratto d’un mio tratatello de’ mostri che ho avuto, ho ed ho veduto co’ proprii occhi, dov’è qualche osservazione nuova.  \n\nNon so quest’anno se si vedremo. Se potrò farò una scappata, ma dubbito. Mi rallegro del principe nuovo dell’Accademia. So che dovrei fare qualche componimento indiretto all’Accademia, e con un poco di tempo lo farò, per ora voglio terminare due cosette attorno alle quali lavoro. \n\nI miei soliti inchini e resto immutabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero e amico Antonio Vallisnieri",
+      "text": ". Farò almeno fare i rami e li manderò. Intanto mando tre sole figure o tre primi abbozzi che mi sono restati sul tavolino, e mando tre mosche coll’aculeo cacciato fuora. Il bello si è dividerlo con uno spillo sottilissimo e guardare le seghe laterali artificiosissime di mezzo. È quasi impossibile che non venga la Galleria a qualcheduno in Bologna, onde procuri di vedere l’ultima parte stampata, dove troverà anche l’estratto d’un mio ",
       "entity": null
+    },
+    {
+      "text": "tratatello",
+      "entity": {
+        "text": "tratatello",
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "type": "text",
+        "label": "tratatello"
+      }
+    },
+    {
+      "text": " de’ mostri che ho avuto, ho ed ho veduto co’ proprii occhi, dov’è qualche osservazione nuova.  \n\nNon so quest’anno se si vedremo. Se potrò farò una scappata, ma dubbito. Mi rallegro del principe nuovo dell’Accademia. So che dovrei fare qualche componimento indiretto all’Accademia, e con un poco di tempo lo farò, per ora voglio terminare due cosette attorno alle quali lavoro. \n\nI miei soliti inchini e resto immutabilmente di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero e amico Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

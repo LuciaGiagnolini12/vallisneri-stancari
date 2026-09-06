@@ -2,7 +2,29 @@
   "id": "VAL_STAN_017",
   "segments": [
     {
-      "text": "Reggio 31 luglio 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nSono in Reggio caldo, bollente, abbrustolito dal sole nel mio viaggio. Pure m’è restata la volontà di legger libri. Ho trovate le opere del ",
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " 31 luglio 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nSono in ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " caldo, bollente, abbrustolito dal sole nel mio viaggio. Pure m’è restata la volontà di legger libri. Ho trovate le opere del ",
       "entity": null
     },
     {
@@ -54,7 +76,59 @@
       }
     },
     {
-      "text": " dell’anotomia dell’anguilla, e non fa parola della sua ovaja. Sicché spero d’essere il primo a dar fuora questa notizia, e la voglio dedicare alla sua e mia riverita Accademia in segno della stima che ne faccio e delle mie obbligazioni che le professo. Non ho veduto ancor sua risposta, onde, se vuole onorarmi di lettera, la potrà inviare a Padoa, poiché quanto prima colà rittorno. Ho avuto lettera da Livorno che con un bastimento o nave che aspettano da Tunisi di Barberia forse verranno ",
+      "text": " dell’",
+      "entity": null
+    },
+    {
+      "text": "anotomia dell’anguilla",
+      "entity": {
+        "text": "anotomia dell’anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/text/anotomia_dell_anguilla",
+        "type": "text",
+        "label": "anguilla"
+      }
+    },
+    {
+      "text": ", e non fa parola della sua ovaja. Sicché spero d’essere il primo a dar fuora questa notizia, e la voglio dedicare alla sua e mia riverita Accademia in segno della stima che ne faccio e delle mie obbligazioni che le professo. Non ho veduto ancor sua risposta, onde, se vuole onorarmi di lettera, la potrà inviare a ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", poiché quanto prima colà rittorno. Ho avuto lettera da ",
+      "entity": null
+    },
+    {
+      "text": "Livorno",
+      "entity": {
+        "text": "Livorno",
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "type": "place",
+        "label": "Livorno"
+      }
+    },
+    {
+      "text": " che con un bastimento o nave che aspettano da ",
+      "entity": null
+    },
+    {
+      "text": "Tunisi di Barberia",
+      "entity": {
+        "text": "Tunisi di Barberia",
+        "entity_id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+        "type": "place",
+        "label": "Tunis"
+      }
+    },
+    {
+      "text": " forse verranno ",
       "entity": null
     },
     {
@@ -80,7 +154,33 @@
       }
     },
     {
-      "text": " una scatola con dentro il lucimetro ed altre bagatelle, che suppongo avrà ricevute. Ora le do parte che ho con mio sommo diletto il libretto francese nelle mani da cui è stato tradotto, e quanto prima ne farò riscontro per vedere dove ha sbagliato il traduttore. E pure un uomo dottissimo e di garbo tiene anche per certo che l’opera sia d’un bresciano sotto la maschera d’un francese. Il traduttore vuol far le sue discolpe e porre il tutto in chiaro, e gli ho raccomandato che lo faccia con tutta modestia, altrimenti rompo l’amicizia. L’autore è il reverendo ",
+      "text": " una scatola con dentro il lucimetro ed altre bagatelle, che suppongo avrà ricevute. Ora le do parte che ho con mio sommo diletto il ",
+      "entity": null
+    },
+    {
+      "text": "libretto francese",
+      "entity": {
+        "text": "libretto francese",
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_francese",
+        "type": "text",
+        "label": "libretto francese"
+      }
+    },
+    {
+      "text": " nelle mani da cui è stato tradotto, e quanto prima ne farò riscontro per vedere dove ha sbagliato il traduttore. E pure un uomo dottissimo e di garbo tiene anche per certo che l’",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " sia d’un bresciano sotto la maschera d’un francese. Il traduttore vuol far le sue discolpe e porre il tutto in chiaro, e gli ho raccomandato che lo faccia con tutta modestia, altrimenti rompo l’amicizia. L’autore è il reverendo ",
       "entity": null
     },
     {
@@ -93,7 +193,33 @@
       }
     },
     {
-      "text": ", che dedicò l’opera al duca di Chartres stampata in Parigi appresso Giovanni Sevestre stampatore e librajo nella contrada di S. Giacomo dirimpetto a S. Vues 1700 con approvazione e privilegio del re. Vi è in fine l’approvazione pure del ",
+      "text": ", che dedicò l’",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " al duca di Chartres stampata in ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": " appresso Giovanni Sevestre stampatore e librajo nella contrada di S. Giacomo dirimpetto a S. Vues 1700 con approvazione e privilegio del re. Vi è in fine l’approvazione pure del ",
       "entity": null
     },
     {
@@ -106,7 +232,46 @@
       }
     },
     {
-      "text": " secretario dell’Accademia Reale delle Scienze fatta in Parigi li 25 marzo 1700, con le approvazioni ancora del suo generale, del suo provinciale e di due teologi del suo ordine. Insomma l’opera è francese ed è stata applaudita in Francia ed approvata, poiché dice che si troveranno gli stromenti propri per fare questa esperienza appresso ",
+      "text": " secretario dell’Accademia Reale delle Scienze fatta in ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": " li 25 marzo 1700, con le approvazioni ancora del suo generale, del suo provinciale e di due teologi del suo ordine. Insomma l’",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " è francese ed è stata applaudita in ",
+      "entity": null
+    },
+    {
+      "text": "Francia",
+      "entity": {
+        "text": "Francia",
+        "entity_id": "https://w3id.org/vallisnieri/place/francia",
+        "type": "place",
+        "label": "Francia"
+      }
+    },
+    {
+      "text": " ed approvata, poiché dice che si troveranno gli stromenti propri per fare questa esperienza appresso ",
       "entity": null
     },
     {
@@ -119,16 +284,55 @@
       }
     },
     {
-      "text": " mercante specchiaro et occhialaro dell’orologio del Palazzo al Fiore del Giglio coronato in Parigi. Vede come facilmente c’inganniamo.  \n\nSe alla Posta di Reggio potrò francare un piccolo invoglietto lo manderò, se no aspetterò congiontura, poiché non voglio darle tanto incommodo. Intanto mi conservi il suo affetto, m’onori co’ nostri amici ed accademici, e resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio Vallisnieri.  \n\nVedrà nell’annesso rotoletto i primi abozzi dell’istoria della ",
+      "text": " mercante specchiaro et occhialaro dell’orologio del Palazzo al Fiore del Giglio coronato in ",
       "entity": null
     },
     {
-      "text": "mosca rosiseca",
+      "text": "Parigi",
       "entity": {
-        "text": "mosca rosiseca",
-        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
-        "type": "organism",
-        "label": "mosca rosiseca"
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": ". Vede come facilmente c’inganniamo.  \n\nSe alla Posta di ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " potrò francare un piccolo invoglietto lo manderò, se no aspetterò congiontura, poiché non voglio darle tanto incommodo. Intanto mi conservi il suo affetto, m’onori co’ nostri amici ed accademici, e resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo e amico Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    },
+    {
+      "text": ".  \n\nVedrà nell’annesso rotoletto i primi abozzi dell’",
+      "entity": null
+    },
+    {
+      "text": "istoria della mosca rosiseca",
+      "entity": {
+        "text": "istoria della mosca rosiseca",
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "type": "text",
+        "label": "istoria della mosca rosiseca"
       }
     },
     {

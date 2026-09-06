@@ -1,0 +1,161 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_07 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Amore]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/amore_3",
+        "label": "Amore",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Copia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/copia_2",
+        "label": "Copia",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Donelli, Giuseppe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "label": "Donelli, Giuseppe",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_007]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_007",
+        "label": "Lettera VAL_STAN_007",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Quaranta Orsi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+        "label": "Quaranta Orsi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Saluti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/saluti_4",
+        "label": "Saluti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Sbaraglia, Giovanni Girolamo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+        "label": "Sbaraglia, Giovanni Girolamo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[torbido]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/torbido",
+        "label": "torbido",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_007",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalva, Antonio Maria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "label": "Valsalva, Antonio Maria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

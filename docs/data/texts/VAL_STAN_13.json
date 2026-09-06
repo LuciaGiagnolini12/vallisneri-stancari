@@ -1,0 +1,194 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_13 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Brescia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bresciano",
+        "label": "Brescia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/camaleonte",
+        "label": "camaleonte",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Camaleonte vivo ed altre cosette]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte_vivo_ed_altre_cosette_3",
+        "label": "Camaleonte vivo ed altre cosette",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[curiosa invenzione di misurare la luce]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/curiosa_invenzione_di_misurare_la_luce",
+        "label": "curiosa invenzione di misurare la luce",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[discorso sopra la lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_sopra_la_lenticola_palustre",
+        "label": "discorso sopra la lenticola palustre",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[France]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/francia",
+        "label": "France",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/lenticola_palustre",
+        "label": "lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_013]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_013",
+        "label": "Lettera VAL_STAN_013",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trionfetti, Lelio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/trionfetti",
+        "label": "Trionfetti, Lelio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_013",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

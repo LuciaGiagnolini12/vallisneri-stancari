@@ -2,7 +2,16 @@
   "id": "VAL_STAN_008",
   "segments": [
     {
-      "text": "Scandiano 20 agosto 1706 \n\nRiveritissimo mio signore padrone stimatissimo \n\nCon l’occasione d’un signor ",
+      "text": "Scandiano",
+      "entity": {
+        "text": "Scandiano",
+        "entity_id": "https://w3id.org/vallisnieri/place/scandiano",
+        "type": "place",
+        "label": "Scandiano"
+      }
+    },
+    {
+      "text": " 20 agosto 1706 \n\nRiveritissimo mio signore padrone stimatissimo \n\nCon l’occasione d’un signor ",
       "entity": null
     },
     {
@@ -54,15 +63,28 @@
       }
     },
     {
-      "text": " e ritirarle in sicuro, se occorre. Già Reggio, come saprà, è caduto, ed è partita l’",
+      "text": " e ritirarle in sicuro, se occorre. Già ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": ", come saprà, è caduto, ed è partita l’",
       "entity": null
     },
     {
       "text": "armata cesarea",
       "entity": {
         "text": "armata cesarea",
-        "entity_id": "https://w3id.org/vallisnieri/organism/armata_cesarea",
-        "type": "organism",
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_cesarea",
+        "type": "text",
         "label": "armata cesarea"
       }
     },

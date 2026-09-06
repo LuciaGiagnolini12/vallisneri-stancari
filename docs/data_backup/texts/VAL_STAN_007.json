@@ -1,0 +1,92 @@
+{
+  "id": "VAL_STAN_007",
+  "segments": [
+    {
+      "text": "Pratissolo",
+      "entity": {
+        "text": "Pratissolo",
+        "entity_id": "https://w3id.org/vallisnieri/place/pratissolo",
+        "type": "place",
+        "label": "Pratissolo"
+      }
+    },
+    {
+      "text": " adì 20 luglio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nEssendo in villa ozioso e mal contento per il nuovo torbido che si avalla contro di noi, sono stato compassionato da un amico, il quale per sollevarmi m’ha mandate alcune lettere ed un dialogo contro dello ",
+      "entity": null
+    },
+    {
+      "text": "Sbaraglia",
+      "entity": {
+        "text": "Sbaraglia",
+        "entity_id": "https://w3id.org/vallisnieri/person/sbaraglia_giovanni_girolamo",
+        "type": "person",
+        "label": "Sbaraglia, Giovanni Girolamo"
+      }
+    },
+    {
+      "text": ". L’ho letto e lette non senza qualche solletico, e perché non m’hanno parute mal fatte, le ho fatte trascrivere a un giovinetto e gliene invio una copia. La prego bene di secretezza, e godersele col signor ",
+      "entity": null
+    },
+    {
+      "text": "Valsalvi",
+      "entity": {
+        "text": "Valsalvi",
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "type": "person",
+        "label": "Valsalva, Antonio Maria"
+      }
+    },
+    {
+      "text": ", signor ",
+      "entity": null
+    },
+    {
+      "text": "Donelli",
+      "entity": {
+        "text": "Donelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "type": "person",
+        "label": "Donelli, Giuseppe"
+      }
+    },
+    {
+      "text": " ed altri nostri amici e padroni di ottimo gusto, ma faccia che non ne esca copia dalle loro mani. Credevo fare una scappata a ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", ma non lo credo più per certi affari sopraggiuntimi.  \n\nIntanto mi conservi il suo amore, inchini tutti, e segnatamente il signor ",
+      "entity": null
+    },
+    {
+      "text": "Quaranta Orsi",
+      "entity": {
+        "text": "Quaranta Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+        "type": "person",
+        "label": "Quaranta Orsi"
+      }
+    },
+    {
+      "text": ", ed abbracciandola con lo spirito resto immutabilmente di vostra signoria illustrissima devotissimo servitore obbligatissimo Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    }
+  ]
+}

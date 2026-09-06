@@ -1,0 +1,425 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_15 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[aculeo della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca_rosiseca",
+        "label": "aculeo della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Africa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/africa",
+        "label": "Africa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Albrizzi, Girolamo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+        "label": "Albrizzi, Girolamo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[balena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/balene",
+        "label": "balena",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/camaleonte",
+        "label": "camaleonte",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_de_miei_dialoghi",
+        "label": "Dialoghi del Signor Dottor Antonio Valsinieri, Medico Fisico Scandianese Cittadino di Reggio sopra la curiosa origine di molti insetti. Dedicati all’Eccellentiss. Sig. Dottor Lodovico Testi Medico Fisico, Venezia, Per Girolamo Albrizzi, 1700.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[estratto]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/estratto_della_mia_lettera_sopra_la_mosca_rosiseca",
+        "label": "estratto",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Florence]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/florence",
+        "label": "Florence",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Foglio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/foglio_4",
+        "label": "Foglio",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Genoa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "label": "Genoa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[invito a Letterati d’Italia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/invito_a_letterati_d_italia",
+        "label": "invito a Letterati d’Italia",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_015]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_015",
+        "label": "Lettera VAL_STAN_015",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Livorno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "label": "Livorno",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[locusta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/locusta",
+        "label": "locusta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Mosche]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosche_5",
+        "label": "Mosche",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Orsi, marchese]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/orsi_quaranta",
+        "label": "Orsi, marchese",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[padronissimo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_mio_padrone",
+        "label": "padronissimo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pesci]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pesci",
+        "label": "pesci",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[princi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/principi",
+        "label": "princi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[repubbliche ultramontane]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/repubbliche_ultramontane",
+        "label": "repubbliche ultramontane",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scorpione affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano",
+        "label": "scorpione affricano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[semi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/semi",
+        "label": "semi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tratatello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "label": "tratatello",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trattatello de mostri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/trattatello_de_mostri_6",
+        "label": "Trattatello de mostri",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trevisan, Bernardo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+        "label": "Trevisan, Bernardo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[United Kingdom]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/inghilterra",
+        "label": "United Kingdom",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_015",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[zolfo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q42038",
+        "label": "zolfo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

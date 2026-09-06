@@ -1,0 +1,315 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_01 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Alps]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/alps",
+        "label": "Alps",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Altri capi trovati di nuovo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/altri_capi_trovati_di_nuovo_3",
+        "label": "Altri capi trovati di nuovo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Apennine Mountains]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/apennine_mountains",
+        "label": "Apennine Mountains",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Capi che portai a bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/capi_che_portai_a_bologna_2",
+        "label": "Capi che portai a bologna",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Descrizione della minera del nostro zolfo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/descrizione_della_minera_del_nostro_zolfo_1",
+        "label": "Descrizione della minera del nostro zolfo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Donelli, Giuseppe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "label": "Donelli, Giuseppe",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Florence]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/florence",
+        "label": "Florence",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Genoa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "label": "Genoa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_001]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_001",
+        "label": "Lettera VAL_STAN_001",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Livorno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "label": "Livorno",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Micrographia curiosa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/micrographia_curiosa",
+        "label": "Micrographia curiosa",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Milan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "label": "Milan",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[minerali]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q176957",
+        "label": "minerali",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Mio casino]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mio_casino_6",
+        "label": "Mio casino",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Nanni, Pietro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/nanni_pietro",
+        "label": "Nanni, Pietro",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Osservazioni intorno alle vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/osservazioni_intorno_alle_vipere",
+        "label": "Osservazioni intorno alle vipere",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Sandri, Giacomo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/sandri_giacomo",
+        "label": "Sandri, Giacomo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Strambotto]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/strambotto_7",
+        "label": "Strambotto",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_001",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalva, Antonio Maria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
+        "label": "Valsalva, Antonio Maria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[zolfo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/q42038",
+        "label": "zolfo",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

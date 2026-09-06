@@ -2,7 +2,29 @@
   "id": "VAL_STAN_021",
   "segments": [
     {
-      "text": "Padoa 24 novembre 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ passato per Padoa l’eccellentissimo ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 24 novembre 1707  \n\nIllustrissimo signor mio padrone colendissimo \n\nÈ passato per ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " l’eccellentissimo ",
       "entity": null
     },
     {
@@ -106,7 +128,20 @@
       }
     },
     {
-      "text": " un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor Morgagni, che ogni giorno m’onora della sua presenza alla mia lezione e mi dà animo e coraggio. Citai nell’ultima il nostro signor ",
+      "text": " un’oretta alle sue serie applicazioni e mi scriva una lunga lettera. Io mi godo lo stimatissimo nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": ", che ogni giorno m’onora della sua presenza alla mia lezione e mi dà animo e coraggio. Citai nell’ultima il nostro signor ",
       "entity": null
     },
     {
@@ -115,7 +150,7 @@
         "text": "Valsalvi",
         "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
         "type": "person",
-        "label": "Valsalva Antonio Maria"
+        "label": "Valsalva, Antonio Maria"
       }
     },
     {

@@ -2,7 +2,29 @@
   "id": "VAL_STAN_027",
   "segments": [
     {
-      "text": "Padoa 9 maggio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nHo ricevuto la sua tardi, e solo li 6 di maggio, e la posta parte di qua il venerdì che fu li 4, onde le rispondo oggi li 9 per la posta di Ferrara, abbenché mi dicano ch’alle volte si perdono o tardano. Riceverò i favori del cervello petrificato dal signor ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 9 maggio 1708 \n\nIllustrissimo signore mio padrone colendissimo \n\nHo ricevuto la sua tardi, e solo li 6 di maggio, e la posta parte di qua il venerdì che fu li 4, onde le rispondo oggi li 9 per la posta di ",
+      "entity": null
+    },
+    {
+      "text": "Ferrara",
+      "entity": {
+        "text": "Ferrara",
+        "entity_id": "https://w3id.org/vallisnieri/place/ferrara",
+        "type": "place",
+        "label": "Ferrara"
+      }
+    },
+    {
+      "text": ", abbenché mi dicano ch’alle volte si perdono o tardano. Riceverò i favori del cervello petrificato dal signor ",
       "entity": null
     },
     {
@@ -11,11 +33,24 @@
         "text": "Donelli",
         "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Giuseppe Donelli"
+        "label": "Donelli, Giuseppe"
       }
     },
     {
-      "text": " a suo commodo, non potendo né meno io lavorare adesso attorno la disertazione per le lezioni, né ho potuto farlo nelle brevi vacanze di Pasqua, poiché oltre mille intrighi ho assistito alla correzione d’un libro del signor ",
+      "text": " a suo commodo, non potendo né meno io lavorare adesso attorno la ",
+      "entity": null
+    },
+    {
+      "text": "disertazione",
+      "entity": {
+        "text": "disertazione",
+        "entity_id": "https://w3id.org/vallisnieri/text/disertazione_stampata",
+        "type": "text",
+        "label": "disertazione"
+      }
+    },
+    {
+      "text": " per le lezioni, né ho potuto farlo nelle brevi vacanze di Pasqua, poiché oltre mille intrighi ho assistito alla correzione d’un libro del signor ",
       "entity": null
     },
     {
@@ -24,7 +59,7 @@
         "text": "Marchese Orsi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Eustachio Manfredi"
+        "label": "Manfredi, Eustachio"
       }
     },
     {
@@ -41,33 +76,85 @@
       }
     },
     {
-      "text": " ordinario non mi parvero semi per la loro piccolezza, e sovente diversità di struttura. Ma vostra signoria illustrissima, che ha ottimi miscroscopii, giudicio finissimo e pazienza ",
+      "text": " ordinario non mi parvero semi per la loro piccolezza, e sovente diversità di struttura. Ma vostra signoria illustrissima, che ha ottimi miscroscopii, giudicio finissimo e pazienza malpighiana, potrà assicurarsi del fatto, disegnarne le figure, e dar l’ultima mano alla cosa. Le mando inclusi i ",
       "entity": null
     },
     {
-      "text": "Malpighi",
+      "text": "semi del musco corolloide",
       "entity": {
-        "text": "Malpighi",
-        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
-        "type": "person",
-        "label": "Malpighi, Marcello"
+        "text": "semi del musco corolloide",
+        "entity_id": "https://w3id.org/vallisnieri/text/semi_musco_corolloide",
+        "type": "text",
+        "label": "semi del musco corolloide"
       }
     },
     {
-      "text": "ana, potrà assicurarsi del fatto, disegnarne le figure, e dar l’ultima mano alla cosa. Le mando inclusi i semi del ",
+      "text": " anch’essi galantissimi, di bellissimo colore, e degni della sua vista. Prenda anche per me alcuni di quegl’echini con le sue spina, poiché credo sieno differenti da que’ che si trovano in ",
       "entity": null
     },
     {
-      "text": "musco corolloide",
+      "text": "Monte Baldo",
       "entity": {
-        "text": "musco corolloide",
-        "entity_id": "https://w3id.org/vallisnieri/organism/musco_corolloide",
-        "type": "organism",
-        "label": "musco corolloide"
+        "text": "Monte Baldo",
+        "entity_id": "https://w3id.org/vallisnieri/place/monte_baldo",
+        "type": "place",
+        "label": "Monte Baldo"
       }
     },
     {
-      "text": " anch’essi galantissimi, di bellissimo colore, e degni della sua vista. Prenda anche per me alcuni di quegl’echini con le sue spina, poiché credo sieno differenti da que’ che si trovano in Monte Baldo veronese, non avendo le spina.  \n\nIl prezzo distinto delle calcette, e fazzoletti di Bologna, Milano, Parma, Napoli in Basilea qui niuno lo sa, e ne meno il signor ",
+      "text": " veronese, non avendo le spina.  \n\nIl prezzo distinto delle calcette, e fazzoletti di Bologna, ",
+      "entity": null
+    },
+    {
+      "text": "Milano",
+      "entity": {
+        "text": "Milano",
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "type": "place",
+        "label": "Milan"
+      }
+    },
+    {
+      "text": ", ",
+      "entity": null
+    },
+    {
+      "text": "Parma",
+      "entity": {
+        "text": "Parma",
+        "entity_id": "https://w3id.org/vallisnieri/place/parma",
+        "type": "place",
+        "label": "Parma"
+      }
+    },
+    {
+      "text": ", ",
+      "entity": null
+    },
+    {
+      "text": "Napoli",
+      "entity": {
+        "text": "Napoli",
+        "entity_id": "https://w3id.org/vallisnieri/place/napoli",
+        "type": "place",
+        "label": "Naples"
+      }
+    },
+    {
+      "text": " in ",
+      "entity": null
+    },
+    {
+      "text": "Basilea",
+      "entity": {
+        "text": "Basilea",
+        "entity_id": "https://w3id.org/vallisnieri/place/basilea",
+        "type": "place",
+        "label": "Basel"
+      }
+    },
+    {
+      "text": " qui niuno lo sa, e ne meno il signor ",
       "entity": null
     },
     {
@@ -80,7 +167,20 @@
       }
     },
     {
-      "text": ". Sa bene che più costano e più sono stimati que’ di Napoli. Il ",
+      "text": ". Sa bene che più costano e più sono stimati que’ di ",
+      "entity": null
+    },
+    {
+      "text": "Napoli",
+      "entity": {
+        "text": "Napoli",
+        "entity_id": "https://w3id.org/vallisnieri/place/napoli",
+        "type": "place",
+        "label": "Naples"
+      }
+    },
+    {
+      "text": ". Il ",
       "entity": null
     },
     {
@@ -89,24 +189,50 @@
         "text": "signor Bernouli",
         "entity_id": "https://w3id.org/vallisnieri/person/signor_bernouli",
         "type": "person",
-        "label": "signor_bernouli"
+        "label": "Bernoulli, Jakob "
       }
     },
     {
-      "text": " ha tre figli, cioè due maschi ed una femmina. Il signor Ermanno e ",
+      "text": " ha tre figli, cioè due maschi ed una femmina. Il signor ",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "type": "person",
+        "label": "Hermann, Jakob"
+      }
+    },
+    {
+      "text": " e ",
       "entity": null
     },
     {
       "text": "signor abbate Fardella",
       "entity": {
         "text": "signor abbate Fardella",
-        "entity_id": "https://w3id.org/vallisnieri/person/signor_abbate_fardella",
+        "entity_id": "https://w3id.org/vallisnieri/person/fardella_michelangelo",
         "type": "person",
-        "label": "signor_abbate_fardella"
+        "label": "Fardella, Michelangelo"
       }
     },
     {
-      "text": " le rendono multiplicati i saluti. L’altr’ieri in una conclusione pubblica in S. Giustina fu argomentato contro l’opinione de’ nascimenti ab ovo in favore d’",
+      "text": " le rendono multiplicati i saluti. L’altr’ieri in una conclusione pubblica in ",
+      "entity": null
+    },
+    {
+      "text": "S. Giustina",
+      "entity": {
+        "text": "S. Giustina",
+        "entity_id": "https://w3id.org/vallisnieri/place/s_giustina",
+        "type": "place",
+        "label": "S. Giustina"
+      }
+    },
+    {
+      "text": " fu argomentato contro l’opinione de’ nascimenti ab ovo in favore d’",
       "entity": null
     },
     {
@@ -132,8 +258,30 @@
       }
     },
     {
-      "text": " contro i testi d’Aristotele che citò. Ero presente, onde s’imagini che rossore. Tutti gli abbati (ed era in 50 facendosi adesso capitolo) mi guardavano, e tutti gli altri innumerabili uditori, onde avrei voluto avere allora quella pietra di calandrino, che m’avesse renduto invisibile. Gli fui bene obbligato del sommo onore, che non meritavo giammai, ma me presente posero in troppa disperazione la mia modestia. Il fratismo ar(istote)lico che mai disse? \n\nL’abbraccio in fretta, poiché mi chiamano a tavola. Di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
+      "text": " contro i testi d’",
       "entity": null
+    },
+    {
+      "text": "Aristotele",
+      "entity": {
+        "text": "Aristotele",
+        "entity_id": "https://w3id.org/vallisnieri/person/aristotele",
+        "type": "person",
+        "label": "Aristotle"
+      }
+    },
+    {
+      "text": " che citò. Ero presente, onde s’imagini che rossore. Tutti gli abbati (ed era in 50 facendosi adesso capitolo) mi guardavano, e tutti gli altri innumerabili uditori, onde avrei voluto avere allora quella pietra di calandrino, che m’avesse renduto invisibile. Gli fui bene obbligato del sommo onore, che non meritavo giammai, ma me presente posero in troppa disperazione la mia modestia. Il fratismo ar(istote)lico che mai disse? \n\nL’abbraccio in fretta, poiché mi chiamano a tavola. Di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

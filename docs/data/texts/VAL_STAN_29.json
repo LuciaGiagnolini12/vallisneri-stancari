@@ -1,0 +1,326 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_29 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[armata cesarea]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_cesarea",
+        "label": "armata cesarea",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Casale]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/casale",
+        "label": "Casale",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Considerazioni, ed Esperienze di Antonio Vallisnieri intorno al creduto Cervello Impietrito , Padoa, Nella Stamperia del Seminario, Appresso Giovanni Manfrè, 1710.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_cervelli_impiegtriti",
+        "label": "Considerazioni, ed Esperienze di Antonio Vallisnieri intorno al creduto Cervello Impietrito , Padoa, Nella Stamperia del Seminario, Appresso Giovanni Manfrè, 1710.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Formica]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/formica",
+        "label": "Formica",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Galleria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/galleria",
+        "label": "Galleria",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, signor]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/signor_guglielmini",
+        "label": "Guglielmini, signor",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[lettera sopra la pioggia de’ sassi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_lettera_pioggia_sass",
+        "label": "lettera sopra la pioggia de’ sassi",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_029]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_029",
+        "label": "Lettera VAL_STAN_029",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Mantua]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/nome_normalizzato",
+        "label": "Mantua",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Modena]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/modena",
+        "label": "Modena",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Molinetti, Michele Angelo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/molinetti_michele_angelo",
+        "label": "Molinetti, Michele Angelo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[moschi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/moschi",
+        "label": "moschi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pioggia de’ sassi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pioggia_de_sassi",
+        "label": "pioggia de’ sassi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scorpione affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano_2",
+        "label": "Scorpione affricano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Serenissimo di mantova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/serenissimo_di_mantova",
+        "label": "Serenissimo di mantova",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[tratatello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
+        "label": "tratatello",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Trevisan, Bernardo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
+        "label": "Trevisan, Bernardo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_029",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Valsalvi, signor]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/valsalvi_signor",
+        "label": "Valsalvi, signor",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Venice]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/venezia",
+        "label": "Venice",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vipere",
+        "label": "vipere",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

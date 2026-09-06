@@ -1,0 +1,326 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_18 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[aculeo della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca_rosiseca",
+        "label": "aculeo della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Africa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/africa",
+        "label": "Africa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Albrizzi, Girolamo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+        "label": "Albrizzi, Girolamo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Argomento del mio libro sopra i medesimi camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/argomento_del_mio_libro_sopra_i_medesimi_camaleonti_3",
+        "label": "Argomento del mio libro sopra i medesimi camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Aristotle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/aristotele",
+        "label": "Aristotle",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Copia stampata dall albrizzi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/copia_stampata_dall_albrizzi_5",
+        "label": "Copia stampata dall albrizzi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Disegni dell aculeo della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/disegni_dell_aculeo_della_mosca_rosiseca_4",
+        "label": "Disegni dell aculeo della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Imperato, Ferrante]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
+        "label": "Imperato, Ferrante",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Inchini]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/inchini_7",
+        "label": "Inchini",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_018]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_018",
+        "label": "Lettera VAL_STAN_018",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libri",
+        "label": "libri",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[opera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "label": "opera",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Orsi, marchese]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/orsi_quaranta",
+        "label": "Orsi, marchese",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Saluti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/saluti_6",
+        "label": "Saluti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scatola con lucimetro sali e fior di ferro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scatola_con_lucimetro_sali_e_fior_di_ferro_2",
+        "label": "Scatola con lucimetro sali e fior di ferro",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Testi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/testi_lodovico",
+        "label": "Testi",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Un nostro coaccademico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
+        "label": "Un nostro coaccademico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_018",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

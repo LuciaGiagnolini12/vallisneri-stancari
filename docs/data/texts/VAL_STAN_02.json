@@ -1,0 +1,348 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_02 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Barca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/barca_1",
+        "label": "Barca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bellini, Lorenzo]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
+        "label": "Bellini, Lorenzo",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[diamante]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/diamante",
+        "label": "diamante",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[egg]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/uova",
+        "label": "egg",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[erbe]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/erbe",
+        "label": "erbe",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Florence]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/florence",
+        "label": "Florence",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[foglie]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/foglie",
+        "label": "foglie",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[frutti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/frutti",
+        "label": "frutti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[legumi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/legumi",
+        "label": "legumi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_002]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_002",
+        "label": "Lettera VAL_STAN_002",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Malpighi, Marcello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
+        "label": "Malpighi, Marcello",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Manfredi, Eustachio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "label": "Manfredi, Eustachio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Marsili, Luigi Conte]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/marsili_luigi_ferdinando",
+        "label": "Marsili, Luigi Conte",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Micrographia curiosa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/micrographia_curiosa",
+        "label": "Micrographia curiosa",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Milan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "label": "Milan",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Nanni, Pietro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/nanni_pietro",
+        "label": "Nanni, Pietro",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Osservazioni intorno alle vipere]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/osservazioni_intorno_alle_vipere",
+        "label": "Osservazioni intorno alle vipere",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Panaro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/panaro",
+        "label": "Panaro",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[peri]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/peri",
+        "label": "peri",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[pommi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/pommi",
+        "label": "pommi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[porfido]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/porfido",
+        "label": "porfido",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[radici]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/radici",
+        "label": "radici",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[rami]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/rami",
+        "label": "rami",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Sali fossili]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/sali_fossili_4",
+        "label": "Sali fossili",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[sangue]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/sangue",
+        "label": "sangue",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scorpione affricano in scatoletta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano_in_scatoletta_3",
+        "label": "Scorpione affricano in scatoletta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[stuora]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/stuora",
+        "label": "stuora",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_002",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

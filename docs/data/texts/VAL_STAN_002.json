@@ -2,20 +2,29 @@
   "id": "VAL_STAN_002",
   "segments": [
     {
-      "text": "Padoa 3 dicembre 1705 \n\nIllustrissimo signor mio padrone singolarissimo \n\nTardi rispondo al gentilissimo foglio di vostra signoria illustrissima, perché tardi sono giunto a Padoa, avendo consumati 20 giorni in circa in questo breve viaggio, per essere stato inchiodato dalla strabocchevole copia d’acqua ora in un luogo ora in un altro con ",
-      "entity": null
-    },
-    {
-      "text": "peri",
+      "text": "Padoa",
       "entity": {
-        "text": "peri",
-        "entity_id": "https://w3id.org/vallisnieri/organism/peri",
-        "type": "organism",
-        "label": "peri"
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
       }
     },
     {
-      "text": "colo anche della vita. Basta dirle che una rotta del ",
+      "text": " 3 dicembre 1705 \n\nIllustrissimo signor mio padrone singolarissimo \n\nTardi rispondo al gentilissimo foglio di vostra signoria illustrissima, perché tardi sono giunto a ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": ", avendo consumati 20 giorni in circa in questo breve viaggio, per essere stato inchiodato dalla strabocchevole copia d’acqua ora in un luogo ora in un altro con pericolo anche della vita. Basta dirle che una rotta del ",
       "entity": null
     },
     {
@@ -23,7 +32,7 @@
       "entity": {
         "text": "Panaro",
         "entity_id": "https://w3id.org/vallisnieri/organism/panaro",
-        "type": "organism",
+        "type": "place",
         "label": "Panaro"
       }
     },
@@ -50,7 +59,7 @@
         "text": "uova",
         "entity_id": "https://w3id.org/vallisnieri/organism/uova",
         "type": "organism",
-        "label": "uova"
+        "label": "egg"
       }
     },
     {
@@ -128,7 +137,7 @@
         "text": "Bellini",
         "entity_id": "https://w3id.org/vallisnieri/person/bellini_lorenzo",
         "type": "person",
-        "label": "Bellini Lorenzo"
+        "label": "Bellini, Lorenzo"
       }
     },
     {
@@ -145,7 +154,33 @@
       }
     },
     {
-      "text": ", peri e frutti varii, ed osservarono che pochissima ne scappava dalla buccia, e molta dal luogo del fiore e del gambo, o picciuolo, con cui stavano appeso al ramo. Il che conferma le osservazioni del nostro commendabilissimo ",
+      "text": ", ",
+      "entity": null
+    },
+    {
+      "text": "peri",
+      "entity": {
+        "text": "peri",
+        "entity_id": "https://w3id.org/vallisnieri/organism/peri",
+        "type": "organism",
+        "label": "peri"
+      }
+    },
+    {
+      "text": " e ",
+      "entity": null
+    },
+    {
+      "text": "frutti",
+      "entity": {
+        "text": "frutti",
+        "entity_id": "https://w3id.org/vallisnieri/organism/frutti",
+        "type": "organism",
+        "label": "frutti"
+      }
+    },
+    {
+      "text": " varii, ed osservarono che pochissima ne scappava dalla buccia, e molta dal luogo del fiore e del gambo, o picciuolo, con cui stavano appeso al ramo. Il che conferma le osservazioni del nostro commendabilissimo ",
       "entity": null
     },
     {
@@ -171,7 +206,33 @@
       }
     },
     {
-      "text": ", rami, radici, frondi e simili diedero tutti quell’aria che contenevano, e chi per un sito chi per un altro, chi più e meno giusta la loro natura. Il che non poteva mai scoprirsi con sicurezza, se non mediante quell’acqua che mostra que’ raggi o quelle linee, dirò così, d’aria, quando scappa da suoi vaseletti, o cannellini, ne’ quali stava rinchiusa, ascendendo con giocondo spettacolo alla superficie dell’acqua, e facendo come una pioggia d’aria al rovescio. Da ciò si può sapere quali cose siano più pregne d’aria, o più flattuose, per dirla col volgo degli antichi, e quali meno, e per quali strade si insinui od esca.  \n\nHanno pure osservata molt’aria nel ",
+      "text": ", ",
+      "entity": null
+    },
+    {
+      "text": "rami",
+      "entity": {
+        "text": "rami",
+        "entity_id": "https://w3id.org/vallisnieri/organism/rami",
+        "type": "organism",
+        "label": "rami"
+      }
+    },
+    {
+      "text": ", ",
+      "entity": null
+    },
+    {
+      "text": "radici",
+      "entity": {
+        "text": "radici",
+        "entity_id": "https://w3id.org/vallisnieri/organism/radici",
+        "type": "organism",
+        "label": "radici"
+      }
+    },
+    {
+      "text": ", frondi e simili diedero tutti quell’aria che contenevano, e chi per un sito chi per un altro, chi più e meno giusta la loro natura. Il che non poteva mai scoprirsi con sicurezza, se non mediante quell’acqua che mostra que’ raggi o quelle linee, dirò così, d’aria, quando scappa da suoi vaseletti, o cannellini, ne’ quali stava rinchiusa, ascendendo con giocondo spettacolo alla superficie dell’acqua, e facendo come una pioggia d’aria al rovescio. Da ciò si può sapere quali cose siano più pregne d’aria, o più flattuose, per dirla col volgo degli antichi, e quali meno, e per quali strade si insinui od esca.  \n\nHanno pure osservata molt’aria nel ",
       "entity": null
     },
     {
@@ -223,7 +284,20 @@
       }
     },
     {
-      "text": " è più in Milano, poiché gli scrissi e non ho avuta risposta.  \n\nI miei inchini a cotesti signori tutti, e segnatamente al ",
+      "text": " è più in ",
+      "entity": null
+    },
+    {
+      "text": "Milano",
+      "entity": {
+        "text": "Milano",
+        "entity_id": "https://w3id.org/vallisnieri/place/milan",
+        "type": "place",
+        "label": "Milan"
+      }
+    },
+    {
+      "text": ", poiché gli scrissi e non ho avuta risposta.  \n\nI miei inchini a cotesti signori tutti, e segnatamente al ",
       "entity": null
     },
     {
@@ -232,7 +306,7 @@
         "text": "signor Nanni",
         "entity_id": "https://w3id.org/vallisnieri/person/nanni_pietro",
         "type": "person",
-        "label": "Pietro Nanni"
+        "label": "Nanni, Pietro"
       }
     },
     {
@@ -245,7 +319,7 @@
         "text": "signor Manfredi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Eustachio Manfredi"
+        "label": "Manfredi, Eustachio"
       }
     },
     {

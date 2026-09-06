@@ -2,7 +2,16 @@
   "id": "VAL_STAN_014",
   "segments": [
     {
-      "text": "Padoa 23 maggio 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo già ricevuto dal gentilissimo e dottissimo signor ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 23 maggio 1707 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo già ricevuto dal gentilissimo e dottissimo signor ",
       "entity": null
     },
     {
@@ -15,7 +24,33 @@
       }
     },
     {
-      "text": " il riscontro della pontualità di vostra signoria illustrissima in avermi onorato del fedele recapito della mia insipida dissertazioncella sopra la lenticola palustre, e gliene rendo grazie vivissime. E del lucimetro che dice vostra signoria illustrissima? È riuscibile o no? Due ne faccio lavorare qui in Padoa di struttura diversa e vedremo l’esito, e avviserò. Per l’occasione del Santo forse potrebbono capitare bolognesi, onde manderò il ",
+      "text": " il riscontro della pontualità di vostra signoria illustrissima in avermi onorato del fedele recapito della mia insipida dissertazioncella sopra la lenticola palustre, e gliene rendo grazie vivissime. E del ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": " che dice vostra signoria illustrissima? È riuscibile o no? Due ne faccio lavorare qui in ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " di struttura diversa e vedremo l’esito, e avviserò. Per l’occasione del Santo forse potrebbono capitare bolognesi, onde manderò il ",
       "entity": null
     },
     {
@@ -28,7 +63,20 @@
       }
     },
     {
-      "text": " vivo e qualchecos’altra.  \n\nMi rallegro che lavori attorno al termometro, e perché non intorno al lucimetro? Può vostra signoria illustrissima migliorare anche questo, cambiarlo, perfezionarlo, e la prego caldamente, poiché è divisa l’opinione in sì e in no. Non guardi lo stile, nè i termini, guardi l’invenzione e la migliori.  \n\nIl segreto che lei mi scrive della ristampa dell’Aldrovandi è qui pubblico, avendolo detto a tutti il signor ",
+      "text": " vivo e qualchecos’altra.  \n\nMi rallegro che lavori attorno al termometro, e perché non intorno al ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": "? Può vostra signoria illustrissima migliorare anche questo, cambiarlo, perfezionarlo, e la prego caldamente, poiché è divisa l’opinione in sì e in no. Non guardi lo stile, nè i termini, guardi l’invenzione e la migliori.  \n\nIl segreto che lei mi scrive della ristampa dell’Aldrovandi è qui pubblico, avendolo detto a tutti il signor ",
       "entity": null
     },
     {
@@ -41,7 +89,20 @@
       }
     },
     {
-      "text": " ed un tedesco venuto poco fa da Bologna. Le dico bene che l’istoria degli animali grandi e minuti è piena di favole e di fosca ruggine antica, onde chi non lo lima o fa notazioni avrà poco applauso. Io non so cosa alcuna dell’Accademia di Prussia, lo scriverò al nostro ",
+      "text": " ed un tedesco venuto poco fa da Bologna. Le dico bene che l’",
+      "entity": null
+    },
+    {
+      "text": "istoria degli animali grandi e minuti",
+      "entity": {
+        "text": "istoria degli animali grandi e minuti",
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_degli_animali_grandi_e_minuti",
+        "type": "text",
+        "label": "istoria degli animali grandi e minuti"
+      }
+    },
+    {
+      "text": " è piena di favole e di fosca ruggine antica, onde chi non lo lima o fa notazioni avrà poco applauso. Io non so cosa alcuna dell’Accademia di Prussia, lo scriverò al nostro ",
       "entity": null
     },
     {
@@ -158,7 +219,20 @@
       }
     },
     {
-      "text": " o dove annidano de’ suddetti pidocchi, il quale poi diventa pur mosca.  \n\nLe mando un invito a Letterati d’Italia, che forse si stamperà. È stato un mio amico che l’ha fatto, e aspetto subito il suo sincero parere. Ma sona la campana e s’avvicina il tempo della lezione. L’abbraccio col cuore e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri \n\nManderò poi l’invito a Letterati ecc. crescendo troppo di mole la lettera.",
+      "text": " o dove annidano de’ suddetti pidocchi, il quale poi diventa pur mosca.  \n\nLe mando un invito a Letterati d’Italia, che forse si stamperà. È stato un mio amico che l’ha fatto, e aspetto subito il suo sincero parere. Ma sona la campana e s’avvicina il tempo della lezione. L’abbraccio col cuore e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    },
+    {
+      "text": " \n\nManderò poi l’invito a Letterati ecc. crescendo troppo di mole la lettera.",
       "entity": null
     }
   ]

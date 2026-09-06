@@ -1,0 +1,348 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_17 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Abozzi dell istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/abozzi_dell_istoria_della_mosca_rosiseca_7",
+        "label": "Abozzi dell istoria della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[aculeo della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca_rosiseca",
+        "label": "aculeo della mosca rosiseca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/anguilla",
+        "label": "anguilla",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[anotomia dell’anguilla]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/anotomia_dell_anguilla",
+        "label": "anotomia dell’anguilla",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Bologna]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "label": "Bologna",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Brescia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/bresciano",
+        "label": "Brescia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Camaleonti vivi]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonti_vivi_3",
+        "label": "Camaleonti vivi",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cappuccino, Padre Francesco Maria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/padre_francesco_maria_cappuccino",
+        "label": "Cappuccino, Padre Francesco Maria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Charas, Moyse]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/charas",
+        "label": "Charas, Moyse",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Feugerais, Carlo des]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/carlo_des_feugerais",
+        "label": "Feugerais, Carlo des",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Fontanelle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/fontanelle",
+        "label": "Fontanelle",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Genoa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/genoa",
+        "label": "Genoa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Guglielmini, Domenico]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "label": "Guglielmini, Domenico",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[istoria della mosca rosiseca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_della_mosca_rosiseca",
+        "label": "istoria della mosca rosiseca",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_017]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_017",
+        "label": "Lettera VAL_STAN_017",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libretto francese]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libretto_francese",
+        "label": "libretto francese",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Livorno]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/livorno",
+        "label": "Livorno",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Micrographia curiosa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/micrographia_curiosa",
+        "label": "Micrographia curiosa",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Muralt, Johannes]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/gioanni_de_muralto",
+        "label": "Muralt, Johannes",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[opera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "label": "opera",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Opere del charas]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/opere_del_charas_1",
+        "label": "Opere del charas",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Paris]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "label": "Paris",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scatola con il lucimetro e altre bagatelle]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scatola_con_il_lucimetro_e_altre_bagatelle_4",
+        "label": "Scatola con il lucimetro e altre bagatelle",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Tunis]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
+        "label": "Tunis",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_017",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[vipera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/vipera",
+        "label": "vipera",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_11 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Africa]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/africa",
+        "label": "Africa",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[armata cesarea]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/armata_cesarea",
+        "label": "armata cesarea",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Buonanni, Padre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/buonanni_filippo",
+        "label": "Buonanni, Padre",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[camaleonti]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/camaleonte",
+        "label": "camaleonti",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Cardinal]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/cardinal",
+        "label": "Cardinal",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_011]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_011",
+        "label": "Lettera VAL_STAN_011",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Libro manoscritto tradotto dal francese lucimetro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/libro_manoscritto_tradotto_dal_francese_lucimetro_3",
+        "label": "Libro manoscritto tradotto dal francese lucimetro",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[locusta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/locusta",
+        "label": "locusta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi …, Padova, Nella Stamperia del Seminario, 1707.",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Miniere senza nome]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/miniere_senza_nome_4",
+        "label": "Miniere senza nome",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Passalacqua (marchese)]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/passalacqua_marchese",
+        "label": "Passalacqua (marchese)",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Redi, Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/redi_francesco",
+        "label": "Redi, Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[scorpione affricano]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano",
+        "label": "scorpione affricano",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Scorpione affricano in scatoletta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/scorpione_affricano_in_scatoletta_1",
+        "label": "Scorpione affricano in scatoletta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[United Kingdom]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/inghilterra",
+        "label": "United Kingdom",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_011",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}

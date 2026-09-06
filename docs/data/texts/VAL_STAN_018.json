@@ -2,7 +2,29 @@
   "id": "VAL_STAN_018",
   "segments": [
     {
-      "text": "Padoa 12 settembre 1707  \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nRicevo in Padoa il di lei compitissimo e virtuosissimo foglio, e poco dopo dal sig. ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " 12 settembre 1707  \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nRicevo in ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " il di lei compitissimo e virtuosissimo foglio, e poco dopo dal sig. ",
       "entity": null
     },
     {
@@ -15,7 +37,20 @@
       }
     },
     {
-      "text": " la scatola col lucimetro, sali e fior di ferro, che chiama ",
+      "text": " la scatola col ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": ", sali e fior di ferro, che chiama ",
       "entity": null
     },
     {
@@ -54,7 +89,33 @@
       }
     },
     {
-      "text": " con la stridola turba de’ suoi seguaci scrive con meraviglia che «numquam semen nec ova viva sunt in anguilla». Esporrò dunque la storia e la manderò alla sua e mia riveritissima Accademia.  \n\nL’amico ha già scritto in Affrica per avere ",
+      "text": " con la stridola turba de’ suoi seguaci scrive con meraviglia che «numquam semen nec ova viva sunt in ",
+      "entity": null
+    },
+    {
+      "text": "anguilla",
+      "entity": {
+        "text": "anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
+        "type": "organism",
+        "label": "anguilla"
+      }
+    },
+    {
+      "text": "». Esporrò dunque la storia e la manderò alla sua e mia riveritissima Accademia.  \n\nL’amico ha già scritto in ",
+      "entity": null
+    },
+    {
+      "text": "Affrica",
+      "entity": {
+        "text": "Affrica",
+        "entity_id": "https://w3id.org/vallisnieri/place/africa",
+        "type": "place",
+        "label": "Africa"
+      }
+    },
+    {
+      "text": " per avere ",
       "entity": null
     },
     {
@@ -67,7 +128,20 @@
       }
     },
     {
-      "text": ". Intanto le mando l’argomento del mio libro sopra i medesimi, della quale ne potrà dare notizia a signori nostri accademici e dalla quale caverà molti lumi per fare le sue osservazioni. Quando l’avrà scriverò poi il modo di governarlo. Suppongo che abbia ricevuto un invoglietto che franco di porto le mandai da Reggio con i disegni dell’",
+      "text": ". Intanto le mando l’argomento del mio libro sopra i medesimi, della quale ne potrà dare notizia a signori nostri accademici e dalla quale caverà molti lumi per fare le sue osservazioni. Quando l’avrà scriverò poi il modo di governarlo. Suppongo che abbia ricevuto un invoglietto che franco di porto le mandai da ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " con i disegni dell’",
       "entity": null
     },
     {
@@ -93,7 +167,20 @@
       }
     },
     {
-      "text": " con una lettera avvanti fatta da un mio amico, dove avrà molte curiose notizie sopra il suddetto, e vostra signoria illustrissima potrà illustrarle con la sua matematica e leggerle nell’Accademia. Sono nobilissime le di lei savie riflessioni sopra il lucimetro, e mi rallegro sommamente che stimi l’invenzione qualche cosa, mentre un nostro amico nulla la stima, anzi la credeva parto d’un italiano o grosso lombardo, ma si inganna, poiché io ho adesso nelle mani l’operetta in francese e il traduttore non ha mancato tanto, come suppone, avendo bensì parafrasato in molti luoghi, ma non contrafatti i sensi. Dove dicono che dice “linea spirale” si ingannano, ma dice “linea quasi spirale”, onde quel “quasi” diffende il traduttore. Insomma non mi truovo tanto male, come dice un signore veramente dotto, ma alle volte troppo sprezzatore delle fatiche altrui.  \n\nHo veduto il nostro caro e modestissimo signor ",
+      "text": " con una lettera avvanti fatta da un mio amico, dove avrà molte curiose notizie sopra il suddetto, e vostra signoria illustrissima potrà illustrarle con la sua matematica e leggerle nell’Accademia. Sono nobilissime le di lei savie riflessioni sopra il ",
+      "entity": null
+    },
+    {
+      "text": "lucimetro",
+      "entity": {
+        "text": "lucimetro",
+        "entity_id": "https://w3id.org/vallisnieri/text/lucimetro",
+        "type": "text",
+        "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707. "
+      }
+    },
+    {
+      "text": ", e mi rallegro sommamente che stimi l’invenzione qualche cosa, mentre un nostro amico nulla la stima, anzi la credeva parto d’un italiano o grosso lombardo, ma si inganna, poiché io ho adesso nelle mani l’operetta in francese e il traduttore non ha mancato tanto, come suppone, avendo bensì parafrasato in molti luoghi, ma non contrafatti i sensi. Dove dicono che dice “linea spirale” si ingannano, ma dice “linea quasi spirale”, onde quel “quasi” diffende il traduttore. Insomma non mi truovo tanto male, come dice un signore veramente dotto, ma alle volte troppo sprezzatore delle fatiche altrui.  \n\nHo veduto il nostro caro e modestissimo signor ",
       "entity": null
     },
     {
@@ -106,33 +193,7 @@
       }
     },
     {
-      "text": " in Venezia e m’ha dato nuova che ",
-      "entity": null
-    },
-    {
-      "text": "un nostro coaccademico",
-      "entity": {
-        "text": "un nostro coaccademico",
-        "entity_id": "https://w3id.org/vallisnieri/person/un_nostro_coaccademico",
-        "type": "person",
-        "label": "un_nostro_coaccademico"
-      }
-    },
-    {
-      "text": " ha osservato anch’esso le ",
-      "entity": null
-    },
-    {
-      "text": "mosche rosiseche",
-      "entity": {
-        "text": "mosche rosiseche",
-        "entity_id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
-        "type": "organism",
-        "label": "mosca rosiseca"
-      }
-    },
-    {
-      "text": ", onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ",
+      "text": " in Venezia e m’ha dato nuova che un nostro coaccademico ha osservato anch’esso le mosche rosiseche, onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ",
       "entity": null
     },
     {
@@ -145,7 +206,33 @@
       }
     },
     {
-      "text": " in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in Padoa il nuovo matematico, ch’è modestissimo, savio e assai virtuoso, particolarmente nell’algebra. Gli ho portati i di lei saluti cordialissimi, e la risaluta con tutto lo spirito. Ho letto in Reggio le lettere in favore del signor marchese Orsi, fra le quali quanto è dotta, ingegnosa, spiritosa quella del signor Manfredi! Lo baci in mio nome.  \n\nI miei inchini agli altri amici, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisneri",
+      "text": " in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " il nuovo matematico, ch’è modestissimo, savio e assai virtuoso, particolarmente nell’algebra. Gli ho portati i di lei saluti cordialissimi, e la risaluta con tutto lo spirito. Ho letto in ",
+      "entity": null
+    },
+    {
+      "text": "Reggio",
+      "entity": {
+        "text": "Reggio",
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "type": "place",
+        "label": "Reggio Emilia"
+      }
+    },
+    {
+      "text": " le lettere in favore del signor marchese Orsi, fra le quali quanto è dotta, ingegnosa, spiritosa quella del signor Manfredi! Lo baci in mio nome.  \n\nI miei inchini agli altri amici, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisneri",
       "entity": null
     }
   ]

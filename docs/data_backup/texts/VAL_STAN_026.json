@@ -1,0 +1,157 @@
+{
+  "id": "VAL_STAN_026",
+  "segments": [
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 19 marzo 1708 \n\nIllustrissimo signor mio padrone colendissimo \n\nHo ricevuto le ",
+      "entity": null
+    },
+    {
+      "text": "figure del cervello petrificato",
+      "entity": {
+        "text": "figure del cervello petrificato",
+        "entity_id": "https://w3id.org/vallisnieri/text/cerveello_petrificato",
+        "type": "text",
+        "label": "figure del cervello petrificato"
+      }
+    },
+    {
+      "text": " del ",
+      "entity": null
+    },
+    {
+      "text": "Museo Aldrovandi",
+      "entity": {
+        "text": "Museo Aldrovandi",
+        "entity_id": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+        "type": "place",
+        "label": "Museum of Natural History (Bologna)"
+      }
+    },
+    {
+      "text": " con le notizie e spiegazioni necessarie. Mi pare bene che il pittore l’abbia disegnato assai grossolanamente, poiché ha pochi risalti, o poche ombre, parendomi che non fosse tanto liscio da per tutto. Nulladimeno lo porrò tal quale l’ha mandato. Sono bene molto obbligato al signor ",
+      "entity": null
+    },
+    {
+      "text": "Donelli",
+      "entity": {
+        "text": "Donelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "type": "person",
+        "label": "Donelli, Giuseppe"
+      }
+    },
+    {
+      "text": ", che m’esebisce con tanta gentilezza le sue osservazioni, che ha fatto sopra il cervello suddetto, e le riceverò volentieri, assicurandolo da uomo d’onore che non tacerò il suo nome, e le lodi dovute, ed anch’io gli parteciperò le mie, che per le vacanze di questa Pasqua terminerò. Io ho un pensiere in capo curioso, che a quest’ora mi pare abbastanza provato da alcune esperienze fatte sopra i creduti cervelli, avendo rotto i miei senza compassione, e volutone vedere il ",
+      "entity": null
+    },
+    {
+      "text": "midollo",
+      "entity": {
+        "text": "midollo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/midollo",
+        "type": "organism",
+        "label": "midollo"
+      }
+    },
+    {
+      "text": ". Sentirà un giorno i miei spropositi. Anzi dica al signor ",
+      "entity": null
+    },
+    {
+      "text": "Donelli",
+      "entity": {
+        "text": "Donelli",
+        "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
+        "type": "person",
+        "label": "Donelli, Giuseppe"
+      }
+    },
+    {
+      "text": ", riverendolo ben di cuore a nome mio, che coll’occasione che farà la giunta al libro dell’",
+      "entity": null
+    },
+    {
+      "text": "Aldrovandi",
+      "entity": {
+        "text": "Aldrovandi",
+        "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
+        "type": "person",
+        "label": "Manfredi, Eustachio"
+      }
+    },
+    {
+      "text": " io lo servirò dove si degnerà commandarmi, parendo a me d’avere nella storia della natura molte cosette non ancora ben’osservate, o malamente spiegate. Io avrei bisogno di venire a stare sei mesi in ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", che facessimo molte osservazioni, ma quell’uxorem duxi ruina tutti i miei disegni. È uscita finalmente la ",
+      "entity": null
+    },
+    {
+      "text": "stampa dell’anguilla",
+      "entity": {
+        "text": "stampa dell’anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/text/stampa_dell_anguilla",
+        "type": "text",
+        "label": "stampa dell’anguilla"
+      }
+    },
+    {
+      "text": " col nome della loro riveritissima Accademia, e ne manderò una copia per la prima occasione fuori di posta. Più ancora abbiamo il nostro signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " tutto assiduo alle lezioni notomiche nostre del Bo, e m’imagino che ora rida, ora entri in collera a vedere una ",
+      "entity": null
+    },
+    {
+      "text": "beccheria",
+      "entity": {
+        "text": "beccheria",
+        "entity_id": "https://w3id.org/vallisnieri/organism/beccheria",
+        "type": "organism",
+        "label": "beccheria"
+      }
+    },
+    {
+      "text": " etc.  \n\nL’abbraccio col cuore e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    }
+  ]
+}

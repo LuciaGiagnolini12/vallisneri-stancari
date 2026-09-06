@@ -1,0 +1,170 @@
+{
+  "id": "VAL_STAN_004",
+  "segments": [
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 5 febbraio 1706  \n\nIllustrissimo signor mio padrone colendissimo \n\nAndava tardando a scrivere a vostra signoria illustrissima, perché aspettava che il negligentissimo ",
+      "entity": null
+    },
+    {
+      "text": "Albrizzi",
+      "entity": {
+        "text": "Albrizzi",
+        "entity_id": "https://w3id.org/vallisnieri/person/albrizzi_girolamo",
+        "type": "person",
+        "label": "Albrizzi, Girolamo"
+      }
+    },
+    {
+      "text": " stampasse un certo mio ",
+      "entity": null
+    },
+    {
+      "text": "scoprimento nuovo",
+      "entity": {
+        "text": "scoprimento nuovo",
+        "entity_id": "https://w3id.org/vallisnieri/text/scoprimento_nuovo",
+        "type": "text",
+        "label": "scoprimento nuovo"
+      }
+    },
+    {
+      "text": ", sopra il quale sentirò volentieri il suo dottissimo parere. Ma perché veggo troppo diferirlo, non posso più tollerare quest’interno prurito e scrivo, com’è mio debito. Farà riverenza all’illustrissimo signor senatore ",
+      "entity": null
+    },
+    {
+      "text": "Orsi",
+      "entity": {
+        "text": "Orsi",
+        "entity_id": "https://w3id.org/vallisnieri/person/quaranta_orsi",
+        "type": "person",
+        "label": "Quaranta Orsi"
+      }
+    },
+    {
+      "text": " e signor suo figlio coll’esprimergli il dispiacimento che ho di non poter godere un tanto onore, sperando però che quello che si differisce non si levi. E forse forse questa Pasqua potranno fare una scappata al Santo.  \n\nLe do poi nuova che finalmente ho trovato il seme della ",
+      "entity": null
+    },
+    {
+      "text": "lenticola palustre",
+      "entity": {
+        "text": "lenticola palustre",
+        "entity_id": "https://w3id.org/vallisnieri/organism/lenticola_palustre",
+        "type": "organism",
+        "label": "lenticola palustre"
+      }
+    },
+    {
+      "text": " ch’era posta con l’",
+      "entity": null
+    },
+    {
+      "text": "alga marina",
+      "entity": {
+        "text": "alga marina",
+        "entity_id": "https://w3id.org/vallisnieri/organism/alga_marina",
+        "type": "organism",
+        "label": "alga marina"
+      }
+    },
+    {
+      "text": ", e poche altre per esempio de’ nascimenti spontanei. Non anderà molto tempo che leggerà a suoi amici un mio ",
+      "entity": null
+    },
+    {
+      "text": "scartafaccio",
+      "entity": {
+        "text": "scartafaccio",
+        "entity_id": "https://w3id.org/vallisnieri/text/de_arcano_lenticulae_palustris_s",
+        "type": "text",
+        "label": "De arcano Lenticulae palustris semine, ac admiranda vegetatione. Illustrissimo, et Eccellentissimo D. D. Christino Martinelli Antonius Vallisnerius de Nobilibus de Vallisneria Publicus Medicinae Practicae Extraordin. Profess. in primo loco, et Academiae Anglicanae Socius faelicitatem, «La Galleria di Minerva», 1706, V, pp.239-51."
+      }
+    },
+    {
+      "text": " sopra di questo e mostrerà le figure. Già gli anni addietro diedi fuora il seme dell’",
+      "entity": null
+    },
+    {
+      "text": "alga marina",
+      "entity": {
+        "text": "alga marina",
+        "entity_id": "https://w3id.org/vallisnieri/organism/alga_marina",
+        "type": "organism",
+        "label": "alga marina"
+      }
+    },
+    {
+      "text": " cercato e trovato felicemente a mia istanza dal mio carissimo amico signor ",
+      "entity": null
+    },
+    {
+      "text": "Cestoni",
+      "entity": {
+        "text": "Cestoni",
+        "entity_id": "https://w3id.org/vallisnieri/person/cestoni_giacinto",
+        "type": "person",
+        "label": "Cestoni, Giacinto"
+      }
+    },
+    {
+      "text": ", il quale mando assieme con la generazione della pulce scoperta pur dal medesimo, e da me più volte ottenuta coll’esperienza. Arrosisco a mandarle simili bagatelle, ma perché a chi ben pondera ogni minima cosa nella natura è mirabile, e scoperta dà lume all’altre, perciò faccio animo a miei rossori e le invio.  \n\nHo pure già impressa in rame l’effigie d’un ",
+      "entity": null
+    },
+    {
+      "text": "semprevivo",
+      "entity": {
+        "text": "semprevivo",
+        "entity_id": "https://w3id.org/vallisnieri/organism/semprevivo",
+        "type": "organism",
+        "label": "semprevivo"
+      }
+    },
+    {
+      "text": " di ",
+      "entity": null
+    },
+    {
+      "text": "Monte Baldo",
+      "entity": {
+        "text": "Monte Baldo",
+        "entity_id": "https://w3id.org/vallisnieri/place/monte_baldo",
+        "type": "place",
+        "label": "monte_baldo"
+      }
+    },
+    {
+      "text": " non descritto da alcuno, favoritomi da un amico, che anch’esso manderò un giorno, siccome un seme saporitissimo di ",
+      "entity": null
+    },
+    {
+      "text": "pignolo affricano",
+      "entity": {
+        "text": "pignolo affricano",
+        "entity_id": "https://w3id.org/vallisnieri/organism/pignolo_affricano",
+        "type": "organism",
+        "label": "pignolo affricano"
+      }
+    },
+    {
+      "text": " non mai veduto da questi botanici, che mi è nato felicemente.  \n\nI miei soliti inchini a tutti gentilissimi e virtuosissimi signori, ed abbracciandola col cuore resto di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio ",
+      "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
+    }
+  ]
+}

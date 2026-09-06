@@ -2,7 +2,29 @@
   "id": "VAL_STAN_024",
   "segments": [
     {
-      "text": "Padoa 10 febbraio 1708 \n\nIllustrissimo signor Stancari, padrone colendissimo \n\nScrissi un’altra a vostra signoria illustrissima, e suppongo l’avrà ricevuta. Ora ho bisogno d’un favore. Nel leggere che ho fatto questi giorni le memorie dell’Accademia di Parigi, v’ho trovato un’istoria di monsieur ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 10 febbraio 1708 \n\nIllustrissimo signor Stancari, padrone colendissimo \n\nScrissi un’altra a vostra signoria illustrissima, e suppongo l’avrà ricevuta. Ora ho bisogno d’un favore. Nel leggere che ho fatto questi giorni le memorie dell’Accademia di ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": ", v’ho trovato un’istoria di monsieur ",
       "entity": null
     },
     {
@@ -11,7 +33,7 @@
         "text": "Verney",
         "entity_id": "https://w3id.org/vallisnieri/person/voduard",
         "type": "person",
-        "label": "Voduard, signor"
+        "label": "Voduard"
       }
     },
     {
@@ -37,11 +59,24 @@
         "text": "Donelli",
         "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Giuseppe Donelli"
+        "label": "Donelli, Giuseppe"
       }
     },
     {
-      "text": ", e lo pregasse a mandarmi un disegno del cervello di bue che donò il ",
+      "text": ", e lo pregasse a mandarmi un disegno del ",
+      "entity": null
+    },
+    {
+      "text": "cervello di bue",
+      "entity": {
+        "text": "cervello di bue",
+        "entity_id": "https://w3id.org/vallisnieri/organism/cervello_di_bue",
+        "type": "organism",
+        "label": "cervello di bue"
+      }
+    },
+    {
+      "text": " che donò il ",
       "entity": null
     },
     {
@@ -50,7 +85,7 @@
         "text": "Malpighi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Eustachio Manfredi"
+        "label": "Manfredi, Eustachio"
       }
     },
     {
@@ -61,21 +96,21 @@
       "text": "Museo Aldrovandi",
       "entity": {
         "text": "Museo Aldrovandi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/museo_aldrovandi",
-        "type": "organism",
-        "label": "Museo Aldrovandi"
+        "entity_id": "https://w3id.org/vallisnieri/place/museo_aldrovandi",
+        "type": "place",
+        "label": "Museum of Natural History (Bologna)"
       }
     },
     {
-      "text": ", con un poco di descrizione della grandezza, del peso, e la figura tanto superiore quanto inferiore. Di grazia non manchi di questo favore, che voglio poi farli ridere col mio discorso. Si stampa adesso in Venezia il discorso dell’",
+      "text": ", con un poco di descrizione della grandezza, del peso, e la figura tanto superiore quanto inferiore. Di grazia non manchi di questo favore, che voglio poi farli ridere col mio discorso. Si stampa adesso in Venezia il ",
       "entity": null
     },
     {
-      "text": "anguilla",
+      "text": "discorso dell’anguilla",
       "entity": {
-        "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
-        "type": "organism",
+        "text": "discorso dell’anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+        "type": "text",
         "label": "anguilla"
       }
     },

@@ -2,7 +2,16 @@
   "id": "VAL_STAN_025",
   "segments": [
     {
-      "text": "Padoa 6 marzo 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nGià il nostro gentilissimo signor ",
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": " 6 marzo 1708 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nGià il nostro gentilissimo signor ",
       "entity": null
     },
     {
@@ -15,7 +24,20 @@
       }
     },
     {
-      "text": " è in Padoa, e m’avea avvisato della felice dimora che vostra signoria illustrissima ha fatta con quel dottissimo prelato, il quale sarà certamente di buon gusto, se gode conversare co’ pari suoi. Vorrei ben’avere qualche cosa degna di lei, e di lui, ma sa che il mio museo è nascente, è povero, anzi miserabile. Sono dietro adesso a comprare tutte le cose naturali d’un museo di Venezia, onde potrei dargli una buona cresciuta, se vi saranno cose doppie le manderò, se no mi scriverà già il nostro signor ",
+      "text": " è in ",
+      "entity": null
+    },
+    {
+      "text": "Padoa",
+      "entity": {
+        "text": "Padoa",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "type": "place",
+        "label": "Padova"
+      }
+    },
+    {
+      "text": ", e m’avea avvisato della felice dimora che vostra signoria illustrissima ha fatta con quel dottissimo prelato, il quale sarà certamente di buon gusto, se gode conversare co’ pari suoi. Vorrei ben’avere qualche cosa degna di lei, e di lui, ma sa che il mio museo è nascente, è povero, anzi miserabile. Sono dietro adesso a comprare tutte le cose naturali d’un museo di Venezia, onde potrei dargli una buona cresciuta, se vi saranno cose doppie le manderò, se no mi scriverà già il nostro signor ",
       "entity": null
     },
     {
@@ -36,7 +58,7 @@
       "entity": {
         "text": "camaleonte",
         "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "specimen",
+        "type": "organism",
         "label": "camaleonti"
       }
     },
@@ -49,7 +71,7 @@
       "entity": {
         "text": "scorpione d’Affrica",
         "entity_id": "https://w3id.org/vallisnieri/organism/scorpione_d_affrica",
-        "type": "specimen",
+        "type": "organism",
         "label": "scorpione d’Affrica"
       }
     },
@@ -80,7 +102,33 @@
       }
     },
     {
-      "text": ", e questa Pasqua manderò l’estratto delle mie osservazioni sopra di questi imaginati cervelli.  \n\nCompatiranno le mie osservazioni sopra la lenticola, e a proposito di questa, io non ho più copia alcuna della disertazione stampata, poiché sino della Germania m’hanno scritto, e le ho tutte donate via. Bisogna che scriva all’eccellentissimo ",
+      "text": ", e questa Pasqua manderò l’estratto delle mie osservazioni sopra di questi imaginati cervelli.  \n\nCompatiranno le mie osservazioni sopra la lenticola, e a proposito di questa, io non ho più copia alcuna della ",
+      "entity": null
+    },
+    {
+      "text": "disertazione",
+      "entity": {
+        "text": "disertazione",
+        "entity_id": "https://w3id.org/vallisnieri/text/disertazione_stampata",
+        "type": "text",
+        "label": "disertazione"
+      }
+    },
+    {
+      "text": " stampata, poiché sino della ",
+      "entity": null
+    },
+    {
+      "text": "Germania",
+      "entity": {
+        "text": "Germania",
+        "entity_id": "https://w3id.org/vallisnieri/place/germania",
+        "type": "place",
+        "label": "Germania"
+      }
+    },
+    {
+      "text": " m’hanno scritto, e le ho tutte donate via. Bisogna che scriva all’eccellentissimo ",
       "entity": null
     },
     {
@@ -106,15 +154,15 @@
       }
     },
     {
-      "text": " a un mio amico che ne vorrebbe una copia, ed anche a quello ho data la medesima risposta. Si stampa in Venezia il discorso dell’",
+      "text": " a un mio amico che ne vorrebbe una copia, ed anche a quello ho data la medesima risposta. Si stampa in Venezia il ",
       "entity": null
     },
     {
-      "text": "anguilla",
+      "text": "discorso dell’anguilla",
       "entity": {
-        "text": "anguilla",
-        "entity_id": "https://w3id.org/vallisnieri/organism/anguilla",
-        "type": "organism",
+        "text": "discorso dell’anguilla",
+        "entity_id": "https://w3id.org/vallisnieri/text/vallisneri_discorso_anguilla",
+        "type": "text",
         "label": "anguilla"
       }
     },
@@ -145,7 +193,20 @@
       }
     },
     {
-      "text": " non era riuscito, ed è restato soddisfatto. \n\nCirca le osservazioni de’ fonti le manderò con un poco di tempo. Adesso ho le lezioni, questa Pasqua sarà destinata per fornire il discorso de’ mentiti cervelli, tornano di maggio le lezioni, onde sino a questa e state non scriverò de’ fonti. Ho parlato col signor ",
+      "text": " non era riuscito, ed è restato soddisfatto. \n\nCirca le osservazioni de’ fonti le manderò con un poco di tempo. Adesso ho le lezioni, questa Pasqua sarà destinata per fornire il ",
+      "entity": null
+    },
+    {
+      "text": "discorso de’ mentiti cervelli",
+      "entity": {
+        "text": "discorso de’ mentiti cervelli",
+        "entity_id": "https://w3id.org/vallisnieri/text/discorso_de_mentiti_cervelli",
+        "type": "text",
+        "label": "discorso de’ mentiti cervelli"
+      }
+    },
+    {
+      "text": ", tornano di maggio le lezioni, onde sino a questa e state non scriverò de’ fonti. Ho parlato col signor ",
       "entity": null
     },
     {
@@ -171,33 +232,59 @@
       }
     },
     {
-      "text": " ha moglie e figlie. La moneta, che colà si spende con avantaggio, sono gli scudi di Francia, o i luigi di Francia. Le cose di co",
+      "text": " ha moglie e figlie. La moneta, che colà si spende con avantaggio, sono gli scudi di Francia, o i luigi di Francia. Le cose di cotesti Paesi colà gradite saranno guanti di Roma, calcetti di seta, fazzoletti di seta, tabacco bolognese, zendali di Firenza e simili.  \n\nEcco un catalogo de’ ",
       "entity": null
     },
     {
-      "text": "Testi",
+      "text": "libri",
       "entity": {
-        "text": "Testi",
-        "entity_id": "https://w3id.org/vallisnieri/person/testi_lodovico",
+        "text": "libri",
+        "entity_id": "https://w3id.org/vallisnieri/text/libri",
+        "type": "text",
+        "label": "libri"
+      }
+    },
+    {
+      "text": " del Seminario, ma del prezzo me l’hanno imbrogliata col dirmi ch’è vario, e che faranno tutti i prezzi. Dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
         "type": "person",
-        "label": "Testi, Lodovico"
+        "label": "Morgagni, Giambattista"
       }
     },
     {
-      "text": " Paesi colà gradite saranno guanti di Roma, calcetti di seta, fazzoletti di seta, tabacco bolognese, zendali di Firenza e simili.  \n\nEcco un catalogo de’ libri del ",
+      "text": " intenderà i motivi, perché m’ha mandato cose sue all’Accademia. Godo che il ",
       "entity": null
     },
     {
-      "text": "semi",
+      "text": "camaleonte",
       "entity": {
-        "text": "semi",
-        "entity_id": "https://w3id.org/vallisnieri/organism/semi",
+        "text": "camaleonte",
+        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "semi"
+        "label": "camaleonti"
       }
     },
     {
-      "text": "nario, ma del prezzo me l’hanno imbrogliata col dirmi ch’è vario, e che faranno tutti i prezzi. Dal signor Morgagni intenderà i motivi, perché m’ha mandato cose sue all’Accademia. Godo che il camaleonte stia bene. Intanto ebbi nuova che la nave che ne portava degli altri si è naufragata, onde se lo tenga sempre più caro. Il signor Ermanno, il signor abbate ",
+      "text": " stia bene. Intanto ebbi nuova che la nave che ne portava degli altri si è naufragata, onde se lo tenga sempre più caro. Il signor ",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "type": "person",
+        "label": "Hermann, Jakob"
+      }
+    },
+    {
+      "text": ", il signor abbate ",
       "entity": null
     },
     {
@@ -210,7 +297,20 @@
       }
     },
     {
-      "text": " ed il signor Morgagni la riveriscono con tutto lo spirito, ed io la prego ad inchinare il signor ",
+      "text": " ed il signor ",
+      "entity": null
+    },
+    {
+      "text": "Morgagni",
+      "entity": {
+        "text": "Morgagni",
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "type": "person",
+        "label": "Morgagni, Giambattista"
+      }
+    },
+    {
+      "text": " la riveriscono con tutto lo spirito, ed io la prego ad inchinare il signor ",
       "entity": null
     },
     {
@@ -219,11 +319,50 @@
         "text": "Gabriele Manfredi",
         "entity_id": "https://w3id.org/vallisnieri/person/manfredi_eustachio",
         "type": "person",
-        "label": "Eustachio Manfredi"
+        "label": "Manfredi, Eustachio"
       }
     },
     {
-      "text": ", risalutato pure dal signor Ermanno, al quale ieri portai i suoi saluti, i quali furono da lui, come da me, graditissimi. Suppongo che saprà che il signor nostro Marsigli è in Lione, e m’ha mandato a salutare, ricercando se ho ancor data alle stampe la mia opera degl’",
+      "text": ", risalutato pure dal signor ",
+      "entity": null
+    },
+    {
+      "text": "Ermanno",
+      "entity": {
+        "text": "Ermanno",
+        "entity_id": "https://w3id.org/vallisnieri/person/hermann_jakob",
+        "type": "person",
+        "label": "Hermann, Jakob"
+      }
+    },
+    {
+      "text": ", al quale ieri portai i suoi saluti, i quali furono da lui, come da me, graditissimi. Suppongo che saprà che il signor nostro Marsigli è in ",
+      "entity": null
+    },
+    {
+      "text": "Lione",
+      "entity": {
+        "text": "Lione",
+        "entity_id": "https://w3id.org/vallisnieri/place/lione",
+        "type": "place",
+        "label": "Lione"
+      }
+    },
+    {
+      "text": ", e m’ha mandato a salutare, ricercando se ho ancor data alle stampe la mia ",
+      "entity": null
+    },
+    {
+      "text": "opera",
+      "entity": {
+        "text": "opera",
+        "entity_id": "https://w3id.org/vallisnieri/text/opera",
+        "type": "text",
+        "label": "opera"
+      }
+    },
+    {
+      "text": " degl’",
       "entity": null
     },
     {
@@ -236,7 +375,33 @@
       }
     },
     {
-      "text": ". Egli ha già in pronto l’istoria naturale del mare, e quanto prima la darà alla luce sotto gli auspicii della società di Parigi. Vedremo qualche cosa d’ottimo gusto, ed io ne sono avidissimo.  \n\nL’abbraccio col cuore, e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
+      "text": ". Egli ha già in pronto l’",
+      "entity": null
+    },
+    {
+      "text": "istoria naturale del mare",
+      "entity": {
+        "text": "istoria naturale del mare",
+        "entity_id": "https://w3id.org/vallisnieri/text/istoria_naturale_del_mare",
+        "type": "text",
+        "label": "istoria naturale del mare"
+      }
+    },
+    {
+      "text": ", e quanto prima la darà alla luce sotto gli auspicii della società di ",
+      "entity": null
+    },
+    {
+      "text": "Parigi",
+      "entity": {
+        "text": "Parigi",
+        "entity_id": "https://w3id.org/vallisnieri/place/parigi",
+        "type": "place",
+        "label": "Paris"
+      }
+    },
+    {
+      "text": ". Vedremo qualche cosa d’ottimo gusto, ed io ne sono avidissimo.  \n\nL’abbraccio col cuore, e resto in fretta di vostra signoria illustrissima devotissimo e obbligatissimo servitore vero Antonio Vallisnieri",
       "entity": null
     }
   ]

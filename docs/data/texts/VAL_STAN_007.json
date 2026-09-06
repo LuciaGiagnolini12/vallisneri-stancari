@@ -37,7 +37,7 @@
         "text": "Valsalvi",
         "entity_id": "https://w3id.org/vallisnieri/person/valsalva_antonio_maria",
         "type": "person",
-        "label": "Valsalva Antonio Maria"
+        "label": "Valsalva, Antonio Maria"
       }
     },
     {
@@ -50,7 +50,7 @@
         "text": "Donelli",
         "entity_id": "https://w3id.org/vallisnieri/person/donelli_giuseppe",
         "type": "person",
-        "label": "Giuseppe Donelli"
+        "label": "Donelli, Giuseppe"
       }
     },
     {
@@ -67,8 +67,17 @@
       }
     },
     {
-      "text": ", ed abbracciandola con lo spirito resto immutabilmente di vostra signoria illustrissima devotissimo servitore obbligatissimo Antonio Vallisnieri",
+      "text": ", ed abbracciandola con lo spirito resto immutabilmente di vostra signoria illustrissima devotissimo servitore obbligatissimo Antonio ",
       "entity": null
+    },
+    {
+      "text": "Vallisnieri",
+      "entity": {
+        "text": "Vallisnieri",
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "type": "person",
+        "label": "Vallisneri, Antonio"
+      }
     }
   ]
 }

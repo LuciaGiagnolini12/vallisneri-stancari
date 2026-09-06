@@ -1,0 +1,205 @@
+{
+  "segments": [
+    {
+      "text": "Lettera VAL_STAN_10 - Entità documentate ed eventi:\n\n"
+    },
+    {
+      "text": "[Autore Galleria]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/autore_galleria",
+        "label": "Autore Galleria",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[cevettoni]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/cevettoni",
+        "label": "cevettoni",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Copia del trattatello della lenticola]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/copia_del_trattatello_della_lenticola_3",
+        "label": "Copia del trattatello della lenticola",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[foglio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/foglio",
+        "label": "foglio",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[lenticola palustre]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/lenticola_palustre",
+        "label": "lenticola palustre",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Lettera VAL_STAN_010]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/physicalLetter/VAL_STAN_010",
+        "label": "Lettera VAL_STAN_010",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[libro]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/text/libro",
+        "label": "libro",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[locusta]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/locusta",
+        "label": "locusta",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Malpighi, Marcello]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/malpighi",
+        "label": "Malpighi, Marcello",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Morgagni, Giambattista]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/morgagni_giambattista",
+        "label": "Morgagni, Giambattista",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[mosca]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/mosca",
+        "label": "mosca",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Notizie letterarie]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/observable_entity/notizie_letterarie_2",
+        "label": "Notizie letterarie",
+        "type": "organism"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Padova]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
+        "label": "Padova",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Reggio Emilia]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/reggio_emilia",
+        "label": "Reggio Emilia",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Rubiera]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/place/rubiera",
+        "label": "Rubiera",
+        "type": "place"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Stancari, Vittorio Francesco]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/stancari_vittoriofrancesco",
+        "label": "Stancari, Vittorio Francesco",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Val stan]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/letter/VAL_STAN_010",
+        "label": "Val stan",
+        "type": "text"
+      }
+    },
+    {
+      "text": "  "
+    },
+    {
+      "text": "[Vallisneri, Antonio]",
+      "entity": {
+        "entity_id": "https://w3id.org/vallisnieri/person/vallisneri_antonio",
+        "label": "Vallisneri, Antonio",
+        "type": "person"
+      }
+    },
+    {
+      "text": "  "
+    }
+  ]
+}
