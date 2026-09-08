@@ -37,7 +37,20 @@
       }
     },
     {
-      "text": " trasportò la barca giù dell’alveo del fiume in un vicino bosco, onde bisognò che tutti lavorassimo d’accordo appiccandosi alle cime degli alberi, tanto che la fermammo. Giunti con istento a Lago scuro vidi un altro spettacolo, cioè uno venire giù per il Po nel bel mezzo attaccato ad una ",
+      "text": " trasportò la barca giù dell’alveo del fiume in un vicino bosco, onde bisognò che tutti lavorassimo d’accordo appiccandosi alle cime degli alberi, tanto che la fermammo. Giunti con istento a ",
+      "entity": null
+    },
+    {
+      "text": "Lago Scuro",
+      "entity": {
+        "text": "Lago Scuro",
+        "entity_id": "https://w3id.org/vallisnieri/entity/lago_scuro",
+        "type": "place",
+        "label": "Lago Scuro"
+      }
+    },
+    {
+      "text": " vidi un altro spettacolo, cioè uno venire giù per il Po nel bel mezzo attaccato ad una ",
       "entity": null
     },
     {

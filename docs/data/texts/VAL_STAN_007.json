@@ -54,7 +54,20 @@
       }
     },
     {
-      "text": " ed altri nostri amici e padroni di ottimo gusto, ma faccia che non ne esca copia dalle loro mani. Credevo fare una scappata a Bologna, ma non lo credo più per certi affari sopraggiuntimi.  \n\nIntanto mi conservi il suo amore, inchini tutti, e segnatamente il signor ",
+      "text": " ed altri nostri amici e padroni di ottimo gusto, ma faccia che non ne esca copia dalle loro mani. Credevo fare una scappata a ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", ma non lo credo più per certi affari sopraggiuntimi.  \n\nIntanto mi conservi il suo amore, inchini tutti, e segnatamente il signor ",
       "entity": null
     },
     {

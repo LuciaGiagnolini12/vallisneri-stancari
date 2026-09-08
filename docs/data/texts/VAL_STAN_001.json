@@ -89,7 +89,33 @@
       }
     },
     {
-      "text": " v’ho inserita la serie de’ capi che portai a Bologna, aggiungendovene anche alcuni altri trovati di nuovo, che manderò o porterò quest’altr’anno a Bologna.  \n\nHo avuta lettera responsiva dal signor conte Luigi Marsilii, nella quale l’avvisavo de’ favori ricevuti da lei e della presa serie de’ ",
+      "text": " v’ho inserita la serie de’ capi che portai a ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", aggiungendovene anche alcuni altri trovati di nuovo, che manderò o porterò quest’altr’anno a ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ".  \n\nHo avuta lettera responsiva dal signor conte Luigi Marsilii, nella quale l’avvisavo de’ favori ricevuti da lei e della presa serie de’ ",
       "entity": null
     },
     {

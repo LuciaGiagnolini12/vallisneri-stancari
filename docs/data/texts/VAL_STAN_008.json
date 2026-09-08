@@ -24,7 +24,20 @@
       }
     },
     {
-      "text": " che rittorna a Bologna, non manco di riverire il mio signor ",
+      "text": " che rittorna a ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", non manco di riverire il mio signor ",
       "entity": null
     },
     {
@@ -50,7 +63,20 @@
       }
     },
     {
-      "text": ". Pensavo di fare anche quest’anno una scorsa a Bologna per fare i nostri baratti, ma le milizie che per ogni parte c’inondano e ci ruinano m’impegnano a stare a casa, per animare almeno le ",
+      "text": ". Pensavo di fare anche quest’anno una scorsa a ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " per fare i nostri baratti, ma le milizie che per ogni parte c’inondano e ci ruinano m’impegnano a stare a casa, per animare almeno le ",
       "entity": null
     },
     {

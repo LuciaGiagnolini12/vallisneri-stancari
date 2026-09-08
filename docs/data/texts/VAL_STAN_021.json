@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -18,9 +18,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -50,20 +50,20 @@
       }
     },
     {
-      "text": " ed io la desideravamo per goderla, ma abbiamo inteso sia tornata a Bologna. Avevo trovata una carta dov’era il modo di governare il ",
+      "text": " ed io la desideravamo per goderla, ma abbiamo inteso sia tornata a ",
       "entity": null
     },
     {
-      "text": "camaleonte",
+      "text": "Bologna",
       "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
       }
     },
     {
-      "text": " lasciato l’estate scorsa all’eccellentissimo ",
+      "text": ". Avevo trovata una carta dov’era il modo di governare il camaleonte lasciato l’estate scorsa all’eccellentissimo ",
       "entity": null
     },
     {

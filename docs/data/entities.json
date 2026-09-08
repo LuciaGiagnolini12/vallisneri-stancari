@@ -391,7 +391,7 @@
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": "",
+    "nameInText": "Bologna",
     "toponym": "Padoa",
     "modern": "Bologna"
   },
@@ -1097,6 +1097,25 @@
     "certainty": "MEDIO"
   },
   {
+    "id": "https://w3id.org/vallisnieri/entity/lago_scuro",
+    "slug": "lago_scuro",
+    "type": "place",
+    "label": "Lago Scuro",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "",
+    "toponym": "Lago Scuro",
+    "modern": "Lago Scuro"
+  },
+  {
     "id": "https://w3id.org/vallisnieri/organism/pelecano",
     "slug": "pelecano",
     "type": "organism",
@@ -1171,7 +1190,7 @@
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": "miniere di Schio",
+    "nameInText": "Schio",
     "toponym": "miniere di Schio",
     "modern": "miniere di Schio"
   },
@@ -1457,9 +1476,11 @@
     "id": "https://w3id.org/vallisnieri/person/testi_ludovico",
     "slug": "testi_ludovico",
     "type": "person",
-    "label": "Testi, Ludovico",
+    "label": "Testi, Lodovico",
     "letters": [
-      "VAL_STAN_003"
+      "VAL_STAN_003",
+      "VAL_STAN_018",
+      "VAL_STAN_025"
     ],
     "viaf": "http://viaf.org/viaf/73201503 ",
     "wikidata": "",
@@ -1468,7 +1489,7 @@
     "catalog": "",
     "author": "",
     "note": "[AMBIGUO] incerto",
-    "nameInText": "signor Testi"
+    "nameInText": "Testi, Ludovico"
   },
   {
     "id": "https://w3id.org/vallisnieri/place/venezia",
@@ -2490,7 +2511,7 @@
     "id": "https://w3id.org/vallisnieri/organism/camaleonte",
     "slug": "camaleonte",
     "type": "organism",
-    "label": "camaleonti",
+    "label": "camaleonte",
     "letters": [
       "VAL_STAN_011",
       "VAL_STAN_012",
@@ -2852,12 +2873,14 @@
     "id": "https://w3id.org/vallisnieri/text/tratatello_de_mostri",
     "slug": "tratatello_de_mostri",
     "type": "text",
-    "label": "tratatello",
+    "label": "tratatello de' mostri",
     "letters": [
       "VAL_STAN_015",
       "VAL_STAN_020",
       "VAL_STAN_022",
-      "VAL_STAN_023"
+      "VAL_STAN_023",
+      "VAL_STAN_028",
+      "VAL_STAN_029"
     ],
     "viaf": "",
     "wikidata": "",
@@ -2866,7 +2889,7 @@
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": ""
+    "nameInText": "tratatello de' mostri"
   },
   {
     "id": "https://w3id.org/vallisnieri/person/bernardo_trevisani",
@@ -2923,24 +2946,6 @@
     "nameInText": ""
   },
   {
-    "id": "https://w3id.org/vallisnieri/text/camaleonte",
-    "slug": "camaleonte",
-    "type": "organism",
-    "label": "camaleonti",
-    "letters": [
-      "VAL_STAN_015",
-      "VAL_STAN_019"
-    ],
-    "viaf": "",
-    "wikidata": "https://www.wikidata.org/entity/Q37686",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "",
-    "nameInText": ""
-  },
-  {
     "id": "https://w3id.org/vallisnieri/organism/mosca_rosiseca",
     "slug": "mosca_rosiseca",
     "type": "organism",
@@ -2978,6 +2983,23 @@
     "author": "",
     "note": "[AMBIGUO] incerto",
     "nameInText": "marchese Orsi"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/entity/nobile_veneto",
+    "slug": "nobile_veneto",
+    "type": "person",
+    "label": "nobile veneto",
+    "letters": [
+      "VAL_STAN_015"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/fungo_campaniforme",
@@ -3094,7 +3116,7 @@
     "id": "https://w3id.org/vallisnieri/organism/fiori_d_arancio",
     "slug": "fiori_d_arancio",
     "type": "organism",
-    "label": "fiori d’arancio",
+    "label": "fiori d'arancio",
     "letters": [
       "VAL_STAN_016"
     ],
@@ -3229,7 +3251,8 @@
     "type": "text",
     "label": "Helena Cenarum",
     "letters": [
-      "VAL_STAN_016"
+      "VAL_STAN_016",
+      "VAL_STAN_028"
     ],
     "viaf": "",
     "wikidata": "",
@@ -3238,13 +3261,13 @@
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": ""
+    "nameInText": "Helna Cenarum"
   },
   {
     "id": "https://w3id.org/vallisnieri/organism/conchette",
     "slug": "conchette",
     "type": "organism",
-    "label": "conchette",
+    "label": "conchiglia",
     "letters": [
       "VAL_STAN_016"
     ],
@@ -3346,7 +3369,7 @@
     "id": "https://w3id.org/vallisnieri/organism/rondini",
     "slug": "rondini",
     "type": "organism",
-    "label": "rondini",
+    "label": "rondine",
     "letters": [
       "VAL_STAN_016"
     ],
@@ -3406,7 +3429,7 @@
     "id": "https://w3id.org/vallisnieri/organism/violette",
     "slug": "violette",
     "type": "organism",
-    "label": "violette",
+    "label": "violetta",
     "letters": [
       "VAL_STAN_016"
     ],
@@ -3446,7 +3469,7 @@
     "id": "https://w3id.org/vallisnieri/organism/rose",
     "slug": "rose",
     "type": "organism",
-    "label": "rose",
+    "label": "rosa",
     "letters": [
       "VAL_STAN_016"
     ],
@@ -3559,10 +3582,64 @@
     "certainty": "ALTO"
   },
   {
+    "id": "https://w3id.org/vallisnieri/entity/moglie_del_signor_guglielmini",
+    "slug": "moglie_del_signor_guglielmini",
+    "type": "person",
+    "label": "moglie del signor Guglielmini",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "moglie del signor Guglielmini"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/person/vallisneri__antonio",
+    "slug": "vallisneri__antonio",
+    "type": "person",
+    "label": "Vallisneri, Antonio",
+    "letters": [
+      "VAL_STAN_016",
+      "VAL_STAN_018"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/place/padova",
+    "slug": "padova",
+    "type": "place",
+    "label": "Padova",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": "",
+    "toponym": "Padova",
+    "modern": "Padova"
+  },
+  {
     "id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
     "slug": "tunisi_di_barberia",
     "type": "place",
-    "label": "Tunis",
+    "label": "Tunisi",
     "letters": [
       "VAL_STAN_017"
     ],
@@ -3573,7 +3650,7 @@
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": "",
+    "nameInText": "Tunisi",
     "toponym": "Tunisi di Barberia",
     "modern": "Tunis"
   },
@@ -3586,7 +3663,11 @@
       "VAL_STAN_017",
       "VAL_STAN_018",
       "VAL_STAN_019",
-      "VAL_STAN_021"
+      "VAL_STAN_021",
+      "VAL_STAN_022",
+      "VAL_STAN_023",
+      "VAL_STAN_028",
+      "VAL_STAN_029"
     ],
     "viaf": "",
     "wikidata": "",
@@ -3595,7 +3676,7 @@
     "catalog": "",
     "author": "",
     "note": "",
-    "nameInText": ""
+    "nameInText": "istoria della mosca rosiseca"
   },
   {
     "id": "https://w3id.org/vallisnieri/text/libretto_francese",
@@ -3722,41 +3803,6 @@
     "nameInText": "Aristotele"
   },
   {
-    "id": "https://w3id.org/vallisnieri/person/testi_lodovico",
-    "slug": "testi_lodovico",
-    "type": "person",
-    "label": "Testi, Lodovico",
-    "letters": [
-      "VAL_STAN_018",
-      "VAL_STAN_025"
-    ],
-    "viaf": "https://viaf.org/viaf/148376734/",
-    "wikidata": "",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "[AMBIGUO] Non identificabile con persone nate dopo il 1680",
-    "nameInText": "Testi"
-  },
-  {
-    "id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
-    "slug": "ferrante_imperato",
-    "type": "person",
-    "label": "Imperato, Ferrante",
-    "letters": [
-      "VAL_STAN_018"
-    ],
-    "viaf": "https://viaf.org/viaf/42607432/",
-    "wikidata": "",
-    "gbif": "",
-    "geonames": "",
-    "catalog": "",
-    "author": "",
-    "note": "[AMBIGUO] incerto",
-    "nameInText": "Ferrante Imperato"
-  },
-  {
     "id": "https://w3id.org/vallisnieri/text/libri",
     "slug": "libri",
     "type": "text",
@@ -3764,6 +3810,23 @@
     "letters": [
       "VAL_STAN_018",
       "VAL_STAN_025"
+    ],
+    "viaf": "",
+    "wikidata": "",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": ""
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/observable_entity/lucimetro__o_sia_la_misura_della",
+    "slug": "lucimetro__o_sia_la_misura_della",
+    "type": "organism",
+    "label": "Lucimetro, o sia la misura della luce. Opera d’invenzione tradotta dal francese. Dedicata all’Illustrissimo Signor Antonio Vallisnieri… da Domenico Cecchi [Serafino da Castiglione]…, Padova, Nella Stamperia del Seminario, 1707.",
+    "letters": [
+      "VAL_STAN_018"
     ],
     "viaf": "",
     "wikidata": "",
@@ -4172,6 +4235,23 @@
     "author": "",
     "note": "",
     "nameInText": "minerali"
+  },
+  {
+    "id": "https://w3id.org/vallisnieri/text/camaleonte",
+    "slug": "camaleonte",
+    "type": "organism",
+    "label": "camaleonti",
+    "letters": [
+      "VAL_STAN_019"
+    ],
+    "viaf": "",
+    "wikidata": "https://www.wikidata.org/entity/Q37686",
+    "gbif": "",
+    "geonames": "",
+    "catalog": "",
+    "author": "",
+    "note": "",
+    "nameInText": ""
   },
   {
     "id": "https://w3id.org/vallisnieri/person/langio",

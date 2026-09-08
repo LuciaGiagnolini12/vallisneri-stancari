@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -37,7 +37,20 @@
       }
     },
     {
-      "text": ", e, se muore, che cosa hanno da osservare.  \n\nSuppongo che avrà trovata un’altra in Bologna con dentro i semi di ",
+      "text": ", e, se muore, che cosa hanno da osservare.  \n\nSuppongo che avrà trovata un’altra in ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": " con dentro i semi di ",
       "entity": null
     },
     {
@@ -102,20 +115,7 @@
       }
     },
     {
-      "text": ".  \n\nMi perdoni del tedio. Aspetto nuova, che cosa fa il ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": ". Il signor ",
+      "text": ".  \n\nMi perdoni del tedio. Aspetto nuova, che cosa fa il camaleonte. Il signor ",
       "entity": null
     },
     {

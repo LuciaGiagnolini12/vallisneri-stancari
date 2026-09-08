@@ -2,16 +2,7 @@
   "id": "VAL_STAN_016",
   "segments": [
     {
-      "text": "Padoa",
-      "entity": {
-        "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
-        "type": "place",
-        "label": "Bologna"
-      }
-    },
-    {
-      "text": " 14 luglio 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nCon l’occasione dell’illustrissimo signor ",
+      "text": "Padoa 14 luglio 1707 \n\nIllustrissimo signor mio signor e padrone colendissimo \n\nCon l’occasione dell’illustrissimo signor ",
       "entity": null
     },
     {
@@ -63,20 +54,7 @@
       }
     },
     {
-      "text": " fratello che mi scrive aver nelle mani il libro francese consegnatogli dal cappuccino, che mi diede il manoscritto dello translattamento dell’opera (benché malamente) in toscano, dirò così, bastardo. Sabato sera parto per la patria e lo porterò meco a ",
-      "entity": null
-    },
-    {
-      "text": "Padoa",
-      "entity": {
-        "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
-        "type": "place",
-        "label": "Bologna"
-      }
-    },
-    {
-      "text": " e correggerò gli abbagliamenti. Onde vostra signoria illustrissima, se vorrà onorarmi di risposta, può scrivere a ",
+      "text": " fratello che mi scrive aver nelle mani il libro francese consegnatogli dal cappuccino, che mi diede il manoscritto dello translattamento dell’opera (benché malamente) in toscano, dirò così, bastardo. Sabato sera parto per la patria e lo porterò meco a Padoa e correggerò gli abbagliamenti. Onde vostra signoria illustrissima, se vorrà onorarmi di risposta, può scrivere a ",
       "entity": null
     },
     {
@@ -115,20 +93,7 @@
       }
     },
     {
-      "text": ", acciocché lo riporti a ",
-      "entity": null
-    },
-    {
-      "text": "Padoa",
-      "entity": {
-        "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
-        "type": "place",
-        "label": "Bologna"
-      }
-    },
-    {
-      "text": ", poiché non ne ho altro. Un altro amico me lo fa adesso quadro, giusta le regole dell’autore, ma stimo sia per riuscire meglio il tondo. Con tal’occasione ho messe nella scatola varie bagatelle. Prima un pezzetto di nido delle ",
+      "text": ", acciocché lo riporti a Padoa, poiché non ne ho altro. Un altro amico me lo fa adesso quadro, giusta le regole dell’autore, ma stimo sia per riuscire meglio il tondo. Con tal’occasione ho messe nella scatola varie bagatelle. Prima un pezzetto di nido delle ",
       "entity": null
     },
     {
@@ -137,7 +102,7 @@
         "text": "rondini",
         "entity_id": "https://w3id.org/vallisnieri/organism/rondini",
         "type": "organism",
-        "label": "rondini"
+        "label": "rondine"
       }
     },
     {
@@ -202,7 +167,7 @@
         "text": "conchette",
         "entity_id": "https://w3id.org/vallisnieri/organism/conchette",
         "type": "organism",
-        "label": "conchette"
+        "label": "conchiglia"
       }
     },
     {
@@ -358,7 +323,7 @@
         "text": "rose",
         "entity_id": "https://w3id.org/vallisnieri/organism/rose",
         "type": "organism",
-        "label": "rose"
+        "label": "rosa"
       }
     },
     {
@@ -371,7 +336,7 @@
         "text": "fiori d’arancio",
         "entity_id": "https://w3id.org/vallisnieri/organism/fiori_d_arancio",
         "type": "organism",
-        "label": "fiori d’arancio"
+        "label": "fiori d'arancio"
       }
     },
     {
@@ -384,7 +349,7 @@
         "text": "violette",
         "entity_id": "https://w3id.org/vallisnieri/organism/violette",
         "type": "organism",
-        "label": "violette"
+        "label": "violetta"
       }
     },
     {
@@ -427,20 +392,7 @@
       }
     },
     {
-      "text": " avea descritta quest’ovaja, ma né in ",
-      "entity": null
-    },
-    {
-      "text": "Padoa",
-      "entity": {
-        "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
-        "type": "place",
-        "label": "Bologna"
-      }
-    },
-    {
-      "text": " né in Venezia si è trovato questo libro, per diligenze anche colà fatte dal nostro gentilissimo signor ",
+      "text": " avea descritta quest’ovaja, ma né in Padoa né in Venezia si è trovato questo libro, per diligenze anche colà fatte dal nostro gentilissimo signor ",
       "entity": null
     },
     {
@@ -453,7 +405,20 @@
       }
     },
     {
-      "text": ", onde, se mai fosse in Bologna, la prego a guardarlo e ad avvisarmi. So che ha discorso delle vipere, ma non so delle anguille. Il ",
+      "text": ", onde, se mai fosse in ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", la prego a guardarlo e ad avvisarmi. So che ha discorso delle vipere, ma non so delle anguille. Il ",
       "entity": null
     },
     {
@@ -466,20 +431,7 @@
       }
     },
     {
-      "text": " ha pur fatto un libro sopra le anguille, intitolato “",
-      "entity": null
-    },
-    {
-      "text": "Helena Cenarum",
-      "entity": {
-        "text": "Helena Cenarum",
-        "entity_id": "https://w3id.org/vallisnieri/text/helena_cenarum",
-        "type": "text",
-        "label": "Helena Cenarum"
-      }
-    },
-    {
-      "text": "”, ma io non l’ho potuto vedere, abbenchè mi dicano non ne discorrere. Così ",
+      "text": " ha pur fatto un libro sopra le anguille, intitolato “Helena Cenarum”, ma io non l’ho potuto vedere, abbenchè mi dicano non ne discorrere. Così ",
       "entity": null
     },
     {
@@ -531,16 +483,16 @@
       }
     },
     {
-      "text": ", non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla moglie del signor ",
+      "text": ", non d’anguille. Così ancora io credei longo tempo. L’osservata da me adesso è veramente ovaja, e sono le uova col suo piccuiolo tutte appiccate, come perle che avessero il gambo, e sono centinaia. Ma vedrà la descrizione un giorno. Eccone il primo abbozzo. \n\nMa non voglio più tediarla. I miei riveritissimi inchini a tutti cotesti virtuosissimi signori, e resto al solito di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio Vallisnieri \n\nHo consegnata la scatola a lei diretta alla ",
       "entity": null
     },
     {
-      "text": "Guglielmini",
+      "text": "moglie del signor Guglielmini",
       "entity": {
-        "text": "Guglielmini",
-        "entity_id": "https://w3id.org/vallisnieri/person/guglielmini_domenico",
+        "text": "moglie del signor Guglielmini",
+        "entity_id": "https://w3id.org/vallisnieri/entity/moglie_del_signor_guglielmini",
         "type": "person",
-        "label": "Guglielmini, Domenico"
+        "label": "moglie del signor Guglielmini"
       }
     },
     {

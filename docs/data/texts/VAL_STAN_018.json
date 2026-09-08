@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -18,9 +18,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -50,20 +50,7 @@
       }
     },
     {
-      "text": ", sali e fior di ferro, che chiama ",
-      "entity": null
-    },
-    {
-      "text": "Ferrante Imperato",
-      "entity": {
-        "text": "Ferrante Imperato",
-        "entity_id": "https://w3id.org/vallisnieri/person/ferrante_imperato",
-        "type": "person",
-        "label": "Imperato, Ferrante"
-      }
-    },
-    {
-      "text": " pietra tartara. Per quante diligenze io abbia fatto, neanch’io ho potuto trovare alcuna che faccia menzione nè che descriva o disegni l’ovaja dell’",
+      "text": ", sali e fior di ferro, che chiama Ferrante Imperato pietra tartara. Per quante diligenze io abbia fatto, neanch’io ho potuto trovare alcuna che faccia menzione nè che descriva o disegni l’ovaja dell’",
       "entity": null
     },
     {
@@ -124,7 +111,7 @@
         "text": "camaleonti",
         "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "camaleonti"
+        "label": "camaleonte"
       }
     },
     {
@@ -193,29 +180,16 @@
       }
     },
     {
-      "text": " in Venezia e m’ha dato nuova che un nostro coaccademico ha osservato anch’esso le mosche rosiseche, onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor ",
-      "entity": null
-    },
-    {
-      "text": "Testi",
-      "entity": {
-        "text": "Testi",
-        "entity_id": "https://w3id.org/vallisnieri/person/testi_lodovico",
-        "type": "person",
-        "label": "Testi, Lodovico"
-      }
-    },
-    {
-      "text": " in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in ",
+      "text": " in Venezia e m’ha dato nuova che un nostro coaccademico ha osservato anch’esso le mosche rosiseche, onde mi rallegro sommamente che c’incontriamo con le osservazioni, essendo la più bella evidenza che colpiamo nel vero. È morto il mio carissimo signor Testi in Venezia, uomo dotto, ingenuo e degno di più lunga vita, e ne ho sentito distintissimo dolore. Abbiamo in ",
       "entity": null
     },
     {
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {

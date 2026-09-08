@@ -314,6 +314,19 @@
     "lng": 11.873333333
   },
   {
+    "id": "https://w3id.org/vallisnieri/entity/lago_scuro",
+    "label": "Lago Scuro",
+    "toponym": "Lago Scuro",
+    "modern": "Lago Scuro",
+    "wikidata": "",
+    "geonames": "",
+    "letters": [
+      "VAL_STAN_002"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
     "id": "https://w3id.org/vallisnieri/place/indie",
     "label": "Indie",
     "toponym": "Indie",
@@ -583,8 +596,21 @@
     "lng": 11.2
   },
   {
+    "id": "https://w3id.org/vallisnieri/place/padova",
+    "label": "Padova",
+    "toponym": "Padova",
+    "modern": "Padova",
+    "wikidata": "",
+    "geonames": "",
+    "letters": [
+      "VAL_STAN_016"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
     "id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
-    "label": "Tunis",
+    "label": "Tunisi",
     "toponym": "Tunisi di Barberia",
     "modern": "Tunis",
     "wikidata": "https://www.wikidata.org/entity/Q3572",

@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -76,20 +76,7 @@
       }
     },
     {
-      "text": " al padre Kircher, siccome m’è venuto un ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": " vivo. Ho disegnato mandare sotto l’esame dell’Accademia nostra una parte dell’uno e tutto l’altro, acciocché ne facciamo la notomia e veggano d’incontrare quanto io osservai che potrà ricavare dall’argomento della mia istoria sopra il suddetto che le mandai. Ho già parlato questa matina all’illustrissimo signor ",
+      "text": " al padre Kircher, siccome m’è venuto un camaleonte vivo. Ho disegnato mandare sotto l’esame dell’Accademia nostra una parte dell’uno e tutto l’altro, acciocché ne facciamo la notomia e veggano d’incontrare quanto io osservai che potrà ricavare dall’argomento della mia istoria sopra il suddetto che le mandai. Ho già parlato questa matina all’illustrissimo signor ",
       "entity": null
     },
     {

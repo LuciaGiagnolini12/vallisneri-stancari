@@ -401,20 +401,20 @@
       }
     },
     {
-      "text": ", acciocché letto, a vostra signoria illustrissima l’invii. Mandai un’altra assai grossa con varie stampe, cioè quella della mosca rosisecca, e quella del ",
+      "text": ", acciocché letto, a vostra signoria illustrissima l’invii. Mandai un’altra assai grossa con varie stampe, cioè quella della mosca rosisecca, e quella del camaleonte, e suppongo l’abbia ricevuta. Io voleva veramente per essere troppo onerosa francarla, ma il postiglione mi disse che non hanno un tal commercio con que’ di ",
       "entity": null
     },
     {
-      "text": "camaleonte",
+      "text": "Bologna",
       "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
       }
     },
     {
-      "text": ", e suppongo l’abbia ricevuta. Io voleva veramente per essere troppo onerosa francarla, ma il postiglione mi disse che non hanno un tal commercio con que’ di Bologna, e non volle l’impegno. Compatisca dunque il tedio e la spesa, e incolpi la sua generosa benignità.  \n\nIntanto m’onori di qualche commando e creda che sono e sarò sempre di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio ",
+      "text": ", e non volle l’impegno. Compatisca dunque il tedio e la spesa, e incolpi la sua generosa benignità.  \n\nIntanto m’onori di qualche commando e creda che sono e sarò sempre di vostra signoria illustrissima devotissimo e obbligatissimo servitore e amico Antonio ",
       "entity": null
     },
     {

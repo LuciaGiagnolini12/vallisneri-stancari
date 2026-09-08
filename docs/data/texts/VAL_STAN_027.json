@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -102,7 +102,20 @@
       }
     },
     {
-      "text": " veronese, non avendo le spina.  \n\nIl prezzo distinto delle calcette, e fazzoletti di Bologna, ",
+      "text": " veronese, non avendo le spina.  \n\nIl prezzo distinto delle calcette, e fazzoletti di ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", ",
       "entity": null
     },
     {

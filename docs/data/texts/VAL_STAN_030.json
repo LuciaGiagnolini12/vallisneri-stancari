@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -18,9 +18,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -37,33 +37,7 @@
       }
     },
     {
-      "text": " ho inteso dal signor Manfredi, che colà è medico ben degno, ch’ella sta bene e che il ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": " è morto. Mi rallegro ch’essa stia bene tanto quanto d’un mio fratello, ed avevo un acerbo travaglio della sua indisposizione. Nulla importa del ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": ", poiché adesso n’ho avuto un altro, ch’è femmina, e questa matina ha fatto 24 ",
+      "text": " ho inteso dal signor Manfredi, che colà è medico ben degno, ch’ella sta bene e che il camaleonte è morto. Mi rallegro ch’essa stia bene tanto quanto d’un mio fratello, ed avevo un acerbo travaglio della sua indisposizione. Nulla importa del camaleonte, poiché adesso n’ho avuto un altro, ch’è femmina, e questa matina ha fatto 24 ",
       "entity": null
     },
     {
@@ -109,9 +83,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {

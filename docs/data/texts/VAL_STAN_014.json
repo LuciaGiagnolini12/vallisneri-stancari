@@ -50,20 +50,7 @@
       }
     },
     {
-      "text": " di struttura diversa e vedremo l’esito, e avviserò. Per l’occasione del Santo forse potrebbono capitare bolognesi, onde manderò il ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": " vivo e qualchecos’altra.  \n\nMi rallegro che lavori attorno al termometro, e perché non intorno al ",
+      "text": " di struttura diversa e vedremo l’esito, e avviserò. Per l’occasione del Santo forse potrebbono capitare bolognesi, onde manderò il camaleonte vivo e qualchecos’altra.  \n\nMi rallegro che lavori attorno al termometro, e perché non intorno al ",
       "entity": null
     },
     {
@@ -89,7 +76,20 @@
       }
     },
     {
-      "text": " ed un tedesco venuto poco fa da Bologna. Le dico bene che l’",
+      "text": " ed un tedesco venuto poco fa da ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ". Le dico bene che l’",
       "entity": null
     },
     {

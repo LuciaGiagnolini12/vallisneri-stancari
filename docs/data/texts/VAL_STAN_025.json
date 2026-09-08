@@ -50,20 +50,7 @@
       }
     },
     {
-      "text": " che non occorre parlarne. Se gradisce un ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": " secco, uno ",
+      "text": " che non occorre parlarne. Se gradisce un camaleonte secco, uno ",
       "entity": null
     },
     {
@@ -258,20 +245,7 @@
       }
     },
     {
-      "text": " intenderà i motivi, perché m’ha mandato cose sue all’Accademia. Godo che il ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": " stia bene. Intanto ebbi nuova che la nave che ne portava degli altri si è naufragata, onde se lo tenga sempre più caro. Il signor ",
+      "text": " intenderà i motivi, perché m’ha mandato cose sue all’Accademia. Godo che il camaleonte stia bene. Intanto ebbi nuova che la nave che ne portava degli altri si è naufragata, onde se lo tenga sempre più caro. Il signor ",
       "entity": null
     },
     {

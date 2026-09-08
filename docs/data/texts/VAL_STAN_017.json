@@ -96,9 +96,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -119,16 +119,16 @@
       "entity": null
     },
     {
-      "text": "Tunisi di Barberia",
+      "text": "Tunisi",
       "entity": {
-        "text": "Tunisi di Barberia",
+        "text": "Tunisi",
         "entity_id": "https://w3id.org/vallisnieri/place/tunisi_di_barberia",
         "type": "place",
-        "label": "Tunis"
+        "label": "Tunisi"
       }
     },
     {
-      "text": " forse verranno ",
+      "text": " di Barberia forse verranno ",
       "entity": null
     },
     {
@@ -137,7 +137,7 @@
         "text": "camaleonti",
         "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
         "type": "organism",
-        "label": "camaleonti"
+        "label": "camaleonte"
       }
     },
     {

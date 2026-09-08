@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -89,7 +89,20 @@
       }
     },
     {
-      "text": " io lo servirò dove si degnerà commandarmi, parendo a me d’avere nella storia della natura molte cosette non ancora ben’osservate, o malamente spiegate. Io avrei bisogno di venire a stare sei mesi in Bologna, che facessimo molte osservazioni, ma quell’uxorem duxi ruina tutti i miei disegni. È uscita finalmente la ",
+      "text": " io lo servirò dove si degnerà commandarmi, parendo a me d’avere nella storia della natura molte cosette non ancora ben’osservate, o malamente spiegate. Io avrei bisogno di venire a stare sei mesi in ",
+      "entity": null
+    },
+    {
+      "text": "Bologna",
+      "entity": {
+        "text": "Bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "type": "place",
+        "label": "Bologna"
+      }
+    },
+    {
+      "text": ", che facessimo molte osservazioni, ma quell’uxorem duxi ruina tutti i miei disegni. È uscita finalmente la ",
       "entity": null
     },
     {

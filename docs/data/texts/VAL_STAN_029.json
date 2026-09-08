@@ -5,9 +5,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {
@@ -63,20 +63,7 @@
       }
     },
     {
-      "text": ", Formica suo medico, e si sente anche il parere del signor Guglielmini. Ma fra tutti non abbiamo potuto trovare il rimedio della morte, essendo volato al cielo questa matina a ore dieci, dopo avere fatto tutto quello deve fare ottimo Prencipe catolico.  \n\nSaprei volentieri cosa fa il ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": ", e se è più inter vivos. Il nostro ",
+      "text": ", Formica suo medico, e si sente anche il parere del signor Guglielmini. Ma fra tutti non abbiamo potuto trovare il rimedio della morte, essendo volato al cielo questa matina a ore dieci, dopo avere fatto tutto quello deve fare ottimo Prencipe catolico.  \n\nSaprei volentieri cosa fa il camaleonte, e se è più inter vivos. Il nostro ",
       "entity": null
     },
     {
@@ -109,9 +96,9 @@
       "text": "Padoa",
       "entity": {
         "text": "Padoa",
-        "entity_id": "https://w3id.org/vallisnieri/place/bologna",
+        "entity_id": "https://w3id.org/vallisnieri/place/padoa",
         "type": "place",
-        "label": "Bologna"
+        "label": "Padova"
       }
     },
     {

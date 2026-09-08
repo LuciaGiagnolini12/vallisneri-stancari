@@ -128,20 +128,7 @@
       }
     },
     {
-      "text": ".  \n\nLa riverisco in fretta col ",
-      "entity": null
-    },
-    {
-      "text": "camaleonte",
-      "entity": {
-        "text": "camaleonte",
-        "entity_id": "https://w3id.org/vallisnieri/organism/camaleonte",
-        "type": "organism",
-        "label": "camaleonti"
-      }
-    },
-    {
-      "text": ", resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio Vallisnieri",
+      "text": ".  \n\nLa riverisco in fretta col camaleonte, resto al solito di vostra signoria illustrissima devotissimo servitore obbligatissimo vero Antonio Vallisnieri",
       "entity": null
     }
   ]
