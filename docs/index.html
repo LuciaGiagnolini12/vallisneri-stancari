@@ -164,6 +164,69 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .lc-counts{display:flex;gap:5px;margin-top:14px;flex-wrap:wrap;}
 .lc-badge{font-size:8px;padding:3px 6px;border-radius:99px;border:1px solid rgba(0,0,0,.06);}
 
+/* ── DOCUMENTATION ── */
+.home-doc{max-width:1180px;margin:0 auto;padding:0 48px 24px;scroll-margin-top:52px;}
+.doc-intro{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:48px;margin-top:22px;
+  padding-top:26px;border-top:1px solid var(--line);}
+.doc-intro p{font-family:var(--serif);font-size:16px;line-height:1.8;color:#3a3632;margin-bottom:14px;}
+.doc-intro p.doc-lede{font-style:italic;font-size:19px;color:var(--ink);}
+.doc-aside{background:rgba(250,247,240,.9);border:1px solid var(--line);border-radius:8px;padding:22px 24px;align-self:start;}
+.doc-label{font:10px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+.doc-figs{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;}
+.doc-fig-n{font-family:var(--mono);font-size:26px;font-weight:300;color:var(--gold);letter-spacing:-.03em;}
+.doc-fig-l{font-size:10.5px;line-height:1.45;color:var(--faded);margin-top:2px;}
+.doc-sub{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;
+  color:var(--faded);margin:56px 0 16px;}
+.doc-steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;background:var(--line);
+  border:1px solid var(--line);border-radius:8px;overflow:hidden;}
+.doc-step{background:rgba(250,247,240,.94);padding:22px 20px;}
+.doc-step-n{font:11px var(--mono);color:var(--gold);letter-spacing:.1em;}
+.doc-step h3{font-family:var(--serif);font-size:19px;font-weight:500;font-style:italic;color:var(--ink);margin:6px 0 10px;}
+.doc-step p{font-size:12.5px;line-height:1.7;color:#3a3632;}
+.doc-cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
+.doc-cols p{font-size:13px;line-height:1.75;color:#3a3632;margin-bottom:12px;}
+.doc-onto{list-style:none;display:grid;gap:8px;margin-top:4px;}
+.doc-onto li{display:grid;grid-template-columns:118px 1fr;gap:12px;align-items:baseline;font-size:12.5px;line-height:1.55;
+  color:#3a3632;padding-bottom:8px;border-bottom:1px dashed var(--line);}
+.doc-onto b{font:600 11px var(--mono);color:var(--ink);}
+.doc-views{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;}
+.doc-view{background:rgba(250,247,240,.9);border:1px solid var(--line);border-radius:7px;padding:16px 16px 14px;
+  cursor:pointer;transition:border-color .18s ease,transform .18s ease;text-align:left;font:inherit;color:inherit;display:flex;flex-direction:column;justify-content:flex-start;}
+.doc-view:hover{border-color:#b18b45;transform:translateY(-2px);}
+.doc-view b{display:block;font-family:var(--serif);font-size:17px;font-weight:500;color:var(--ink);margin-bottom:6px;}
+.doc-view span{font-size:11.5px;line-height:1.6;color:var(--faded);}
+.doc-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px;}
+.doc-links a{font:11px var(--mono);color:var(--gold);text-decoration:none;padding:6px 10px;border:1px solid rgba(139,99,24,.3);
+  border-radius:4px;background:rgba(139,99,24,.05);word-break:break-all;}
+.doc-links a:hover{background:var(--gold-l);}
+.doc-cite{font-family:var(--serif);font-size:15px;line-height:1.7;color:#3a3632;}
+
+.site-footer{background:#1e1610;color:#d9ccb6;margin-top:64px;padding:44px 48px 36px;}
+.footer-inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:end;}
+.footer-kicker{font:10px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#c7a85c;margin-bottom:10px;}
+.footer-credit{font-family:var(--serif);font-size:21px;font-style:italic;color:#f2e8d8;line-height:1.4;}
+.footer-inst{font-size:12.5px;margin-top:6px;opacity:.8;}
+.footer-people{font-size:11.5px;line-height:1.8;opacity:.75;}
+.footer-people a{color:#e3c88c;text-decoration:none;}
+.footer-people a:hover{text-decoration:underline;}
+.footer-copy a{color:#e3c88c;text-decoration:none;}
+.footer-copy a:hover{text-decoration:underline;}
+.footer-copy{max-width:1180px;margin:28px auto 0;padding-top:16px;border-top:1px solid rgba(242,232,216,.15);
+  font:10.5px var(--mono);letter-spacing:.04em;opacity:.6;line-height:1.7;}
+
+@media (max-width:1000px){
+  .doc-steps{grid-template-columns:1fr 1fr;}
+  .doc-views{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:800px){
+  .home-doc{padding:0 16px 16px;}
+  .home-doc .home-section-head span{display:none;}
+  .doc-intro,.doc-cols,.footer-inner{grid-template-columns:1fr;gap:24px;}
+  .doc-steps,.doc-views{grid-template-columns:1fr;}
+  .doc-onto li{grid-template-columns:1fr;gap:2px;}
+  .site-footer{padding:36px 16px 28px;}
+}
+
 @media (max-width:800px){
   nav{padding:0 16px;}
   .nav-brand{margin-right:auto;font-size:14px;}
@@ -506,9 +569,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   /* ── NETWORK page ── */
   .net-toolbar{
     left:8px;right:8px;top:8px;max-width:none;
+    max-height:calc(100vh - 52px - 70px);overflow-y:auto;-webkit-overflow-scrolling:touch;
+    padding-right:2px;
   }
   .net-filters{
-    flex-wrap:wrap;padding:8px;gap:5px;
+    flex-wrap:wrap;padding:8px;gap:5px;flex-shrink:0;
   }
   .net-filters > span{width:100%;margin-right:0;margin-bottom:2px;}
   .net-search{width:100%;flex:1 1 100%;}
@@ -561,7 +626,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
     <div class="nav-link" onclick="showPage('entita',this);closeNav()">Entities</div>
     <div class="nav-link" onclick="showPage('network',this);closeNav()">Network</div>
     <div class="nav-link" onclick="showPage('map',this);closeNav()">Map</div>
+    <!-- SPARQL temporarily disabled
     <div class="nav-link" onclick="showPage('sparql',this);closeNav()">SPARQL</div>
+    -->
+    <div class="nav-link" onclick="goToDocs(this)">Documentation</div>
   </div>
   <button class="nav-hamburger" id="nav-hamburger" onclick="toggleNav()" aria-label="Menu">
     <span></span><span></span><span></span>
@@ -644,7 +712,127 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
       <span>30 letters · 1707—1709</span>
     </div>
     <div class="letter-grid" id="home-letters"></div>
+
+    <!-- ── DOCUMENTATION ── -->
+    <section class="home-doc" id="documentation">
+      <div class="home-section-head" style="padding:0;margin-top:30px">
+        <h2>Documentation</h2>
+        <span>About the project · method · data</span>
+      </div>
+
+      <div class="doc-intro">
+        <div>
+          <p class="doc-lede">From letters to data: reconstructing a knowledge network from thirty letters.</p>
+          <p>The project aims to make the research potential of the Vallisneri–Stancari letters more accessible. It combines traditional archival and philological methods with digital approaches to historical sources, using this small collection to investigate scientific networks, practices of knowledge exchange and the material dimension of early modern natural history.</p>
+          <p>The letters record exchanges of objects, books and manuscripts, movements of specimens from one place to another, and observations made on material collected elsewhere. Archival description, organised around the single document, captures these exchanges only in part. The project therefore extracts from the text of the letters not only the persons, places, organisms and works they mention, but also the relationships between them and the events in which they are involved, and publishes the result as an event-centric knowledge graph that describes the content of the letters as well as their metadata.</p>
+          <p>With limited time and no dedicated funding, the first stages of the work were automated as far as possible, while every final decision was left to manual curation.</p>
+        </div>
+        <aside class="doc-aside">
+          <div class="doc-label">The graph in figures</div>
+          <div class="doc-figs">
+            <div><div class="doc-fig-n">~450</div><div class="doc-fig-l">validated entities</div></div>
+            <div><div class="doc-fig-n">10,000+</div><div class="doc-fig-l">RDF triples</div></div>
+            <div><div class="doc-fig-n">713</div><div class="doc-fig-l">entity mentions proposed by the model</div></div>
+            <div><div class="doc-fig-n">994</div><div class="doc-fig-l">corrections recorded during validation</div></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="doc-sub">The workflow</div>
+      <div class="doc-steps">
+        <div class="doc-step">
+          <div class="doc-step-n">01</div>
+          <h3>Transcription</h3>
+          <p>All thirty letters are fully transcribed according to semi-diplomatic criteria: original spelling preserved, abbreviations expanded, punctuation regularised, and the date moved to the head of each letter. Every statement in the graph points back to the passage it was taken from.</p>
+        </div>
+        <div class="doc-step">
+          <div class="doc-step-n">02</div>
+          <h3>Data model</h3>
+          <p>Defined before extraction, so that it could guide it. Rather than a new vocabulary, the model combines established ontologies from the cultural heritage and scientific domains, to keep the data interoperable and reusable.</p>
+        </div>
+        <div class="doc-step">
+          <div class="doc-step-n">03</div>
+          <h3>Extraction &amp; reconciliation</h3>
+          <p>An open-weights language model (Gemma 3, 12B), run locally through Ollama, extracted only the entities and relations foreseen by the schema, quoting the supporting passage. Entities were then matched against VIAF, GeoNames, Wikidata and GBIF.</p>
+        </div>
+        <div class="doc-step">
+          <div class="doc-step-n">04</div>
+          <h3>Validation</h3>
+          <p>Every proposed entity was reviewed by the curators in a dedicated web application: accepted, corrected, rejected or added by hand, with duplicates merged. Each correction was classified as invented, wrong name, wrong reference or missing.</p>
+        </div>
+        <div class="doc-step">
+          <div class="doc-step-n">05</div>
+          <h3>Publication</h3>
+          <p>The knowledge graph is released as Linked Open Data in accordance with the FAIR principles, and made explorable through this web application: reading view, entity index, network and map.</p>
+        </div>
+      </div>
+
+      <div class="doc-sub">Data model and provenance</div>
+      <div class="doc-cols">
+        <div>
+          <p>The model is event-centric. Movements and exchanges documented in the letters are represented as events (CIDOC CRM <em>E9 Move</em> and <em>E10 Transfer of Custody</em>), each linked to the object transferred, the persons who relinquished and received it, the places of departure and arrival, and the letter that records it. Since the same entity may take part in events across different letters, these events can be connected into sequences spanning the whole corpus.</p>
+          <p>Identifying an eighteenth-century vernacular name with a modern taxon, or a historical toponym with a present-day place, involves varying degrees of uncertainty. Each identification is therefore recorded as an interpretation attributed to an agent – the language model or a curator – so that the graph distinguishes statements generated by the model and confirmed, statements modified by a curator, and statements added manually. The graph remains auditable and open to revision.</p>
+        </div>
+        <ul class="doc-onto">
+          <li><b>CIDOC CRM</b><span>Reference event-centric ontology for cultural heritage: documents, persons, places, events.</span></li>
+          <li><b>CRMsci</b><span>Extension of CIDOC CRM for scientific observation.</span></li>
+          <li><b>Darwin Core</b><span>Biodiversity standard for organisms, specimens and taxonomic identifications.</span></li>
+          <li><b>Darwin-SW</b><span>Darwin Core terms expressed in RDF.</span></li>
+          <li><b>PROV-O</b><span>W3C ontology for provenance.</span></li>
+          <li><b>HiCO</b><span>Historical Context Ontology, for interpretative acts and the criteria on which they rest.</span></li>
+        </ul>
+      </div>
+
+      <div class="doc-sub">Using this edition</div>
+      <div class="doc-views">
+        <button class="doc-view" onclick="showPage('letters');window.scrollTo(0,0)"><b>Letters</b><span>Read each transcription with the entities it mentions highlighted in the text.</span></button>
+        <button class="doc-view" onclick="showPage('entita');window.scrollTo(0,0)"><b>Entities</b><span>Browse persons, places, organisms and works, with their authority-file identifiers.</span></button>
+        <button class="doc-view" onclick="showPage('network');window.scrollTo(0,0)"><b>Network</b><span>Entities as nodes sized by the number of letters they occur in, linked when they share a letter. An exploratory tool.</span></button>
+        <button class="doc-view" onclick="showPage('map');window.scrollTo(0,0)"><b>Map</b><span>The places mentioned, each linked to its letters and to GeoNames and Wikidata.</span></button>
+      </div>
+
+      <div class="doc-sub">Limitations and ongoing work</div>
+      <div class="doc-cols">
+        <div>
+          <p>The corpus is small and represents only one side of the correspondence: Stancari's replies are not preserved, and some intermediaries involved in the circulation of objects remain unnamed. Validation of entities is complete; the validation of events and transfers is still in progress.</p>
+        </div>
+        <div>
+          <p>The second phase of the project focuses on these events. Its completion will make it possible to reconstruct more fully the circulation of objects and specimens – including, where the evidence permits, the route followed by the chameleons from their place of origin to Padua.</p>
+        </div>
+      </div>
+
+      <div class="doc-sub">Data, code, publication and conference</div>
+      <div class="doc-cols">
+        <div>
+          <p>The complete knowledge graph and the source code are available on GitHub. For the data and their licence, see the GitHub repository.</p>
+          <div class="doc-links">
+            <a href="https://github.com/LuciaGiagnolini12/vallisneri-stancari" target="_blank" rel="noopener">github.com/LuciaGiagnolini12/vallisneri-stancari</a>
+          </div>
+        </div>
+        <div>
+          <p class="doc-cite">Maggiulli, I., &amp; Giagnolini, L. <em>Microscopes, shipwrecks, and chameleon eggs. Reconstructing knowledge networks in 18th-century natural history archives.</em></p>
+          <p style="margin-top:10px">Presented at the <em>ICA/SUV 2026 Annual International Conference – University and Research Institution Archives for the Environment: Imagining Archives of the Natural World</em> (International Council on Archives, Section on University and Research Institution Archives), University of Coimbra, 8–10 September 2026.</p>
+        </div>
+      </div>
+    </section>
   </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-kicker">Project by</div>
+        <div class="footer-credit">Lucia Giagnolini and Ilaria Maggiulli</div>
+        <div class="footer-inst">Archivio Storico dell'Università di Bologna</div>
+      </div>
+      <div class="footer-people">
+        Lucia Giagnolini · Media Studies, University of Amsterdam · <a href="https://orcid.org/0000-0002-4876-2691" target="_blank" rel="noopener">ORCID</a><br>
+        Ilaria Maggiulli · Archivio Storico, Università di Bologna · <a href="https://orcid.org/0000-0002-3027-1034" target="_blank" rel="noopener">ORCID</a><br>
+        Original letters: Archivio Storico dell'Università di Bologna, Carteggio Vallisneri-Stancari
+      </div>
+    </div>
+    <div class="footer-copy">© 2026 Lucia Giagnolini, Ilaria Maggiulli – Archivio Storico dell'Università di Bologna.<br>
+      Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.</div>
+  </footer>
 </div>
 
 <!-- ── LETTERE ── -->
@@ -709,14 +897,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   <div id="network-wrap">
     <div class="net-toolbar">
       <div class="net-filters">
-        <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Type:</span>
-        <button class="net-fbtn on" data-type="all" onclick="netToggleAll('type',this)">All</button>
-        <button class="net-fbtn on" data-type="person" onclick="netToggle('type','person',this)">Persons</button>
-        <button class="net-fbtn on" data-type="place" onclick="netToggle('type','place',this)">Places</button>
-        <button class="net-fbtn on" data-type="organism" onclick="netToggle('type','organism',this)">Observable Entities</button>
-        <button class="net-fbtn on" data-type="text" onclick="netToggle('type','text',this)">Texts</button>
-      </div>
-      <div class="net-filters">
         <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Entity:</span>
         <input id="net-entity-filter" class="net-search" list="net-entity-list"
                placeholder="Type to search…"
@@ -730,6 +910,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
         <span style="font-size:10px;color:var(--faded)">Showing:</span>
         <span style="font-size:11px;font-style:italic;font-family:var(--serif)" id="net-focus-label"></span>
         <span style="font-size:10px;color:var(--faded)">+ <span id="net-focus-count"></span> direct connection(s)</span>
+      </div>
+      <div class="net-filters">
+        <span style="font-size:9px;font-weight:600;color:var(--faded);text-transform:uppercase;letter-spacing:.06em;margin-right:6px">Type:</span>
+        <button class="net-fbtn on" data-type="all" onclick="netToggleAll('type',this)">All</button>
+        <button class="net-fbtn on" data-type="person" onclick="netToggle('type','person',this)">Persons</button>
+        <button class="net-fbtn on" data-type="place" onclick="netToggle('type','place',this)">Places</button>
+        <button class="net-fbtn on" data-type="organism" onclick="netToggle('type','organism',this)">Observable Entities</button>
+        <button class="net-fbtn on" data-type="text" onclick="netToggle('type','text',this)">Texts</button>
       </div>
       <div class="net-filters">
         <input id="net-letter-filter" class="net-search" placeholder="Filter by letter (e.g. 001)…" oninput="netLetterFilter(this.value)">
@@ -779,7 +967,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
   <div id="map-wrap"><div id="map"></div></div>
 </div>
 
-<!-- ── SPARQL ── -->
+<!-- ── SPARQL (temporarily disabled) ──
 <div class="page" id="pg-sparql">
   <div class="sparql-wrap">
     <h2>SPARQL Interface</h2>
@@ -798,6 +986,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
     <div id="sparql-results"></div>
   </div>
 </div>
+-->
 
 <!-- Popup (Attivo solo nel testo delle lettere) -->
 <div class="entity-popup" id="entity-popup">
@@ -857,6 +1046,12 @@ function closeMobilePanels(){
   document.getElementById('letter-panel-scrim').classList.remove('on');
 }
 
+function goToDocs(btn) {
+  showPage('home', btn);
+  if (typeof closeNav === 'function') closeNav();
+  requestAnimationFrame(() => document.getElementById('documentation').scrollIntoView({behavior:'smooth', block:'start'}));
+}
+
 function showPage(id, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('on'));
   document.getElementById('pg-'+id).classList.add('on');
@@ -880,14 +1075,14 @@ function showPage(id, btn) {
 
 function initFromHash() {
   const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','network','timeline','map','sparql'];
+  const valid = ['home','letters','entita','network','timeline','map'];
   if(hash && valid.includes(hash)) showPage(hash);
   else initHome();
 }
 
 window.addEventListener('hashchange', () => {
   const hash = window.location.hash.replace('#','');
-  const valid = ['home','letters','entita','network','timeline','map','sparql'];
+  const valid = ['home','letters','entita','network','timeline','map'];
   if(hash && valid.includes(hash)) showPage(hash);
 });
 
