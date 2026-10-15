@@ -37,7 +37,7 @@
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{height:100%;font-family:var(--sans);background:var(--bg);color:var(--ink);}
 
-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2e8d8;
+nav{position:fixed;top:0;left:0;right:0;z-index:2000;background:#1e1610;color:#f2e8d8;
   display:flex;align-items:center;padding:0 24px;height:52px;gap:0;box-shadow:0 2px 8px rgba(0,0,0,.2);}
 .nav-brand{font-family:var(--serif);font-size:15px;font-style:italic;opacity:.95;margin-right:28px;white-space:nowrap;}
 .nav-links{display:flex;gap:2px;flex:1;}
@@ -53,10 +53,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .nav-hamburger.on span:nth-child(1){transform:translateY(6px) rotate(45deg);}
 .nav-hamburger.on span:nth-child(2){opacity:0;}
 .nav-hamburger.on span:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
-.nav-scrim{display:none;position:fixed;inset:52px 0 0 0;background:rgba(20,14,8,.35);z-index:98;}
+.nav-scrim{display:none;position:fixed;inset:52px 0 0 0;background:rgba(20,14,8,.35);z-index:1990;}
 .nav-scrim.on{display:block;}
 
-.page{display:none;min-height:calc(100vh - 52px);margin-top:52px;}
+.page{display:none;min-height:100vh;padding-top:52px;}
 .page.on{display:block;}
 
 .home-shell{background:
@@ -482,7 +482,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#1e1610;color:#f2
 .tl-ent:hover{filter:brightness(.9);transform:translateY(-1px);}
 .tl-year-marker{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faded);padding:16px 0 8px;border-top:1px solid var(--line);margin-bottom:12px;margin-top:6px;}
 
-#map-wrap{height:calc(100vh - 52px);}
+#map-wrap{height:calc(100vh - 52px);position:relative;z-index:0;isolation:isolate;overflow:hidden;}
 #map{height:100%;width:100%;}
 .sparql-wrap{padding:32px 48px;max-width:960px;}
 .sparql-wrap h2{font-family:var(--serif);font-size:22px;font-weight:400;margin-bottom:8px;color:var(--gold);}
@@ -1053,6 +1053,7 @@ function goToDocs(btn) {
 }
 
 function showPage(id, btn) {
+  window.scrollTo(0,0);
   document.querySelectorAll('.page').forEach(p => p.classList.remove('on'));
   document.getElementById('pg-'+id).classList.add('on');
   document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('on'));
@@ -1069,7 +1070,7 @@ function showPage(id, btn) {
   if(id==='entita') initEntita();
   if(id==='network') initNetwork();
   if(id==='timeline') initTimeline();
-  if(id==='map') initmap();
+  if(id==='map') { if(mapInstance) setTimeout(()=>mapInstance.invalidateSize(),50); else initmap(); }
   if(id==='sparql') initSparql();
 }
 
